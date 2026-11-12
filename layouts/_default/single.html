@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article>
+<h1>{{ .Title }}</h1>
+{{ if .Date }}<p class="meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.updated }} &middot; Updated {{ . }}{{ end }} &middot; {{ .ReadingTime }} min read</p>{{ end }}
+{{ .Content }}
+{{ if eq .Section "blog" }}
+<div class="disclosure"><strong>Affiliate disclosure:</strong> This guide may contain affiliate links. If you book through them, we may earn a small commission at no extra cost to you. It never changes what we recommend.</div>
+{{ end }}
+</article>
+{{ end }}
