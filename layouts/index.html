@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="hero">
+<h1>Seoul, explained by someone who lives there.</h1>
+<p>HoHo Tour is a small, practical travel blog for first-time visitors to Korea. No sponsored fluff, no copied listicles - just itineraries, transport, and food tips we would give a friend landing at Incheon tomorrow.</p>
+<p><a href="/blog/seoul-essential-3-day-guide/">Start with the Seoul Essential 3-Day Guide &rarr;</a></p>
+</div>
+<h2>Latest guides</h2>
+<ul class="post-list">
+{{ range first 10 (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+<li>
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+<p>{{ .Description }}</p>
+<p class="meta">{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
+</li>
+{{ end }}
+</ul>
+<h2>Why trust this blog?</h2>
+<p>We live in Seoul. Every guide is built around places we have actually been, subway lines we actually ride, and prices we checked recently. When we have not been somewhere, we say so. When a link earns us a commission, we say so too - see our <a href="/about/">affiliate disclosure</a>.</p>
+{{ end }}
