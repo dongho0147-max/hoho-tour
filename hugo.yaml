@@ -1,5 +1,5 @@
 baseURL: "https://hoho-tour.com/"
-title: "HoHo Tour"
+title: "HOHO Tour"
 languageCode: "en-US"
 defaultContentLanguage: "en"
 disableKinds:
@@ -9,7 +9,7 @@ disableKinds:
 
 params:
   description: "Practical Seoul and Korea travel guides for first-time visitors, written by a Seoul local. Itineraries, transport, food, and honest tips."
-  author: "HoHo Tour"
+  author: "HOHO Tour"
   # Cloudflare Web Analytics token (from Cloudflare dashboard > Web Analytics).
   # Paste the token here to enable the beacon; leave empty to keep it off.
   cfAnalyticsToken: ""

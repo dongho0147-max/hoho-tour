@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "What data HoHo Tour collects (almost none), how analytics works, and your rights."
+description: "What data HOHO Tour collects (almost none), how analytics works, and your rights."
 date: 2026-11-12
 ---
 

@@ -1,4 +1,4 @@
-# HoHo Tour - hoho-tour.com
+# HOHO Tour - hoho-tour.com
 
 English travel blog for foreigners visiting Korea. Niche: Korea travel for
 first-time visitors, written by a Seoul local. Static site built with

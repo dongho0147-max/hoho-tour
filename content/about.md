@@ -1,12 +1,12 @@
 ---
-title: "About HoHo Tour"
-description: "Who writes HoHo Tour, why it exists, and how affiliate links work here (FTC disclosure)."
+title: "About HOHO Tour"
+description: "Who writes HOHO Tour, why it exists, and how affiliate links work here (FTC disclosure)."
 date: 2026-11-12
 ---
 
 ## Who we are
 
-HoHo Tour is a small travel blog run by a Seoul local. We write practical
+HOHO Tour is a small travel blog run by a Seoul local. We write practical
 guides for people visiting Korea for the first time: how to get from the
 airport, which subway line to take, where to stay, what to eat, and what is
 actually worth your limited days.
@@ -30,7 +30,7 @@ landing at Incheon Airport tomorrow.
 
 ## Affiliate disclosure (FTC)
 
-HoHo Tour participates in affiliate programs, including Travelpayouts. This
+HOHO Tour participates in affiliate programs, including Travelpayouts. This
 means some links on this site - for example links to hotel booking sites,
 tours, or eSIM providers - are affiliate links. If you book or buy through
 one of them, we may earn a small commission at no extra cost to you.
