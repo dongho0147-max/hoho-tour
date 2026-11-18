@@ -40,6 +40,15 @@ would use ourselves, and a commission never changes a price, a rating, or an
 itinerary. If a guide contains affiliate links, it says so at the bottom of
 the page.
 
+## Photo credits
+
+Every photograph on this site is a real photograph, credited to its
+photographer under a Creative Commons license (or a public-domain dedication).
+No AI-generated images are used. The full list, with the source page and
+license for each photo, is in
+[photo credits](/images/photos/CREDITS.md). The two photos whose licenses
+forbid commercial use were not used on this site.
+
 ## Contact
 
 Questions, corrections, or a place you think we got wrong? Open an issue on
