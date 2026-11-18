@@ -13,25 +13,56 @@
 <li>Where locals actually eat</li>
 </ul>
 </div><aside class="index"><h2>Index - what this site is</h2><ol>
-<li><span class="n">01</span><div><a href="/blog/seoul-essential-3-day-guide/">Seoul Essential 3-Day Guide</a><p>Five guides so far: a 3-day plan, the subway and taxis, old markets, an Incheon day trip, and winter. More follow as we photograph each stop ourselves.</p></div></li>
+<li><span class="n">01</span><div><a href="/blog/seoul-essential-3-day-guide/">Seoul Essential 3-Day Guide</a><p>Seven guides so far: a 3-day plan, the subway and taxis, old markets, an Incheon day trip, winter, Busan&rsquo;s soup bowls, and Seoul&rsquo;s old restaurants. More follow as we photograph each stop ourselves.</p></div></li>
 <li><span class="n">02</span><div><a href="/about/">How we write</a><p>We go there first. When we have not been, we say so. Prices are ranges, last checked November 2026.</p></div></li>
-<li><span class="n">03</span><div><a href="/about/">Affiliate disclosure</a><p>Some links may earn a commission at no extra cost to you. It never decides what we recommend.</p></div></li>
+<li><span class="n">03</span><div><a href="/about/">Links to booking sites</a><p>Links to Klook and Agoda are plain links for convenience. We do not earn commission from them. They never decide what we recommend.</p></div></li>
 </ol></aside></div>
 <figure class="hero-photo">
 <img src="/images/photos/seoul-01.webp" alt="Gyeongbokgung Palace Heungnyemun Gate in Seoul in daylight" width="1600" height="648" loading="eager" fetchpriority="high">
 <figcaption>Gyeongbokgung Palace, Seoul. Photo: Basile Morin via Wikimedia Commons (CC BY-SA 4.0).</figcaption>
 </figure>
+<section class="browse" aria-label="Browse guides by place and theme">
+<div class="browse-block">
+<h2>Browse by place</h2>
+<div class="chip-row">
+<a class="chip chip--region" href="/regions/seoul/">Seoul</a>
+<a class="chip chip--region" href="/regions/incheon/">Incheon</a>
+<a class="chip chip--region" href="/regions/busan/">Busan</a>
+{{ with site.GetPage "/regions/gyeonggi-suwon" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Gyeonggi-Suwon</a>{{ end }}
+{{ with site.GetPage "/regions/gangwon" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Gangwon</a>{{ end }}
+<a class="chip chip--region chip--all" href="/regions/">All regions &rarr;</a>
+</div>
+</div>
+<div class="browse-block">
+<h2>Browse by theme</h2>
+<div class="chip-row">
+<a class="chip chip--theme" href="/themes/food-restaurants/">Food &amp; Restaurants</a>
+<a class="chip chip--theme" href="/themes/day-trips/">Day Trips</a>
+<a class="chip chip--theme" href="/themes/transit-tips/">Transit &amp; Tips</a>
+<a class="chip chip--theme" href="/themes/seasonal/">Seasonal</a>
+</div>
+</div>
+</section>
 <section class="latest">
 <h2><span>Fresh off the notebook</span>Latest guides</h2>
 <p class="intro">New guides are added only after we have been there ourselves.</p>
 <ul class="guide">
 {{ range first 10 (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+{{ $p := . }}
 <li><div class="row">
-{{ with .Params.image }}<a class="thumb" href="{{ $.RelPermalink }}"><img src="{{ . }}" alt="{{ $.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ end }}
+{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ end }}
 <div>
 <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
 <p>{{ .Description }}</p>
 <p class="meta">{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
+{{ $regions := .GetTerms "regions" }}
+{{ $themes := .GetTerms "themes" }}
+{{ if or $regions $themes }}
+<p class="term-chips" aria-label="Filed under">
+{{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+{{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+</p>
+{{ end }}
 <a class="readmore" href="{{ .RelPermalink }}">Read the guide &rarr;</a>
 </div></div></li>
 {{ end }}
@@ -39,6 +70,6 @@
 </section>
 <section class="trust"><div class="box">
 <h2>Written by a Seoul local</h2>
-<p>We live in Seoul. Every guide is built around places we have actually been, subway lines we actually ride, and prices we checked recently. When we have not been somewhere, we say so. When a link earns us a commission, we say so too - see our <a href="/about/">affiliate disclosure</a>.</p>
+<p>We live in Seoul. Every guide is built around places we have actually been, subway lines we actually ride, and prices we checked recently. When we have not been somewhere, we say so. Links to booking sites are plain links for convenience; we do not earn commission from them.</p>
 </div></section>
 {{ end }}

@@ -1,0 +1,17 @@
+{{/* collage shortcode: 2-4 positional params, each "src|alt|credit".
+   src may be absolute (/images/...) or relative (images/...).
+   width/height come from the photo's real dimensions in data/photo-dims.yaml. */}}
+{{ $n := len .Params }}
+<div class="collage-grid collage-n{{ $n }}">
+{{ range .Params }}
+{{ $parts := split . "|" }}
+{{ $src := index $parts 0 }}
+{{ if not (hasPrefix $src "/") }}{{ $src = printf "/%s" $src }}{{ end }}
+{{ $alt := "" }}{{ if ge (len $parts) 2 }}{{ $alt = index $parts 1 }}{{ end }}
+{{ $credit := "" }}{{ if ge (len $parts) 3 }}{{ $credit = index $parts 2 }}{{ end }}
+<figure class="collage-item">
+<img src="{{ $src | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" $src | safeHTMLAttr }} loading="lazy">
+{{ with $credit }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{ end }}
+</div>

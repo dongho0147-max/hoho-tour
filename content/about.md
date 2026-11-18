@@ -1,6 +1,6 @@
 ---
 title: "About HOHO Tour"
-description: "Who writes HOHO Tour, why it exists, and how affiliate links work here (FTC disclosure)."
+description: "Who writes HOHO Tour, why it exists, and how links to booking sites work here."
 date: 2026-11-12
 ---
 
@@ -25,20 +25,17 @@ landing at Incheon Airport tomorrow.
   KRW with a rough USD equivalent and the date we last checked. Always
   confirm before you go.
 - **Photos are ours or verified free stock.** We never take photos from
-  other blogs. Some guides are text-only until we can photograph the place
-  ourselves.
+  other blogs. Every photograph on this site is a real photograph, credited
+  to its photographer.
 
-## Affiliate disclosure (FTC)
+## Links to booking sites
 
-HOHO Tour participates in affiliate programs, including Travelpayouts. This
-means some links on this site - for example links to hotel booking sites,
-tours, or eSIM providers - are affiliate links. If you book or buy through
-one of them, we may earn a small commission at no extra cost to you.
+HOHO Tour does not currently use affiliate links. Links on this site to
+booking sites - for example Klook or Agoda - are plain links for
+convenience. If you book through one of them, we do not earn a commission.
 
-Affiliate links never decide what we recommend. We only link to services we
-would use ourselves, and a commission never changes a price, a rating, or an
-itinerary. If a guide contains affiliate links, it says so at the bottom of
-the page.
+Links never decide what we recommend. We only link to services we would
+use ourselves, and a link never changes a price, a rating, or an itinerary.
 
 ## Photo credits
 

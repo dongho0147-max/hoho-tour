@@ -3,9 +3,11 @@ title: "HOHO Tour"
 languageCode: "en-US"
 defaultContentLanguage: "en"
 disableKinds:
-  - taxonomy
-  - term
   - RSS
+
+taxonomies:
+  region: regions
+  theme: themes
 
 params:
   description: "Practical Seoul and Korea travel guides for first-time visitors, written by a Seoul local. Itineraries, transport, food, and honest tips."

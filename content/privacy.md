@@ -18,13 +18,13 @@ does not track you across sites.
 
 If analytics is not yet active on a page, that page simply collects nothing.
 
-## Affiliate links
+## Links to booking sites
 
-Some outgoing links are affiliate links (see our
-[About page](/about/) for the full disclosure). When you click one and make a
-booking, the booking provider may set its own cookies and process your data
-under its own privacy policy. We do not receive your personal information
-from those providers - only an anonymized record that a booking happened.
+Some outgoing links go to booking sites (Klook, Agoda). These are plain
+links, not affiliate links. When you click one, the booking provider may set
+its own cookies and process your data under its own privacy policy. We do not
+receive your personal information from those providers, and we do not earn a
+commission from your booking.
 
 ## Cookies
 

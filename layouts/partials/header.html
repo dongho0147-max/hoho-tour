@@ -1,8 +1,10 @@
 <header class="site"><div class="wrap">
-<a class="brand" href="/"><img src="/images/hoho-tour-symbol.svg" alt="HOHO Tour logo" width="38" height="36">HOHO Tour</a>
+<a class="brand" href="/"><img src="/images/hoho-tour-symbol-final.png" alt="HOHO Tour logo" width="38" height="36">HOHO Tour</a>
 <nav>
 <a href="/"{{ if .IsHome }} aria-current="page"{{ end }}>Home</a>
 <a href="/blog/"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>Guides</a>
+<a href="/regions/"{{ if hasPrefix .RelPermalink "/regions/" }} aria-current="page"{{ end }}>Regions</a>
+<a href="/themes/food-restaurants/"{{ if eq .RelPermalink "/themes/food-restaurants/" }} aria-current="page"{{ end }}>Food</a>
 <a href="/about/">About</a>
 <a href="/privacy/">Privacy</a>
 </nav>

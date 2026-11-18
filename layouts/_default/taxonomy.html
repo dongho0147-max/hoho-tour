@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ with .Data.Terms.Alphabetical }}
+<ul class="term-index">
+{{ range . }}
+<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a> <span class="meta">{{ .Count }} guide{{ if ne .Count 1 }}s{{ end }}</span></li>
+{{ end }}
+</ul>
+{{ else }}
+<p class="intro">No guides filed here yet. Check back soon.</p>
+{{ end }}
+{{ end }}

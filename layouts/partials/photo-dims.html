@@ -1,0 +1,7 @@
+{{/* photo-dims.html: takes an image src path (e.g. "images/photos/seoul-01.webp"
+   or "/images/photos/seoul-01.webp"), renders width/height attributes from
+   data/photo-dims.yaml, or nothing when unknown. Use inline in an <img> tag:
+   <img src="..." alt="..."{{ partial "photo-dims.html" $src }}> */}}
+{{- $key := replace (path.Base .) ".webp" "" -}}
+{{- $d := index (index site.Data "photo-dims") $key -}}
+{{- with $d }} width="{{ .width }}" height="{{ .height }}"{{ end -}}

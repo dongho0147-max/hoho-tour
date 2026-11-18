@@ -2,9 +2,25 @@
 <article>
 <h1>{{ .Title }}</h1>
 {{ if .Date }}<p class="meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.updated }} &middot; Updated {{ . }}{{ end }} &middot; {{ .ReadingTime }} min read</p>{{ end }}
+{{ with .Params.image }}
+{{ $alt := $.Params.image_alt | default $.Title }}
+{{ $credit := $.Params.image_credit | default $.Params.credit }}
+<figure class="hero-figure">
+<img src="{{ . | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager" fetchpriority="high">
+{{ if or $alt $credit }}<figcaption>{{ $alt }}{{ with $credit }} &middot; Photo: {{ . }}{{ end }}</figcaption>{{ end }}
+</figure>
+{{ end }}
 {{ .Content }}
+{{ $regions := .GetTerms "regions" }}
+{{ $themes := .GetTerms "themes" }}
+{{ if or $regions $themes }}
+<p class="term-chips" aria-label="Filed under">
+{{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+{{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+</p>
+{{ end }}
 {{ if eq .Section "blog" }}
-<div class="disclosure"><strong>Affiliate disclosure:</strong> This guide may contain affiliate links. If you book through them, we may earn a small commission at no extra cost to you. It never changes what we recommend.</div>
+<div class="disclosure"><strong>Links:</strong> Some links in this guide go to booking sites (Klook, Agoda). These are plain links for convenience, not affiliate links, and we do not earn commission from them. They never change what we recommend.</div>
 {{ end }}
 </article>
 {{ end }}

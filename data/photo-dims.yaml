@@ -1,0 +1,118 @@
+# Real pixel dimensions of every photo in static/images/photos/.
+# Generated from the files themselves - do not hand-edit.
+# Used by layouts/partials/photo-dims.html so every <img> gets width/height.
+
+seoul-01:
+  width: 1600
+  height: 648
+seoul-02:
+  width: 1600
+  height: 1025
+seoul-03:
+  width: 1600
+  height: 1067
+seoul-04:
+  width: 1600
+  height: 1067
+seoul-05:
+  width: 1600
+  height: 900
+seoul-06:
+  width: 1600
+  height: 1064
+seoul-07:
+  width: 1600
+  height: 1200
+seoul-08:
+  width: 1600
+  height: 1200
+seoul-09:
+  width: 1600
+  height: 1200
+seoul-10:
+  width: 1600
+  height: 1067
+seoul-11:
+  width: 1600
+  height: 1065
+seoul-12:
+  width: 1600
+  height: 1067
+seoul-13:
+  width: 1600
+  height: 1067
+seoul-14:
+  width: 1600
+  height: 1089
+seoul-15:
+  width: 1600
+  height: 675
+seoul-16:
+  width: 900
+  height: 1600
+seoul-17:
+  width: 1600
+  height: 1062
+seoul-18:
+  width: 1024
+  height: 622
+seoul-19:
+  width: 1024
+  height: 768
+seoul-20:
+  width: 1600
+  height: 1200
+seoul-21:
+  width: 1600
+  height: 899
+seoul-22:
+  width: 1024
+  height: 628
+seoul-23:
+  width: 1024
+  height: 768
+seoul-24:
+  width: 1600
+  height: 1200
+seoul-25:
+  width: 1024
+  height: 472
+seoul-26:
+  width: 1600
+  height: 1012
+seoul-27:
+  width: 1200
+  height: 1600
+seoul-28:
+  width: 1600
+  height: 1067
+seoul-29:
+  width: 1600
+  height: 1067
+seoul-30:
+  width: 1600
+  height: 1000
+seoul-31:
+  width: 1600
+  height: 1067
+seoul-32:
+  width: 1600
+  height: 1200
+seoul-33:
+  width: 1600
+  height: 1600
+seoul-34:
+  width: 1600
+  height: 1200
+seoul-35:
+  width: 1600
+  height: 1067
+seoul-36:
+  width: 1600
+  height: 778
+seoul-37:
+  width: 960
+  height: 720
+seoul-38:
+  width: 1600
+  height: 1067

@@ -1,8 +1,8 @@
 # Photo Credits - HOHO Tour
 
-All 26 photos in `static/images/photos/` are real photographs (no AI-generated images).
-Topics below describe the actual verified content of each file (checked by opening each file on 2026-11-18).
-Long edge is 1600px for 21 photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept at their original resolution (1024px or less) with no upscaling. Every file is WebP and under 250 KB.
+All 38 photos in `static/images/photos/` are real photographs (no AI-generated images).
+Topics below describe the actual verified content of each file (seoul-01 to seoul-26 checked by opening each file on 2026-11-18; seoul-27 to seoul-38 checked the same way on 2026-11-18).
+Long edge is 1600px for 32 photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept at their original resolution (1024px or less) with no upscaling, and seoul-37 is kept at 960px (its 1600px original was blocked by a Wikimedia HTTP 429 rate limit at fetch time - re-fetch at 1600px when the limit clears). Every file is WebP and under 250 KB.
 
 | File | Subject (verified) | Size | Author | License | Source |
 |---|---|---|---|---|---|
@@ -32,5 +32,17 @@ Long edge is 1600px for 21 photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept 
 | seoul-24.webp | Jeonju Hanok Village, rooftops and street, daytime | 1600x1200, 243 KB | Jjw | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:20240727_Jeonju_Hanok_Village_001.jpg |
 | seoul-25.webp | Han River night skyline, apartment towers reflected in the river | 1024x472, 39 KB | valeuf | CC BY (version not stated in source metadata) | https://www.flickr.com/photos/70829855@N00/6792039010 |
 | seoul-26.webp | Buk (traditional drum) at Gyeongbokgung, hanbok wearers at the edges (NOT a hanbok portrait) | 1600x1012, 173 KB | IssamBarhoumi | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Buk_a_Korean_Traditional_Drum.jpg |
+| seoul-27.webp | Incheon Chinatown main street, crowded with shoppers in winter coats, red shopfronts and lanterns | 1200x1600, 224 KB | AhmadElq | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Chinatown,_Incheon_04.jpg |
+| seoul-28.webp | View from Jayu Park, Incheon, over trees to the harbor with cranes, ships and the sea | 1600x1067, 235 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jayu_Park_20230430_022.jpg |
+| seoul-29.webp | Wolmi Sea Train (blue and orange monorail car) on the elevated track over the sea at Wolmido, Incheon | 1600x1067, 216 KB | Trainholic | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Wolmi_Sea_Train_Car.jpg |
+| seoul-30.webp | Gamcheon Culture Village, Busan, colorful hillside houses at sunset | 1600x1000, 235 KB | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Colorful_houses_in_Gamcheon_Culture_Village_at_sunset_in_Busan_South_Korea.jpg |
+| seoul-31.webp | Haeundae Beach, Busan, wide sand beach with promenade and seafront towers | 1600x1067, 156 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Haeundae_Beach_20200522_005.jpg |
+| seoul-32.webp | Dwaeji-gukbap (Busan pork soup with rice) in a black bowl topped with garlic chives, with kimchi and kkakdugi banchan | 1600x1200, 207 KB | chomjong | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Dwaeji-gukbap_1.jpg |
+| seoul-33.webp | Bindaetteok (mung bean pancake) with pork pieces, whole pancake on a white plate | 1600x1600, 234 KB | chomjong | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Bindae-tteok_1.jpg |
+| seoul-34.webp | Samgyeopsal (grilled pork belly) slices and kimchi on a grill | 1600x1200, 238 KB | moso | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Korean_Barbecue-Samgyeopsal-01.jpg |
+| seoul-35.webp | Bibimbap in a bowl, rice topped with carrot, mushroom, zucchini, egg strips, meat and gochujang | 1600x1067, 220 KB | Chloe Lim | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Bibimbap_6.jpg |
+| seoul-36.webp | Seolleongtang (ox bone soup), milky broth in a black bowl, spoon lifting sliced beef with scallions, kimchi behind | 1600x778, 87 KB | 이동원 | CC0 | https://commons.wikimedia.org/wiki/File:Seolleongtang.jpg |
+| seoul-37.webp | Samgyetang (chicken ginseng soup) in a stone pot, whole chicken in bubbling broth with scallions, kkakdugi beside | 960x720, 102 KB | karendotcom127 | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Korean_soup-Samgyetang-08.jpg |
+| seoul-38.webp | Busan milmyeon in a metal bowl, wheat noodles in clear broth with egg, shredded egg garnish, red paste and cucumber | 1600x1067, 123 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Busan_Milmyeon_20200522_001.jpg |
 
 Note: seoul-19 is CC BY-NC-SA and seoul-20 is CC BY-NC-ND, which restrict commercial use and (for ND) derivatives - please confirm they fit the site's use. seoul-15 is under KOGL Type 1.

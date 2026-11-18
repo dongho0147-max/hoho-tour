@@ -2,11 +2,15 @@
 title: "Seoul in Late November and December: How Winter Actually Feels, and How to Dress for It"
 description: "A Seoul local's honest guide to winter in the city: what the cold really feels like, the layers that actually work, ondol floors, night walks, and the places that are better in December."
 date: 2026-11-17
-image: "/images/photos/seoul-25.webp"
-image_alt: "The Han River at night with city lights reflected on the water"
+image: "images/photos/seoul-15.webp"
+image_alt: "Hyangwonjeong Pavilion at Gyeongbokgung in snow"
+regions: ["seoul"]
+themes: ["seasonal"]
 ---
 
-The first winter I spent in Seoul, I made the classic mistake. I looked at the forecast, saw a high of 3 degrees, and thought I understood it. I had survived colder numbers before. What I had not understood is that Seoul's cold is not a number. It is a wind that comes down off the mountains and finds every gap in your clothing, and it is a city that is gloriously warm indoors and sharply cold outdoors, so you spend the whole day crossing the border between the two. By the end of my first December week here, I had bought a longer coat, a scarf, and a pack of hand warmers, and I had learned the lesson that every Seoul winter teaches eventually: the cold is not the problem. Being underdressed for it is.
+The first winter I spent in Seoul, I made the classic mistake. I looked at the forecast, saw a high of 3 degrees, and thought I understood it. I had survived colder numbers before. What I had not understood is that Seoul's cold is not a number. It is a wind that comes down off the mountains and finds every gap in your clothing, and it is a city that is gloriously warm indoors and sharply cold outdoors, so you spend the whole day crossing the border between the two.
+
+By the end of my first December week here, I had bought a longer coat, a scarf, and a pack of hand warmers, and I had learned the lesson that every Seoul winter teaches eventually: the cold is not the problem. Being underdressed for it is.
 
 Late November and December are, in my honest opinion, one of the best times to visit this city. The autumn crowds are gone, the air is clear enough to see the mountains from downtown, the Christmas lights go up, and the city takes on a crisp, bright quality that summer never has. But winter here asks something of you. It asks you to dress properly, to plan your days around warmth, and to respect the dark, because the sun sets around five in the afternoon and the city belongs to the night for a long time after that. This guide is everything I wish someone had told me before my first Seoul winter.
 
@@ -18,6 +22,7 @@ The other thing the numbers leave out is how dry the cold is. Seoul winter air i
 
 Snow is the question everyone asks, and the honest answer is that it snows, but not much, and not reliably. Seoul gets a handful of snowfalls each winter, usually light ones that melt within a day or two, and a big snowfall is an event the whole city talks about. Do not plan your trip around snow. Plan it around the cold, and treat snow as a gift if it comes. When it does come, the palaces are the first place you should go, because the tiled roofs and the stone walls under a dusting of snow are the most beautiful thing in this city, and the crowds are nowhere to be seen.
 
+{{< figure src="images/photos/seoul-22.webp" alt="Changdeokgung Injeongjeon Hall in daytime" caption="Changdeokgung Injeongjeon Hall on a clear day. After snow, the palace roofs are the best sight in the city. Photo: Koshyk, CC BY" >}}
 
 ## Dressing for it, the way locals do
 
@@ -33,15 +38,19 @@ Winter changes how you use the city, and once you accept that, the season become
 
 Take the river at night. In summer, the Han River is for picnics and bicycles. In winter, it is for standing on a bridge and watching the city lights double themselves on black water, with almost nobody else around. The cold keeps the crowds away, and the view is yours. Dress for ten minutes of standing still, which is colder than ten minutes of walking, and then go somewhere warm for dinner. The contrast is the pleasure. Cold air, warm room, hot food. That is the rhythm of a Seoul winter, and it is a good one.
 
-{{< figure src="/images/photos/seoul-25.webp" alt="The Han River at night with city lights reflected on the water" caption="The Han River on a winter night, with the city lights doubled on the water. Photo: valeuf via Flickr (CC BY)" width="1024" height="472" loading="lazy" >}}
+{{< collage "images/photos/seoul-04.webp|Han River at night with rental bicycles|TurnOnTheNight, CC BY-SA 4.0" "images/photos/seoul-25.webp|Han River night skyline|valeuf, CC BY" >}}
 
 The tower is another winter place. N Seoul Tower on its hill is cold and windy at dusk, and that is exactly when you should go, because the city lights come on while you are standing there, and the whole basin turns gold below you. Go for the sunset, stay for the first hour of dark, and then take the cable car or the bus back down and find a warm restaurant. The observatory ticket runs around 20,000 KRW, but the outdoor terrace and the plaza are free, and on a clear winter night the free view is nearly as good as the paid one. Check the wind before you go. If it is howling, pick another evening.
 
-{{< figure src="/images/photos/seoul-16.webp" alt="N Seoul Tower seen from a street in Itaewon in daylight, beside a wall mural of two hugging figures" caption="N Seoul Tower from Itaewon in daylight. Photo: Devianagloria via Wikimedia Commons (CC BY-SA 4.0)" width="900" height="1600" loading="lazy" >}}
+If you want the observatory ticket sorted ahead, it is easy to book before you go up the hill.
+
+{{< aff href="https://www.klook.com/en-US/search/?query=n+seoul+tower+observatory" text="Book N Seoul Tower observatory tickets on Klook" >}}
+
+{{< figure src="images/photos/seoul-16.webp" alt="N Seoul Tower seen from a street below in daytime" caption="N Seoul Tower from a street below. At dusk the whole basin turns gold. Photo: Devianagloria, CC BY-SA 4.0" >}}
 
 Downtown has its own winter pleasures. Dongdaemun Design Plaza, the curved silver building in the east of the city, looks like a spaceship at night, and the plaza around it hosts a Christmas market and light displays in December. It is free to walk around, it is open late, and it is the kind of place that is better in the dark than in the day. Go after dinner, when the lights are on and the air is sharp, and give yourself half an hour of just looking.
 
-{{< figure src="/images/photos/seoul-23.webp" alt="The curved metal form of Dongdaemun Design Plaza at night, in black and white" caption="Dongdaemun Design Plaza at night, when the curves catch the light. Photo: anokarina via Flickr (CC BY-SA)" width="1024" height="768" loading="lazy" >}}
+{{< figure src="images/photos/seoul-23.webp" alt="Dongdaemun Design Plaza at night, black and white" caption="Dongdaemun Design Plaza at night, when the curves catch the light. Photo: anokarina, CC BY-SA" >}}
 
 ## Warmth is a strategy
 
@@ -49,13 +58,24 @@ The most important winter skill in Seoul is knowing where warmth lives. The subw
 
 The floors are the secret weapon. Korean homes, hotels, and many restaurants are heated from below, with ondol floor heating, and the first time you step onto a warm floor in socks after a cold walk outside, you will understand why Koreans take their shoes off indoors with such enthusiasm. Sit on the floor in a traditional restaurant, let the heat come up through you, and order something steaming. A hot bowl of noodles or a bubbling stew is not just dinner in winter. It is the whole point of the day. My winter market mornings run on exactly this logic, and my guide to [a slow food walk through the old markets](/blog/seoul-market-food-walk/) is built around it: walk the cold aisles, then eat something hot, then walk some more.
 
-If you are still choosing where to stay, this is the season when location matters most. A hotel or guesthouse within a few minutes of a subway station is worth more in December than in any other month, because every minute of cold walking is a minute you feel. You can compare hotels near central subway stations on Agoda (affiliate link) and filter for the ones closest to the station, which is a small detail that pays off three times a day. And when you are moving around the city, the subway is your heated corridor between neighborhoods, so it is worth knowing how it works before the cold hits. My guide to [the subway, the T-money card, and taxis](/blog/seoul-subway-tmoney-taxi/) covers the card, the transfers, and the last train, which matters more in winter, when a missed last train means a cold taxi ride instead of a warm walk home.
+If you are still choosing where to stay, this is the season when location matters most. A hotel or guesthouse within a few minutes of a subway station is worth more in December than in any other month, because every minute of cold walking is a minute you feel. You can compare hotels near central subway stations and filter for the ones closest to the station, which is a small detail that pays off three times a day.
+
+{{< aff href="https://www.agoda.com/city/seoul-kr.html" text="Compare Seoul hotels on Agoda" >}}
+
+And when you are moving around the city, the subway is your heated corridor between neighborhoods, so it is worth knowing how it works before the cold hits. My guide to [the subway, the T-money card, and taxis](/blog/seoul-subway-tmoney-taxi/) covers the card, the transfers, and the last train, which matters more in winter, when a missed last train means a cold taxi ride instead of a warm walk home.
+
+## Where to eat when it is cold
+
+Three things that work in December, all tested on cold nights.
+
+- **Knife-cut noodles at Gwangjang Market.** The hot bowl that finishes a cold market morning. With a pancake and a tray of gimbap, the whole breakfast lands around 10,000-20,000 KRW per person. Cash helps.
+- **Korean BBQ for dinner.** Expect 15,000-30,000 KRW per person. The grill heats the table, the room is warm, and nobody is in a hurry to leave.
+- **A cafe window seat with hot yuja tea.** No price worth quoting, because it varies by cafe. The point is the hour: hot drink, heated floor, cold going by outside.
 
 ## A few last things, learned the hard way
 
-The air gets dry enough that your skin will crack if you ignore it, so bring moisturizer or buy some here on your first day. The sun sets early, so plan your outdoor sightseeing for the morning and your evenings for food, lights, and views. The ice rinks open in December, including the one at Seoul Plaza in front of City Hall, which is usually up from early December into February, and skating outdoors in the middle of the city is exactly as fun as it sounds, but check the dates before you go, because the opening depends on the weather. And if you are here for Christmas or New Year, expect lights and crowds and a city that celebrates loudly, but do not expect a white Christmas. Seoul rarely delivers one, and the holiday here is festive without being snowy.
+The air gets dry enough that your skin will crack if you ignore it, so bring moisturizer or buy some here on your first day. The sun sets early, so plan your outdoor sightseeing for the morning and your evenings for food, lights, and views. The ice rinks open in December, including the one at Seoul Plaza in front of City Hall, which is usually up from early December into February, and skating outdoors in the middle of the city is exactly as fun as it sounds, but check the dates before you go, because the opening depends on the weather.
 
-Winter in Seoul is not a season to endure. It is a season with its own logic, its own light, and its own pleasures, and it rewards the people who dress for it and plan around it. The palaces are empty, the river is quiet, the tower is lit, and the food is hot. Bring the long coat, buy the hand warmers, and go outside. If you want the rest of the trip around this season, my [Seoul Essential 3-Day Guide](/blog/seoul-essential-3-day-guide/) lays out the sightseeing, and this guide is the coat you wear over it.
+And if you are here for Christmas or New Year, expect lights and crowds and a city that celebrates loudly, but do not expect a white Christmas. Seoul rarely delivers one, and the holiday here is festive without being snowy. Bring the long coat, buy the hand warmers, and go outside. If you want the rest of the trip around this season, my [Seoul Essential 3-Day Guide](/blog/seoul-essential-3-day-guide/) lays out the sightseeing, and this guide is the coat you wear over it.
 
 *Temperatures and prices are approximate ranges, last checked November 2026. Winter event dates and rink opening times change with the weather, so confirm them before you go.*
-

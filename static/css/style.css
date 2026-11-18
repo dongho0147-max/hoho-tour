@@ -149,3 +149,63 @@ footer.site .foot-brand{color:var(--cream);font-weight:700;font-size:15px}
   html{scroll-behavior:auto}
   *{transition:none!important;animation:none!important}
 }
+
+/* Home browse band - region and theme chips under the hero photo */
+.browse{background:var(--cream);border:1px solid var(--border);border-top:5px solid var(--accent);
+  border-radius:var(--radius-lg);padding:28px 32px;margin:0 0 64px;box-shadow:var(--shadow-md)}
+.browse-block + .browse-block{margin-top:20px;padding-top:20px;border-top:1px dashed var(--border)}
+.browse h2{font-size:22px;margin:0 0 12px}
+.chip-row{display:flex;gap:8px;flex-wrap:wrap;margin:0;padding:0;list-style:none}
+.chip{display:inline-block;text-decoration:none;font-size:14px;font-weight:700;line-height:1.3;
+  padding:8px 16px;border-radius:999px;min-height:36px;transition:background var(--dur-fast) var(--ease-gentle),color var(--dur-fast) var(--ease-gentle)}
+.chip--region{background:var(--surface-raised);color:var(--accent);border:1.5px solid var(--accent)}
+.chip--region:hover{background:var(--accent);color:var(--text-on-accent)}
+.chip--theme{background:var(--navy);color:var(--cream);border:1.5px solid var(--navy)}
+.chip--theme:hover{background:var(--accent);border-color:var(--accent);color:var(--text-on-accent)}
+.chip--all{border-style:dashed}
+
+/* Small region/theme chips on guide rows and single pages */
+.term-chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 0}
+.term-chips .chip{font-size:12px;padding:4px 10px;min-height:28px}
+
+/* Single post hero figure (frontmatter image) */
+.hero-figure{margin:0 0 1.6em;max-width:100%}
+.hero-figure img{width:100%;border-radius:var(--radius-md)}
+.hero-figure figcaption{font-size:13px;color:var(--text-secondary);text-align:center;margin-top:8px}
+
+/* figure shortcode */
+.shortcode-figure{margin:1.6em 0}
+.shortcode-figure img{width:100%;border-radius:var(--radius-md)}
+.shortcode-figure figcaption{font-size:13px;color:var(--text-secondary);text-align:center;margin-top:8px}
+
+/* Collage grid - 2 columns on mobile, up to 4 on desktop by item count */
+.collage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:1.6em 0;min-width:0}
+.collage-item{margin:0;min-width:0}
+.collage-item img{width:100%;height:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius-md)}
+.collage-item figcaption{font-size:12px;color:var(--text-secondary);text-align:center;margin-top:6px}
+@media(min-width:900px){
+  .collage-n1{grid-template-columns:minmax(0,1fr)}
+  .collage-n2{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .collage-n3{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .collage-n4{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+
+/* Taxonomy term index (/regions/, /themes/) */
+.term-index{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}
+.term-index li{background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-md);
+  padding:16px 20px;box-shadow:var(--shadow-sm)}
+.term-index li:hover{border-color:var(--accent)}
+.term-index a{font-family:"Fraunces",Georgia,serif;font-size:20px;font-weight:600;text-decoration:none;color:var(--text-primary)}
+.term-index a:hover{color:var(--accent)}
+.term-index .meta{margin-left:8px}
+
+/* Affiliate CTA box under a subheading (kept from v1.0, now also usable in prose) */
+.affiliate-cta h2,.affiliate-cta h3{margin-top:0}
+
+/* No horizontal overflow from chips or collage grids */
+html,body{overflow-x:hidden}
+@media(max-width:640px){
+  .browse{padding:20px;margin-bottom:48px}
+  .browse h2{font-size:19px}
+  .chip{font-size:13px;padding:7px 13px}
+}
