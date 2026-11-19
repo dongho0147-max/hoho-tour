@@ -242,9 +242,15 @@ gangneung-one-night-ktx-coffee-gyeongpo-map:
   height: 840
 
 # GPT illustrations (2026-11-19, coordinator) - home banner + hub mood images
-home-banner:
-  width: 1600
-  height: 533
+# 2026-11-19 hero revamp: home-banner.webp (1600x533, one image for all
+# widths, "Seoul / Korea" pills baked into the art) is retired. Replaced by
+# separate desktop / mobile banners, no text baked into the art at all.
+home-banner-desktop:
+  width: 1920
+  height: 820
+home-banner-mobile:
+  width: 1080
+  height: 1200
 seoul-mood:
   width: 1600
   height: 1067

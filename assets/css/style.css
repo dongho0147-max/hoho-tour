@@ -59,17 +59,53 @@ header.site nav a[aria-current="page"]{color:var(--text-on-accent);background:va
 
 main{padding:0 0 56px}
 
-/* Hero - big real photo, white card overlapping the bottom */
+/* Hero - responsive banner (2026-11-19 revamp).
+   Fixed-px photo height + overlapping white card are gone. The <picture> is
+   an aspect-ratio container that always matches the served image, so cover
+   crop is ~0%: mobile serves the 9:10 portrait (1080x1200), desktop the
+   1920x820 landscape (see layouts/index.html <picture>). Photo corners are
+   rounded on all four sides and never covered - the text card sits below the
+   photo on <1024px, and floats inside the photo safe zone (left 10% /
+   bottom 12% / right 10% / top 12%) on >=1024px. Text budget: h1 max 2
+   lines, lede clamped to 1 line on mobile / 2 lines above, each CTA button
+   one line. */
 .hero{margin:0 0 40px}
 .hero-photo{position:relative;margin:0}
-.hero-photo img{width:100%;height:300px;object-fit:cover;border-radius:0 0 var(--radius-lg) var(--radius-lg)}
-.hero-credit{font-size:12px;color:var(--text-muted);text-align:right;margin:12px 12px 0}
-.hero-card{background:var(--surface-raised);border:1px solid var(--border-soft);
-  border-radius:var(--radius-lg);box-shadow:var(--shadow-md);
-  padding:24px 22px;margin:-64px 12px 0;position:relative}
-.hero-card h1{font-size:32px;line-height:1.15;margin:0 0 12px}
-.hero-card h1 .hl-coral{color:var(--coral)}
-.hero-card h1 .hl-sky{color:var(--sky)}
+/* The aspect-ratio + rounded clip live on <picture>, NOT on the figure: the
+   figure also holds the text card below the photo on <1024px, and an
+   aspect-ratio + overflow:hidden figure would clip that card invisible
+   (caught by the 390px screenshot check). */
+.hero-photo picture{display:block;overflow:hidden;border-radius:var(--radius-lg);
+  aspect-ratio:9/10}
+.hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-overlay{background:var(--surface-raised);border:1px solid var(--border-soft);
+  border-radius:var(--radius-md);box-shadow:var(--shadow-md);
+  padding:20px 16px;margin:12px 0 0}
+.hero-overlay h1{font-size:clamp(19px,5.5vw,22px);line-height:1.2;margin:0 0 10px;text-wrap:balance}
+.hero-overlay h1 .hl-coral{color:var(--coral)}
+.hero-overlay h1 .hl-sky{color:var(--sky)}
+.hero .lede{font-size:16px;color:var(--text-secondary);margin:0 0 16px;
+  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.hero .cta{display:flex;flex-direction:column;gap:10px;margin:0}
+.hero .cta .btn{text-align:center;white-space:nowrap;font-size:14px;padding:12px 16px}
+/* Tablet 768-1023px: landscape photo on top, text card below (the photo is
+   too short for a readable overlay here). */
+@media(min-width:768px){
+  .hero-photo picture{aspect-ratio:1920/820}
+  .hero-overlay{padding:28px 32px}
+  .hero-overlay h1{font-size:32px}
+  .hero .lede{-webkit-line-clamp:2;font-size:17px}
+  .hero .cta{flex-direction:row;flex-wrap:wrap}
+  .hero .cta .btn{font-size:15px;padding:12px 20px}
+}
+/* Desktop >=1024px: wide translucent card overlaid inside the safe zone. */
+@media(min-width:1024px){
+  .hero-overlay{position:absolute;left:10%;bottom:12%;width:min(640px,68%);
+    margin:0;padding:24px 28px;background:rgba(255,255,255,.93);
+    border-radius:var(--radius-lg)}
+  .hero-overlay h1{font-size:42px}
+  .hero .lede{font-size:17px}
+}
 .lede{font-size:16px;color:var(--text-secondary);margin:0 0 20px;max-width:56ch}
 .cta{display:flex;gap:10px;flex-wrap:wrap;margin:0}
 .btn{display:inline-block;text-decoration:none;font-weight:800;font-size:15px;line-height:1.3;
@@ -262,10 +298,6 @@ html,body{overflow-x:clip}
 /* Tablet: 2-col card grid, taller hero */
 @media(min-width:700px){
   .wrap{padding:0 24px}
-  .hero-photo img{height:420px}
-  .hero-card{padding:32px 32px;margin:-72px 24px 0}
-  .hero-card h1{font-size:44px}
-  .lede{font-size:18px}
   .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
   .term-index{grid-template-columns:repeat(2,minmax(0,1fr))}
   .collage-n1{grid-template-columns:minmax(0,1fr)}
@@ -276,8 +308,6 @@ html,body{overflow-x:clip}
 
 /* Desktop: 3-col card grid */
 @media(min-width:1024px){
-  .hero-photo img{height:480px}
-  .hero-card h1{font-size:52px}
   .cards{grid-template-columns:repeat(3,minmax(0,1fr))}
   .term-index{grid-template-columns:repeat(3,minmax(0,1fr))}
   .page-head h1{font-size:40px}

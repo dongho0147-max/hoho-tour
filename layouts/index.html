@@ -7,11 +7,17 @@
 {{ if eq (len $pages) 0 }}{{ $pages = where $enSite.RegularPages "Section" "blog" }}{{ end }}
 {{ $country := site.Data.regions.country.slug | default "korea" }}
 <section class="hero" aria-label="Welcome to HOHO Tour">
-{{ $useBanner := fileExists "static/images/banner/home-banner.webp" }}
+{{/* Responsive hero banner (2026-11-19 revamp): <picture> serves a portrait
+   banner on mobile and a landscape banner on desktop, each 1x/2x. The
+   container aspect-ratio always matches the served image, so cover crop is
+   ~0%. Images carry no text, logo, border or sign - all text is HTML. */}}
 <figure class="hero-photo">
-{{ if $useBanner }}<img src="/images/banner/home-banner.webp" alt="HOHO Tour Korea travel guides banner"{{ partial "photo-dims.html" "images/banner/home-banner.webp" | safeHTMLAttr }} loading="eager" fetchpriority="high">{{ else }}<img src="/images/banner/banner-hero.webp" alt="Bukchon Hanok Village in Seoul at blue hour, traditional Korean houses along a quiet street" width="1600" height="1067" loading="eager" fetchpriority="high">{{ end }}
-</figure>
-<div class="hero-card">
+<picture>
+<source media="(max-width: 767px)" srcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x">
+<source media="(min-width: 768px)" srcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x">
+<img src="/images/banner/home-banner-desktop.webp" alt="HOHO Tour Korea travel guides banner" width="1920" height="820" loading="eager" fetchpriority="high">
+</picture>
+<div class="hero-overlay">
 <p class="eyebrow">{{ i18n "heroEyebrow" | safeHTML }}</p>
 <h1>{{ i18n "heroTitle" | safeHTML }}</h1>
 <p class="lede">{{ i18n "heroLede" }}</p>
@@ -20,7 +26,7 @@
 <a class="btn btn-secondary" href="{{ "/blog/" | relLangURL }}">{{ i18n "heroCtaSecondary" }}</a>
 </p>
 </div>
-{{ if not $useBanner }}<p class="hero-credit">Bukchon Hanok Village, Seoul. Photo: Basile Morin via Wikimedia Commons (CC BY-SA 4.0).</p>{{ end }}
+</figure>
 </section>
 {{ partial "home-map.html" . }}
 <section class="browse" aria-label="Browse guides by place and theme">

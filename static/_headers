@@ -1,0 +1,13 @@
+# HOHO Tour cache policy (Cloudflare Pages, 2026-11-19 hero revamp).
+# Fingerprinted CSS/JS carry a content hash in the URL, so they can be cached
+# immutably. HTML must always revalidate: the old unversioned /css/style.css
+# stayed cached for hours after the 16:20 deploy and the new hero markup
+# rendered with old styles ("banner looks like broken plain text"). With HTML
+# no-cache + fingerprinted CSS, a deploy can never show a stale hero again.
+# Rules are first-match-wins: specific asset rules come before the catch-all.
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+/*
+  Cache-Control: no-cache
