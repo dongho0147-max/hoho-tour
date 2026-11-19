@@ -110,7 +110,7 @@ main{padding:0 0 56px}
   display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .hero .cta{display:flex;flex-direction:column;gap:10px;margin:0}
 .hero .cta .btn{text-align:center;white-space:nowrap;font-size:14px;padding:12px 16px}
-/* 640-1023px: landscape photo on top, text card below (the photo is
+/* 600-1023px: landscape photo on top, text card below (the photo is
    too short for a readable overlay here).
    Breakpoint moved 768 -> 640 in motion 2026-11-19 (20절): the 640-767 band
    served the 9:10 portrait, whose photo ran 667-799px tall and pushed the
@@ -118,8 +118,13 @@ main{padding:0 0 56px}
    From 640px the landscape banner (1920/820) is served instead, so the
    photo is ~260-310px and the card top is in the first screen, with cover
    crop still ~0%. The <picture> media queries and the preloads in baseof
-   move with this breakpoint. Below 640px the portrait banner stays. */
-@media(min-width:640px){
+   move with this breakpoint. Below 640px the portrait banner stays.
+   Breakpoint moved 640 -> 600 in 2026-11-19 (21절): the 600-639 band had
+   the same defect (photo 622-666px, card top 776-819px, card only a sliver
+   in the first screen). From 600px the landscape banner is served; the
+   600-639 photo is ~240-260px and the card top lands ~400px. Below 600px
+   the portrait banner stays. */
+@media(min-width:600px){
   .hero-photo picture{aspect-ratio:1920/820}
   .hero-overlay{padding:28px 32px}
   .hero-overlay h1{font-size:32px}
@@ -328,17 +333,22 @@ html,body{overflow-x:clip}
    html.js so no-JS (or a JS failure) never leaves content invisible.
    Scope: section titles, guide cards, home map section, tour-summary.
    land-book.com hero/grid rhythm: sections arrive in sequence instead of
-   all at once. */
-html.js .reveal{opacity:0;transform:translateY(14px);
+   all at once.
+   21절 fix: the hiding rules used .reveal (a class no element has) while
+   motion.js adds .is-visible to [data-reveal] - the reveal was visually
+   0% (all targets opacity 1 at load, caught only by live review).
+   Selectors now match the JS: html.js [data-reveal] /
+   [data-reveal].is-visible. */
+html.js [data-reveal]{opacity:0;transform:translateY(14px);
   transition:opacity var(--dur-slow) var(--ease-out),transform var(--dur-slow) var(--ease-out);
   transition-delay:var(--reveal-delay,0ms)}
-html.js .reveal.is-visible{opacity:1;transform:none}
+html.js [data-reveal].is-visible{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *{transition:none!important;animation:none!important}
   /* Reveal targets show immediately: without this, an element below the
      fold would sit at opacity:0 until the observer fires. */
-  .reveal{opacity:1!important;transform:none!important}
+  [data-reveal]{opacity:1!important;transform:none!important}
   /* Semo stickers: show the still PNG instead of the animated WebP. */
   .sticker img.sticker-anim{display:none}
   figure.sticker img.sticker-still{display:block}

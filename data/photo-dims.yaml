@@ -466,3 +466,39 @@ gyeongju-night-06:
 incheon-01:
   width: 1600
   height: 1200
+daegu-01:
+  width: 1200
+  height: 1600
+daegu-02:
+  width: 1600
+  height: 900
+daegu-03:
+  width: 1600
+  height: 900
+gwangju-01:
+  width: 1600
+  height: 1200
+gwangju-02:
+  width: 1600
+  height: 1064
+gwangju-03:
+  width: 1600
+  height: 763
+daegu-one-day-ktx-modern-alley-seomun-market-map:
+  width: 1600
+  height: 840
+daegu-one-day-ktx-modern-alley-seomun-market.kr-map:
+  width: 1600
+  height: 840
+gwangju-one-day-ktx-songjeong-yangnim-mudeungsan-map:
+  width: 1600
+  height: 840
+gwangju-one-day-ktx-songjeong-yangnim-mudeungsan.kr-map:
+  width: 1600
+  height: 840
+daegu-mood:
+  width: 1600
+  height: 1067
+gwangju-mood:
+  width: 1600
+  height: 1067

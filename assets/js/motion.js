@@ -1,14 +1,14 @@
 /* HOHO Tour motion (2026-11-19, BUILD_LOG 20절). Vanilla JS, no library.
    Two jobs, both cheap by design:
    1) Scroll reveal: IntersectionObserver adds .is-visible once. The CSS
-      hides .reveal only under html.js (added below), so a JS failure or
+      hides [data-reveal] only under html.js (added below), so a JS failure or
       no-JS never leaves content invisible. transform/opacity only.
    2) Card tilt + cursor highlight: fine-pointer devices only. rAF-throttled
       pointermove writes rotateX/rotateY (max 3deg) + translateY(-4px) and
       --mx/--my for the radial glow in style.css. will-change is set only
       while the pointer is over a card, never on the whole list.
    Reduced motion: matchMedia gate - no observer classes are needed because
-   the CSS forces .reveal visible under prefers-reduced-motion, and the tilt
+   the CSS forces [data-reveal] visible under prefers-reduced-motion, and the tilt
    never starts (pointer check + reduced-motion check). */
 (function () {
   'use strict';

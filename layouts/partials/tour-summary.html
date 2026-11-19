@@ -124,6 +124,11 @@
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       errorTileUrl: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='256'%3E%3Crect%20width='256'%20height='256'%20fill='%23dfe3e6'/%3E%3C/svg%3E"
     }).addTo(map);
+    /* BUILD_LOG 21: tileFallback must exist on KR pages too - the debug
+       hook below reads it unconditionally, and the EN branch is the only
+       place it was declared, so every KR post fell back to the static map
+       (ReferenceError, caught by the outer try/catch). */
+    var tileFallback = false;
     {{ else }}
     /* Tiles (BUILD_LOG 18): Google English tiles (mt1.google.com,
        lyrs=m&hl=en). Esri World Street Map returns a 2,521 B grey

@@ -7,7 +7,7 @@ image_alt: "The pond and stone bridge at Bulguksa Temple"
 regions: ["gyeongju"]
 themes: ["itineraries", "day-trips"]
 stops:
-  - name: "Singyeongju Station"
+  - name: "Gyeongju Station"
     lat: 35.79833
     lng: 129.13889
     note: "KTX arrival; buses 700 and 701 run into town."
@@ -34,7 +34,7 @@ stops:
     note: "Hanok village and the old Choi family house."
 ---
 
-Gyeongju is the best one-day history trip in Korea, and the KTX makes it work. You arrive at Singyeongju Station in the morning, take a bus to Bulguksa Temple, spend the afternoon walking among royal tombs in the town center, and end the day eating your way down Hwangridan-gil. One day, no car, no rush.
+Gyeongju is the best one-day history trip in Korea, and the KTX makes it work. You arrive at Gyeongju Station in the morning, take a bus to Bulguksa Temple, spend the afternoon walking among royal tombs in the town center, and end the day eating your way down Hwangridan-gil. One day, no car, no rush.
 
 This guide was put together from recent listings, reviews, and official pages, checked November 2026. Train times and bus numbers change, so check them the day before you travel.
 
@@ -44,11 +44,11 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🚄 How do you get to Gyeongju?
 
-By KTX from Seoul Station, the trip to Singyeongju Station takes about 2 hours. From Busan Station, it takes about 30 minutes. Book your train a few days ahead, because weekend morning trains sell out. A standard one-way fare from Seoul runs about 45,000 to 55,000 KRW, and from Busan about 10,000 to 15,000 KRW, based on recent listings.
+By KTX from Seoul Station, the trip to Gyeongju Station takes about 2 hours. From Busan Station, it takes about 30 minutes. Book your train a few days ahead, because weekend morning trains sell out. A standard one-way fare from Seoul runs about 44,100 to 44,200 KRW, and from Busan about 10,000 to 15,000 KRW, based on recent listings.
 
-Singyeongju Station sits outside town, about 25 minutes by bus from the center. Buses 700 and 701 run from the station into town and on to Bulguksa. Buy a T-money card before you leave Seoul or Busan, and it works on Gyeongju buses too.
+Gyeongju Station sits outside town, about 25 minutes by bus from the center. Buses 700 and 701 run from the station into town and on to Bulguksa. Buy a T-money card before you leave Seoul or Busan, and it works on Gyeongju buses too.
 
-> **🔥 Local tip:** Do not confuse Singyeongju Station with the old Gyeongju Station in town. The KTX stops at Singyeongju, and the old station no longer takes passenger trains. If your map shows a station in the town center, it is the wrong one.
+> **🔥 Local tip:** Book for "Gyeongju", not "Singyeongju". The KTX station was renamed from Singyeongju to Gyeongju Station on December 28, 2023, so older guides still call it Singyeongju. It is the same station, out in Geoncheon-eup. The old station in the town center closed in December 2021 and no longer takes passenger trains.
 
 If you would rather not plan the buses at all, a guided day tour from Busan covers Bulguksa, the tombs, and the hanok village in one booking, with pickup in Busan.
 
@@ -105,14 +105,14 @@ The solo route is easy and cheap if you are coming from Seoul, because the KTX p
 
 | Time | Stop | How long | How you get there |
 |---|---|---|---|
-| 09:00 | Arrive Singyeongju Station | - | KTX from Seoul or Busan |
+| 09:00 | Arrive Gyeongju Station | - | KTX from Seoul or Busan |
 | 09:30 | Bulguksa Temple | 1.5 to 2 hours | Bus 700 or 701 |
 | 12:00 | Lunch near Bulguksa or in town | 1 hour | Bus back to town |
 | 13:30 | Daereungwon Tomb Complex | 1 hour | Walk from town center |
 | 14:30 | Cheomseongdae Observatory | 15 minutes | Next to the tombs |
 | 15:00 | Gyochon Traditional Village | 1 hour | 10-minute walk |
 | 16:30 | Hwangridan-gil | 2 hours | Eat, shop, cafe |
-| 19:00 | Bus to Singyeongju, KTX home | - | Last trains run late |
+| 19:00 | Bus to Gyeongju Station, KTX home | - | Last trains run late |
 
 {{< sticker kind="tired-rest" >}}
 

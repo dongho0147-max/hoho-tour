@@ -157,6 +157,8 @@ Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not phot
 | jeonju-mood.webp | Jeonju hub mood: hanok rooftops, bibimbap bowl, traditional gate, lanterns | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
 | gyeonggi-suwon-mood.webp | Suwon hub mood: Hwaseong Fortress wall and gate, palace pavilion, walking trail | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
 | daejeon-mood.webp | Daejeon hub mood: bakery storefront with bread loaf sign, fried bread bun and chive bread on a tray, Expo Bridge arches, Hanbit Tower, pine trees | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19. Illustration: AI-generated |
+| daegu-mood.webp | Daegu hub mood: Gyesan Cathedral, Seomun Night Market, Kim Gwang-seok Street, Apsan Cable Car at sunset | 1600x1067 | AI-generated | - | Media image generation, 2026-11-19. Generated 1920x1280, Lanczos resized to 1600x1067. Illustration: AI-generated |
+| gwangju-mood.webp | Gwangju hub mood: Mudeungsan, May 18 Democracy Square, Asia Culture Center, Tteokgalbi plate | 1600x1067 | AI-generated | - | Media image generation, 2026-11-19. Generated 1920x1280, Lanczos resized to 1600x1067. Illustration: AI-generated |
 
 ## stage3 real photos (2026-11-19)
 
@@ -279,3 +281,16 @@ One new photo per rewritten post (15 posts; jeju-east-seongsan-udo has none - no
 | seoul-42.webp | Ttukseom Hangang Park at dusk, the Han River and the lit-up skyline | 1600x1067, 84 KB | Liziyuan0216 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Han_river_park_night_view.jpg |
 | seoul-43.webp | Charcoal-grilled Korean beef on a mesh grill over glowing coals | 1600x1200, 238 KB | lazy fri13th | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Hanu-sutbul-gui_2.jpg |
 | seoul-44.webp | Inside a Seoul Metro Line 2 train, the LCD screen showing Nakseongdae Station | 1600x900, 77 KB | Aspere | CC0 | https://commons.wikimedia.org/wiki/File:Seoul_Metro_Line_2_LCD_1.jpg |
+
+## Daegu and Gwangju real photos (2026-11-19)
+
+Six new photos for the Daegu and Gwangju one-day guides. All verified by opening each file on 2026-11-19 (subjects checked against the Commons file pages and API metadata; daegu-01 confirmed visually as Gyesan Cathedral against the Contax3 candidate). Long side 1600px, 250KB or less, webp. daegu-01 is saved at WebP quality 50 to stay under 250KB; the other five are quality 82.
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| daegu-01.webp | Gyesan Cathedral (Our Lady of Lourdes Cathedral), Daegu - red-brick twin-spired church, crucifix and pine trees | 1200x1600, 238 KB | Šolon | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Our_Lady_of_Lourdes_Cathedral,_Daegu.jpg |
+| daegu-02.webp | Seomun Night Market, Daegu - covered market street with food stalls at night, October 2016 | 1600x900, 121 KB | Choi2451 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Seomun_Night_Market,_Daegu.jpg |
+| daegu-03.webp | Palgongsan Cable Car, Daegu - yellow cabin over forested mountains, August 2016 | 1600x900, 124 KB | Choi2451 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Palgongsan_Cable_Car.jpg |
+| gwangju-01.webp | Mudeungsan mountain behind Gwangju city, winter view | 1600x1200, 143 KB | Kgw1226 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gwangju_Mudeungsan.jpg |
+| gwangju-02.webp | Gwangju-Songjeong Station building, March 2015 | 1600x1064, 147 KB | Saigen Jiro | CC0 | https://commons.wikimedia.org/wiki/File:Gwangju_Songjeong_Station_building.JPG |
+| gwangju-03.webp | A plate of Songjeong tteokgalbi (grilled short rib patties) | 1600x763, 203 KB | Minseong Kim | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Songjeong_Tteokgalbi.jpg |

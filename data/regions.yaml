@@ -78,6 +78,26 @@ regions:
     subthemes: [itineraries, food-restaurants, cafes, nightlife, day-trips]
     image: images/hubs/jeonju-mood.webp
     blurb: "Hanok village, bibimbap, and the night market."
+  - slug: daegu
+    name: Daegu
+    name_ko: 대구
+    status: active
+    center: { lat: 35.8714, lng: 128.6014 }
+    path_id: daegu
+    cities: [Daegu]
+    subthemes: [itineraries, food-restaurants, day-trips]
+    image: images/hubs/daegu-mood.webp
+    blurb: "KTX in, modern alleys and Seomun Market in a day."
+  - slug: gwangju
+    name: Gwangju
+    name_ko: 광주
+    status: active
+    center: { lat: 35.1595, lng: 126.8526 }
+    path_id: gwangju
+    cities: [Gwangju]
+    subthemes: [itineraries, food-restaurants, day-trips]
+    image: images/hubs/gwangju-mood.webp
+    blurb: "KTX in, Songjeong Station, Yangnim's old houses, and Mudeungsan in a day."
   - slug: gyeonggi-suwon
     name: Gyeonggi - Suwon
     name_ko: 경기 - 수원
