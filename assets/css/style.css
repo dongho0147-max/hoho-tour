@@ -17,8 +17,11 @@
   --shadow-sm:0 1px 3px rgba(29,39,51,.07);
   --shadow-md:0 6px 20px rgba(29,39,51,.09);
   --shadow-lg:0 16px 40px rgba(29,39,51,.12);
-  --dur-fast:150ms; --dur-base:250ms;
-  --ease-standard:cubic-bezier(.22,1,.36,1);
+  --dur-fast:180ms; --dur-base:240ms; --dur-med:240ms; --dur-slow:320ms;
+  --ease-standard:cubic-bezier(.22,.61,.36,1); --ease-out:cubic-bezier(.22,.61,.36,1);
+  /* Motion 2026-11-19 (20절): one easing + three durations for every
+     transition on the site. --ease-standard used to be (.22,1,.36,1) and
+     --dur-fast/--dur-base were 150/250ms; they are unified here. */
   /* Sticky chrome heights, measured from the header / region-bar rules below.
      Desktop header: 10px padding + 43.5px nav row + 10px = ~64px. The region
      bar sticks directly under it; --sticky-offset is what anchor targets
@@ -31,11 +34,16 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--surface);color:var(--text-primary);
-  font:17px/1.7 "Inter","Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  font:17px/1.7 "Inter","Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  /* Motion 2026-11-19 (20절): keep-all stops Korean breaking mid-word
+     (hero h1 "사람이 알/려주는" case). overflow-wrap:break-word is the
+     safety net so long English words / URLs still wrap instead of
+     overflowing narrow columns. Verified at 360px: no horizontal overflow. */
+  word-break:keep-all;overflow-wrap:break-word}
 a{color:var(--coral)}
 a:hover{color:var(--coral-hover)}
 h1,h2,h3{font-family:"Inter","Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-  font-weight:800;letter-spacing:-.02em;line-height:1.2}
+  font-weight:800;letter-spacing:-.02em;line-height:1.2;word-break:keep-all}
 .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
 .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--coral);
   font-weight:800;margin:0 0 10px}
@@ -53,7 +61,8 @@ header.site .wrap{display:flex;align-items:center;gap:20px;padding:10px 20px}
 header.site nav{margin-left:auto;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
 header.site nav::-webkit-scrollbar{display:none}
 header.site nav a{color:var(--text-primary);text-decoration:none;font-weight:700;font-size:15px;
-  padding:9px 13px;border-radius:var(--radius-pill);white-space:nowrap}
+  padding:9px 13px;border-radius:var(--radius-pill);white-space:nowrap;
+  transition:color var(--dur-fast) var(--ease-out),background var(--dur-fast) var(--ease-out)}
 header.site nav a:hover{color:var(--coral);background:var(--coral-soft)}
 header.site nav a[aria-current="page"]{color:var(--text-on-accent);background:var(--coral)}
 
@@ -69,7 +78,7 @@ main{padding:0 0 56px}
    bottom 12% / right 10% / top 12%) on >=1024px. Text budget: h1 max 2
    lines, lede clamped to 1 line on mobile / 2 lines above, each CTA button
    one line. */
-.hero{margin:0 0 40px}
+.hero{margin:0 0 48px}
 .hero-photo{position:relative;margin:0}
 /* The aspect-ratio + rounded clip live on <picture>, NOT on the figure: the
    figure also holds the text card below the photo on <1024px, and an
@@ -77,7 +86,20 @@ main{padding:0 0 56px}
    (caught by the 390px screenshot check). */
 .hero-photo picture{display:block;overflow:hidden;border-radius:var(--radius-lg);
   aspect-ratio:9/10}
-.hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.hero-photo img{width:100%;height:100%;object-fit:cover;display:block;
+  animation:hero-zoom 640ms var(--ease-out) both}
+/* Hero load-in (motion 2026-11-19, 20절): eyebrow -> h1 -> lede -> CTA rise
+   12px + fade, 60ms stagger, 320ms, one easing. Pure CSS keyframes (no JS):
+   if the stylesheet loads, the animation runs; reduced-motion kills it via
+   the block below, so the content shows immediately. 60fps.design "splash
+   intro / value-prop text flip" family: staggered text entrance, not a
+   full-screen splash. */
+@keyframes hero-rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes hero-zoom{from{transform:scale(1.02)}to{transform:scale(1)}}
+.hero-overlay .eyebrow{animation:hero-rise var(--dur-slow) var(--ease-out) both}
+.hero-overlay h1{animation:hero-rise var(--dur-slow) var(--ease-out) 60ms both}
+.hero .lede{animation:hero-rise var(--dur-slow) var(--ease-out) 120ms both}
+.hero .cta{animation:hero-rise var(--dur-slow) var(--ease-out) 180ms both}
 .hero-overlay{background:var(--surface-raised);border:1px solid var(--border-soft);
   border-radius:var(--radius-md);box-shadow:var(--shadow-md);
   padding:20px 16px;margin:12px 0 0}
@@ -88,9 +110,16 @@ main{padding:0 0 56px}
   display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .hero .cta{display:flex;flex-direction:column;gap:10px;margin:0}
 .hero .cta .btn{text-align:center;white-space:nowrap;font-size:14px;padding:12px 16px}
-/* Tablet 768-1023px: landscape photo on top, text card below (the photo is
-   too short for a readable overlay here). */
-@media(min-width:768px){
+/* 640-1023px: landscape photo on top, text card below (the photo is
+   too short for a readable overlay here).
+   Breakpoint moved 768 -> 640 in motion 2026-11-19 (20절): the 640-767 band
+   served the 9:10 portrait, whose photo ran 667-799px tall and pushed the
+   text card below the fold (700px: card top 851px vs 844px viewport).
+   From 640px the landscape banner (1920/820) is served instead, so the
+   photo is ~260-310px and the card top is in the first screen, with cover
+   crop still ~0%. The <picture> media queries and the preloads in baseof
+   move with this breakpoint. Below 640px the portrait banner stays. */
+@media(min-width:640px){
   .hero-photo picture{aspect-ratio:1920/820}
   .hero-overlay{padding:28px 32px}
   .hero-overlay h1{font-size:32px}
@@ -109,21 +138,24 @@ main{padding:0 0 56px}
 .lede{font-size:16px;color:var(--text-secondary);margin:0 0 20px;max-width:56ch}
 .cta{display:flex;gap:10px;flex-wrap:wrap;margin:0}
 .btn{display:inline-block;text-decoration:none;font-weight:800;font-size:15px;line-height:1.3;
-  padding:12px 20px;border-radius:var(--radius-pill);min-height:44px}
+  padding:12px 20px;border-radius:var(--radius-pill);min-height:44px;
+  transition:background var(--dur-fast) var(--ease-out),color var(--dur-fast) var(--ease-out),transform var(--dur-fast) var(--ease-out),box-shadow var(--dur-fast) var(--ease-out)}
+.btn:hover{transform:translateY(-1px)}
 .btn-primary{background:var(--coral);color:var(--text-on-accent);box-shadow:0 6px 16px rgba(240,86,58,.32)}
 .btn-primary:hover{background:var(--coral-hover);color:var(--text-on-accent)}
 .btn-secondary{background:var(--sky-soft);color:var(--sky-hover);border:1.5px solid transparent}
 .btn-secondary:hover{background:var(--sky);color:var(--text-on-accent)}
 
 /* Browse chips - region / theme */
-.browse{margin:0 0 48px}
+.browse{margin:0 0 56px}
 .browse-block + .browse-block{margin-top:24px}
-.browse h2{font-size:19px;margin:0 0 12px}
+.browse h2{font-size:20px;margin:0 0 12px}
 .browse h2 .dot{color:var(--sunset)}
 .chip-row{display:flex;gap:8px;flex-wrap:wrap;margin:0;padding:0;list-style:none}
 .chip{display:inline-flex;align-items:center;text-decoration:none;font-size:14px;font-weight:700;line-height:1.3;
   padding:9px 16px;border-radius:var(--radius-pill);min-height:38px;
-  transition:background var(--dur-fast),color var(--dur-fast),border-color var(--dur-fast)}
+  transition:background var(--dur-fast) var(--ease-out),color var(--dur-fast) var(--ease-out),border-color var(--dur-fast) var(--ease-out),transform var(--dur-fast) var(--ease-out),box-shadow var(--dur-fast) var(--ease-out)}
+.chip:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm)}
 .chip--region{background:var(--coral-soft);color:var(--coral-hover);border:1.5px solid var(--coral)}
 .chip--region:hover{background:var(--coral);color:var(--text-on-accent)}
 .chip--theme{background:var(--sky-soft);color:var(--sky-hover);border:1.5px solid var(--sky)}
@@ -132,23 +164,34 @@ main{padding:0 0 56px}
 .chip--all:hover{background:var(--text-primary);border-color:var(--text-primary);color:var(--text-on-accent)}
 
 /* Latest guides - card grid, mobile 1 col */
-.latest{padding:8px 0 0}
-.latest h2{font-size:26px;margin:0 0 8px}
+.latest{padding:16px 0 0}
+.latest h2{font-size:30px;margin:0 0 8px}
 .latest h2 span{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--sky);font-weight:800;margin-bottom:6px}
 .latest .intro{color:var(--text-secondary);margin:0 0 4px}
-.cards{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:20px;grid-template-columns:1fr}
+.cards{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:20px;grid-template-columns:1fr;perspective:1200px}
 .card{background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-lg);
-  overflow:hidden;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;
-  transition:box-shadow var(--dur-base) var(--ease-standard),transform var(--dur-base) var(--ease-standard),border-color var(--dur-base)}
-.card:hover{box-shadow:var(--shadow-lg);transform:translateY(-3px);border-color:var(--coral)}
+  overflow:hidden;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;position:relative;
+  transition:box-shadow var(--dur-med) var(--ease-out),transform var(--dur-med) var(--ease-out),border-color var(--dur-med) var(--ease-out)}
+/* Cursor-tracked radial highlight (motion 2026-11-19, 20절): assets/js/motion.js
+   writes --mx/--my (cursor %) on fine-pointer devices only; the glow follows
+   the cursor. 60fps.design "card sweep / glow" family, cut down to one
+   radial-gradient layer so the paint cost stays trivial. */
+.card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:radial-gradient(240px circle at var(--mx,50%) var(--my,50%),rgba(240,86,58,.09),transparent 70%);
+  opacity:0;transition:opacity var(--dur-med) var(--ease-out)}
+.card:hover::after{opacity:1}
+.card:hover{box-shadow:var(--shadow-lg);transform:translateY(-4px);border-color:var(--coral)}
+/* 3D tilt (max 3deg) is driven by assets/js/motion.js, which writes the
+   transform inline; this :hover lift is the no-JS fallback and is overridden
+   by the inline style while the tilt is active. */
 .card .thumb{display:block;overflow:hidden}
 .card .thumb img{width:100%;height:100%;object-fit:cover;aspect-ratio:3/2;
   transition:transform var(--dur-base) var(--ease-standard)}
 .card:hover .thumb img{transform:scale(1.04)}
 .card-body{padding:20px 20px 22px;display:flex;flex-direction:column;flex:1}
-.card a.title{font-size:19px;font-weight:800;text-decoration:none;color:var(--text-primary);
-  line-height:1.35;letter-spacing:-.01em}
+.card a.title{font-size:20px;font-weight:800;text-decoration:none;color:var(--text-primary);
+  line-height:1.35;letter-spacing:-.01em;word-break:keep-all}
 .card a.title:hover{color:var(--coral)}
 .card p.desc{margin:10px 0 0;color:var(--text-secondary);font-size:15px;line-height:1.6;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
@@ -166,11 +209,11 @@ main{padding:0 0 56px}
 .page-head .count{color:var(--text-muted);font-size:14px;margin:8px 0 0}
 
 /* How-we-write strip + affiliate disclosure */
-.trust{padding:56px 0 0}
+.trust{padding:64px 0 0}
 .trust .box{background:var(--surface-soft);border:1px solid var(--border);
   border-radius:var(--radius-lg);padding:28px 24px}
 .trust .box--sky{background:var(--surface-sky)}
-.trust h2{font-size:24px;margin:0 0 10px}
+.trust h2{font-size:26px;margin:0 0 10px}
 .trust p{color:var(--text-secondary);margin:0;max-width:68ch}
 .disclosure{background:var(--surface-sand);border:1px solid #F0DFB4;border-radius:var(--radius-md);
   padding:14px 16px;font-size:14px;line-height:1.6;color:var(--text-secondary);margin:24px 0 0}
@@ -228,10 +271,11 @@ footer.site .foot-disclosure{font-size:13px;color:var(--text-secondary);
 /* Taxonomy term index (/regions/, /themes/) */
 .term-index{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:16px;grid-template-columns:1fr}
 .term-index li{background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-lg);
-  padding:20px 22px;box-shadow:var(--shadow-sm);border-top:5px solid var(--coral)}
+  padding:20px 22px;box-shadow:var(--shadow-sm);border-top:5px solid var(--coral);
+  transition:box-shadow var(--dur-med) var(--ease-out),transform var(--dur-med) var(--ease-out),border-color var(--dur-med) var(--ease-out)}
 .term-index li:nth-child(3n+2){border-top-color:var(--sky)}
 .term-index li:nth-child(3n+3){border-top-color:var(--sunset)}
-.term-index li:hover{border-color:var(--coral);box-shadow:var(--shadow-md)}
+.term-index li:hover{border-color:var(--coral);box-shadow:var(--shadow-md);transform:translateY(-2px)}
 .term-index a{font-size:20px;font-weight:800;text-decoration:none;color:var(--text-primary)}
 .term-index a:hover{color:var(--coral)}
 .term-index .meta{margin-left:8px}
@@ -277,12 +321,43 @@ html,body{overflow-x:clip}
   .region-nav a{font-size:13px;padding:5px 10px}
   .region-nav__ko{display:none}
 }
+/* Scroll reveal (motion 2026-11-19, 20절): IntersectionObserver adds
+   .is-visible once; transform/opacity only (GPU compositing), stagger
+   40-80ms via --reveal-delay set by assets/js/motion.js (index within the
+   parent group x 60ms, capped at 300ms). The hiding rules live under
+   html.js so no-JS (or a JS failure) never leaves content invisible.
+   Scope: section titles, guide cards, home map section, tour-summary.
+   land-book.com hero/grid rhythm: sections arrive in sequence instead of
+   all at once. */
+html.js .reveal{opacity:0;transform:translateY(14px);
+  transition:opacity var(--dur-slow) var(--ease-out),transform var(--dur-slow) var(--ease-out);
+  transition-delay:var(--reveal-delay,0ms)}
+html.js .reveal.is-visible{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *{transition:none!important;animation:none!important}
+  /* Reveal targets show immediately: without this, an element below the
+     fold would sit at opacity:0 until the observer fires. */
+  .reveal{opacity:1!important;transform:none!important}
   /* Semo stickers: show the still PNG instead of the animated WebP. */
   .sticker img.sticker-anim{display:none}
   figure.sticker img.sticker-still{display:block}
+}
+/* Touch devices (motion 2026-11-19, 20절): no hover tilt / lift / glow -
+   only a light press scale (0.98-1.0). The :hover lift would otherwise stick
+   after a tap. */
+@media(hover:none){
+  .card:hover{transform:none;box-shadow:var(--shadow-sm);border-color:var(--border)}
+  .card:hover::after{opacity:0}
+  .card:active{transform:scale(.98)}
+  .chip:hover{transform:none;box-shadow:none}
+  .chip:active{transform:scale(.97)}
+  .btn:hover{transform:none}
+  .btn:active{transform:scale(.98)}
+  .map-chip:hover{transform:none}
+  .map-chip:active{transform:scale(.97)}
+  .term-index li:hover{transform:none}
+  .related-card a:hover{transform:none}
 }
 /* Semo stickers: small inline emoticons (Naver-blog style), never full-width.
    96px wide (max 110px) at article width; the 320px F rule is replaced.
@@ -323,8 +398,8 @@ html,body{overflow-x:clip}
 
 /* Home map */
 .home-map{background:linear-gradient(180deg,var(--surface-sky) 0%,var(--surface) 100%);
-  border:1px solid var(--border-soft);border-radius:var(--radius-lg);padding:22px 18px 16px;margin:0 0 40px}
-.home-map__intro h2{font-size:22px;margin:0 0 6px}
+  border:1px solid var(--border-soft);border-radius:var(--radius-lg);padding:22px 18px 16px;margin:0 0 48px}
+.home-map__intro h2{font-size:24px;margin:0 0 6px}
 .home-map__hint{color:var(--text-secondary);font-size:15px;margin:0 0 12px}
 .home-map__layout{display:flex;flex-direction:column;gap:14px}
 .home-map__stage{display:flex;justify-content:center}
@@ -354,8 +429,9 @@ html,body{overflow-x:clip}
   scrollbar-width:thin;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
 .map-chip{flex:0 0 auto;scroll-snap-align:start;font:700 14px/1.3 inherit;font-family:inherit;cursor:pointer;
   background:var(--surface-raised);color:var(--coral-hover);border:1.5px solid var(--coral);
-  border-radius:var(--radius-pill);padding:8px 14px;min-height:40px;display:inline-flex;align-items:center;gap:6px}
-.map-chip:hover{background:var(--coral-soft)}
+  border-radius:var(--radius-pill);padding:8px 14px;min-height:40px;display:inline-flex;align-items:center;gap:6px;
+  transition:background var(--dur-fast) var(--ease-out),color var(--dur-fast) var(--ease-out),transform var(--dur-fast) var(--ease-out),box-shadow var(--dur-fast) var(--ease-out)}
+.map-chip:hover{background:var(--coral-soft);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
 .map-chip.is-selected{background:var(--coral);color:var(--text-on-accent)}
 .map-chip:focus-visible,.map-hub-links a:focus-visible,.region-nav__link:focus-visible,
 .breadcrumbs a:focus-visible,.related-card a:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
@@ -386,7 +462,8 @@ html,body{overflow-x:clip}
 .region-nav__row{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:6px 20px;flex-wrap:nowrap}
 .region-nav__row::-webkit-scrollbar{display:none}
 .region-nav a{font-size:14px;padding:6px 12px;color:var(--text-secondary);
-  white-space:nowrap;flex:0 0 auto}
+  white-space:nowrap;flex:0 0 auto;
+  transition:color var(--dur-fast) var(--ease-out),background var(--dur-fast) var(--ease-out)}
 .region-nav a:hover{color:var(--coral-hover);background:var(--coral-soft)}
 .region-nav a[aria-current]{color:var(--text-on-accent);background:var(--sky)}
 .region-nav a.is-soon{opacity:.7}
@@ -428,8 +505,8 @@ article ul.related__list{list-style:none;padding:0;margin:0;display:grid;gap:10p
 article .related-card{margin:0}
 .related-card a{display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--text-primary);
   background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-md);padding:8px;
-  transition:border-color var(--dur-fast),box-shadow var(--dur-fast)}
-.related-card a:hover{border-color:var(--coral);box-shadow:var(--shadow-md)}
+  transition:border-color var(--dur-fast) var(--ease-out),box-shadow var(--dur-fast) var(--ease-out),transform var(--dur-fast) var(--ease-out)}
+.related-card a:hover{border-color:var(--coral);box-shadow:var(--shadow-md);transform:translateY(-2px)}
 .related-card img{width:96px;height:64px;object-fit:cover;border-radius:var(--radius-sm);flex:0 0 auto}
 .related-card__body{display:flex;flex-direction:column;min-width:0}
 .related-card__region{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--sky-hover)}

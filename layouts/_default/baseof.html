@@ -36,8 +36,8 @@
    image and the Inter stylesheet are fetched before first paint so the h1
    line count does not shift after the webfont arrives (font reflow fix). */}}
 {{ if .IsHome }}
-<link rel="preload" as="image" imagesrcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x" media="(min-width: 768px)" fetchpriority="high">
-<link rel="preload" as="image" imagesrcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x" media="(max-width: 767px)" fetchpriority="high">
+<link rel="preload" as="image" imagesrcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x" media="(min-width: 640px)" fetchpriority="high">
+<link rel="preload" as="image" imagesrcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x" media="(max-width: 639px)" fetchpriority="high">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 {{ end }}
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -57,5 +57,9 @@
 {{ block "main" . }}{{ end }}
 </div></main>
 {{ partial "footer.html" . }}
+{{/* Motion (2026-11-19, BUILD_LOG 20절): scroll reveal + card tilt.
+   Vanilla JS, defer, fingerprinted like home-map.js. Site-wide: the reveal
+   scope includes tour-summary on article pages, not just the home. */}}
+{{ with resources.Get "js/motion.js" }}{{ with . | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}{{ end }}
 </body>
 </html>

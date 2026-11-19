@@ -61,7 +61,7 @@
 {{ $landmarksJSON := $.Params.landmarks | jsonify }}
 {{ $mapID := printf "tour-map-%s" $slug }}
 {{ $isKr := eq site.Language.Lang "kr" }}
-<section class="tour-summary" aria-label="Route summary">
+<section class="tour-summary" aria-label="Route summary" data-reveal>
 <h2 class="tour-summary__title">Route at a glance</h2>
 <div class="tour-map-wrap">
 <div id="{{ $mapID }}" class="tour-map" role="application" aria-label="Interactive map of the route stops"></div>

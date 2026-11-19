@@ -5,7 +5,7 @@
 {{ $themes := .GetTerms "themes" }}
 {{ $firstRegion := "" }}{{ with .Params.regions }}{{ $firstRegion = index . 0 | urlize }}{{ end }}
 {{ $themeKeys := slice }}{{ range .Params.themes }}{{ $themeKeys = $themeKeys | append (. | urlize) }}{{ end }}
-<li class="card" data-filter-item data-region="{{ $firstRegion }}" data-themes="{{ delimit $themeKeys " " }}">
+<li class="card" data-reveal data-filter-item data-region="{{ $firstRegion }}" data-themes="{{ delimit $themeKeys " " }}">
 {{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ else }}<a class="thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="/images/banner/banner-seoul.webp" alt="{{ $p.Title }}" width="480" height="320" loading="lazy"></a>{{ end }}
 <div class="card-body">
 <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>

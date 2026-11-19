@@ -13,8 +13,8 @@
    ~0%. Images carry no text, logo, border or sign - all text is HTML. */}}
 <figure class="hero-photo">
 <picture>
-<source media="(max-width: 767px)" srcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x">
-<source media="(min-width: 768px)" srcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x">
+<source media="(max-width: 639px)" srcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x">
+<source media="(min-width: 640px)" srcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x">
 <img src="/images/banner/home-banner-desktop.webp" alt="HOHO Tour Korea travel guides banner" width="1920" height="820" loading="eager" fetchpriority="high">
 </picture>
 <div class="hero-overlay">
@@ -31,7 +31,7 @@
 {{ partial "home-map.html" . }}
 <section class="browse" aria-label="Browse guides by place and theme">
 <div class="browse-block">
-<h2>{{ i18n "browsePlace" | safeHTML }}</h2>
+<h2 data-reveal>{{ i18n "browsePlace" | safeHTML }}</h2>
 <div class="chip-row">
 {{ range first 8 site.Data.regions.regions }}
 <a class="chip chip--region" href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a>
@@ -40,7 +40,7 @@
 </div>
 </div>
 <div class="browse-block">
-<h2>{{ i18n "browseTheme" | safeHTML }}</h2>
+<h2 data-reveal>{{ i18n "browseTheme" | safeHTML }}</h2>
 <div class="chip-row">
 {{ with $enSite.GetPage "/themes/itineraries" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Itineraries</a>{{ end }}
 {{ with $enSite.GetPage "/themes/food-restaurants" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Food &amp; Restaurants</a>{{ end }}
@@ -54,8 +54,8 @@
 </div>
 </section>
 <section class="latest">
-<h2><span>{{ i18n "latestKicker" }}</span><b class="latest-title" id="latest-guides-heading">{{ i18n "latestGuides" }}</b></h2>
-<p class="intro">{{ i18n "latestIntro" }}</p>
+<h2 data-reveal><span>{{ i18n "latestKicker" }}</span><b class="latest-title" id="latest-guides-heading">{{ i18n "latestGuides" }}</b></h2>
+<p class="intro" data-reveal>{{ i18n "latestIntro" }}</p>
 <ul class="cards" id="latest-guides">
 {{ range $pages.ByDate.Reverse }}
 {{ partial "guide-card.html" . }}
@@ -63,7 +63,7 @@
 </ul>
 <p class="filter-empty" data-filter-empty hidden>{{ i18n "noGuidesFilter" }}</p>
 </section>
-<section class="trust"><div class="box">
+<section class="trust"><div class="box" data-reveal>
 <h2>{{ i18n "trustTitle" }}</h2>
 <p>{{ i18n "trustBody" }}</p>
 {{/* /kr has zero affiliate links: no disclosure paragraph here (EN keeps it). */}}

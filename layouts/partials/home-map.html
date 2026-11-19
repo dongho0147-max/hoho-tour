@@ -34,7 +34,7 @@
   {{ $n := len (index $tax .slug | default slice) }}
   {{ if gt $n 0 }}{{ $active = $active | append (dict "r" . "n" $n) }}{{ end }}
 {{ end }}
-<section class="home-map" aria-labelledby="home-map-title"
+<section class="home-map" aria-labelledby="home-map-title" data-reveal
   data-filter-root data-filter-attr="region"
   data-filter-items="#latest-guides" data-filter-heading="#latest-guides-heading"
   data-heading-all="{{ i18n "mapHeadingAll" }}" data-heading-one="{{ i18n "mapHeadingOne" }}">
