@@ -1,0 +1,78 @@
+{{/* term-page.html: body of a taxonomy term page. Used by _default/term.html and
+   _default/taxonomy.html (Hugo 0.152 renders term pages with taxonomy.html here).
+   - regions term listed in data/regions.yaml -> region hub (/korea/<slug>/)
+   - anything else (themes, regions not in regions.yaml) -> plain guide list */}}
+{{ $region := false }}
+{{ if eq .Data.Plural "regions" }}
+  {{ $region = index (where site.Data.regions.regions "slug" .Data.Term) 0 }}
+{{ end }}
+{{ if $region }}
+{{ $country := site.Data.regions.country }}
+{{ $pages := .Pages.ByDate.Reverse }}
+{{ $n := len $pages }}
+<div class="hub" data-filter-root data-filter-attr="themes"
+  data-filter-items="#hub-guides" data-filter-heading="#hub-guides-heading"
+  data-heading-all="All {{ $region.name }} guides" data-heading-one="{{ $region.name }}: {name}">
+<div class="hub-top">
+{{ with $region.image }}<figure class="hub-mood"><img src="{{ . | relURL }}" alt="Illustrated mood picture of {{ $region.name }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager"></figure>{{ end }}
+<div class="hub-head">
+<p class="eyebrow"><a href="/">{{ $country.name }}</a> &middot; Region</p>
+<h1>{{ $region.name }} <span class="hub-ko" lang="ko">{{ $region.name_ko }}</span></h1>
+{{ with $region.blurb }}<p class="hub-blurb">{{ . }}</p>{{ end }}
+{{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+{{ with $region.cities }}<p class="hub-cities">Cities: {{ delimit . ", " }}</p>{{ end }}
+{{ if gt $n 0 }}<p class="count">{{ $n }} guide{{ if ne $n 1 }}s{{ end }} in {{ $region.name }}.</p>{{ end }}
+</div>
+</div>
+{{ if gt $n 0 }}
+{{/* sub-theme chips: regions.yaml order, only themes that have a guide in this region */}}
+{{ $chips := slice }}
+{{ range $region.subthemes }}
+  {{ $t := . }}
+  {{ $c := 0 }}
+  {{ range $pages }}{{ if in (.Params.themes | default slice) $t }}{{ $c = add $c 1 }}{{ end }}{{ end }}
+  {{ if gt $c 0 }}
+    {{/* same labels as the home theme chips */}}
+    {{ $names := dict "food-restaurants" "Food & Restaurants" "transit-tips" "Transit & Tips" }}
+    {{ $label := index $names $t | default (replace $t "-" " " | title) }}
+    {{ $chips = $chips | append (dict "key" $t "label" $label "n" $c) }}
+  {{ end }}
+{{ end }}
+{{ with $chips }}
+<div class="map-chips hub-chips" role="toolbar" aria-label="Filter {{ $region.name }} guides by theme" data-filter-controls hidden>
+<button type="button" class="map-chip is-selected" data-filter-value="" aria-pressed="true">All</button>
+{{ range . }}<button type="button" class="map-chip" data-filter-value="{{ .key }}" data-filter-label="{{ .label }}" aria-pressed="false">{{ .label }} <span class="map-chip__n">{{ .n }}</span></button>{{ end }}
+</div>
+{{ end }}
+<p class="home-map__status hub-status" aria-live="polite" data-filter-status></p>
+<h2 class="hub-guides-title" id="hub-guides-heading">All {{ $region.name }} guides</h2>
+<ul class="cards" id="hub-guides">
+{{ range $pages }}{{ partial "guide-card.html" . }}{{ end }}
+</ul>
+<p class="filter-empty" data-filter-empty hidden>No {{ $region.name }} guides with this theme yet.</p>
+{{ else }}
+<div class="hub-soon">
+<p class="hub-soon__badge">Guides coming soon</p>
+<p>{{ $region.name }} is on the list - we are still checking it properly before publishing. Meanwhile, browse the regions that are ready.</p>
+<p><a class="btn btn-secondary" href="/">Back to the map</a></p>
+</div>
+{{ end }}
+<p class="hub-foot"><a href="/">Map</a> &middot; <a href="/regions/">All regions</a> &middot; <a href="/themes/">All themes</a> &middot; <a href="/blog/">All guides</a></p>
+</div>
+{{ partial "filter-script.html" . }}
+{{ else }}
+<div class="page-head">
+<p class="eyebrow eyebrow--sky">Browse by {{ .Data.Singular | humanize | title }}</p>
+<h1>{{ .Title | humanize | title }}</h1>
+{{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+<p class="count">{{ len .Pages }} guide{{ if ne (len .Pages) 1 }}s{{ end }} filed under {{ .Title | humanize | title }}.</p>
+</div>
+{{ if .Pages }}
+<ul class="cards">
+{{ range .Pages.ByDate.Reverse }}{{ partial "guide-card.html" . }}{{ end }}
+</ul>
+<p><a href="/regions/">All regions</a> &middot; <a href="/themes/">All themes</a> &middot; <a href="/blog/">All guides</a></p>
+{{ else }}
+<p class="intro">No guides filed here yet. Check back soon.</p>
+{{ end }}
+{{ end }}

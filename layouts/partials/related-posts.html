@@ -1,0 +1,40 @@
+{{/* related-posts.html: up to 3 cards. Same-region guides first (newest first,
+   excluding this page), then same-theme guides from other regions to fill to 3. */}}
+{{ if and .IsPage (eq .Section "blog") }}
+{{ $cur := . }}
+{{ $blog := (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+{{ $myRegions := .Params.regions | default slice }}
+{{ $myThemes := .Params.themes | default slice }}
+{{ $same := slice }}
+{{ $other := slice }}
+{{ range $blog }}
+  {{ if ne .Permalink $cur.Permalink }}
+    {{ $r := .Params.regions | default slice }}
+    {{ if intersect $r $myRegions }}
+      {{ $same = $same | append . }}
+    {{ else if intersect (.Params.themes | default slice) $myThemes }}
+      {{ $other = $other | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $same = first 3 $same }}
+{{ $other = first (sub 3 (len $same)) $other }}
+{{ if or $same $other }}
+{{ $regionName := "" }}
+{{ with $myRegions }}
+  {{ $slug := index . 0 | urlize }}
+  {{ with index (where site.Data.regions.regions "slug" $slug) 0 }}{{ $regionName = .name }}{{ else }}{{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $regionName = .LinkTitle }}{{ end }}{{ end }}
+{{ end }}
+<aside class="related" aria-labelledby="related-title">
+<h2 id="related-title" class="related__title">Keep exploring</h2>
+{{ with $same }}
+<h3 class="related__sub">More in {{ $regionName }}</h3>
+<ul class="related__list">{{ range . }}{{ partial "related-card.html" . }}{{ end }}</ul>
+{{ end }}
+{{ with $other }}
+<h3 class="related__sub">Same theme, other regions</h3>
+<ul class="related__list">{{ range . }}{{ partial "related-card.html" . }}{{ end }}</ul>
+{{ end }}
+</aside>
+{{ end }}
+{{ end }}

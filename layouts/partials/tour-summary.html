@@ -1,0 +1,20 @@
+{{/* tour-summary.html: route summary block at the top of a tour detail page.
+   Reads .Params.stops (front matter: name/lat/lng/note) and renders the static
+   route map (images/maps/<slug>-map.webp) plus a numbered timeline/spot list.
+   No Leaflet: this environment bans CDN map libraries/tiles, so the route map
+   is a static schematic drawn from the same verified coordinates. */}}
+{{ with .Params.stops }}
+{{ $slug := $.File.BaseFileName }}
+{{ $map := printf "images/maps/%s-map.webp" $slug }}
+<section class="tour-summary" aria-label="Route summary">
+<h2 class="tour-summary__title">Route at a glance</h2>
+<figure class="map-figure">
+<img src="{{ $map | relURL }}" alt="Route map with numbered stops in visit order"{{ partial "photo-dims.html" $map | safeHTMLAttr }} loading="eager">
+<figcaption>Route map for this guide - stops in visit order. Schematic map drawn from verified coordinates (OpenStreetMap Nominatim, Nov 2026); not to scale.{{ with $.Params.map_note }} {{ . }}{{ end }}</figcaption>
+</figure>
+<ol class="tour-summary__stops">
+{{ range . }}<li><strong>{{ .name }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
+</ol>
+{{ with $.Params.map_note }}<p class="tour-summary__note">{{ . }}</p>{{ end }}
+</section>
+{{ end }}

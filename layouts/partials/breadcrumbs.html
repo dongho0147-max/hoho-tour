@@ -1,0 +1,28 @@
+{{/* breadcrumbs.html: Home > Region > first Theme. Blog posts only.
+   Region name and hub URL come from data/regions.yaml when the region is listed there,
+   otherwise from the taxonomy term page. */}}
+{{ if and .IsPage (eq .Section "blog") }}
+{{ $country := site.Data.regions.country.slug | default "korea" }}
+{{ $crumbs := slice (dict "name" "Home" "url" ("/" | absURL)) }}
+{{ with .Params.regions }}
+  {{ $slug := index . 0 | urlize }}
+  {{ $r := index (where site.Data.regions.regions "slug" $slug) 0 }}
+  {{ if $r }}
+    {{ $crumbs = $crumbs | append (dict "name" $r.name "url" (printf "/%s/%s/" $country $slug | absURL)) }}
+  {{ else }}
+    {{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $crumbs = $crumbs | append (dict "name" .LinkTitle "url" .Permalink) }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ with .Params.themes }}
+  {{ $t := index . 0 | urlize }}
+  {{ with site.GetPage (printf "/themes/%s" $t) }}{{ $crumbs = $crumbs | append (dict "name" .LinkTitle "url" .Permalink) }}{{ end }}
+{{ end }}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+<ol>
+{{ range $crumbs }}<li><a href="{{ .url | relURL }}">{{ .name }}</a></li>{{ end }}
+</ol>
+</nav>
+{{ $items := slice }}
+{{ range $i, $c := $crumbs }}{{ $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.name "item" $c.url) }}{{ end }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items | jsonify | safeJS }}</script>
+{{ end }}

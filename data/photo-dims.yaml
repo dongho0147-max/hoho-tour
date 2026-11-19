@@ -116,3 +116,282 @@ seoul-37:
 seoul-38:
   width: 1600
   height: 1067
+
+# AI-generated guidebook illustrations (2026-11-19, revamp phase 1).
+# Flat vector infographics, NOT photos of real places. Captions say "Illustration: AI-generated".
+3day-illust:
+  width: 1600
+  height: 1067
+subway-illust:
+  width: 1600
+  height: 900
+market-illust:
+  width: 1600
+  height: 900
+incheon-illust:
+  width: 1600
+  height: 1067
+winter-illust:
+  width: 1600
+  height: 900
+busan-illust:
+  width: 1600
+  height: 900
+old-illust:
+  width: 1600
+  height: 900
+
+# Schematic route maps (2026-11-19, revamp phase 1). Guest-drawn from verified
+# Nominatim coordinates; no basemap tiles. 1600x840 each.
+seoul-essential-3-day-guide-map:
+  width: 1600
+  height: 840
+seoul-subway-tmoney-taxi-map:
+  width: 1600
+  height: 840
+seoul-market-food-walk-map:
+  width: 1600
+  height: 840
+incheon-day-trip-from-seoul-map:
+  width: 1600
+  height: 840
+seoul-winter-guide-late-november-december-map:
+  width: 1600
+  height: 840
+busan-pork-soup-milmyeon-map:
+  width: 1600
+  height: 840
+seoul-old-restaurants-baekban-bbq-map:
+  width: 1600
+  height: 840
+
+# stage2 (2026-11-19, merged by coordinator)
+busan-01: {width: 1600, height: 1067}
+busan-02: {width: 1600, height: 1600}
+busan-03: {width: 1600, height: 1000}
+busan-04: {width: 1600, height: 978}
+busan-05: {width: 1600, height: 1200}
+busan-06: {width: 1600, height: 1067}
+busan-2-day-haeundae-gwangalli-gamcheon-illust-01: {width: 1600, height: 1067}
+busan-2-day-haeundae-gwangalli-gamcheon-illust-02: {width: 1600, height: 1200}
+gangneung-01: {width: 1600, height: 1065}
+gangneung-02: {width: 1600, height: 1001}
+gangneung-03: {width: 1600, height: 1200}
+gangneung-04: {width: 1600, height: 1067}
+gangneung-05: {width: 1600, height: 1110}
+gangneung-06: {width: 1024, height: 768}
+gangneung-one-night-ktx-coffee-gyeongpo-illust-01: {width: 1600, height: 1067}
+gyeongju-01: {width: 1600, height: 900}
+gyeongju-02: {width: 1400, height: 934}
+gyeongju-03: {width: 1600, height: 1519}
+gyeongju-04: {width: 1199, height: 1600}
+gyeongju-05: {width: 1600, height: 1200}
+gyeongju-night-01: {width: 1600, height: 1067}
+gyeongju-night-02: {width: 1600, height: 800}
+gyeongju-night-03: {width: 1067, height: 1600}
+gyeongju-night-04: {width: 1600, height: 1200}
+gyeongju-night-05: {width: 1600, height: 1000}
+gyeongju-night-donggung-wolji-illust-01: {width: 1600, height: 1067}
+gyeongju-one-day-ktx-bulguksa-hwangridan-illust-01: {width: 1600, height: 1067}
+jeju-01: {width: 1600, height: 1067}
+jeju-03: {width: 1410, height: 1020}
+jeju-04: {width: 1600, height: 1200}
+jeju-05: {width: 1500, height: 1125}
+jeju-06: {width: 1200, height: 900}
+jeju-3-days-no-car-illust-01: {width: 1600, height: 1067}
+jeju-3-days-no-car-illust-02: {width: 1600, height: 1200}
+jeju-east-01: {width: 1600, height: 1000}
+jeju-east-02: {width: 1600, height: 899}
+jeju-east-03: {width: 1600, height: 900}
+jeju-east-05: {width: 1600, height: 1067}
+jeju-east-06: {width: 1600, height: 990}
+jeju-east-seongsan-udo-illust-01: {width: 1600, height: 900}
+jeju-west-01: {width: 1600, height: 1079}
+jeju-west-02: {width: 1600, height: 1200}
+jeju-west-03: {width: 1600, height: 900}
+jeju-west-04: {width: 1600, height: 1067}
+jeju-west-05: {width: 1000, height: 750}
+jeju-west-06: {width: 1600, height: 1200}
+jeju-west-aewol-oreum-cafes-illust-01: {width: 1600, height: 900}
+
+# stage2 route maps (2026-11-19, rendered by coordinator). 1600x840 each.
+jeju-3-days-no-car-map:
+  width: 1600
+  height: 840
+jeju-east-seongsan-udo-map:
+  width: 1600
+  height: 840
+jeju-west-aewol-oreum-cafes-map:
+  width: 1600
+  height: 840
+busan-2-day-haeundae-gwangalli-gamcheon-map:
+  width: 1600
+  height: 840
+gyeongju-one-day-ktx-bulguksa-hwangridan-map:
+  width: 1600
+  height: 840
+gyeongju-night-donggung-wolji-map:
+  width: 1600
+  height: 840
+gangneung-one-night-ktx-coffee-gyeongpo-map:
+  width: 1600
+  height: 840
+
+# GPT illustrations (2026-11-19, coordinator) - home banner + hub mood images
+home-banner:
+  width: 1600
+  height: 533
+seoul-mood:
+  width: 1600
+  height: 1067
+busan-mood:
+  width: 1600
+  height: 1067
+jeju-mood:
+  width: 1600
+  height: 1067
+gyeongju-mood:
+  width: 1600
+  height: 1067
+gangwon-mood:
+  width: 1600
+  height: 1067
+jeonju-mood:
+  width: 1600
+  height: 1067
+gyeonggi-suwon-mood:
+  width: 1600
+  height: 1067
+incheon-mood:
+  width: 1600
+  height: 1067
+
+# stage3 (2026-11-19, merged by coordinator)
+han-01:
+  width: 1600
+  height: 900
+han-02:
+  width: 1023
+  height: 513
+han-03:
+  width: 1024
+  height: 578
+han-04:
+  width: 1600
+  height: 1600
+jeonju-01:
+  width: 1600
+  height: 1067
+jeonju-02:
+  width: 1400
+  height: 934
+jeonju-03:
+  width: 1024
+  height: 683
+jeonju-04:
+  width: 1600
+  height: 1200
+jeonju-night-01:
+  width: 1201
+  height: 1600
+jeonju-night-02:
+  width: 1024
+  height: 576
+jeonju-night-03:
+  width: 1600
+  height: 1200
+jeonju-night-04:
+  width: 1024
+  height: 683
+jeonju-night-05:
+  width: 1024
+  height: 683
+jeonju-night-market-cafes-illust-01:
+  width: 1600
+  height: 900
+jeonju-one-day-hanok-bibimbap-gaekridan-illust-01:
+  width: 1600
+  height: 900
+seoul-cafe-01:
+  width: 1600
+  height: 1067
+seoul-cafe-02:
+  width: 1600
+  height: 1067
+seoul-cafe-03:
+  width: 1600
+  height: 1200
+seoul-cafe-04:
+  width: 1600
+  height: 1067
+seoul-cafe-05:
+  width: 1023
+  height: 701
+seoul-cafe-06:
+  width: 1600
+  height: 1200
+seoul-cafes-seongsu-yeonnam-ikseon-illust-01:
+  width: 1600
+  height: 900
+seoul-night-han-river-cruise-ramyeon-illust-01:
+  width: 1600
+  height: 900
+sokcho-01:
+  width: 1600
+  height: 1067
+sokcho-02:
+  width: 1600
+  height: 902
+sokcho-03:
+  width: 1400
+  height: 934
+sokcho-04:
+  width: 1400
+  height: 934
+sokcho-05:
+  width: 1600
+  height: 932
+sokcho-06:
+  width: 1600
+  height: 1200
+sokcho-seorak-one-night-from-seoul-illust-01:
+  width: 1600
+  height: 800
+suwon-01:
+  width: 1200
+  height: 1600
+suwon-02:
+  width: 1400
+  height: 1050
+suwon-03:
+  width: 1600
+  height: 1200
+suwon-04:
+  width: 1600
+  height: 1200
+suwon-05:
+  width: 1200
+  height: 1600
+suwon-hwaseong-one-day-illust-01:
+  width: 1600
+  height: 900
+
+# stage3 route maps (2026-11-19, rendered by coordinator). 1600x840 each.
+jeonju-night-market-cafes-map:
+  width: 1600
+  height: 840
+jeonju-one-day-hanok-bibimbap-gaekridan-map:
+  width: 1600
+  height: 840
+seoul-cafes-seongsu-yeonnam-ikseon-map:
+  width: 1600
+  height: 840
+seoul-night-han-river-cruise-ramyeon-map:
+  width: 1600
+  height: 840
+sokcho-seorak-one-night-from-seoul-map:
+  width: 1600
+  height: 840
+suwon-hwaseong-one-day-map:
+  width: 1600
+  height: 840

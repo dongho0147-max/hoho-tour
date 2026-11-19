@@ -17,25 +17,29 @@ landing at Incheon Airport tomorrow.
 
 ## How we write
 
-- **We go there first.** A place only makes it into a guide after we have
-  actually been there, ridden the subway to it, and eaten nearby.
-- **We say when we have not been.** If a recommendation comes from research
-  rather than a visit, we label it as such.
-- **We keep prices approximate.** Prices in Korea change. We give ranges in
-  KRW with a rough USD equivalent and the date we last checked. Always
-  confirm before you go.
-- **Photos are ours or verified free stock.** We never take photos from
-  other blogs. Every photograph on this site is a real photograph, credited
-  to its photographer.
+- **We check before we write.** Prices, hours, and addresses in our guides
+  come from recent listings, official pages, and reviews, and we note the
+  month we last checked them. Prices in Korea change, so always confirm
+  before you go.
+- **We say what we have and have not done.** Some recommendations come from
+  our own time in Seoul. Others come from research: listings, menus, maps,
+  and recent reviews. We mark the difference honestly, and we never write
+  about a place as if we visited it when we did not.
+- **We keep prices approximate.** We give ranges in KRW with a rough USD
+  equivalent and the date we last checked. Always confirm before you go.
+- **Photos are real and credited.** We never take photos from other blogs.
+  Every photograph on this site is a real photograph, credited to its
+  photographer under a Creative Commons license or a public-domain
+  dedication. No AI-generated images are used.
 
 ## Links to booking sites
 
-HOHO Tour does not currently use affiliate links. Links on this site to
-booking sites - for example Klook or Agoda - are plain links for
-convenience. If you book through one of them, we do not earn a commission.
+Some links on this page are affiliate links. If you book through one, we may
+earn a small commission at no extra cost to you. It never changes what we
+recommend.
 
-Links never decide what we recommend. We only link to services we would
-use ourselves, and a link never changes a price, a rating, or an itinerary.
+Links never decide what we recommend. We only link to services we would use
+ourselves, and a link never changes a price, a rating, or an itinerary.
 
 ## Photo credits
 

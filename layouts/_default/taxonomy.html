@@ -1,13 +1,23 @@
 {{ define "main" }}
+{{/* NOTE (2026-11-19, design part): Hugo 0.152 renders taxonomy TERM pages
+   (/regions/seoul/ etc.) with this taxonomy.html, not _default/term.html -
+   verified against the pre-revamp templates, where a term page also showed
+   "No guides filed here yet" despite having guides. So this one template
+   handles both kinds: term list when .Data.Terms exists, guide cards otherwise.
+   _default/term.html is kept in sync in case another Hugo build picks it up. */}}
+{{ if .Data.Terms }}
+<div class="page-head">
+<p class="eyebrow">Browse the guides</p>
 <h1>{{ .Title }}</h1>
-{{ .Content }}
-{{ with .Data.Terms.Alphabetical }}
+{{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+</div>
 <ul class="term-index">
-{{ range . }}
+{{ range .Data.Terms.Alphabetical }}
 <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a> <span class="meta">{{ .Count }} guide{{ if ne .Count 1 }}s{{ end }}</span></li>
 {{ end }}
 </ul>
 {{ else }}
-<p class="intro">No guides filed here yet. Check back soon.</p>
+{{/* Term page: region hub or theme list, shared with _default/term.html */}}
+{{ partial "term-page.html" . }}
 {{ end }}
 {{ end }}

@@ -20,11 +20,7 @@ If analytics is not yet active on a page, that page simply collects nothing.
 
 ## Links to booking sites
 
-Some outgoing links go to booking sites (Klook, Agoda). These are plain
-links, not affiliate links. When you click one, the booking provider may set
-its own cookies and process your data under its own privacy policy. We do not
-receive your personal information from those providers, and we do not earn a
-commission from your booking.
+Some links on this page are affiliate links. If you book through one, we may earn a small commission at no extra cost to you. It never changes what we recommend. When you click one, the booking provider may set its own cookies and process your data under its own privacy policy. We do not receive your personal information from those providers.
 
 ## Cookies
 

@@ -1,28 +1,5 @@
 {{ define "main" }}
-<p class="eyebrow">Browse by {{ .Data.Singular | humanize | title }}</p>
-<h1>{{ .Title | humanize | title }}</h1>
-{{ .Content }}
-<p class="meta">{{ len .Pages }} guide{{ if ne (len .Pages) 1 }}s{{ end }} filed under {{ .Title | humanize | title }}.</p>
-<ul class="guide">
-{{ range .Pages.ByDate.Reverse }}
-{{ $p := . }}
-<li><div class="row">
-{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ end }}
-<div>
-<a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-<p>{{ .Description }}</p>
-<p class="meta">{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
-{{ $regions := .GetTerms "regions" }}
-{{ $themes := .GetTerms "themes" }}
-{{ if or $regions $themes }}
-<p class="term-chips" aria-label="Filed under">
-{{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
-{{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
-</p>
-{{ end }}
-<a class="readmore" href="{{ .RelPermalink }}">Read the guide &rarr;</a>
-</div></div></li>
-{{ end }}
-</ul>
-<p><a href="/regions/">All regions</a> &middot; <a href="/blog/">All guides</a></p>
+{{/* Region hub (regions listed in data/regions.yaml) or plain term list (themes).
+   Logic lives in partials/term-page.html, shared with taxonomy.html. */}}
+{{ partial "term-page.html" . }}
 {{ end }}

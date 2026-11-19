@@ -46,3 +46,162 @@ Long edge is 1600px for 32 photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept 
 | seoul-38.webp | Busan milmyeon in a metal bowl, wheat noodles in clear broth with egg, shredded egg garnish, red paste and cucumber | 1600x1067, 123 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Busan_Milmyeon_20200522_001.jpg |
 
 Note: seoul-19 is CC BY-NC-SA and seoul-20 is CC BY-NC-ND, which restrict commercial use and (for ND) derivatives - please confirm they fit the site's use. seoul-15 is under KOGL Type 1.
+
+## AI-generated guidebook illustrations (2026-11-19, revamp phase 1)
+
+Flat vector infographics made with the media image generator (GPT image generation). Bright pastel + coral/sky, short English labels only. They are illustrations, NOT photos of real places - every caption says "Illustration: AI-generated". Real photos were not replaced; these are extra point images on top of the 4-8 real photos per post.
+
+| File | Subject | Prompt (short) | Generated |
+|---|---|---|---|
+| illust/3day-illust.webp | Seoul 3-day itinerary timeline, 3 day cards | Seoul 3-day itinerary infographic, day cards Palace / Hongdae and Han River / Markets, flat vector icons | 2026-11-19 |
+| illust/subway-illust.webp | Seoul transit tips: AREX, T-money, subway, taxi | Transit infographic, T-money card, subway train, taxi, short labels | 2026-11-19 |
+| illust/market-illust.webp | Market food guide: bindaetteok, gimbap, noodles | Market stall scene, bindaetteok / gimbap / noodles, flat vector | 2026-11-19 |
+| illust/incheon-illust.webp | Incheon day trip route card | Train, red Chinatown gate, park viewpoint, sea train strip | 2026-11-19 |
+| illust/winter-illust.webp | Seoul winter packing infographic | Long coat, scarf, gloves, hot soup bowl, short labels | 2026-11-19 |
+| illust/busan-illust.webp | Busan soup comparison: gukbap vs milmyeon | Two bowls side by side, hot gukbap / cold milmyeon | 2026-11-19 |
+| illust/old-illust.webp | Old Seoul restaurant guide: 4 bowls + grill | Seolleongtang, gomtang, samgyetang, barbecue grill | 2026-11-19 |
+
+All 7 are WebP, long edge 1600px, 57-84 KB.
+
+## Schematic route maps (2026-11-19, revamp phase 1)
+
+Guest-drawn with PIL from verified coordinates (OpenStreetMap Nominatim, 2026-11-19). No basemap tiles, no Leaflet, no CDN - the environment forbids CDN map libraries, so the order's 2nd option (static map image) was used. Numbered markers in visit order, coral polyline, "not to scale" note + "© OpenStreetMap contributors" in the image footer. 1600x840 WebP each.
+
+| File | Stops | Coordinates source | Note |
+|---|---|---|---|
+| maps/seoul-essential-3-day-guide-map.webp | 9 | Nominatim (Gyeongbokgung, Bukchon, Cheonggye Plaza, Hongik Univ., Banpo Hangang, N Seoul Tower, Gwangjang, Myeongdong, DDP) | Cheonggyecheon plotted at Cheonggye Plaza (Jongno start), not the far eastern end |
+| maps/seoul-subway-tmoney-taxi-map.webp | 5 | Nominatim (Incheon Airport T1, Seoul Station, Jogyesa, Hongik Univ., Myeongdong Station) | Central Seoul cluster enlarged in inset |
+| maps/seoul-market-food-walk-map.webp | 3 | Nominatim (Gwangjang, Jongno 3-ga, Ikseon-dong) | - |
+| maps/incheon-day-trip-from-seoul-map.webp | 5 | Nominatim (Seoul Station, Incheon Chinatown, Jayu Park, Fairy Tale Village, Wolmido) | Incheon cluster enlarged in inset |
+| maps/seoul-winter-guide-late-november-december-map.webp | 5 | Nominatim (Gyeongbokgung, Gwangjang, Myeongdong, N Seoul Tower, DDP) | - |
+| maps/busan-pork-soup-milmyeon-map.webp | 6 | Nominatim (street addresses from the post for the 4 restaurants + Gamcheon + Jagalchi) | Naeho found via Korean name 내호냉면 |
+| maps/seoul-old-restaurants-baekban-bbq-map.webp | 4 of 5 | Nominatim (Imun via 이문설농탕, Wangbijib, Hadongkwan, Tosokchon) | Siu Sikdang OMITTED - no Nominatim hit for name or street address (18 Pilun-daero); left out rather than guessed |
+
+## stage2 real photos (2026-11-19)
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| busan-01.webp | Haeundae Beach, Busan, wide sand beach with promenade and seafront towers | 1600x1067, 156 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Haeundae_Beach_20200522_005.jpg |
+| busan-02.webp | A large crowd gathered at Gwangalli Beach in Busan for a night festival, with the illuminated Gwangan Bridge i | 1600x1600, 207 KB | Jiwoon Kim | CC0 | https://wordpress.org/photos/photo/28468adc01/ |
+| busan-03.webp | Gamcheon Culture Village, Busan, colorful hillside houses at sunset | 1600x1000, 235 KB | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Colorful_houses_in_Gamcheon_Culture_Village_at_sunset_in_Busan_South_Korea.jpg |
+| busan-04.webp | Jagalchi Market 01.jpg | 1600x978, 249 KB | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Jagalchi_Market_01.jpg |
+| busan-05.webp | Busan Gamcheon Village 2022-10-09.jpg | 1600x1200, 236 KB | RonanHoogmoed | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Busan_Gamcheon_Village_2022-10-09.jpg |
+| busan-06.webp | Busan milmyeon in a metal bowl, wheat noodles in clear broth with egg | 1600x1067, 123 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Busan_Milmyeon_20200522_001.jpg |
+| gangneung-01.webp | Gyeongpo Beach, Gangneung, GYEONGPO photo-frame sign on the sand | 1600x1065, 186 KB | Sergiy Galyonkin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Beach_in_Gangneung_(55439566654).jpg |
+| gangneung-02.webp | Anmok Beach 20220430 001.jpg | 1600x1001, 209 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Anmok_Beach_20220430_001.jpg |
+| gangneung-03.webp | Gyeongpo Lake 2018.jpg | 1600x1200, 189 KB | Solène Huille | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gyeongpo_Lake_2018.jpg |
+| gangneung-04.webp | Jumunjin Beach 20220501 003.jpg | 1600x1067, 212 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jumunjin_Beach_20220501_003.jpg |
+| gangneung-05.webp | Ojukheon 20220501 013.jpg | 1600x1110, 188 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ojukheon_20220501_013.jpg |
+| gangneung-06.webp | Jeongdongjin Station | 1024x768, 146 KB | Unknown | CC0 | https://www.rawpixel.com/image/5964917/jeongdongjin-station |
+| gyeongju-01.webp | Banya yeonji pond water reflection of bridge and trees under blue sky at Bulguksa Gyeongju South Korea.jpg | 1600x900, 241 KB | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Banya_yeonji_pond_water_reflection_of_bridge_and_trees_under_blue_sky_at_Bulguksa_Gyeongju_South_Korea.jpg |
+| gyeongju-02.webp | Daereungwon Tomb Complex.jpg | 1400x934, 245 KB | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Daereungwon_Tomb_Complex.jpg |
+| gyeongju-03.webp | 10 won bread.jpg | 1600x1519, 157 KB | Seefooddiet | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:10_won_bread.jpg |
+| gyeongju-04.webp | Cheomseongdae-1.jpg | 1199x1600, 248 KB | Zsinj | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Cheomseongdae-1.jpg |
+| gyeongju-05.webp | Gyochon Traditional Village 01.jpg | 1600x1200, 247 KB | Seefooddiet | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gyochon_Traditional_Village_01.jpg |
+| gyeongju-night-01.webp | Donggung Palace & Wolji Pond, Gyeongju - Donggung2687.jpg | 1600x1067, 179 KB | lumoplank | CC0 | https://commons.wikimedia.org/wiki/File:Donggung_Palace_%26_Wolji_Pond,_Gyeongju_-_Donggung2687.jpg |
+| gyeongju-night-02.webp | Illuminated Woljeonggyo Bridge at blue hour in Gyeongju South Korea.jpg | 1600x800, 150 KB | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Illuminated_Woljeonggyo_Bridge_at_blue_hour_in_Gyeongju_South_Korea.jpg |
+| gyeongju-night-03.webp | Cheomseongdae Night Blue.jpg | 1067x1600, 214 KB | Brinacor | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Cheomseongdae_Night_Blue.jpg |
+| gyeongju-night-04.webp | Anapji Pond, South Korea.jpg | 1600x1200, 205 KB | 螺钉 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Anapji_Pond,_South_Korea.jpg |
+| gyeongju-night-05.webp | Northern side of Woljeonggyo Bridge with stone columns at golden hour in Gyeongju South Korea.jpg | 1600x1000, 246 KB | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Northern_side_of_Woljeonggyo_Bridge_with_stone_columns_at_golden_hour_in_Gyeongju_South_Korea.jpg |
+| jeju-01.webp | Green vegetation on the low cloud-swept relief in Hallasan National Park Jeju South Korea.jpg | 1600x1067, 239 KB | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Green_vegetation_on_the_low_cloud-swept_relief_in_Hallasan_National_Park_Jeju_South_Korea.jpg |
+| jeju-03.webp | Jeju-olle-trail-ribbons.JPG | 1410x1020, 228 KB | Unknown | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Jeju-olle-trail-ribbons.JPG |
+| jeju-04.webp | Hamdeok Beach.jpg | 1600x1200, 237 KB | Hong Da Hyeon | CC0 | https://commons.wikimedia.org/wiki/File:Hamdeok_Beach.jpg |
+| jeju-05.webp | Jeju Dongmun Traditional Market 01.jpg | 1500x1125, 229 KB | Grapesurgeon | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeju_Dongmun_Traditional_Market_01.jpg |
+| jeju-06.webp | Seongeup Folk Village 01.jpg | 1200x900, 234 KB | Seefooddiet | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Seongeup_Folk_Village_01.jpg |
+| jeju-east-01.webp | Hydrangea macrophylla in front of Seongsan Ilchulbong volcano at blue hour in Jeju Island South Korea.jpg | 1600x1000, 234 KB | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg |
+| jeju-east-02.webp | Udo, Jeju Province, South Korea 02.jpg | 1600x899, 197 KB | 제주영상문화산업진흥원 | KOGL Type 1 | https://commons.wikimedia.org/wiki/File:Udo,_Jeju_Province,_South_Korea_02.jpg |
+| jeju-east-03.webp | Jeju Island Seopjikoji.jpg | 1600x900, 248 KB | Engin Cukuroglu | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeju_Island_Seopjikoji.jpg |
+| jeju-east-05.webp | KOCIS Trip to Jeju Island and Seoul (6278738685).jpg | 1600x1067, 218 KB | Korea.net / Korean Culture and Information Service | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:KOCIS_Trip_to_Jeju_Island_and_Seoul_(6278738685).jpg |
+| jeju-east-06.webp | Jeju Island 20141127 25 (15892738751).jpg | 1600x990, 218 KB | Republic of Korea from Seoul, Republic of Korea | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Jeju_Island_20141127_25_(15892738751).jpg |
+| jeju-west-01.webp | Hyeopjae.jpg | 1600x1079, 196 KB | Lcarrion88 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hyeopjae.jpg |
+| jeju-west-02.webp | Aewol in Jeju.jpg | 1600x1200, 198 KB | Jeong seolah | CC0 | https://commons.wikimedia.org/wiki/File:Aewol_in_Jeju.jpg |
+| jeju-west-03.webp | 2 Jpg (214547135).jpeg | 1600x900, 135 KB | M Min | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2_Jpg_(214547135).jpeg |
+| jeju-west-04.webp | Osulloc Tea Museum & Fields, Jeju.jpg | 1600x1067, 229 KB | Matt Kieffer | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Osulloc_Tea_Museum_%26_Fields,_Jeju.jpg |
+| jeju-west-05.webp | Hallim Park 02.jpg | 1000x750, 247 KB | Grapesurgeon | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hallim_Park_02.jpg |
+| jeju-west-06.webp | Gwakji Beach in Jeju Island, 2022.jpg | 1600x1200, 193 KB | Jeong seolah | CC0 | https://commons.wikimedia.org/wiki/File:Gwakji_Beach_in_Jeju_Island,_2022.jpg |
+
+## stage2 AI-generated illustrations (2026-11-19)
+
+Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not photos of real places; every caption says "Illustration: AI-generated".
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| busan-2-day-haeundae-gwangalli-gamcheon-illust-01.webp | AI-generated illustration: Flat vector route card: sandy beach with towers, colorful capsule on elevated rail, lit bridge, colorful hillside houses. Labels: Day 1 Haeundae, Sky Capsule, Gwangalli Bridge, Day 2 Gamcheon. | 1600x1067, 65 KB | AI-generated | - | - |
+| busan-2-day-haeundae-gwangalli-gamcheon-illust-02.webp | AI-generated illustration: Flat vector food and night infographic: wheat noodle bowl, pork soup with rice, glowing bridge at night. Labels: Milmyeon, Pork Soup, Night Bridge. | 1600x1200, 56 KB | AI-generated | - | - |
+| gangneung-one-night-ktx-coffee-gyeongpo-illust-01.webp | AI-generated illustration: Flat vector mood illustration: coffee cup with steam by a window, sandy beach with pines, lake pavilion, high-speed train in distance. Labels: Anmok Coffee, Gyeongpo Beach, KTX 2 hrs. | 1600x1067, 44 KB | AI-generated | - | - |
+| gyeongju-night-donggung-wolji-illust-01.webp | AI-generated illustration: Flat vector night mood illustration: navy and lavender sky, warm amber lights, pond reflecting a lit pavilion, illuminated wooden bridge, small stone tower under stars. Labels: Wolji Pond, Woljeonggyo, Cheomseongdae. | 1600x1067, 65 KB | AI-generated | - | - |
+| gyeongju-one-day-ktx-bulguksa-hwangridan-illust-01.webp | AI-generated illustration: Flat vector day timeline: high-speed train, old temple on hill, grass royal tombs, cafe street with snack stall. Labels: KTX, Bulguksa, Royal Tombs, Hwangridan-gil. | 1600x1067, 34 KB | AI-generated | - | - |
+| jeju-3-days-no-car-illust-01.webp | AI-generated illustration: Flat vector route timeline, 3 steps: city market building, volcanic cone by the sea, green mountain trail. Labels: Day 1 Jeju City, Day 2 East Coast, Day 3 Hallasan. | 1600x1067, 64 KB | AI-generated | - | - |
+| jeju-3-days-no-car-illust-02.webp | AI-generated illustration: Flat vector bus tips infographic: blue bus on a coastal road, transit card, phone map. Labels: T-money Card, Bus 201, Kakao T Taxi. | 1600x1200, 48 KB | AI-generated | - | - |
+| jeju-east-seongsan-udo-illust-01.webp | AI-generated illustration: Flat vector route card: volcanic peak, ferry boat, tiny island with lighthouse, cliff. Labels: Seongsan Peak, Ferry 15 min, Udo Island, Seopjikoji. | 1600x900, 30 KB | AI-generated | - | - |
+| jeju-west-aewol-oreum-cafes-illust-01.webp | AI-generated illustration: Flat vector mood illustration: grassy oreum hill, seaside cafe with cup, tea field rows, sea. Labels: Aewol, Oreum, Tea Fields. | 1600x900, 36 KB | AI-generated | - | - |
+
+## GPT illustrations - home banner + region hub mood images (2026-11-19)
+
+Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not photos of real places; every caption says "Illustration: AI-generated". Style: bright pastel cream background, coral and sky blue accents, flat vector with soft shadows, generous whitespace, English short labels only.
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| home-banner.webp | Home hero banner: Gyeongbokgung palace roof, N Seoul Tower, Han River cruise boat, cherry blossoms | 1600x533 | AI-generated | - | GPT image generation, 2026-11-19. Prompt: Wide flat vector travel banner illustration for a Seoul Korea travel blog hero: Gyeongbokgung palace roof, N Seoul Tower on a hill, Han River with a cruise boat, cherry blossom branches, bright pastel cream background with coral and sky blue accents, flat vector with soft shadows, generous whitespace, short English labels only: Seoul, Korea. |
+| seoul-mood.webp | Seoul hub mood: Gyeongbokgung palace, N Seoul Tower, Han River, street food stall | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| busan-mood.webp | Busan hub mood: Haeundae beach, Gwangan Bridge at night, Gamcheon hillside houses, fish market | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| incheon-mood.webp | Incheon hub mood: Chinatown red gate, old port with a ship, seaside promenade, fairy tale village houses | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| jeju-mood.webp | Jeju hub mood: Hallasan, Seongsan cone by the sea, orange grove, black sand beach | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| gyeongju-mood.webp | Gyeongju hub mood: Bulguksa temple, royal tombs, Wolji Pond pavilion at night | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| gangwon-mood.webp | Gangwon hub mood: beach with pines, coffee cup, lake pavilion, mountains | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| jeonju-mood.webp | Jeonju hub mood: hanok rooftops, bibimbap bowl, traditional gate, lanterns | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| gyeonggi-suwon-mood.webp | Suwon hub mood: Hwaseong Fortress wall and gate, palace pavilion, walking trail | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+
+## stage3 real photos (2026-11-19)
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+
+
+## stage3 AI-generated illustrations (2026-11-19)
+
+Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not photos of real places; every caption says "Illustration: AI-generated".
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| sokcho-seorak-one-night-from-seoul-illust-01.webp | AI-generated illustration: Flat vector travel infographic, 16:9 landscape, bright pastel background with coral and sky-blue accents, soft shadows, generous white space. A horizontal timeline of a one-night trip from Seoul to Sokcho and Seoraksan: four simple icons in a row connected by a dotted line - a bus, a mountain cable car, a beach umbrella, a fishing port boat. Short English labels only under each icon: Seoul, Seoraksan, Sokcho Beach, Daepohang. No long sentences, no photorealism, no photos of real places. Clean guidebook illustration style. | 1600x800, 43 KB | AI-generated | - | - |
+| jeonju-one-day-hanok-bibimbap-gaekridan-illust-01.webp | AI-generated illustration: Flat vector travel infographic, 16:9 landscape, bright pastel background with coral and sky-blue accents, soft shadows, generous white space. A horizontal timeline of a one-day trip to Jeonju: four simple icons in a row connected by a dotted line - a train, a traditional Korean hanok house with curved roof, a bowl of bibimbap, a cafe coffee cup. Short English labels only under each icon: KTX, Hanok Village, Bibimbap, Gaekridan. No long sentences, no photorealism, no photos of real places. Clean guidebook illustration style. | 1600x900, 46 KB | AI-generated | - | - |
+| jeonju-night-market-cafes-illust-01.webp | AI-generated illustration: Flat vector travel infographic, 16:9 landscape, soft dark-blue evening background with pastel coral and warm yellow accents, soft shadows, generous space. A horizontal timeline of one evening in Jeonju: three simple icons in a row connected by a dotted line - a traditional pavilion with a glowing lantern, a night market food stall with a striped awning, a cafe coffee cup with a small dessert. Short English labels only under each icon: Omokdae, Night Market, Cafe. No long sentences, no photorealism, no photos of real places. Clean guidebook illustration style. | 1600x900, 45 KB | AI-generated | - | - |
+| seoul-cafes-seongsu-yeonnam-ikseon-illust-01.webp | AI-generated illustration: Flat vector travel infographic, 16:9 landscape, bright pastel background with coral and sky-blue accents, soft shadows, generous white space. Three simple cafe scenes side by side - a modern warehouse-style cafe building, a leafy park-side cafe with outdoor chairs, a traditional hanok house with a curved tiled roof and a coffee cup sign. Short English labels only under each scene: Seongsu, Yeonnam, Ikseon. No long sentences, no photorealism, no photos of real places. Clean guidebook illustration style. | 1600x900, 96 KB | AI-generated | - | - |
+| seoul-night-han-river-cruise-ramyeon-illust-01.webp | AI-generated illustration: Flat vector travel infographic, 16:9 landscape, soft dark-blue evening background with pastel coral and sky-blue accents, soft shadows, generous space. A horizontal timeline of one evening on the Han River in Seoul: three simple icons in a row connected by a dotted line - a river cruise boat, a bridge with rainbow fountain arcs, a cup of instant noodles with chopsticks. Short English labels only under each icon: Cruise, Banpo Bridge, Han River Ramyeon. No long sentences, no photorealism, no photos of real places. Clean guidebook illustration style. | 1600x900, 46 KB | AI-generated | - | - |
+| suwon-hwaseong-one-day-illust-01.webp | AI-generated illustration: Flat vector travel infographic, 16:9 landscape, bright pastel background with coral and sky-blue accents, soft shadows, generous white space. A gentle curved fortress wall drawn across the scene with four simple gate icons along it - a south gate, a palace building, a north gate, a hilltop pavilion. Short English labels only under each icon: Paldalmun, Haenggung, Janganmun, Seojangdae. A small walking figure with a dotted path along the wall. No long sentences, no photorealism, no photos of real places. Clean guidebook illustration style. | 1600x900, 40 KB | AI-generated | - | - |
+
+## stage3 real photos (2026-11-19)
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| sokcho-01.webp | Granite peaks in Seoraksan National Park | 1600x1067, 232 KB | kallerna | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Seoraksan_National_Park_panorama_3.jpg |
+| sokcho-02.webp | Seoraksan cable car | 1600x902, 185 KB | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Seoraksan_Cable_Car_01.jpg |
+| sokcho-03.webp | Sinheungsa Temple, Seoraksan | 1400x934, 245 KB | De-Shao Liu | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sinheungsa,_Seoraksan_2018-09-02-01.jpg |
+| sokcho-04.webp | Sokcho Beach | 1400x934, 235 KB | Dr. Thomas Liptak | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sokcho,_Sokcho_Beach.jpg |
+| sokcho-05.webp | Daepo Port, Sokcho | 1600x932, 239 KB | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Daepo_Port,_Sokcho_01.jpg |
+| sokcho-06.webp | Ulsanbawi Rock from Misiryeong Ridge | 1600x1200, 246 KB | Misiryeong | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:20160714_Ulsanbawi_Rock_as_seen_from_the_Misiryeong_Ridge.jpg |
+| jeonju-01.webp | Gyeonggijeon, Jeonju | 1600x1067, 240 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeonju_Gyeonggijeon_20230408_045.jpg |
+| jeonju-02.webp | Gyeonggijeon, Jeonju, another angle | 1400x934, 234 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeonju_Gyeonggijeon_20230408_065.jpg |
+| jeonju-03.webp | A street in Jeonju Hanok Village | 1024x683, 91 KB | ecodallaluna | CC BY-SA 2.0 | https://www.flickr.com/photos/12364718@N00/9644135486 |
+| jeonju-04.webp | Downtown Jeonju street | 1600x1200, 204 KB | Shamus7792003 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Downtown_Jeonju_-_July_2018_(3).jpg |
+| jeonju-night-01.webp | Omokdae pavilion at night, Jeonju | 1201x1600, 190 KB | Пекту Сан | CC0 | https://commons.wikimedia.org/wiki/File:Omokdae_at_night_2.jpg |
+| jeonju-night-02.webp | Sunset over Jeonju | 1024x576, 132 KB | Giuseppe Milo | CC BY 2.0 | https://www.flickr.com/photos/87690240@N03/26537128117 |
+| jeonju-night-03.webp | Jeonju River by Nambu Market | 1600x1200, 235 KB | Shamus7792003 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Along_Jeonju_River_and_across_from_Nambu_Market..JPG |
+| jeonju-night-04.webp | Hanok Village street in evening light | 1024x683, 25 KB | ecodallaluna | CC BY-SA 2.0 | https://www.flickr.com/photos/12364718@N00/9640916067 |
+| jeonju-night-05.webp | A Korean street-food stall | 1024x683, 118 KB | teamshaw79 | CC BY-SA 2.0 | https://www.flickr.com/photos/22884327@N05/5188157231 |
+| seoul-cafe-01.webp | A narrow lane in Ikseon-dong, tables out front | 1600x1067, 193 KB | S h y numis | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ikseon-dong_%EC%9D%B5%EC%84%A0%EB%8F%99_October_1_2020_10.jpg |
+| seoul-cafe-02.webp | A lane in Ikseon-dong | 1600x1067, 195 KB | S h y numis | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ikseon-dong_%EC%9D%B5%EC%84%A0%EB%8F%99_October_1_2020_2.jpg |
+| seoul-cafe-03.webp | Storefronts in Seongsu-dong | 1600x1200, 192 KB | CartoonChess | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Seongsu-dong_storefronts.jpg |
+| seoul-cafe-04.webp | Gyeongui Line Forest Park, Yeonnam-dong | 1600x1067, 238 KB | Korea Tourism Organization, Lee Bumsu | KOGL Type 1 | https://commons.wikimedia.org/wiki/File:Yeonnam-dong_Gyeongui_Line_Forest_Park_(1).jpg |
+| seoul-cafe-05.webp | Inside a cafe in Hongdae | 1023x701, 93 KB | seafaringwoman | CC BY 2.0 | https://www.flickr.com/photos/27284887@N03/5377025887 |
+| seoul-cafe-06.webp | Street art in Seongsu-dong | 1600x1200, 232 KB | CartoonChess | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Graffiti_art_in_Seongsu-dong.jpg |
+| han-01.webp | Banpo Bridge Moonlight Rainbow Fountain at night | 1600x900, 174 KB | Wvdp | CC0 | https://commons.wikimedia.org/wiki/File:Banpo_Bridge_Moonlight_Rainbow_Fountain_at_night_-_2023-08-14.jpg |
+| han-02.webp | Banpo Bridge rainbow fountain, daytime | 1023x513, 59 KB | travel oriented | CC BY-SA 2.0 | https://www.flickr.com/photos/99958070@N02/13680145585 |
+| han-03.webp | Seongsan Bridge over the Han River | 1024x578, 109 KB | travel oriented | CC BY-SA 2.0 | https://www.flickr.com/photos/99958070@N02/14879843793 |
+| han-04.webp | Cup ramyeon | 1600x1600, 91 KB | The Pancake of Heaven! | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Fried_Tofu_Cup_Ramyeon.jpg |
+| suwon-01.webp | The wall of Hwaseong Fortress, Suwon | 1200x1600, 232 KB | VN.NguyenDucDuy | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Wall_of_Hwaseong_Fortress_in_Suwon,_South_Korea.jpg |
+| suwon-02.webp | Hwaseong Haenggung Palace panorama | 1400x1050, 219 KB | Adil | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hwaseong_Haenggung_Palace_panorama.jpg |
+| suwon-03.webp | Janganmun, north gate of Hwaseong Fortress | 1600x1200, 107 KB | oreum | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Janganmun.JPG |
+| suwon-04.webp | Banghwasuryujeong pavilion on the fortress wall | 1600x1200, 234 KB | oreum | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Banghwasuryujeong_20081005_detail.JPG |
+| suwon-05.webp | Hwaseong Haenggung Palace in the evening | 1200x1600, 247 KB | Gayeong2133 | CC0 | https://commons.wikimedia.org/wiki/File:Hwaseong_Haenggung_palace_in_Suwon_in_the_evening.jpg |

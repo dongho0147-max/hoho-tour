@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article>
+{{ partial "breadcrumbs.html" . }}
 <h1>{{ .Title }}</h1>
 {{ if .Date }}<p class="meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.updated }} &middot; Updated {{ . }}{{ end }} &middot; {{ .ReadingTime }} min read</p>{{ end }}
 {{ with .Params.image }}
@@ -10,6 +11,7 @@
 {{ if or $alt $credit }}<figcaption>{{ $alt }}{{ with $credit }} &middot; Photo: {{ . }}{{ end }}</figcaption>{{ end }}
 </figure>
 {{ end }}
+{{ partial "tour-summary.html" . }}
 {{ .Content }}
 {{ $regions := .GetTerms "regions" }}
 {{ $themes := .GetTerms "themes" }}
@@ -19,8 +21,9 @@
 {{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
 </p>
 {{ end }}
+{{ partial "related-posts.html" . }}
 {{ if eq .Section "blog" }}
-<div class="disclosure"><strong>Links:</strong> Some links in this guide go to booking sites (Klook, Agoda). These are plain links for convenience, not affiliate links, and we do not earn commission from them. They never change what we recommend.</div>
+<div class="disclosure">Some links on this page are affiliate links. If you book through one, we may earn a small commission at no extra cost to you. It never changes what we recommend.</div>
 {{ end }}
 </article>
 {{ end }}

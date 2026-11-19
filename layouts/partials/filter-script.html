@@ -1,0 +1,2 @@
+{{/* Loads assets/js/home-map.js (home map + hub theme chips). Local file, no CDN. */}}
+{{ with resources.Get "js/home-map.js" }}{{ with . | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}{{ end }}

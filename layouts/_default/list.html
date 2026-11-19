@@ -1,14 +1,17 @@
 {{ define "main" }}
+<div class="page-head">
+<p class="eyebrow">HOHO Tour guides</p>
 <h1>{{ .Title }}</h1>
-{{ .Content }}
-<ul class="guide">
+{{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+</div>
+<ul class="cards">
 {{ range .Pages.ByDate.Reverse }}
 {{ $p := . }}
-<li><div class="row">
-{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ end }}
-<div>
+<li class="card">
+{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ else }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="/images/banner/banner-seoul.webp" alt="{{ $p.Title }}" width="480" height="320" loading="lazy"></a>{{ end }}
+<div class="card-body">
 <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-<p>{{ .Description }}</p>
+<p class="desc">{{ .Description }}</p>
 <p class="meta">{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
 {{ $regions := .GetTerms "regions" }}
 {{ $themes := .GetTerms "themes" }}
@@ -19,7 +22,7 @@
 </p>
 {{ end }}
 <a class="readmore" href="{{ .RelPermalink }}">Read the guide &rarr;</a>
-</div></div></li>
+</div></li>
 {{ end }}
 </ul>
 {{ end }}

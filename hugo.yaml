@@ -1,6 +1,8 @@
 baseURL: "https://hoho-tour.com/"
 title: "HOHO Tour"
 languageCode: "en-US"
+# Dates are Korea time: posts dated today (KST) must appear in a plain build.
+timeZone: "Asia/Seoul"
 defaultContentLanguage: "en"
 disableKinds:
   - RSS

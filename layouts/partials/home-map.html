@@ -1,0 +1,80 @@
+{{/* home-map.html: interactive Korea province map on the home page (drill-down step 1).
+   - Shapes: data/korea_provinces.json (Natural Earth admin-1, public domain, simplified
+     and projected offline; see the attribution line below the map).
+   - Regions: data/regions.yaml is the single source of truth. A province is clickable
+     only when a regions.yaml entry points at it (path_id) AND that region has guides.
+   - Filtering: assets/js/home-map.js. Cards live in #latest-guides (layouts/index.html). */}}
+{{ $map := site.Data.korea_provinces }}
+{{ $regions := site.Data.regions.regions }}
+{{ $country := site.Data.regions.country.slug | default "korea" }}
+{{ $tax := site.Taxonomies.regions }}
+{{ $active := slice }}
+{{ range $regions }}
+  {{ $n := len (index $tax .slug | default slice) }}
+  {{ if gt $n 0 }}{{ $active = $active | append (dict "r" . "n" $n) }}{{ end }}
+{{ end }}
+<section class="home-map" aria-labelledby="home-map-title"
+  data-filter-root data-filter-attr="region"
+  data-filter-items="#latest-guides" data-filter-heading="#latest-guides-heading"
+  data-heading-all="Latest guides" data-heading-one="Guides in {name}">
+<div class="home-map__intro">
+<p class="eyebrow">Explore by map</p>
+<h2 id="home-map-title">Tap a region, the guides fold out below</h2>
+<p class="home-map__hint">Pick a place on the map or a chip. The guide cards filter right here, no page jump.</p>
+</div>
+<div class="home-map__layout">
+<div class="home-map__stage">
+<svg class="korea-map" viewBox="0 0 {{ $map.width }} {{ $map.height }}" role="group" aria-labelledby="home-map-title" focusable="false">
+{{ range $map.provinces }}
+  {{ $pid := .id }}
+  {{ $r := index (where $regions "path_id" $pid) 0 }}
+  {{ $n := 0 }}{{ with $r }}{{ $n = len (index $tax .slug | default slice) }}{{ end }}
+  {{ if and $r (gt $n 0) }}
+<path id="prov-{{ $pid }}" class="prov prov--active" d="{{ .d }}" data-filter-value="{{ $r.slug }}" data-filter-label="{{ $r.name }}" role="button" tabindex="0" aria-pressed="false" aria-label="{{ $r.name }}: show {{ $n }} guide{{ if ne $n 1 }}s{{ end }}"><title>{{ $r.name }} ({{ $n }} guide{{ if ne $n 1 }}s{{ end }})</title></path>
+  {{ else if $r }}
+<path id="prov-{{ $pid }}" class="prov prov--soon" d="{{ .d }}"><title>{{ $r.name }} - guides coming soon</title></path>
+  {{ else }}
+<path id="prov-{{ $pid }}" class="prov prov--muted" d="{{ .d }}" aria-hidden="true"></path>
+  {{ end }}
+{{ end }}
+<use class="prov-highlight" href="" aria-hidden="true"></use>
+<g class="map-pins" aria-hidden="true">
+{{ range $regions }}
+  {{ $n := len (index $tax .slug | default slice) }}
+  {{ $x := mul (sub (float .center.lng) $map.lng_min) $map.kx }}
+  {{ $y := mul (sub $map.lat_max (float .center.lat)) $map.ky }}
+  {{ $left := or (gt (float .center.lng) 128.5) (eq $n 0) }}
+<g class="map-pin{{ if eq $n 0 }} map-pin--soon{{ end }}"{{ if gt $n 0 }} data-filter-value="{{ .slug }}" data-filter-label="{{ .name }}"{{ end }} transform="translate({{ printf "%.1f" $x }} {{ printf "%.1f" $y }})">
+<circle r="{{ if gt $n 0 }}6{{ else }}4.5{{ end }}"></circle>
+<text x="{{ if $left }}-12{{ else }}12{{ end }}" y="0.35em" text-anchor="{{ if $left }}end{{ else }}start{{ end }}">{{ .name }}{{ if gt $n 0 }} {{ $n }}{{ end }}</text>
+</g>
+{{ end }}
+</g>
+</svg>
+</div>
+<div class="home-map__panel">
+<p class="home-map__status" aria-live="polite" data-filter-status></p>
+<div class="map-chips" role="toolbar" aria-label="Filter guides by region" data-filter-controls hidden>
+<button type="button" class="map-chip is-selected" data-filter-value="" aria-pressed="true">All regions</button>
+{{ range $active }}
+<button type="button" class="map-chip" data-filter-value="{{ .r.slug }}" data-filter-label="{{ .r.name }}" aria-pressed="false">{{ .r.name }} <span class="map-chip__n">{{ .n }}</span></button>
+{{ end }}
+</div>
+<ul class="map-hub-links">
+{{ range $regions }}
+  {{ $n := len (index $tax .slug | default slice) }}
+<li><a href="/{{ $country }}/{{ .slug }}/"{{ if eq $n 0 }} class="is-soon"{{ end }}>{{ .name }} <span lang="ko">{{ .name_ko }}</span>{{ if eq $n 0 }} <em>soon</em>{{ end }}</a></li>
+{{ end }}
+</ul>
+</div>
+</div>
+<p class="map-credit">Province boundaries: <a href="https://www.naturalearthdata.com/">Natural Earth</a> 1:10m Admin 1 (public domain), simplified for the web. Some small outlying islands are omitted.</p>
+<noscript>
+<div class="map-noscript">
+<p>Browse guides by region:</p>
+<ul>
+{{ range $regions }}<li><a href="/{{ $country }}/{{ .slug }}/">{{ .name }}</a></li>{{ end }}
+</ul>
+</div>
+</noscript>
+</section>

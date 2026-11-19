@@ -1,0 +1,93 @@
+# Regions data - single source of truth for home map, hubs, and nav.
+# 3 layers: country / region / city. Hub URL pattern: /korea/<region>/ (expandable:
+# /japan/<region>/ etc. for roadmap stages 2-4). Status: active = has guides,
+# coming-soon = no guides yet (shown muted on the map, hub shows a note).
+# Path ids refer to the province shapes in the home SVG map.
+country:
+  slug: korea
+  name: South Korea
+  name_ko: 한국
+regions:
+  - slug: seoul
+    name: Seoul
+    name_ko: 서울
+    status: active
+    center: { lat: 37.5665, lng: 126.9780 }
+    path_id: seoul
+    cities: [Seoul]
+    subthemes: [itineraries, food-restaurants, day-trips, transit-tips, seasonal, cafes, nightlife]
+    image: images/hubs/seoul-mood.webp
+    blurb: "Three days, the subway, markets, old restaurants, winter lights, cafes, and the Han at night."
+  - slug: busan
+    name: Busan
+    name_ko: 부산
+    status: active
+    center: { lat: 35.1796, lng: 129.0756 }
+    path_id: busan
+    cities: [Busan]
+    subthemes: [itineraries, food-restaurants, nightlife, day-trips]
+    image: images/hubs/busan-mood.webp
+    blurb: "Pork soup and milmyeon, Haeundae to Gwangalli, Gamcheon in a day or two."
+  - slug: incheon
+    name: Incheon
+    name_ko: 인천
+    status: active
+    center: { lat: 37.4563, lng: 126.7052 }
+    path_id: incheon
+    cities: [Incheon]
+    subthemes: [day-trips]
+    image: images/hubs/incheon-mood.webp
+    blurb: "Chinatown, the old port, and the sea, an hour from Seoul by subway."
+  - slug: jeju
+    name: Jeju
+    name_ko: 제주
+    status: active
+    center: { lat: 33.4996, lng: 126.5312 }
+    path_id: jeju
+    cities: [Jeju City, Seongsan, Aewol]
+    subthemes: [itineraries, day-trips, cafes]
+    image: images/hubs/jeju-mood.webp
+    blurb: "No rental car needed: buses, the east coast, oreum hills, and seaside cafes."
+  - slug: gyeongju
+    name: Gyeongju
+    name_ko: 경주
+    status: active
+    center: { lat: 35.8562, lng: 129.2247 }
+    path_id: gyeongsangbuk
+    cities: [Gyeongju]
+    subthemes: [itineraries, nightlife, day-trips]
+    image: images/hubs/gyeongju-mood.webp
+    blurb: "KTX in, tombs and temples by day, Wolji Pond lit up at night."
+  - slug: gangwon
+    name: Gangwon
+    name_ko: 강원
+    status: active
+    center: { lat: 37.7519, lng: 128.8761 }
+    path_id: gangwon
+    cities: [Gangneung, Sokcho]
+    subthemes: [itineraries, cafes, day-trips]
+    image: images/hubs/gangwon-mood.webp
+    blurb: "Coffee street and Gyeongpo in Gangneung, Seoraksan and the sea in Sokcho."
+  - slug: jeonju
+    name: Jeonju
+    name_ko: 전주
+    status: active
+    center: { lat: 35.8242, lng: 127.1478 }
+    path_id: jeollabuk
+    cities: [Jeonju]
+    subthemes: [itineraries, food-restaurants, cafes, nightlife, day-trips]
+    image: images/hubs/jeonju-mood.webp
+    blurb: "Hanok village, bibimbap, and the night market."
+  - slug: gyeonggi-suwon
+    name: Gyeonggi - Suwon
+    name_ko: 경기 - 수원
+    status: active
+    center: { lat: 37.2636, lng: 127.0286 }
+    path_id: gyeonggi
+    cities: [Suwon]
+    subthemes: [itineraries, day-trips]
+    image: images/hubs/gyeonggi-suwon-mood.webp
+    blurb: "Hwaseong Fortress, a day trip from Seoul."
+# Roadmap stage (2026-11-19 master spec): 0 = frame + domestic core.
+# 1 = all major Korean cities (Yeosu next). 2 = Northeast Asia. 3 = Asia. 4 = worldwide.
+roadmap_stage: 0

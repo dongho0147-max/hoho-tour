@@ -61,35 +61,35 @@ Last updated: 2026-11-18 (revamp v1).
   guessed. A guide written from research (not a visit) says how the
   information was checked in its footer note.
 
-## 3. Links to booking sites
+## 3. Links to booking sites (policy changed 2026-11-19 - this section supersedes the 2026-11-18 version)
 
-- There are no affiliate links on this site right now. Do not write
-  "(affiliate link)" next to a link, and do not claim a commission.
-- Booking links are plain links for convenience, rendered with the
-  `{{< aff >}}` shortcode so they open in a new tab with
-  `rel="nofollow noopener"`. Never use `rel="sponsored"` - there is no
-  sponsorship and no tracking.
-- Allowed: Klook search URLs
-  (`https://www.klook.com/en-US/search/?query=<keywords>` - verified live
-  2026-11-18) and Agoda city pages (`https://www.agoda.com/city/seoul-kr.html`
-  - verified HTTP 200). 2-3 links per guide, placed at the end of the
-  paragraph they relate to, inside an `affiliate-cta` box.
-- Travelpayouts tracking links are NOT used: no Partner ID (marker),
-  no project, and no program approvals (Klook / GetYourGuide / Viator /
-  Agoda) have been confirmed. Do not invent a tracking URL. Do not use
-  the number `599763` - it has no verified source. If Travelpayouts is
-  set up later, generate links in the Travelpayouts dashboard only, and
-  update the disclosure on every page at the same time.
+- Some links on this site ARE affiliate links. The disclosure on every page
+  says so: "Some links on this page are affiliate links. If you book through
+  one, we may earn a small commission at no extra cost to you. It never
+  changes what we recommend." Do not write "(affiliate link)" next to a link;
+  the disclosure covers it.
+- Booking links use the `{{< aff >}}` shortcode so they open in a new tab.
+  The Travelpayouts script in baseof.html converts them automatically; never
+  add tracking parameters or short URLs by hand.
+- Allowed: Klook REAL product pages (activity/ticket/tour pages, verified live
+  in a browser - curl returns 403 because Klook bot-blocks curl, which is not
+  a dead link) and Agoda REAL hotel or region pages (verified HTTP 200).
+  Search pages are NOT allowed. 2-4 links per guide, placed in context (inline
+  in the paragraph they relate to, or in a tip box as "Book this"). No
+  link-only blocks, no irrelevant products.
+- Travelpayouts: the emrld script (emrld.ltd/NTk5NzYz.js?t=599763, marker
+  804616) IS in this repository (baseof.html, restored from main 2026-11-19).
+  Do not delete or edit it. Do not invent tracking URLs; the script handles
+  conversion. Do not use the number `599763` in a hand-built URL.
 - GetYourGuide links are not used until they can be verified in a
   browser (getyourguide.com blocks this environment). Use the equivalent
-  Klook search URL instead.
+  Klook product page instead.
 - MyRealTrip / Trip.com: link only if a Travelpayouts program for them
   exists and is approved; otherwise introduce them as information only,
   no link. Never copy a product page image.
-- The emrld Travelpayouts script is not in this repository. Do not add
-  it, do not edit it. The per-post disclosure in `single.html` and the
-  About / Privacy pages must always match reality: today they say plain
-  links, no commission.
+- The per-post disclosure in `single.html` and the About / Privacy pages must
+  always match reality: today they say affiliate links, small commission,
+  no extra cost to the reader.
 
 ## 4. Categories (taxonomy)
 

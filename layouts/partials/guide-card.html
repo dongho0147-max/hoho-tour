@@ -1,0 +1,21 @@
+{{/* guide-card.html: one guide card. Context = the post page.
+   data-region / data-themes let assets/js/home-map.js filter cards client-side. */}}
+{{ $p := . }}
+{{ $regions := .GetTerms "regions" }}
+{{ $themes := .GetTerms "themes" }}
+{{ $firstRegion := "" }}{{ with .Params.regions }}{{ $firstRegion = index . 0 | urlize }}{{ end }}
+{{ $themeKeys := slice }}{{ range .Params.themes }}{{ $themeKeys = $themeKeys | append (. | urlize) }}{{ end }}
+<li class="card" data-filter-item data-region="{{ $firstRegion }}" data-themes="{{ delimit $themeKeys " " }}">
+{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ else }}<a class="thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="/images/banner/banner-seoul.webp" alt="{{ $p.Title }}" width="480" height="320" loading="lazy"></a>{{ end }}
+<div class="card-body">
+<a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+<p class="desc">{{ .Description }}</p>
+<p class="meta">{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
+{{ if or $regions $themes }}
+<p class="term-chips" aria-label="Filed under">
+{{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+{{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+</p>
+{{ end }}
+<a class="readmore" href="{{ .RelPermalink }}">Read the guide &rarr;</a>
+</div></li>

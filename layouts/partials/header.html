@@ -1,5 +1,5 @@
 <header class="site"><div class="wrap">
-<a class="brand" href="/"><img src="/images/hoho-tour-symbol-final.png" alt="HOHO Tour logo" width="38" height="36">HOHO Tour</a>
+<a class="brand" href="/"><img src="/images/hoho-tour-symbol-final.png" alt="HOHO Tour logo" width="38" height="36">HOHO <em>Tour</em></a>
 <nav>
 <a href="/"{{ if .IsHome }} aria-current="page"{{ end }}>Home</a>
 <a href="/blog/"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>Guides</a>
@@ -8,4 +8,16 @@
 <a href="/about/">About</a>
 <a href="/privacy/">Privacy</a>
 </nav>
-</div></header>
+</div>
+{{/* Region nav row: big categories from data/regions.yaml (single source of truth) */}}
+{{ $country := site.Data.regions.country.slug | default "korea" }}
+{{ $curRegion := "" }}
+{{ if and (eq .Kind "term") (eq .Data.Plural "regions") }}{{ $curRegion = .Data.Term }}{{ else if .IsPage }}{{ with .Params.regions }}{{ $curRegion = index . 0 | urlize }}{{ end }}{{ end }}
+<nav class="region-nav" aria-label="Regions">
+<div class="wrap region-nav__row">
+{{ range site.Data.regions.regions }}
+<a href="/{{ $country }}/{{ .slug }}/" class="region-nav__link{{ if ne .status "active" }} is-soon{{ end }}"{{ if eq $curRegion .slug }}{{ if eq $.Kind "term" }} aria-current="page"{{ else }} aria-current="true"{{ end }}{{ end }}>{{ .name }}<span class="region-nav__ko" lang="ko">{{ .name_ko }}</span></a>
+{{ end }}
+</div>
+</nav>
+</header>
