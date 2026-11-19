@@ -30,7 +30,9 @@ landing at Incheon Airport tomorrow.
 - **Photos are real and credited.** We never take photos from other blogs.
   Every photograph on this site is a real photograph, credited to its
   photographer under a Creative Commons license or a public-domain
-  dedication. No AI-generated images are used.
+  dedication. The flat illustrations on some pages are AI-generated; each
+  one is labelled in its caption, and photos of real places are never
+  AI-generated or altered to look like somewhere else.
 
 ## Links to booking sites
 
@@ -45,7 +47,8 @@ ourselves, and a link never changes a price, a rating, or an itinerary.
 
 Every photograph on this site is a real photograph, credited to its
 photographer under a Creative Commons license (or a public-domain dedication).
-No AI-generated images are used. The full list, with the source page and
+The illustrations are AI-generated, labelled in their captions and recorded
+at the end of the credits file. The full list, with the source page and
 license for each photo, is in
 [photo credits](/images/photos/CREDITS.md). The two photos whose licenses
 forbid commercial use were not used on this site.

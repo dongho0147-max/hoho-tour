@@ -1,8 +1,8 @@
 # Photo Credits - HOHO Tour
 
-All 38 photos in `static/images/photos/` are real photographs (no AI-generated images).
-Topics below describe the actual verified content of each file (seoul-01 to seoul-26 checked by opening each file on 2026-11-18; seoul-27 to seoul-38 checked the same way on 2026-11-18).
-Long edge is 1600px for 32 photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept at their original resolution (1024px or less) with no upscaling, and seoul-37 is kept at 960px (its 1600px original was blocked by a Wikimedia HTTP 429 rate limit at fetch time - re-fetch at 1600px when the limit clears). Every file is WebP and under 250 KB.
+`static/images/photos/` holds 106 real photographs and 15 AI-generated illustrations. The photograph rows in the first table are real photographs, all of them (none is AI-generated); every AI-generated illustration is in one of the illustration sections below and is marked "AI-generated".
+Photograph topics describe the actual verified content of each file (seoul-01 to seoul-26 checked by opening each file on 2026-11-18; seoul-27 to seoul-38 checked the same way on 2026-11-18, and later files when each was added).
+Long edge is 1600px for most photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept at their original resolution (1024px or less) with no upscaling, and seoul-37 is kept at 960px (its 1600px original was blocked by a Wikimedia HTTP 429 rate limit at fetch time - re-fetch at 1600px when the limit clears). Every file is WebP and under 250 KB.
 
 | File | Subject (verified) | Size | Author | License | Source |
 |---|---|---|---|---|---|
