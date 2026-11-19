@@ -1,23 +1,49 @@
 <header class="site"><div class="wrap">
-<a class="brand" href="/"><img src="/images/hoho-tour-symbol-final.png" alt="HOHO Tour logo" width="38" height="36">HOHO <em>Tour</em></a>
+<a class="brand" href="{{ "/" | relLangURL }}"><img src="/images/hoho-tour-symbol-final.png" alt="HOHO Tour logo" width="38" height="36">HOHO <em>Tour</em></a>
 <nav>
-<a href="/"{{ if .IsHome }} aria-current="page"{{ end }}>Home</a>
-<a href="/blog/"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>Guides</a>
-<a href="/regions/"{{ if hasPrefix .RelPermalink "/regions/" }} aria-current="page"{{ end }}>Regions</a>
-<a href="/themes/food-restaurants/"{{ if eq .RelPermalink "/themes/food-restaurants/" }} aria-current="page"{{ end }}>Food</a>
-<a href="/about/">About</a>
-<a href="/privacy/">Privacy</a>
+<a href="{{ "/" | relLangURL }}"{{ if .IsHome }} aria-current="page"{{ end }}>{{ i18n "home" }}</a>
+<a href="{{ "/blog/" | relLangURL }}"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>{{ i18n "guides" }}</a>
+<a href="{{ "/regions/" | relLangURL }}"{{ if in .RelPermalink "/regions/" }} aria-current="page"{{ end }}>{{ i18n "regions" }}</a>
+<a href="/themes/food-restaurants/"{{ if eq .RelPermalink "/themes/food-restaurants/" }} aria-current="page"{{ end }}>{{ i18n "food" }}</a>
+<a href="/about/">{{ i18n "about" }}</a>
+<a href="/privacy/">{{ i18n "privacy" }}</a>
 </nav>
+{{ partial "lang-toggle.html" . }}
 </div>
-{{/* Region nav row: big categories from data/regions.yaml (single source of truth) */}}
+</header>
+{{/* Region nav row: big categories from data/regions.yaml (single source of truth).
+   Sibling of <header>, not inside it: it is its own sticky bar (position:sticky,
+   top = header height, see style.css .region-nav), so it stays pinned under the
+   sticky header while the page scrolls.
+   Hub links are language-aware (relLangURL): /korea/<slug>/ in EN,
+   /kr/korea/<slug>/ in KR. On KR the Korean name (name_ko) is the primary label. */}}
 {{ $country := site.Data.regions.country.slug | default "korea" }}
 {{ $curRegion := "" }}
 {{ if and (eq .Kind "term") (eq .Data.Plural "regions") }}{{ $curRegion = .Data.Term }}{{ else if .IsPage }}{{ with .Params.regions }}{{ $curRegion = index . 0 | urlize }}{{ end }}{{ end }}
-<nav class="region-nav" aria-label="Regions">
+<nav class="region-nav" aria-label="{{ i18n "regions" }}">
 <div class="wrap region-nav__row">
 {{ range site.Data.regions.regions }}
-<a href="/{{ $country }}/{{ .slug }}/" class="region-nav__link{{ if ne .status "active" }} is-soon{{ end }}"{{ if eq $curRegion .slug }}{{ if eq $.Kind "term" }} aria-current="page"{{ else }} aria-current="true"{{ end }}{{ end }}>{{ .name }}<span class="region-nav__ko" lang="ko">{{ .name_ko }}</span></a>
+<a href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}" class="region-nav__link{{ if ne .status "active" }} is-soon{{ end }}"{{ if eq $curRegion .slug }}{{ if eq $.Kind "term" }} aria-current="page"{{ else }} aria-current="true"{{ end }}{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}<span class="region-nav__ko" lang="en">{{ .name }}</span>{{ else }}{{ .name }}<span class="region-nav__ko" lang="ko">{{ .name_ko }}</span>{{ end }}</a>
 {{ end }}
 </div>
 </nav>
-</header>
+{{/* Header height sync: --header-h (and, through it, .region-nav top and
+   scroll-margin-top) always tracks the real rendered header height, at every
+   viewport. The CSS fallback in style.css is only the no-JS value; this
+   script measures header.site (2 rows on mobile, 1 row on desktop) and
+   re-measures on resize and on font load so a wrapping change can never
+   leave the region bar hidden under the header again. */}}
+<script>
+(function () {
+  var header = document.querySelector("header.site");
+  if (!header) return;
+  function sync() {
+    document.documentElement.style.setProperty("--header-h", header.offsetHeight + "px");
+  }
+  sync();
+  if ("ResizeObserver" in window) { new ResizeObserver(sync).observe(header); }
+  window.addEventListener("resize", sync);
+  window.addEventListener("load", sync);
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(sync); }
+})();
+</script>

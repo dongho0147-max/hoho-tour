@@ -38,5 +38,4 @@ If this policy changes, we will update this page and the date above.
 
 ## Contact
 
-Questions about this policy: open an issue on our GitHub repository,
-[github.com/dongho0147-max/hoho-tour](https://github.com/dongho0147-max/hoho-tour).
+Questions about this policy: email us at [contact@hoho-labs.com](mailto:contact@hoho-labs.com).

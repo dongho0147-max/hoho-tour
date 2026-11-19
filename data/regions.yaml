@@ -88,6 +88,16 @@ regions:
     subthemes: [itineraries, day-trips]
     image: images/hubs/gyeonggi-suwon-mood.webp
     blurb: "Hwaseong Fortress, a day trip from Seoul."
+  - slug: daejeon
+    name: Daejeon
+    name_ko: 대전
+    status: active
+    center: { lat: 36.3314, lng: 127.4334 }
+    path_id: daejeon
+    cities: [Daejeon]
+    subthemes: [food-restaurants, day-trips, cafes]
+    image: images/hubs/daejeon-mood.webp
+    blurb: "Seongsimdang bread run, Soje-dong cafes, and the Expo Bridge at night."
 # Roadmap stage (2026-11-19 master spec): 0 = frame + domestic core.
 # 1 = all major Korean cities (Yeosu next). 2 = Northeast Asia. 3 = Asia. 4 = worldwide.
 roadmap_stage: 0

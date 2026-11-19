@@ -19,6 +19,14 @@
   --shadow-lg:0 16px 40px rgba(29,39,51,.12);
   --dur-fast:150ms; --dur-base:250ms;
   --ease-standard:cubic-bezier(.22,1,.36,1);
+  /* Sticky chrome heights, measured from the header / region-bar rules below.
+     Desktop header: 10px padding + 43.5px nav row + 10px = ~64px. The region
+     bar sticks directly under it; --sticky-offset is what anchor targets
+     must clear (header + bar + 12px breathing room). Mobile values are
+     overridden in the max-width:640px block. */
+  --header-h:calc(64px + env(safe-area-inset-top,0px));
+  --regionbar-h:45px;
+  --sticky-offset:calc(var(--header-h) + var(--regionbar-h) + 12px);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -34,9 +42,9 @@ h1,h2,h3{font-family:"Inter","Pretendard",-apple-system,BlinkMacSystemFont,"Sego
 .eyebrow--sky{color:var(--sky)}
 img{max-width:100%;height:auto;display:block}
 
-/* Header - bright sticky white bar */
-header.site{background:rgba(255,255,255,.96);border-bottom:1px solid var(--border-soft);
-  position:sticky;top:0;z-index:50}
+/* Header - bright sticky white bar (opaque: no see-through over scrolled content) */
+header.site{background:#FFFFFF;border-bottom:1px solid var(--border-soft);
+  position:sticky;top:env(safe-area-inset-top,0px);z-index:70}
 header.site .wrap{display:flex;align-items:center;gap:20px;padding:10px 20px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text-primary);
   font-weight:800;font-size:20px;letter-spacing:-.02em;white-space:nowrap}
@@ -133,7 +141,7 @@ main{padding:0 0 56px}
 .disclosure strong{color:var(--text-primary)}
 
 /* Article prose (single.html - kept working, sans headings, bright tokens) */
-article{max-width:68ch;margin-left:auto;margin-right:auto}
+article{max-width:68ch}
 article h1{font-size:32px;line-height:1.2;letter-spacing:-.02em;margin:.4em 0 .5em}
 article h2{font-size:26px;line-height:1.25;margin:1.8em 0 .6em}
 article h3{font-size:21px;line-height:1.35;margin:1.4em 0 .4em}
@@ -161,6 +169,7 @@ footer.site a{color:var(--coral-hover);text-decoration:none;font-weight:700}
 footer.site a:hover{text-decoration:underline}
 footer.site .foot-brand{color:var(--text-primary);font-weight:800;font-size:16px}
 footer.site .foot-brand em{font-style:normal;color:var(--coral)}
+.foot-counter{font-size:13px;color:var(--text-secondary)}
 footer.site .foot-disclosure{font-size:13px;color:var(--text-secondary);
   border-top:1px solid var(--border);padding-top:16px;margin-top:16px}
 
@@ -191,8 +200,15 @@ footer.site .foot-disclosure{font-size:13px;color:var(--text-secondary);
 .term-index a:hover{color:var(--coral)}
 .term-index .meta{margin-left:8px}
 
-/* No horizontal overflow from chips or collage grids */
+/* No horizontal overflow from chips or collage grids.
+   overflow-x:clip (not hidden) on purpose: hidden on html/body turns the page
+   into a scroll container in some browsers and breaks position:sticky for the
+   header and the region bar. clip keeps sticky working; hidden stays as the
+   fallback for browsers without clip support. */
 html,body{overflow-x:hidden}
+html,body{overflow-x:clip}
+/* Anchor targets must clear the sticky header + region bar, never hide under it. */
+[id]{scroll-margin-top:var(--sticky-offset)}
 /* Route maps: on small screens the map scrolls inside its own frame
    (page itself never scrolls sideways) so labels stay readable */
 @media(max-width:700px){
@@ -200,16 +216,48 @@ html,body{overflow-x:hidden}
   .map-figure img{width:760px;max-width:none}
 }
 @media(max-width:640px){
-  header.site .wrap{flex-wrap:wrap;gap:4px 12px;padding:8px 16px}
+  /* Mobile header is 2 rows (brand + lang toggle / nav) and measures ~83px:
+     6px padding + 36px row 1 + 6px gap + 29px nav row + 6px padding.
+     The --header-h fallback below is only the no-JS value: header.html measures
+     the real header height (ResizeObserver) and overrides this variable, so
+     .region-nav top and scroll-margin-top always track the true height. */
+  :root{--header-h:calc(83px + env(safe-area-inset-top,0px));--regionbar-h:40px}
+  header.site .wrap{flex-wrap:wrap;gap:6px 12px;padding:6px 16px}
   .brand{font-size:18px}
   .brand img{height:30px}
-  header.site nav{margin-left:0;flex:1 1 100%;gap:2px}
-  header.site nav a{font-size:14px;padding:8px 11px}
+  /* Row order: brand (row 1) + lang toggle (row 1, right) + nav (row 2).
+     Without order the toggle lands on a 3rd row (nav is flex-basis 100%). */
+  .lang-toggle{order:2}
+  .lang-toggle__btn{min-height:36px;padding:6px 10px}
+  header.site nav{order:3;margin-left:0;flex:1 1 100%;gap:0}
+  /* 6px side padding (was 8px): real-browser 390px measured nav
+     scrollWidth 361 > clientWidth 358 (2nd review 2026-11-19); the 2px
+     per link buys ~12px of slack so the nav never overflows. */
+  header.site nav a{font-size:13px;line-height:1.3;padding:6px 6px}
+  /* Sticky region bar stays compact (~40px) and keeps its horizontal swipe.
+     Korean secondary labels are hidden on mobile so every link stays on one
+     line (nowrap on .region-nav a) and the bar never wraps to 3 rows. */
+  .region-nav__row{padding:4px 12px}
+  .region-nav a{font-size:13px;padding:5px 10px}
+  .region-nav__ko{display:none}
 }
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *{transition:none!important;animation:none!important}
+  /* Semo stickers: show the still PNG instead of the animated WebP. */
+  .sticker img.sticker-anim{display:none}
+  figure.sticker img.sticker-still{display:block}
 }
+/* Semo stickers: small inline emoticons (Naver-blog style), never full-width.
+   96px wide (max 110px) at article width; the 320px F rule is replaced.
+   Without this rule article figure img { width:100% } stretches the sticker
+   across the full article width. */
+.sticker img{width:96px;max-width:110px;height:auto;display:block;margin:0 auto}
+/* (0,2,1) beats .sticker img (0,1,1): without the img qualifier the still
+   PNG renders under every animated WebP, and the reduced-motion swap above
+   loses too. The reduced-motion still rule is figure.sticker img... (0,2,2)
+   so it still wins over this one when reduced motion is on. */
+.sticker img.sticker-still{display:none}
 
 /* Tablet: 2-col card grid, taller hero */
 @media(min-width:700px){
@@ -295,13 +343,23 @@ html,body{overflow-x:hidden}
 .latest-title{font-weight:inherit}
 
 /* Header region nav row */
-header.site nav.region-nav{margin:0;display:block;overflow:visible;border-top:1px solid var(--border-soft);background:var(--surface-soft)}
-header.site .region-nav__row{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:6px 20px;flex-wrap:nowrap}
-header.site .region-nav__row::-webkit-scrollbar{display:none}
-header.site nav.region-nav a{font-size:14px;padding:6px 12px;color:var(--text-secondary)}
-header.site nav.region-nav a:hover{color:var(--coral-hover);background:var(--coral-soft)}
-header.site nav.region-nav a[aria-current]{color:var(--text-on-accent);background:var(--sky)}
-header.site nav.region-nav a.is-soon{opacity:.7}
+/* Region bar: its own sticky strip under the sticky header (it is a sibling of
+   <header>, see layouts/partials/header.html). top = header height so the two
+   never overlap; opaque background + bottom border + shadow keep a visible
+   boundary against content scrolling underneath. z-index below the header
+   (header 70, bar 60) so the language dropdown inside the header paints above
+   the bar and its links stay clickable; the two strips never overlap (bar top
+   = header height), so the old 1px rounding case is moot. */
+.region-nav{margin:0;display:block;overflow:visible;border-top:1px solid var(--border-soft);
+  border-bottom:1px solid var(--border-soft);background:var(--surface-soft);
+  position:sticky;top:var(--header-h);z-index:60;box-shadow:0 2px 8px rgba(29,39,51,.06)}
+.region-nav__row{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:6px 20px;flex-wrap:nowrap}
+.region-nav__row::-webkit-scrollbar{display:none}
+.region-nav a{font-size:14px;padding:6px 12px;color:var(--text-secondary);
+  white-space:nowrap;flex:0 0 auto}
+.region-nav a:hover{color:var(--coral-hover);background:var(--coral-soft)}
+.region-nav a[aria-current]{color:var(--text-on-accent);background:var(--sky)}
+.region-nav a.is-soon{opacity:.7}
 .region-nav__ko{font-weight:500;font-size:12px;margin-left:5px;opacity:.75}
 
 /* Region hub */
@@ -378,4 +436,81 @@ article ol.tour-summary__stops li{counter-increment:stop;position:relative;paddi
   .map-pin--soon circle{r:4.5}
   .map-pin.is-selected circle{r:8.5}
   .map-chips{flex-wrap:wrap;overflow-x:visible}
+}
+
+/* Tour map (partials/tour-summary.html) - interactive Leaflet map.
+   z-index:0 + position:relative on the container keeps Leaflet's high
+   z-index panes/controls inside this stacking context, so the map can never
+   paint over the sticky header / region bar. */
+.tour-map-wrap{position:relative;margin:0 0 12px}
+.tour-map{height:340px;border-radius:var(--radius-md);background:#E8EEF2;
+  position:relative;z-index:0;font-family:inherit}
+.tour-map .leaflet-container{font-family:inherit}
+.tour-map .leaflet-div-icon.tour-marker-wrap{background:transparent;border:none}
+.tour-map .leaflet-div-icon.tour-title{background:transparent;border:none}
+/* Spec A (BUILD_LOG 17): 22 px badge (was 28 px), 11 px / 800 number.
+   The cluster pill ("3.4") is a rounded pill sized to its text. */
+.tour-marker__badge{position:absolute;left:0;top:0;width:22px;height:22px;border-radius:50%;
+  background:var(--coral);border:2px solid #fff;color:var(--text-on-accent);
+  font-weight:800;font-size:11px;line-height:18px;text-align:center;
+  box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.tour-marker__badge--cluster{width:auto;min-width:22px;padding:0 6px;border-radius:999px}
+/* Spec B: the title is its own marker in the title pane, so the label is
+   static inside the .tour-title icon (the old absolute left:32px rule was
+   for labels nested in the badge icon and is gone with it). */
+.tour-marker__label{position:absolute;left:32px;top:50%;transform:translateY(-50%);
+  white-space:nowrap;background:rgba(255,255,255,.95);border:1px solid var(--border);
+  border-radius:999px;padding:2px 9px;font-size:12.5px;font-weight:700;line-height:1.4;
+  color:var(--text-primary);box-shadow:0 1px 4px rgba(0,0,0,.18);pointer-events:none}
+.tour-title .tour-marker__label{position:static;left:auto;top:auto;transform:none;margin:0;display:inline-block}
+/* BUILD_LOG 18: without inline-block the mobile max-width:120px +
+   ellipsis guard below is ignored on an inline span (real width up to
+   189.5px, 2nd review 2026-11-19). */
+/* On narrow screens a full stop name can span the whole map, leaving no
+   overlap-free slot for its label (mobile 390, 2nd review 2026-11-19:
+   DDP / Daepohang / Jeonju labels covered badges). Cap the label at
+   120 px with an ellipsis and shrink the type a touch; the full name
+   stays in the popup and in the numbered list below the map. */
+@media(max-width:640px){
+  .tour-marker__label{max-width:120px;overflow:hidden;text-overflow:ellipsis;
+    font-size:11px;padding:2px 6px}
+}
+.tour-map .leaflet-div-icon.tour-landmark{background:rgba(255,255,255,.92);
+  border:1.5px solid #8A97A5;border-radius:50%;width:26px;height:26px;line-height:23px;
+  text-align:center;font-size:14px;color:var(--text-secondary);
+  box-shadow:0 1px 3px rgba(0,0,0,.25)}
+/* Tap-to-explore button sits BELOW the map (full-width bar), never as an
+   overlay on top of it: the old absolute-positioned button covered the
+   bottom quarter of the map and hid labels/badges on mobile (2026-11-19
+   2nd review). It is hidden unless a coarse pointer needs it. */
+.tour-map__enable{display:block;width:100%;margin:0 0 12px;
+  background:var(--surface-raised);color:var(--text-primary);
+  border:1.5px solid var(--sky);border-radius:var(--radius-pill);
+  font:700 14px/1.3 inherit;font-family:inherit;padding:9px 16px;cursor:pointer;
+  box-shadow:var(--shadow-md)}
+.tour-map__enable[hidden]{display:none}
+.tour-summary__caption{font-size:13px;color:var(--text-secondary);margin:0 0 10px}
+.tour-summary__caption a{color:inherit}
+@media(min-width:700px){
+  .tour-map{height:420px}
+}
+
+/* Language toggle (i18n 1st min, 2026-11-19): current language button + dropdown.
+   Sits at the right end of the header row; on mobile the nav wraps to a second
+   row and the toggle stays on the first row, next to the brand. */
+.lang-toggle{position:relative;margin-left:8px;flex:none}
+.lang-toggle__btn{display:flex;align-items:center;gap:4px;min-height:44px;padding:8px 12px;
+  border:1px solid var(--border-soft);border-radius:var(--radius-pill);background:var(--surface-raised);
+  color:var(--text-primary);font:700 14px/1.2 inherit;font-family:inherit;cursor:pointer;white-space:nowrap}
+.lang-toggle__btn:hover{color:var(--coral);background:var(--coral-soft)}
+.lang-toggle__btn:focus-visible{outline:2px solid var(--coral);outline-offset:2px}
+.lang-toggle__menu{position:absolute;right:0;top:calc(100% + 6px);min-width:140px;z-index:70;
+  background:var(--surface-raised);border:1px solid var(--border-soft);border-radius:var(--radius-md);
+  box-shadow:var(--shadow-md);padding:4px}
+.lang-toggle__menu[hidden]{display:none}
+.lang-toggle__menu a{display:block;padding:10px 14px;border-radius:8px;color:var(--text-primary);
+  text-decoration:none;font-weight:700;font-size:15px}
+.lang-toggle__menu a:hover{color:var(--coral);background:var(--coral-soft)}
+@media(max-width:699px){
+  .lang-toggle{margin-left:auto}
 }

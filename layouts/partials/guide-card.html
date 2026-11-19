@@ -17,5 +17,5 @@
 {{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
 </p>
 {{ end }}
-<a class="readmore" href="{{ .RelPermalink }}">Read the guide &rarr;</a>
+<a class="readmore" href="{{ .RelPermalink }}">{{ i18n "readGuide" | safeHTML }}</a>
 </div></li>

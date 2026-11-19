@@ -1,0 +1,25 @@
+{{/* sticker shortcode: renders a Semo sticker figure (animated WebP + still PNG).
+   Usage: {{< sticker kind="lets-go" >}}
+   kind: lets-go | yum | pro-tip | must-visit | tired-rest | photo-spot
+   The still PNG is shown instead of the animated WebP under
+   prefers-reduced-motion (see static/css/style.css).
+   Stickers follow the authentic Semo character sheet (white cat, thin dark
+   brown #2E1A13 line art, pink blush, mint backpack, small camera, white
+   background, no text in the image). The kind name lives only in the alt
+   text and the shortcode kind, never drawn into the image.
+   Raw HTML figure markup cannot be used here: markup.goldmark.renderer.unsafe
+   is false in hugo.yaml, so raw HTML in Markdown is stripped from the output. */}}
+{{ $alts := dict
+  "lets-go" "Semo the white cat with a mint backpack walks with a map and suitcase (Let's go!)"
+  "yum" "Semo the white cat eats noodles from a bowl with chopsticks, eyes closed happily (Yum!)"
+  "pro-tip" "Semo the white cat holds a checklist with a green check mark (Pro Tip!)"
+  "must-visit" "Semo the white cat looks curious with a magnifier (Must Visit!)"
+  "tired-rest" "Semo the white cat sleeps curled up (Tired-Rest)"
+  "photo-spot" "Semo the white cat holds up a camera to take a photo (Photo Spot!)"
+}}
+{{ $kind := .Get "kind" }}
+{{ $alt := index $alts $kind }}
+<figure class="sticker">
+  <img class="sticker-anim" src="/images/stickers/semo-{{ $kind }}.webp" alt="{{ $alt }}" width="320" height="320" loading="lazy">
+  <img class="sticker-still" src="/images/stickers/semo-{{ $kind }}.png" alt="{{ $alt }}" width="320" height="320" loading="lazy" hidden>
+</figure>

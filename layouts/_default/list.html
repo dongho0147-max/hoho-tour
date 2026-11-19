@@ -1,11 +1,18 @@
 {{ define "main" }}
+{{/* List page: on KR, when this language has no pages in the section yet,
+   list the EN site's pages for the same section (internal links only).
+   EN output is unchanged. */}}
+{{ $pages := .Pages }}
+{{ if and (eq site.Language.Lang "kr") (eq (len $pages) 0) }}
+  {{ range $.Sites }}{{ if eq .Language.Lang "en" }}{{ $pages = where .RegularPages "Section" $.Section }}{{ end }}{{ end }}
+{{ end }}
 <div class="page-head">
-<p class="eyebrow">HOHO Tour guides</p>
+<p class="eyebrow">{{ i18n "listEyebrow" }}</p>
 <h1>{{ .Title }}</h1>
 {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
 </div>
 <ul class="cards">
-{{ range .Pages.ByDate.Reverse }}
+{{ range $pages.ByDate.Reverse }}
 {{ $p := . }}
 <li class="card">
 {{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ else }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="/images/banner/banner-seoul.webp" alt="{{ $p.Title }}" width="480" height="320" loading="lazy"></a>{{ end }}
@@ -21,7 +28,7 @@
 {{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
 </p>
 {{ end }}
-<a class="readmore" href="{{ .RelPermalink }}">Read the guide &rarr;</a>
+<a class="readmore" href="{{ .RelPermalink }}">{{ i18n "readGuide" | safeHTML }}</a>
 </div></li>
 {{ end }}
 </ul>

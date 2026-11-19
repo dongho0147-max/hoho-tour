@@ -16,7 +16,7 @@
 <div class="hub-top">
 {{ with $region.image }}<figure class="hub-mood"><img src="{{ . | relURL }}" alt="Illustrated mood picture of {{ $region.name }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager"></figure>{{ end }}
 <div class="hub-head">
-<p class="eyebrow"><a href="/">{{ $country.name }}</a> &middot; Region</p>
+<p class="eyebrow"><a href="{{ "/" | relLangURL }}">{{ $country.name }}</a> &middot; Region</p>
 <h1>{{ $region.name }} <span class="hub-ko" lang="ko">{{ $region.name_ko }}</span></h1>
 {{ with $region.blurb }}<p class="hub-blurb">{{ . }}</p>{{ end }}
 {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
@@ -54,10 +54,10 @@
 <div class="hub-soon">
 <p class="hub-soon__badge">Guides coming soon</p>
 <p>{{ $region.name }} is on the list - we are still checking it properly before publishing. Meanwhile, browse the regions that are ready.</p>
-<p><a class="btn btn-secondary" href="/">Back to the map</a></p>
+<p><a class="btn btn-secondary" href="{{ "/" | relLangURL }}">Back to the map</a></p>
 </div>
 {{ end }}
-<p class="hub-foot"><a href="/">Map</a> &middot; <a href="/regions/">All regions</a> &middot; <a href="/themes/">All themes</a> &middot; <a href="/blog/">All guides</a></p>
+<p class="hub-foot"><a href="{{ "/" | relLangURL }}">Map</a> &middot; <a href="{{ "/regions/" | relLangURL }}">All regions</a> &middot; <a href="/themes/">All themes</a> &middot; <a href="{{ "/blog/" | relLangURL }}">All guides</a></p>
 </div>
 {{ partial "filter-script.html" . }}
 {{ else }}
@@ -71,7 +71,7 @@
 <ul class="cards">
 {{ range .Pages.ByDate.Reverse }}{{ partial "guide-card.html" . }}{{ end }}
 </ul>
-<p><a href="/regions/">All regions</a> &middot; <a href="/themes/">All themes</a> &middot; <a href="/blog/">All guides</a></p>
+<p><a href="{{ "/regions/" | relLangURL }}">All regions</a> &middot; <a href="/themes/">All themes</a> &middot; <a href="{{ "/blog/" | relLangURL }}">All guides</a></p>
 {{ else }}
 <p class="intro">No guides filed here yet. Check back soon.</p>
 {{ end }}

@@ -1,9 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.Language.LanguageCode | default .Site.Language.Lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+{{/* hreflang: one alternate per existing translation, plus x-default to the EN version.
+   Pages without a KR translation list EN only - no KR alternate is claimed. */}}
+{{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode | default .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}{{ with index (where .AllTranslations "Language.Lang" "en") 0 }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{ end }}
+{{/* Third-party emrld.ltd script: NOT rendered on /kr. The KR version is a review
+   build with zero external affiliate/tracking elements (2026-11-19 correction),
+   so this external script is EN-only. EN output is unchanged. */}}
+{{ if ne site.Language.Lang "kr" }}<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
   (function () {
       var script = document.createElement("script");
       script.async = 1;
@@ -11,8 +19,8 @@
       script.src = 'https://emrld.ltd/NTk5NzYz.js?t=599763';
       document.head.appendChild(script);
   })();
-</script>
-<title>{{ if .IsHome }}{{ .Site.Title }} - Korea Travel Guides for First-Time Visitors{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+</script>{{ end }}
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ i18n "homeTitleSuffix" }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">

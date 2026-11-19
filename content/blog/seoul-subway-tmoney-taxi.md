@@ -33,11 +33,13 @@ The Seoul subway looks intimidating for about one day, and then it becomes the e
 
 Nobody on the train will stop you or glare at you for looking lost. The system is built for people who already know where they are going, and it is forgiving once you learn its three or four basic habits. This guide covers the card, the stations, rush hour, the app that works, and the nights when a taxi is the right call. Fares and times below are ranges, last checked November 2026.
 
+{{< sticker kind="lets-go" >}}
+
 {{< figure src="images/photos/seoul-08.webp" alt="Line 7 platform at Dobongsan Station" caption="A Line 7 platform at Dobongsan Station, waiting between trains. Photo: LERK, CC BY 2.5" >}}
 
 {{< figure src="images/illust/subway-illust.webp" alt="Seoul transit at a glance: AREX, T-money, subway and taxi" caption="Getting around Seoul: AREX, T-money, subway, taxi. Illustration: AI-generated" >}}
 
-## What should you buy first? The T-money card
+## 💳 What should you buy first? The T-money card
 
 Before anything else, get a T-money card. You can buy one at almost any convenience store, including the ones at Incheon Airport, for around 4,000 to 5,000 KRW, and then you top it up with cash or a card at the same counter. The card works on the subway, on city buses, and at many convenience stores, so it quietly becomes your wallet for the small stuff.
 
@@ -47,11 +49,15 @@ A single subway ride usually runs about 1,400 to 1,600 KRW on the card, with the
 
 If you lose the card, it is gone, and so is whatever balance was on it. Treat it like cash, because that is what it is. Keep it in the same slot every day, for example in your phone case.
 
+> **🔥 Local tip:** Top-ups at a convenience store counter are Korean won cash only, so change money before you load up. The card itself costs 3,000 to 5,000 KRW and that price is never refunded, only the balance is. Near the end of the trip, stop reloading and spend the balance down: convenience stores refund up to 20,000 or 30,000 KRW depending on the chain, minus a 500 KRW fee, and larger balances go to Tmoney Town near Seoul Station, Exit 10. Based on recent listings/reviews, checked November 2026.
+
+{{< sticker kind="pro-tip" >}}
+
 If you want the airport leg handled before you land, a booked pickup means a driver is waiting when you walk out.
 
 {{< aff href="https://www.klook.com/en-US/activity/76596-private-incheon-airport-taxi-transfers-seoul/" text="Book an Incheon airport pickup on Klook" >}}
 
-## How do you read a station?
+## 🚇 How do you read a station?
 
 A Seoul subway station is a small underground neighborhood, and the signs are doing more work than they first appear to do. Every line has a color and a number, and every station has a number of its own, so you can navigate by numbers alone even if you cannot read a word of Korean. Line 2 is green and runs in a big circle around the city.
 
@@ -59,15 +65,17 @@ When someone tells you to meet them at Hongik University Station, what they real
 
 The transfer halls are the part that worries people, and they should not. Follow the signs that say Transfer with an arrow, and keep walking. Some transfers are short, a single flight of stairs. Some, like the walk between lines at Seoul Station or Dongdaemun History and Culture Park, are long enough that you will wonder if you took a wrong turn. You did not. The tunnels are just long. Give yourself ten minutes for a transfer you have never done before, and five once you know the route.
 
-> **Tip:** Check the direction before you step onto the platform, not after. Every platform sign shows the terminal station in that direction. If you are heading toward Hongik University on Line 2, you want the train going toward Hongdae, not the one going toward City Hall.
+> **🔥 Local tip:** Check the direction before you step onto the platform, not after. Every platform sign shows the terminal station in that direction. If you are heading toward Hongik University on Line 2, you want the train going toward Hongdae, not the one going toward City Hall.
 
-## What is it like inside the car?
+## 🪑 What is it like inside the car?
 
 The inside of a Seoul subway car is quieter than you might expect. People talk softly or not at all, and most of them are looking at their phones. The seats at the ends of each car are priority seats, marked for elderly passengers, pregnant women, and people with disabilities, and visitors are expected to leave them empty even when the car is crowded. The regular seats are fair game, and if the car is full, standing is normal and nobody minds.
 
+{{< figure src="images/photos/seoul-44.webp" alt="Inside a Seoul Metro Line 2 train, the LCD screen showing Nakseongdae Station" caption="Inside a Line 2 train, the screen showing Nakseongdae Station. Photo: Aspere, CC0" >}}
+
 The doors chime, a voice announces the station in Korean and English, and the station name is written on the platform wall in large letters as you pull in. If you miss your stop, stay calm. Get off at the next one, cross to the other platform, and ride back. The trains come every few minutes during the day, and a missed stop costs you five minutes at most.
 
-## When is rush hour, and how do you dodge it?
+## ⏰ When is rush hour, and how do you dodge it?
 
 The subway runs from about 05:30 until around midnight, and for most of the day it is comfortable. Twice a day it is not. From about 08:00 to 09:30 in the morning and 18:00 to 19:30 in the evening, the cars fill up fast, and at the busiest stations you may watch one full train go by before you can squeeze onto the next. It is not dangerous, and it is not rude, but it is not pleasant with a backpack and a suitcase, and it is the worst time to be figuring out a transfer for the first time.
 
@@ -75,13 +83,13 @@ Plan around it. Eat a slow breakfast and start sightseeing at ten. Or start very
 
 Late at night, the rhythm flips. The last trains leave the terminal stations around midnight, and the exact time depends on the line and the station, so check the last train on Naver Map before you settle into a late dinner.
 
-## Which app actually works?
+## 📱 Which app actually works?
 
 Everyone will tell you to install Naver Map, and everyone is right. Google Maps works poorly for walking and transit directions in Korea, and the gap is not small. Naver Map gives you the platform, the direction, the transfer walking time, and the exact exit number, in English, and it recalculates the moment you miss a turn. It is the single most useful thing you can put on your phone before you land. KakaoMap is the other good option, and either one beats guessing.
 
 What Naver Map will not do is hold your hand through a taxi ride, and that is where Kakao T comes in. It is the taxi app most Koreans use, it has an English setting, and it lets you call a car, see the fare estimate, and pay by card without negotiating with the driver. Download it and set it up while you are still at home, because setting up payment in a taxi at 1 a.m. is nobody's idea of fun.
 
-## Subway or taxi: which one wins?
+## 🚕 Subway or taxi: which one wins?
 
 | Situation | Winner | Why |
 |---|---|---|
@@ -103,13 +111,15 @@ The taxis themselves come in a few colors. The orange and white ones are the reg
 
 {{< figure src="images/photos/seoul-06.webp" alt="Myeongdong street at night with neon signs, taxis, and a bus" caption="Myeongdong at night, when the taxis outnumber the subway trains. Photo: Tristan Surtel, CC BY-SA 4.0" >}}
 
-## Where should you eat near the stations?
+## 🍜 Where should you eat near the stations?
 
 - **Hongik University Station, Exit 9.** The Hongdae streets start here. Street stalls sell snacks for roughly 3,000-8,000 KRW each. Eat standing up and keep walking.
 - **Myeongdong Station.** The food street starts a few minutes from the gates. Items run 3,000-10,000 KRW. Share, so you can try more.
 - **Jongno 5-ga Station, Line 1, Exit 8.** Gwangjang Market is right there. A full breakfast of pancakes and noodles runs about 10,000-15,000 KRW. Bring cash.
 
-## Where does the subway actually drop you?
+{{< sticker kind="yum" >}}
+
+## 🗺️ Where does the subway actually drop you?
 
 The subway is a tool, not the trip. Plan your day around neighborhoods instead of lines. Pick one area, walk it properly, and let the subway be the twenty-minute hop between areas.
 
@@ -119,3 +129,6 @@ Jongno is a good example. One station puts you next to Jogyesa Temple and its la
 
 {{< figure src="images/photos/seoul-05.webp" alt="Gyeongui Line Forest Trail street near Hongdae in daytime" caption="The Gyeongui Line Forest Trail near Hongdae, where getting off a stop early pays off. Photo: Christian Bolz, CC BY-SA 4.0" >}}
 
+{{< sticker kind="tired-rest" >}}
+
+Now that you can ride the city, go eat in it: the [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts at Gwangjang Market, and the [Seoul cafe crawl](/blog/seoul-cafes-seongsu-yeonnam-ikseon/) runs three cafe neighborhoods in one day.

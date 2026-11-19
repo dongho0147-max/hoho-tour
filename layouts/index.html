@@ -1,16 +1,23 @@
 {{ define "main" }}
+{{/* Home: UI strings come from i18n (EN/KR). Guide cards are the EN guides:
+   on KR there are no translated posts yet, so the EN site's blog pages are
+   listed (internal links only - the KR home carries zero affiliate links). */}}
+{{ $enSite := site }}{{ range $.Sites }}{{ if eq .Language.Lang "en" }}{{ $enSite = . }}{{ end }}{{ end }}
+{{ $pages := where .Site.RegularPages "Section" "blog" }}
+{{ if eq (len $pages) 0 }}{{ $pages = where $enSite.RegularPages "Section" "blog" }}{{ end }}
+{{ $country := site.Data.regions.country.slug | default "korea" }}
 <section class="hero" aria-label="Welcome to HOHO Tour">
 {{ $useBanner := fileExists "static/images/banner/home-banner.webp" }}
 <figure class="hero-photo">
 {{ if $useBanner }}<img src="/images/banner/home-banner.webp" alt="HOHO Tour Korea travel guides banner"{{ partial "photo-dims.html" "images/banner/home-banner.webp" | safeHTMLAttr }} loading="eager" fetchpriority="high">{{ else }}<img src="/images/banner/banner-hero.webp" alt="Bukchon Hanok Village in Seoul at blue hour, traditional Korean houses along a quiet street" width="1600" height="1067" loading="eager" fetchpriority="high">{{ end }}
 </figure>
 <div class="hero-card">
-<p class="eyebrow">Seoul &middot; Korea travel guides</p>
-<h1>Seoul, <span class="hl-coral">explained</span> by <span class="hl-sky">someone who lives there.</span></h1>
-<p class="lede">Practical Korea guides for first-time visitors - itineraries, transport, and food tips we would give a friend landing at Incheon tomorrow.</p>
+<p class="eyebrow">{{ i18n "heroEyebrow" | safeHTML }}</p>
+<h1>{{ i18n "heroTitle" | safeHTML }}</h1>
+<p class="lede">{{ i18n "heroLede" }}</p>
 <p class="cta">
-<a class="btn btn-primary" href="/blog/seoul-essential-3-day-guide/">Start with the Seoul 3-Day Guide &rarr;</a>
-<a class="btn btn-secondary" href="/blog/">Browse all guides</a>
+<a class="btn btn-primary" href="/blog/seoul-essential-3-day-guide/">{{ i18n "heroCtaPrimary" | safeHTML }}</a>
+<a class="btn btn-secondary" href="{{ "/blog/" | relLangURL }}">{{ i18n "heroCtaSecondary" }}</a>
 </p>
 </div>
 {{ if not $useBanner }}<p class="hero-credit">Bukchon Hanok Village, Seoul. Photo: Basile Morin via Wikimedia Commons (CC BY-SA 4.0).</p>{{ end }}
@@ -18,47 +25,43 @@
 {{ partial "home-map.html" . }}
 <section class="browse" aria-label="Browse guides by place and theme">
 <div class="browse-block">
-<h2>Where to? <span class="dot">&#9679;</span> Browse by place</h2>
+<h2>{{ i18n "browsePlace" | safeHTML }}</h2>
 <div class="chip-row">
-{{ with site.GetPage "/regions/seoul" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Seoul</a>{{ end }}
-{{ with site.GetPage "/regions/busan" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Busan</a>{{ end }}
-{{ with site.GetPage "/regions/incheon" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Incheon</a>{{ end }}
-{{ with site.GetPage "/regions/jeju" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Jeju</a>{{ end }}
-{{ with site.GetPage "/regions/gyeongju" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Gyeongju</a>{{ end }}
-{{ with site.GetPage "/regions/gangwon" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Gangwon</a>{{ end }}
-{{ with site.GetPage "/regions/jeonju" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Jeonju</a>{{ end }}
-{{ with site.GetPage "/regions/gyeonggi-suwon" }}<a class="chip chip--region" href="{{ .RelPermalink }}">Gyeonggi-Suwon</a>{{ end }}
-<a class="chip chip--all" href="/regions/">All regions &rarr;</a>
+{{ range first 8 site.Data.regions.regions }}
+<a class="chip chip--region" href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a>
+{{ end }}
+<a class="chip chip--all" href="{{ "/regions/" | relLangURL }}">{{ i18n "allRegions" | safeHTML }}</a>
 </div>
 </div>
 <div class="browse-block">
-<h2>What are you into? <span class="dot">&#9679;</span> Browse by theme</h2>
+<h2>{{ i18n "browseTheme" | safeHTML }}</h2>
 <div class="chip-row">
-{{ with site.GetPage "/themes/itineraries" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Itineraries</a>{{ end }}
-{{ with site.GetPage "/themes/food-restaurants" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Food &amp; Restaurants</a>{{ end }}
-{{ with site.GetPage "/themes/day-trips" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Day Trips</a>{{ end }}
-{{ with site.GetPage "/themes/transit-tips" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Transit &amp; Tips</a>{{ end }}
-{{ with site.GetPage "/themes/seasonal" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Seasonal</a>{{ end }}
-{{ with site.GetPage "/themes/cafes" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Cafes</a>{{ end }}
-{{ with site.GetPage "/themes/nightlife" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Nightlife</a>{{ end }}
-<a class="chip chip--all" href="/themes/">All themes &rarr;</a>
+{{ with $enSite.GetPage "/themes/itineraries" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Itineraries</a>{{ end }}
+{{ with $enSite.GetPage "/themes/food-restaurants" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Food &amp; Restaurants</a>{{ end }}
+{{ with $enSite.GetPage "/themes/day-trips" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Day Trips</a>{{ end }}
+{{ with $enSite.GetPage "/themes/transit-tips" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Transit &amp; Tips</a>{{ end }}
+{{ with $enSite.GetPage "/themes/seasonal" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Seasonal</a>{{ end }}
+{{ with $enSite.GetPage "/themes/cafes" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Cafes</a>{{ end }}
+{{ with $enSite.GetPage "/themes/nightlife" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Nightlife</a>{{ end }}
+<a class="chip chip--all" href="/themes/">{{ i18n "allThemes" | safeHTML }}</a>
 </div>
 </div>
 </section>
 <section class="latest">
-<h2><span>Fresh off the notebook</span><b class="latest-title" id="latest-guides-heading">Latest guides</b></h2>
-<p class="intro">New guides are added when we can check them properly - from a visit, or from recent listings and reviews.</p>
+<h2><span>{{ i18n "latestKicker" }}</span><b class="latest-title" id="latest-guides-heading">{{ i18n "latestGuides" }}</b></h2>
+<p class="intro">{{ i18n "latestIntro" }}</p>
 <ul class="cards" id="latest-guides">
-{{ range (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+{{ range $pages.ByDate.Reverse }}
 {{ partial "guide-card.html" . }}
 {{ end }}
 </ul>
-<p class="filter-empty" data-filter-empty hidden>No guides in this region yet.</p>
+<p class="filter-empty" data-filter-empty hidden>{{ i18n "noGuidesFilter" }}</p>
 </section>
 <section class="trust"><div class="box">
-<h2>Written by a Seoul local</h2>
-<p>We live in Seoul. Every guide is built around places we have checked - subway lines we actually ride, and prices we checked recently. When we have not been somewhere, we say so.</p>
-<p class="disclosure"><strong>Affiliate disclosure:</strong> Some links on this page are affiliate links. If you book through one, we may earn a small commission at no extra cost to you. It never changes what we recommend.</p>
+<h2>{{ i18n "trustTitle" }}</h2>
+<p>{{ i18n "trustBody" }}</p>
+{{/* /kr has zero affiliate links: no disclosure paragraph here (EN keeps it). */}}
+{{ if ne site.Language.Lang "kr" }}<p class="disclosure"><strong>{{ i18n "affiliateDisclosureLabel" }}</strong> {{ i18n "affiliateDisclosure" }}</p>{{ end }}
 </div></section>
 {{ partial "filter-script.html" . }}
 {{ end }}

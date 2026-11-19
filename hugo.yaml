@@ -4,6 +4,27 @@ languageCode: "en-US"
 # Dates are Korea time: posts dated today (KST) must appear in a plain build.
 timeZone: "Asia/Seoul"
 defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+# Multilingual (2026-11-19, 1st min): en (default, no prefix) + kr (/kr/).
+# jp / sp / cn are NOT added yet - stage expansion (KR posts 11-20, JP/SP/CN 11-21).
+# Method: translation files (.kr.md) alongside EN content, so EN pages are untouched.
+# KR pages without a translation fall back to the EN guide list (see layouts/index.html,
+# layouts/_default/list.html, layouts/partials/home-map.html).
+languages:
+  en:
+    languageName: English
+    languageCode: en-US
+    weight: 1
+    title: "HOHO Tour"
+    params:
+      description: "Practical Seoul and Korea travel guides for first-time visitors, written by a Seoul local. Itineraries, transport, food, and honest tips."
+  kr:
+    languageName: 한국어
+    languageCode: ko-KR
+    weight: 2
+    title: "HOHO Tour"
+    params:
+      description: "처음 한국을 찾는 분들을 위한 실용적인 서울·한국 여행 가이드. 서울에 사는 사람이 씁니다."
 disableKinds:
   - RSS
 

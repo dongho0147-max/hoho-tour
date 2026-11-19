@@ -116,6 +116,9 @@ seoul-37:
 seoul-38:
   width: 1600
   height: 1067
+seoul-39:
+  width: 1600
+  height: 1067
 
 # AI-generated guidebook illustrations (2026-11-19, revamp phase 1).
 # Flat vector infographics, NOT photos of real places. Captions say "Illustration: AI-generated".
@@ -212,6 +215,7 @@ jeju-west-03: {width: 1600, height: 900}
 jeju-west-04: {width: 1600, height: 1067}
 jeju-west-05: {width: 1000, height: 750}
 jeju-west-06: {width: 1600, height: 1200}
+jeju-west-07: {width: 1200, height: 1600}
 jeju-west-aewol-oreum-cafes-illust-01: {width: 1600, height: 900}
 
 # stage2 route maps (2026-11-19, rendered by coordinator). 1600x840 each.
@@ -291,6 +295,9 @@ jeonju-03:
 jeonju-04:
   width: 1600
   height: 1200
+jeonju-05:
+  width: 1600
+  height: 1067
 jeonju-night-01:
   width: 1201
   height: 1600
@@ -354,6 +361,9 @@ sokcho-05:
 sokcho-06:
   width: 1600
   height: 1200
+sokcho-07:
+  width: 1600
+  height: 1067
 sokcho-seorak-one-night-from-seoul-illust-01:
   width: 1600
   height: 800
@@ -372,6 +382,9 @@ suwon-04:
 suwon-05:
   width: 1200
   height: 1600
+suwon-06:
+  width: 1600
+  height: 1200
 suwon-hwaseong-one-day-illust-01:
   width: 1600
   height: 900
@@ -395,3 +408,55 @@ sokcho-seorak-one-night-from-seoul-map:
 suwon-hwaseong-one-day-map:
   width: 1600
   height: 840
+
+# daejeon bread pilgrimage (2026-11-19)
+daejeon-01: {width: 1600, height: 1067}
+daejeon-02: {width: 1600, height: 947}
+daejeon-03: {width: 1600, height: 1067}
+daejeon-04: {width: 1280, height: 622}
+daejeon-05: {width: 1280, height: 700}
+daejeon-06: {width: 1600, height: 996}
+daejeon-mood: {width: 1600, height: 1067}
+daejeon-bread-pilgrimage-seongsimdang-dcc-map: {width: 1600, height: 840}
+jeju-07:
+  width: 1600
+  height: 1064
+jeonju-night-06:
+  width: 1600
+  height: 1064
+gangneung-07:
+  width: 1600
+  height: 1067
+seoul-40:
+  width: 1600
+  height: 1011
+seoul-cafe-07:
+  width: 1600
+  height: 1068
+seoul-41:
+  width: 1600
+  height: 1064
+seoul-42:
+  width: 1600
+  height: 1067
+seoul-43:
+  width: 1600
+  height: 1200
+seoul-44:
+  width: 1600
+  height: 900
+busan-07:
+  width: 1600
+  height: 901
+busan-08:
+  width: 1600
+  height: 1600
+gyeongju-06:
+  width: 1600
+  height: 997
+gyeongju-night-06:
+  width: 1600
+  height: 1000
+incheon-01:
+  width: 1600
+  height: 1200

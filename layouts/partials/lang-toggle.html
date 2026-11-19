@@ -1,0 +1,39 @@
+{{/* lang-toggle.html: language switcher in the header.
+   - Button shows the current language; dropdown lists the other language(s).
+   - Target: the same page in the other language when a translation exists,
+     otherwise that language's home (no dead links to untranslated pages).
+   - Plain links, so it works without JS; JS only opens/closes the dropdown.
+   - Keyboard: button + links are focusable, Escape closes and refocuses the button. */}}
+{{ $page := . }}
+{{ $cur := $page.Site.Language.Lang }}
+<div class="lang-toggle" data-lang-toggle>
+<button type="button" class="lang-toggle__btn" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu" aria-label="{{ i18n "langLabel" }}: {{ $page.Site.Language.LanguageName }}">{{ $page.Site.Language.LanguageName }} <span aria-hidden="true">&#9662;</span></button>
+<div class="lang-toggle__menu" id="lang-menu" data-lang-menu role="menu" hidden>
+{{ range $page.Sites }}
+  {{ $lang := .Language.Lang }}
+  {{ if ne $lang $cur }}
+    {{ $href := .Home.RelPermalink }}
+    {{ range $page.AllTranslations }}{{ if eq .Language.Lang $lang }}{{ $href = .RelPermalink }}{{ end }}{{ end }}
+    <a role="menuitem" href="{{ $href }}" hreflang="{{ .Language.LanguageCode | default $lang }}" lang="{{ $lang }}">{{ .Language.LanguageName }}</a>
+  {{ end }}
+{{ end }}
+</div>
+</div>
+<script>
+(function () {
+  var t = document.querySelector("[data-lang-toggle]");
+  if (!t) return;
+  var b = t.querySelector("button");
+  var m = t.querySelector("[data-lang-menu]");
+  function close() { m.hidden = true; b.setAttribute("aria-expanded", "false"); }
+  b.addEventListener("click", function () {
+    var open = m.hidden;
+    m.hidden = !open;
+    b.setAttribute("aria-expanded", String(open));
+  });
+  document.addEventListener("click", function (e) { if (!t.contains(e.target)) close(); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !m.hidden) { close(); b.focus(); }
+  });
+})();
+</script>

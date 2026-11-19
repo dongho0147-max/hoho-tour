@@ -8,44 +8,75 @@ regions: ["seoul"]
 themes: ["day-trips"]
 stops:
   - name: "Gyeongbokgung Palace"
+    name_ko: "경복궁"
     lat: 37.579754
     lng: 126.9766818
     note: "Day 1 morning: the 10:00 ceremony"
   - name: "Bukchon Hanok Village"
+    short: "Bukchon"
+    short_ko: "북촌"
+    name_ko: "북촌 한옥마을"
     lat: 37.5823919
     lng: 126.9858648
     note: "Day 1 afternoon: hillside lanes"
   - name: "Cheonggyecheon Stream"
+    name_ko: "청계천"
     lat: 37.5692125
     lng: 126.9779831
     note: "Day 1 evening: lit walk"
   - name: "Hongdae"
+    name_ko: "홍대"
     lat: 37.5503552
     lng: 126.9254349
     note: "Day 2 morning: cafes and shops"
   - name: "Banpo Hangang Park"
+    name_ko: "반포 한강공원"
     lat: 37.508873
     lng: 126.9939435
     note: "Day 2 afternoon: river bikes"
   - name: "N Seoul Tower"
+    name_ko: "N서울타워"
     lat: 37.5349513
     lng: 126.9870892
     note: "Day 2 sunset"
   - name: "Gwangjang Market"
+    short: "Gwangjang"
+    short_ko: "광장시장"
+    name_ko: "광장시장"
     lat: 37.5697826
     lng: 127.0006548
     note: "Day 3 breakfast"
   - name: "Myeongdong"
+    name_ko: "명동"
     lat: 37.5608977
     lng: 126.9863762
     note: "Day 3 food street"
   - name: "Dongdaemun Design Plaza"
+    short: "DDP"
+    short_ko: "DDP"
+    name_ko: "동대문디자인플라자"
     lat: 37.5670686
     lng: 127.009899
     note: "Day 3 evening: night market"
+landmarks:
+  - name: "Seoul Station"
+    name_ko: "서울역"
+    lat: 37.5554175
+    lng: 126.9725862
+    kind: "station"
+    symbol: "🚆"
+  - name: "Yongsan Station"
+    name_ko: "용산역"
+    lat: 37.5290713
+    lng: 126.9659184
+    kind: "station"
+    symbol: "🚆"
+
 ---
 
 Three days is the sweet spot for a first trip to Seoul. One day is a blur. Five days lets you add Busan or Jeju. Three days covers the palace and the old streets, with time left over for the food alleys and the river, and you still get an evening to yourself. That is the promise of this guide, and the plan below is built to keep it.
+
+{{< sticker kind="lets-go" >}}
 
 How was this guide checked? Prices and hours come from recent listings and official pages, checked November 2026. We are a Seoul local blog, and we label anything we have not verified the same way. Treat the big numbers as a shape, not a promise, and check the expensive ones before you go.
 
@@ -53,7 +84,7 @@ How was this guide checked? Prices and hours come from recent listings and offic
 
 {{< figure src="images/illust/3day-illust.webp" alt="Three-day Seoul itinerary at a glance, illustrated as day cards" caption="Seoul in three days, at a glance. Illustration: AI-generated" >}}
 
-## Before you go: how do you get into the city?
+## ✈️ Before you go: how do you get into the city?
 
 You land at Incheon Airport, about an hour from central Seoul. Pick one of these four ways in, based on your luggage and your hotel.
 
@@ -68,7 +99,7 @@ If you want the express ticket sorted before you land, book it ahead and activat
 
 {{< aff href="https://www.klook.com/en-US/activity/1163-airport-to-seoul-city-center-arex-train-incheon/" text="Book the AREX express ticket on Klook" >}}
 
-### What should you sort out on day one?
+### 💳 What should you sort out on day one?
 
 - **Get a T-money card** at any convenience store at the airport (about 5,000 KRW for the card, then top up). It works on the subway, buses, and even at convenience stores. Tap in, tap out.
 - **Cash vs card:** Cards work almost everywhere in Seoul, including street stalls in Myeongdong. Keep 20,000-30,000 KRW in cash for small markets.
@@ -76,13 +107,13 @@ If you want the express ticket sorted before you land, book it ahead and activat
 - **No tipping.** It is not expected in Korea. Good service is the default.
 - **Language:** English works in tourist areas, hotels, and most restaurants with picture menus. A translation app covers the rest.
 
-> **Tip:** Install Naver Map before you land. Google Maps works poorly for walking and transit directions in Korea, and Naver Map gives you the platform, the direction, and the exact exit number in English.
+> **🔥 Local tip:** Install Naver Map before you land. Google Maps works poorly for walking and transit directions in Korea, and Naver Map gives you the platform, the direction, and the exact exit number in English.
 
-### Where should you stay?
+### 🛏️ Where should you stay?
 
 For a first trip, stay near a subway station in one of these three areas. Myeongdong is the most central for sightseeing, and the best for food and shopping. It is crowded, but you can walk to a lot. Hongdae is younger and cheaper, with the best nightlife and cafes, and the AREX all-stop train goes straight there from the airport. Insadong and Jongno are quiet and traditional, closest to the palaces, and best if you want early mornings at Gyeongbokgung.
 
-## Day 1: Can you beat the crowds at the palace?
+## 🏯 Day 1: Can you beat the crowds at the palace?
 
 Start early. The palaces are best before the tour buses arrive.
 
@@ -96,7 +127,7 @@ The honest downside: the courtyard gets packed by 11, and the ceremony draws a c
 
 {{< aff href="https://www.klook.com/en-US/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/" text="Book a hanbok rental near Gyeongbokgung on Klook" >}}
 
-### Eat lunch the market way at Tongin Market
+### 🍱 Eat lunch the market way at Tongin Market
 
 A 10-minute walk from the palace. This old market runs a lunchbox system. Buy coins at the entrance, then fill a tray with small dishes from the stalls. Expect about 10,000-15,000 KRW per person. It is where office workers eat, which is usually a good sign.
 
@@ -110,11 +141,13 @@ Bukchon is the hillside neighborhood of traditional wooden houses between the tw
 
 Insadong sits just south of Bukchon. It is the traditional craft and tea street, good for souvenirs that are not airport junk: ceramics, paper, tea. Stop at a traditional tea house for a break. Your feet will want one by then.
 
+{{< sticker kind="photo-spot" >}}
+
 ### End the day at Cheonggyecheon Stream
 
 Walk the restored stream that runs through downtown. It is a 20-minute evening stroll, lit up at night, and free. It is the calmest place in central Seoul after a long day.
 
-## Day 2: What does Seoul feel like outside the palace walls?
+## 🎨 Day 2: What does Seoul feel like outside the palace walls?
 
 ### Spend the morning in Hongdae
 
@@ -122,15 +155,17 @@ Seoul's university district. Mornings are quiet, which makes them good for cafes
 
 Subway: Hongik University Station, Line 2 / AREX, Exit 9.
 
-### Take the afternoon to the Han River
+If Hongdae cafes are your thing, the [Seoul cafe crawl](/blog/seoul-cafes-seongsu-yeonnam-ikseon/) is the deeper version: Seongsu, Yeonnam, and Ikseon-dong in one day, with the same unhurried pace.
+
+### 🚲 Take the afternoon to the Han River
 
 Take the subway to Yeouido Hangang Park or Banpo Hangang Park. Rent a bike for about 3,000 KRW per hour, or just walk the riverside path. In the evening, Banpo Bridge runs its rainbow fountain show. Check the season schedule before you go, because it does not run in winter.
 
-Buy instant noodles and a boiled egg at the park convenience store and eat them on the riverbank. It is a small ritual for Seoulites, and it costs less than 5,000 KRW.
+Buy instant noodles and a boiled egg at the park convenience store and eat them on the riverbank. It is a small ritual for Seoulites, and it costs less than 5,000 KRW. The full night version, cruise and all, lives in the [Han River night guide](/blog/seoul-night-han-river-cruise-ramyeon/).
 
 {{< figure src="images/photos/seoul-04.webp" alt="Han River at night with rental bicycles and a lit bridge" caption="The Han River at night, with rental bikes and a lit bridge. Photo: TurnOnTheNight, CC BY-SA 4.0" >}}
 
-### Watch sunset from N Seoul Tower
+### 🌇 Watch sunset from N Seoul Tower
 
 Take the cable car up from Myeongdong, or the bus from Itaewon. The observatory costs about 29,000 KRW for adults at the counter, or around 24,100 KRW booked ahead on Klook (checked November 2026). The outdoor terrace and the city view are free. Come at sunset and stay for the lights.
 
@@ -138,7 +173,7 @@ One warning: the cable car line at sunset can eat 40 minutes. The bus from Itaew
 
 {{< aff href="https://www.klook.com/en-US/activity/412-n-seoul-tower-seoul/" text="Book N Seoul Tower observatory tickets on Klook" >}}
 
-## Day 3: How much can you eat in one day?
+## 🍜 Day 3: How much can you eat in one day?
 
 ### Start hungry at Gwangjang Market
 
@@ -148,9 +183,15 @@ Subway: Jongno 5-ga Station, Line 1, Exit 8.
 
 {{< figure src="images/photos/seoul-13.webp" alt="Customers eating noodles and dumplings at a Gwangjang Market food stall" caption="A noodle stall at Gwangjang Market, lunch eaten shoulder to shoulder. Photo: kallerna, CC BY-SA 4.0" >}}
 
-### Graze your way through Myeongdong
+> **🔥 Local tip:** The market opens around 09:00 and the calm window is 10:00 to 11:00 on weekdays. Bindaetteok runs about 5,000 KRW a piece and mayak gimbap about 3,000 KRW a roll pack, based on recent visitor guides, checked November 2026. If a stool opens up, sit down first and order second: the stalls turn over fast and the line moves with you. Want the whole market as its own morning? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts right here.
+
+### 🌶️ Graze your way through Myeongdong
 
 Myeongdong is a shopping district first and a food street second, but the street food is the point for most first-timers. Grilled lobster tails, egg bread, tteokbokki, and Korean fried chicken cups. Prices run 3,000-10,000 KRW per item. Share, so you can try more.
+
+{{< figure src="images/photos/seoul-39.webp" alt="Tteokbokki rice cakes in glossy red sauce with fish cake" caption="Tteokbokki, the red, chewy, impossible-to-share street snack. Photo: Choe Kwangmo, CC0" >}}
+
+> **🔥 Local tip:** Myeongdong stalls fire up around 17:00 and run to about 23:00, and most of them prefer cash, so bring small bills and coins. A skewer of tteokbokki is about 2,000 KRW at the stalls, based on recent visitor guides, checked November 2026. Eat standing, move on, repeat.
 
 After eating, shop. Skincare and cosmetics are the main draw, and most shops offer tax refunds for tourists. Ask at the counter and bring your passport.
 
@@ -160,12 +201,15 @@ After eating, shop. Skincare and cosmetics are the main draw, and most shops off
 
 Dongdaemun Design Plaza is the curved silver building worth seeing at night. The shopping malls around it stay open late. For a farewell dinner, Korean BBQ runs 15,000-30,000 KRW per person. A fried chicken and beer night costs less and is just as local. If you want one last real experience, eat at a place with no English menu. Point, smile, and let the staff guide you.
 
-## Your 3 days at a glance
+The old-school version of that dinner, beef soup at dawn and barbecue at night, is mapped out in [Seoul's old restaurants](/blog/seoul-old-restaurants-baekban-bbq/).
+
+{{< sticker kind="yum" >}}
+{{< sticker kind="tired-rest" >}}
+
+## 🗺️ Your 3 days at a glance
 
 | Day | Morning | Afternoon | Evening |
 |---|---|---|---|
 | Day 1 | Gyeongbokgung, 10:00 ceremony | Tongin Market lunch, Bukchon, Insadong | Cheonggyecheon Stream |
 | Day 2 | Hongdae cafes and shops | Han River bikes or walk | N Seoul Tower at sunset |
 | Day 3 | Gwangjang Market breakfast | Myeongdong food street and shopping | Dongdaemun or BBQ dinner |
-
-

@@ -1,6 +1,36 @@
 <footer class="site"><div class="wrap">
-<p class="foot-brand">HOHO <em>Tour</em> - practical Korea travel guides for first-time visitors, written by a Seoul local.</p>
-<p><a href="/about/">About</a> &middot; <a href="/privacy/">Privacy Policy</a> &middot; <a href="/blog/">All guides</a> &middot; <a href="/regions/">Regions</a> &middot; <a href="/themes/">Themes</a></p>
-<p class="foot-disclosure">Some links on this page are affiliate links. If you book through one, we may earn a small commission at no extra cost to you. It never changes what we recommend.</p>
+<p class="foot-brand">HOHO <em>Tour</em> - {{ i18n "footerTaglineShort" }}</p>
+<p><a href="/about/">{{ i18n "about" }}</a> &middot; <a href="/privacy/">{{ i18n "privacy" }}</a> &middot; <a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a> &middot; <a href="{{ "/regions/" | relLangURL }}">{{ i18n "regions" }}</a> &middot; <a href="/themes/">{{ i18n "themes" }}</a></p>
+{{/* /kr has zero affiliate links (review version): no affiliate disclosure here.
+   EN keeps it, because EN guides carry Klook/Agoda affiliate links. */}}
+{{ if ne site.Language.Lang "kr" }}<p class="foot-disclosure">{{ i18n "affiliateDisclosure" }}</p>{{ end }}
 <p>&copy; {{ now.Year }} HOHO Tour.</p>
+{{/* Visitor counter: filled in after page load from /api/visit (POST counts
+   one visit per visitor per day, GET only reads). The <p> starts hidden and
+   is shown only when the API answers with numbers, so a missing KV binding,
+   a failed fetch, or a local build never breaks the page or logs an error. */}}
+<p class="foot-counter" id="visit-counter" hidden>Today <span id="visit-today">-</span> &middot; Total <span id="visit-total">-</span></p>
 </div></footer>
+<script>
+(function () {
+  function show(total, today) {
+    var el = document.getElementById("visit-counter");
+    var t = document.getElementById("visit-today");
+    var tot = document.getElementById("visit-total");
+    if (!el || !t || !tot) return;
+    if (typeof total !== "number" || typeof today !== "number") return;
+    t.textContent = today.toLocaleString("en-US");
+    tot.textContent = total.toLocaleString("en-US");
+    el.hidden = false;
+  }
+  function load() {
+    if (typeof fetch !== "function") return;
+    fetch("/api/visit", { method: "POST", credentials: "same-origin" })
+      .then(function (r) { if (!r.ok) throw new Error("counter off"); return r.json(); })
+      .then(function (d) { show(d.total, d.today); })
+      .catch(function () { /* counter stays hidden, page unaffected */ });
+  }
+  if (document.readyState === "complete") load();
+  else window.addEventListener("load", load);
+})();
+</script>

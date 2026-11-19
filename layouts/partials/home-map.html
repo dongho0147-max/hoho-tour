@@ -3,11 +3,32 @@
      and projected offline; see the attribution line below the map).
    - Regions: data/regions.yaml is the single source of truth. A province is clickable
      only when a regions.yaml entry points at it (path_id) AND that region has guides.
+   - Pin labels: $labelOff below is a per-region offset table (dx/dy in viewBox units
+     from the pin centre, anchor, optional short display label). It exists because
+     the old rule (label right, or left past lng 128.5) piled labels up in the
+     north-west (Seoul / Incheon / Gyeonggi-Suwon) and let "Jeonju 2" run into
+     "Gyeongju 2" at the same latitude. Do not edit data/regions.yaml for this.
    - Filtering: assets/js/home-map.js. Cards live in #latest-guides (layouts/index.html). */}}
 {{ $map := site.Data.korea_provinces }}
 {{ $regions := site.Data.regions.regions }}
+{{ $labelOff := dict
+  "seoul" (dict "dx" -12 "dy" -14 "anchor" "end" "label" "")
+  "incheon" (dict "dx" -12 "dy" 18 "anchor" "end" "label" "")
+  "gyeonggi-suwon" (dict "dx" 12 "dy" 20 "anchor" "start" "label" "Suwon")
+  "gangwon" (dict "dx" -12 "dy" -14 "anchor" "end" "label" "")
+  "daejeon" (dict "dx" -12 "dy" -24 "anchor" "end" "label" "")
+  "jeonju" (dict "dx" 12 "dy" 18 "anchor" "start" "label" "")
+  "gyeongju" (dict "dx" -12 "dy" -20 "anchor" "end" "label" "")
+  "busan" (dict "dx" -12 "dy" 2 "anchor" "end" "label" "")
+  "jeju" (dict "dx" 12 "dy" 4 "anchor" "start" "label" "")
+}}
 {{ $country := site.Data.regions.country.slug | default "korea" }}
+{{/* Guide counts come from the EN site when the current language has no posts
+   yet (KR 1st min): otherwise the KR map would show every region as "soon"
+   and the filter chips would be empty. EN output is unchanged. */}}
+{{ $enSite := site }}{{ range $.Sites }}{{ if eq .Language.Lang "en" }}{{ $enSite = . }}{{ end }}{{ end }}
 {{ $tax := site.Taxonomies.regions }}
+{{ if eq (len $tax) 0 }}{{ $tax = $enSite.Taxonomies.regions }}{{ end }}
 {{ $active := slice }}
 {{ range $regions }}
   {{ $n := len (index $tax .slug | default slice) }}
@@ -16,11 +37,11 @@
 <section class="home-map" aria-labelledby="home-map-title"
   data-filter-root data-filter-attr="region"
   data-filter-items="#latest-guides" data-filter-heading="#latest-guides-heading"
-  data-heading-all="Latest guides" data-heading-one="Guides in {name}">
+  data-heading-all="{{ i18n "mapHeadingAll" }}" data-heading-one="{{ i18n "mapHeadingOne" }}">
 <div class="home-map__intro">
-<p class="eyebrow">Explore by map</p>
-<h2 id="home-map-title">Tap a region, the guides fold out below</h2>
-<p class="home-map__hint">Pick a place on the map or a chip. The guide cards filter right here, no page jump.</p>
+<p class="eyebrow">{{ i18n "mapEyebrow" }}</p>
+<h2 id="home-map-title">{{ i18n "mapTitle" }}</h2>
+<p class="home-map__hint">{{ i18n "mapHint" }}</p>
 </div>
 <div class="home-map__layout">
 <div class="home-map__stage">
@@ -40,13 +61,15 @@
 <use class="prov-highlight" href="" aria-hidden="true"></use>
 <g class="map-pins" aria-hidden="true">
 {{ range $regions }}
-  {{ $n := len (index $tax .slug | default slice) }}
-  {{ $x := mul (sub (float .center.lng) $map.lng_min) $map.kx }}
-  {{ $y := mul (sub $map.lat_max (float .center.lat)) $map.ky }}
-  {{ $left := or (gt (float .center.lng) 128.5) (eq $n 0) }}
-<g class="map-pin{{ if eq $n 0 }} map-pin--soon{{ end }}"{{ if gt $n 0 }} data-filter-value="{{ .slug }}" data-filter-label="{{ .name }}"{{ end }} transform="translate({{ printf "%.1f" $x }} {{ printf "%.1f" $y }})">
+  {{ $r := . }}
+  {{ $n := len (index $tax $r.slug | default slice) }}
+  {{ $x := mul (sub (float $r.center.lng) $map.lng_min) $map.kx }}
+  {{ $y := mul (sub $map.lat_max (float $r.center.lat)) $map.ky }}
+  {{ $left := or (gt (float $r.center.lng) 128.5) (eq $n 0) }}
+  {{ $o := index $labelOff $r.slug }}
+<g class="map-pin{{ if eq $n 0 }} map-pin--soon{{ end }}"{{ if gt $n 0 }} data-filter-value="{{ $r.slug }}" data-filter-label="{{ $r.name }}"{{ end }} transform="translate({{ printf "%.1f" $x }} {{ printf "%.1f" $y }})">
 <circle r="{{ if gt $n 0 }}6{{ else }}4.5{{ end }}"></circle>
-<text x="{{ if $left }}-12{{ else }}12{{ end }}" y="0.35em" text-anchor="{{ if $left }}end{{ else }}start{{ end }}">{{ .name }}{{ if gt $n 0 }} {{ $n }}{{ end }}</text>
+<text x="{{ with $o }}{{ .dx }}{{ else }}{{ if $left }}-12{{ else }}12{{ end }}{{ end }}" y="{{ with $o }}{{ .dy }}{{ else }}0.35em{{ end }}" text-anchor="{{ with $o }}{{ .anchor }}{{ else }}{{ if $left }}end{{ else }}start{{ end }}{{ end }}">{{ with $o }}{{ with .label }}{{ . }}{{ else }}{{ $r.name }}{{ end }}{{ else }}{{ $r.name }}{{ end }}{{ if gt $n 0 }} {{ $n }}{{ end }}</text>
 </g>
 {{ end }}
 </g>
@@ -55,7 +78,7 @@
 <div class="home-map__panel">
 <p class="home-map__status" aria-live="polite" data-filter-status></p>
 <div class="map-chips" role="toolbar" aria-label="Filter guides by region" data-filter-controls hidden>
-<button type="button" class="map-chip is-selected" data-filter-value="" aria-pressed="true">All regions</button>
+<button type="button" class="map-chip is-selected" data-filter-value="" aria-pressed="true">{{ i18n "mapAll" }}</button>
 {{ range $active }}
 <button type="button" class="map-chip" data-filter-value="{{ .r.slug }}" data-filter-label="{{ .r.name }}" aria-pressed="false">{{ .r.name }} <span class="map-chip__n">{{ .n }}</span></button>
 {{ end }}
@@ -63,17 +86,19 @@
 <ul class="map-hub-links">
 {{ range $regions }}
   {{ $n := len (index $tax .slug | default slice) }}
-<li><a href="/{{ $country }}/{{ .slug }}/"{{ if eq $n 0 }} class="is-soon"{{ end }}>{{ .name }} <span lang="ko">{{ .name_ko }}</span>{{ if eq $n 0 }} <em>soon</em>{{ end }}</a></li>
+<li><a href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}"{{ if eq $n 0 }} class="is-soon"{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }} <span lang="en">{{ .name }}</span>{{ else }}{{ .name }} <span lang="ko">{{ .name_ko }}</span>{{ end }}{{ if eq $n 0 }} <em>soon</em>{{ end }}</a></li>
 {{ end }}
 </ul>
 </div>
 </div>
-<p class="map-credit">Province boundaries: <a href="https://www.naturalearthdata.com/">Natural Earth</a> 1:10m Admin 1 (public domain), simplified for the web. Some small outlying islands are omitted.</p>
+{{/* /kr carries zero external links: the Natural Earth credit is text-only there
+   (data is public domain, so the link is attribution, not a requirement). */}}
+<p class="map-credit">Province boundaries: {{ if ne site.Language.Lang "kr" }}<a href="https://www.naturalearthdata.com/">Natural Earth</a>{{ else }}Natural Earth{{ end }} 1:10m Admin 1 (public domain), simplified for the web. Some small outlying islands are omitted.</p>
 <noscript>
 <div class="map-noscript">
 <p>Browse guides by region:</p>
 <ul>
-{{ range $regions }}<li><a href="/{{ $country }}/{{ .slug }}/">{{ .name }}</a></li>{{ end }}
+{{ range $regions }}<li><a href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}">{{ .name }}</a></li>{{ end }}
 </ul>
 </div>
 </noscript>

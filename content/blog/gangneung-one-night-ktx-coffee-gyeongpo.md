@@ -12,6 +12,7 @@ stops:
     lng: 128.89909
     note: "KTX arrival; buses and taxis to the beach."
   - name: "Anmok Beach Coffee Street"
+    short: "Anmok Coffee Street"
     lat: 37.77276
     lng: 128.94758
     note: "Coffee street along Anmok Beach."
@@ -37,29 +38,35 @@ Gangneung is the easiest overnight trip from Seoul. The KTX takes about 2 hours,
 
 This guide was put together from recent listings, reviews, and official pages, checked November 2026. Train times and cafe hours change, so check them the day before you travel.
 
+{{< sticker kind="lets-go" >}}
+
 {{< figure src="images/photos/gangneung-02.webp" alt="Anmok Beach, home to the coffee street" caption="Anmok Beach, home to the coffee street. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-## How do you get to Gangneung?
+## 🚄 How do you get to Gangneung?
 
 Take the KTX from Seoul Station or Cheongnyangni Station to Gangneung Station. The trip takes about 2 hours, and a standard one-way fare runs about 27,000 to 35,000 KRW, based on recent listings. Book a few days ahead, because Friday evening and Sunday afternoon trains sell out.
 
 From Gangneung Station, take a bus or a taxi to Anmok Beach, about 15 to 20 minutes. A taxi runs about 10,000 to 15,000 KRW. The bus is cheaper but slower, so take the taxi if you are short on time.
 
-> **Tip:** Sit on the right side of the train from Seoul for the mountain views in the second half of the trip. It is a small thing, and it makes the 2 hours feel shorter.
+> **🔥 Local tip:** Sit on the right side of the train from Seoul for the mountain views in the second half of the trip. It is a small thing, and it makes the 2 hours feel shorter. From Gangneung Station Exit 1, bus 202 runs to Anmok Beach in about 20 minutes, about 1,500 KRW by card, every 15 to 20 minutes. Based on recent listings/reviews, checked November 2026.
 
 If you would rather not plan the transport at all, a day tour from Seoul covers the Gangneung highlights and brings you back the same evening. It is a good option if you cannot stay the night.
 
 {{< aff href="https://www.klook.com/en-GB/activity/19035-gangneung-gyeongpodae-cherry-blossoms-other-attractions-day-tour-seoul/" text="Book the Gangneung day tour from Seoul on Klook" >}}
 
-## Afternoon: Anmok Coffee Street
+## ☕ Afternoon: Anmok Coffee Street
 
 Start at Anmok Beach Coffee Street, the row of cafes along Anmok Beach. Gangneung calls itself a coffee city, and this street is why: the cafes roast their own beans, and the street has been a coffee destination since the first cafes opened here years ago. Pick one with a sea view, order a hand drip, and sit. A hand drip runs about 6,000 to 9,000 KRW, and a latte runs about 6,000 to 8,000 KRW, based on recent listings.
 
+> **🔥 Local tip:** The window seats on the sea side fill fast on weekends, so go to your first cafe straight off the train instead of browsing the whole street first. The cafes open early, and the morning light on the water is the quietest hour on the street. Based on recent listings/reviews, checked November 2026.
+
 Do not try to do five cafes in one afternoon. Pick two at most: one for the coffee, one for the view. The street is short, and the point is the slow afternoon, not the count. Walk the beach between them. Anmok Beach is a wide sand beach, and the walk from one end of the coffee street to the other takes about 20 minutes.
 
-## Sunset: Gyeongpo Beach and Gyeongpo Lake
+## 🌅 Sunset: Gyeongpo Beach and Gyeongpo Lake
 
 From Anmok, walk or take a short taxi to Gyeongpo Beach, the main beach of Gangneung. It is wider than Anmok, with a pine forest behind it and the GYEONGPO photo frame standing on the sand. The frame is the photo everyone takes, and the line for it is shortest at sunset, when most day visitors have left.
+
+{{< sticker kind="photo-spot" >}}
 
 {{< figure src="images/photos/gangneung-01.webp" alt="The GYEONGPO photo frame on Gyeongpo Beach" caption="The GYEONGPO photo frame on Gyeongpo Beach. Photo: Sergiy Galyonkin, CC BY-SA 4.0" >}}
 
@@ -69,7 +76,7 @@ Behind the beach sits Gyeongpo Lake, with the Gyeongpodae Pavilion on its edge. 
 
 {{< collage "images/photos/gangneung-02.webp|Anmok Beach|Mobius6, CC BY-SA 4.0" "images/photos/gangneung-03.webp|Gyeongpo Lake|Solène Huille, CC BY-SA 4.0" "images/photos/gangneung-04.webp|Jumunjin Beach|Mobius6, CC BY-SA 4.0" >}}
 
-## What should you eat in Gangneung?
+## 🍽️ What should you eat in Gangneung?
 
 | Dish | Where | Price range |
 |---|---|---|
@@ -80,9 +87,17 @@ Behind the beach sits Gyeongpo Lake, with the Gyeongpodae Pavilion on its edge. 
 
 For dinner, walk to Gangneung Jungang Market for dakgangjeong, the sweet and spicy fried chicken the city is known for, or eat at a restaurant near Gyeongpo Beach. The market closes in the early evening, so go before 18:00 if you want the full choice.
 
-## Next morning: Jumunjin and Ojukheon
+{{< figure src="images/photos/gangneung-07.webp" alt="The entrance of Gangneung Jungang Market at dusk" caption="The entrance of Jungang Market, where dakgangjeong stalls sell boxes to take away. Photo: Mobius6, CC BY-SA 4.0" >}}
+
+> **🔥 Local tip:** The dakgangjeong stalls sell mild, spicy, and half-and-half boxes, and the half-and-half is the safe pick for a first try. Jungang Market is closed on Sundays and the stalls close around 18:00, so buy your box before dinner and eat it back at your hotel or on the beach. Chodang-dong, near Gyeongpo, is the place for the soft tofu set: the tofu is made with seawater and comes with rice and side dishes, about 8,000 to 12,000 KRW. Based on recent listings/reviews, checked November 2026.
+
+{{< sticker kind="yum" >}}
+
+## 🌊 Next morning: Jumunjin and Ojukheon
 
 Start the second day at Jumunjin Beach, about 20 minutes north by bus or taxi. The beach is known for two things: the BTS bus stop, the simple bus shelter from the album photos that fans visit, and the breakwater, a long concrete pier that is good for a walk. The bus stop draws a line on weekends, so go early if you want a photo without a queue.
+
+> **🔥 Local tip:** The BTS bus stop stands on Hyangho Beach, just south of Jumunjin, and it is a photo spot, not a working bus stop: no real buses stop there. Buses 300 and 302 run from Gangneung Station toward Jumunjin in about 45 to 50 minutes, so build in that time for the morning. The stop has a small tripod stand, which solo visitors use for the photo. Based on recent listings/reviews, checked November 2026.
 
 {{< figure src="images/photos/gangneung-04.webp" alt="Jumunjin Beach, north of Gangneung" caption="Jumunjin Beach, north of Gangneung. Photo: Mobius6, CC BY-SA 4.0" >}}
 
@@ -94,7 +109,7 @@ End the morning at Ojukheon, the historic house in town where the scholar Yulgok
 
 {{< figure src="images/photos/gangneung-05.webp" alt="Ojukheon, the historic house in Gangneung" caption="Ojukheon, the historic house in town. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-## One night or two?
+## 🛏️ One night or two?
 
 | Stay | What you get | Cost |
 |---|---|---|
@@ -106,7 +121,7 @@ One night is the sweet spot. Two nights is better if you want the sunrise and a 
 
 {{< aff href="https://www.klook.com/en-HK/activity/177365-gangneung-starlight-tour-from-seoul/" text="Book the 2-day Gangneung starlight tour from Seoul on Klook" >}}
 
-## Where to stay
+## 🏨 Where to stay
 
 Stay near Gyeongpo Beach or Anmok Beach, not near the station. The station area is quiet at night, and the beach area has the cafes and the restaurants. Hotels near Gyeongpo run about 100,000 to 200,000 KRW a night, and guesthouses near Anmok run about 50,000 to 90,000 KRW, based on recent listings.
 
@@ -116,7 +131,7 @@ For a mid-range stay near the beach, check the hotels around Gyeongpo before you
 
 {{< aff href="https://www.agoda.com/value-hotel-gangneung_2/hotel/gangneung-si-kr.html" text="Check SL Hotel Gangneung on Agoda" >}}
 
-## Your Gangneung night at a glance
+## 🗓️ Your Gangneung night at a glance
 
 | Time | Stop | How long |
 |---|---|---|
@@ -130,4 +145,8 @@ For a mid-range stay near the beach, check the hotels around Gyeongpo before you
 | Next 11:00 | Ojukheon House | 1 hour |
 | Next 13:00 | KTX back to Seoul | 2 hours |
 
+{{< sticker kind="tired-rest" >}}
 
+## 🍽️ Keep eating around Gangneung
+
+- [Sokcho and Seoraksan in one night from Seoul](/blog/sokcho-seorak-one-night-from-seoul/) - the next stop up the east coast, with the mountain, the beach, and the same overnight rhythm.

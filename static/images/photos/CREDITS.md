@@ -1,8 +1,8 @@
 # Photo Credits - HOHO Tour
 
-`static/images/photos/` holds 106 real photographs and 15 AI-generated illustrations. The photograph rows in the first table are real photographs, all of them (none is AI-generated); every AI-generated illustration is in one of the illustration sections below and is marked "AI-generated".
-Photograph topics describe the actual verified content of each file (seoul-01 to seoul-26 checked by opening each file on 2026-11-18; seoul-27 to seoul-38 checked the same way on 2026-11-18, and later files when each was added).
-Long edge is 1600px for most photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept at their original resolution (1024px or less) with no upscaling, and seoul-37 is kept at 960px (its 1600px original was blocked by a Wikimedia HTTP 429 rate limit at fetch time - re-fetch at 1600px when the limit clears). Every file is WebP and under 250 KB.
+All 43 photos in `static/images/photos/` are real photographs (no AI-generated images).
+Topics below describe the actual verified content of each file (seoul-01 to seoul-26 checked by opening each file on 2026-11-18; seoul-27 to seoul-38 checked the same way on 2026-11-18; seoul-39, sokcho-07, suwon-06, jeonju-05, jeju-west-07 checked the same way on 2026-11-19).
+Long edge is 1600px for 37 photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept at their original resolution (1024px or less) with no upscaling, and seoul-37 is kept at 960px (its 1600px original was blocked by a Wikimedia HTTP 429 rate limit at fetch time - re-fetch at 1600px when the limit clears). Every file is WebP and under 250 KB.
 
 | File | Subject (verified) | Size | Author | License | Source |
 |---|---|---|---|---|---|
@@ -44,6 +44,7 @@ Long edge is 1600px for most photos; 5 photos (seoul-18, 19, 22, 23, 25) are kep
 | seoul-36.webp | Seolleongtang (ox bone soup), milky broth in a black bowl, spoon lifting sliced beef with scallions, kimchi behind | 1600x778, 87 KB | 이동원 | CC0 | https://commons.wikimedia.org/wiki/File:Seolleongtang.jpg |
 | seoul-37.webp | Samgyetang (chicken ginseng soup) in a stone pot, whole chicken in bubbling broth with scallions, kkakdugi beside | 960x720, 102 KB | karendotcom127 | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Korean_soup-Samgyetang-08.jpg |
 | seoul-38.webp | Busan milmyeon in a metal bowl, wheat noodles in clear broth with egg, shredded egg garnish, red paste and cucumber | 1600x1067, 123 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Busan_Milmyeon_20200522_001.jpg |
+| seoul-39.webp | Tteokbokki rice cakes in glossy red sauce with fish cake, close-up | 1600x1067, 100 KB | Choe Kwangmo | CC0 | https://commons.wikimedia.org/wiki/File:Tteok-bokki.jpg |
 
 Note: seoul-19 is CC BY-NC-SA and seoul-20 is CC BY-NC-ND, which restrict commercial use and (for ND) derivatives - please confirm they fit the site's use. seoul-15 is under KOGL Type 1.
 
@@ -119,6 +120,7 @@ Guest-drawn with PIL from verified coordinates (OpenStreetMap Nominatim, 2026-11
 | jeju-west-04.webp | Osulloc Tea Museum & Fields, Jeju.jpg | 1600x1067, 229 KB | Matt Kieffer | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Osulloc_Tea_Museum_%26_Fields,_Jeju.jpg |
 | jeju-west-05.webp | Hallim Park 02.jpg | 1000x750, 247 KB | Grapesurgeon | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hallim_Park_02.jpg |
 | jeju-west-06.webp | Gwakji Beach in Jeju Island, 2022.jpg | 1600x1200, 193 KB | Jeong seolah | CC0 | https://commons.wikimedia.org/wiki/File:Gwakji_Beach_in_Jeju_Island,_2022.jpg |
+| jeju-west-07.webp | A warm matcha latte in a black cup on a cafe table, fries beside | 1200x1600, 227 KB | Cendy00 | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Matcha_Latte_Hangat.jpg |
 
 ## stage2 AI-generated illustrations (2026-11-19)
 
@@ -151,6 +153,7 @@ Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not phot
 | gangwon-mood.webp | Gangwon hub mood: beach with pines, coffee cup, lake pavilion, mountains | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
 | jeonju-mood.webp | Jeonju hub mood: hanok rooftops, bibimbap bowl, traditional gate, lanterns | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
 | gyeonggi-suwon-mood.webp | Suwon hub mood: Hwaseong Fortress wall and gate, palace pavilion, walking trail | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| daejeon-mood.webp | Daejeon hub mood: bakery storefront with bread loaf sign, fried bread bun and chive bread on a tray, Expo Bridge arches, Hanbit Tower, pine trees | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19. Illustration: AI-generated |
 
 ## stage3 real photos (2026-11-19)
 
@@ -181,10 +184,12 @@ Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not phot
 | sokcho-04.webp | Sokcho Beach | 1400x934, 235 KB | Dr. Thomas Liptak | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sokcho,_Sokcho_Beach.jpg |
 | sokcho-05.webp | Daepo Port, Sokcho | 1600x932, 239 KB | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Daepo_Port,_Sokcho_01.jpg |
 | sokcho-06.webp | Ulsanbawi Rock from Misiryeong Ridge | 1600x1200, 246 KB | Misiryeong | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:20160714_Ulsanbawi_Rock_as_seen_from_the_Misiryeong_Ridge.jpg |
+| sokcho-07.webp | Sliced raw fish hoe platter with banchan on a restaurant table | 1600x1067, 227 KB | littlepepper | CC0 | https://commons.wikimedia.org/wiki/File:Hoe_(raw_fish).jpg |
 | jeonju-01.webp | Gyeonggijeon, Jeonju | 1600x1067, 240 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeonju_Gyeonggijeon_20230408_045.jpg |
 | jeonju-02.webp | Gyeonggijeon, Jeonju, another angle | 1400x934, 234 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeonju_Gyeonggijeon_20230408_065.jpg |
 | jeonju-03.webp | A street in Jeonju Hanok Village | 1024x683, 91 KB | ecodallaluna | CC BY-SA 2.0 | https://www.flickr.com/photos/12364718@N00/9644135486 |
 | jeonju-04.webp | Downtown Jeonju street | 1600x1200, 204 KB | Shamus7792003 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Downtown_Jeonju_-_July_2018_(3).jpg |
+| jeonju-05.webp | A bowl of makgeolli rice wine on a wooden table | 1600x1067, 78 KB | jinho kim | CC0 | https://commons.wikimedia.org/wiki/File:Makgeolli_4.jpg |
 | jeonju-night-01.webp | Omokdae pavilion at night, Jeonju | 1201x1600, 190 KB | Пекту Сан | CC0 | https://commons.wikimedia.org/wiki/File:Omokdae_at_night_2.jpg |
 | jeonju-night-02.webp | Sunset over Jeonju | 1024x576, 132 KB | Giuseppe Milo | CC BY 2.0 | https://www.flickr.com/photos/87690240@N03/26537128117 |
 | jeonju-night-03.webp | Jeonju River by Nambu Market | 1600x1200, 235 KB | Shamus7792003 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Along_Jeonju_River_and_across_from_Nambu_Market..JPG |
@@ -205,3 +210,69 @@ Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not phot
 | suwon-03.webp | Janganmun, north gate of Hwaseong Fortress | 1600x1200, 107 KB | oreum | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Janganmun.JPG |
 | suwon-04.webp | Banghwasuryujeong pavilion on the fortress wall | 1600x1200, 234 KB | oreum | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Banghwasuryujeong_20081005_detail.JPG |
 | suwon-05.webp | Hwaseong Haenggung Palace in the evening | 1200x1600, 247 KB | Gayeong2133 | CC0 | https://commons.wikimedia.org/wiki/File:Hwaseong_Haenggung_palace_in_Suwon_in_the_evening.jpg |
+| suwon-06.webp | Marinated beef short ribs grilling on a charcoal grill | 1600x1200, 244 KB | Jo Hanshin | CC0 | https://commons.wikimedia.org/wiki/File:Korean_Barbecue,_Beef.jpg |
+
+## daejeon bread pilgrimage real photos (2026-11-19)
+
+All 6 verified by opening each file. Long edge 1600px for 4 photos; daejeon-04 (1280x622) and daejeon-05 (1280x700) kept at fetched resolution with no upscaling (Wikimedia thumb server rate-limited the larger fetches). Every file is WebP and under 250 KB.
+
+| File | Subject (verified) | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| daejeon-01.webp | Seongsimdang main store exterior at night, lit SUNGSIMDANG sign, customers at the door (hero) | 1600x1067, 243 KB | Trainholic | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sungsimdang_2019.jpg |
+| daejeon-02.webp | Crowded bread display trays inside Seongsimdang, croissants and pastries with price tags | 1600x947, 216 KB | Trainholic | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sungsimdang_display_stand.jpg |
+| daejeon-03.webp | Train-shaped entrance of Daejeon Station on Metro Line 1 (exit 3, Daejeon Station sign) | 1600x1067, 220 KB | *Youngjin | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Q1586280_Daejeon_Station_A01.jpg |
+| daejeon-04.webp | Hanbat Arboretum garden with pine trees and a traditional gate, moon visible in the daytime sky | 1280x622, 196 KB | Ryuch | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hanbat_Aboretum_Garden_under_the_Moon.jpg |
+| daejeon-05.webp | Daejeon Convention Center from above, DCC sign on the building | 1280x700, 233 KB | Dr.JamesKwon | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Daejeon_Convention_Center_I.jpg |
+| daejeon-06.webp | Expo Bridge in Daejeon at night, lit arches with Hanbit Tower in the distance | 1600x996, 186 KB | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Expo_Bridge_in_Daejeon.jpg |
+
+## daejeon hub mood illustration (2026-11-19)
+
+Flat vector guidebook illustration (GPT image generation, 2026-11-19). Not a photo of a real place; caption says "Illustration: AI-generated". Style: bright pastel cream background, coral and sky blue accents, flat vector with soft shadows, generous whitespace, English short labels only.
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| hubs/daejeon-mood.webp | Daejeon hub mood: bakery storefront with bread loaf sign, fried bread bun and chive bread on a tray, Expo Bridge arches, Hanbit Tower, pine trees. Labels: Daejeon, Bread, Expo Bridge. | 1600x1067, 59 KB | AI-generated | - | GPT image generation, 2026-11-19 |
+
+## Semo stickers (replaced 2026-11-19, 2nd phase)
+
+Semo stickers: AI-generated illustrations based on the authentic Semo character
+sheet (white cat, thin dark brown #2E1A13 line art, sharp triangular face, pink
+blush cheeks, mint backpack, small camera around the neck, white background, no
+text in the image). Character sheet: ~/workspace/goals/goal-8/files/세모_캐릭터시트/semo_character_sheet.png
+(1680x1440, MD5 cb979cbf6765ef656ddbbb9b57a88835). The 1st-phase tuxedo-cat set
+is retired and no longer used.
+
+All 6 stickers are 320x320 with a white background, 4-frame animated WebP
+(300ms/frame, infinite loop, cat fixed, sparkles blink only) under 200 KB each,
+plus a still PNG of the first frame. Displayed at 96px wide (max 110px).
+Used in 6 blog posts (23 placements, 2026-11-19).
+
+| File | Subject | Size |
+|---|---|---|
+| stickers/semo-lets-go.webp / .png | Semo walks with a map and suitcase (travel pose, 2026-11-06 original) | 12,838 / 56,724 bytes |
+| stickers/semo-yum.webp / .png | Semo eats noodles from a bowl with chopsticks (new, 2026-11-19) | 13,868 / 55,518 bytes |
+| stickers/semo-pro-tip.webp / .png | Semo holds a checklist with a green check (checklist pose, 2026-11-06 original) | 13,282 / 53,273 bytes |
+| stickers/semo-must-visit.webp / .png | Semo looks curious with a magnifier (curious pose, 2026-11-06 original) | 14,412 / 57,161 bytes |
+| stickers/semo-tired-rest.webp / .png | Semo sleeps curled up (new, 2026-11-19) | 14,304 / 57,986 bytes |
+| stickers/semo-photo-spot.webp / .png | Semo holds up a camera to take a photo (new, 2026-11-19) | 14,068 / 55,116 bytes |
+
+## 2nd phase real photos (2026-11-19)
+
+One new photo per rewritten post (15 posts; jeju-east-seongsan-udo has none - no license-verified Udo photo found). All verified on the file page (or Commons API extmetadata where the file page returned 403). Long side 1600px, 250KB or less, webp.
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| busan-07.webp | Gwangalli Beach and Gwangan Bridge, daytime | 1600x901, 177 KB | Masterhatch | CC BY | https://commons.wikimedia.org/wiki/File:Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg |
+| busan-08.webp | Sogogi-gukbap, beef and rice soup in a bowl | 1600x1600, 189 KB | Melsj | CC BY | https://commons.wikimedia.org/wiki/File:Sogogi-gukbap_3.jpg |
+| gyeongju-06.webp | Sugwangjeon hall at Seokguram Grotto | 1600x997, 235 KB | Bernard Gagnon | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Sugwangjeon,_Seokguram_01.jpg |
+| gyeongju-night-06.webp | Leaning trees over the grassy hillock of Nodong-ri tombs, Daereungwon | 1600x1000, 234 KB | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Leaning_trees_over_the_grassy_hillock_of_Nodong-ri_tombs_clouds_and_blue_sky_in_Gyeongju_South_Korea.jpg |
+| incheon-01.webp | Jajangmyeon, black bean noodles in a bowl | 1600x1200, 121 KB | Stegano | CC BY-SA 3.0 | https://en.wikipedia.org/wiki/File:Jajang.jpg |
+| jeju-07.webp | Seongsan Ilchulbong rising over Seongsan village and the sea | 1600x1064, 165 KB | Justin De La Ornell | CC BY 2.0 | https://en.wikivoyage.org/wiki/File:Seongsan_Jeju_Island_제주도.jpg |
+| jeonju-night-06.webp | Hanok rooftops of Jeonju Hanok Village seen from Omokdae in daylight | 1600x1064, 227 KB | Bernard Gagnon | CC0 | https://en.wikivoyage.org/wiki/File:Jeonju_Hanok_Maeul_02.jpg |
+| gangneung-07.webp | Entrance of Gangneung Jungang Market at dusk | 1600x1067, 218 KB | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gangneung_Jungang_Market_20220501_002.jpg |
+| seoul-40.webp | Hyangwonjeong Pavilion at Gyeongbokgung after a snowfall | 1600x1011, 225 KB | Jeon Han / Korea.net / Korean Culture and Information Service | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:KOCIS_Korea_Snowfall_in_Gyeongbokgung_11_(11318882574).jpg |
+| seoul-cafe-07.webp | A glass of latte with latte art and a pastry on a plate at a cafe table | 1600x1068, 37 KB | Jonatan Svensson Glad | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Glass_of_Coffee_Latte_with_Pastry_(1).jpg |
+| seoul-41.webp | Vendors frying bindaetteok pancakes on a griddle at Gwangjang Market | 1600x1064, 124 KB | Pfc. Bo Park, US Army | Public domain | https://commons.wikimedia.org/wiki/File:Women_pan-frying_Korean_pancakes-01.jpg |
+| seoul-42.webp | Ttukseom Hangang Park at dusk, the Han River and the lit-up skyline | 1600x1067, 84 KB | Liziyuan0216 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Han_river_park_night_view.jpg |
+| seoul-43.webp | Charcoal-grilled Korean beef on a mesh grill over glowing coals | 1600x1200, 238 KB | lazy fri13th | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Hanu-sutbul-gui_2.jpg |
+| seoul-44.webp | Inside a Seoul Metro Line 2 train, the LCD screen showing Nakseongdae Station | 1600x900, 77 KB | Aspere | CC0 | https://commons.wikimedia.org/wiki/File:Seoul_Metro_Line_2_LCD_1.jpg |

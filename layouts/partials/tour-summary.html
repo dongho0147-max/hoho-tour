@@ -1,20 +1,636 @@
 {{/* tour-summary.html: route summary block at the top of a tour detail page.
-   Reads .Params.stops (front matter: name/lat/lng/note) and renders the static
-   route map (images/maps/<slug>-map.webp) plus a numbered timeline/spot list.
-   No Leaflet: this environment bans CDN map libraries/tiles, so the route map
-   is a static schematic drawn from the same verified coordinates. */}}
+   Reads .Params.stops (front matter: name/name_ko/short/short_ko/lat/lng/note)
+   and .Params.landmarks (front matter: name/name_ko/lat/lng/kind/symbol) and
+   renders an interactive Leaflet map (self-hosted Leaflet 1.9.4 under
+   static/vendor/leaflet/) plus a numbered timeline/spot list.
+   - Tiles: /kr pages use tile.openstreetmap.org (Korean labels); every other
+     language uses Google Maps tiles (mt1.google.com/vt/lyrs=m&hl=en, English
+     labels). CARTO Voyager returns an "API KEY REQUIRED" placeholder and
+     Esri World Street Map returns a 2,521 B grey "Map data not yet
+     available" placeholder for every Korean tile at z14+ (verified
+     2026-11-19), so neither can be used; Google is the replacement
+     (BUILD_LOG 18). mt1 is an unofficial endpoint: after 4 tile errors the
+     layer swaps to OSM so no grey board is ever left on screen.
+   - Landmark markers (station / airport / mountain / temple / market /
+     stadium / museum / tower) are small grey emoji discs, visually distinct
+     from the numbered stops; click (or hover) shows a name tooltip.
+   - Spec A+B (2026-11-19, Dongho-confirmed; BUILD_LOG 17). The 16-1
+     separateBadges() approach (push badges 36 px off their true position and
+     connect them with dashed leader lines) is DISCARDED: it produced exactly
+     the screen Dongho flagged (95-jeonju-cap13.png).
+     A - Numbered badges stay on the true route vertex, 100% fixed.
+       22 px circle (was 28 px), 11 px / 800 white number, 2 px white rim.
+       Fixed pane order: route 400 (default overlayPane) < landmark 610 <
+       title 640 < badge 660 < popup 700 (default popupPane). No DOM order
+       dependence, no zIndexOffset (the old 1000 put landmarks ABOVE badges).
+       A badge centre is its vertex, pixel error 0. A single badge is NEVER
+       moved. Only stops whose true positions are < 22 px apart at the
+       chosen zoom share one cluster badge ("3.4") at the group mean.
+     B - Stop titles are separate markers in the title pane (640).
+       Adjacent to the badge (2-4 px) when there is room; otherwise the
+       TITLE BOX ONLY moves to a free spot (8 directions x gaps 4/12/24/36/48 px)
+       and a thin leader line (1 px, grey 60-70%, starting 2 px off the
+       badge edge) connects the badge edge to the box's nearest edge.
+       A title box never covers a badge or another title. Overlap area 0 is
+       picked first; otherwise the minimum-overlap slot. A leader line never
+       crosses a badge or another leader. Full name first, short name
+       (front matter `short` / `short_ko`) only when the full name has no
+       clean slot; the full name stays in the popup, tooltip and map_note.
+       The route line is a soft obstacle (thin, 1 px weight), so a title
+       grazing the route is far cheaper than covering a badge.
+     C - Initial view: far departure stops (Seoul for Sokcho, Yongsan for
+       Jeonju, Incheon Airport for the subway post) are excluded from the
+       fit (>5x the median distance from the median centre AND >15 km
+       away), so the destination cluster can be read. Then the zoom is
+       raised from the fit zoom to the highest zoom where all fitted stops
+       stay inside the viewport (12 px margin) and the minimum badge-centre
+       distance reaches 22 px (22-26 px criterion, NOT 36 px). Landmarks
+       are NOT part of the fit (they pulled Jeju from fit zoom 12 to 10).
+       If no raised zoom fits, the fit zoom is kept and the <22 px groups
+       are clustered.
+   - If Leaflet fails to load or map init throws, the static route map
+     (images/maps/<slug>-map.webp, kept) is shown instead; <noscript> always
+     shows the static map + list.
+   - Coordinates come only from front matter stops and landmarks (verified,
+     Nominatim Nov 2026). Stops without verified coordinates stay omitted
+     (see map_note). */}}
 {{ with .Params.stops }}
 {{ $slug := $.File.BaseFileName }}
 {{ $map := printf "images/maps/%s-map.webp" $slug }}
+{{ $stopsJSON := . | jsonify }}
+{{ $landmarksJSON := $.Params.landmarks | jsonify }}
+{{ $mapID := printf "tour-map-%s" $slug }}
+{{ $isKr := eq site.Language.Lang "kr" }}
 <section class="tour-summary" aria-label="Route summary">
 <h2 class="tour-summary__title">Route at a glance</h2>
-<figure class="map-figure">
-<img src="{{ $map | relURL }}" alt="Route map with numbered stops in visit order"{{ partial "photo-dims.html" $map | safeHTMLAttr }} loading="eager">
-<figcaption>Route map for this guide - stops in visit order. Schematic map drawn from verified coordinates (OpenStreetMap Nominatim, Nov 2026); not to scale.{{ with $.Params.map_note }} {{ . }}{{ end }}</figcaption>
+<div class="tour-map-wrap">
+<div id="{{ $mapID }}" class="tour-map" role="application" aria-label="Interactive map of the route stops"></div>
+<figure class="map-figure tour-map__fallback" data-tour-map-fallback hidden>
+<img src="{{ $map | relURL }}" alt="Route map with numbered stops in visit order"{{ partial "photo-dims.html" $map | safeHTMLAttr }} loading="lazy">
+<figcaption>Static route map - the interactive map could not be loaded.</figcaption>
 </figure>
+<noscript>
+<figure class="map-figure">
+<img src="{{ $map | relURL }}" alt="Route map with numbered stops in visit order"{{ partial "photo-dims.html" $map | safeHTMLAttr }} loading="lazy">
+<figcaption>Route map for this guide - stops in visit order.</figcaption>
+</figure>
+</noscript>
+</div>
+<button type="button" class="tour-map__enable" data-tour-map-enable hidden>Tap to explore the map</button>
+{{ if $isKr }}
+<p class="tour-summary__caption">Interactive map: OpenStreetMap tiles, &copy; OpenStreetMap contributors. Stop coordinates verified via OpenStreetMap Nominatim, Nov 2026.</p>
+{{ else }}
+<p class="tour-summary__caption">Interactive map: Google Maps tiles (English place names), &copy; Google. Stop coordinates verified via OpenStreetMap Nominatim, Nov 2026.</p>
+{{ end }}
 <ol class="tour-summary__stops">
-{{ range . }}<li><strong>{{ .name }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
+{{ range . }}<li><strong>{{ if and $isKr (.name_ko) }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
 </ol>
 {{ with $.Params.map_note }}<p class="tour-summary__note">{{ . }}</p>{{ end }}
+<link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
+<script src="{{ "vendor/leaflet/leaflet.js" | relURL }}"></script>
+<script>
+(function () {
+  var mapEl = document.getElementById({{ $mapID | jsonify | safeJS }});
+  if (!mapEl) return;
+  var section = mapEl.closest(".tour-summary");
+  var fallback = section ? section.querySelector("[data-tour-map-fallback]") : null;
+  var enableBtn = section ? section.querySelector("[data-tour-map-enable]") : null;
+  function showFallback() {
+    if (fallback) fallback.hidden = false;
+    mapEl.hidden = true;
+    if (enableBtn) enableBtn.hidden = true;
+  }
+  function esc(t) {
+    return String(t).replace(/[&<>"']/g, function (c) {
+      return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c];
+    });
+  }
+  if (typeof L === "undefined") { showFallback(); return; }
+  var pageLang = {{ site.Language.Lang | jsonify | safeJS }};
+  function labelName(s) {
+    return (pageLang === "kr" && s.name_ko) ? s.name_ko : s.name;
+  }
+  function shortName(s) {
+    if (pageLang === "kr") return s.short_ko || labelName(s);
+    return s.short || labelName(s);
+  }
+  var stops = {{ $stopsJSON | safeJS }};
+  var landmarks = {{ $landmarksJSON | safeJS }};
+  try {
+    var map = L.map(mapEl, { scrollWheelZoom: false });
+    {{ if $isKr }}
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      errorTileUrl: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='256'%3E%3Crect%20width='256'%20height='256'%20fill='%23dfe3e6'/%3E%3C/svg%3E"
+    }).addTo(map);
+    {{ else }}
+    /* Tiles (BUILD_LOG 18): Google English tiles (mt1.google.com,
+       lyrs=m&hl=en). Esri World Street Map returns a 2,521 B grey
+       "Map data not yet available" placeholder for every Korean tile at
+       z14+ (verified 2026-11-19: Jeonju/Seoul/Daejeon/Sokcho z15/z17 all
+       2,521 B), so the map was a grey board at the default zoom. Google
+       tiles at the same points are real map images (5.2-38.7 KB,
+       36-209 colours, z13-z19 all HTTP 200, English labels). mt1 is an
+       unofficial endpoint: if it is blocked, after 4 tile errors the
+       layer is swapped to OSM so no grey board is ever left on screen. */
+    var tileLayer = L.tileLayer("https://mt1.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}", {
+      maxZoom: 19,
+      attribution: '&copy; Google',
+      errorTileUrl: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='256'%3E%3Crect%20width='256'%20height='256'%20fill='%23dfe3e6'/%3E%3C/svg%3E"
+    }).addTo(map);
+    var tileErrs = 0, tileFallback = false;
+    tileLayer.on("tileerror", function () {
+      if (tileFallback) return;
+      if (++tileErrs >= 4) {
+        tileFallback = true;
+        if (mapEl._tourDebug) mapEl._tourDebug.tileFallback = true;
+        map.removeLayer(tileLayer);
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          maxZoom: 19,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          errorTileUrl: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='256'%3E%3Crect%20width='256'%20height='256'%20fill='%23dfe3e6'/%3E%3C/svg%3E"
+        }).addTo(map);
+      }
+    });
+    {{ end }}
+
+    /* Spec A: fixed pane order - route 400 (overlayPane) < landmark 610 <
+       title 640 < badge 660 < popup 700 (popupPane). */
+    map.createPane("tourLandmarkPane");
+    map.getPane("tourLandmarkPane").style.zIndex = 610;
+    map.createPane("tourTitlePane");
+    map.getPane("tourTitlePane").style.zIndex = 640;
+    map.createPane("tourBadgePane");
+    map.getPane("tourBadgePane").style.zIndex = 660;
+
+    var BADGE_D = 22;           /* badge diameter px (spec A: 20-22) */
+    var BADGE_R = BADGE_D / 2;  /* 11 */
+    var MIN_SEP = 22;           /* min badge centre distance px (spec C) */
+    var VIEW_MARGIN = 12;       /* px a badge centre must stay inside the map */
+
+    var latlngs = stops.map(function (s) { return L.latLng(s.lat, s.lng); });
+    L.polyline(latlngs, { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map);
+
+    /* ---- initial view: outlier exclusion + spacing zoom (spec C) ---- */
+    function median(nums) {
+      var a = nums.slice().sort(function (x, y) { return x - y; });
+      var m = Math.floor(a.length / 2);
+      return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2;
+    }
+    var medLL = L.latLng(median(stops.map(function (s) { return s.lat; })),
+                         median(stops.map(function (s) { return s.lng; })));
+    var dists = stops.map(function (s) { return map.distance(medLL, L.latLng(s.lat, s.lng)); });
+    var medDist = median(dists);
+    /* A far departure stop (>5x the median distance from the median centre
+       AND >15 km away) is left out of the fit so the destination cluster
+       can be read. Core route stops are only 2-5x away and under 15 km, so
+       they stay in. Outliers stay on the map (timeline + pan/zoom-out). */
+    var mainIdx = [];
+    stops.forEach(function (s, i) {
+      if (!(dists[i] > 5 * medDist && dists[i] > 15000)) mainIdx.push(i);
+    });
+    if (mainIdx.length === 0) mainIdx = stops.map(function (s, i) { return i; });
+    var mainLLs = mainIdx.map(function (i) { return latlngs[i]; });
+    var mainBounds = L.latLngBounds(mainLLs);
+    var fitZ, centre;
+    if (mainLLs.length === 1) {
+      map.setView(mainLLs[0], 14, { animate: false });
+      fitZ = 14;
+      centre = mainLLs[0];
+    } else {
+      map.fitBounds(mainBounds.pad(0.12), { maxZoom: 15, animate: false });
+      fitZ = map.getZoom();
+      centre = mainBounds.getCenter();
+    }
+    function containerPt(ll) { return map.latLngToContainerPoint(ll); }
+    function allInside(lls, margin) {
+      var size = map.getSize();
+      for (var k = 0; k < lls.length; k++) {
+        var p = containerPt(lls[k]);
+        if (p.x < margin || p.x > size.x - margin || p.y < margin || p.y > size.y - margin) return false;
+      }
+      return true;
+    }
+    function minPairPx(lls) {
+      var best = Infinity;
+      for (var i = 0; i < lls.length; i++) {
+        for (var j = i + 1; j < lls.length; j++) {
+          var a = containerPt(lls[i]), b = containerPt(lls[j]);
+          var d = Math.hypot(a.x - b.x, a.y - b.y);
+          if (d < best) best = d;
+        }
+      }
+      return best;
+    }
+    /* Highest zoom in [fitZ, zReq] where every fitted stop stays inside
+       the viewport (12 px margin). At fitZ they fit by construction, so
+       this always lands on a usable zoom. Raising the zoom is what
+       separates a tight cluster (Sokcho, Jeju) instead of pushing badges
+       off their true positions (the discarded separateBadges approach). */
+    var min0 = mainLLs.length > 1 ? minPairPx(mainLLs) : Infinity;
+    var chosenZ = fitZ;
+    if (min0 < MIN_SEP) {
+      var zReq = Math.min(15, fitZ + Math.ceil(Math.log2(MIN_SEP / min0)));
+      for (var z = zReq; z > fitZ; z--) {
+        map.setView(centre, z, { animate: false });
+        if (allInside(mainLLs, VIEW_MARGIN)) { chosenZ = z; break; }
+      }
+      if (chosenZ === fitZ) map.setView(centre, fitZ, { animate: false });
+    }
+
+    /* ---- badges: fixed on true coordinates (spec A) ---- */
+    /* Group stops whose true positions are < MIN_SEP apart at the chosen
+       zoom (connected components). A group shares one cluster badge
+       ("3.4") at the group mean; a single badge is NEVER moved off its
+       vertex. */
+    var n = stops.length;
+    var parent = stops.map(function (s, i) { return i; });
+    function find(x) { while (parent[x] !== x) { parent[x] = parent[parent[x]]; x = parent[x]; } return x; }
+    function union(a, b) { var ra = find(a), rb = find(b); if (ra !== rb) parent[ra] = rb; }
+    var pts = latlngs.map(function (ll) { return containerPt(ll); });
+    for (var i = 0; i < n; i++) {
+      for (var j = i + 1; j < n; j++) {
+        if (Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y) < MIN_SEP) union(i, j);
+      }
+    }
+    var groups = {};
+    for (var k = 0; k < n; k++) {
+      var r = find(k);
+      (groups[r] = groups[r] || []).push(k);
+    }
+    var badgeRecs = [];
+    Object.keys(groups).forEach(function (key) {
+      var g = groups[key];
+      if (g.length === 1) {
+        var si = g[0], s = stops[si];
+        var mk = L.marker(latlngs[si], {
+          pane: "tourBadgePane",
+          icon: L.divIcon({ className: "tour-marker-wrap",
+            html: '<span class="tour-marker__badge">' + (si + 1) + '</span>',
+            iconSize: [BADGE_D, BADGE_D], iconAnchor: [BADGE_R, BADGE_R] })
+        }).addTo(map);
+        mk.bindPopup("<strong>" + esc(labelName(s)) + "</strong>" + (s.note ? "<br>" + esc(s.note) : ""));
+        badgeRecs.push({ marker: mk, stopIdxs: g, cluster: false, halfW: BADGE_R });
+      } else {
+        var mLat = 0, mLng = 0;
+        g.forEach(function (ii) { mLat += stops[ii].lat; mLng += stops[ii].lng; });
+        mLat /= g.length; mLng /= g.length;
+        var nums = g.map(function (ii) { return ii + 1; }).join("·");
+        var cmk = L.marker(L.latLng(mLat, mLng), {
+          pane: "tourBadgePane",
+          icon: L.divIcon({ className: "tour-marker-wrap",
+            html: '<span class="tour-marker__badge tour-marker__badge--cluster">' + nums + '</span>',
+            iconSize: [48, BADGE_D], iconAnchor: [24, BADGE_R] })
+        }).addTo(map);
+        var html = g.map(function (ii) {
+          return "<strong>" + esc(labelName(stops[ii])) + "</strong>" + (stops[ii].note ? "<br>" + esc(stops[ii].note) : "");
+        }).join("<br>");
+        cmk.bindPopup(html);
+        var rec = { marker: cmk, stopIdxs: g, cluster: true, halfW: 24 };
+        badgeRecs.push(rec);
+        /* Measure the real pill width and centre the anchor on it. */
+        var el = cmk.getElement();
+        if (el) {
+          var pill = el.querySelector(".tour-marker__badge");
+          var w = pill ? pill.offsetWidth : 48;
+          rec.halfW = Math.max(11, Math.round(w / 2));
+          cmk.setIcon(L.divIcon({ className: "tour-marker-wrap",
+            html: '<span class="tour-marker__badge tour-marker__badge--cluster">' + nums + '</span>',
+            iconSize: [w, BADGE_D], iconAnchor: [w / 2, BADGE_R] }));
+        }
+      }
+    });
+
+    /* ---- landmarks: true coordinates, no nudge, no zIndexOffset ---- */
+    var landmarkRecs = [];
+    (landmarks || []).forEach(function (lm) {
+      var lmMarker = L.marker(L.latLng(lm.lat, lm.lng), {
+        pane: "tourLandmarkPane",
+        icon: L.divIcon({ className: "tour-landmark", html: esc(lm.symbol || "📍"), iconSize: [26, 26], iconAnchor: [13, 13] }),
+        keyboard: false
+      }).addTo(map);
+      lmMarker.bindTooltip(esc(labelName(lm)), { direction: "top", offset: [0, -14] });
+      landmarkRecs.push({ marker: lmMarker, orig: L.latLng(lm.lat, lm.lng) });
+    });
+
+    /* ---- titles: separate markers in the title pane (spec B) ---- */
+    var titleRecs = [];
+    badgeRecs.forEach(function (br) {
+      if (br.cluster) return; /* a cluster badge carries no on-map title; its stops are named in its popup and in the list below */
+      var si = br.stopIdxs[0], s = stops[si];
+      var tm = L.marker(latlngs[si], {
+        pane: "tourTitlePane",
+        interactive: false,
+        icon: L.divIcon({ className: "tour-title",
+          html: '<span class="tour-marker__label">' + esc(labelName(s)) + '</span>' })
+      }).addTo(map);
+      titleRecs.push({ marker: tm, stopIdx: si, badgeRec: br, full: labelName(s), short: shortName(s), wFull: 0, wShort: 0, h: 0, usedShort: false, usedGap: 4 });
+    });
+
+    var titleLeaders = [];
+    /* 8 directions; ax/ay = the anchor point (nearest point to the badge)
+       as a fraction of the box (w,h). Order: E, W, N, S, NE, SE, NW, SW. */
+    var DIRS = [
+      { dx: 1, dy: 0, ax: 0, ay: 0.5 },
+      { dx: -1, dy: 0, ax: 1, ay: 0.5 },
+      { dx: 0, dy: -1, ax: 0.5, ay: 1 },
+      { dx: 0, dy: 1, ax: 0.5, ay: 0 },
+      { dx: 0.7071, dy: -0.7071, ax: 0, ay: 1 },
+      { dx: 0.7071, dy: 0.7071, ax: 0, ay: 0 },
+      { dx: -0.7071, dy: -0.7071, ax: 1, ay: 1 },
+      { dx: -0.7071, dy: 0.7071, ax: 1, ay: 0 }
+    ];
+    var GAPS = [4, 12, 24, 36, 48];
+    function rectOv(a, b) {
+      var ox = Math.min(a.x1, b.x1) - Math.max(a.x0, b.x0);
+      var oy = Math.min(a.y1, b.y1) - Math.max(a.y0, b.y0);
+      return (ox > 0 && oy > 0) ? ox * oy : 0;
+    }
+    function segRect(s, r) {
+      function inside(x, y) { return x >= r.x0 && x <= r.x1 && y >= r.y0 && y <= r.y1; }
+      if (inside(s.x0, s.y0) || inside(s.x1, s.y1)) return true;
+      function cross(ax, ay, bx, by, cx, cy, dx, dy) {
+        var d = (bx - ax) * (dy - cy) - (by - ay) * (dx - cx);
+        if (Math.abs(d) < 1e-9) return false;
+        var t = ((cx - ax) * (dy - cy) - (cy - ay) * (dx - cx)) / d;
+        var u = ((cx - ax) * (by - ay) - (cy - ay) * (bx - ax)) / d;
+        return t >= 0 && t <= 1 && u >= 0 && u <= 1;
+      }
+      return cross(s.x0, s.y0, s.x1, s.y1, r.x0, r.y0, r.x1, r.y0) ||
+        cross(s.x0, s.y0, s.x1, s.y1, r.x1, r.y0, r.x1, r.y1) ||
+        cross(s.x0, s.y0, s.x1, s.y1, r.x1, r.y1, r.x0, r.y1) ||
+        cross(s.x0, s.y0, s.x1, s.y1, r.x0, r.y1, r.x0, r.y0);
+    }
+    function segSeg(a, b) {
+      function cross(ax, ay, bx, by, cx, cy, dx, dy) {
+        var d = (bx - ax) * (dy - cy) - (by - ay) * (dx - cx);
+        if (Math.abs(d) < 1e-9) return false;
+        var t = ((cx - ax) * (dy - cy) - (cy - ay) * (dx - cx)) / d;
+        var u = ((cx - ax) * (by - ay) - (cy - ay) * (bx - ax)) / d;
+        return t > 0 && t < 1 && u > 0 && u < 1;
+      }
+      return cross(a.x0, a.y0, a.x1, a.y1, b.x0, b.y0, b.x1, b.y1);
+    }
+    /* Length of segment s inside rect r (Liang-Barsky clipping). The route
+       penalty must use THIS length, not the whole segment: a long route
+       segment that merely clips a title box corner used to be charged its
+       full length (capped by the box diagonal), which made route-grazing
+       look worse than covering a badge and pushed titles onto badges
+       (Seoul subway 390, Jeju east 390, Incheon 390 - recheck3). */
+    function clipLen(s, r) {
+      var dx = s.x1 - s.x0, dy = s.y1 - s.y0;
+      var t0 = 0, t1 = 1;
+      var p = [-dx, dx, -dy, dy];
+      var q = [s.x0 - r.x0, r.x1 - s.x0, s.y0 - r.y0, r.y1 - s.y0];
+      for (var i = 0; i < 4; i++) {
+        if (Math.abs(p[i]) < 1e-9) { if (q[i] < 0) return 0; }
+        else {
+          var t = q[i] / p[i];
+          if (p[i] < 0) { if (t > t1) return 0; if (t > t0) t0 = t; }
+          else { if (t < t0) return 0; if (t < t1) t1 = t; }
+        }
+      }
+      return Math.hypot(dx, dy) * (t1 - t0);
+    }
+    /* Distance from point p to segment s. Used for the leader-line check:
+       a badge is a CIRCLE, so a leader is blocked only when it comes within
+       the circle's radius - not when it merely clips the corner of the
+       badge's square bounding box (recheck3: Incheon 390 Jayu Park - the
+       NW gap 24 leader passes 3.9 px clear of badge 4's circle but through
+       its square corner, so the rect test wrongly rejected the clean slot
+       and the title fell back onto badge 4). Cluster pills are not circles,
+       so they keep the rect test. */
+    function segPointDist(s, p) {
+      var dx = s.x1 - s.x0, dy = s.y1 - s.y0;
+      var len2 = dx * dx + dy * dy;
+      var t = len2 ? ((p.x - s.x0) * dx + (p.y - s.y0) * dy) / len2 : 0;
+      t = Math.max(0, Math.min(1, t));
+      return Math.hypot(p.x - (s.x0 + t * dx), p.y - (s.y0 + t * dy));
+    }
+    /* Inflate a rect by e px on every side: a 1 px safety margin so the
+       1 px upward render offset of title icons (recheck3: every title
+       renders ~1 px above its computed box) cannot turn a clean slot into
+       a hairline overlap. */
+    function inf(r, e) {
+      return { x0: r.x0 - e, y0: r.y0 - e, x1: r.x1 + e, y1: r.y1 + e };
+    }
+    function layoutTitles() {
+      titleLeaders.forEach(function (ln) { map.removeLayer(ln); });
+      titleLeaders = [];
+      var size = map.getSize();
+      /* Landmark vs badge (BUILD_LOG 18): a landmark whose centre is
+         within 14 px of a badge centre is moved 20 px off the badge
+         (radial, then 90/180/270 deg) or omitted if no slot clears every
+         badge and stays on screen. Recomputed from the true coordinates
+         on every layout, so it is idempotent. Hidden landmarks are
+         excluded from the title overlap rects below. */
+      var lmHidden = [], lmOffset = [];
+      landmarkRecs.forEach(function (rec, li) {
+        var op = containerPt(rec.orig);
+        var bp = null, bd = Infinity;
+        badgeRecs.forEach(function (br) {
+          var p = containerPt(br.marker.getLatLng());
+          var d = Math.hypot(p.x - op.x, p.y - op.y);
+          if (d < bd) { bd = d; bp = p; }
+        });
+        if (bd >= 14) {
+          if (!map.hasLayer(rec.marker)) rec.marker.addTo(map);
+          rec.marker.setLatLng(rec.orig);
+          return;
+        }
+        var ang0 = Math.atan2(op.y - bp.y, op.x - bp.x);
+        var placed2 = null;
+        for (var ai = 0; ai < 4; ai++) {
+          var a = ang0 + ai * Math.PI / 2;
+          var q = { x: bp.x + Math.cos(a) * 20, y: bp.y + Math.sin(a) * 20 };
+          var ok = true;
+          badgeRecs.forEach(function (br) {
+            var p = containerPt(br.marker.getLatLng());
+            if (Math.hypot(p.x - q.x, p.y - q.y) < 14) ok = false;
+          });
+          if (q.x < 13 || q.x > size.x - 13 || q.y < 13 || q.y > size.y - 13) ok = false;
+          if (ok) { placed2 = q; break; }
+        }
+        if (placed2) {
+          if (!map.hasLayer(rec.marker)) rec.marker.addTo(map);
+          rec.marker.setLatLng(map.containerPointToLatLng(L.point(placed2.x, placed2.y)));
+          lmOffset.push(li);
+        } else {
+          if (map.hasLayer(rec.marker)) map.removeLayer(rec.marker);
+          lmHidden.push(li);
+        }
+      });
+      var badgeRects = badgeRecs.map(function (br) {
+        var p = containerPt(br.marker.getLatLng());
+        return { x0: p.x - br.halfW, y0: p.y - BADGE_R, x1: p.x + br.halfW, y1: p.y + BADGE_R };
+      });
+      var ownBadgeIdx = {};
+      badgeRecs.forEach(function (br, bi) { br.stopIdxs.forEach(function (si) { ownBadgeIdx[si] = bi; }); });
+      var lmRects = landmarkRecs.filter(function (rec) { return map.hasLayer(rec.marker); }).map(function (rec) {
+        var p = containerPt(rec.marker.getLatLng());
+        return { x0: p.x - 13, y0: p.y - 13, x1: p.x + 13, y1: p.y + 13 };
+      });
+      var routePts = latlngs.map(function (ll) { return containerPt(ll); });
+      var routeSegs = [];
+      for (var i = 0; i + 1 < routePts.length; i++) {
+        routeSegs.push({ x0: routePts[i].x, y0: routePts[i].y, x1: routePts[i + 1].x, y1: routePts[i + 1].y });
+      }
+      /* Measure label sizes (full + short). scrollWidth reveals a mobile
+         truncation (max-width 120 px + ellipsis): a truncated full name
+         loses to a fitting short name. */
+      titleRecs.forEach(function (tr) {
+        var el = tr.marker.getElement();
+        if (!el) return;
+        var lab = el.querySelector(".tour-marker__label");
+        if (!lab) return;
+        lab.textContent = tr.full;
+        tr.wFull = lab.offsetWidth || 0;
+        tr.h = lab.offsetHeight || 20;
+        tr.truncFull = lab.scrollWidth > lab.offsetWidth + 1;
+        if (tr.short !== tr.full) {
+          lab.textContent = tr.short;
+          tr.wShort = lab.offsetWidth || 0;
+          tr.truncShort = lab.scrollWidth > lab.offsetWidth + 1;
+        } else { tr.wShort = tr.wFull; tr.truncShort = tr.truncFull; }
+        lab.textContent = tr.full;
+      });
+      var order = titleRecs.slice().sort(function (a, b) { return b.wFull - a.wFull; });
+      var placed = [];
+      var placedLeaders = [];
+      order.forEach(function (tr) {
+        var el = tr.marker.getElement();
+        if (!el) return;
+        var bp = containerPt(latlngs[tr.stopIdx]);
+        var ownBi = ownBadgeIdx[tr.stopIdx];
+        /* Full name first, unless it is truncated on mobile and the short
+           name fits - then the short name is the only candidate. */
+        var names = [{ text: tr.full, w: tr.wFull, isShort: false }];
+        if (tr.short !== tr.full) names.push({ text: tr.short, w: tr.wShort, isShort: true });
+        if (tr.truncFull && !tr.truncShort && names.length > 1) names = [names[1]];
+        var best = null, bestDirty = null;
+        outer:
+        for (var gi = 0; gi < GAPS.length; gi++) {
+          var gap = GAPS[gi];
+          for (var ni = 0; ni < names.length; ni++) {
+            var nm = names[ni];
+            if (!nm.w) continue;
+            var w = nm.w, h = tr.h;
+            for (var di = 0; di < DIRS.length; di++) {
+              var dir = DIRS[di];
+              /* Diagonal slots: the box's nearest point is a CORNER. The
+                 corner sits at (d/sqrt(2), d/sqrt(2)) from the badge centre,
+                 so at d = R + gap it lands INSIDE the badge's square
+                 bounding box (11 px) by ~0.4 px and grazes the badge's own
+                 corner (recheck3: 0.2-3 px2 hairlines on diagonal titles).
+                 Add 3 px on diagonals so the corner clears the square by
+                 ~1.7 px (still ~0.7 px after the 1 px render offset). */
+              var isDiag = Math.abs(dir.dx) > 0.7 && Math.abs(dir.dy) > 0.7;
+              var dist = BADGE_R + gap + (isDiag ? 3 : 0);
+              var px = bp.x + dir.dx * dist;
+              var py = bp.y + dir.dy * dist;
+              var ax = dir.ax * w, ay = dir.ay * h;
+              var x0 = px - ax, y0 = py - ay, x1 = x0 + w, y1 = y0 + h;
+              if (x0 < 2 || y0 < 2 || x1 > size.x - 2 || y1 > size.y - 2) continue;
+              var box = { x0: x0, y0: y0, x1: x1, y1: y1 };
+              var ov = 0;
+              badgeRects.forEach(function (r, ri) { if (ri !== ownBi) ov += rectOv(box, inf(r, 1)); });
+              lmRects.forEach(function (r) { ov += rectOv(box, inf(r, 1)); });
+              placed.forEach(function (r) { ov += rectOv(box, inf(r, 1)); });
+              /* Route: thin line, 1 px weight on the CLIPPED length, so
+                 grazing it costs far less than covering a badge. */
+              routeSegs.forEach(function (sg) {
+                ov += clipLen(sg, box) * 1;
+              });
+              var leader = null;
+              if (gap > 4) {
+                leader = { x0: bp.x + dir.dx * (BADGE_R + 2), y0: bp.y + dir.dy * (BADGE_R + 2), x1: px, y1: py };
+                var bad = false;
+                badgeRects.forEach(function (r, ri) {
+                  if (ri === ownBi) return;
+                  if (badgeRecs[ri].cluster) { if (segRect(leader, r)) bad = true; }
+                  else {
+                    var c = { x: (r.x0 + r.x1) / 2, y: (r.y0 + r.y1) / 2 };
+                    if (segPointDist(leader, c) < BADGE_R + 1) bad = true;
+                  }
+                });
+                placedLeaders.forEach(function (pl) { if (segSeg(leader, pl)) bad = true; });
+                if (bad) continue;
+              }
+              var cand = { gap: gap, name: nm, box: box, leader: leader, anchor: [ax - dir.dx * dist, ay - dir.dy * dist], ov: ov };
+              if (ov === 0) { best = cand; break outer; }
+              if (!bestDirty || ov < bestDirty.ov) bestDirty = cand;
+            }
+          }
+        }
+        var pick = best || bestDirty;
+        if (!pick) {
+          /* No in-bounds slot at all. If the badge itself is on screen
+             (very narrow map), clamp the default east slot inside and
+             accept it. If the badge is OFF screen (a far outlier such as
+             Seoul on the Sokcho post), do NOT clamp: the title stays
+             off screen with its badge (invisible until the user pans
+             there) instead of being dragged to a map corner where it
+             collides with the attribution. */
+          var w0 = tr.wFull, h0 = tr.h;
+          var bx = bp.x + BADGE_R + 4, by = bp.y - h0 / 2;
+          var onScreen = bp.x >= 0 && bp.x <= size.x && bp.y >= 0 && bp.y <= size.y;
+          var cx0 = onScreen ? Math.min(Math.max(bx, 2), size.x - 2 - w0) : bx;
+          var cy0 = onScreen ? Math.min(Math.max(by, 2), size.y - 2 - h0) : by;
+          pick = { gap: 4, name: names[0], box: { x0: cx0, y0: cy0, x1: cx0 + w0, y1: cy0 + h0 }, leader: null, anchor: [bp.x - cx0, bp.y - cy0], ov: Infinity };
+        }
+        tr.usedShort = pick.name.isShort;
+        tr.usedGap = pick.gap;
+        tr.marker.setIcon(L.divIcon({ className: "tour-title",
+          html: '<span class="tour-marker__label">' + esc(pick.name.text) + '</span>',
+          iconAnchor: pick.anchor }));
+        placed.push(pick.box);
+        if (pick.leader) {
+          var ll0 = map.containerPointToLatLng(L.point(pick.leader.x0, pick.leader.y0));
+          var ll1 = map.containerPointToLatLng(L.point(pick.leader.x1, pick.leader.y1));
+          var ln = L.polyline([ll0, ll1], { color: "#6B7280", weight: 1, opacity: 0.7, interactive: false }).addTo(map);
+          titleLeaders.push(ln);
+          placedLeaders.push(pick.leader);
+        }
+      });
+      /* Debug hook for the verification probe (not rendered). */
+      mapEl._tourDebug = {
+        zoom: map.getZoom(),
+        fitZoom: fitZ,
+        clusters: badgeRecs.filter(function (b) { return b.cluster; }).map(function (b) { return b.stopIdxs.map(function (i) { return i + 1; }); }),
+        outliers: stops.map(function (s, i) { return i; }).filter(function (i) { return mainIdx.indexOf(i) < 0; }).map(function (i) { return i + 1; }),
+        leaderCount: titleLeaders.length,
+        landmarkHidden: lmHidden,
+        landmarkOffset: lmOffset,
+        tileFallback: tileFallback,
+        shortUsed: titleRecs.filter(function (t) { return t.usedShort; }).map(function (t) { return t.stopIdx + 1; }),
+        movedGap: titleRecs.filter(function (t) { return t.usedGap > 4; }).map(function (t) { return t.stopIdx + 1; })
+      };
+    }
+    layoutTitles();
+    map.on("moveend", layoutTitles);
+
+    var coarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+    if (coarse) {
+      map.dragging.disable();
+      map.touchZoom.disable();
+      map.doubleClickZoom.disable();
+      if (enableBtn) {
+        enableBtn.hidden = false;
+        enableBtn.addEventListener("click", function () {
+          map.dragging.enable();
+          map.touchZoom.enable();
+          map.doubleClickZoom.enable();
+          enableBtn.hidden = true;
+          map.invalidateSize();
+          layoutTitles();
+        });
+      }
+    }
+  } catch (e) {
+    showFallback();
+  }
+})();
+</script>
 </section>
 {{ end }}

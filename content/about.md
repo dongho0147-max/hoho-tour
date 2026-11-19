@@ -30,9 +30,9 @@ landing at Incheon Airport tomorrow.
 - **Photos are real and credited.** We never take photos from other blogs.
   Every photograph on this site is a real photograph, credited to its
   photographer under a Creative Commons license or a public-domain
-  dedication. The flat illustrations on some pages are AI-generated; each
-  one is labelled in its caption, and photos of real places are never
-  AI-generated or altered to look like somewhere else.
+  dedication. Guidebook illustrations are a separate thing: they are
+  clearly marked as AI-generated illustrations, and never presented
+  as photographs of real places.
 
 ## Links to booking sites
 
@@ -47,14 +47,13 @@ ourselves, and a link never changes a price, a rating, or an itinerary.
 
 Every photograph on this site is a real photograph, credited to its
 photographer under a Creative Commons license (or a public-domain dedication).
-The illustrations are AI-generated, labelled in their captions and recorded
-at the end of the credits file. The full list, with the source page and
+Guidebook illustrations are marked as AI-generated illustrations in their
+captions, and are never presented as photographs of real places. The full list, with the source page and
 license for each photo, is in
 [photo credits](/images/photos/CREDITS.md). The two photos whose licenses
 forbid commercial use were not used on this site.
 
 ## Contact
 
-Questions, corrections, or a place you think we got wrong? Open an issue on
-our GitHub repository: [github.com/dongho0147-max/hoho-tour](https://github.com/dongho0147-max/hoho-tour).
-A contact email will be added here soon.
+Questions, corrections, or a place you think we got wrong? Email us at
+[contact@hoho-labs.com](mailto:contact@hoho-labs.com).

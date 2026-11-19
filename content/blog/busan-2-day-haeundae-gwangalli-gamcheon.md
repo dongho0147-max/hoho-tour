@@ -12,6 +12,7 @@ stops:
     lng: 129.16053
     note: "Day 1 morning; the main beach and promenade."
   - name: "Mipo Station, Haeundae Blueline Park"
+    short: "Mipo Station"
     lat: 35.15817
     lng: 129.17283
     note: "Sky Capsule and Beach Train start here."
@@ -20,6 +21,7 @@ stops:
     lng: 129.12056
     note: "Day 1 evening; the bridge lights up over the bay."
   - name: "Gamcheon Culture Village"
+    short: "Gamcheon Village"
     lat: 35.097
     lng: 129.009
     note: "Day 2 morning; hillside alleys and murals."
@@ -37,9 +39,11 @@ Two days is enough for Busan if you split it by coast, not by checklist. Day 1 i
 
 This guide was put together from recent listings, reviews, and official pages, checked November 2026. Prices and hours change, so treat the numbers below as ranges.
 
+{{< sticker kind="lets-go" >}}
+
 {{< figure src="images/photos/busan-02.webp" alt="A night festival crowd at Gwangalli Beach" caption="A night festival crowd at Gwangalli Beach. Photo: Jiwoon Kim, CC0" >}}
 
-## Day 1: Haeundae Beach and the Sky Capsule
+## 🌊 Day 1: Haeundae Beach and the Sky Capsule
 
 Start at Haeundae Beach, the wide sand beach with the promenade and the seafront towers. Walk the full length of the beach in the morning, when it is quiet, and keep going to Dongbaekseom Island, the small pine-covered island at the western end. The island loop takes about 40 minutes, and the Nurimaru APEC House sits on it, free to look at from outside.
 
@@ -47,19 +51,29 @@ Then ride the Haeundae Blueline Park. The Sky Capsule is the slow one: private c
 
 Book the capsule at least a week ahead. Sunset slots sell out 2 to 4 weeks ahead, and the capsule runs 08:30 to about 18:00 in winter. A Klook voucher covers the capsule or the train, but read the fine print: you still redeem the voucher on the Blueline Park site to pick a time slot, and Klook does not offer refunds on it.
 
+> **🔥 Local tip:** The official site releases each date every Tuesday at 07:00 Korea time, 4 weeks ahead, and sunset and weekend slots go in minutes. If Mipo to Cheongsapo is sold out, try the reverse direction, Cheongsapo to Mipo: it is less in demand, and the sunset light over Haeundae is just as good from that side. Based on recent listings/reviews, checked November 2026.
+
+{{< sticker kind="pro-tip" >}}
+
 {{< aff href="https://www.klook.com/activity/133293-haeundae-blueline-park-ticket-in-busan/" text="Book the Haeundae Sky Capsule and Beach Train voucher on Klook" >}}
 
 If you want the capsule, the temple, and Gamcheon done for you in one day, the guided day tour covers all three with pickup, and it is the simplest way to fit the Sky Capsule into a short trip.
 
 {{< aff href="https://www.klook.com/en-US/activity/74132-busan-oneday-tour-busan/" text="Book the Busan day tour with Sky Capsule and Gamcheon on Klook" >}}
 
-## Day 1 evening: Gwangalli Beach and the bridge
+## 🌉 Day 1 evening: Gwangalli Beach and the bridge
 
 Take the subway or a short taxi to Gwangalli Beach for the evening. The beach curves around the bay, and the Gwangan Bridge lights up over the water after dark. Walk the beachfront, pick a cafe with a second-floor window, and stay for the light show. The bridge puts on a light display on weekend evenings, and the beachfront is at its best then.
 
+{{< figure src="images/photos/busan-07.webp" alt="Gwangalli Beach and Gwangan Bridge in daylight" caption="Gwangalli Beach and Gwangan Bridge in daylight. Photo: Masterhatch, CC BY" >}}
+
+> **🔥 Local tip:** If day 1 is a Saturday, stay for the free M Drone Light Show: about 1,100 drones draw pictures over the water for 12 minutes, twice a night, at 19:00 and 21:00 from October to February (20:00 and 22:00 from March to September). No ticket needed. Rain or strong wind can cancel it, so check the official notice on the day. Based on recent listings/reviews, checked November 2026.
+
+{{< sticker kind="photo-spot" >}}
+
 Dinner here is easy: raw fish restaurants line the beach road, and the cafes stay open late. A raw fish set for two runs about 50,000 to 80,000 KRW, based on recent listings. If that is more than you want to spend, the cafes and the fried chicken places on the beach road do the same view for less.
 
-## Day 2: Gamcheon Culture Village in the morning
+## 🏘️ Day 2: Gamcheon Culture Village in the morning
 
 Start day 2 at Gamcheon Culture Village, the hillside neighborhood of colorful houses, murals, and steep alleys. Go in the morning, before the tour groups arrive, and give it 2 hours. The village was a refugee settlement during the Korean War, and the art came later, so walk it with that in mind: people live here, and the lanes are their streets, not a theme park.
 
@@ -67,11 +81,11 @@ Start day 2 at Gamcheon Culture Village, the hillside neighborhood of colorful h
 
 Wear proper shoes. The alleys are steep, the steps are uneven, and the loop up to the viewpoints and back down is a real walk. Bring water in summer. The Little Prince statue and the main viewpoint draw the longest lines, so see them first and then wander the quieter lanes behind them.
 
+> **🔥 Local tip:** Arrive between 09:00 and 10:00 on a weekday, before the tour buses cluster from around 10:00 to 14:00. Pick up the stamp map at the information center and follow its route downhill: it spreads out the foot traffic and ends at the cafe street. At peak hours the Little Prince photo queue runs 20 to 30 minutes. Some small stalls do not take cards, so carry small bills. Based on recent listings/reviews, checked November 2026.
+
 {{< figure src="images/photos/busan-05.webp" alt="Gamcheon Culture Village on a cloudy autumn day" caption="Gamcheon Culture Village on a cloudy autumn day, seen from the village bus stop. Photo: RonanHoogmoed, CC BY-SA 4.0" >}}
 
-{{< collage "images/photos/busan-02.webp|Gwangalli Beach at night|Jiwoon Kim, CC0" "images/photos/busan-03.webp|Gamcheon Culture Village|Basile Morin, CC BY-SA 4.0" "images/photos/busan-05.webp|Gamcheon village lanes|RonanHoogmoed, CC BY-SA 4.0" >}}
-
-## Day 2 lunch: Jagalchi Market and milmyeon
+## 🍜 Day 2 lunch: Jagalchi Market and milmyeon
 
 From Gamcheon, take the bus or subway to Jagalchi Market, the big seafood market by the harbor. The ground floor sells live seafood, and the upper floors have small restaurants that cook what you buy downstairs. If raw fish is not your thing, the market building has cooked options too, and the restaurants around the edge serve grilled fish sets for about 15,000 to 25,000 KRW per person.
 
@@ -81,7 +95,9 @@ For something lighter, try milmyeon, the Busan wheat noodle in clear broth. It i
 
 {{< figure src="images/photos/busan-06.webp" alt="Busan milmyeon in a metal bowl" caption="Busan milmyeon: wheat noodles in clear broth with egg and cucumber. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-## What should you eat in Busan?
+{{< sticker kind="yum" >}}
+
+## 🍽️ What should you eat in Busan?
 
 Here is the short list, with what to expect at each stop.
 
@@ -93,13 +109,13 @@ Here is the short list, with what to expect at each stop.
 | Grilled fish set | Jagalchi Market upper floors | About 15,000 to 25,000 KRW |
 | Street snacks | BIFF Square | About 3,000 to 8,000 KRW each |
 
-## Day 2 afternoon: BIFF Square and the old town
+## 🚶 Day 2 afternoon: BIFF Square and the old town
 
 Finish at BIFF Square, the street-food square a short walk from Jagalchi. It is where the film festival started, and the handprints of actors are set into the pavement. Eat your way along it: hotteok, fish cakes, and the fried snacks the stalls sell by weight. It is the right last stop because it is small, cheap, and you can leave whenever you are full.
 
-> **Tip:** Stay in Haeundae for night 1 and move to Nampo or Seomyeon for night 2, or just stay in Haeundae for both nights and take the subway south on day 2. The subway from Haeundae to Jagalchi takes about 40 minutes with one change. A taxi for the same trip runs about 15,000 to 20,000 KRW in normal traffic.
+> **🔥 Local tip:** Stay in Haeundae for night 1 and move to Nampo or Seomyeon for night 2, or just stay in Haeundae for both nights and take the subway south on day 2. The subway from Haeundae to Jagalchi takes about 40 minutes with one change. A taxi for the same trip runs about 15,000 to 20,000 KRW in normal traffic.
 
-## Where to stay
+## 🛏️ Where to stay
 
 Haeundae is the best base for this route. The beach, the Blueline Park, and the subway are all in one place, and the cafes stay open late. Mid-range hotels a short walk from the beach run about 100,000 to 180,000 KRW a night, based on recent listings. Budget rooms near Haeundae Station run about 50,000 to 80,000 KRW.
 
@@ -109,11 +125,15 @@ If you want the temple and the coast covered without planning the buses, the ful
 
 {{< aff href="https://www.klook.com/en-US/activity/13011-skywalk-haedong-yonggungsa-temple-tour-busan/" text="Book the Busan full-day tour with Haedong Yonggungsa Temple on Klook" >}}
 
-## Your 2 days at a glance
+## ✅ Your 2 days at a glance
 
 | Day | Morning | Afternoon | Evening |
 |---|---|---|---|
 | Day 1 | Haeundae Beach, Dongbaekseom walk | Sky Capsule or Beach Train | Gwangalli Beach, bridge lights |
 | Day 2 | Gamcheon Culture Village | Jagalchi Market, milmyeon | BIFF Square street food |
 
+{{< sticker kind="tired-rest" >}}
 
+## 🍜 Keep eating in Busan
+
+Two days of beach walks work up an appetite. For the full bowl-by-bowl version of this trip, read [Busan in Two Bowls: Dwaeji Gukbap and Milmyeon](/blog/busan-pork-soup-milmyeon/): the 24-hour soup alley in Seomyeon, beef soup by Haeundae Beach, and the birthplace of milmyeon in Uam-dong.
