@@ -133,7 +133,7 @@ main{padding:0 0 56px}
 .disclosure strong{color:var(--text-primary)}
 
 /* Article prose (single.html - kept working, sans headings, bright tokens) */
-article{max-width:68ch}
+article{max-width:68ch;margin-left:auto;margin-right:auto}
 article h1{font-size:32px;line-height:1.2;letter-spacing:-.02em;margin:.4em 0 .5em}
 article h2{font-size:26px;line-height:1.25;margin:1.8em 0 .6em}
 article h3{font-size:21px;line-height:1.35;margin:1.4em 0 .4em}
