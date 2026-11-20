@@ -43,3 +43,7 @@ markup:
   goldmark:
     renderer:
       unsafe: false
+    extensions:
+      # Korean text uses a single tilde for ranges (09:40~17:00, 화~일).
+      # Goldmark's strikethrough extension eats those as <del>, so it is off.
+      strikethrough: false
