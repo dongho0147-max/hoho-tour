@@ -1,0 +1,19 @@
+# KR hero image alt overrides - Korean alt text for posts whose frontmatter
+# image_alt is English. DO NOT edit the .kr.md frontmatter (rule: md untouched).
+# Keys are the post file base names (with .kr suffix). single.html, guide-card.html
+# and list.html use alt_ko on KR pages when present, else the frontmatter image_alt.
+busan-2-day-haeundae-gwangalli-gamcheon.kr: "산책로와 바닷가 고층 건물이 있는 해운대 해변"
+busan-pork-soup-milmyeon.kr: "돼지국밥, 밥과 부추와 김치를 곁들인 부산 돼지국밥"
+gangneung-one-night-ktx-coffee-gyeongpo.kr: "경포해변의 경포 포토 프레임"
+gyeongju-night-donggung-wolji.kr: "밤에 불 밝힌 동궁과 월지"
+gyeongju-one-day-ktx-bulguksa-hwangridan.kr: "불국사의 연못과 돌다리"
+incheon-day-trip-from-seoul.kr: "인천 차이나타운 문, 붉은색과 금색 패루"
+jeju-3-days-no-car.kr: "제주 한라산의 푸른 비탈과 떠다니는 구름"
+jeju-east-seongsan-udo.kr: "푸른 시간대 성산일출봉 앞의 수국"
+jeonju-one-day-hanok-bibimbap-gaekridan.kr: "낮의 전주한옥마을 지붕과 거리"
+seoul-cafes-seongsu-yeonnam-ikseon.kr: "카페 테이블이 밖에 놓인 익선동의 좁은 골목"
+seoul-night-han-river-cruise-ramyeon.kr: "한강 위 밤의 반포대교 달빛무지개분수"
+seoul-old-restaurants-baekban-bbq.kr: "설렁탕, 소고기와 파를 넣은 뽀얀 소뼈 국"
+seoul-subway-tmoney-taxi.kr: "암사역 표지판, 8호선, 810번 역"
+seoul-winter-guide-late-november-december.kr: "눈 내린 경복궁 향원정"
+suwon-hwaseong-one-day.kr: "수원 화성 성문"

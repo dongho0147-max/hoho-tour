@@ -75,3 +75,114 @@ other = "HOHO Tour guides"
 other = "Language"
 [noGuidesFilter]
 other = "No guides in this region yet."
+
+# --- 2026-11-20 /kr i18n fix: keys added to match kr.toml (EN values = current strings) ---
+[dateUpdated]
+other = "Updated"
+[minRead]
+other = "{{ .Count }} min read"
+[filedUnder]
+other = "Filed under"
+[keepExploring]
+other = "Keep exploring"
+[moreIn]
+other = "More in {name}"
+[sameTheme]
+other = "Same theme, other regions"
+[routeAtAGlance]
+other = "Route at a glance"
+[routeMapAlt]
+other = "Route map with numbered stops in visit order"
+[staticMapCaption]
+other = "Static route map - the interactive map could not be loaded."
+[staticMapCaptionNoScript]
+other = "Route map for this guide - stops in visit order."
+[tapToExplore]
+other = "Tap to explore the map"
+[routeSummaryAria]
+other = "Route summary"
+[interactiveMapAria]
+other = "Interactive map of the route stops"
+[mapCaption]
+other = "Interactive map: Google Maps tiles (English place names), © Google. Stop coordinates verified via OpenStreetMap Nominatim, Nov 2026."
+[photoLabel]
+other = "Photo:"
+[statusAll]
+other = "Showing all {n} guides."
+[statusOne]
+other = "{n} guide(s) in {name}."
+[filterByRegion]
+other = "Filter guides by region"
+[guidesComingSoon]
+other = "Guides coming soon"
+[mapCredit]
+other = "Province boundaries: Natural Earth 1:10m Admin 1 (public domain), simplified for the web. Some small outlying islands are omitted."
+[browseByRegion]
+other = "Browse guides by region:"
+[counterToday]
+other = "Today"
+[counterTotal]
+other = "Total"
+[hubAllGuides]
+other = "All {name} guides"
+[hubCount]
+other = "{n} guide{s} in {name}."
+[hubCities]
+other = "Cities:"
+[hubNoTheme]
+other = "No {name} guides with this theme yet."
+[hubBackToMap]
+other = "Back to the map"
+[hubMap]
+other = "Map"
+[termBrowseBy]
+other = "Browse by {name}"
+[termFiledUnder]
+other = "{n} guides filed under {name}."
+[termNoGuides]
+other = "No guides filed here yet. Check back soon."
+[termIndexEyebrow]
+other = "Browse the guides"
+[allChip]
+other = "All"
+[logoAlt]
+other = "HOHO Tour logo"
+[heroBannerAlt]
+other = "HOHO Tour Korea travel guides banner"
+[hubMoodAlt]
+other = "Illustrated mood picture of {name}"
+[soonNote]
+other = "soon"
+[guidesSoonNote]
+other = "guides coming soon"
+
+[filterByTheme]
+other = "Filter {name} guides by theme"
+
+[hubSoonBody]
+other = "{name} is on the list - we are still checking it properly before publishing. Meanwhile, browse the regions that are ready."
+
+[footAllRegions]
+other = "All regions"
+
+[footAllThemes]
+other = "All themes"
+
+[notFoundTitle]
+other = "That page is not here"
+
+[notFoundBody]
+other = "The link you followed may be out of date, or the address may have a typo. The guides below are a good place to start over."
+
+[backHome]
+other = "Back to the home page &rarr;"
+
+[browseAllGuides]
+other = "Browse all guides"
+
+[breadcrumbNav]
+other = "Breadcrumb"
+[heroAria]
+other = "Welcome to HOHO Tour"
+[browseAria]
+other = "Browse guides by place and theme"

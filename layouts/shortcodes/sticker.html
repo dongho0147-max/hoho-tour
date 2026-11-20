@@ -17,8 +17,17 @@
   "tired-rest" "Semo the white cat sleeps curled up (Tired-Rest)"
   "photo-spot" "Semo the white cat holds up a camera to take a photo (Photo Spot!)"
 }}
+{{ $altsKo := dict
+  "lets-go" "민트 배낭을 멘 하얀 고양이 세모가 지도와 여행 가방을 들고 걷고 있다 (출발!)"
+  "yum" "하얀 고양이 세모가 젓가락으로 그릇에 담긴 국수를 먹고 있다, 눈을 감고 행복하게 (냠!)"
+  "pro-tip" "하얀 고양이 세모가 초록색 체크 표시가 있는 체크리스트를 들고 있다 (꿀팁!)"
+  "must-visit" "하얀 고양이 세모가 돋보기를 들고 호기심 어린 표정을 짓고 있다 (꼭 가봐야 할 곳!)"
+  "tired-rest" "하얀 고양이 세모가 웅크리고 잠을 자고 있다 (피곤할 땐 쉬어가기)"
+  "photo-spot" "하얀 고양이 세모가 카메라를 들고 사진을 찍고 있다 (포토 스팟!)"
+}}
 {{ $kind := .Get "kind" }}
 {{ $alt := index $alts $kind }}
+{{ if eq site.Language.Lang "kr" }}{{ $alt = index $altsKo $kind }}{{ end }}
 <figure class="sticker">
   <img class="sticker-anim" src="/images/stickers/semo-{{ $kind }}.webp" alt="{{ $alt }}" width="320" height="320" loading="lazy">
   <img class="sticker-still" src="/images/stickers/semo-{{ $kind }}.png" alt="{{ $alt }}" width="320" height="320" loading="lazy" hidden>

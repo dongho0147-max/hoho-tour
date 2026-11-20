@@ -20,12 +20,21 @@
       document.head.appendChild(script);
   })();
 </script>{{ end }}
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ i18n "homeTitleSuffix" }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+{{/* KR page titles: taxonomy term pages carry the English term name in .Title,
+   taxonomy index pages carry "Themes"/"Regions", and the 404 page carries
+   Hugo's default "404 Page not found" - all get their Korean title here. */}}
+{{ $pageTitle := .Title }}
+{{ if eq site.Language.Lang "kr" }}
+  {{ if and (eq .Data.Plural "themes") .Data.Term }}{{ with index site.Data.themes .Data.Term }}{{ $pageTitle = .name_ko }}{{ end }}
+  {{ else if eq .Kind "taxonomy" }}{{ $pageTitle = i18n .Data.Plural }}
+  {{ else if eq .Kind "404" }}{{ $pageTitle = i18n "notFoundTitle" }}{{ end }}
+{{ end }}
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ i18n "homeTitleSuffix" }}{{ else }}{{ $pageTitle }} | {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $pageTitle }}{{ end }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta name="twitter:card" content="summary">

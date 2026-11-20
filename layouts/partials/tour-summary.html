@@ -57,35 +57,54 @@
 {{ with .Params.stops }}
 {{ $slug := $.File.BaseFileName }}
 {{ $map := printf "images/maps/%s-map.webp" $slug }}
-{{ $stopsJSON := . | jsonify }}
+{{ $isKr := eq site.Language.Lang "kr" }}
+{{ $stops := . }}
+{{/* KR stop-name/note overrides (data/kr-stops.yaml): the .kr.md front
+   matter keeps English names; this merges the Korean display names and
+   notes in without touching the md files. EN stops are untouched. */}}
+{{ if $isKr }}{{ with index site.Data.kr_stops $slug }}
+  {{ $ov := .stops }}
+  {{ if $ov }}
+    {{ $new := slice }}
+    {{ range $i, $s := $stops }}
+      {{ $o := index $ov $i }}
+      {{ if $o }}
+        {{ $over := dict }}
+        {{ with $o.name_ko }}{{ $over = merge $over (dict "name_ko" .) }}{{ end }}
+        {{ with $o.note_ko }}{{ $over = merge $over (dict "note" .) }}{{ end }}
+        {{ $s = merge $s $over }}
+      {{ end }}
+      {{ $new = $new | append $s }}
+    {{ end }}
+    {{ $stops = $new }}
+  {{ end }}
+{{ end }}{{ end }}
+{{ $stopsJSON := $stops | jsonify }}
 {{ $landmarksJSON := $.Params.landmarks | jsonify }}
 {{ $mapID := printf "tour-map-%s" $slug }}
-{{ $isKr := eq site.Language.Lang "kr" }}
-<section class="tour-summary" aria-label="Route summary" data-reveal>
-<h2 class="tour-summary__title">Route at a glance</h2>
+<section class="tour-summary" aria-label="{{ i18n "routeSummaryAria" }}" data-reveal>
+<h2 class="tour-summary__title">{{ i18n "routeAtAGlance" }}</h2>
 <div class="tour-map-wrap">
-<div id="{{ $mapID }}" class="tour-map" role="application" aria-label="Interactive map of the route stops"></div>
+<div id="{{ $mapID }}" class="tour-map" role="application" aria-label="{{ i18n "interactiveMapAria" }}"></div>
 <figure class="map-figure tour-map__fallback" data-tour-map-fallback hidden>
-<img src="{{ $map | relURL }}" alt="Route map with numbered stops in visit order"{{ partial "photo-dims.html" $map | safeHTMLAttr }} loading="lazy">
-<figcaption>Static route map - the interactive map could not be loaded.</figcaption>
+<img src="{{ $map | relURL }}" alt="{{ i18n "routeMapAlt" }}"{{ partial "photo-dims.html" $map | safeHTMLAttr }} loading="lazy">
+<figcaption>{{ i18n "staticMapCaption" }}</figcaption>
 </figure>
 <noscript>
 <figure class="map-figure">
-<img src="{{ $map | relURL }}" alt="Route map with numbered stops in visit order"{{ partial "photo-dims.html" $map | safeHTMLAttr }} loading="lazy">
-<figcaption>Route map for this guide - stops in visit order.</figcaption>
+<img src="{{ $map | relURL }}" alt="{{ i18n "routeMapAlt" }}"{{ partial "photo-dims.html" $map | safeHTMLAttr }} loading="lazy">
+<figcaption>{{ i18n "staticMapCaptionNoScript" }}</figcaption>
 </figure>
 </noscript>
 </div>
-<button type="button" class="tour-map__enable" data-tour-map-enable hidden>Tap to explore the map</button>
-{{ if $isKr }}
-<p class="tour-summary__caption">Interactive map: OpenStreetMap tiles, &copy; OpenStreetMap contributors. Stop coordinates verified via OpenStreetMap Nominatim, Nov 2026.</p>
-{{ else }}
-<p class="tour-summary__caption">Interactive map: Google Maps tiles (English place names), &copy; Google. Stop coordinates verified via OpenStreetMap Nominatim, Nov 2026.</p>
-{{ end }}
+<button type="button" class="tour-map__enable" data-tour-map-enable hidden>{{ i18n "tapToExplore" }}</button>
+<p class="tour-summary__caption">{{ i18n "mapCaption" }}</p>
 <ol class="tour-summary__stops">
-{{ range . }}<li><strong>{{ if and $isKr (.name_ko) }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
+{{ range $stops }}<li><strong>{{ if and $isKr (.name_ko) }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
 </ol>
-{{ with $.Params.map_note }}<p class="tour-summary__note">{{ . }}</p>{{ end }}
+{{ $mapNote := $.Params.map_note }}
+{{ if $isKr }}{{ with index site.Data.kr_stops $slug }}{{ with .map_note_ko }}{{ $mapNote = . }}{{ end }}{{ end }}{{ end }}
+{{ with $mapNote }}<p class="tour-summary__note">{{ . }}</p>{{ end }}
 <link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
 <script src="{{ "vendor/leaflet/leaflet.js" | relURL }}"></script>
 <script>
@@ -121,7 +140,7 @@
     {{ if $isKr }}
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> 기여자',
       errorTileUrl: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='256'%3E%3Crect%20width='256'%20height='256'%20fill='%23dfe3e6'/%3E%3C/svg%3E"
     }).addTo(map);
     /* BUILD_LOG 21: tileFallback must exist on KR pages too - the debug

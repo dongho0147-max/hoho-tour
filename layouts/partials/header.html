@@ -1,12 +1,13 @@
 <header class="site"><div class="wrap">
-<a class="brand" href="{{ "/" | relLangURL }}"><img src="/images/hoho-tour-logo-final.svg" alt="HOHO Tour logo" width="36" height="36">HOHO <em>Tour</em></a>
+{{ $foodURL := "/themes/food-restaurants/" | relLangURL }}
+<a class="brand" href="{{ "/" | relLangURL }}"><img src="/images/hoho-tour-logo-final.svg" alt="{{ i18n "logoAlt" }}" width="36" height="36">HOHO <em>Tour</em></a>
 <nav>
 <a href="{{ "/" | relLangURL }}"{{ if .IsHome }} aria-current="page"{{ end }}>{{ i18n "home" }}</a>
 <a href="{{ "/blog/" | relLangURL }}"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>{{ i18n "guides" }}</a>
 <a href="{{ "/regions/" | relLangURL }}"{{ if in .RelPermalink "/regions/" }} aria-current="page"{{ end }}>{{ i18n "regions" }}</a>
-<a href="/themes/food-restaurants/"{{ if eq .RelPermalink "/themes/food-restaurants/" }} aria-current="page"{{ end }}>{{ i18n "food" }}</a>
-<a href="/about/">{{ i18n "about" }}</a>
-<a href="/privacy/">{{ i18n "privacy" }}</a>
+<a href="{{ $foodURL }}"{{ if eq .RelPermalink $foodURL }} aria-current="page"{{ end }}>{{ i18n "food" }}</a>
+<a href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a>
+<a href="{{ "/privacy/" | relLangURL }}">{{ i18n "privacy" }}</a>
 </nav>
 {{ partial "lang-toggle.html" . }}
 </div>

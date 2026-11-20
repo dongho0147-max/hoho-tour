@@ -21,6 +21,11 @@
     var highlight = qs(".prov-highlight", root);
     var headAll = root.getAttribute("data-heading-all") || (heading ? heading.textContent : "");
     var headOne = root.getAttribute("data-heading-one") || "{name}";
+    /* KR status templates (data-status-all / data-status-one, rendered only
+       on KR pages): "{n}" is the count, "{name}" the region label. EN pages
+       have no such attributes and keep the English strings below. */
+    var statusAll = root.getAttribute("data-status-all");
+    var statusOne = root.getAttribute("data-status-one");
     var items = Array.prototype.slice.call(container.querySelectorAll("[data-filter-item]"));
     var controls = Array.prototype.slice.call(root.querySelectorAll("[data-filter-value]"));
     var current = "";
@@ -62,9 +67,15 @@
       var name = value ? labelFor(value) : "";
       if (heading) heading.textContent = value ? headOne.replace("{name}", name) : headAll;
       if (status) {
-        status.textContent = value
-          ? shown + " guide" + (shown === 1 ? "" : "s") + " in " + name + "."
-          : "Showing all " + items.length + " guides.";
+        if (statusAll && statusOne) {
+          status.textContent = value
+            ? statusOne.replace("{name}", name).replace("{n}", String(shown))
+            : statusAll.replace("{n}", String(items.length));
+        } else {
+          status.textContent = value
+            ? shown + " guide" + (shown === 1 ? "" : "s") + " in " + name + "."
+            : "Showing all " + items.length + " guides.";
+        }
       }
       if (empty) empty.hidden = shown !== 0;
       root.setAttribute("data-filter-current", value);

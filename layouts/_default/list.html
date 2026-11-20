@@ -14,18 +14,20 @@
 <ul class="cards">
 {{ range $pages.ByDate.Reverse }}
 {{ $p := . }}
+{{ $alt := $p.Params.image_alt | default $p.Title }}
+{{ if eq site.Language.Lang "kr" }}{{ with index site.Data.kr_image_alt $p.File.BaseFileName }}{{ $alt = . }}{{ end }}{{ end }}
 <li class="card">
-{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}" width="480" height="320" loading="lazy"></a>{{ else }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="/images/banner/banner-seoul.webp" alt="{{ $p.Title }}" width="480" height="320" loading="lazy"></a>{{ end }}
+{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $alt }}" width="480" height="320" loading="lazy"></a>{{ else }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="/images/banner/banner-seoul.webp" alt="{{ $p.Title }}" width="480" height="320" loading="lazy"></a>{{ end }}
 <div class="card-body">
 <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
 <p class="desc">{{ .Description }}</p>
-<p class="meta">{{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} min read</p>
+<p class="meta">{{ if eq site.Language.Lang "kr" }}{{ .Date.Format "2006년 1월 2일" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }} &middot; {{ i18n "minRead" .ReadingTime }}</p>
 {{ $regions := .GetTerms "regions" }}
 {{ $themes := .GetTerms "themes" }}
 {{ if or $regions $themes }}
-<p class="term-chips" aria-label="Filed under">
+<p class="term-chips" aria-label="{{ i18n "filedUnder" }}">
 {{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
-{{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+{{ range $themes }}{{ $t := index site.Data.themes .Data.Term }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if and (eq site.Language.Lang "kr") $t }}{{ $t.name_ko }}{{ else }}{{ .LinkTitle }}{{ end }}</a>{{ end }}
 </p>
 {{ end }}
 <a class="readmore" href="{{ .RelPermalink }}">{{ i18n "readGuide" | safeHTML }}</a>

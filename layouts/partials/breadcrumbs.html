@@ -3,26 +3,28 @@
    otherwise from the taxonomy term page. */}}
 {{ if and .IsPage (eq .Section "blog") }}
 {{ $country := site.Data.regions.country.slug | default "korea" }}
-{{ $crumbs := slice (dict "name" "Home" "url" ("/" | absURL)) }}
+{{ $crumbs := slice (dict "name" (i18n "home") "url" ("/" | relLangURL)) }}
 {{ with .Params.regions }}
   {{ $slug := index . 0 | urlize }}
   {{ $r := index (where site.Data.regions.regions "slug" $slug) 0 }}
   {{ if $r }}
-    {{ $crumbs = $crumbs | append (dict "name" $r.name "url" (printf "/%s/%s/" $country $slug | absURL)) }}
+    {{ $rName := $r.name }}{{ if eq site.Language.Lang "kr" }}{{ $rName = $r.name_ko }}{{ end }}
+    {{ $crumbs = $crumbs | append (dict "name" $rName "url" (printf "/%s/%s/" $country $slug | relLangURL)) }}
   {{ else }}
     {{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $crumbs = $crumbs | append (dict "name" .LinkTitle "url" .Permalink) }}{{ end }}
   {{ end }}
 {{ end }}
 {{ with .Params.themes }}
   {{ $t := index . 0 | urlize }}
-  {{ with site.GetPage (printf "/themes/%s" $t) }}{{ $crumbs = $crumbs | append (dict "name" .LinkTitle "url" .Permalink) }}{{ end }}
+  {{ with site.GetPage (printf "/themes/%s" $t) }}{{ $tName := .LinkTitle }}{{ if eq site.Language.Lang "kr" }}{{ with index site.Data.themes $t }}{{ $tName = .name_ko }}{{ end }}{{ end }}{{ $crumbs = $crumbs | append (dict "name" $tName "url" .Permalink) }}{{ end }}
 {{ end }}
-<nav class="breadcrumbs" aria-label="Breadcrumb">
+<nav class="breadcrumbs" aria-label="{{ i18n "breadcrumbNav" }}">
 <ol>
 {{ range $crumbs }}<li><a href="{{ .url | relURL }}">{{ .name }}</a></li>{{ end }}
 </ol>
 </nav>
 {{ $items := slice }}
-{{ range $i, $c := $crumbs }}{{ $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.name "item" $c.url) }}{{ end }}
+{{/* JSON-LD needs absolute URLs: the visible links above stay relative (relLangURL), but BreadcrumbList item values must be absolute or Google cannot resolve them. */}}
+{{ range $i, $c := $crumbs }}{{ $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.name "item" ($c.url | absURL)) }}{{ end }}
 <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items | jsonify | safeJS }}</script>
 {{ end }}

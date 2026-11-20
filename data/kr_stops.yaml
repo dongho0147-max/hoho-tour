@@ -1,0 +1,223 @@
+# KR stop label overrides - Korean names + notes for tour maps on /kr posts.
+# DO NOT edit the .kr.md frontmatter (rule: md untouched). This data file is the
+# mapping mechanism: tour-summary.html merges it over .Params.stops for KR pages.
+# Keys are the post file base names (with .kr suffix, as $.File.BaseFileName gives).
+# `stops` is index-aligned with the frontmatter stops list; every entry here
+# overrides name_ko and/or note_ko for that stop. map_note_ko overrides map_note.
+busan-2-day-haeundae-gwangalli-gamcheon.kr:
+  stops:
+    - name_ko: "해운대 해변"
+      note_ko: "1일차 오전, 메인 해변과 산책로."
+    - name_ko: "미포 정거장, 해운대 블루라인파크"
+      note_ko: "스카이캡슐과 해변열차 출발점."
+    - name_ko: "광안리 해변"
+      note_ko: "1일차 저녁, 만 위에 광안대교 불이 켜진다."
+    - name_ko: "감천문화마을"
+      note_ko: "2일차 오전, 언덕 골목과 벽화."
+    - name_ko: "자갈치시장"
+      note_ko: "2일차 점심, 항구 옆 큰 수산시장."
+    - name_ko: "BIFF 광장"
+      note_ko: "2일차 오후, 자갈치 근처 길거리 음식."
+busan-pork-soup-milmyeon.kr:
+  stops:
+    - name_ko: "송정삼대"
+      note_ko: "1일차 오전, 돼지국밥."
+    - name_ko: "할매가야"
+      note_ko: "1일차 오후, 밀면."
+    - name_ko: "감천문화마을"
+      note_ko: "1일차 일몰."
+    - name_ko: "해운대원조할매"
+      note_ko: "2일차 오전, 소고기국밥."
+    - name_ko: "내호냉면"
+      note_ko: "2일차, 밀면의 발상지."
+    - name_ko: "자갈치시장"
+      note_ko: "2일차 저녁, 시장 간식."
+gangneung-one-night-ktx-coffee-gyeongpo.kr:
+  stops:
+    - name_ko: "강릉역"
+      note_ko: "KTX 도착, 해변까지 버스·택시."
+    - name_ko: "안목해변 커피거리"
+      note_ko: "안목해변을 따라 이어지는 커피거리."
+    - name_ko: "경포해변"
+      note_ko: "모래 위 포토 프레임이 있는 넓은 백사장."
+    - name_ko: "경포대"
+      note_ko: "경포호 위의 누각."
+    - name_ko: "주문진해변"
+      note_ko: "BTS 버스 정류장과 방파제, 시내 북쪽."
+    - name_ko: "오죽헌"
+      note_ko: "시내의 옛집과 박물관."
+gyeongju-night-donggung-wolji.kr:
+  stops:
+    - name_ko: "동궁과 월지"
+      note_ko: "야경의 중심, 해 질 녘에 불이 켜진다."
+    - name_ko: "월정교"
+      note_ko: "냇물 위 불 밝힌 목조 다리."
+    - name_ko: "첨성대"
+      note_ko: "어두워진 뒤 넓은 잔디밭에 불 밝힌 탑."
+    - name_ko: "황리단길"
+      note_ko: "저녁 카페와 길거리 간식."
+    - name_ko: "보문호"
+      note_ko: "조용히 밤을 마무리하는 호숫가 산책."
+gyeongju-one-day-ktx-bulguksa-hwangridan.kr:
+  stops:
+    - name_ko: "신경주역"
+      note_ko: "KTX 도착, 700번·701번 버스로 시내 진입."
+    - name_ko: "불국사"
+      note_ko: "오전 사찰, 역 앞에서 700번·701번 버스."
+    - name_ko: "대릉원"
+      note_ko: "오후, 시내 중심의 고분군."
+    - name_ko: "첨성대"
+      note_ko: "현존 최고(最古)의 천문대, 고분 옆."
+    - name_ko: "황리단길"
+      note_ko: "늦은 오후의 카페·간식 거리."
+    - name_ko: "교촌마을"
+      note_ko: "한옥 마을과 옛 최 씨 고택."
+incheon-day-trip-from-seoul.kr:
+  stops:
+    - name_ko: "서울역"
+      note_ko: "09:00, 1호선 급행."
+    - name_ko: "인천 차이나타운"
+      note_ko: "짜장면 점심."
+    - name_ko: "자유공원"
+      note_ko: "항구 전망."
+    - name_ko: "동화마을"
+      note_ko: "벽화 골목."
+    - name_ko: "월미도"
+      note_ko: "바다열차나 산책로."
+jeju-3-days-no-car.kr:
+  stops:
+    - name_ko: "제주국제공항"
+      note_ko: "도착, 공항버스 100·200·300번은 도착장 밖에서 출발."
+    - name_ko: "동문시장"
+      note_ko: "1일차 저녁·간식 거점, 공항에서 버스 타고 금방."
+    - name_ko: "함덕해수욕장"
+      note_ko: "2일차 오전 해변, 제주시에서 701·702번 버스."
+    - name_ko: "성읍민속마을"
+      note_ko: "2일차 동부 버스 노선 경유지, 초가 돌집."
+    - name_ko: "성산일출봉"
+      note_ko: "2일차 하이라이트, 정상 계단과 해안길."
+    - name_ko: "한라산국립공원"
+      note_ko: "3일차 선택지, 240번 버스로 어리목·영실 탐방로."
+jeju-east-seongsan-udo.kr:
+  stops:
+    - name_ko: "성산일출봉"
+      note_ko: "붐비기 전에 일찍 출발해 정상 계단으로."
+    - name_ko: "성산항"
+      note_ko: "우도행 여객선 터미널, 봉우리에서 도보 10분."
+    - name_ko: "우도 (천진항)"
+      note_ko: "여객선 도착지, 항구 바로 앞에서 전기 자전거·버기 대여."
+    - name_ko: "섭지코지"
+      note_ko: "봉우리 동쪽의 절벽 해안과 등대."
+    - name_ko: "광치기해변"
+      note_ko: "성산일출봉을 마주한 검은 모래 해변."
+    - name_ko: "일출랜드"
+      note_ko: "성산 마을 근처 용암 동굴과 정원."
+jeonju-night-market-cafes.kr:
+  stops:
+    - name_ko: "전주한옥마을 관광안내소"
+    - name_ko: "경기전"
+    - name_ko: "풍남문"
+    - name_ko: "전동성당"
+    - name_ko: "오목대"
+seoul-cafes-seongsu-yeonnam-ikseon.kr:
+  stops:
+    - name_ko: "성수역 일대"
+      note_ko: "OSM에 성수역으로 표시된 지점 (역 앞 버스 정류장)."
+    - name_ko: "연남동"
+      note_ko: "동네 중심."
+    - name_ko: "경의선숲길공원"
+      note_ko: "공원 구간 (대흥동 구간)."
+    - name_ko: "홍익대학교 서울캠퍼스"
+      note_ko: "홍대 가장자리."
+    - name_ko: "익선동"
+      note_ko: "한옥 골목."
+seoul-market-food-walk.kr:
+  stops:
+    - name_ko: "광장시장"
+    - name_ko: "종로 골목"
+    - name_ko: "익선동"
+seoul-night-han-river-cruise-ramyeon.kr:
+  stops:
+    - name_ko: "여의나루역 (5호선, 3번 출구)"
+      note_ko: "유람선 선착장 가는 길."
+    - name_ko: "여의도한강공원"
+      note_ko: "선착장 공원."
+    - name_ko: "노들섬"
+      note_ko: "조용한 섬 정거장."
+    - name_ko: "반포한강공원"
+      note_ko: "강변 산책."
+    - name_ko: "반포대교"
+      note_ko: "분수 다리."
+    - name_ko: "뚝섬한강공원"
+      note_ko: "라면 정거장."
+seoul-old-restaurants-baekban-bbq.kr:
+  stops:
+    - name_ko: "이문설농탕"
+      note_ko: "1일차 08:00, 소뼈 국."
+    - name_ko: "왕비집"
+      note_ko: "1일차 저녁, 바비큐."
+    - name_ko: "하동관"
+      note_ko: "2일차, 정오 전 곰탕."
+    - name_ko: "토속촌"
+      note_ko: "2일차, 인삼 닭국 (삼계탕)."
+seoul-subway-tmoney-taxi.kr:
+  stops:
+    - name_ko: "인천공항 제1터미널"
+      note_ko: "출발, 티머니 카드 구매."
+    - name_ko: "서울역"
+      note_ko: "AREX 종점."
+    - name_ko: "조계사"
+      note_ko: "종로 예시, 연등."
+    - name_ko: "홍대입구역"
+      note_ko: "9번 출구, 홍대 거리."
+    - name_ko: "명동역"
+      note_ko: "개찰구 옆 먹자골목."
+seoul-winter-guide-late-november-december.kr:
+  stops:
+    - name_ko: "경복궁"
+      note_ko: "오전, 낮의 궁궐."
+    - name_ko: "광장시장"
+      note_ko: "정오, 뜨거운 점심."
+    - name_ko: "명동"
+      note_ko: "오후, 쇼핑."
+    - name_ko: "N서울타워"
+      note_ko: "해 질 녘, 도시 불빛."
+    - name_ko: "동대문디자인플라자"
+      note_ko: "저녁, 늦은 쇼핑."
+daegu-one-day-ktx-modern-alley-seomun-market.kr:
+  stops:
+    - note_ko: "KTX 도착, 지하철 1호선과 시티투어버스가 여기서 출발."
+    - note_ko: "근대골목 코스 2 걷기 시작점."
+    - note_ko: "골목 걷기 길의 붉은 벽돌 성당."
+    - note_ko: "점심, 간식, 주말 야시장."
+    - note_ko: "방천시장 근처 벽화 거리."
+    - note_ko: "도시 위 일몰과 야경."
+gwangju-one-day-ktx-songjeong-yangnim-mudeungsan.kr:
+  stops:
+    - note_ko: "KTX 출발 (서울 출발점, 지도에서 제외)."
+    - note_ko: "KTX 도착, 1호선으로 시내 연결."
+    - note_ko: "역 옆 오래된 시장 거리."
+    - note_ko: "한 골목에 떡갈비 집 열 곳쯤."
+    - note_ko: "24시간 개방."
+    - note_ko: "월요일 휴관."
+    - note_ko: "국립아시아문화전당 동쪽 카페 골목."
+    - note_ko: "선교사 거리와 펭귄마을."
+    - note_ko: "서석대 코스 주 등산로 입구."
+jeonju-one-day-hanok-bibimbap-gaekridan.kr:
+  map_note_ko: "객리단길은 지도에 없습니다. 확인된 좌표가 없어 추정으로 표시하지 않고 지도에서 제외했습니다."
+  stops:
+    - note_ko: "KTX 출발."
+    - note_ko: "KTX 도착."
+    - note_ko: "마을 입구."
+    - note_ko: "사당."
+    - note_ko: "큰길."
+    - note_ko: "남문."
+    - note_ko: "전망 지점."
+suwon-hwaseong-one-day.kr:
+  map_note_ko: "방화수류정은 지도에 없습니다. 확인된 좌표가 없어 추정으로 표시하지 않고 지도에서 제외했습니다."
+  stops:
+    - note_ko: "도착."
+    - note_ko: "남문, 걷기 시작점."
+    - note_ko: "행궁."
+    - note_ko: "북문."
+    - note_ko: "지휘소."

@@ -10,18 +10,22 @@
 {{ $country := site.Data.regions.country }}
 {{ $pages := .Pages.ByDate.Reverse }}
 {{ $n := len $pages }}
+{{ $hubName := $region.name }}{{ if eq site.Language.Lang "kr" }}{{ $hubName = $region.name_ko }}{{ end }}
 <div class="hub" data-filter-root data-filter-attr="themes"
   data-filter-items="#hub-guides" data-filter-heading="#hub-guides-heading"
-  data-heading-all="All {{ $region.name }} guides" data-heading-one="{{ $region.name }}: {name}">
+  data-heading-all="{{ replace (i18n "hubAllGuides") "{name}" $hubName }}" data-heading-one="{{ $hubName }}: {name}"{{ if eq site.Language.Lang "kr" }}
+  data-status-all="{{ i18n "statusAll" }}" data-status-one="{{ i18n "statusOne" }}"{{ end }}>
 <div class="hub-top">
-{{ with $region.image }}<figure class="hub-mood"><img src="{{ . | relURL }}" alt="Illustrated mood picture of {{ $region.name }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager"></figure>{{ end }}
+{{ with $region.image }}<figure class="hub-mood"><img src="{{ . | relURL }}" alt="{{ replace (i18n "hubMoodAlt") "{name}" $hubName }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager"></figure>{{ end }}
 <div class="hub-head">
-<p class="eyebrow"><a href="{{ "/" | relLangURL }}">{{ $country.name }}</a> &middot; Region</p>
-<h1>{{ $region.name }} <span class="hub-ko" lang="ko">{{ $region.name_ko }}</span></h1>
-{{ with $region.blurb }}<p class="hub-blurb">{{ . }}</p>{{ end }}
+<p class="eyebrow"><a href="{{ "/" | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ $country.name_ko }}{{ else }}{{ $country.name }}{{ end }}</a> &middot; {{ i18n "regions" }}</p>
+<h1>{{ if eq site.Language.Lang "kr" }}{{ $region.name_ko }} <span class="hub-ko" lang="en">{{ $region.name }}</span>{{ else }}{{ $region.name }} <span class="hub-ko" lang="ko">{{ $region.name_ko }}</span>{{ end }}</h1>
+{{ $blurb := $region.blurb }}{{ if eq site.Language.Lang "kr" }}{{ with $region.blurb_ko }}{{ $blurb = . }}{{ end }}{{ end }}
+{{ with $blurb }}<p class="hub-blurb">{{ . }}</p>{{ end }}
 {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
-{{ with $region.cities }}<p class="hub-cities">Cities: {{ delimit . ", " }}</p>{{ end }}
-{{ if gt $n 0 }}<p class="count">{{ $n }} guide{{ if ne $n 1 }}s{{ end }} in {{ $region.name }}.</p>{{ end }}
+{{ $cities := $region.cities }}{{ if eq site.Language.Lang "kr" }}{{ with $region.cities_ko }}{{ $cities = . }}{{ end }}{{ end }}
+{{ with $cities }}<p class="hub-cities">{{ i18n "hubCities" }} {{ delimit . ", " }}</p>{{ end }}
+{{ if gt $n 0 }}<p class="count">{{ replace (replace (replace (i18n "hubCount") "{name}" $hubName) "{n}" (printf "%d" $n)) "{s}" (cond (ne $n 1) "s" "") }}</p>{{ end }}
 </div>
 </div>
 {{ if gt $n 0 }}
@@ -32,47 +36,49 @@
   {{ $c := 0 }}
   {{ range $pages }}{{ if in (.Params.themes | default slice) $t }}{{ $c = add $c 1 }}{{ end }}{{ end }}
   {{ if gt $c 0 }}
-    {{/* same labels as the home theme chips */}}
-    {{ $names := dict "food-restaurants" "Food & Restaurants" "transit-tips" "Transit & Tips" }}
-    {{ $label := index $names $t | default (replace $t "-" " " | title) }}
+    {{ $tData := index site.Data.themes $t }}
+    {{ $label := replace $t "-" " " | title }}
+    {{ if $tData }}{{ if eq site.Language.Lang "kr" }}{{ $label = $tData.name_ko }}{{ else }}{{ $label = $tData.name }}{{ end }}{{ end }}
     {{ $chips = $chips | append (dict "key" $t "label" $label "n" $c) }}
   {{ end }}
 {{ end }}
 {{ with $chips }}
-<div class="map-chips hub-chips" role="toolbar" aria-label="Filter {{ $region.name }} guides by theme" data-filter-controls hidden>
-<button type="button" class="map-chip is-selected" data-filter-value="" aria-pressed="true">All</button>
+<div class="map-chips hub-chips" role="toolbar" aria-label="{{ replace (i18n "filterByTheme") "{name}" $hubName }}" data-filter-controls hidden>
+<button type="button" class="map-chip is-selected" data-filter-value="" aria-pressed="true">{{ i18n "allChip" }}</button>
 {{ range . }}<button type="button" class="map-chip" data-filter-value="{{ .key }}" data-filter-label="{{ .label }}" aria-pressed="false">{{ .label }} <span class="map-chip__n">{{ .n }}</span></button>{{ end }}
 </div>
 {{ end }}
 <p class="home-map__status hub-status" aria-live="polite" data-filter-status></p>
-<h2 class="hub-guides-title" id="hub-guides-heading">All {{ $region.name }} guides</h2>
+<h2 class="hub-guides-title" id="hub-guides-heading">{{ replace (i18n "hubAllGuides") "{name}" $hubName }}</h2>
 <ul class="cards" id="hub-guides">
 {{ range $pages }}{{ partial "guide-card.html" . }}{{ end }}
 </ul>
-<p class="filter-empty" data-filter-empty hidden>No {{ $region.name }} guides with this theme yet.</p>
+<p class="filter-empty" data-filter-empty hidden>{{ replace (i18n "hubNoTheme") "{name}" $hubName }}</p>
 {{ else }}
 <div class="hub-soon">
-<p class="hub-soon__badge">Guides coming soon</p>
-<p>{{ $region.name }} is on the list - we are still checking it properly before publishing. Meanwhile, browse the regions that are ready.</p>
-<p><a class="btn btn-secondary" href="{{ "/" | relLangURL }}">Back to the map</a></p>
+<p class="hub-soon__badge">{{ i18n "guidesComingSoon" }}</p>
+<p>{{ replace (i18n "hubSoonBody") "{name}" $hubName }}</p>
+<p><a class="btn btn-secondary" href="{{ "/" | relLangURL }}">{{ i18n "hubBackToMap" }}</a></p>
 </div>
 {{ end }}
-<p class="hub-foot"><a href="{{ "/" | relLangURL }}">Map</a> &middot; <a href="{{ "/regions/" | relLangURL }}">All regions</a> &middot; <a href="/themes/">All themes</a> &middot; <a href="{{ "/blog/" | relLangURL }}">All guides</a></p>
+<p class="hub-foot"><a href="{{ "/" | relLangURL }}">{{ i18n "hubMap" }}</a> &middot; <a href="{{ "/regions/" | relLangURL }}">{{ i18n "footAllRegions" }}</a> &middot; <a href="{{ "/themes/" | relLangURL }}">{{ i18n "footAllThemes" }}</a> &middot; <a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a></p>
 </div>
 {{ partial "filter-script.html" . }}
 {{ else }}
 <div class="page-head">
-<p class="eyebrow eyebrow--sky">Browse by {{ .Data.Singular | humanize | title }}</p>
-<h1>{{ .Title | humanize | title }}</h1>
+<p class="eyebrow eyebrow--sky">{{ replace (i18n "termBrowseBy") "{name}" (.Data.Singular | humanize | title) }}</p>
+{{ $termTitle := .Title | humanize | title }}
+{{ if and (eq site.Language.Lang "kr") (eq .Data.Plural "themes") }}{{ with index site.Data.themes .Data.Term }}{{ $termTitle = .name_ko }}{{ end }}{{ end }}
+<h1>{{ $termTitle }}</h1>
 {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
-<p class="count">{{ len .Pages }} guide{{ if ne (len .Pages) 1 }}s{{ end }} filed under {{ .Title | humanize | title }}.</p>
+<p class="count">{{ if eq site.Language.Lang "kr" }}{{ replace (replace (i18n "termFiledUnder") "{name}" $termTitle) "{n}" (printf "%d" (len .Pages)) }}{{ else }}{{ len .Pages }} guide{{ if ne (len .Pages) 1 }}s{{ end }} filed under {{ $termTitle }}.{{ end }}</p>
 </div>
 {{ if .Pages }}
 <ul class="cards">
 {{ range .Pages.ByDate.Reverse }}{{ partial "guide-card.html" . }}{{ end }}
 </ul>
-<p><a href="{{ "/regions/" | relLangURL }}">All regions</a> &middot; <a href="/themes/">All themes</a> &middot; <a href="{{ "/blog/" | relLangURL }}">All guides</a></p>
+<p><a href="{{ "/regions/" | relLangURL }}">{{ i18n "footAllRegions" }}</a> &middot; <a href="{{ "/themes/" | relLangURL }}">{{ i18n "footAllThemes" }}</a> &middot; <a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a></p>
 {{ else }}
-<p class="intro">No guides filed here yet. Check back soon.</p>
+<p class="intro">{{ i18n "termNoGuides" }}</p>
 {{ end }}
 {{ end }}

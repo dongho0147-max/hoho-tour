@@ -23,16 +23,16 @@
 {{ $regionName := "" }}
 {{ with $myRegions }}
   {{ $slug := index . 0 | urlize }}
-  {{ with index (where site.Data.regions.regions "slug" $slug) 0 }}{{ $regionName = .name }}{{ else }}{{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $regionName = .LinkTitle }}{{ end }}{{ end }}
+  {{ with index (where site.Data.regions.regions "slug" $slug) 0 }}{{ $regionName = .name }}{{ if eq site.Language.Lang "kr" }}{{ $regionName = .name_ko }}{{ end }}{{ else }}{{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $regionName = .LinkTitle }}{{ end }}{{ end }}
 {{ end }}
 <aside class="related" aria-labelledby="related-title">
-<h2 id="related-title" class="related__title">Keep exploring</h2>
+<h2 id="related-title" class="related__title">{{ i18n "keepExploring" }}</h2>
 {{ with $same }}
-<h3 class="related__sub">More in {{ $regionName }}</h3>
+<h3 class="related__sub">{{ replace (i18n "moreIn") "{name}" $regionName }}</h3>
 <ul class="related__list">{{ range . }}{{ partial "related-card.html" . }}{{ end }}</ul>
 {{ end }}
 {{ with $other }}
-<h3 class="related__sub">Same theme, other regions</h3>
+<h3 class="related__sub">{{ i18n "sameTheme" }}</h3>
 <ul class="related__list">{{ range . }}{{ partial "related-card.html" . }}{{ end }}</ul>
 {{ end }}
 </aside>

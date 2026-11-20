@@ -1,0 +1,25 @@
+# Theme labels - single source of truth for both languages.
+# Used by home theme chips, post term chips, hub sub-theme chips, breadcrumbs,
+# and theme term pages, so /kr shows Korean labels + KR links without editing md.
+# name = English label (current output), name_ko = Korean label.
+itineraries:
+  name: Itineraries
+  name_ko: 일정
+food-restaurants:
+  name: Food & Restaurants
+  name_ko: 맛집
+day-trips:
+  name: Day Trips
+  name_ko: 당일 여행
+transit-tips:
+  name: Transit & Tips
+  name_ko: 교통 팁
+seasonal:
+  name: Seasonal
+  name_ko: 계절
+cafes:
+  name: Cafes
+  name_ko: 카페
+nightlife:
+  name: Nightlife
+  name_ko: 밤문화

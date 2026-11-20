@@ -9,6 +9,7 @@
 {{ if not (hasPrefix $src "/") }}{{ $src = printf "/%s" $src }}{{ end }}
 {{ $alt := "" }}{{ if ge (len $parts) 2 }}{{ $alt = index $parts 1 }}{{ end }}
 {{ $credit := "" }}{{ if ge (len $parts) 3 }}{{ $credit = index $parts 2 }}{{ end }}
+{{ if eq site.Language.Lang "kr" }}{{ $credit = replace $credit "Photo:" "사진:" }}{{ end }}
 <figure class="collage-item">
 <img src="{{ $src | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" $src | safeHTMLAttr }} loading="lazy">
 {{ with $credit }}<figcaption>{{ . }}</figcaption>{{ end }}

@@ -6,7 +6,7 @@
 {{ $pages := where .Site.RegularPages "Section" "blog" }}
 {{ if eq (len $pages) 0 }}{{ $pages = where $enSite.RegularPages "Section" "blog" }}{{ end }}
 {{ $country := site.Data.regions.country.slug | default "korea" }}
-<section class="hero" aria-label="Welcome to HOHO Tour">
+<section class="hero" aria-label="{{ i18n "heroAria" }}">
 {{/* Responsive hero banner (2026-11-19 revamp): <picture> serves a portrait
    banner on mobile and a landscape banner on desktop, each 1x/2x. The
    container aspect-ratio always matches the served image, so cover crop is
@@ -15,21 +15,21 @@
 <picture>
 <source media="(max-width: 599px)" srcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x">
 <source media="(min-width: 600px)" srcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x">
-<img src="/images/banner/home-banner-desktop.webp" alt="HOHO Tour Korea travel guides banner" width="1920" height="820" loading="eager" fetchpriority="high">
+<img src="/images/banner/home-banner-desktop.webp" alt="{{ i18n "heroBannerAlt" }}" width="1920" height="820" loading="eager" fetchpriority="high">
 </picture>
 <div class="hero-overlay">
 <p class="eyebrow">{{ i18n "heroEyebrow" | safeHTML }}</p>
 <h1>{{ i18n "heroTitle" | safeHTML }}</h1>
 <p class="lede">{{ i18n "heroLede" }}</p>
 <p class="cta">
-<a class="btn btn-primary" href="/blog/seoul-essential-3-day-guide/">{{ i18n "heroCtaPrimary" | safeHTML }}</a>
+<a class="btn btn-primary" href="{{ "/blog/seoul-essential-3-day-guide/" | relLangURL }}">{{ i18n "heroCtaPrimary" | safeHTML }}</a>
 <a class="btn btn-secondary" href="{{ "/blog/" | relLangURL }}">{{ i18n "heroCtaSecondary" }}</a>
 </p>
 </div>
 </figure>
 </section>
 {{ partial "home-map.html" . }}
-<section class="browse" aria-label="Browse guides by place and theme">
+<section class="browse" aria-label="{{ i18n "browseAria" }}">
 <div class="browse-block">
 <h2 data-reveal>{{ i18n "browsePlace" | safeHTML }}</h2>
 <div class="chip-row">
@@ -42,14 +42,10 @@
 <div class="browse-block">
 <h2 data-reveal>{{ i18n "browseTheme" | safeHTML }}</h2>
 <div class="chip-row">
-{{ with $enSite.GetPage "/themes/itineraries" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Itineraries</a>{{ end }}
-{{ with $enSite.GetPage "/themes/food-restaurants" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Food &amp; Restaurants</a>{{ end }}
-{{ with $enSite.GetPage "/themes/day-trips" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Day Trips</a>{{ end }}
-{{ with $enSite.GetPage "/themes/transit-tips" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Transit &amp; Tips</a>{{ end }}
-{{ with $enSite.GetPage "/themes/seasonal" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Seasonal</a>{{ end }}
-{{ with $enSite.GetPage "/themes/cafes" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Cafes</a>{{ end }}
-{{ with $enSite.GetPage "/themes/nightlife" }}<a class="chip chip--theme" href="{{ .RelPermalink }}">Nightlife</a>{{ end }}
-<a class="chip chip--all" href="/themes/">{{ i18n "allThemes" | safeHTML }}</a>
+{{ range $slug := slice "itineraries" "food-restaurants" "day-trips" "transit-tips" "seasonal" "cafes" "nightlife" }}
+{{ with site.GetPage (printf "/themes/%s" $slug) }}{{ $t := index site.Data.themes $slug }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if eq site.Language.Lang "kr" }}{{ $t.name_ko }}{{ else }}{{ $t.name }}{{ end }}</a>{{ end }}
+{{ end }}
+<a class="chip chip--all" href="{{ "/themes/" | relLangURL }}">{{ i18n "allThemes" | safeHTML }}</a>
 </div>
 </div>
 </section>

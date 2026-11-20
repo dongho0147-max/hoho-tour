@@ -2,13 +2,14 @@
 <article>
 {{ partial "breadcrumbs.html" . }}
 <h1>{{ .Title }}</h1>
-{{ if .Date }}<p class="meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.updated }} &middot; Updated {{ . }}{{ end }} &middot; {{ .ReadingTime }} min read</p>{{ end }}
+{{ if .Date }}<p class="meta">{{ if eq site.Language.Lang "kr" }}{{ .Date.Format "2006년 1월 2일" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}{{ with .Params.updated }} &middot; {{ i18n "dateUpdated" }} {{ . }}{{ end }} &middot; {{ i18n "minRead" .ReadingTime }}</p>{{ end }}
 {{ with .Params.image }}
 {{ $alt := $.Params.image_alt | default $.Title }}
+{{ if eq site.Language.Lang "kr" }}{{ with index site.Data.kr_image_alt $.File.BaseFileName }}{{ $alt = . }}{{ end }}{{ end }}
 {{ $credit := $.Params.image_credit | default $.Params.credit }}
 <figure class="hero-figure">
 <img src="{{ . | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager" fetchpriority="high">
-{{ if or $alt $credit }}<figcaption>{{ $alt }}{{ with $credit }} &middot; Photo: {{ . }}{{ end }}</figcaption>{{ end }}
+{{ if or $alt $credit }}<figcaption>{{ $alt }}{{ with $credit }} &middot; {{ i18n "photoLabel" }} {{ . }}{{ end }}</figcaption>{{ end }}
 </figure>
 {{ end }}
 {{ partial "tour-summary.html" . }}
@@ -16,9 +17,9 @@
 {{ $regions := .GetTerms "regions" }}
 {{ $themes := .GetTerms "themes" }}
 {{ if or $regions $themes }}
-<p class="term-chips" aria-label="Filed under">
+<p class="term-chips" aria-label="{{ i18n "filedUnder" }}">
 {{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
-{{ range $themes }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+{{ range $themes }}{{ $t := index site.Data.themes .Data.Term }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if and (eq site.Language.Lang "kr") $t }}{{ $t.name_ko }}{{ else }}{{ .LinkTitle }}{{ end }}</a>{{ end }}
 </p>
 {{ end }}
 {{ partial "related-posts.html" . }}

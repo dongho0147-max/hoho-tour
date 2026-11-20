@@ -73,3 +73,114 @@ other = "HOHO Tour 가이드"
 other = "언어"
 [noGuidesFilter]
 other = "이 지역 가이드가 아직 없습니다."
+
+# --- 2026-11-20 /kr i18n 잔존 수정: 새로 추가된 키 ---
+[dateUpdated]
+other = "업데이트"
+[minRead]
+other = "{{ .Count }}분"
+[filedUnder]
+other = "분류"
+[keepExploring]
+other = "계속 둘러보기"
+[moreIn]
+other = "{name}에서 더 보기"
+[sameTheme]
+other = "같은 테마, 다른 지역"
+[routeAtAGlance]
+other = "한눈에 보는 동선"
+[routeMapAlt]
+other = "방문 순서대로 번호가 매겨진 동선 지도"
+[staticMapCaption]
+other = "정적 동선 지도 - 인터랙티브 지도를 불러오지 못했습니다."
+[staticMapCaptionNoScript]
+other = "이 가이드의 동선 지도 - 방문 순서대로 정류장이 표시됩니다."
+[tapToExplore]
+other = "지도를 눌러 둘러보기"
+[routeSummaryAria]
+other = "동선 요약"
+[interactiveMapAria]
+other = "동선 정류장 인터랙티브 지도"
+[mapCaption]
+other = "인터랙티브 지도: OpenStreetMap 타일, © OpenStreetMap 기여자. 정류장 좌표는 OpenStreetMap Nominatim으로 확인했습니다 (2026년 11월)."
+[photoLabel]
+other = "사진:"
+[statusAll]
+other = "전체 {n}개 가이드입니다."
+[statusOne]
+other = "{name} 가이드 {n}개입니다."
+[filterByRegion]
+other = "지역으로 가이드 찾기"
+[guidesComingSoon]
+other = "가이드 준비 중"
+[mapCredit]
+other = "도 경계: Natural Earth 1:10m Admin 1 (퍼블릭 도메인), 웹용으로 단순화했습니다. 일부 작은 외곽 섬은 생략했습니다."
+[browseByRegion]
+other = "지역별로 가이드 보기:"
+[counterToday]
+other = "오늘"
+[counterTotal]
+other = "전체"
+[hubAllGuides]
+other = "{name} 가이드 전체"
+[hubCount]
+other = "{name} 가이드 {n}개입니다."
+[hubCities]
+other = "도시:"
+[hubNoTheme]
+other = "이 테마의 {name} 가이드는 아직 없습니다."
+[hubBackToMap]
+other = "지도로 돌아가기"
+[hubMap]
+other = "지도"
+[termBrowseBy]
+other = "테마로 찾기"
+[termFiledUnder]
+other = "{name} 가이드 {n}개입니다."
+[termNoGuides]
+other = "여기에 등록된 가이드는 아직 없습니다. 나중에 다시 확인해 주세요."
+[termIndexEyebrow]
+other = "가이드 둘러보기"
+[allChip]
+other = "전체"
+[logoAlt]
+other = "HOHO Tour 로고"
+[heroBannerAlt]
+other = "HOHO Tour 한국 여행 가이드 배너"
+[hubMoodAlt]
+other = "{name} 무드 일러스트"
+[soonNote]
+other = "준비 중"
+[guidesSoonNote]
+other = "가이드 준비 중"
+
+[filterByTheme]
+other = "{name} 가이드를 테마로 찾기"
+
+[hubSoonBody]
+other = "{name}는 준비 목록에 있어요. 제대로 확인한 뒤에 올릴게요. 그 사이 준비된 지역 가이드를 둘러보세요."
+
+[footAllRegions]
+other = "전체 지역"
+
+[footAllThemes]
+other = "전체 테마"
+
+[notFoundTitle]
+other = "찾는 페이지가 없어요"
+
+[notFoundBody]
+other = "따라온 링크가 오래됐거나 주소에 오타가 있을 수 있어요. 아래 가이드에서 다시 시작해 보세요."
+
+[backHome]
+other = "홈으로 돌아가기 &rarr;"
+
+[browseAllGuides]
+other = "모든 가이드 보기"
+
+[breadcrumbNav]
+other = "브레드크럼"
+[heroAria]
+other = "HOHO Tour에 오신 것을 환영합니다"
+[browseAria]
+other = "장소와 테마별로 가이드 둘러보기"

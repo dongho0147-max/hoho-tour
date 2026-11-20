@@ -4,5 +4,7 @@
 {{ if not (hasPrefix $src "/") }}{{ $src = printf "/%s" $src }}{{ end }}
 <figure class="shortcode-figure{{ with .Get "class" }} {{ . }}{{ end }}">
 <img src="{{ $src | relURL }}" alt="{{ .Get "alt" | default "" }}"{{ if .Get "width" }} width="{{ .Get "width" }}" height="{{ .Get "height" }}"{{ else }}{{ partial "photo-dims.html" $src | safeHTMLAttr }}{{ end }} loading="{{ .Get "loading" | default "lazy" }}">
-{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+{{ $caption := .Get "caption" }}
+{{ if eq site.Language.Lang "kr" }}{{ $caption = replace $caption "Photo:" "사진:" }}{{ end }}
+{{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
 </figure>

@@ -1,6 +1,6 @@
 <footer class="site"><div class="wrap">
 <p class="foot-brand">HOHO <em>Tour</em> - {{ i18n "footerTaglineShort" }}</p>
-<p><a href="/about/">{{ i18n "about" }}</a> &middot; <a href="/privacy/">{{ i18n "privacy" }}</a> &middot; <a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a> &middot; <a href="{{ "/regions/" | relLangURL }}">{{ i18n "regions" }}</a> &middot; <a href="/themes/">{{ i18n "themes" }}</a></p>
+<p><a href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a> &middot; <a href="{{ "/privacy/" | relLangURL }}">{{ i18n "privacy" }}</a> &middot; <a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a> &middot; <a href="{{ "/regions/" | relLangURL }}">{{ i18n "regions" }}</a> &middot; <a href="{{ "/themes/" | relLangURL }}">{{ i18n "themes" }}</a></p>
 {{/* /kr has zero affiliate links (review version): no affiliate disclosure here.
    EN keeps it, because EN guides carry Klook/Agoda affiliate links. */}}
 {{ if ne site.Language.Lang "kr" }}<p class="foot-disclosure">{{ i18n "affiliateDisclosure" }}</p>{{ end }}
@@ -9,7 +9,7 @@
    one visit per visitor per day, GET only reads). The <p> starts hidden and
    is shown only when the API answers with numbers, so a missing KV binding,
    a failed fetch, or a local build never breaks the page or logs an error. */}}
-<p class="foot-counter" id="visit-counter" hidden>Today <span id="visit-today">-</span> &middot; Total <span id="visit-total">-</span></p>
+<p class="foot-counter" id="visit-counter" hidden>{{ i18n "counterToday" }} <span id="visit-today">-</span> &middot; {{ i18n "counterTotal" }} <span id="visit-total">-</span></p>
 </div></footer>
 <script>
 (function () {

@@ -7,13 +7,15 @@
    _default/term.html is kept in sync in case another Hugo build picks it up. */}}
 {{ if .Data.Terms }}
 <div class="page-head">
-<p class="eyebrow">Browse the guides</p>
-<h1>{{ .Title }}</h1>
+<p class="eyebrow">{{ i18n "termIndexEyebrow" }}</p>
+<h1>{{ if eq site.Language.Lang "kr" }}{{ i18n .Data.Plural }}{{ else }}{{ .Title }}{{ end }}</h1>
 {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
 </div>
 <ul class="term-index">
 {{ range .Data.Terms.Alphabetical }}
-<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a> <span class="meta">{{ .Count }} guide{{ if ne .Count 1 }}s{{ end }}</span></li>
+{{ $tTitle := .Page.Title | humanize | title }}
+{{ if and (eq site.Language.Lang "kr") (eq .Page.Data.Plural "themes") }}{{ with index site.Data.themes .Page.Data.Term }}{{ $tTitle = .name_ko }}{{ end }}{{ end }}
+<li><a href="{{ .Page.RelPermalink }}">{{ $tTitle }}</a> <span class="meta">{{ if eq site.Language.Lang "kr" }}가이드 {{ .Count }}개{{ else }}{{ .Count }} guide{{ if ne .Count 1 }}s{{ end }}{{ end }}</span></li>
 {{ end }}
 </ul>
 {{ else }}

@@ -15,9 +15,11 @@ regions:
     center: { lat: 37.5665, lng: 126.9780 }
     path_id: seoul
     cities: [Seoul]
+    cities_ko: [서울]
     subthemes: [itineraries, food-restaurants, day-trips, transit-tips, seasonal, cafes, nightlife]
     image: images/hubs/seoul-mood.webp
     blurb: "Three days, the subway, markets, old restaurants, winter lights, cafes, and the Han at night."
+    blurb_ko: "3일 일정, 지하철, 시장, 오래된 식당, 겨울 불빛, 카페, 밤의 한강."
   - slug: busan
     name: Busan
     name_ko: 부산
@@ -25,9 +27,11 @@ regions:
     center: { lat: 35.1796, lng: 129.0756 }
     path_id: busan
     cities: [Busan]
+    cities_ko: [부산]
     subthemes: [itineraries, food-restaurants, nightlife, day-trips]
     image: images/hubs/busan-mood.webp
     blurb: "Pork soup and milmyeon, Haeundae to Gwangalli, Gamcheon in a day or two."
+    blurb_ko: "돼지국밥과 밀면, 해운대에서 광안리까지, 감천은 하루나 이틀."
   - slug: incheon
     name: Incheon
     name_ko: 인천
@@ -35,9 +39,11 @@ regions:
     center: { lat: 37.4563, lng: 126.7052 }
     path_id: incheon
     cities: [Incheon]
+    cities_ko: [인천]
     subthemes: [day-trips]
     image: images/hubs/incheon-mood.webp
     blurb: "Chinatown, the old port, and the sea, an hour from Seoul by subway."
+    blurb_ko: "차이나타운, 옛 항구, 바다, 서울에서 지하철로 한 시간."
   - slug: jeju
     name: Jeju
     name_ko: 제주
@@ -45,9 +51,11 @@ regions:
     center: { lat: 33.4996, lng: 126.5312 }
     path_id: jeju
     cities: [Jeju City, Seongsan, Aewol]
+    cities_ko: [제주시, 성산, 애월]
     subthemes: [itineraries, day-trips, cafes]
     image: images/hubs/jeju-mood.webp
     blurb: "No rental car needed: buses, the east coast, oreum hills, and seaside cafes."
+    blurb_ko: "렌터카 없이: 버스, 동부 해안, 오름, 바닷가 카페."
   - slug: gyeongju
     name: Gyeongju
     name_ko: 경주
@@ -55,9 +63,11 @@ regions:
     center: { lat: 35.8562, lng: 129.2247 }
     path_id: gyeongsangbuk
     cities: [Gyeongju]
+    cities_ko: [경주]
     subthemes: [itineraries, nightlife, day-trips]
     image: images/hubs/gyeongju-mood.webp
     blurb: "KTX in, tombs and temples by day, Wolji Pond lit up at night."
+    blurb_ko: "KTX로 들어와 낮에는 고분과 사찰, 밤에는 불 밝힌 월지."
   - slug: gangwon
     name: Gangwon
     name_ko: 강원
@@ -65,9 +75,11 @@ regions:
     center: { lat: 37.7519, lng: 128.8761 }
     path_id: gangwon
     cities: [Gangneung, Sokcho]
+    cities_ko: [강릉, 속초]
     subthemes: [itineraries, cafes, day-trips]
     image: images/hubs/gangwon-mood.webp
     blurb: "Coffee street and Gyeongpo in Gangneung, Seoraksan and the sea in Sokcho."
+    blurb_ko: "강릉의 커피거리와 경포, 속초의 설악산과 바다."
   - slug: jeonju
     name: Jeonju
     name_ko: 전주
@@ -75,9 +87,11 @@ regions:
     center: { lat: 35.8242, lng: 127.1478 }
     path_id: jeollabuk
     cities: [Jeonju]
+    cities_ko: [전주]
     subthemes: [itineraries, food-restaurants, cafes, nightlife, day-trips]
     image: images/hubs/jeonju-mood.webp
     blurb: "Hanok village, bibimbap, and the night market."
+    blurb_ko: "한옥마을, 비빔밥, 야시장."
   - slug: daegu
     name: Daegu
     name_ko: 대구
@@ -85,9 +99,11 @@ regions:
     center: { lat: 35.8714, lng: 128.6014 }
     path_id: daegu
     cities: [Daegu]
+    cities_ko: [대구]
     subthemes: [itineraries, food-restaurants, day-trips]
     image: images/hubs/daegu-mood.webp
     blurb: "KTX in, modern alleys and Seomun Market in a day."
+    blurb_ko: "KTX로 들어와 하루에 근대골목과 서문시장."
   - slug: gwangju
     name: Gwangju
     name_ko: 광주
@@ -95,9 +111,11 @@ regions:
     center: { lat: 35.1595, lng: 126.8526 }
     path_id: gwangju
     cities: [Gwangju]
+    cities_ko: [광주]
     subthemes: [itineraries, food-restaurants, day-trips]
     image: images/hubs/gwangju-mood.webp
     blurb: "KTX in, Songjeong Station, Yangnim's old houses, and Mudeungsan in a day."
+    blurb_ko: "KTX로 들어와 하루에 송정역, 양림동 옛집, 무등산."
   - slug: gyeonggi-suwon
     name: Gyeonggi - Suwon
     name_ko: 경기 - 수원
@@ -105,9 +123,11 @@ regions:
     center: { lat: 37.2636, lng: 127.0286 }
     path_id: gyeonggi
     cities: [Suwon]
+    cities_ko: [수원]
     subthemes: [itineraries, day-trips]
     image: images/hubs/gyeonggi-suwon-mood.webp
     blurb: "Hwaseong Fortress, a day trip from Seoul."
+    blurb_ko: "화성, 서울에서 당일 여행."
   - slug: daejeon
     name: Daejeon
     name_ko: 대전
@@ -115,9 +135,11 @@ regions:
     center: { lat: 36.3314, lng: 127.4334 }
     path_id: daejeon
     cities: [Daejeon]
+    cities_ko: [대전]
     subthemes: [food-restaurants, day-trips, cafes]
     image: images/hubs/daejeon-mood.webp
     blurb: "Seongsimdang bread run, Soje-dong cafes, and the Expo Bridge at night."
+    blurb_ko: "성심당 빵 순례, 소제동 카페, 밤의 엑스포다리."
 # Roadmap stage (2026-11-19 master spec): 0 = frame + domestic core.
 # 1 = all major Korean cities (Yeosu next). 2 = Northeast Asia. 3 = Asia. 4 = worldwide.
 roadmap_stage: 0
