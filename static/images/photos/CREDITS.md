@@ -140,7 +140,7 @@ Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not phot
 
 ## GPT illustrations - home banner + region hub mood images (2026-11-19)
 
-Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not photos of real places; every caption says "Illustration: AI-generated". Style: bright pastel cream background, coral and sky blue accents, flat vector with soft shadows, generous whitespace, English short labels only.
+Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not photos of real places; every caption says "Illustration: AI-generated". Style: bright pastel cream background, coral and sky blue accents, flat vector with soft shadows, generous whitespace, no text inside the art.
 
 | File | Subject | Dimensions | Author | License | Source |
 |---|---|---|---|---|---|
@@ -148,15 +148,15 @@ Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not phot
 | home-banner-desktop@2x.webp | Same desktop banner art, 2x | 2560x1093 | AI-generated | - | Media image generation, 2026-11-19 (hero revamp). Same generation as home-banner-desktop.webp, Lanczos resized. |
 | home-banner-mobile.webp | Home hero banner, mobile: N Seoul Tower top centre, palace middle, Han River cruise boat bottom, cherry blossom corners. No text in the art. | 1080x1200 | AI-generated | - | Media image generation, 2026-11-19 (hero revamp). Generated 1440x1600 (exact 9:10), Lanczos resized. |
 | home-banner-mobile@2x.webp | Same mobile banner art, 2x | 2160x2400 | AI-generated | - | Media image generation, 2026-11-19 (hero revamp). Same generation as home-banner-mobile.webp, Lanczos upscaled 1.5x (flat vector, no detail loss). |
-| seoul-mood.webp | Seoul hub mood: Gyeongbokgung palace, N Seoul Tower, Han River, street food stall | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
+| seoul-mood.webp | Seoul hub mood: N Seoul Tower on Namsan hill, Gyeongbokgung Palace roofs and red gate in the foreground, cherry blossom branches. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
 | busan-mood.webp | Busan hub mood: Gamcheon Culture Village hillside of pastel houses as the main subject, with Gwangan Bridge over the sea on the right. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
-| incheon-mood.webp | Incheon hub mood: Chinatown red gate, old port with a ship, seaside promenade, fairy tale village houses | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
-| jeju-mood.webp | Jeju hub mood: Hallasan, Seongsan cone by the sea, orange grove, black sand beach | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
-| gyeongju-mood.webp | Gyeongju hub mood: Bulguksa temple, royal tombs, Wolji Pond pavilion at night | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
-| gangwon-mood.webp | Gangwon hub mood: beach with pines, coffee cup, lake pavilion, mountains | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
-| jeonju-mood.webp | Jeonju hub mood: hanok rooftops, bibimbap bowl, traditional gate, lanterns | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
-| gyeonggi-suwon-mood.webp | Suwon hub mood: Hwaseong Fortress wall and gate, palace pavilion, walking trail | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
-| daejeon-mood.webp | Daejeon hub mood: bakery storefront with bread loaf sign, fried bread bun and chive bread on a tray, Expo Bridge arches, Hanbit Tower, pine trees | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19. Illustration: AI-generated |
+| incheon-mood.webp | Incheon hub mood: red Chinatown paifang gate with golden details and lanterns, harbor with a white ship and a lighthouse behind. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
+| jeju-mood.webp | Jeju hub mood: Hallasan volcano with a crater top and green pine slopes, Seongsan Ilchulbong tuff cone rising from the blue sea. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
+| gyeongju-mood.webp | Gyeongju hub mood: Donggung Palace and Wolji Pond pavilion at dusk, warm lights reflected in the pond, stone bridge, Bulguksa stone pagodas behind. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
+| gangwon-mood.webp | Gangwon hub mood: Seoraksan rocky granite peaks with pine trees, Gyeongpo Lake with a small wooden pavilion on the shore. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
+| jeonju-mood.webp | Jeonju hub mood: Pungnammun Gate with multi-tiered curved roofs on a stone base, Jeonju Hanok Village rooftops and red lanterns below. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
+| gyeonggi-suwon-mood.webp | Suwon hub mood: Hwaseong Fortress curved stone wall and Paldalmun Gate, Banghwasuryujeong pavilion by a pond. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
+| daejeon-mood.webp | Daejeon hub mood: Expo Bridge white arches over the river, Hanbit Tower behind, riverside park. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
 | daegu-mood.webp | Daegu hub mood: Gyesan Cathedral (brick twin towers, rose window, red doors) as the main subject, with a Seomun night market row of lit food stalls in the foreground. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
 | gwangju-mood.webp | Gwangju hub mood: Mudeungsan columnar rock ridges as the main subject, with the May 18 Democracy Square fountain, flags and pavilion below. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
 
@@ -232,11 +232,11 @@ All 6 verified by opening each file. Long edge 1600px for 4 photos; daejeon-04 (
 
 ## daejeon hub mood illustration (2026-11-19)
 
-Flat vector guidebook illustration (GPT image generation, 2026-11-19). Not a photo of a real place; caption says "Illustration: AI-generated". Style: bright pastel cream background, coral and sky blue accents, flat vector with soft shadows, generous whitespace, English short labels only.
+Flat vector guidebook illustration (GPT image generation, 2026-11-19). Not a photo of a real place; caption says "Illustration: AI-generated". Style: bright pastel cream background, coral and sky blue accents, flat vector with soft shadows, generous whitespace, no text inside the art.
 
 | File | Subject | Dimensions | Author | License | Source |
 |---|---|---|---|---|---|
-| hubs/daejeon-mood.webp | Daejeon hub mood: bakery storefront with bread loaf sign, fried bread bun and chive bread on a tray, Expo Bridge arches, Hanbit Tower, pine trees. Labels: Daejeon, Bread, Expo Bridge. | 1600x1067, 59 KB | AI-generated | - | GPT image generation, 2026-11-19 |
+| hubs/daejeon-mood.webp | Daejeon hub mood: Expo Bridge white arches over the river, Hanbit Tower behind, riverside park. No text in the art. | 1600x1067, 78 KB | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
 
 ## Semo stickers (replaced 2026-11-19, 2nd phase)
 
