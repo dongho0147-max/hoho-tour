@@ -296,6 +296,6 @@ map_note: "약령시 한약재 시장은 지도에 없습니다. 확인된 좌�
 
 대구는 같은 KTX 노선에 있는 두 여행과 이어집니다.
 
-서울 쪽으로는 [경주 당일치기](/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/)가 한 시간 거리입니다. 불국사와 고분공원을 묶습니다.
+서울 쪽으로는 [경주 당일치기](/kr/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/)가 한 시간 거리입니다. 불국사와 고분공원을 묶습니다.
 
-남쪽으로는 [부산 돼지국밥·밀면](/blog/busan-pork-soup-milmyeon/)이 먹거리 테마를 이어갑니다.
+남쪽으로는 [부산 돼지국밥·밀면](/kr/blog/busan-pork-soup-milmyeon/)이 먹거리 테마를 이어갑니다.

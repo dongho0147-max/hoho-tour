@@ -334,4 +334,4 @@ KTX 개찰구에서 2분이면 시장입니다.
 
 이른 KTX를 타려면 광주송정역 근처가 편합니다.
 
-서남권에 푹 빠졌다면 전주가 다음입니다. [전주 1일 가이드](/blog/jeonju-one-day-hanok-bibimbap-gaekridan/)가 여기서 이어집니다.
+서남권에 푹 빠졌다면 전주가 다음입니다. [전주 1일 가이드](/kr/blog/jeonju-one-day-hanok-bibimbap-gaekridan/)가 여기서 이어집니다.

@@ -1,0 +1,22 @@
+# HOHO Tour - Cloudflare Pages settings (EXAMPLE - do not deploy as-is)
+# ---------------------------------------------------------------------------
+# This file is only an example for the deployer (Ttolmani). Copy it to
+# wrangler.toml and fill in the real KV namespace id after creating the
+# namespace (step 1 below). Until then, the dashboard binding in step 2 is
+# the primary path and this file is not needed for the site to build.
+#
+# IMPORTANT: never commit a wrangler.toml with a placeholder id - a wrong id
+# breaks the Functions deploy. Dashboard binding alone is enough.
+#
+# KV binding name (fixed): VISIT_COUNTER
+# Used by: functions/api/visit.js  (env.VISIT_COUNTER)
+
+name = "hoho-tour"
+compatibility_date = "2026-11-19"
+pages_build_output_dir = "public"
+
+[[kv_namespaces]]
+binding = "VISIT_COUNTER"
+# Replace with the real id from the dashboard after step 1:
+#   Workers & Pages > KV > hoho-tour-visits > (copy the Namespace ID)
+id = "REPLACE_WITH_REAL_NAMESPACE_ID"
