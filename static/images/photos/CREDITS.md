@@ -157,8 +157,8 @@ Flat vector guidebook illustrations (GPT image generation, 2026-11-19). Not phot
 | jeonju-mood.webp | Jeonju hub mood: hanok rooftops, bibimbap bowl, traditional gate, lanterns | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
 | gyeonggi-suwon-mood.webp | Suwon hub mood: Hwaseong Fortress wall and gate, palace pavilion, walking trail | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19 |
 | daejeon-mood.webp | Daejeon hub mood: bakery storefront with bread loaf sign, fried bread bun and chive bread on a tray, Expo Bridge arches, Hanbit Tower, pine trees | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-19. Illustration: AI-generated |
-| daegu-mood.webp | Daegu hub mood: Gyesan Cathedral, Seomun Night Market, Kim Gwang-seok Street, Apsan Cable Car at sunset | 1600x1067 | AI-generated | - | Media image generation, 2026-11-19. Generated 1920x1280, Lanczos resized to 1600x1067. Illustration: AI-generated |
-| gwangju-mood.webp | Gwangju hub mood: Mudeungsan, May 18 Democracy Square, Asia Culture Center, Tteokgalbi plate | 1600x1067 | AI-generated | - | Media image generation, 2026-11-19. Generated 1920x1280, Lanczos resized to 1600x1067. Illustration: AI-generated |
+| daegu-mood.webp | Daegu hub mood: Gyesan Cathedral (brick twin towers, rose window, red doors) as the main subject, with a Seomun night market row of lit food stalls in the foreground. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
+| gwangju-mood.webp | Gwangju hub mood: Mudeungsan columnar rock ridges as the main subject, with the May 18 Democracy Square fountain, flags and pavilion below. No text in the art | 1600x1067 | AI-generated | - | GPT image generation, 2026-11-20 (redesign, replaces the 2026-11-19 four-panel version). Generated 1600x1067, webp q=85. Illustration: AI-generated |
 
 ## stage3 real photos (2026-11-19)
 
