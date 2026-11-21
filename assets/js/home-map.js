@@ -74,7 +74,7 @@
         } else {
           status.textContent = value
             ? shown + " guide" + (shown === 1 ? "" : "s") + " in " + name + "."
-            : "Showing all " + items.length + " guides.";
+            : "Showing all " + items.length + " guide" + (items.length === 1 ? "" : "s") + ".";
         }
       }
       if (empty) empty.hidden = shown !== 0;

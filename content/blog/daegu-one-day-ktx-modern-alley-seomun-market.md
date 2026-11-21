@@ -71,7 +71,7 @@ This guide is written from research, not from a single visit. Times and prices b
 
 ## 🚄 How do you get to Daegu?
 
-By KTX from Seoul Station to Dongdaegu Station, the trip takes about 1 hour 40 minutes. Since the KTX and SRT systems merged on September 1, 2026, fares vary by train depending on how many stops it makes. A standard one-way adult ticket from Seoul to Dongdaegu runs 38,300 to 38,800 KRW, checked on Korail's own booking site on November 19, 2026. Book a few days ahead for weekend mornings.
+By KTX from Seoul Station to Dongdaegu Station, the trip takes about 1 hour 40 minutes. Since the KTX and SRT systems merged on September 1, 2026, fares vary by train depending on how many stops it makes. A standard one-way adult ticket from Seoul to Dongdaegu runs 32,600 to 39,000 KRW, checked on Korail's own booking site on November 19, 2026. Fares differ by train type and time of day, so the same route can cost quite a bit more or less depending on which departure you pick. Book a few days ahead for weekend mornings.
 
 Dongdaegu Station sits on subway Line 1, and the station building connects straight into the platform. Daegu's subway is flat-fare: 1,500 KRW per ride with a transit card, 1,700 KRW for a single ticket, on all three lines. Lines 1 and 2 cross at Banwoldang, and Line 3 is a monorail that loops through the center and stops right at Seomun Market. Buy a T-money card before you leave Seoul: it works on every Daegu train and bus, but you cannot recharge it in Daegu, so top it up before you board the KTX.
 

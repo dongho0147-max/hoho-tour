@@ -106,7 +106,7 @@ The Wolmi Sea Train loops the island on an elevated track, about 6 km, and it is
 
 > **🔥 Local tip:** Dress for the sea wind. A winter coat, a scarf, gloves. The wind off the water cuts through a light jacket in minutes, and there is nowhere to hide on a promenade.
 
-> **🔥 Local tip:** In November the last full Sea Train loop leaves around 17:05 to 17:10, and weekend tickets sell out early, so book ahead and arrive before 17:00. The last train back to Seoul leaves Incheon Station around 23:42 on weekdays. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** In November the last full Sea Train loop leaves around 17:10 to 17:15, and weekend tickets sell out early, so book ahead and arrive before 17:00. The last train back to Seoul leaves Incheon Station around 23:42 on weekdays. Based on recent listings/reviews, checked November 2026.
 
 That winter emptiness is the real reason to do this trip in the cold months. Seoul in winter is warm indoors and sharp outdoors, and Incheon doubles the effect: the sea air, the quiet streets, the steam from a noodle shop window. If your trip falls in late November or December, the [Seoul winter guide](/blog/seoul-winter-guide-late-november-december/) has the full version of how to dress for this weather, because the difference between a miserable day and a great one is usually one extra layer and a pair of proper gloves.
 

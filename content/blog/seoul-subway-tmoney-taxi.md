@@ -45,7 +45,7 @@ Before anything else, get a T-money card. You can buy one at almost any convenie
 
 Tap it on the reader as you enter the gates, tap it again as you leave, and that is the whole ceremony. The fare comes off automatically, and a transfer between subway and bus within about half an hour costs you little or nothing extra. That small kindness adds up over a week of sightseeing.
 
-A single subway ride usually runs about 1,400 to 1,600 KRW on the card, with the price rising a little for very long distances. The exact number matters less than the shape of it: a ride across the city costs less than a coffee. Keep the card topped up with 20,000 to 30,000 KRW at a time and you will stop thinking about money entirely.
+A single subway ride usually runs about 1,550 KRW on the card, with the price rising a little for very long distances. The exact number matters less than the shape of it: a ride across the city costs less than a coffee. Keep the card topped up with 20,000 to 30,000 KRW at a time and you will stop thinking about money entirely.
 
 If you lose the card, it is gone, and so is whatever balance was on it. Treat it like cash, because that is what it is. Keep it in the same slot every day, for example in your phone case.
 

@@ -118,7 +118,7 @@ Walk on into the alley behind the market and you are on Songjeong Tteokgalbi Str
 
 ## 🚇 Into town on Line 1
 
-Gwangju has exactly one subway line, which makes it impossible to get lost. Line 1 runs from Gwangju-Songjeong through the city center to Sotae, and the ride to Munhwa-jeondang Station, the stop for the square, takes 23 minutes. The fare is 1,400 KRW with a transit card and 1,500 KRW for a single ticket, and a T-money card works here too, though you cannot recharge it in Gwangju (unconfirmed).
+Gwangju has exactly one subway line, which makes it impossible to get lost. Line 1 runs from Gwangju-Songjeong through the city center to Sotae, and the ride to Munhwa-jeondang Station, the stop for the square, takes 23 minutes. The fare is 1,250 KRW with a transit card and 1,400 KRW for a single ticket, and a T-money card works here too, though you cannot recharge it in Gwangju (unconfirmed).
 
 Two practical notes. The last Line 1 train toward downtown leaves Gwangju-Songjeong at 23:31 on weekdays; weekend and holiday first and last trains are unconfirmed, so if you arrive on a late KTX, check the board before you linger over dinner. And Line 2 does not exist yet: its first phase is targeted for December 2028 after repeated delays, so any guide that routes you onto a Line 2 transfer is out of date.
 

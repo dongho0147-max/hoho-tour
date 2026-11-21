@@ -240,6 +240,9 @@ gyeongju-night-donggung-wolji-map:
 gangneung-one-night-ktx-coffee-gyeongpo-map:
   width: 1600
   height: 840
+tokyo-essential-3-day-guide-map:
+  width: 1600
+  height: 840
 
 # GPT illustrations (2026-11-19, coordinator) - home banner + hub mood images
 # 2026-11-19 hero revamp: home-banner.webp (1600x533, one image for all

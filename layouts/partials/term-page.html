@@ -20,7 +20,8 @@
   data-heading-all="{{ replace (i18n "hubAllGuides") "{name}" $hubName }}" data-heading-one="{{ $hubName }}: {name}"{{ if eq site.Language.Lang "kr" }}
   data-status-all="{{ i18n "statusAll" }}" data-status-one="{{ i18n "statusOne" }}"{{ end }}>
 <div class="hub-top">
-{{ with $region.image }}<figure class="hub-mood"><img src="{{ . | relURL }}" alt="{{ replace (i18n "hubMoodAlt") "{name}" $hubName }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager"></figure>{{ end }}
+{{ $moodAlt := replace (i18n "hubMoodAlt") "{name}" $hubName }}{{ with $region.image_alt }}{{ $moodAlt = . }}{{ end }}{{ if eq site.Language.Lang "kr" }}{{ with $region.image_alt_ko }}{{ $moodAlt = . }}{{ end }}{{ end }}
+{{ with $region.image }}<figure class="hub-mood"><img src="{{ . | relURL }}" alt="{{ $moodAlt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager"></figure>{{ end }}
 <div class="hub-head">
 <p class="eyebrow"><a href="{{ "/" | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ $cNameKo }}{{ else }}{{ $cName }}{{ end }}</a> &middot; {{ i18n "regions" }}</p>
 <h1>{{ if eq site.Language.Lang "kr" }}{{ $region.name_ko }} <span class="hub-ko" lang="en">{{ $region.name }}</span>{{ else }}{{ $region.name }} <span class="hub-ko" lang="ko">{{ $region.name_ko }}</span>{{ end }}</h1>
@@ -58,7 +59,7 @@
 {{ range $pages }}{{ partial "guide-card.html" . }}{{ end }}
 </ul>
 <p class="filter-empty" data-filter-empty hidden>{{ replace (i18n "hubNoTheme") "{name}" $hubName }}</p>
-{{ else }}
+{{ else if not .Content }}
 <div class="hub-soon">
 <p class="hub-soon__badge">{{ i18n "guidesComingSoon" }}</p>
 <p>{{ replace (i18n "hubSoonBody") "{name}" $hubName }}</p>

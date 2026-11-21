@@ -44,7 +44,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🚄 How do you get to Gyeongju?
 
-By KTX from Seoul Station, the trip to Gyeongju Station takes about 2 hours. From Busan Station, it takes about 30 minutes. Book your train a few days ahead, because weekend morning trains sell out. A standard one-way fare from Seoul runs about 44,100 to 44,200 KRW, and from Busan about 10,000 to 15,000 KRW, based on recent listings.
+By KTX from Seoul Station, the trip to Gyeongju Station takes about 2 hours. From Busan Station, it takes about 30 minutes. Book your train a few days ahead, because weekend morning trains sell out. A standard one-way fare from Seoul runs about 38,000 to 44,600 KRW, and from Busan about 10,000 to 15,000 KRW, based on recent listings.
 
 Gyeongju Station sits outside town, about 25 minutes by bus from the center. Buses 700 and 701 run from the station into town and on to Bulguksa. Buy a T-money card before you leave Seoul or Busan, and it works on Gyeongju buses too.
 

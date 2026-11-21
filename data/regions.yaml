@@ -156,6 +156,8 @@ regions:
     cities_ko: [도쿄]
     subthemes: [itineraries, transit-tips]
     image: images/photos/tokyo-01.webp
+    image_alt: "Shibuya scramble crossing at night with crowds and lit billboards"
+    image_alt_ko: "밤 시부야 스크램블 교차로의 인파와 불빛"
     blurb: "Three days in Tokyo: Asakusa temples, Shibuya at sunset, a free Shinjuku observatory, and the train math that saves you money."
     blurb_ko: "도쿄 3일: 아사쿠사 사찰, 석양의 시부야, 무료 신주쿠 전망대, 교통비 절약 계산법."
 # Roadmap stage (2026-11-19 master spec): 0 = frame + domestic core.
