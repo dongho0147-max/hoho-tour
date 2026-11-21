@@ -1,8 +1,8 @@
 # Photo Credits - HOHO Tour
 
-All 43 photos in `static/images/photos/` are real photographs (no AI-generated images).
-Topics below describe the actual verified content of each file (seoul-01 to seoul-26 checked by opening each file on 2026-11-18; seoul-27 to seoul-38 checked the same way on 2026-11-18; seoul-39, sokcho-07, suwon-06, jeonju-05, jeju-west-07 checked the same way on 2026-11-19).
-Long edge is 1600px for 37 photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept at their original resolution (1024px or less) with no upscaling, and seoul-37 is kept at 960px (its 1600px original was blocked by a Wikimedia HTTP 429 rate limit at fetch time - re-fetch at 1600px when the limit clears). Every file is WebP and under 250 KB.
+All 47 photos in `static/images/photos/` are real photographs (no AI-generated images).
+Topics below describe the actual verified content of each file (seoul-01 to seoul-26 checked by opening each file on 2026-11-18; seoul-27 to seoul-38 checked the same way on 2026-11-18; seoul-39, sokcho-07, suwon-06, jeonju-05, jeju-west-07 checked the same way on 2026-11-19; tokyo-01 to tokyo-04 checked the same way on 2026-11-21).
+Long edge is 1600px for 37 photos; 5 photos (seoul-18, 19, 22, 23, 25) are kept at their original resolution (1024px or less) with no upscaling, and seoul-37 is kept at 960px (its 1600px original was blocked by a Wikimedia HTTP 429 rate limit at fetch time - re-fetch at 1600px when the limit clears). The 4 Tokyo photos are kept at 1920px (downloaded at 1920px, converted to WebP q82 on 2026-11-21). Every file is WebP and under 250 KB.
 
 | File | Subject (verified) | Size | Author | License | Source |
 |---|---|---|---|---|---|
@@ -294,3 +294,10 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | gwangju-01.webp | Mudeungsan mountain behind Gwangju city, winter view | 1600x1200, 143 KB | Kgw1226 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gwangju_Mudeungsan.jpg |
 | gwangju-02.webp | Gwangju-Songjeong Station building, March 2015 | 1600x1064, 147 KB | Saigen Jiro | CC0 | https://commons.wikimedia.org/wiki/File:Gwangju_Songjeong_Station_building.JPG |
 | gwangju-03.webp | A plate of Songjeong tteokgalbi (grilled short rib patties) | 1600x763, 203 KB | Minseong Kim | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Songjeong_Tteokgalbi.jpg |
+
+| File | Subject | Dimensions | Author | License | Source |
+|---|---|---|---|---|---|
+| tokyo-01.webp | Shibuya scramble crossing at night, crowds and lit billboards | 1920x1446, 102 KB | Syced | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Shibuya_scramble_av_night_from_Stream.jpg |
+| tokyo-02.webp | Kaminarimon Gate of Senso-ji Temple, Asakusa, giant red lantern | 1920x1440, 78 KB | Soramimi | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Kaminarimon_Gate_of_Sensoji_Temple.JPG |
+| tokyo-03.webp | Tokyo Skytree seen from a street between buildings, daytime | 1920x1305, 97 KB | Sashimi-b | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_above_Sumida.jpg |
+| tokyo-04.webp | Cherry blossoms along the Meguro River walkway | 1920x1440, 170 KB | Guilhem Vellut | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cherry_blossoms_@_Meguro_River_(13592700865).jpg |

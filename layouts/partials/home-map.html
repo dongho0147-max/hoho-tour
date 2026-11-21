@@ -75,10 +75,15 @@
   {{ $pinLabel := $rName }}
   {{ with $o }}{{ with .label }}{{ $pinLabel = . }}{{ end }}{{ end }}
   {{ if eq site.Language.Lang "kr" }}{{ with $o }}{{ with .label_ko }}{{ $pinLabel = . }}{{ end }}{{ end }}{{ end }}
+{{/* Pins only for regions with a path_id (Korea provinces). Regions without
+   one (Tokyo: no Japan shape in the Korea SVG) get no pin: their lng would
+   plot far outside the viewBox. */}}
+{{ if $r.path_id }}
 <g class="map-pin{{ if eq $n 0 }} map-pin--soon{{ end }}"{{ if gt $n 0 }} data-filter-value="{{ $r.slug }}" data-filter-label="{{ $rName }}"{{ end }} transform="translate({{ printf "%.1f" $x }} {{ printf "%.1f" $y }})">
 <circle r="{{ if gt $n 0 }}6{{ else }}4.5{{ end }}"></circle>
 <text x="{{ with $o }}{{ .dx }}{{ else }}{{ if $left }}-12{{ else }}12{{ end }}{{ end }}" y="{{ with $o }}{{ .dy }}{{ else }}0.35em{{ end }}" text-anchor="{{ with $o }}{{ .anchor }}{{ else }}{{ if $left }}end{{ else }}start{{ end }}{{ end }}">{{ $pinLabel }}{{ if gt $n 0 }} {{ $n }}{{ end }}</text>
 </g>
+{{ end }}
 {{ end }}
 </g>
 </svg>
@@ -95,7 +100,8 @@
 <ul class="map-hub-links">
 {{ range $regions }}
   {{ $n := len (index $tax .slug | default slice) }}
-<li><a href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}"{{ if eq $n 0 }} class="is-soon"{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }} <span lang="en">{{ .name }}</span>{{ else }}{{ .name }} <span lang="ko">{{ .name_ko }}</span>{{ end }}{{ if eq $n 0 }} <em>{{ i18n "soonNote" }}</em>{{ end }}</a></li>
+  {{ $rc := .country | default $country }}
+<li><a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}"{{ if eq $n 0 }} class="is-soon"{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }} <span lang="en">{{ .name }}</span>{{ else }}{{ .name }} <span lang="ko">{{ .name_ko }}</span>{{ end }}{{ if eq $n 0 }} <em>{{ i18n "soonNote" }}</em>{{ end }}</a></li>
 {{ end }}
 </ul>
 </div>
@@ -107,7 +113,7 @@
 <div class="map-noscript">
 <p>{{ i18n "browseByRegion" }}</p>
 <ul>
-{{ range $regions }}<li><a href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a></li>{{ end }}
+{{ range $regions }}{{ $rc := .country | default $country }}<li><a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a></li>{{ end }}
 </ul>
 </div>
 </noscript>

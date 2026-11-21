@@ -24,7 +24,8 @@
 <nav class="region-nav" aria-label="{{ i18n "regions" }}">
 <div class="wrap region-nav__row">
 {{ range site.Data.regions.regions }}
-<a href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}" class="region-nav__link{{ if ne .status "active" }} is-soon{{ end }}"{{ if eq $curRegion .slug }}{{ if eq $.Kind "term" }} aria-current="page"{{ else }} aria-current="true"{{ end }}{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}<span class="region-nav__ko" lang="en">{{ .name }}</span>{{ else }}{{ .name }}<span class="region-nav__ko" lang="ko">{{ .name_ko }}</span>{{ end }}</a>
+{{ $rc := .country | default $country }}
+<a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}" class="region-nav__link{{ if ne .status "active" }} is-soon{{ end }}"{{ if eq $curRegion .slug }}{{ if eq $.Kind "term" }} aria-current="page"{{ else }} aria-current="true"{{ end }}{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}<span class="region-nav__ko" lang="en">{{ .name }}</span>{{ else }}{{ .name }}<span class="region-nav__ko" lang="ko">{{ .name_ko }}</span>{{ end }}</a>
 {{ end }}
 </div>
 </nav>

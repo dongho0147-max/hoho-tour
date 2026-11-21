@@ -34,7 +34,8 @@
 <h2 data-reveal>{{ i18n "browsePlace" | safeHTML }}</h2>
 <div class="chip-row">
 {{ range first 8 site.Data.regions.regions }}
-<a class="chip chip--region" href="{{ (printf "/%s/%s/" $country .slug) | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a>
+{{ $rc := .country | default $country }}
+<a class="chip chip--region" href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a>
 {{ end }}
 <a class="chip chip--all" href="{{ "/regions/" | relLangURL }}">{{ i18n "allRegions" | safeHTML }}</a>
 </div>

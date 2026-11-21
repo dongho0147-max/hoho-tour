@@ -565,3 +565,15 @@ sokcho-seorak-one-night-from-seoul.kr-map:
 suwon-hwaseong-one-day.kr-map:
   width: 1600
   height: 840
+tokyo-01:
+  width: 1920
+  height: 1446
+tokyo-02:
+  width: 1920
+  height: 1440
+tokyo-03:
+  width: 1920
+  height: 1305
+tokyo-04:
+  width: 1920
+  height: 1440

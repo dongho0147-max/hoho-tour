@@ -9,7 +9,8 @@
   {{ $r := index (where site.Data.regions.regions "slug" $slug) 0 }}
   {{ if $r }}
     {{ $rName := $r.name }}{{ if eq site.Language.Lang "kr" }}{{ $rName = $r.name_ko }}{{ end }}
-    {{ $crumbs = $crumbs | append (dict "name" $rName "url" (printf "/%s/%s/" $country $slug | relLangURL)) }}
+    {{ $rc := $r.country | default $country }}
+    {{ $crumbs = $crumbs | append (dict "name" $rName "url" (printf "/%s/%s/" $rc $slug | relLangURL)) }}
   {{ else }}
     {{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $crumbs = $crumbs | append (dict "name" .LinkTitle "url" .Permalink) }}{{ end }}
   {{ end }}

@@ -140,6 +140,24 @@ regions:
     image: images/hubs/daejeon-mood.webp
     blurb: "Seongsimdang bread run, Soje-dong cafes, and the Expo Bridge at night."
     blurb_ko: "성심당 빵 순례, 소제동 카페, 밤의 엑스포다리."
+# Japan (roadmap stage 2, first entry: Tokyo). Regions outside Korea carry a
+# per-region country override; templates fall back to the global country above
+# when it is absent, so all Korea entries behave exactly as before. No path_id:
+# the home SVG map only has Korea provinces, so Tokyo gets no map pin.
+  - slug: tokyo
+    name: Tokyo
+    name_ko: 도쿄
+    country: japan
+    country_name: Japan
+    country_name_ko: 일본
+    status: active
+    center: { lat: 35.6762, lng: 139.6503 }
+    cities: [Tokyo]
+    cities_ko: [도쿄]
+    subthemes: [itineraries, transit-tips]
+    image: images/photos/tokyo-01.webp
+    blurb: "Three days in Tokyo: Asakusa temples, Shibuya at sunset, a free Shinjuku observatory, and the train math that saves you money."
+    blurb_ko: "도쿄 3일: 아사쿠사 사찰, 석양의 시부야, 무료 신주쿠 전망대, 교통비 절약 계산법."
 # Roadmap stage (2026-11-19 master spec): 0 = frame + domestic core.
 # 1 = all major Korean cities (Yeosu next). 2 = Northeast Asia. 3 = Asia. 4 = worldwide.
 roadmap_stage: 0

@@ -8,6 +8,10 @@
 {{ end }}
 {{ if $region }}
 {{ $country := site.Data.regions.country }}
+{{/* Per-region country override (Tokyo: japan). Falls back to the global
+   country, so all Korea entries behave exactly as before. */}}
+{{ $cName := $region.country_name | default $country.name }}
+{{ $cNameKo := $region.country_name_ko | default $country.name_ko }}
 {{ $pages := .Pages.ByDate.Reverse }}
 {{ $n := len $pages }}
 {{ $hubName := $region.name }}{{ if eq site.Language.Lang "kr" }}{{ $hubName = $region.name_ko }}{{ end }}
@@ -18,7 +22,7 @@
 <div class="hub-top">
 {{ with $region.image }}<figure class="hub-mood"><img src="{{ . | relURL }}" alt="{{ replace (i18n "hubMoodAlt") "{name}" $hubName }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager"></figure>{{ end }}
 <div class="hub-head">
-<p class="eyebrow"><a href="{{ "/" | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ $country.name_ko }}{{ else }}{{ $country.name }}{{ end }}</a> &middot; {{ i18n "regions" }}</p>
+<p class="eyebrow"><a href="{{ "/" | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ $cNameKo }}{{ else }}{{ $cName }}{{ end }}</a> &middot; {{ i18n "regions" }}</p>
 <h1>{{ if eq site.Language.Lang "kr" }}{{ $region.name_ko }} <span class="hub-ko" lang="en">{{ $region.name }}</span>{{ else }}{{ $region.name }} <span class="hub-ko" lang="ko">{{ $region.name_ko }}</span>{{ end }}</h1>
 {{ $blurb := $region.blurb }}{{ if eq site.Language.Lang "kr" }}{{ with $region.blurb_ko }}{{ $blurb = . }}{{ end }}{{ end }}
 {{ with $blurb }}<p class="hub-blurb">{{ . }}</p>{{ end }}
