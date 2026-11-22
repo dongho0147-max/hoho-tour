@@ -118,7 +118,7 @@ regions:
     blurb_ko: "KTX로 들어와 하루에 송정역, 양림동 옛집, 무등산."
   - slug: gyeonggi-suwon
     name: Gyeonggi - Suwon
-    name_ko: 경기 - 수원
+    name_ko: 수원
     status: active
     center: { lat: 37.2636, lng: 127.0286 }
     path_id: gyeonggi

@@ -24,7 +24,7 @@
 {{ with $region.image }}<figure class="hub-mood"><img src="{{ . | relURL }}" alt="{{ $moodAlt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager"></figure>{{ end }}
 <div class="hub-head">
 <p class="eyebrow"><a href="{{ "/" | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ $cNameKo }}{{ else }}{{ $cName }}{{ end }}</a> &middot; {{ i18n "regions" }}</p>
-<h1>{{ if eq site.Language.Lang "kr" }}{{ $region.name_ko }} <span class="hub-ko" lang="en">{{ $region.name }}</span>{{ else }}{{ $region.name }} <span class="hub-ko" lang="ko">{{ $region.name_ko }}</span>{{ end }}</h1>
+<h1>{{ if eq site.Language.Lang "kr" }}{{ $region.name_ko }}{{ else }}{{ $region.name }} <span class="hub-ko" lang="ko">{{ $region.name_ko }}</span>{{ end }}</h1>
 {{ $blurb := $region.blurb }}{{ if eq site.Language.Lang "kr" }}{{ with $region.blurb_ko }}{{ $blurb = . }}{{ end }}{{ end }}
 {{ with $blurb }}<p class="hub-blurb">{{ . }}</p>{{ end }}
 {{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}

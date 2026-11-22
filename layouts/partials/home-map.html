@@ -101,7 +101,7 @@
 {{ range $regions }}
   {{ $n := len (index $tax .slug | default slice) }}
   {{ $rc := .country | default $country }}
-<li><a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}"{{ if eq $n 0 }} class="is-soon"{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }} <span lang="en">{{ .name }}</span>{{ else }}{{ .name }} <span lang="ko">{{ .name_ko }}</span>{{ end }}{{ if eq $n 0 }} <em>{{ i18n "soonNote" }}</em>{{ end }}</a></li>
+<li><a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}"{{ if eq $n 0 }} class="is-soon"{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }} <span lang="ko">{{ .name_ko }}</span>{{ end }}{{ if eq $n 0 }} <em>{{ i18n "soonNote" }}</em>{{ end }}</a></li>
 {{ end }}
 </ul>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: "경기 - 수원"
+title: "수원"
 url: /kr/korea/gyeonggi-suwon/
 ---
 
