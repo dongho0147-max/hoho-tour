@@ -41,8 +41,11 @@ other = "직접 다녀오거나 최신 정보를 다시 확인한 뒤에 올려�
 other = "서울 사는 사람이 직접 씁니다"
 [trustBody]
 other = "서울에 살면서 직접 가 본 곳, 직접 타 본 지하철, 최근에 확인한 가격을 중심으로 써요. 가 보지 않은 곳은 가 보지 않았다고 분명히 밝힙니다."
-# 참고: /kr에는 제휴 링크가 없어서 affiliateDisclosure 키를 일부러 두지 않습니다.
-# 제휴 고지 문단은 KR에서 숨김 처리돼 있어요(footer.html, index.html 참고).
+# 2026-11-23 KR 제휴 시작: KR 가이드에도 제휴 고지문을 표시합니다.
+[affiliateDisclosure]
+other = "이 페이지의 일부 링크는 제휴 링크입니다. 링크를 통해 예약·구매하면 저희가 수수료를 받을 수 있으며, 추가 비용은 없습니다. 추천 내용은 수수료와 무관하게 정합니다. 쿠팡파트너스 활동의 일환으로 수수료를 받을 수 있습니다."
+[affiliateDisclosureLabel]
+other = "제휴 고지:"
 [footerTagline]
 other = "HOHO Tour - 서울 사는 사람이 직접 쓰는 실용 여행 가이드예요."
 [footerTaglineShort]

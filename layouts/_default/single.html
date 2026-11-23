@@ -24,7 +24,7 @@
 {{ end }}
 {{ partial "related-posts.html" . }}
 {{ if eq .Section "blog" }}
-{{ if ne site.Language.Lang "kr" }}<div class="disclosure">Some links on this page are affiliate links. If you book through one, we may earn a small commission at no extra cost to you. It never changes what we recommend.</div>{{ end }}
+<div class="disclosure">{{ i18n "affiliateDisclosure" }}</div>
 {{ end }}
 </article>
 {{ end }}

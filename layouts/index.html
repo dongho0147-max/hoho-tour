@@ -63,8 +63,7 @@
 <section class="trust"><div class="box" data-reveal>
 <h2>{{ i18n "trustTitle" }}</h2>
 <p>{{ i18n "trustBody" }}</p>
-{{/* /kr has zero affiliate links: no disclosure paragraph here (EN keeps it). */}}
-{{ if ne site.Language.Lang "kr" }}<p class="disclosure"><strong>{{ i18n "affiliateDisclosureLabel" }}</strong> {{ i18n "affiliateDisclosure" }}</p>{{ end }}
+<p class="disclosure"><strong>{{ i18n "affiliateDisclosureLabel" }}</strong> {{ i18n "affiliateDisclosure" }}</p>
 </div></section>
 {{ partial "filter-script.html" . }}
 {{ end }}
