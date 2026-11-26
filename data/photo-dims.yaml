@@ -580,3 +580,28 @@ tokyo-03:
 tokyo-04:
   width: 1920
   height: 1440
+
+danyang-v10-01:
+  width: 1080
+  height: 1350
+danyang-v10-02:
+  width: 1080
+  height: 1350
+danyang-v10-03:
+  width: 1080
+  height: 1350
+danyang-v10-04:
+  width: 1080
+  height: 1350
+danyang-v10-05:
+  width: 1080
+  height: 1350
+danyang-v10-06:
+  width: 1080
+  height: 1350
+danyang-v10-07:
+  width: 1080
+  height: 1350
+danyang-v10-08:
+  width: 1080
+  height: 1350
