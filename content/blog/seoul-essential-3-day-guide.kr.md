@@ -184,6 +184,8 @@ landmarks:
 
 🚇 지하철은 **3호선 경복궁역 5번 출구**로 나오세요.
 
+{{< figure src="images/photos/seoul-gwanghwamun-01.webp" alt="광화문광장과 광화문, 뒤로 북한산이 보인다" caption="수문장 교대의식은 오전 10시와 오후 2시에 광화문에서 열려요. 약 20분이고 무료예요. 사진: Richard Mortel, CC BY 2.0" >}}
+
 ### 🍱 점심은 통인시장 도시락으로
 
 경복궁 서쪽 서촌에 있는 오래된 시장이에요. **도시락을 직접 꾸려 먹을 수 있어요.**
@@ -331,6 +333,8 @@ landmarks:
 {{< sticker kind="yum" >}}
 
 {{< sticker kind="tired-rest" >}}
+
+{{< figure src="images/photos/seoul-ddp-01.webp" alt="낮의 동대문디자인플라자 곡선 외벽" caption="DDP는 밤에 특히 볼 만해요. 어울림광장에서는 매일 19:00~22:00에 미디어아트를 틀어요. 사진: Dwxn, CC BY-SA 4.0" >}}
 
 ## 🗺️ 3일 일정 요약
 

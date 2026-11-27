@@ -128,6 +128,8 @@ The honest downside: the courtyard gets packed by 11, and the ceremony draws a c
 
 {{< aff href="https://www.klook.com/en-US/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/" text="Book a hanbok rental near Gyeongbokgung on Klook" >}}
 
+{{< figure src="images/photos/seoul-gwanghwamun-01.webp" alt="Gwanghwamun Square and Gwanghwamun Gate with Bukhansan behind" caption="Come for the 10:00 or 14:00 guard ceremony at Gwanghwamun. It lasts about 20 minutes and is free to watch from the square. Photo: Richard Mortel, CC BY 2.0" >}}
+
 ### 🍱 Eat lunch the market way at Tongin Market
 
 A 10-minute walk from the palace. This old market runs a lunchbox system. Buy coins at the entrance, then fill a tray with small dishes from the stalls. Expect about 10,000-15,000 KRW per person. It is where office workers eat, which is usually a good sign.
@@ -206,6 +208,8 @@ The old-school version of that dinner, beef soup at dawn and barbecue at night, 
 
 {{< sticker kind="yum" >}}
 {{< sticker kind="tired-rest" >}}
+
+{{< figure src="images/photos/seoul-ddp-01.webp" alt="The curved facade of Dongdaemun Design Plaza in daylight" caption="DDP is worth seeing at night, and the malls around it stay open late. Photo: Dwxn, CC BY-SA 4.0" >}}
 
 ## 🗺️ Your 3 days at a glance
 
