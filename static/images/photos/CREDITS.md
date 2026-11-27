@@ -309,5 +309,6 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | danyang-v10-06.jpg | Danyanggang Jando wooden walkway along the river cliff, Danyang | 1080x1350, 829 KB | Kim Jiho / Korea Tourism Content Lab | KOGL Type 1 | https://tong.visitkorea.or.kr/cms/resource_photo/71/2765571_image2_1.jpg |
 | danyang-v10-07.jpg | Mancheonha Skywalk over the Namhan River cliff, Danyang | 1080x1350, 877 KB | Kim Jiho / Korea Tourism Content Lab | KOGL Type 1 | https://tong.visitkorea.or.kr/cms/resource_photo/85/2765585_image2_1.jpg |
 | danyang-v10-08.jpg | Danyang 8-stop route map on OpenStreetMap base | 1080x1350, 496 KB | OpenStreetMap contributors; Korea Tourism Content Lab (KOGL Type 1); Douglas Perkins (CC BY 4.0); hyun chun kim (CC0) | ODbL / KOGL Type 1 / CC BY 4.0 / CC0 | https://www.openstreetmap.org/copyright |
+| daegu-04.webp | Seomun Night Market, Daegu | 1600x900 | Choi2451 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Seomun_Night_Market,_Daegu.jpg |
 | gwangju-04.webp | Gwangju Mudeungsan | 1600x1200 | Kgw1226 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gwangju_Mudeungsan.jpg |
 | gwangju-05.webp | Mudeungsan Danim trail | 1600x1109 | Korea.net / Korean Culture and Information Service | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Mudeungsan_Danim_trail_(7800583084).jpg |
