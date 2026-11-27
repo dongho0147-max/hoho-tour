@@ -103,7 +103,7 @@ other = "Route summary"
 [interactiveMapAria]
 other = "Interactive map of the route stops"
 [mapCaption]
-other = "Interactive map: Google Maps tiles (English place names), © Google. Stop coordinates verified via OpenStreetMap Nominatim, Nov 2026."
+other = "Interactive map: OpenStreetMap tiles, © OpenStreetMap contributors. Stop coordinates verified via OpenStreetMap Nominatim, Nov 2026."
 [photoLabel]
 other = "Photo:"
 [statusAll]
