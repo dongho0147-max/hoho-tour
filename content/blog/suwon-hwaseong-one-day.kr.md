@@ -2,8 +2,8 @@
 title: "하루 만에 수원: 서울에서 떠나는 화성 성곽길 걷기"
 description: "서울에서 수원으로 떠나는 당일 여행: 화성 성곽길 걷기, 화성행궁, 네 개의 성문, 그리고 저녁은 수원 갈비."
 date: 2026-11-28
-image: "images/photos/seoul-10.webp"
-image_alt: "A gate of Hwaseong Fortress in Suwon"
+image: "images/photos/suwon-hwaseong-03.webp"
+image_alt: "Stone path along the Hwaseong Fortress wall in Suwon"
 regions: ["gyeonggi-suwon"]
 themes: ["day-trips", "itineraries"]
 stops:

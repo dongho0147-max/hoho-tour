@@ -313,3 +313,4 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | gwangju-04.webp | Gwangju Mudeungsan | 1600x1200 | Kgw1226 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gwangju_Mudeungsan.jpg |
 | gwangju-05.webp | Mudeungsan Danim trail | 1600x1109 | Korea.net / Korean Culture and Information Service | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Mudeungsan_Danim_trail_(7800583084).jpg |
 | seoul-metro-transfer.webp | Seoul Station subway platform with transfer sign (cover of seoul-subway-tmoney-taxi) | 1600 px | LERK | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Seoul-metro-426-Seoul-station-platform-20181122-172938.jpg |
+| suwon-hwaseong-03.webp | Stone path along the Hwaseong Fortress wall, Suwon (cover of suwon-hwaseong-one-day) | 1600 px | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Hwaseong_Fortress_03.jpg |
