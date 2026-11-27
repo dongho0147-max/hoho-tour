@@ -2,8 +2,8 @@
 title: "Riding Seoul Like a Local: The Subway, the T-Money Card, and When to Just Take a Taxi"
 description: "A Seoul local's honest guide to the subway, the T-money card, and taxis: how the transfer halls actually work, what a ride costs, rush hour, and the nights when a taxi is simply the right call."
 date: 2026-11-17
-image: "images/photos/seoul-07.webp"
-image_alt: "Amsa Station sign, Line 8, station 810"
+image: "images/photos/seoul-metro-modern.webp"
+image_alt: "Modern Seoul Line 9 platform with screen doors and a transfer sign at Seonjeongneung Station"
 regions: ["seoul"]
 themes: ["transit-tips"]
 stops:

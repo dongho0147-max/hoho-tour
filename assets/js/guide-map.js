@@ -135,7 +135,7 @@
       });
       cand.sort(function (a, b) { return Math.hypot(a[0] * 1.6, a[1]) - Math.hypot(b[0] * 1.6, b[1]); });
       badges.slice().sort(function (a, b) { return b._n - a._n; }).forEach(function (m) {
-        var base = map.latLngToContainerPoint(m._base); var sz = map.getSize(); var half = m._len * 0.42;
+        var base = map.latLngToContainerPoint(m._base); var sz = map.getSize(); var half = m._len * 0.5 + 6;
         var pt = L.point(Math.min(Math.max(base.x, half + 4), sz.x - half - 4), base.y);
         for (var i = 0; i < cand.length; i++) {
           var t = L.point(Math.min(Math.max(base.x + cand[i][0] * (m._len * 0.55), half + 4), sz.x - half - 4), base.y + cand[i][1] * 30);
