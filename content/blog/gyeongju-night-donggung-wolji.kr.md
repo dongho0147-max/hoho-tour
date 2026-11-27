@@ -28,6 +28,13 @@ stops:
     lat: 35.84476
     lng: 129.27738
     note: "Lakeside walk for a quieter end to the night."
+  - name: "Sono Calm Gyeongju"
+    type: lodging
+    name_ko: "소노캄 경주"
+    lat: 35.846833
+    lng: 129.281731
+    note: "보문호 옆 보문단지의 리조트 호텔이에요(경북 경주시 보문로 402-12)."
+    source: "https://www.sonohotelsresorts.com/calm_gju"
 ---
 
 경주는 해가 지면 다른 도시가 돼요. 고분은 잔디 위의 어두운 언덕이 되고, 궁궐 조명이 연못 위로 켜지고, 목조 다리가 개울 위에서 빛나요.
@@ -122,6 +129,14 @@ stops:
 | 4 | 황리단길 카페와 간식 | 원하는 만큼 |
 
 {{< sticker kind="tired-rest" >}}
+
+## 🛏️ 숙소는 보문단지에
+
+**소노캄 경주**는 보문호 옆 보문단지에 있는 리조트 호텔이에요. 야경 명소가 모인 시내와는 떨어져 있어서, 밤 일정은 이동을 따로 계획하세요.
+
+가격은 제3자 사이트 기준 약 15만원대~이고, 날짜별로 달라요.
+
+{{< aff href="https://www.agoda.com/ko-kr/daemyung-resort-gyeongju/hotel/gyeongju-si-kr.html" text="아고다에서 소노캄 경주 확인하기" rel="sponsored noopener" >}}
 
 ## ☀️ 낮의 경주 보기
 

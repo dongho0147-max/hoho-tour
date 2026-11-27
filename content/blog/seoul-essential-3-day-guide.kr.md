@@ -84,13 +84,13 @@ landmarks:
     lng: 126.9659184
     kind: "station"
     symbol: "🚆"
-  - name: "The Grand Lotte Seoul"
+  - name: "Lotte City Hotel Myeongdong"
     type: lodging
-    name_ko: "더그랜드롯데 서울"
-    lat: 37.5652278
-    lng: 126.9806285
-    note: "을지로 30, 명동 가까이에 있어요(호텔 공식 주소). 첫 서울 여행의 거점 후보예요."
-    source: "https://www.lottehotel.com/seoul-grand/ko"
+    name_ko: "롯데시티호텔 명동"
+    lat: 37.5669379
+    lng: 126.9879997
+    note: "삼일대로 362, 명동 한복판이에요. 첫 서울 여행의 거점 후보예요."
+    source: "https://www.agoda.com/ko-kr/lotte-city-hotel-myeongdong/hotel/seoul-kr.html"
 ---
 서울이 처음이라면 **3일이 딱 좋아요.** 하루는 너무 짧고, 닷새면 부산이나 제주까지 곁들일 여유가 생겨요.
 
@@ -147,6 +147,10 @@ landmarks:
 | 명동 | 관광 동선의 한가운데. 먹거리와 쇼핑이 많고, 붐비는 대신 걸어서 갈 곳이 많아요 | 처음 오는 여행자 |
 | 홍대 | 더 젊고 비교적 저렴해요. 밤 문화와 카페가 좋고, 공항철도 일반열차로 공항에서 바로 올 수 있어요 | 밤과 카페를 즐기는 사람 |
 | 인사동·종로 | 한결 차분하고 전통적이에요. 궁궐과 가까워요 | 아침 일찍 경복궁에 갈 사람 |
+
+명동에 묵는다면 **롯데시티호텔 명동**이 무난한 후보예요. 지하철역이 가깝고 일정의 중심에 있어요. 가격은 제3자 사이트 기준 약 10만원대~이고, 날짜별로 달라요.
+
+{{< aff href="https://www.agoda.com/ko-kr/lotte-city-hotel-myeongdong/hotel/seoul-kr.html" text="아고다에서 롯데시티호텔 명동 확인하기" rel="sponsored noopener" >}}
 
 ## 🏯 첫째 날: 궁궐은 사람이 몰리기 전에
 

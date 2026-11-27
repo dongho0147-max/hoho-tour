@@ -2,8 +2,8 @@
 title: "현지인처럼 서울 다니기: 지하철, 티머니 카드, 그리고 택시를 타야 할 때"
 description: "서울 현지인이 솔직하게 알려 주는 지하철, 티머니 카드, 택시 가이드. 환승 통로는 어떻게 생겼는지, 요금은 얼마인지, 출퇴근 시간은 언제인지, 그리고 택시가 정답인 밤은 언제인지 정리했습니다."
 date: 2026-11-28
-image: "images/photos/seoul-07.webp"
-image_alt: "Amsa Station sign, Line 8, station 810"
+image: "images/photos/seoul-metro-transfer.webp"
+image_alt: "Seoul Station subway platform with a transfer sign and passengers walking"
 regions: ["seoul"]
 themes: ["transit-tips"]
 stops:

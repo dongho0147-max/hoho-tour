@@ -43,13 +43,13 @@ stops:
     lat: 36.9602399
     lng: 128.3323156
     note: "2일 차 저녁, 빛으로 채운 옛 터널."
-  - name: "Danyang Tourist Hotel Edelweiss"
+  - name: "Sono Belle Danyang"
     type: lodging
-    name_ko: "단양관광호텔 에델바이스"
-    lat: 36.9820051
-    lng: 128.3485704
-    note: "단양읍 삼봉로 31. 80실 전 객실이 남한강 전망이에요."
-    source: "https://www.danyang.go.kr/stay/danyanghotel"
+    name_ko: "소노벨 단양"
+    lat: 36.9776656
+    lng: 128.36255
+    note: "단양읍 상진1로 일대의 대형 리조트 호텔이에요. 2일 차 저녁 이후 숙소 후보예요."
+    source: "https://www.sonohotelsresorts.com/belle_dy"
 ---
 
 단양은 충청북도 북쪽의 작은 강변 마을이에요. 서울 사람들이 주말에 슬쩍 다녀오는 곳이죠. 서울에서 기차나 버스로 갈 수 있고, 강 위의 바위 봉우리, 석회동굴, 절벽 스카이워크, 빛터널, 마늘에 진심인 시장이 몇 킬로미터 안에 모여 있어요.
@@ -76,9 +76,15 @@ stops:
 
 ### 🛏️ 숙소는 어디가 좋을까
 
-단양읍 시내에 묵으면 시장과 강변 산책로가 걸어서 가까워요. **단양관광호텔 에델바이스**는 80실 전 객실이 강 전망이에요(호텔 공식 소개). 가격은 날짜마다 크게 달라지니 실시간 요금을 비교하세요.
+**소노벨 단양**은 단양읍 안에 있는 대형 리조트 호텔이에요. 가격대가 무난하고 시설이 한곳에 모여 있어서 처음 묵기 편해요.
 
-{{< aff href="https://www.agoda.com/ko-kr/city/danyang-gun-kr.html" text="아고다에서 단양 호텔과 실시간 가격 확인하기" rel="sponsored noopener" >}}
+가격은 제3자 사이트 기준 약 12만원대~이고, 날짜별로 달라요.
+
+> **⚠️ 휴장 안내:** 소노벨 단양은 시설 공사로 **2026년 12월 2일~12월 22일 휴장**이에요(소노호텔앤리조트 공식 공지, 2026년 10월 28일). 이 기간에 가신다면 다른 숙소를 알아보세요.
+
+시장과 강변 산책로를 걸어서 다니고 싶다면 단양읍 시내의 **단양관광호텔 에델바이스**도 후보예요. 80실 전 객실이 강 전망이에요(호텔 공식 소개).
+
+{{< aff href="https://www.agoda.com/ko-kr/daemyung-resort-danyang/hotel/danyang-gun-kr.html" text="아고다에서 소노벨 단양 확인하기" rel="sponsored noopener" >}}
 
 ## 🏯 1일 차: 단양의 대표 풍경과 시장을 느긋한 오후 한 번에 볼 수 있을까요?
 

@@ -43,13 +43,13 @@ stops:
     lat: 36.9602399
     lng: 128.3323156
     note: "Day 2 evening: the old tunnel filled with light."
-  - name: "Danyang Tourist Hotel Edelweiss"
+  - name: "Sono Belle Danyang"
     type: lodging
-    name_ko: "단양관광호텔 에델바이스"
-    lat: 36.9820051
-    lng: 128.3485704
-    note: "Danyang-eup, Sambong-ro 31. All 80 rooms face the Namhan River."
-    source: "https://www.danyang.go.kr/stay/danyanghotel"
+    name_ko: "소노벨 단양"
+    lat: 36.9776656
+    lng: 128.36255
+    note: "A large resort hotel in Danyang-eup (Sangjin-ro area). A base for nights 1 and 2."
+    source: "https://www.sonohotelsresorts.com/belle_dy"
 ---
 
 
@@ -87,10 +87,15 @@ The market and the river walk are on foot from the town center. For the rest, pl
 ### 🛏️ Where should you stay?
 
 
-Stay in Danyang-eup, the town center, so the market and river walk are on foot. **Danyang Tourist Hotel Edelweiss** has 80 rooms, all with river views (per the hotel's official page). Prices move a lot by date, so compare live rates.
+**Sono Belle Danyang** is a large resort hotel in Danyang-eup. Prices are mid-range and everything is under one roof.
 
+Rates run from about KRW 120,000 on third-party sites and change by date.
 
-{{< aff href="https://www.agoda.com/en-au/city/danyang-gun-kr.html" text="Check Danyang hotels and live prices on Agoda" >}}
+> **⚠️ Closure notice:** Sono Belle Danyang is **closed from December 2 to December 22, 2026** for facility work (official Sono Hotels & Resorts notice, October 28, 2026). If you travel in that window, book somewhere else.
+
+If you want the market and river walk on foot, **Danyang Tourist Hotel Edelweiss** in town is another option. All 80 rooms face the river (per the hotel's official page).
+
+{{< aff href="https://www.agoda.com/ko-kr/daemyung-resort-danyang/hotel/danyang-gun-kr.html" text="Check Sono Belle Danyang on Agoda" rel="sponsored noopener" >}}
 
 
 ## 🏯 Day 1: Can you do Danyang's famous view and the market in one slow afternoon?
