@@ -659,3 +659,5 @@ article ol.tour-summary__stops li.stop--lodging,article ol.tour-summary__stops l
 .tour-summary__stops li.stop--market::before{background:#E8920C}
 .tour-summary__stops li.stop--lodging::before{content:"\1F6CF";background:#6D5BD0;font-size:14px}
 .tour-summary__stops li.stop--transit::before{content:attr(data-badge);background:#2E9BD6;font-size:11px;letter-spacing:-.02em;overflow:hidden}
+
+.foot-symbol{display:block;width:36px;height:36px;margin:2px 0 10px;opacity:.9}

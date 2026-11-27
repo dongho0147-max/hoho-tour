@@ -31,7 +31,7 @@
 <div class="site__inner">
 <div class="masthead">
 
-<a class="brand" href="{{ $homeURL }}"{{ if .IsHome }} aria-current="page"{{ end }}><img src="/images/hoho-tour-logo-final.svg" alt="{{ i18n "logoAlt" }}" width="54" height="54"><span class="brand__word">HOHO <em>Tour</em></span></a>
+<a class="brand" href="{{ $homeURL }}"{{ if .IsHome }} aria-current="page"{{ end }}><span class="brand__word" aria-label="{{ i18n "logoAlt" }}">HOHO <em>Tour</em></span></a>
 <p class="masthead__tag">{{ i18n "heroEyebrow" | safeHTML }}</p>
 </div>
 <div class="navbar"><div class="navbar__inner">
