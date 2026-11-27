@@ -66,6 +66,8 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 
 해운대의 오래된 국밥집은 또 다른 매력이 있어요. 해운대원조할매국밥은 돼지가 아니라 소고기국밥을 내고, 해운대역에서 걸어서 가까운 골목에 있어요. 근처에 이름이 비슷한 가게가 있으니 출발하기 전에 지도에서 한글 상호가 해운대원조할매국밥으로 나오는지 확인하세요.
 
+{{< figure src="images/photos/busan-01.webp" alt="해운대해수욕장, 넓은 백사장과 해변 산책로" caption="해운대해수욕장. 사진: Mobius6, CC BY-SA 4.0" >}}
+
 {{< figure src="images/photos/busan-08.webp" alt="그릇에 담긴 소고기국밥, 소고기와 밥을 말아 낸 국" caption="소고기국밥: 소고기와 밥을 말아 낸 국, 해운대의 아침 한 그릇. 사진: Melsj, CC BY" >}}
 
 국물은 맑고 약간 매콤하고 콩나물과 무가 들어가서, 서면의 뽀얀 돼지 국물보다 가볍게 느껴져요. 선지국밥도 있어요. 해변을 아침 산책한 뒤 먹기 좋은 한 끼이고, 점심 전에 돼지국밥이 무겁게 느껴진다면 시킬 만한 그릇이에요.
@@ -99,6 +101,8 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 ## 🌇 그릇과 그릇 사이에는 무엇을 볼까요?
 
 부산은 국밥만 있는 도시가 아니에요. 식사 사이에 돈이 들지 않는 풍경이 둘 있어요. 항구 위 언덕의 알록달록한 집들이 있는 감천문화마을과, 해운대 해변이에요. 감천문화마을은 부산관광공사 기준으로 11월부터 2월까지 09:00~17:00에 운영하고 무료예요. 해운대해수욕장은 백사장 길이가 1.5km예요(해운대구청).
+
+{{< figure src="images/photos/busan-04.webp" alt="부산 자갈치시장 풍경" caption="부산 자갈치시장. 사진: Bernard Gagnon, CC0" >}}
 
 {{< collage "images/photos/seoul-30.webp|해 질 녘 알록달록한 언덕 집들, 감천문화마을|Basile Morin, CC BY-SA 4.0" "images/photos/seoul-31.webp|산책로와 바다 앞 고층 건물이 있는 넓은 백사장, 해운대 해변|Mobius6, CC BY-SA 4.0" >}}
 

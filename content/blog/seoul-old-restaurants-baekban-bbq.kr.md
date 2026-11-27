@@ -68,6 +68,8 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 토속촌은 경복궁 근처 서촌의 한옥 건물들에 있어요. 서울 공식 관광정보로 1983년부터 운영해 왔고, 서촌 감성과 어울리는 전통적인 분위기의 한옥에서 한국 식문화를 즐길 수 있어요. 건물이 음식이 나오기 전에 이미 절반을 해 줘요. 낮은 기와지붕, 짙은 나무, 가운데 마당. 궁궐을 구경하고 들어오면 하루 전체가 느려져요.
 
+{{< figure src="images/photos/seoul-01.webp" alt="서울 경복궁 흥례문, 맑은 날 정면" caption="경복궁 흥례문. 사진: Basile Morin, CC BY-SA 4.0" >}}
+
 삼계탕은 어린 닭에 인삼, 대추, 찹쌀 등을 넣고 푹 끓인 한국의 전통 보양식이에요(한국관광공사). 닭이 푹 익어 부서지고 국물이 보이는 것보다 뜨거우니 조심해서 드세요. 매일 10:00~22:00에 열어요.
 
 문제는 대기예요. 복날에는 가게 앞에 줄이 길게 서고, 주말에도 기다릴 수 있어요. 평일에 가거나 문 여는 10:00에 가면 한옥을 조용히 즐기기 좋아요.
@@ -79,6 +81,8 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 ## 🔥 처음이라면 바비큐는 어떻게 할까요? 명동 왕비집
 
 왕비집은 모든 고기를 직원이 구워 주는 곳이에요(한국관광공사). 한우 갈빗살과 양념 갈비 같은 고기에 집중하고, 점심에는 갈비 정식을 먹을 수 있어요. 본점은 명동에 있고, 직원이 테이블에서 고기를 구워 가위로 잘라 주기 때문에 집게를 잡아 본 적이 없어도 첫 바비큐로 쉬워요.
+
+{{< figure src="images/photos/seoul-06.webp" alt="밤의 서울 명동 남대문로, 택시와 버스가 지나가는 거리" caption="밤의 명동 남대문로. 사진: Tristan Surtel, CC BY-SA 4.0" >}}
 
 {{< figure src="images/photos/seoul-43.webp" alt="이글거리는 숯불 위 석쇠에서 구워지는 한우" caption="숯불 위에서 구워지는 한우. 사진: lazy fri13th, CC BY 2.0" >}}
 
