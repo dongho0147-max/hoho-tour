@@ -54,7 +54,7 @@ map_note: "Banghwasuryujeong is not on the map: no verified coordinates were fou
 
 **이 글은 수원시와 수원문화재단 공식 안내를 바탕으로 2026년 11월에 정리했어요.** 열차 시간과 운영 시간은 바뀔 수 있으니 출발 전에 확인하세요.
 
-{{< figure src="images/photos/suwon-02.webp" alt="전통 건물이 있는 수원 화성행궁" caption="화성행궁. 사진: Adil, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/suwon-02.webp" alt="전통 건물이 있는 수원 화성행궁" caption="성곽 길이는 약 5.7km예요. 열차 시간과 운영 시간은 출발 전에 확인하세요. 사진: Adil, CC BY-SA 4.0" >}}
 
 ## 🚆 어떻게 가나요?
 
@@ -92,7 +92,7 @@ map_note: "Banghwasuryujeong is not on the map: no verified coordinates were fou
 
 > **🔥 현지 팁:** 궁궐은 문화가 있는 날에 무료이고, 성곽 걷기는 매일 무료예요. 예산이 중요하다면 마지막 주 수요일을 고르세요. 다만 야간개장에는 문화가 있는 날 무료가 적용되지 않아요.
 
-{{< figure src="images/photos/suwon-03.webp" alt="수원 화성의 북문 장안문" caption="화성의 북문 장안문. 사진: oreum, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/suwon-03.webp" alt="수원 화성의 북문 장안문" caption="11월 말에는 궁궐 야간 방문을 계획하지 마세요. 성곽은 밤에도 볼 수 있어요. 사진: oreum, CC BY-SA 3.0" >}}
 
 ## 🚋 화성어차를 탈까요?
 
@@ -112,13 +112,13 @@ map_note: "Banghwasuryujeong is not on the map: no verified coordinates were fou
 
 가격과 영업 시간은 가게마다 달라요. 직원이 구워 주겠다고 하면 맡기세요.
 
-{{< figure src="images/photos/suwon-06.webp" alt="한국식 바비큐 테이블의 숯불 위에서 구워지는 양념 소갈비" caption="숯불 위의 갈비: 수원의 대표 저녁 메뉴. 사진: Jo Hanshin, CC0" >}}
+{{< figure src="images/photos/suwon-06.webp" alt="한국식 바비큐 테이블의 숯불 위에서 구워지는 양념 소갈비" caption="직원이 구워 주겠다고 하면 맡기세요. 가격과 영업 시간은 가게마다 달라요. 사진: Jo Hanshin, CC0" >}}
 
 소고기가 취향이 아니라면 팔달문 근처 통닭 거리도 있어요. 갈비보다 가볍고 빨라서 타야 할 기차가 있다면 알맞은 저녁이에요.
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/suwon-05.webp" alt="저녁 햇살 속의 수원 화성행궁" caption="저녁의 화성행궁. 사진: Gayeong2133, CC0" >}}
+{{< figure src="images/photos/suwon-05.webp" alt="저녁 햇살 속의 수원 화성행궁" caption="궁궐 입장료는 2,000원이에요. 투어 없이 직접 가는 게 가장 간단해요. 사진: Gayeong2133, CC0" >}}
 
 ## 🎫 투어를 탈까요, 직접 갈까요?
 
