@@ -4,6 +4,7 @@ description: "A one-night trip from Seoul to Sokcho and Seoraksan National Park:
 date: 2026-11-19
 image: "images/photos/sokcho-01.webp"
 image_alt: "Granite peaks in Seoraksan National Park under a blue sky"
+image_caption: "Spend your morning energy on the mountain and your evening on the beach. Photo: kallerna, CC BY-SA 4.0"
 regions: ["gangwon"]
 themes: ["day-trips", "itineraries"]
 stops:

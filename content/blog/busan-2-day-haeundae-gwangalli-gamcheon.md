@@ -4,6 +4,7 @@ description: "A 2-day Busan route: Haeundae Beach and the Sky Capsule on day 1, 
 date: 2026-11-19
 image: "images/photos/busan-01.webp"
 image_alt: "Haeundae Beach with the promenade and seafront towers"
+image_caption: "Walk Haeundae in the morning, when it is quiet. Photo: Mobius6, CC BY-SA 4.0"
 regions: ["busan"]
 themes: ["itineraries", "food-restaurants", "nightlife"]
 stops:

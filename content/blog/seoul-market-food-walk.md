@@ -4,6 +4,7 @@ description: "A Seoul local's slow morning of eating through Gwangjang Market an
 date: 2026-11-17
 image: "images/photos/seoul-13.webp"
 image_alt: "Gwangjang Market food stall, customers eating noodles and dumplings"
+image_caption: "Come on a weekday morning, and order only where prices are posted. Photo: kallerna, CC BY-SA 4.0"
 regions: ["seoul"]
 themes: ["food-restaurants"]
 stops:

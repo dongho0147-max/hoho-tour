@@ -4,6 +4,7 @@ description: "A realistic 3-day Jeju itinerary with no rental car: Jeju City on 
 date: 2026-11-19
 image: "images/photos/jeju-01.webp"
 image_alt: "Green slopes and drifting cloud on Hallasan in Jeju"
+image_caption: "Set up Naver Map before you land. It shows live Jeju bus times. Photo: Basile Morin, CC BY-SA 4.0"
 regions: ["jeju"]
 themes: ["itineraries", "day-trips"]
 stops:

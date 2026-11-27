@@ -4,6 +4,7 @@ description: "One evening on the Han River in Seoul: the E-Land cruise from Yeou
 date: 2026-11-19
 image: "images/photos/han-01.webp"
 image_alt: "Banpo Bridge Moonlight Rainbow Fountain at night over the Han River"
+image_caption: "The fountain runs April to October only, so it rests in November. Photo: Wvdp, CC0"
 regions: ["seoul"]
 themes: ["nightlife", "itineraries"]
 stops:

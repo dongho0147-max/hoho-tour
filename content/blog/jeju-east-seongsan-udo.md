@@ -4,6 +4,7 @@ description: "A one-day east Jeju route: climb Seongsan Ilchulbong in the mornin
 date: 2026-11-19
 image: "images/photos/jeju-east-01.webp"
 image_alt: "Hydrangeas in front of Seongsan Ilchulbong at blue hour"
+image_caption: "Go early: the stairs get crowded by late morning. Photo: Basile Morin, CC BY-SA 4.0"
 regions: ["jeju"]
 themes: ["itineraries", "day-trips"]
 stops:

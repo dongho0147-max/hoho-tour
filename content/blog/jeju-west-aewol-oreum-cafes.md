@@ -4,6 +4,7 @@ description: "A slow one-day west Jeju route: Hyeopjae Beach and Hallim Park in 
 date: 2026-11-19
 image: "images/photos/jeju-west-01.webp"
 image_alt: "Hyeopjae Beach in western Jeju"
+image_caption: "If Hyeopjae is busy, walk 10 minutes to quieter Geumneung. Photo: Lcarrion88, CC BY-SA 4.0"
 regions: ["jeju"]
 themes: ["itineraries", "cafes"]
 stops:

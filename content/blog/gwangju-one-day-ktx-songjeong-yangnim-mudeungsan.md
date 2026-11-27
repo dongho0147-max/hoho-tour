@@ -4,6 +4,7 @@ description: "A one-day Gwangju trip by KTX from Yongsan: Songjeong Market and t
 date: 2026-11-19
 image: "images/photos/gwangju-01.webp"
 image_alt: "Mudeungsan mountain behind Gwangju city in winter"
+image_caption: "Skip downtown Gwangju on Mondays: the old provincial office and Asia Culture Center are closed. Photo: Kgw1226, CC BY-SA 4.0"
 regions: ["gwangju"]
 themes: ["itineraries", "food-restaurants", "day-trips"]
 stops:

@@ -4,6 +4,7 @@ description: "A one-day Gyeongju route by KTX from Seoul or Busan: Bulguksa Temp
 date: 2026-11-19
 image: "images/photos/gyeongju-01.webp"
 image_alt: "The pond and stone bridge at Bulguksa Temple"
+image_caption: "Be there at the 09:00 opening for the best light and thinnest crowds. Photo: Basile Morin, CC BY-SA 4.0"
 regions: ["gyeongju"]
 themes: ["itineraries", "day-trips"]
 stops:

@@ -4,6 +4,7 @@ description: "A one-day trip from Seoul to Suwon: the Hwaseong Fortress wall wal
 date: 2026-11-19
 image: "images/photos/seoul-10.webp"
 image_alt: "A gate of Hwaseong Fortress in Suwon"
+image_caption: "Walk the wall in the morning, when it is cooler, and see the palace after lunch. Photo: Bernard Gagnon, CC0"
 regions: ["gyeonggi-suwon"]
 themes: ["day-trips", "itineraries"]
 stops:

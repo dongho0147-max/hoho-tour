@@ -4,6 +4,7 @@ description: "An evening in Jeonju: Omokdae pavilion at night, the Nambu Market 
 date: 2026-11-19
 image: "images/photos/jeonju-night-02.webp"
 image_alt: "Sunset over Jeonju with rooftops and hills"
+image_caption: "The Nambu night market runs Friday and Saturday evenings. Bring small bills. Photo: Giuseppe Milo, CC BY 2.0"
 regions: ["jeonju"]
 themes: ["nightlife", "food-restaurants"]
 stops:

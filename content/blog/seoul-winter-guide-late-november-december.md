@@ -4,6 +4,7 @@ description: "A Seoul local's honest guide to winter in the city: what the cold 
 date: 2026-11-17
 image: "images/photos/seoul-15.webp"
 image_alt: "Hyangwonjeong Pavilion at Gyeongbokgung in snow"
+image_caption: "The Seoul Winter Festival runs from 11 December 2026 to 31 January 2027. Photo: Cultural Heritage Administration, KOGL Type 1"
 regions: ["seoul"]
 themes: ["seasonal"]
 stops:

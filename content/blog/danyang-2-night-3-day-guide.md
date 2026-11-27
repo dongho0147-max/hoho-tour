@@ -4,6 +4,7 @@ description: "A 2-night 3-day Danyang itinerary from Seoul: Dodamsambong and the
 date: 2026-11-28
 image: "images/photos/danyang-blog-06-skywalk.jpg"
 image_alt: "Mancheonha Skywalk above the Namhan River in Danyang"
+image_caption: "The skywalk and light tunnel are both closed on Tuesdays. Photo: Korea Tourism Organization, Shin Minseon, KOGL Type 1"
 regions: ["chungcheong"]
 themes: ["day-trips"]
 stops:

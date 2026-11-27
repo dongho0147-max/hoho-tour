@@ -4,6 +4,7 @@ description: "A one-day Daejeon bread run from Seoul: Seongsimdang main store an
 date: 2026-11-19
 image: "images/photos/daejeon-01.webp"
 image_alt: "Seongsimdang main store in Daejeon at night, lit sign and customers at the door"
+image_caption: "Decide your order before you join the queue. Photo: Trainholic, CC BY-SA 4.0"
 regions: ["daejeon"]
 themes: ["food-restaurants", "day-trips"]
 stops:

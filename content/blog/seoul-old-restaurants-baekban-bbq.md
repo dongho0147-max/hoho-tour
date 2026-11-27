@@ -23,6 +23,7 @@ stops:
     note: "Day 2: ginseng chicken soup"
 image: "images/photos/seoul-36.webp"
 image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
+image_caption: "Avoid the 11:30 to 13:30 weekday lunch peak for a shorter wait. Photo: Lee Dongwon, CC0"
 ---
 
 
