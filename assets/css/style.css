@@ -539,3 +539,4 @@ article table th:first-child,article table td:first-child{min-width:6em}
   .table-wrap>table:not(.is-stacked){min-width:560px}
   .table-wrap:has(>table:not(.is-stacked)){overflow-x:auto}
 }
+article code,article pre{overflow-wrap:anywhere;white-space:pre-wrap;max-width:100%}
