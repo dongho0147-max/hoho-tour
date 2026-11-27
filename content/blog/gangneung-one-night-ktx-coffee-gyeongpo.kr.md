@@ -66,6 +66,8 @@ stops:
 
 두 곳 사이에는 해변을 걸으세요. 안목해변은 강릉에서 가장 남쪽에 있는 해변이고, 위로 올라가면 강문해변, 경포해변이 차례로 나와요. 그래서 안목에서 시작하면 코스를 짜기 편해요.
 
+{{< figure src="images/photos/gangneung-p13-01.webp" alt="바다가 보이는 난간 위에 놓인 아이스커피 두 잔" caption="바다 쪽 창가 자리는 주말에 금방 차요. 도착하자마자 첫 카페에서 자리부터 잡으세요. 사진: Pexels" >}}
+
 ## 🌅 일몰: 경포해변과 경포호
 
 **안목에서 강릉의 대표 해변인 경포해변까지 걷거나 택시를 짧게 타고 가세요.** 해변 중앙통로에는 소나무와 해를 모티브로 한 포토존 조형물이 있어요. 모두가 찍는 사진이니 일몰 무렵 사람이 줄어들 때 찍으세요.
@@ -79,6 +81,8 @@ stops:
 {{< figure src="images/photos/gangneung-03.webp" alt="경포호" caption="경포호. 사진: Solène Huille, CC BY-SA 4.0" >}}
 
 {{< collage "images/photos/gangneung-02.webp|안목해변|Mobius6, CC BY-SA 4.0" "images/photos/gangneung-03.webp|경포호|Solène Huille, CC BY-SA 4.0" "images/photos/gangneung-04.webp|주문진해변|Mobius6, CC BY-SA 4.0" >}}
+
+{{< figure src="images/photos/gangneung-p13-02.webp" alt="해변 뒤로 소나무가 늘어선 강릉 바닷가" caption="경포 일대는 평지라 걷기 편해요. 경포호둘레길은 약 4.3km예요(한국관광공사). 사진: Pexels" >}}
 
 ## 🍽️ 강릉에서 무엇을 먹을까요?
 
@@ -127,6 +131,8 @@ stops:
 | 당일치기 | 커피거리와 해변 하나. 호수 산책은 빠져요 |
 
 1박이 딱 좋아요. 일출과 느긋한 아침을 원한다면 2박이 더 좋아요.
+
+{{< figure src="images/photos/gangneung-p13-03.webp" alt="파도치는 해변 옆 테이블 위의 커피잔과 책" caption="카페는 많아야 두 곳만 가세요. 하나는 커피, 하나는 전망으로 정하세요. 사진: Pexels" >}}
 
 ## 🏨 어디에 묵을까요?
 

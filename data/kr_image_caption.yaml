@@ -1,0 +1,4 @@
+# KR visible hero-photo captions: one useful line for the reader (tip, warning,
+# remark), NOT a description of the photo. Keys are post file base names (with .kr).
+# The alt text stays a plain description (data/kr_image_alt.yaml).
+seoul-subway-tmoney-taxi.kr: "서울 지하철은 출퇴근 시간에 매우 복잡하니 주의하세요"

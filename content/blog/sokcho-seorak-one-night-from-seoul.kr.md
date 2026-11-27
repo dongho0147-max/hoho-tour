@@ -100,6 +100,8 @@ landmarks:
 
 {{< collage "images/photos/sokcho-03.webp|설악산국립공원의 신흥사|사진: De-Shao Liu, CC BY-SA 4.0" "images/photos/sokcho-06.webp|미시령 능선에서 본 울산바위|사진: Misiryeong, CC BY-SA 4.0" >}}
 
+{{< figure src="images/photos/sokcho-p13-01.webp" alt="소나무 사이로 보이는 설악산 입구의 전통 문" caption="소공원에서 시작해 코스 하나만 정하세요. 한 번에 다 보려 하지 마세요. 사진: Pexels" >}}
+
 ## 🥾 등산은 얼마나 힘들까?
 
 **울산바위는 만만치 않은 코스예요.** 국립공원공단 안내로는 편도 3.8km, 약 2시간이에요. 왕복으로는 4시간쯤 잡아야 해요.
@@ -111,6 +113,8 @@ landmarks:
 입구 주변 계곡 산책로는 정반대예요. 소공원에서 흔들바위까지는 경사가 완만한 편이고 국립공원공단 안내로 편도 약 1시간이에요.
 
 물을 챙기고, 미끄럽지 않은 신발을 신고, 옷은 여러 겹으로 입으세요. 산은 속초 시내보다 춥고 바람이 강해요.
+
+{{< figure src="images/photos/sokcho-p13-02.webp" alt="구름이 걸린 설악산 화강암 봉우리" caption="산은 속초 시내보다 춥고 바람이 강해요. 옷은 여러 겹으로 입으세요. 사진: Pexels" >}}
 
 ## 🍽️ 어디에서 자고, 무엇을 먹을까?
 

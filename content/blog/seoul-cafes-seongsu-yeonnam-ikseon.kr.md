@@ -51,6 +51,8 @@ stops:
 
 {{< collage "images/photos/seoul-cafe-06.webp|성수동 벽의 스트리트 아트|사진: CartoonChess, CC BY-SA 4.0" "images/photos/seoul-cafe-02.webp|가게가 늘어선 익선동 골목|사진: S h y numis, CC BY-SA 4.0" >}}
 
+{{< figure src="images/photos/seoulcafe-p13-01.webp" alt="어니언 간판이 걸린 오래된 건물의 카페 입구" caption="어니언은 1970년대에 지은 건물을 고쳐 만든 곳이에요. 빵이 20여 종이라 커피와 함께 드세요. 사진: Pexels" >}}
+
 ## 🗺️ 세 동네는 뭐가 다를까요?
 
 기분에 맞는 곳을 고를 수 있게 짧게 정리했어요.
@@ -81,6 +83,8 @@ stops:
 
 {{< figure src="images/photos/seoul-cafe-05.webp" alt="테이블과 카운터가 있는 홍대 카페 내부" caption="연남동에서 가까운 홍대 카페 내부. 사진: seafaringwoman, CC BY 2.0" >}}
 
+{{< figure src="images/photos/seoulcafe-p13-02.webp" alt="나뭇가지 너머로 보이는 네온 카페 간판" caption="연남동 공원이 보이는 창가는 주말에 경쟁이 치열해요. 평일 오전에 가세요. 사진: Pexels" >}}
+
 ## 🏮 왜 익선동은 마지막일까요?
 
 **익선동은 종로3가역 근처의 한옥 골목이고, 세 곳 중 해가 진 뒤가 가장 좋아요.** 서울 공식 관광정보는 익선동을 1920년대 한옥이 보존된 골목 사이에 트렌디한 카페와 맛집, 소품 가게가 어우러진 동네로 소개해요.
@@ -94,6 +98,8 @@ stops:
 > **🔥 현지 팁:** 평일 오전이 익선동에서 가장 한적해요. 주말 낮에는 골목이 어깨를 부딪칠 만큼 붐벼요. 많은 한국 카페가 앉는 사람마다 음료 한 잔을 주문하는 방식을 요청하니, 디저트를 나눠 먹더라도 각자 음료를 시키는 게 무난해요. 대기 방법은 가게마다 다르니 입구 안내를 확인하세요.
 
 {{< sticker kind="photo-spot" >}}
+
+{{< figure src="images/photos/seoulcafe-p13-03.webp" alt="길가 카페 바 자리에 나란히 앉은 두 사람의 뒷모습" caption="카페는 동네당 두 곳, 많아야 세 곳이 적당해요. 다섯 곳은 즐거움이 아니라 습관이 돼요. 사진: Pexels" >}}
 
 ## 🍰 곳곳에서 뭘 시킬까요?
 

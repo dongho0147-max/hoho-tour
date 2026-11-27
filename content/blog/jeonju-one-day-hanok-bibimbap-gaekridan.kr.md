@@ -106,6 +106,8 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 {{< sticker kind="photo-spot" >}}
 
+{{< figure src="images/photos/jeonju1-p13-01.webp" alt="푸른 기와지붕이 이어진 한옥 지붕들" caption="한옥마을 골목은 돌과 벽돌길이라 생각보다 많이 걸어요. 편한 신발을 신으세요. 사진: Pexels" >}}
+
 ## 🍚 점심은 무엇을 먹을까요?
 
 **비빔밥은 전주를 대표하는 음식이고, 전주가 2012년 유네스코 음식 창의도시로 지정된 것도 주로 이 덕분이에요.** 전주 비빔밥은 놋그릇에 밥과 여러 가지 고명, 날 쇠고기, 달걀노른자가 담겨 나와요. 유명한 집은 점심에 줄이 서니 일찍 가거나 시간을 살짝 피해서 가세요.
@@ -125,6 +127,8 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 {{< sticker kind="yum" >}}
 
 이동을 남에게 맡기고 싶다면, 서울 출발 가이드 데이투어도 있어요. 상품마다 일정과 복귀 시간이 다르고 교통 체증으로 늦어질 수 있으니 예약 전에 상세 페이지를 확인하세요.
+
+{{< figure src="images/photos/jeonju1-p13-02.webp" alt="돌길로 이어지는 한옥 대문" caption="이름난 비빔밥집은 주말 점심에 줄이 길어요. 11시 정각이나 14시 이후가 덜 기다려요. 사진: Pexels" >}}
 
 ## ☕ 객리단길은 무엇이고, 왜 하루를 거기서 끝낼까요?
 

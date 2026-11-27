@@ -58,6 +58,8 @@ stops:
 
 > **🔥 현지 팁:** 물과 모자를 챙기세요. 계단에는 그늘이 거의 없고, 꼭대기의 바람은 매표소에서 느끼는 것보다 훨씬 세요. 아침에 안개가 꼈다면 무료 해안길을 먼저 걷고 날씨를 보며 올라가세요.
 
+{{< figure src="images/photos/jejue-p13-01.webp" alt="검은 모래 해변 너머로 보이는 성산일출봉" caption="물과 모자를 챙기세요. 꼭대기 바람은 매표소에서 느끼는 것보다 훨씬 세요. 사진: Pexels" >}}
+
 ## ⛴️ 우도행 배를 타세요
 
 **우도행 배는 성산항과 종달항에서 떠나고, 건너는 데 10~15분쯤 걸려요.** 성산항 배는 천진항이나 하우목동항에 닿아요. 표는 예약 없이 터미널 매표소에서 사고, 신분증을 가져가세요.
@@ -101,6 +103,8 @@ stops:
 {{< figure src="images/photos/jeju-east-05.webp" alt="해 질 녘 해안 공원에서 본 성산일출봉" caption="해 질 녘 해안 공원의 돌담 너머로 솟은 성산일출봉. 사진: Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" >}}
 
 {{< collage "images/photos/jeju-east-02.webp|우도|제주영상문화산업진흥원, KOGL Type 1" "images/photos/jeju-east-05.webp|해안 공원에서 본 성산|Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" "images/photos/jeju-east-06.webp|성산일출봉|Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
+
+{{< figure src="images/photos/jejue-p13-02.webp" alt="검은 바위 해안과 파란 바다, 멀리 보이는 방파제" caption="11월 우도 막배는 성산항행이 오후 5시 전후예요. 막배 말고 그 전 배를 노리세요. 사진: Pexels" >}}
 
 ## 🛏️ 동쪽에서 어디에 묵을까요?
 

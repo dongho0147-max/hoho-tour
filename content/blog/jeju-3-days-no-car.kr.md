@@ -97,6 +97,8 @@ stops:
 
 {{< sticker kind="photo-spot" >}}
 
+{{< figure src="images/photos/jeju3-p13-01.webp" alt="빨간 등대가 있는 방파제와 뒤로 솟은 성산일출봉" caption="성산일출봉은 매달 첫째 월요일에 쉬어요. 2일차를 정하기 전에 휴관일과 날씨를 확인하세요. 사진: Pexels" >}}
+
 ## ⛰️ 3일차: 산 하나, 아니면 해안 걷기 하나
 
 3일차는 선택이에요. 하나만 고르세요. A안은 섬 한가운데 있는 한라산이에요. 제주시 시외버스터미널에서 240번 버스를 타면 약 35분 만에 어리목 입구에 닿고, 정류장에서 탐방로까지는 10분쯤 걸어요. 어리목 코스는 윗세오름까지 4.7km이고 편도 약 2시간이에요. 정상(백록담)까지는 가지 않지만, 숲과 높은 초원을 볼 수 있어요.
@@ -112,6 +114,8 @@ stops:
 {{< figure src="images/photos/jeju-03.webp" alt="제주 올레길을 표시하는 파란색과 주황색 리본" caption="제주 올레길을 표시하는 파란색과 주황색 리본. 사진: Unknown, CC BY-SA 3.0" >}}
 
 {{< collage "images/photos/jeju-03.webp|올레길 리본|Unknown, CC BY-SA 3.0" "images/photos/jeju-04.webp|함덕해수욕장|Hong Da Hyeon, CC0" "images/photos/jeju-06.webp|성읍민속마을|Seefooddiet, CC BY-SA 4.0" >}}
+
+{{< figure src="images/photos/jeju3-p13-02.webp" alt="난간 너머로 제주 시내와 바다를 내려다보는 두 사람의 뒷모습" caption="도착하기 전에 지도 앱에서 실시간 버스 도착 정보가 나오는지 확인하세요. 돌아오는 마지막 버스도 꼭 확인하세요. 사진: Pexels" >}}
 
 ## 🛏️ 어디에 묵을까요?
 
