@@ -185,3 +185,18 @@ other = "Breadcrumb"
 other = "Welcome to HOHO Tour"
 [browseAria]
 other = "Browse guides by place and theme"
+
+[legendAria]
+other = "Route legend"
+
+[legendAttraction]
+other = "Sights"
+
+[legendMarket]
+other = "Markets and food"
+
+[legendLodging]
+other = "Where to stay"
+
+[legendTransit]
+other = "Transit"

@@ -660,3 +660,22 @@ article table tbody tr:nth-child(even) td{background:var(--surface-soft)}
   .table-wrap>table:not(.is-stacked){min-width:560px}
   .table-wrap:has(>table:not(.is-stacked)){overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius-md)}
 }
+
+/* --- Stop types (2026-11-28): attraction (coral) | market (amber) | lodging (violet) | transit (sky) ---
+   Numbering and the route line use attraction + market only. Lodging and transit
+   stops get their own pin and list marker. Posts without a type stay coral. */
+.tour-legend{list-style:none;display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 8px;padding:0;font-size:13px;color:var(--text-secondary)}
+.tour-legend__item{display:inline-flex;align-items:center;gap:6px}
+.tour-legend__dot{width:12px;height:12px;border-radius:50%;background:var(--coral);box-shadow:0 0 0 2px #fff}
+.tour-legend__item--market .tour-legend__dot{background:#E8920C}
+.tour-legend__item--lodging .tour-legend__dot{background:#6D5BD0}
+.tour-legend__item--transit .tour-legend__dot{background:#2E9BD6}
+.tour-marker__badge--market{background:#E8920C}
+.tour-marker__badge--lodging{background:#6D5BD0;font-size:12px}
+.tour-marker__badge--transit{background:#2E9BD6;font-size:11px;letter-spacing:-.02em}
+.tour-marker__badge--wide{width:34px;border-radius:999px}
+.tour-marker__badge--cluster.tour-marker__badge--wide{width:auto}
+article ol.tour-summary__stops li.stop--lodging,article ol.tour-summary__stops li.stop--transit{counter-increment:none}
+.tour-summary__stops li.stop--market::before{background:#E8920C}
+.tour-summary__stops li.stop--lodging::before{content:"\1F6CF";background:#6D5BD0;font-size:14px}
+.tour-summary__stops li.stop--transit::before{content:attr(data-badge);background:#2E9BD6;font-size:11px;letter-spacing:-.02em;overflow:hidden}

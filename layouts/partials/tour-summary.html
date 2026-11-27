@@ -84,6 +84,14 @@
 {{ $mapID := printf "tour-map-%s" $slug }}
 <section class="tour-summary" aria-label="{{ i18n "routeSummaryAria" }}" data-reveal>
 <h2 class="tour-summary__title">{{ i18n "routeAtAGlance" }}</h2>
+{{ $hasLodging := false }}{{ $hasMarket := false }}{{ $hasTransit := false }}{{ $hasAttr := false }}
+{{ range $stops }}{{ $t := .type | default "attraction" }}{{ if eq $t "lodging" }}{{ $hasLodging = true }}{{ else if eq $t "market" }}{{ $hasMarket = true }}{{ else if eq $t "transit" }}{{ $hasTransit = true }}{{ else }}{{ $hasAttr = true }}{{ end }}{{ end }}
+{{ if or $hasLodging $hasMarket $hasTransit }}<ul class="tour-legend" aria-label="{{ i18n "legendAria" }}">
+{{ if $hasAttr }}<li class="tour-legend__item tour-legend__item--attraction"><span class="tour-legend__dot"></span>{{ i18n "legendAttraction" }}</li>{{ end }}
+{{ if $hasMarket }}<li class="tour-legend__item tour-legend__item--market"><span class="tour-legend__dot"></span>{{ i18n "legendMarket" }}</li>{{ end }}
+{{ if $hasLodging }}<li class="tour-legend__item tour-legend__item--lodging"><span class="tour-legend__dot"></span>{{ i18n "legendLodging" }}</li>{{ end }}
+{{ if $hasTransit }}<li class="tour-legend__item tour-legend__item--transit"><span class="tour-legend__dot"></span>{{ i18n "legendTransit" }}</li>{{ end }}
+</ul>{{ end }}
 <div class="tour-map-wrap">
 <div id="{{ $mapID }}" class="tour-map" role="application" aria-label="{{ i18n "interactiveMapAria" }}"></div>
 <figure class="map-figure tour-map__fallback" data-tour-map-fallback hidden>
@@ -100,7 +108,7 @@
 <button type="button" class="tour-map__enable" data-tour-map-enable hidden>{{ i18n "tapToExplore" }}</button>
 <p class="tour-summary__caption">{{ i18n "mapCaption" }}</p>
 <ol class="tour-summary__stops">
-{{ range $stops }}<li><strong>{{ if and $isKr (.name_ko) }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
+{{ range $stops }}{{ $t := .type | default "attraction" }}<li class="stop stop--{{ $t }}"{{ with .badge }} data-badge="{{ . }}"{{ end }}><strong>{{ if and $isKr (.name_ko) }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
 </ol>
 {{ $mapNote := $.Params.map_note }}
 {{ if $isKr }}{{ with index site.Data.kr_stops $slug }}{{ with .map_note_ko }}{{ $mapNote = . }}{{ end }}{{ end }}{{ end }}
@@ -194,7 +202,29 @@
     var VIEW_MARGIN = 12;       /* px a badge centre must stay inside the map */
 
     var latlngs = stops.map(function (s) { return L.latLng(s.lat, s.lng); });
-    var straightLine = L.polyline(latlngs, { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map);
+    /* Stop types: attraction (default) | market | lodging | transit. Only
+       attraction and market stops are numbered and joined by the route line.
+       Lodging and transit stops get their own coloured pin (transit: round
+       initials button from stop.badge) and stay off the line. */
+    var TYPES = { attraction: 1, market: 1, lodging: 1, transit: 1 };
+    stops.forEach(function (s) { if (!TYPES[s.type]) s.type = "attraction"; });
+    var numOf = {}, routeIdx = [];
+    stops.forEach(function (s, i) {
+      if (s.type === "attraction" || s.type === "market") { routeIdx.push(i); numOf[i] = routeIdx.length; }
+    });
+    var routeLLs = routeIdx.map(function (i) { return latlngs[i]; });
+    function badgeText(i) {
+      var s = stops[i];
+      if (s.type === "transit") return s.badge ? String(s.badge) : "T";
+      if (s.type === "lodging") return "\uD83D\uDECF";
+      return String(numOf[i]);
+    }
+    function badgeCls(s, label) {
+      var c = "tour-marker__badge tour-marker__badge--" + s.type;
+      if (s.type === "transit" && label.length > 2) c += " tour-marker__badge--wide";
+      return c;
+    }
+    var straightLine = L.polyline(routeLLs, { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map);
     /* Road-following legs (static/data/routes/<slug>.json, OSRM on OpenStreetMap data).
        Optional: 404 or bad JSON keeps the straight line above. */
     try {
@@ -202,8 +232,18 @@
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (d) {
           if (!d || !d.legs || !d.legs.length) return;
+          var seen = {};
+          function legKey(leg) {
+            var a = leg[0][0].toFixed(5) + "," + leg[0][1].toFixed(5);
+            var b = leg[leg.length - 1][0].toFixed(5) + "," + leg[leg.length - 1][1].toFixed(5);
+            return (a < b ? a + "|" + b : b + "|" + a) + "|" + leg.length;
+          }
           d.legs.forEach(function (leg) {
-            if (leg && leg.length > 1) L.polyline(leg, { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map);
+            if (!leg || leg.length < 2) return;
+            var k = legKey(leg);
+            if (seen[k]) return; /* return leg of an out-and-back: already on the map */
+            seen[k] = 1;
+            L.polyline(leg, { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map);
           });
           map.removeLayer(straightLine);
         })
@@ -302,23 +342,27 @@
       var g = groups[key];
       if (g.length === 1) {
         var si = g[0], s = stops[si];
+        var bw = (s.type === "transit" && badgeText(si).length > 2) ? 34 : BADGE_D;
         var mk = L.marker(latlngs[si], {
           pane: "tourBadgePane",
           icon: L.divIcon({ className: "tour-marker-wrap",
-            html: '<span class="tour-marker__badge">' + (si + 1) + '</span>',
-            iconSize: [BADGE_D, BADGE_D], iconAnchor: [BADGE_R, BADGE_R] })
+            html: '<span class="' + badgeCls(s, badgeText(si)) + '">' + badgeText(si) + '</span>',
+            iconSize: [bw, BADGE_D], iconAnchor: [bw / 2, BADGE_R] })
         }).addTo(map);
         mk.bindPopup("<strong>" + esc(labelName(s)) + "</strong>" + (s.note ? "<br>" + esc(s.note) : ""));
-        badgeRecs.push({ marker: mk, stopIdxs: g, cluster: false, halfW: BADGE_R });
+        badgeRecs.push({ marker: mk, stopIdxs: g, cluster: false, halfW: bw / 2 });
       } else {
         var mLat = 0, mLng = 0;
         g.forEach(function (ii) { mLat += stops[ii].lat; mLng += stops[ii].lng; });
         mLat /= g.length; mLng /= g.length;
-        var nums = g.map(function (ii) { return ii + 1; }).join("·");
+        var nums = g.map(function (ii) { return badgeText(ii); }).join("·");
+        var cType = stops[g[0]].type;
+        g.forEach(function (ii) { if (stops[ii].type !== cType) cType = "attraction"; });
+        var cCls = "tour-marker__badge tour-marker__badge--cluster tour-marker__badge--" + cType;
         var cmk = L.marker(L.latLng(mLat, mLng), {
           pane: "tourBadgePane",
           icon: L.divIcon({ className: "tour-marker-wrap",
-            html: '<span class="tour-marker__badge tour-marker__badge--cluster">' + nums + '</span>',
+            html: '<span class="' + cCls + '">' + nums + '</span>',
             iconSize: [48, BADGE_D], iconAnchor: [24, BADGE_R] })
         }).addTo(map);
         var html = g.map(function (ii) {
@@ -334,7 +378,7 @@
           var w = pill ? pill.offsetWidth : 48;
           rec.halfW = Math.max(11, Math.round(w / 2));
           cmk.setIcon(L.divIcon({ className: "tour-marker-wrap",
-            html: '<span class="tour-marker__badge tour-marker__badge--cluster">' + nums + '</span>',
+            html: '<span class="' + cCls + '">' + nums + '</span>',
             iconSize: [w, BADGE_D], iconAnchor: [w / 2, BADGE_R] }));
         }
       }
@@ -509,7 +553,7 @@
         var p = containerPt(rec.marker.getLatLng());
         return { x0: p.x - 13, y0: p.y - 13, x1: p.x + 13, y1: p.y + 13 };
       });
-      var routePts = latlngs.map(function (ll) { return containerPt(ll); });
+      var routePts = routeLLs.map(function (ll) { return containerPt(ll); });
       var routeSegs = [];
       for (var i = 0; i + 1 < routePts.length; i++) {
         routeSegs.push({ x0: routePts[i].x, y0: routePts[i].y, x1: routePts[i + 1].x, y1: routePts[i + 1].y });
