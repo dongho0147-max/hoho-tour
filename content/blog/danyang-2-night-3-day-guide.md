@@ -123,7 +123,7 @@ Gosu Cave is a registered Natural Monument (No. 256) and open every day of the y
 ### Mancheonha Skywalk (late morning to early afternoon)
 
 
-The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay 4,000 KRW, and youth, children, and seniors pay 3,000 KRW (official site). In winter it runs 09:00 to 17:00, tickets are sold on site until 16:30, and you reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline (30,000 KRW) and alpine coaster (18,000 KRW) cost extra.
+The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay 4,000 KRW, and youth, children, and seniors pay 3,000 KRW (official site). In winter it runs 09:00 to 17:00, on-site ticket sales close around 4 pm (sources differ slightly), so arrive before 3 pm, and you reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline (30,000 KRW) and alpine coaster (18,000 KRW) cost extra.
 
 
 {{< figure src="images/photos/danyang-blog-06-skywalk.jpg" alt="Mancheonha Skywalk over the Namhan River cliff" caption="Mancheonha Skywalk, above the Namhan River. Photo: Korea Tourism Organization, Shin Minseon, KOGL Type 1" >}}
