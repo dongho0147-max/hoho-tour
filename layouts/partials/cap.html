@@ -1,0 +1,4 @@
+{{/* Caption text with the photo credit moved to its own line. Pass the caption string. */}}
+{{ $s := . | htmlEscape }}
+{{ $s = replaceRE `\s+((?:사진|일러스트|Photo|Illustration):.*)$` `<span class="cap-credit">$1</span>` $s }}
+{{ $s | safeHTML }}
