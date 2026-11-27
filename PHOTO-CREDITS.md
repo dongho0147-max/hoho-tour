@@ -311,3 +311,7 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | danyang-v10-08.jpg | Danyang 8-stop route map on OpenStreetMap base | 1080x1350, 496 KB | OpenStreetMap contributors; Korea Tourism Content Lab (KOGL Type 1); Douglas Perkins (CC BY 4.0); hyun chun kim (CC0) | ODbL / KOGL Type 1 / CC BY 4.0 / CC0 | https://www.openstreetmap.org/copyright |
 | seoul-gwanghwamun-01.webp | Gwanghwamun Square and Gate, Seoul | 1600x1062 | Richard Mortel | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Gwanghwamun%20Square%2C%20Seoul%20%2826259210037%29.jpg |
 | seoul-ddp-01.webp | Dongdaemun Design Plaza curved facade, Seoul | 1600x1200 | Dwxn | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:20240601%20144028%20Dongdaemun%20Design%20Plaza%2C%20Seoul%2008.jpg |
+| danyang-garlic-01.jpg | Garlic piled along the street, Danyang (cropped to remove people) | 1400-1600 px | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Garlic_in_Danyang_01.jpg |
+| danyang-paragliders-01.jpg | Paragliders above Danyang hills | 1400-1600 px | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Paragliders_in_Danyang.jpg |
+| danyang-bridge-night-01.jpg | Danyang arched bridge lit at night | 1400-1600 px | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Danyang_Bridge_at_Night.jpg |
+| danyang-eup-01.jpg | Danyang-eup town along the Namhan River | 1400-1600 px | Trainholic | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Danyang-Eup.jpg |

@@ -85,6 +85,8 @@ The market and the river walk are on foot from the town center. For the rest, pl
 - **Weekends are busy.** Saturday afternoon is the peak at the skywalk and the market.
 
 
+{{< figure src="images/photos/danyang-eup-01.jpg" alt="Danyang-eup town stretched along the Namhan River" caption="To do the market and river walk on foot, stay in town. Photo: Trainholic, CC BY-SA 4.0" >}}
+
 ### 🛏️ Where should you stay?
 
 
@@ -132,6 +134,8 @@ Gugyeong Market is a permanent traditional market of about 120 shops, and garlic
 Skip filling up on one thing. Buy small, share, move on.
 
 
+{{< figure src="images/photos/danyang-garlic-01.jpg" alt="Garlic piled along the street at Gugyeong Market in Danyang" caption="Skip filling up on one thing. Buy small, share, move on. Photo: Douglas Perkins, CC BY 4.0" >}}
+
 ### Danyang River Jando at night
 
 
@@ -140,6 +144,8 @@ Jando is the cliffside wooden walkway along the river, about 1.1 km and free (pe
 
 {{< figure src="images/photos/danyang-blog-05-jando.jpg" alt="Danyang River Jando wooden walkway along the river cliff" caption="The walkway is flat and takes about an hour. Check evening lighting hours with Danyang County. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
 
+
+{{< figure src="images/photos/danyang-bridge-night-01.jpg" alt="Arched bridge lit at night over the Namhan River in Danyang" caption="Night lighting hours seem to vary by season, so check the Danyang County site first. Photo: Douglas Perkins, CC BY 4.0" >}}
 
 ## ⛰️ Day 2: How do you fit the cave, the skywalk, and the lights into one day?
 
@@ -174,13 +180,14 @@ Danyang is Korea's paragliding capital, with launch sites at Yangbangsan and Dus
 {{< aff href="https://www.klook.com/en-US/activity/104295-chunggbuk-danyang-paragliding-experience/" text="Book Danyang paragliding on Klook" >}}
 
 
+{{< figure src="images/photos/danyang-paragliders-01.jpg" alt="Paragliders gliding above the hills of Danyang" caption="Flights depend on wind, so book a day with slack and keep a backup plan. Photo: Douglas Perkins, CC BY 4.0" >}}
+
 ### Suyanggae Light Tunnel (evening)
 
 
 An old railway tunnel turned into a light show, with an LED garden outside. In winter (November to March) it opens at 14:00, closes at 21:50, and sells its last ticket at 21:00. Adults pay 9,000 KRW. It is closed on Tuesdays. Give it 30 to 40 minutes.
 
 
-{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="Suyanggae Light Tunnel LED garden at night" caption="The Light Tunnel is closed on Tuesdays and 30 to 40 minutes is enough. Photo: Suyanggae Light Tunnel" >}}
 
 
 

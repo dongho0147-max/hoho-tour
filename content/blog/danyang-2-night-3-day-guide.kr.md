@@ -74,6 +74,8 @@ stops:
 - **시장에서는 현금이 편해요.** 작은 가게는 현금을 선호해요. 소액 현금을 챙기세요.
 - **주말은 붐벼요.** 토요일 오후가 스카이워크와 시장의 피크예요.
 
+{{< figure src="images/photos/danyang-eup-01.jpg" alt="남한강을 따라 펼쳐진 단양읍 시내 전경" caption="시장과 강변 산책로를 걸어서 다니려면 단양읍 시내 숙소가 편해요. 사진: Trainholic, CC BY-SA 4.0" >}}
+
 ### 🛏️ 숙소는 어디가 좋을까
 
 **소노벨 단양**은 단양읍 안에 있는 대형 리조트 호텔이에요. 가격대가 무난하고 시설이 한곳에 모여 있어서 처음 묵기 편해요.
@@ -111,11 +113,15 @@ stops:
 
 한 가지로 배 채우지 말고 조금씩 사서 나눠 드세요.
 
+{{< figure src="images/photos/danyang-garlic-01.jpg" alt="구경시장 길가에 쌓아 놓은 단양 마늘" caption="한 가지로 배 채우지 말고 조금씩 사서 나눠 드세요. 사진: Douglas Perkins, CC BY 4.0" >}}
+
 ### 밤의 단양강 잔도
 
 **잔도는 절벽을 따라 놓인 나무 데크길이에요.** 길이 1.1km 안팎에 무료예요(단양군 안내). 해가 진 뒤 밤 11시까지 조명이 켜진다는 안내가 있지만 운영 시간은 계절에 따라 달라 보이니 가기 전에 단양군 누리집에서 확인하세요. 평탄해서 1시간 정도 걷기 좋아요.
 
 {{< figure src="images/photos/danyang-blog-05-jando.jpg" alt="단양강 절벽을 따라 놓인 잔도" caption="잔도는 평탄해서 1시간이면 돼요. 야간 조명 시간은 단양군 누리집에서 확인하세요. 사진: 한국관광공사, 김지호, KOGL 제1유형" >}}
+
+{{< figure src="images/photos/danyang-bridge-night-01.jpg" alt="남한강 위에서 밤에 불을 밝힌 단양의 아치 다리" caption="밤 조명 시간은 계절에 따라 달라 보여요. 가기 전에 단양군 누리집에서 확인하세요. 사진: Douglas Perkins, CC BY 4.0" >}}
 
 ## ⛰️ 2일 차: 동굴, 스카이워크, 빛터널을 하루에 다 볼 수 있을까요?
 
@@ -145,13 +151,14 @@ stops:
 
 {{< aff href="https://www.klook.com/ko/activity/104295-chunggbuk-danyang-paragliding-experience/" text="클룩에서 단양 패러글라이딩 예약하기" rel="sponsored noopener" >}}
 
+{{< figure src="images/photos/danyang-paragliders-01.jpg" alt="단양 산 위에서 활공하는 패러글라이더" caption="바람 때문에 못 뜨는 날이 있어요. 여유 있는 날에 예약하고 대안을 하나 준비하세요. 사진: Douglas Perkins, CC BY 4.0" >}}
+
 ### 수양개빛터널(저녁)
 
 **옛 철도 터널을 빛 쇼로 바꾼 곳이에요.** 겨울(11~3월)에는 14:00에 열어 21:50에 닫고, 매표는 21:00까지예요.
 
 **성인 9,000원이고 화요일은 쉬어요.** 30~40분이면 충분해요.
 
-{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="밤에 빛나는 수양개빛터널 LED 정원" caption="수양개빛터널은 화요일 휴무예요. 30~40분이면 충분해요. 사진: 수양개빛터널" >}}
 
 ## 🍲 3일 차: 단양의 마지막 한 끼는 뭘로 할까요?
 
