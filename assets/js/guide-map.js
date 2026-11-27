@@ -71,6 +71,7 @@
         if (el) el.setAttribute('aria-label', p.name + ' - ' + p.post);
       });
       m._gmRegion = p.region;
+      m._gmUrl = p.url;
       markers[p.id] = m;
       all.push(m);
     });
@@ -80,8 +81,11 @@
        faint route line per guide. Click a badge (or a region chip): the map
        zooms to that region, the badges go away, and the real pins and route
        lines of that region appear. The "All regions" control goes back. */
-    var current = '';
+    var current = '', sel = '';
     var BACK = mapEl.getAttribute('data-back-label') || 'All regions';
+    var ALLP = mapEl.getAttribute('data-all-posts-label') || 'Whole region';
+    var PTITLE = mapEl.getAttribute('data-posts-title') || 'Guides here';
+    var SLAB = mapEl.getAttribute('data-stops-label') || 'places';
     var OV = mapEl.getAttribute('data-overview-tpl') || '%d regions';
     var regions = {}, order = [];
     var posts = {};
@@ -89,7 +93,7 @@
       var r = regions[p.region];
       if (!r) { r = regions[p.region] = { slug: p.region, name: p.regionName, color: p.color, pts: [] }; order.push(r); }
       r.pts.push(p);
-      (posts[p.url] = posts[p.url] || { region: p.region, color: p.color, pts: [] }).pts.push(p);
+      (posts[p.url] = posts[p.url] || { url: p.url, title: p.post, region: p.region, color: p.color, pts: [] }).pts.push(p);
     });
     function median(a) { var b = a.slice().sort(function (x, y) { return x - y; }); return b[Math.floor(b.length / 2)]; }
     order.forEach(function (r) {
@@ -148,31 +152,44 @@
 
     function drawLines() {
       lineLayer.clearLayers();
-      Object.keys(posts).forEach(function (u) {
-        var po = posts[u];
-        if (current && po.region !== current) return;
-        if (po.pts.length < 2) return;
-        L.polyline(po.pts.map(function (p) { return [p.lat, p.lng]; }), {
-          color: po.color, weight: current ? 3 : 2.5, opacity: current ? 0.75 : 0.55,
-          dashArray: current ? null : '1 6', lineCap: 'round', interactive: false
-        }).addTo(lineLayer);
-      });
+      if (!current || !sel || !posts[sel]) return;
+      var po = posts[sel];
+      if (po.pts.length < 2) return;
+      L.polyline(po.pts.map(function (p) { return [p.lat, p.lng]; }), {
+        color: po.color, weight: 4, opacity: 0.85, lineCap: 'round', interactive: false
+      }).addTo(lineLayer);
     }
     function fit() {
-      var pts = current ? regions[current].pts : pins;
+      var pts = current ? (sel && posts[sel] ? posts[sel].pts : regions[current].pts) : pins;
       var b = L.latLngBounds(pts.map(function (p) { return [p.lat, p.lng]; }));
-      map.fitBounds(b, { padding: [36, 36], maxZoom: current ? 13 : 7, animate: !reduceMotion });
+      map.fitBounds(b, { padding: [36, 36], maxZoom: current ? (sel ? 15 : 13) : 7, animate: !reduceMotion });
     }
     function setStatus() {
       if (!statusEl) return;
       if (!current) { statusEl.textContent = OV.replace('%d', String(order.length)); return; }
       var tpl = statusEl.getAttribute('data-template') || '%d';
-      statusEl.textContent = tpl.replace('%d', String(regions[current].pts.length));
+      statusEl.textContent = tpl.replace('%d', String(sel && posts[sel] ? posts[sel].pts.length : regions[current].pts.length));
+    }
+    var panel = document.createElement('div');
+    panel.className = 'gm-panel';
+    panel.hidden = true;
+    mapEl.parentNode.insertBefore(panel, mapEl.nextSibling);
+    function renderPanel() {
+      if (!current) { panel.hidden = true; panel.innerHTML = ''; return; }
+      var list = Object.keys(posts).map(function (u) { return posts[u]; }).filter(function (po) { return po.region === current; });
+      var h = '<p class="gm-panel__title">' + esc(regions[current].name) + ' &middot; ' + esc(PTITLE) + '</p><ul class="gm-panel__list">';
+      h += '<li><button type="button" class="gm-card' + (!sel ? ' is-on' : '') + '" data-gm-post="" style="--pin:' + esc(regions[current].color) + '"><b>' + esc(ALLP) + '</b><span>' + regions[current].pts.length + ' ' + esc(SLAB) + '</span></button></li>';
+      list.forEach(function (po) {
+        h += '<li><button type="button" class="gm-card' + (sel === po.url ? ' is-on' : '') + '" data-gm-post="' + esc(po.url) + '" style="--pin:' + esc(po.color) + '"><b>' + esc(po.title) + '</b><span>' + po.pts.length + ' ' + esc(SLAB) + '</span></button></li>';
+      });
+      panel.innerHTML = h + '</ul>';
+      panel.hidden = false;
     }
     function apply() {
       drawLines();
+      renderPanel();
       all.forEach(function (m) {
-        var on = !!current && m._gmRegion === current;
+        var on = !!current && m._gmRegion === current && (!sel || m._gmUrl === sel);
         if (on && !map.hasLayer(m)) m.addTo(map);
         if (!on && map.hasLayer(m)) map.removeLayer(m);
       });
@@ -191,9 +208,17 @@
       fit();
       if (!current) { spread(); window.setTimeout(spread, 450); }
     }
-    function go(slug) { current = slug; map.closePopup(); apply(); }
+    function go(slug) { current = slug; sel = ''; map.closePopup(); apply(); }
 
     document.addEventListener('click', function (e) {
+      var c = e.target.closest && e.target.closest('[data-gm-post]');
+      if (c) {
+        sel = c.getAttribute('data-gm-post') || '';
+        map.closePopup();
+        apply();
+        mapEl.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'nearest' });
+        return;
+      }
       var f = e.target.closest && e.target.closest('[data-region-filter]');
       if (f) {
         go(f.getAttribute('data-region-filter') || '');
