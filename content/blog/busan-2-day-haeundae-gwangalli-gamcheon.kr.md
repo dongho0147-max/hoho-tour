@@ -8,31 +8,44 @@ regions: ["busan"]
 themes: ["itineraries", "food-restaurants", "nightlife"]
 stops:
   - name: "Haeundae Beach"
+    type: attraction
     lat: 35.15855
     lng: 129.16053
     note: "Day 1 morning; the main beach and promenade."
   - name: "Mipo Station, Haeundae Blueline Park"
+    type: attraction
     short: "Mipo Station"
     lat: 35.15817
     lng: 129.17283
     note: "Sky Capsule and Beach Train start here."
   - name: "Gwangalli Beach"
+    type: attraction
     lat: 35.15417
     lng: 129.12056
     note: "Day 1 evening; the bridge lights up over the bay."
   - name: "Gamcheon Culture Village"
+    type: attraction
     short: "Gamcheon Village"
     lat: 35.097
     lng: 129.009
     note: "Day 2 morning; hillside alleys and murals."
   - name: "Jagalchi Market"
+    type: market
     lat: 35.09667
     lng: 129.03
     note: "Day 2 lunch; the big seafood market by the harbor."
   - name: "BIFF Square"
+    type: market
     lat: 35.09876
     lng: 129.02898
     note: "Day 2 afternoon street food near Jagalchi."
+  - name: "Shilla Stay Haeundae"
+    type: lodging
+    name_ko: "신라스테이 해운대"
+    lat: 35.1597964
+    lng: 129.1587338
+    note: "해운대 해변 가까이. 이 코스의 거점으로 추천해요."
+    source: "https://www.shillahotels.com/ko/shillastay/haeundae/introduction/about.do"
 ---
 
 부산은 해안선을 기준으로 나누면 이틀이면 충분해요. 체크리스트를 채우려 하기보다, 첫째 날은 해운대와 동쪽 해변을 돌고 광안리에서 불 켜진 다리를 보며 마무리하세요. 둘째 날은 구도심이에요. 오전에는 감천, 점심에는 자갈치, 그다음에는 BIFF 광장에서 길거리 음식을 먹으면 돼요. 걷기와 지하철, 짧은 택시 한 번이면 다 소화할 수 있어요.

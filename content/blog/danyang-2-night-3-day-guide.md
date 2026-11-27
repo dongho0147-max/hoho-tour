@@ -8,35 +8,48 @@ regions: ["chungcheong"]
 themes: ["day-trips"]
 stops:
   - name: "Dodamsambong and Seokmun"
+    type: attraction
     name_ko: "도담삼봉과 석문"
     lat: 37.0001167
     lng: 128.3438889
     note: "Day 1 afternoon: three peaks in the Namhan River and the Seokmun arch."
   - name: "Danyang Gugyeong Market"
+    type: market
     name_ko: "단양구경시장"
     lat: 36.9828021
     lng: 128.3698925
     note: "Day 1: garlic snacks and the market."
   - name: "Danyanggang Jando"
+    type: attraction
     name_ko: "단양강 잔도"
     lat: 36.9780499
     lng: 128.3398232
     note: "Day 1 evening: the cliffside riverside walkway."
   - name: "Gosu Cave"
+    type: attraction
     name_ko: "고수동굴"
     lat: 36.9887326
     lng: 128.3816317
     note: "Day 2 morning: the limestone cave."
   - name: "Mancheonha Skywalk"
+    type: attraction
     name_ko: "만천하스카이워크"
     lat: 36.9804476
     lng: 128.3397335
     note: "Day 2 midday: the viewing platform over the river."
   - name: "Suyanggae Light Tunnel"
+    type: attraction
     name_ko: "수양개빛터널"
     lat: 36.9602399
     lng: 128.3323156
     note: "Day 2 evening: the old tunnel filled with light."
+  - name: "Danyang Tourist Hotel Edelweiss"
+    type: lodging
+    name_ko: "단양관광호텔 에델바이스"
+    lat: 36.9820051
+    lng: 128.3485704
+    note: "Danyang-eup, Sambong-ro 31. All 80 rooms face the Namhan River."
+    source: "https://www.danyang.go.kr/stay/danyanghotel"
 ---
 
 
@@ -74,7 +87,7 @@ The market and the river walk are on foot from the town center. For the rest, pl
 ### 🛏️ Where should you stay?
 
 
-Stay in Danyang-eup, the town center, so the market and river walk are on foot. **Sono Belle Danyang** is the popular resort-style option, and **Danyang Tourist Hotel Edelweiss** has 80 rooms, all with river views (per the hotel's official page). Prices move a lot by date, so compare live rates.
+Stay in Danyang-eup, the town center, so the market and river walk are on foot. **Danyang Tourist Hotel Edelweiss** has 80 rooms, all with river views (per the hotel's official page). Prices move a lot by date, so compare live rates.
 
 
 {{< aff href="https://www.agoda.com/en-au/city/danyang-gun-kr.html" text="Check Danyang hotels and live prices on Agoda" >}}

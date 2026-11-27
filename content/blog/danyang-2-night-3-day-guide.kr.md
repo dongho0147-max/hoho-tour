@@ -8,35 +8,48 @@ regions: ["chungcheong"]
 themes: ["day-trips"]
 stops:
   - name: "Dodamsambong and Seokmun"
+    type: attraction
     name_ko: "도담삼봉과 석문"
     lat: 37.0001167
     lng: 128.3438889
     note: "1일 차 오후, 남한강 위의 세 봉우리와 석문."
   - name: "Danyang Gugyeong Market"
+    type: market
     name_ko: "단양구경시장"
     lat: 36.9828021
     lng: 128.3698925
     note: "1일 차, 마늘 간식과 시장 구경."
   - name: "Danyanggang Jando"
+    type: attraction
     name_ko: "단양강 잔도"
     lat: 36.9780499
     lng: 128.3398232
     note: "1일 차 저녁, 강변 절벽 데크길 산책."
   - name: "Gosu Cave"
+    type: attraction
     name_ko: "고수동굴"
     lat: 36.9887326
     lng: 128.3816317
     note: "2일 차 오전, 석회 동굴 구경."
   - name: "Mancheonha Skywalk"
+    type: attraction
     name_ko: "만천하스카이워크"
     lat: 36.9804476
     lng: 128.3397335
     note: "2일 차 낮, 남한강 위 전망대."
   - name: "Suyanggae Light Tunnel"
+    type: attraction
     name_ko: "수양개빛터널"
     lat: 36.9602399
     lng: 128.3323156
     note: "2일 차 저녁, 빛으로 채운 옛 터널."
+  - name: "Danyang Tourist Hotel Edelweiss"
+    type: lodging
+    name_ko: "단양관광호텔 에델바이스"
+    lat: 36.9820051
+    lng: 128.3485704
+    note: "단양읍 삼봉로 31. 80실 전 객실이 남한강 전망이에요."
+    source: "https://www.danyang.go.kr/stay/danyanghotel"
 ---
 
 
@@ -74,7 +87,7 @@ stops:
 ### 🛏️ 숙소는 어디가 좋을까
 
 
-단양읍 시내에 묵으면 시장과 강변 산책로가 걸어서 가까워요. 강 전망 리조트형 호텔인 **소노벨 단양**이 인기가 많고, **단양관광호텔 에델바이스**는 80실 전 객실이 강 전망이에요(호텔 공식 소개). 가격은 날짜마다 크게 달라지니 실시간 요금을 비교하세요.
+단양읍 시내에 묵으면 시장과 강변 산책로가 걸어서 가까워요. **단양관광호텔 에델바이스**는 80실 전 객실이 강 전망이에요(호텔 공식 소개). 가격은 날짜마다 크게 달라지니 실시간 요금을 비교하세요.
 
 
 {{< aff href="https://www.agoda.com/ko-kr/city/danyang-gun-kr.html" text="아고다에서 단양 호텔과 실시간 가격 확인하기" rel="sponsored noopener" >}}
