@@ -4,7 +4,7 @@
    renders an interactive Leaflet map (self-hosted Leaflet 1.9.4 under
    static/vendor/leaflet/) plus a numbered timeline/spot list.
    - Tiles: /kr pages use tile.openstreetmap.org (Korean labels); every other
-     language uses Google Maps tiles (mt1.google.com/vt/lyrs=m&hl=en, English
+     language USED Google Maps tiles (replaced 2026-11-28 by OSM tiles for all languages; see the tileLayer below) (mt1.google.com/vt/lyrs=m&hl=en, English
      labels). CARTO Voyager returns an "API KEY REQUIRED" placeholder and
      Esri World Street Map returns a 2,521 B grey "Map data not yet
      available" placeholder for every Korean tile at z14+ (verified
@@ -145,47 +145,14 @@
   var landmarks = {{ $landmarksJSON | safeJS }};
   try {
     var map = L.map(mapEl, { scrollWheelZoom: false });
-    {{ if $isKr }}
+    /* Tiles: OpenStreetMap standard tiles for every language (no API key, no
+       unofficial endpoints). Attribution text follows the page language. */
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> 기여자',
+      attribution: {{ if $isKr }}'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> 기여자'{{ else }}'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'{{ end }},
       errorTileUrl: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='256'%3E%3Crect%20width='256'%20height='256'%20fill='%23dfe3e6'/%3E%3C/svg%3E"
     }).addTo(map);
-    /* BUILD_LOG 21: tileFallback must exist on KR pages too - the debug
-       hook below reads it unconditionally, and the EN branch is the only
-       place it was declared, so every KR post fell back to the static map
-       (ReferenceError, caught by the outer try/catch). */
     var tileFallback = false;
-    {{ else }}
-    /* Tiles (BUILD_LOG 18): Google English tiles (mt1.google.com,
-       lyrs=m&hl=en). Esri World Street Map returns a 2,521 B grey
-       "Map data not yet available" placeholder for every Korean tile at
-       z14+ (verified 2026-11-19: Jeonju/Seoul/Daejeon/Sokcho z15/z17 all
-       2,521 B), so the map was a grey board at the default zoom. Google
-       tiles at the same points are real map images (5.2-38.7 KB,
-       36-209 colours, z13-z19 all HTTP 200, English labels). mt1 is an
-       unofficial endpoint: if it is blocked, after 4 tile errors the
-       layer is swapped to OSM so no grey board is ever left on screen. */
-    var tileLayer = L.tileLayer("https://mt1.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}", {
-      maxZoom: 19,
-      attribution: '&copy; Google',
-      errorTileUrl: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='256'%3E%3Crect%20width='256'%20height='256'%20fill='%23dfe3e6'/%3E%3C/svg%3E"
-    }).addTo(map);
-    var tileErrs = 0, tileFallback = false;
-    tileLayer.on("tileerror", function () {
-      if (tileFallback) return;
-      if (++tileErrs >= 4) {
-        tileFallback = true;
-        if (mapEl._tourDebug) mapEl._tourDebug.tileFallback = true;
-        map.removeLayer(tileLayer);
-        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-          maxZoom: 19,
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-          errorTileUrl: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='256'%20height='256'%3E%3Crect%20width='256'%20height='256'%20fill='%23dfe3e6'/%3E%3C/svg%3E"
-        }).addTo(map);
-      }
-    });
-    {{ end }}
 
     /* Spec A: fixed pane order - route 400 (overlayPane) < landmark 610 <
        title 640 < badge 660 < popup 700 (popupPane). */
@@ -329,6 +296,7 @@
     var pts = latlngs.map(function (ll) { return containerPt(ll); });
     for (var i = 0; i < n; i++) {
       for (var j = i + 1; j < n; j++) {
+        if ((stops[i].type === "lodging" || stops[i].type === "transit" || stops[j].type === "lodging" || stops[j].type === "transit")) continue;
         if (Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y) < MIN_SEP) union(i, j);
       }
     }
@@ -343,11 +311,20 @@
       if (g.length === 1) {
         var si = g[0], s = stops[si];
         var bw = (s.type === "transit" && badgeText(si).length > 2) ? 34 : BADGE_D;
+        /* A lodging or transit pin that sits on top of another stop is nudged
+           16 px right and 18 px down (pixel offset, so it stays apart at any zoom). */
+        var crowded = false;
+        if (s.type === "lodging" || s.type === "transit") {
+          for (var oi = 0; oi < n; oi++) {
+            if (oi !== si && Math.hypot(pts[oi].x - pts[si].x, pts[oi].y - pts[si].y) < MIN_SEP) { crowded = true; break; }
+          }
+        }
+        var ax = bw / 2 - (crowded ? 16 : 0), ay = BADGE_R - (crowded ? 18 : 0);
         var mk = L.marker(latlngs[si], {
           pane: "tourBadgePane",
           icon: L.divIcon({ className: "tour-marker-wrap",
             html: '<span class="' + badgeCls(s, badgeText(si)) + '">' + badgeText(si) + '</span>',
-            iconSize: [bw, BADGE_D], iconAnchor: [bw / 2, BADGE_R] })
+            iconSize: [bw, BADGE_D], iconAnchor: [ax, ay] })
         }).addTo(map);
         mk.bindPopup("<strong>" + esc(labelName(s)) + "</strong>" + (s.note ? "<br>" + esc(s.note) : ""));
         badgeRecs.push({ marker: mk, stopIdxs: g, cluster: false, halfW: bw / 2 });
