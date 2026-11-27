@@ -46,7 +46,7 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/illust/old-illust.webp" alt="서울 노포: 설렁탕, 곰탕, 삼계탕, 바비큐" caption="오래된 가게 다섯 곳, 국물 네 그릇, 불판 하나. 일러스트: AI 생성" >}}
+{{< figure src="images/illust/old-illust.webp" alt="서울 노포: 설렁탕, 곰탕, 삼계탕, 바비큐" caption="노포는 가게마다 시간이 달라요. 가기 전에 영업시간을 확인하세요. 일러스트: AI 생성" >}}
 
 ## 🍜 서울에서 가장 오래된 식당 중 하나, 이문설농탕에서 시작하는 이유는?
 
@@ -74,7 +74,7 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 {{< sticker kind="pro-tip" >}}
 
-{{< figure src="images/photos/seoul-37.webp" alt="뚝배기에 담긴 인삼 닭 수프 삼계탕, 끓는 국물 속 통닭" caption="뚝배기에 담긴 삼계탕. 사진: karendotcom127, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-37.webp" alt="뚝배기에 담긴 인삼 닭 수프 삼계탕, 끓는 국물 속 통닭" caption="삼계탕 국물은 보이는 것보다 뜨거워요. 조심해서 드세요. 사진: karendotcom127, CC BY 2.0" >}}
 
 ## 🐔 궁궐 옆 삼계탕집은 어디일까요? 토속촌 삼계탕
 
@@ -82,7 +82,7 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 건물이 음식이 나오기 전에 이미 절반을 해 줘요. 낮은 기와지붕, 짙은 나무, 가운데 마당. 궁궐을 구경하고 들어오면 하루 전체가 느려져요.
 
-{{< figure src="images/photos/seoul-01.webp" alt="서울 경복궁 흥례문, 맑은 날 정면" caption="경복궁 흥례문. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-01.webp" alt="서울 경복궁 흥례문, 맑은 날 정면" caption="궁궐을 구경하고 들어가면 하루가 느려져요. 토속촌은 매일 10:00~22:00에 열어요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 삼계탕은 어린 닭에 인삼, 대추, 찹쌀 등을 넣고 푹 끓인 한국의 전통 보양식이에요(한국관광공사). 닭이 푹 익어 부서지고 국물이 보이는 것보다 뜨거우니 조심해서 드세요. 매일 **10:00~22:00**에 열어요.
 
@@ -96,15 +96,15 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 **왕비집은 모든 고기를 직원이 구워 주는 곳이에요(한국관광공사). 한우 갈빗살과 양념 갈비 같은 고기에 집중하고, 점심에는 갈비 정식을 먹을 수 있어요.** 본점은 명동에 있고, 직원이 테이블에서 고기를 구워 가위로 잘라 주기 때문에 집게를 잡아 본 적이 없어도 첫 바비큐로 쉬워요.
 
-{{< figure src="images/photos/seoul-06.webp" alt="밤의 서울 명동 남대문로, 택시와 버스가 지나가는 거리" caption="밤의 명동 남대문로. 사진: Tristan Surtel, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-06.webp" alt="밤의 서울 명동 남대문로, 택시와 버스가 지나가는 거리" caption="왕비집은 직원이 고기를 구워 줘요. 2층이라 계단이 가파르니 조심하세요. 사진: Tristan Surtel, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/seoul-43.webp" alt="이글거리는 숯불 위 석쇠에서 구워지는 한우" caption="숯불 위에서 구워지는 한우. 사진: lazy fri13th, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-43.webp" alt="이글거리는 숯불 위 석쇠에서 구워지는 한우" caption="굽는 건 직원에게 맡기세요. 그게 요령의 전부예요. 사진: lazy fri13th, CC BY 2.0" >}}
 
 가격은 메뉴와 시간에 따라 달라서, 가기 전에 메뉴판을 확인하세요. 2층에 있는 가게라 계단이 가파르고, 피크 시간에는 홀이 시끄러울 수 있어요. 주말 저녁에는 한 명을 먼저 보내 자리를 잡거나 예약 방법을 미리 확인하세요.
 
 마무리로 된장찌개를 더하고, 굽는 건 직원에게 맡기세요. 그게 요령의 전부예요.
 
-{{< figure src="images/photos/seoul-34.webp" alt="불판 위 삼겹살 구이 조각과 김치" caption="불판 위 삼겹살. 사진: moso, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-34.webp" alt="불판 위 삼겹살 구이 조각과 김치" caption="바비큐 마무리로 된장찌개를 더해 보세요. 가격은 가기 전에 메뉴판으로 확인하세요. 사진: moso, CC BY 2.0" >}}
 
 ## 🗺️ 이틀 일정 한눈에
 

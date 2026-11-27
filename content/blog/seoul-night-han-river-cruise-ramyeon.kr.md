@@ -42,7 +42,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/han-03.webp" alt="낮의 한강 위 성산대교" caption="한강 위 성산대교. 사진: travel oriented, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/han-03.webp" alt="낮의 한강 위 성산대교" caption="11월 말에도 크루즈는 다니고 다리에 불도 켜져요. 무지개 분수는 4~10월에만 가동해요. 사진: travel oriented, CC BY-SA 2.0" >}}
 
 ## 🚢 어떤 크루즈를 예약할까요?
 
@@ -60,7 +60,7 @@ stops:
 
 **크루즈는 11월에도 다니고 다리와 스카이라인에 불도 켜지지만, 무지개 물쇼는 따뜻한 계절의 것이에요.** 분수가 목적이라면 4월에서 10월 사이에 가세요. 11월 말에 간다면 크루즈, 불빛, 강바람을 보러 가고 분수는 기대하지 마세요.
 
-{{< figure src="images/photos/han-02.webp" alt="낮의 반포대교 무지개 분수" caption="4월부터 10월까지 가동하는 반포대교 무지개 분수. 사진: travel oriented, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/han-02.webp" alt="낮의 반포대교 무지개 분수" caption="무지개 분수는 4월부터 10월까지만 가동해요. 11월 말에는 기대하지 마세요. 사진: travel oriented, CC BY-SA 2.0" >}}
 
 ## 🌊 크루즈는 어떤 느낌일까요?
 
@@ -87,7 +87,7 @@ stops:
 
 조리 방법은 기계 화면 안내를 따르세요. 라면은 종류와 가격이 편의점마다 달라요. 강가에서 먹으면 마땅한 수준 이상으로 맛있고, 그게 핵심이에요.
 
-{{< figure src="images/photos/han-04.webp" alt="컵 인스턴트 라면 한 개" caption="한강의 클래식, 컵라면. 사진: The Pancake of Heaven!, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/han-04.webp" alt="컵 인스턴트 라면 한 개" caption="한강공원 편의점에서 컵라면을 먹어 보세요. 조리는 기계 화면 안내를 따르세요. 사진: The Pancake of Heaven!, CC BY-SA 4.0" >}}
 
 반포한강공원, 뚝섬한강공원, 여의도한강공원 모두 편의점이 있어서 라면 먹기 좋아요. 반포는 야경이 멋져서 해 질 녘에 먹기 좋아요.
 
@@ -105,7 +105,7 @@ stops:
 
 강 한가운데 있는 문화 섬이에요. 노들섬 공식 안내로 11월부터 2월까지는 화요일부터 일요일 **10:00~20:00**에 열고 월요일은 쉬어요. 야외 공간은 24시간 열려 있어요.
 
-{{< figure src="images/photos/seoul-42.webp" alt="해질녘 뚝섬한강공원, 한강과 불 켜진 스카이라인" caption="강 건너 불 켜진 스카이라인을 마주한 해질녘 뚝섬한강공원. 사진: Liziyuan0216, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-42.webp" alt="해질녘 뚝섬한강공원, 한강과 불 켜진 스카이라인" caption="뚝섬한강공원은 7호선 자양역 2번, 3번 출구가 가장 가까워요. 사진: Liziyuan0216, CC BY-SA 4.0" >}}
 
 > **🔥 현지 팁:** 뚝섬한강공원은 7호선 자양역 2번, 3번 출구로 나오면 공원과 바로 이어져요(서울시 한강공원 안내). 2호선 건대입구역에서 가는 길도 있지만 거리가 훨씬 멀어요.
 

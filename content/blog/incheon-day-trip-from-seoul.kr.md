@@ -40,7 +40,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/illust/incheon-illust.webp" alt="인천 당일치기 코스: 기차, 차이나타운, 공원, 해변 열차" caption="인천에서의 하루: 기차, 차이나타운, 공원, 바다. 일러스트: AI 생성" >}}
+{{< figure src="images/illust/incheon-illust.webp" alt="인천 당일치기 코스: 기차, 차이나타운, 공원, 해변 열차" caption="인천은 지하철 하나로 갈 수 있어요. 차이나타운, 자유공원, 월미도를 하루에 이어 보세요. 일러스트: AI 생성" >}}
 
 ## 🚇 어떻게 가나요? 지하철 하나면 돼요
 
@@ -66,7 +66,7 @@ stops:
 
 가격은 가게마다 달라요. 메뉴판을 보고 고르세요. 배가 고프면 탕수육도 한 접시 시켜 보세요.
 
-{{< figure src="images/photos/incheon-01.webp" alt="그릇에 담긴 짜장면" caption="인천 차이나타운에서 태어난 짜장면. 사진: Stegano, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/incheon-01.webp" alt="그릇에 담긴 짜장면" caption="짜장면 가격은 가게마다 달라요. 메뉴판을 보고 고르세요. 사진: Stegano, CC BY-SA 3.0" >}}
 
 특정 식당 한 곳을 추천하지는 않을게요. 유명한 오래된 식당은 가볼 만하고 주말에는 줄도 길어요. 하지만 골목마다 좋은 주방이 많아요.
 
@@ -80,7 +80,7 @@ stops:
 
 중국 간식을 파는 작은 가게들, 계단, 그리고 식당 뒤편의 조용한 골목들이에요. 차이나타운은 아담해서 천천히 걸어도 한두 시간이면 충분해요.
 
-{{< figure src="images/photos/seoul-27.webp" alt="쇼핑객으로 붐비는 인천 차이나타운 큰길, 붉은 상점가와 등롱" caption="춥지만 맑은 날의 차이나타운 큰길. 사진: AhmadElq, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-27.webp" alt="쇼핑객으로 붐비는 인천 차이나타운 큰길, 붉은 상점가와 등롱" caption="차이나타운은 아담해서 천천히 걸어도 한두 시간이면 충분해요. 사진: AhmadElq, CC BY-SA 4.0" >}}
 
 {{< figure src="images/photos/incheon-p13-01.webp" alt="붉은 등이 걸린 중국식 패루가 있는 거리" caption="점심은 줄 긴 집보다 현지인이 먹는 곳에서 드세요. 영어 메뉴가 없으면 벽의 사진을 가리키세요. 사진: Pexels" >}}
 
@@ -92,7 +92,7 @@ stops:
 
 역사가 박물관이 아니라 발밑 땅에 있는 몇 안 되는 곳이에요. 벤치에 앉아 10분만 아무것도 하지 마세요.
 
-{{< figure src="images/photos/seoul-28.webp" alt="자유공원에서 나무 너머로 크레인, 선박, 바다가 있는 항구를 내려다본 전망" caption="자유공원에서 본 항구, 아래의 부두와 그 너머 바다. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-28.webp" alt="자유공원에서 나무 너머로 크레인, 선박, 바다가 있는 항구를 내려다본 전망" caption="자유공원 벤치에 앉아 10분만 아무것도 하지 말고 항구를 바라보세요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 **공원 가까이에는 옛 사교 공간인 제물포구락부가 있어요(자유공원남로 25). 인천시 유형문화유산이고 무료예요.** 09:30~17:30에 열고 월요일은 쉬어요.
 
@@ -106,9 +106,9 @@ stops:
 
 거리와 이동 방법은 지도 앱에서 확인하세요. 여름에는 활기차고, 11월 말과 12월에 서해에서 바람이 불어오면 텅 비고 추워요. 전혀 다른 방식으로 아름다워요.
 
-{{< figure src="images/photos/seoul-29.webp" alt="월미도 바다 위 고가 선로를 달리는 파란색과 주황색 모노레일 월미 바다열차" caption="월미도에서 바다 위를 달리는 월미 바다열차. 사진: Trainholic, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-29.webp" alt="월미도 바다 위 고가 선로를 달리는 파란색과 주황색 모노레일 월미 바다열차" caption="월미 바다열차는 11~3월에 10:00~18:00 운행해요. 막차 시간을 먼저 확인하세요. 사진: Trainholic, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/seoul-09.webp" alt="주황색 서울 택시 정면" caption="차이나타운에서 월미까지 짧게 이동할 때 타는 주황색 택시. 사진: U2em, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/seoul-09.webp" alt="주황색 서울 택시 정면" caption="차이나타운에서 월미까지는 지도 앱으로 거리와 이동 방법을 확인하세요. 사진: U2em, CC BY-SA 3.0" >}}
 
 월미 바다열차는 월미도를 도는 6.1km 구간을 약 42분에 달리는 모노레일이에요(인천시 관광 안내). 월미바다열차 공식 안내로 비수기인 11월부터 3월까지는 **10:00~18:00**에 운행해요. 18시까지 운영하는 날 월미바다역 기준 막차는 **17:10~17:15**에 출발해요.
 

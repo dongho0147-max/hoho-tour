@@ -112,7 +112,7 @@ map_note: "용산역은 서울 출발점이라 지도에서 뺍니다. 지도는
 | 여유 있으면 | 무등산 증심사 코스, 서석대까지 편도 약 3시간 30분 |
 | 주의 | 월요일은 옛 도청과 문화전당 휴관 |
 
-{{< figure src="images/photos/gwangju-01.webp" alt="겨울 광주 도심 너머 무등산" caption="겨울 광주 도심 너머 무등산. 사진: Kgw1226, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gwangju-01.webp" alt="겨울 광주 도심 너머 무등산" caption="무등산 증심사 코스는 서석대까지 편도 약 3시간 30분이에요. 반나절을 따로 잡으세요. 사진: Kgw1226, CC BY-SA 4.0" >}}
 
 ## 🚄 광주 가는 길
 
@@ -132,7 +132,7 @@ map_note: "용산역은 서울 출발점이라 지도에서 뺍니다. 지도는
 
 가게마다 시간이 달라요. 구경은 무료예요.
 
-{{< figure src="images/photos/gwangju-02.webp" alt="광주송정역 건물" caption="광주송정역, 2015년 3월 촬영. 사진: Saigen Jiro, CC0" >}}
+{{< figure src="images/photos/gwangju-02.webp" alt="광주송정역 건물" caption="송정역에 내리면 1913송정역시장과 떡갈비 거리가 바로 가까워요. 첫 끼를 여기서 시작하세요. 사진: Saigen Jiro, CC0" >}}
 
 시장 뒤쪽에는 송정 떡갈비 거리가 있어요. 떡갈비는 광주 대표음식 7가지 가운데 하나예요. 떡갈비 가게가 모여 있고 가게마다 줄이 따로 서요.
 
@@ -176,9 +176,9 @@ map_note: "용산역은 서울 출발점이라 지도에서 뺍니다. 지도는
 
 **무등산은 광주 하늘 아래 늘 서 있는 산이에요.** 국립공원이고 유네스코 세계지질공원이에요.
 
-{{< figure src="images/photos/gwangju-05.webp" alt="무등산의 숲길, 나무 사이로 이어진 흙길" caption="무등산의 숲길. 사진: Korea.net, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/gwangju-05.webp" alt="무등산의 숲길, 나무 사이로 이어진 흙길" caption="무등산 증심사 코스는 6.8km, 편도 약 3시간 30분이에요. 반나절 따로 잡으세요. 사진: Korea.net, CC BY-SA 2.0" >}}
 
-{{< figure src="images/photos/gwangju-04.webp" alt="겨울 햇빛 아래 하천 너머로 보이는 광주 무등산" caption="시내에서 바라본 무등산. 사진: Kgw1226, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gwangju-04.webp" alt="겨울 햇빛 아래 하천 너머로 보이는 광주 무등산" caption="무등산은 시내에서도 보이지만 오르려면 반나절이 필요해요. 사진: Kgw1226, CC BY-SA 4.0" >}}
 
 증심사 코스는 입석대와 서석대에 오르는 대표 코스예요. 국립공원공단 안내로 6.8km이고 편도 약 3시간 30분이 걸려요. 반나절 따로 잡으세요.
 
@@ -190,7 +190,7 @@ map_note: "용산역은 서울 출발점이라 지도에서 뺍니다. 지도는
 
 그 가운데 떡갈비는 광주송정역 근처에서, 나머지는 도심 식당에서 찾기 쉬워요. 가게별 영업시간과 가격은 가기 전에 확인하세요.
 
-{{< figure src="images/photos/gwangju-03.webp" alt="송정 떡갈비 한 접시" caption="송정 떡갈비 한 접시. 사진: Minseong Kim, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gwangju-03.webp" alt="송정 떡갈비 한 접시" caption="떡갈비는 가게마다 줄이 따로 서요. 영업시간과 가격은 가기 전에 확인하세요. 사진: Minseong Kim, CC BY-SA 4.0" >}}
 
 계절 주의사항이 하나 있어요. 대인예술시장 야시장은 올해 시즌이 끝났어요. 다음 시즌을 기다리세요.
 

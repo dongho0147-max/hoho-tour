@@ -56,7 +56,7 @@ stops:
 
 2박 3일이 딱 맞아요. 첫날 저녁은 강변을 천천히 걷고, 둘째 날은 하루 종일 관광지를 돌고, 마지막 날은 제대로 된 한 끼를 먹고 돌아오면 돼요. 이 글은 운영시간이 까다로워지는 겨울과 환절기(11월~3월) 기준으로 썼어요.
 
-{{< figure src="images/photos/danyang-blog-01-dodam.jpg" alt="단양 남한강에 솟아 있는 도담삼봉" caption="남한강에 솟은 도담삼봉 세 봉우리. 사진: Ken Eckert, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/danyang-blog-01-dodam.jpg" alt="단양 남한강에 솟아 있는 도담삼봉" caption="11월~3월에는 운영시간이 까다로워져요. 가기 전에 꼭 확인하세요. 사진: Ken Eckert, CC BY-SA 4.0" >}}
 
 ## 🧳 출발 전 체크: 단양은 어떻게 갈까요?
 
@@ -98,7 +98,7 @@ stops:
 
 물 위에서 보고 싶다면 도담삼봉 유람선이 있어요. 11~12월에는 단축 운항이라 요금과 시간표는 도담삼봉유람선 공식 누리집(danyangcruise.co.kr)에서 확인하세요. 승선할 때 신분증이 필요할 수 있어요.
 
-{{< figure src="images/photos/danyang-blog-02-seokmun.jpg" alt="바위 사이로 남한강이 보이는 단양 석문" caption="석문, 바위 사이로 강이 액자처럼 보이는 곳. 사진: Steve46814, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/danyang-blog-02-seokmun.jpg" alt="바위 사이로 남한강이 보이는 단양 석문" caption="유람선은 11~12월 단축 운항이에요. 공식 누리집에서 시간표를 확인하세요. 사진: Steve46814, CC BY-SA 3.0" >}}
 
 ### 🧄 구경시장, 마늘 시장
 
@@ -115,7 +115,7 @@ stops:
 
 **잔도는 절벽을 따라 놓인 나무 데크길이에요.** 길이 1.1km 안팎에 무료예요(단양군 안내). 해가 진 뒤 밤 11시까지 조명이 켜진다는 안내가 있지만 운영 시간은 계절에 따라 달라 보이니 가기 전에 단양군 누리집에서 확인하세요. 평탄해서 1시간 정도 걷기 좋아요.
 
-{{< figure src="images/photos/danyang-blog-05-jando.jpg" alt="단양강 절벽을 따라 놓인 잔도" caption="단양강 잔도, 강변 절벽 산책로. 사진: 한국관광공사, 김지호, KOGL 제1유형" >}}
+{{< figure src="images/photos/danyang-blog-05-jando.jpg" alt="단양강 절벽을 따라 놓인 잔도" caption="잔도는 평탄해서 1시간이면 돼요. 야간 조명 시간은 단양군 누리집에서 확인하세요. 사진: 한국관광공사, 김지호, KOGL 제1유형" >}}
 
 ## ⛰️ 2일 차: 동굴, 스카이워크, 빛터널을 하루에 다 볼 수 있을까요?
 
@@ -127,7 +127,7 @@ stops:
 
 **성인 요금은 11,000원이에요(공식 누리집 정가, 온라인 할인은 따로 확인하세요). 안에서 1시간쯤 잡으세요.** 동굴 안은 일 년 내내 서늘하고 바닥이 젖은 구간이 있으니 미끄럼 방지 신발을 신으세요.
 
-{{< figure src="images/photos/danyang-blog-03-gosu.jpg" alt="고수동굴 내부의 석회암 지형" caption="고수동굴 내부. 사진: Steve46814, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/danyang-blog-03-gosu.jpg" alt="고수동굴 내부의 석회암 지형" caption="동굴 안은 바닥이 젖은 구간이 있어요. 미끄럼 방지 신발을 신으세요. 사진: Steve46814, CC BY-SA 3.0" >}}
 
 ### 만천하스카이워크(늦은 오전~이른 오후)
 
@@ -135,7 +135,7 @@ stops:
 
 전망대는 셔틀버스로만 올라가요. 매주 화요일은 정기 휴장이에요(화요일이 공휴일이면 정상 운영, 만천하 공식 FAQ). 짚와이어(**30,000원**)와 알파인코스터(**18,000원**)는 별도 요금이에요.
 
-{{< figure src="images/photos/danyang-blog-06-skywalk.jpg" alt="남한강 절벽 위 만천하스카이워크" caption="남한강 위 만천하스카이워크. 사진: 한국관광공사, 신민선, KOGL 제1유형" >}}
+{{< figure src="images/photos/danyang-blog-06-skywalk.jpg" alt="남한강 절벽 위 만천하스카이워크" caption="스카이워크는 셔틀버스로만 올라가고 화요일은 쉬어요. 사진: 한국관광공사, 신민선, KOGL 제1유형" >}}
 
 ### 패러글라이딩(선택, 날씨 따라)
 
@@ -151,7 +151,7 @@ stops:
 
 **성인 9,000원이고 화요일은 쉬어요.** 30~40분이면 충분해요.
 
-{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="밤에 빛나는 수양개빛터널 LED 정원" caption="수양개빛터널, 밤에 빛나는 LED 정원. 사진: 수양개빛터널" >}}
+{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="밤에 빛나는 수양개빛터널 LED 정원" caption="수양개빛터널은 화요일 휴무예요. 30~40분이면 충분해요. 사진: 수양개빛터널" >}}
 
 ## 🍲 3일 차: 단양의 마지막 한 끼는 뭘로 할까요?
 

@@ -68,7 +68,7 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 **이 글은 전주시와 한국관광공사 등 공식 안내를 바탕으로 2026년 11월에 정리했어요.** 열차 시간과 운영 시간은 바뀔 수 있으니 예매 전에 확인하세요.
 
-{{< figure src="images/photos/jeonju-01.webp" alt="나무가 있는 전주 경기전 건물들" caption="전주 경기전. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-01.webp" alt="나무가 있는 전주 경기전 건물들" caption="경기전 투어는 10:00과 11:00에 출발해요. 11:00 투어는 외국어로도 진행돼요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🚄 어떻게 가나요?
 
@@ -114,7 +114,7 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 줄이 길면 한두 골목 건너로 가세요. 마을에는 좋은 부엌이 가득하고, 현지 분들이 먹는 곳에서 먹는 게 가장 안전해요.
 
-{{< figure src="images/photos/seoul-35.webp" alt="당근, 버섯, 달걀, 고기, 고추장이 올라간 비빔밥 한 그릇" caption="전주가 유명한 그 그릇, 비빔밥. 사진: Chloe Lim, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-35.webp" alt="당근, 버섯, 달걀, 고기, 고추장이 올라간 비빔밥 한 그릇" caption="비빔밥집은 주말 점심에 줄이 길어요. 11시 정각이나 14시 이후가 덜 기다려요. 사진: Chloe Lim, CC BY 2.0" >}}
 
 > **🔥 현지 팁:** 이름난 비빔밥집은 주말 점심에 줄이 길어요. 11시 정각이나 14시 이후에 가면 덜 기다려요. 가격과 브레이크타임은 가게마다 다르니 방문 전에 확인하세요.
 
@@ -140,13 +140,13 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 빛이 더 좋고 거리가 더 한산해요. 대여 요금과 시간은 가게마다 달라요.
 
-{{< figure src="images/photos/jeonju-04.webp" alt="가게가 있는 전주 시내의 거리" caption="마을에서 조금만 걸으면 나오는 전주 시내. 사진: Shamus7792003, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-04.webp" alt="가게가 있는 전주 시내의 거리" caption="객리단길은 한옥마을에서 조금만 걸으면 나와요. 빛이 좋고 한산한 시간에 가세요. 사진: Shamus7792003, CC BY-SA 4.0" >}}
 
 ## 🌙 하룻밤 묵어야 할까요?
 
 **가능하다면 네.** 당일치기 손님이 떠나고 등이 켜지는 밤에는 마을이 달라져요. 마을 안에는 한옥 게스트하우스가 있고, 마당 있는 집의 온돌바닥에서 자는 것도 경험의 일부예요.
 
-{{< figure src="images/photos/jeonju-05.webp" alt="나무 테이블 위의 막걸리 한 사발" caption="사발에 담긴 막걸리: 해가 진 뒤 파전과 어울리는 한잔. 사진: jinho kim, CC0" >}}
+{{< figure src="images/photos/jeonju-05.webp" alt="나무 테이블 위의 막걸리 한 사발" caption="밤에는 마을이 달라져요. 가능하면 한옥 게스트하우스에서 하룻밤 묵어 보세요. 사진: jinho kim, CC0" >}}
 
 시장 가판과 막걸리까지 포함한 이 하루의 밤 버전이 [해 진 뒤의 전주 가이드](/kr/blog/jeonju-night-market-cafes/)예요. 그리고 시장 한 끼로 부족하다면 [서울의 옛 시장을 천천히 걷는 먹거리 산책](/kr/blog/seoul-market-food-walk/)이 서울에서의 같은 아이디어예요. 걷고, 가리키고, 먹고, 반복하세요.
 

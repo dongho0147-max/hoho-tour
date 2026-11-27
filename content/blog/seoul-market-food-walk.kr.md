@@ -31,7 +31,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/illust/market-illust.webp" alt="빈대떡과 김밥, 국수가 있는 시장 노점" caption="시장에서 먹을 빈대떡·김밥·국수. 삽화: AI 생성 이미지" >}}
+{{< figure src="images/illust/market-illust.webp" alt="빈대떡과 김밥, 국수가 있는 시장 노점" caption="시장에서는 현금을 챙기세요. 현금만 받는 가게가 아직 있어요. 삽화: AI 생성 이미지" >}}
 
 ## 🕘 언제 가고, 무엇을 챙기면 좋을까요?
 
@@ -47,7 +47,7 @@ stops:
 
 자꾸 손이 가서 이름 붙은 마약김밥을 곁들이고, 제대로 배가 고프다면 칼국수까지 드세요. 그러면 훌륭한 아침 한 상이 돼요.
 
-{{< figure src="images/photos/seoul-33.webp" alt="돼지고기가 들어간 빈대떡 한 장이 담긴 흰 접시" caption="광장시장의 대표 음식, 빈대떡. 사진: chomjong, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-33.webp" alt="돼지고기가 들어간 빈대떡 한 장이 담긴 흰 접시" caption="광장시장 빈대떡에는 마약김밥이나 칼국수를 곁들이면 든든한 아침 한 상이 돼요. 사진: chomjong, CC BY 2.0" >}}
 
 현금을 챙기세요. 카드 결제가 되는 가게가 늘고 있지만, 오래된 시장에서는 아직 현금만 받는 곳도 있어요.
 
@@ -65,11 +65,11 @@ stops:
 
 누군가의 평생 일이 담긴 자리예요. 점심을 사는 것 이상으로, 잠시 다른 사람의 삶 가까이에 서 보는 경험이에요.
 
-{{< figure src="images/photos/seoul-41.webp" alt="광장시장에서 철판에 빈대떡을 부치는 상인들" caption="광장시장에서 철판에 빈대떡을 부치는 상인들. 사진: Pfc. Bo Park, US Army, Public domain" >}}
+{{< figure src="images/photos/seoul-41.webp" alt="광장시장에서 철판에 빈대떡을 부치는 상인들" caption="시장은 먼저 구경하고 그다음 먹으세요. 누군가의 평생 일터라는 걸 기억하세요. 사진: Pfc. Bo Park, US Army, Public domain" >}}
 
 회를 좋아한다면 노량진수산시장은 별도의 오전 일정으로 가 볼 만해요. 그곳에서는 낙지도 눈길을 끌어요.
 
-{{< figure src="images/photos/seoul-14.webp" alt="노량진수산시장의 생낙지를 가까이에서" caption="노량진시장의 생낙지를 가까이에서. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-14.webp" alt="노량진수산시장의 생낙지를 가까이에서" caption="회를 좋아한다면 노량진수산시장은 별도의 오전 일정으로 가 보세요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 포목 구역도 둘러볼 만해요. 광장시장은 1905년에 문을 연 우리나라 최초의 상설시장이고, 직물과 포목을 파는 상인들이 중심이 되어 시작했다고 해요. 비단과 한복 원단이 늘어선 통로는 시장 속 또 다른 시장이에요.
 
@@ -93,7 +93,7 @@ stops:
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/seoul-21.webp" alt="가까이서 본 김밥" caption="가까이서 본 김밥. 먹기 전부터 색감이 입맛을 돋웁니다. 사진: CC BY-SA 4.0, 촬영자 미상" >}}
+{{< figure src="images/photos/seoul-21.webp" alt="가까이서 본 김밥" caption="바로 먹을 것과 포장할 것을 나눠 사세요. 김밥은 포장하기 좋아요. 사진: CC BY-SA 4.0, 촬영자 미상" >}}
 
 ## 🚶 시장 다음에는 어디로 갈까요?
 
@@ -109,7 +109,7 @@ stops:
 
 앉아서 따뜻한 것을 주문하고 발을 쉬게 해 주세요. 충분히 걸었어요.
 
-{{< figure src="images/photos/seoul-35.webp" alt="당근과 표고버섯, 애호박, 달걀 지단, 고기, 고추장을 올린 비빔밥" caption="시장 산책을 마치고 앉아서 먹는 비빔밥 한 그릇. 사진: Chloe Lim, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-35.webp" alt="당근과 표고버섯, 애호박, 달걀 지단, 고기, 고추장을 올린 비빔밥" caption="시장을 걷고 나면 앉아서 따뜻한 한 끼로 발을 쉬게 해 주세요. 사진: Chloe Lim, CC BY 2.0" >}}
 
 출발 전 알아 둘 팁도 있어요. 아침은 거르기보다 가볍게 드세요. 여러 음식을 맛볼 만큼 배가 고프되, 첫 노점에서 급하게 배를 채울 정도는 아닌 편이 좋아요.
 

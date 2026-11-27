@@ -40,7 +40,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/gyeongju-02.webp" alt="대릉원 고분군의 잔디 덮인 무덤들" caption="대릉원 고분군의 잔디 덮인 무덤들. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/gyeongju-02.webp" alt="대릉원 고분군의 잔디 덮인 무덤들" caption="대릉원은 약 한 시간을 잡고 천천히 걸으세요. 천마총은 별도 입장료가 있어요. 사진: Bernard Gagnon, CC0" >}}
 
 ## 🚄 경주에는 어떻게 갈까?
 
@@ -64,7 +64,7 @@ stops:
 
 **1.5~2시간을 잡으세요.** 입구의 돌다리, 마당의 두 석탑, 뒤쪽 연못이 천천히 볼 세 가지예요.
 
-{{< figure src="images/photos/gyeongju-01.webp" alt="불국사의 연못과 돌다리" caption="불국사의 연못과 돌다리. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-01.webp" alt="불국사의 연못과 돌다리" caption="불국사는 1.5~2시간을 잡으세요. 11~1월에는 17:00에 입장이 마감돼요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 입장은 무료예요. 개정된 문화재보호법에 따라 2023년 5월 4일부터 관람료를 받지 않아요. 입장 시간은 09:00부터이고, 11월부터 1월까지는 17:00에 입장이 마감돼요.
 
@@ -74,7 +74,7 @@ stops:
 
 **석굴암도 11월부터 1월까지는 17:00에 입장이 마감되니, 불국사를 보고 올라간다면 시간을 넉넉히 잡으세요.** 기상특보가 있으면 출입이 통제될 수 있어요.
 
-{{< figure src="images/photos/gyeongju-06.webp" alt="석굴암 수광전" caption="불국사 위쪽 석굴암의 수광전. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/gyeongju-06.webp" alt="석굴암 수광전" caption="석굴암도 11~1월에는 17:00에 입장이 마감돼요. 불국사를 본 뒤 올라간다면 시간을 넉넉히 잡으세요. 사진: Bernard Gagnon, CC0" >}}
 
 > **🔥 현지 팁:** 문을 여는 09:00에 맞춰 도착하세요. 개장 후 첫 한 시간이 빛이 가장 좋고 사람이 가장 적어요. 돌아올 때는 시내와 불국사를 오가는 10번과 11번 버스가 있어요. 배차 간격이 30분을 넘길 수 있으니 절을 나서기 전에 다음 출발 시간을 확인하세요.
 
@@ -86,7 +86,7 @@ stops:
 
 천마총은 안으로 들어가 볼 수 있는 고분이고, 그 안에서 나온 금관과 부장품을 볼 수 있어요. 천마총은 별도 입장료가 있어요(한국관광공사 안내 기준 성인 **3,000원**). 공원은 약 한 시간을 잡고 천천히 걸으세요. 봉분은 문 앞이 아니라 그 사이 길에서 볼 때 가장 좋아요.
 
-{{< figure src="images/photos/gyeongju-04.webp" alt="오래된 돌 관측소 첨성대" caption="오래된 돌 관측소 첨성대. 사진: Zsinj, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-04.webp" alt="오래된 돌 관측소 첨성대" caption="첨성대는 생각보다 작아요. 그 작은 크기도 매력이에요. 사진: Zsinj, CC BY-SA 4.0" >}}
 
 고분 바로 옆에는 현존하는 동양에서 가장 오래된 천문대로 알려진 첨성대가 서 있어요. 7세기의 돌탑이고 방문객들이 예상하는 것보다 작은데, 그것이 매력의 일부예요.
 
@@ -100,9 +100,9 @@ stops:
 
 치즈 동전 팬케이크와 소프트아이스크림도 있어요. 가격은 가게마다 다르니 간판을 먼저 확인하세요.
 
-{{< figure src="images/photos/gyeongju-05.webp" alt="경주 교촌 한옥마을의 한옥 골목" caption="경주 교촌마을. 사진: Seefooddiet, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-05.webp" alt="경주 교촌 한옥마을의 한옥 골목" caption="교촌마을은 정해진 관람 시간이 없어요. 체험장은 대부분 09:00~18:00에 운영해요. 사진: Seefooddiet, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/gyeongju-03.webp" alt="황리단길의 길거리 간식 십원빵" caption="황리단길의 길거리 간식 십원빵. 사진: Seefooddiet, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-03.webp" alt="황리단길의 길거리 간식 십원빵" caption="십원빵 가격은 가게마다 달라요. 간판을 먼저 확인하세요. 사진: Seefooddiet, CC BY-SA 4.0" >}}
 
 > **🔥 현지 팁:** 황남빵은 거리의 원조 가게에서 따뜻할 때 사세요. 얇은 피의 팥빵은 당일에 가장 맛있어요. 그다음 교촌한옥마을까지 걸어가 보세요. 교촌마을은 정해진 관람 시간이 없고, 마을 안 체험장은 대부분 09:00~18:00에 운영해요. 가까운 월정교는 09:00~22:00에 무료로 열고, 해가 진 뒤에는 조명이 켜져요.
 

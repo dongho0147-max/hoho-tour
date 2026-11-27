@@ -56,7 +56,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/busan-02.webp" alt="광안리 해변의 야간 축제 인파" caption="광안리 해변의 야간 축제 인파. 사진: Jiwoon Kim, CC0" >}}
+{{< figure src="images/photos/busan-02.webp" alt="광안리 해변의 야간 축제 인파" caption="광안리는 토요일 저녁 무료 드론 라이트 쇼가 열려요. 날씨에 따라 취소될 수 있으니 확인하고 가세요. 사진: Jiwoon Kim, CC0" >}}
 
 ## 🌊 첫째 날: 해운대 해변과 스카이캡슐
 
@@ -82,7 +82,7 @@ stops:
 
 **지하철이나 짧은 택시로 광안리 해변에 가서 저녁을 보내세요.** 해변이 만을 따라 둥글게 이어지고, 해가 지면 광안대교가 물 위에서 불을 밝혀요. 해변을 걷다가 2층 창가 자리가 있는 카페를 골라 야경을 보며 쉬어 가세요.
 
-{{< figure src="images/photos/busan-07.webp" alt="낮의 광안리 해변과 광안대교" caption="낮의 광안리 해변과 광안대교. 사진: Masterhatch, CC BY" >}}
+{{< figure src="images/photos/busan-07.webp" alt="낮의 광안리 해변과 광안대교" caption="해가 지면 광안대교에 불이 켜져요. 해 질 무렵에 맞춰 가세요. 사진: Masterhatch, CC BY" >}}
 
 > **🔥 현지 팁:** 첫째 날이 토요일이라면 무료 광안리 M 드론 라이트 쇼까지 보고 가세요. 매주 토요일 저녁, 한 회에 12분 정도예요. 10월부터 2월까지는 19:00와 21:00에 열려요. 티켓은 필요 없어요. 날씨에 따라 취소될 수 있으니 당일 공식 공지를 확인하세요.
 
@@ -100,13 +100,13 @@ stops:
 
 그 점을 기억하고 걸어 보세요. 사람이 사는 곳이고, 골목은 테마파크가 아니라 주민들의 길이에요.
 
-{{< figure src="images/photos/busan-03.webp" alt="해 질 녘 감천문화마을의 알록달록한 집들" caption="해 질 녘 감천문화마을의 알록달록한 집들. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-03.webp" alt="해 질 녘 감천문화마을의 알록달록한 집들" caption="골목은 주민들의 길이에요. 조용히 걷고 편한 신발을 신으세요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 편한 신발을 신으세요. 골목은 가파르고 계단은 고르지 않으며, 전망대까지 올라갔다 내려오는 코스는 꽤 걷는 길이에요. 어린 왕자 조형물과 대표 전망대는 사람이 몰리니까 먼저 보고, 그 뒤쪽의 한적한 골목을 돌아보세요.
 
 > **🔥 현지 팁:** 가능하면 평일 오전 일찍 도착하세요. 마을 안내센터에서 지도를 받아 코스를 따라 내려오면 사람이 분산돼요. 카드를 받지 않는 작은 가게도 있을 수 있으니 약간의 현금을 챙기세요.
 
-{{< figure src="images/photos/busan-05.webp" alt="구름 낀 가을날의 감천문화마을" caption="마을 버스 정류장에서 본, 구름 낀 가을날의 감천문화마을. 사진: RonanHoogmoed, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-05.webp" alt="구름 낀 가을날의 감천문화마을" caption="평일 오전 일찍 가면 사람이 덜 몰려요. 약간의 현금도 챙기세요. 사진: RonanHoogmoed, CC BY-SA 4.0" >}}
 
 ## 🍜 둘째 날 점심: 자갈치시장과 밀면
 
@@ -114,11 +114,11 @@ stops:
 
 **운영 시간은 05:00~22:00이고, 첫째·셋째 화요일은 쉬어요.** 회가 부담스럽다면 익힌 메뉴를 내는 식당도 있어요.
 
-{{< figure src="images/photos/busan-04.webp" alt="부산 자갈치시장" caption="부산 자갈치시장. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/busan-04.webp" alt="부산 자갈치시장" caption="자갈치시장은 05:00~22:00에 열고 첫째·셋째 화요일은 쉬어요. 사진: Bernard Gagnon, CC0" >}}
 
 좀 더 가볍게 먹고 싶다면 밀면을 드셔 보세요. 맑은 육수에 밀가루 면을 말아 내는 부산식 국수로, 부산식 냉면이라 할 만해요. 부산역 앞 초량밀면 같은 밀면집에서 달걀, 오이, 빨간 양념을 얹어 드세요.
 
-{{< figure src="images/photos/busan-06.webp" alt="스테인리스 그릇에 담긴 부산 밀면" caption="부산 밀면: 맑은 육수에 달걀과 오이를 올린 밀가루 면. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-06.webp" alt="스테인리스 그릇에 담긴 부산 밀면" caption="밀면은 맑은 육수에 말아 낸 부산식 국수예요. 달걀, 오이, 빨간 양념을 얹어 드세요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 {{< sticker kind="yum" >}}
 

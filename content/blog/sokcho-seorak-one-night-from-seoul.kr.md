@@ -76,7 +76,7 @@ landmarks:
 
 **이 글은 설악 케이블카, 국립공원공단, 속초시시설관리공단 등 공식 안내를 바탕으로 2026년 11월에 정리했어요.** 버스 시간과 케이블카 운행은 당일 기준으로 다시 확인하세요.
 
-{{< figure src="images/photos/sokcho-02.webp" alt="산 위 케이블에 매달린 설악산 케이블카" caption="설악산 케이블카. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/sokcho-02.webp" alt="산 위 케이블에 매달린 설악산 케이블카" caption="케이블카 운행은 당일 기준으로 다시 확인하세요. 사진: Bernard Gagnon, CC0" >}}
 
 ## 🚌 고속버스로 갈까, 투어를 이용할까?
 
@@ -124,13 +124,13 @@ landmarks:
 
 가격은 가게와 메뉴마다 달라요. 앉기 전에 메뉴와 가격을 확인하고, 마지막에 나오는 매운탕이 포함인지 별도인지 물어보세요. 속초에는 닭강정, 오징어순대 같은 먹거리도 있어요.
 
-{{< figure src="images/photos/sokcho-07.webp" alt="반찬과 함께 놓인 회 한 접시" caption="회와 반찬, 대포항이 중심으로 삼는 한 상. 사진: littlepepper, CC0" >}}
+{{< figure src="images/photos/sokcho-07.webp" alt="반찬과 함께 놓인 회 한 접시" caption="회를 먹기 전에 메뉴와 가격을 확인하고, 매운탕이 포함인지 물어보세요. 사진: littlepepper, CC0" >}}
 
 > **🔥 현지 팁:** 닭강정은 앉아서 먹는 음식이라기보다 들고 가는 음식이에요. 오후에 사서 호텔에서 드세요. 인기 가게는 주말에 줄이 길 수 있어요.
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/sokcho-05.webp" alt="배와 항구 건물이 있는 속초 대포항" caption="속초 대포항. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/sokcho-05.webp" alt="배와 항구 건물이 있는 속초 대포항" caption="대포항 가게는 가격이 달라요. 앉기 전에 메뉴와 가격을 확인하세요. 사진: Bernard Gagnon, CC0" >}}
 
 ## 🏖️ 아바이마을과 해변은 언제 가면 좋을까?
 
@@ -142,7 +142,7 @@ landmarks:
 
 기상에 따라 바뀔 수 있어요. 편도 요금은 대인 **500원**, 초등학생 **300원**이에요(속시시설관리공단 안내).
 
-{{< figure src="images/photos/sokcho-04.webp" alt="모래사장과 바다가 펼쳐진 속초해수욕장" caption="속초해수욕장. 사진: Dr. Thomas Liptak, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/sokcho-04.webp" alt="모래사장과 바다가 펼쳐진 속초해수욕장" caption="해수욕장은 기상에 따라 일정이 바뀔 수 있어요. 당일 상황을 확인하세요. 사진: Dr. Thomas Liptak, CC BY-SA 4.0" >}}
 
 ## 🚫 이런 경우라면 일정을 바꾸세요
 

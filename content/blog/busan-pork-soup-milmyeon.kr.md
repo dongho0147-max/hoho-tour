@@ -54,7 +54,7 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/illust/busan-illust.webp" alt="부산 국물 음식 비교: 뜨거운 국밥과 차가운 밀면" caption="온도가 다른 두 그릇: 뜨거운 국밥, 차가운 밀면. 일러스트: AI 생성" >}}
+{{< figure src="images/illust/busan-illust.webp" alt="부산 국물 음식 비교: 뜨거운 국밥과 차가운 밀면" caption="같은 부산 국물 음식이어도 국밥은 뜨겁게, 밀면은 차갑게 나와요. 일러스트: AI 생성" >}}
 
 ## 🍲 어디서 시작할까요? 서면의 송정삼대
 
@@ -74,9 +74,9 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 
 **해운대의 오래된 국밥집은 또 다른 매력이 있어요.** 해운대원조할매국밥은 돼지가 아니라 소고기국밥을 내고, 해운대역에서 걸어서 가까운 골목에 있어요. 근처에 이름이 비슷한 가게가 있으니 출발하기 전에 지도에서 한글 상호가 해운대원조할매국밥으로 나오는지 확인하세요.
 
-{{< figure src="images/photos/busan-01.webp" alt="해운대해수욕장, 넓은 백사장과 해변 산책로" caption="해운대해수욕장. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-01.webp" alt="해운대해수욕장, 넓은 백사장과 해변 산책로" caption="해운대원조할매국밥은 이름이 비슷한 가게가 있어요. 지도에서 한글 상호를 확인하세요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/busan-08.webp" alt="그릇에 담긴 소고기국밥, 소고기와 밥을 말아 낸 국" caption="소고기국밥: 소고기와 밥을 말아 낸 국, 해운대의 아침 한 그릇. 사진: Melsj, CC BY" >}}
+{{< figure src="images/photos/busan-08.webp" alt="그릇에 담긴 소고기국밥, 소고기와 밥을 말아 낸 국" caption="맑고 약간 매콤한 소고기국밥이라 해변 아침 산책 뒤에 먹기 좋아요. 사진: Melsj, CC BY" >}}
 
 국물은 맑고 약간 매콤하고 콩나물과 무가 들어가서, 서면의 뽀얀 돼지 국물보다 가볍게 느껴져요. 선지국밥도 있어요. 해변을 아침 산책한 뒤 먹기 좋은 한 끼이고, 점심 전에 돼지국밥이 무겁게 느껴진다면 시킬 만한 그릇이에요.
 
@@ -100,7 +100,7 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 
 {{< sticker kind="pro-tip" >}}
 
-{{< figure src="images/photos/seoul-38.webp" alt="스테인리스 그릇에 담긴 부산 밀면, 맑은 육수에 달걀, 빨간 양념, 오이를 올린 밀가루 면" caption="부산의 차가운 밀가루 면, 밀면. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-38.webp" alt="스테인리스 그릇에 담긴 부산 밀면, 맑은 육수에 달걀, 빨간 양념, 오이를 올린 밀가루 면" caption="밀면은 부산식 냉면이라 할 만한 차가운 면이에요. 첫 그릇으로 부담이 적어요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🏛️ 밀면은 어디서 시작됐을까요? 내호냉면
 
@@ -122,7 +122,7 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 
 **감천문화마을은 부산관광공사 기준으로 11월부터 2월까지 09:00~17:00에 운영하고 무료예요.** 해운대해수욕장은 백사장 길이가 1.5km예요(해운대구청).
 
-{{< figure src="images/photos/busan-04.webp" alt="부산 자갈치시장 풍경" caption="부산 자갈치시장. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/busan-04.webp" alt="부산 자갈치시장 풍경" caption="식당들이 서로 떨어져 있어요. 하루 일정은 욕심을 줄이세요. 사진: Bernard Gagnon, CC0" >}}
 
 {{< collage "images/photos/seoul-30.webp|해 질 녘 알록달록한 언덕 집들, 감천문화마을|Basile Morin, CC BY-SA 4.0" "images/photos/seoul-31.webp|산책로와 바다 앞 고층 건물이 있는 넓은 백사장, 해운대 해변|Mobius6, CC BY-SA 4.0" >}}
 
