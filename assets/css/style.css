@@ -515,3 +515,27 @@ html,body{overflow-x:clip}
   header.site,footer.site,.ad-slot,.home-map{display:none}
   body{background:#fff}
 }
+
+/* --- Tables (2026-11-27 mobile fix) -------------------------------------
+   Wide: normal table, scrolls sideways inside its wrapper if still too wide.
+   <=640px: each row becomes a labelled card (labels come from the header row,
+   added by the small script in baseof.html). Without JS the table simply
+   scrolls horizontally with readable minimum column widths. */
+article table{word-break:keep-all;overflow-wrap:break-word}
+article table th,article table td{min-width:7.5em;vertical-align:top;line-height:1.5}
+article table th:first-child,article table td:first-child{min-width:6em}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.2em 0}
+.table-wrap>table{display:table;width:100%;margin:0}
+@media (max-width:640px){
+  .table-wrap{overflow:visible}
+  .table-wrap>table.is-stacked,.table-wrap>table.is-stacked tbody{display:block;width:100%}
+  .table-wrap>table.is-stacked thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .table-wrap>table.is-stacked tr{display:block;margin:0 0 14px;border:1px solid var(--line);border-radius:var(--r-md);background:var(--paper);overflow:hidden}
+  .table-wrap>table.is-stacked td{display:grid;grid-template-columns:6.2em 1fr;gap:10px;min-width:0;width:auto;padding:9px 12px;border-bottom:1px solid var(--line-2);font-size:14.5px}
+  .table-wrap>table.is-stacked td:last-child{border-bottom:0}
+  .table-wrap>table.is-stacked td::before{content:attr(data-label);font-weight:700;color:var(--green);font-size:13px}
+  .table-wrap>table.is-stacked td:first-child{background:var(--green-soft);font-weight:700;color:var(--green-ink)}
+  .table-wrap>table.is-stacked td:first-child::before{color:var(--green-ink)}
+  .table-wrap>table:not(.is-stacked){min-width:560px}
+  .table-wrap:has(>table:not(.is-stacked)){overflow-x:auto}
+}
