@@ -191,6 +191,8 @@ An old railway tunnel turned into a light show, with an LED garden outside. In w
 
 
 
+{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="Suyanggae Light Tunnel LED garden at night" caption="The Light Tunnel is closed on Tuesdays and 30 to 40 minutes is enough. Photo: Suyanggae Light Tunnel" >}}
+
 ## 🍲 Day 3: What is the last meal in Danyang?
 
 
