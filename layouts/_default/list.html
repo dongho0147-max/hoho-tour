@@ -26,7 +26,7 @@
 {{ $themes := .GetTerms "themes" }}
 {{ if or $regions $themes }}
 <p class="term-chips" aria-label="{{ i18n "filedUnder" }}">
-{{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+{{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ partial "region-name.html" . }}</a>{{ end }}
 {{ range $themes }}{{ $t := index site.Data.themes .Data.Term }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if and (eq site.Language.Lang "kr") $t }}{{ $t.name_ko }}{{ else }}{{ .LinkTitle }}{{ end }}</a>{{ end }}
 </p>
 {{ end }}

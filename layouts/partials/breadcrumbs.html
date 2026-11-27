@@ -12,7 +12,7 @@
     {{ $rc := $r.country | default $country }}
     {{ $crumbs = $crumbs | append (dict "name" $rName "url" (printf "/%s/%s/" $rc $slug | relLangURL)) }}
   {{ else }}
-    {{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $crumbs = $crumbs | append (dict "name" .LinkTitle "url" .Permalink) }}{{ end }}
+    {{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $crumbs = $crumbs | append (dict "name" (partial "region-name.html" .) "url" .Permalink) }}{{ end }}
   {{ end }}
 {{ end }}
 {{ with .Params.themes }}

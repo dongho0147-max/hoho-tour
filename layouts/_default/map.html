@@ -34,7 +34,7 @@
     {{ $slug := "" }}{{ with $p.Params.regions }}{{ $slug = index . 0 | urlize }}{{ end }}
     {{ $rIndex := -1 }}{{ $rName := "" }}
     {{ range $i, $r := $regionsData }}{{ if eq $r.slug $slug }}{{ $rIndex = $i }}{{ $rName = cond $isKR $r.name_ko $r.name }}{{ end }}{{ end }}
-    {{ if not $rName }}{{ with $p.GetTerms "regions" }}{{ $rName = (index . 0).LinkTitle }}{{ else }}{{ $rName = $slug | humanize }}{{ end }}{{ end }}
+    {{ if not $rName }}{{ with $p.GetTerms "regions" }}{{ $rName = partial "region-name.html" (index . 0) }}{{ else }}{{ $rName = $slug | humanize }}{{ end }}{{ end }}
     {{ if $isKR }}{{ $koFallback := dict "chungcheong" "충청" }}{{ with index $koFallback $slug }}{{ if eq $rIndex -1 }}{{ $rName = . }}{{ end }}{{ end }}{{ end }}
     {{ $color := $neutral }}{{ if ge $rIndex 0 }}{{ $color = index $palette (mod $rIndex (len $palette)) }}{{ end }}
     {{ $thumb := "" }}

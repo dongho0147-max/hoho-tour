@@ -23,7 +23,7 @@
 {{ $label := "" }}
 {{ with $firstRegion }}
   {{ $r := index (where site.Data.regions.regions "slug" .) 0 }}
-  {{ if $r }}{{ $label = cond $isKR $r.name_ko $r.name }}{{ else }}{{ with $p.GetTerms "regions" }}{{ $label = (index . 0).LinkTitle }}{{ end }}{{ end }}
+  {{ if $r }}{{ $label = cond $isKR $r.name_ko $r.name }}{{ else }}{{ with $p.GetTerms "regions" }}{{ $label = partial "region-name.html" (index . 0) }}{{ end }}{{ end }}
 {{ end }}
 
 {{ $alt := $p.Params.image_alt | default $p.Title }}

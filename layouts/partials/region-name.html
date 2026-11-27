@@ -1,0 +1,5 @@
+{{/* Region term page in, display name out. Korean pages use data/region_names_ko.yaml when the term has an entry there. */}}
+{{ $slug := path.Base (strings.TrimSuffix "/" .RelPermalink) }}
+{{ $out := .LinkTitle }}
+{{ if eq site.Language.Lang "kr" }}{{ with index site.Data.region_names_ko $slug }}{{ $out = . }}{{ end }}{{ end }}
+{{- $out -}}

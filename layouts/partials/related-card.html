@@ -1,5 +1,5 @@
 {{ $p := . }}
 <li class="related-card"><a href="{{ .RelPermalink }}">
 <img src="{{ (.Params.image | default "images/banner/banner-seoul.webp") | relURL }}" alt="" width="160" height="107" loading="lazy">
-<span class="related-card__body">{{ with .GetTerms "regions" }}<span class="related-card__region">{{ (index . 0).LinkTitle }}</span>{{ end }}<span class="related-card__title">{{ .Title }}</span></span>
+<span class="related-card__body">{{ with .GetTerms "regions" }}<span class="related-card__region">{{ partial "region-name.html" (index . 0) }}</span>{{ end }}<span class="related-card__title">{{ .Title }}</span></span>
 </a></li>
