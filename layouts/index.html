@@ -21,20 +21,23 @@
 
 {{/* Phone/tablet quick nav (2026-11-28): the desktop menu is hidden behind the
    hamburger under 1080px, so the home page shows the same targets as a visible
-   block: a 3x2 category grid and a swipeable region row. Hidden on desktop. */}}
+   block: one swipeable category row; Regions opens the region chips below it. Hidden on desktop. */}}
 {{ $qTitle := cond $isKR "한눈에 보기" "Browse at a glance" }}
 <nav class="quick" aria-label="{{ $qTitle }}">
-<ul class="quick__grid">
-<li><a href="{{ "/regions/" | relLangURL }}">{{ i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}</a></li>
-<li><a href="{{ "/themes/food-restaurants/" | relLangURL }}">{{ i18n "food" }}</a></li>
-<li><a href="{{ "/themes/itineraries/" | relLangURL }}">{{ i18n "navItineraries" | default (cond $isKR "일정" "Itineraries") }}</a></li>
-<li><a href="{{ "/themes/transit-tips/" | relLangURL }}">{{ i18n "navTips" | default (cond $isKR "교통·팁" "Transport & Tips") }}</a></li>
-<li><a href="{{ "/map/" | relLangURL }}">{{ i18n "navMap" | default (cond $isKR "지도" "Map") }}</a></li>
-<li><a href="{{ "/blog/" | relLangURL }}">{{ i18n "navArchive" | default (cond $isKR "전체 글" "Archive") }}</a></li>
+<ul class="quick__cats">
+<li><button type="button" class="quick__cat is-on" id="quick-reg-btn" aria-expanded="true" aria-controls="quick-regs">{{ i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}<span aria-hidden="true"> &#9662;</span></button></li>
+<li><a class="quick__cat" href="{{ "/themes/food-restaurants/" | relLangURL }}">{{ i18n "food" }}</a></li>
+<li><a class="quick__cat" href="{{ "/themes/itineraries/" | relLangURL }}">{{ i18n "navItineraries" | default (cond $isKR "일정" "Itineraries") }}</a></li>
+<li><a class="quick__cat" href="{{ "/themes/transit-tips/" | relLangURL }}">{{ i18n "navTips" | default (cond $isKR "교통·팁" "Transport & Tips") }}</a></li>
+<li><a class="quick__cat" href="{{ "/map/" | relLangURL }}">{{ i18n "navMap" | default (cond $isKR "지도" "Map") }}</a></li>
+<li><a class="quick__cat" href="{{ "/blog/" | relLangURL }}">{{ i18n "navArchive" | default (cond $isKR "전체 글" "Archive") }}</a></li>
+<li><a class="quick__cat" href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a></li>
 </ul>
-<ul class="quick__regions">
+<ul class="quick__regions" id="quick-regs">
+<li><a href="{{ "/regions/" | relLangURL }}">{{ cond $isKR "전체 지역" "All regions" }}</a></li>
 {{ range site.Data.regions.regions }}{{ if eq .status "active" }}<li><a href="{{ printf "/korea/%s/" .slug | relLangURL }}">{{ cond $isKR .name_ko .name }}</a></li>{{ end }}{{ end }}
 </ul>
+<script>(function(){var b=document.getElementById('quick-reg-btn'),r=document.getElementById('quick-regs');if(!b||!r)return;b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));b.classList.toggle('is-on',!o);r.hidden=o;});})();</script>
 </nav>
 
 <section class="feature" aria-label="{{ $featuredLabel }}">
