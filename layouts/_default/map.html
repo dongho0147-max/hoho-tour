@@ -112,7 +112,9 @@
 <div id="guide-map" class="gm__map" role="region" aria-label="{{ $tAria }}" hidden
   data-tile-url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
   data-attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> {{ cond $isKR "기여자" "contributors" }}'
-  data-read-label="{{ $tRead }}"></div>
+  data-read-label="{{ $tRead }}"
+  data-back-label="{{ cond $isKR "전체 지역" "All regions" }}"
+  data-overview-tpl="{{ cond $isKR "지역 %d곳 · 눌러서 자세히 보기" "%d regions · tap one to zoom in" }}"></div>
 <p class="gm__credit">&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> {{ cond $isKR "기여자" "contributors" }} &middot; <a href="https://www.openstreetmap.org/fixthemap">{{ $tReport }}</a></p>
 
 <section class="gm__list" aria-labelledby="gm-list-title">

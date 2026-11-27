@@ -75,49 +75,135 @@
       all.push(m);
     });
 
+    /* ---- Region drill-down (2026-11-28) ----
+       Overview: one titled badge per region (name + number of places) and a
+       faint route line per guide. Click a badge (or a region chip): the map
+       zooms to that region, the badges go away, and the real pins and route
+       lines of that region appear. The "All regions" control goes back. */
     var current = '';
-    function visible() {
-      return all.filter(function (m) { return !current || m._gmRegion === current; });
+    var BACK = mapEl.getAttribute('data-back-label') || 'All regions';
+    var OV = mapEl.getAttribute('data-overview-tpl') || '%d regions';
+    var regions = {}, order = [];
+    var posts = {};
+    pins.forEach(function (p) {
+      var r = regions[p.region];
+      if (!r) { r = regions[p.region] = { slug: p.region, name: p.regionName, color: p.color, pts: [] }; order.push(r); }
+      r.pts.push(p);
+      (posts[p.url] = posts[p.url] || { region: p.region, color: p.color, pts: [] }).pts.push(p);
+    });
+    function median(a) { var b = a.slice().sort(function (x, y) { return x - y; }); return b[Math.floor(b.length / 2)]; }
+    order.forEach(function (r) {
+      r.center = [median(r.pts.map(function (p) { return p.lat; })), median(r.pts.map(function (p) { return p.lng; }))];
+    });
+    var lineLayer = L.layerGroup().addTo(map);
+    var badgeLayer = L.layerGroup().addTo(map);
+    var badges = [];
+    order.forEach(function (r) {
+      var icon = L.divIcon({
+        className: 'gm-region-icon',
+        html: '<span class="gm-region" style="--pin:' + esc(r.color) + '"><b>' + esc(r.name) + '</b><i>' + r.pts.length + '</i></span>',
+        iconSize: [0, 0]
+      });
+      var m = L.marker(r.center, { icon: icon, keyboard: true, title: r.name + ' (' + r.pts.length + ')', riseOnHover: true });
+      m.on('click', function () { go(r.slug); });
+      m.on('add', function () {
+        var el = m.getElement();
+        if (el) { el.setAttribute('role', 'button'); el.setAttribute('aria-label', r.name + ' (' + r.pts.length + ')'); }
+      });
+      m._base = L.latLng(r.center);
+      m._len = (r.name.length * 9 + 44);
+      m._n = r.pts.length;
+      badges.push(m);
+    });
+    /* Nudge overlapping badges (Seoul / Incheon / Suwon sit close together). */
+    function spread() {
+      var placed = [];
+      badges.slice().sort(function (a, b) { return b._n - a._n; }).forEach(function (m) {
+        var base = map.latLngToLayerPoint(m._base), dy = 0, tries = 0;
+        function hit(pt) {
+          return placed.some(function (q) { return Math.abs(q.x - pt.x) < (q.w + m._len) / 2 && Math.abs(q.y - pt.y) < 32; });
+        }
+        var pt = L.point(base.x, base.y);
+        while (hit(pt) && tries < 12) {
+          tries++;
+          dy = (tries % 2 ? 1 : -1) * Math.ceil(tries / 2) * 34;
+          pt = L.point(base.x, base.y + dy);
+        }
+        placed.push({ x: pt.x, y: pt.y, w: m._len });
+        m.setLatLng(map.layerPointToLatLng(pt));
+      });
+    }
+    map.on('zoomend', function () { if (!current) spread(); });
+
+    var back = L.control({ position: 'topright' });
+    back.onAdd = function () {
+      var b = L.DomUtil.create('button', 'gm-back');
+      b.type = 'button'; b.textContent = '\u2190 ' + BACK; b.hidden = true;
+      L.DomEvent.disableClickPropagation(b);
+      L.DomEvent.on(b, 'click', function () { go(''); });
+      return b;
+    };
+    back.addTo(map);
+    var backEl = back.getContainer();
+
+    function drawLines() {
+      lineLayer.clearLayers();
+      Object.keys(posts).forEach(function (u) {
+        var po = posts[u];
+        if (current && po.region !== current) return;
+        if (po.pts.length < 2) return;
+        L.polyline(po.pts.map(function (p) { return [p.lat, p.lng]; }), {
+          color: po.color, weight: current ? 3 : 2.5, opacity: current ? 0.75 : 0.55,
+          dashArray: current ? null : '1 6', lineCap: 'round', interactive: false
+        }).addTo(lineLayer);
+      });
     }
     function fit() {
-      var v = visible();
-      if (!v.length) return;
-      var b = L.latLngBounds(v.map(function (m) { return m.getLatLng(); }));
-      map.fitBounds(b, { padding: [28, 28], maxZoom: 13, animate: !reduceMotion });
+      var pts = current ? regions[current].pts : pins;
+      var b = L.latLngBounds(pts.map(function (p) { return [p.lat, p.lng]; }));
+      map.fitBounds(b, { padding: [36, 36], maxZoom: current ? 13 : 7, animate: !reduceMotion });
     }
     function setStatus() {
       if (!statusEl) return;
+      if (!current) { statusEl.textContent = OV.replace('%d', String(order.length)); return; }
       var tpl = statusEl.getAttribute('data-template') || '%d';
-      statusEl.textContent = tpl.replace('%d', String(visible().length));
+      statusEl.textContent = tpl.replace('%d', String(regions[current].pts.length));
     }
     function apply() {
+      drawLines();
       all.forEach(function (m) {
-        var on = !current || m._gmRegion === current;
+        var on = !!current && m._gmRegion === current;
         if (on && !map.hasLayer(m)) m.addTo(map);
         if (!on && map.hasLayer(m)) map.removeLayer(m);
       });
-
+      badgeLayer.clearLayers();
+      if (!current) { badges.forEach(function (m) { badgeLayer.addLayer(m); }); }
+      backEl.hidden = !current;
       var buttons = document.querySelectorAll('[data-region-filter]');
       Array.prototype.forEach.call(buttons, function (b) {
         b.setAttribute('aria-pressed', String(b.getAttribute('data-region-filter') === current));
       });
+      var groups = document.querySelectorAll('[data-gm-group]');
+      Array.prototype.forEach.call(groups, function (g) {
+        g.hidden = !!current && g.getAttribute('data-gm-group') !== current;
+      });
       setStatus();
       fit();
+      if (!current) { spread(); window.setTimeout(spread, 450); }
     }
+    function go(slug) { current = slug; map.closePopup(); apply(); }
 
     document.addEventListener('click', function (e) {
       var f = e.target.closest && e.target.closest('[data-region-filter]');
       if (f) {
-        current = f.getAttribute('data-region-filter') || '';
-        map.closePopup();
-        apply();
+        go(f.getAttribute('data-region-filter') || '');
         return;
       }
       var s = e.target.closest && e.target.closest('[data-pin]');
       if (s) {
         var m = markers[s.getAttribute('data-pin')];
         if (!m) return;
-        if (current && m._gmRegion !== current) { current = ''; apply(); }
+        if (current !== m._gmRegion) { go(m._gmRegion); }
         mapEl.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
         map.setView(m.getLatLng(), Math.max(map.getZoom(), 14), { animate: !reduceMotion });
         m.openPopup();
@@ -127,7 +213,7 @@
     apply();
     /* Leaflet measures the container on init; re-measure once layout settles
        (fonts, sticky header) so tiles never stay grey at the edges. */
-    window.setTimeout(function () { map.invalidateSize(); fit(); }, 200);
+    window.setTimeout(function () { map.invalidateSize(); fit(); if (!current) spread(); }, 200);
   } catch (err) {
 
     fail();

@@ -661,3 +661,16 @@ article ol.tour-summary__stops li.stop--lodging,article ol.tour-summary__stops l
 .tour-summary__stops li.stop--transit::before{content:attr(data-badge);background:#2E9BD6;font-size:11px;letter-spacing:-.02em;overflow:hidden}
 
 .foot-symbol{display:block;width:36px;height:36px;margin:2px 0 10px;opacity:.9}
+
+/* /map region drill-down */
+.gm-region-icon{background:none;border:0}
+.gm-region{position:absolute;left:0;top:0;transform:translate(-50%,-50%);display:inline-flex;align-items:center;gap:7px;white-space:nowrap;
+  min-height:30px;padding:0 6px 0 12px;border-radius:999px;background:#fff;border:2px solid var(--pin,#1F5B45);color:#17211C;
+  font:600 14px/1 var(--font-sans);box-shadow:0 2px 8px rgba(0,0,0,.22);cursor:pointer}
+.gm-region b{font-weight:700}
+.gm-region i{font-style:normal;min-width:20px;height:20px;padding:0 5px;border-radius:999px;background:var(--pin,#1F5B45);color:#fff;font-size:12px;display:inline-flex;align-items:center;justify-content:center}
+.gm-region-icon:focus-visible .gm-region,.gm-region:hover{box-shadow:0 0 0 3px rgba(31,91,69,.35),0 2px 8px rgba(0,0,0,.22)}
+.gm-back{min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:#fff;color:#17211C;font:600 14px/1 var(--font-sans);box-shadow:0 2px 8px rgba(0,0,0,.2);cursor:pointer}
+.gm-back[hidden]{display:none}
+.gm-region[hidden],[data-gm-group][hidden]{display:none}
+@media (max-width:480px){.gm-region{font-size:13px;min-height:28px}}
