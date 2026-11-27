@@ -96,8 +96,12 @@
       (posts[p.url] = posts[p.url] || { url: p.url, title: p.post, region: p.region, color: p.color, pts: [] }).pts.push(p);
     });
     function median(a) { var b = a.slice().sort(function (x, y) { return x - y; }); return b[Math.floor(b.length / 2)]; }
+    /* Real geographic anchors where the median of a region's stops is not where
+       people expect the badge (Daejeon city, and the middle of North/South
+       Chungcheong, kept clear of Daejeon). */
+    var ANCHOR = { daejeon: [36.3504, 127.3845], chungcheong: [36.78, 127.05] };
     order.forEach(function (r) {
-      r.center = [median(r.pts.map(function (p) { return p.lat; })), median(r.pts.map(function (p) { return p.lng; }))];
+      r.center = ANCHOR[r.slug] || [median(r.pts.map(function (p) { return p.lat; })), median(r.pts.map(function (p) { return p.lng; }))];
     });
     var lineLayer = L.layerGroup().addTo(map);
     var badgeLayer = L.layerGroup().addTo(map);

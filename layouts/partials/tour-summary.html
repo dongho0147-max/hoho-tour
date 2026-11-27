@@ -211,6 +211,7 @@
        segment is too short on screen to hold one. */
     var arrowLayer = L.layerGroup().addTo(map);
     function drawArrows() {
+      if (!map._loaded) return;
       arrowLayer.clearLayers();
       for (var i = 0; i < curves.length; i++) {
         var c = curves[i], h = c.length >> 1;
@@ -225,8 +226,8 @@
         }) }).addTo(arrowLayer);
       }
     }
-    map.on("zoomend moveend", drawArrows);
-    drawArrows();
+    map.on("load zoomend moveend", drawArrows);
+    if (map._loaded) drawArrows();
 
     /* ---- initial view: outlier exclusion + spacing zoom (spec C) ---- */
     function median(nums) {
