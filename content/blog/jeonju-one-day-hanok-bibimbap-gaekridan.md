@@ -97,6 +97,10 @@ Wear shoes you can walk in. The village is all on foot, the lanes are stone and 
 
 {{< sticker kind="photo-spot" >}}
 
+{{< figure src="images/photos/jeonju-cathedral-01.webp" alt="Red brick front of Jeondong Cathedral under a blue sky" caption="The cathedral front is one of the most photographed corners in the village, so stop on the main road. Photo: Mobius6, CC BY-SA 4.0" >}}
+
+{{< figure src="images/photos/jeonju-omokdae-01.webp" alt="Hanok Village rooftops and the city seen from inside the Omokdae pavilion" caption="Go up Omokdae in the late afternoon. The climb is short and the rooftop view is the best in town. Photo: Mobius6, CC BY-SA 4.0" >}}
+
 ## 🍚 What to order for lunch
 
 Bibimbap is the dish Jeonju is known for, and the city was named a UNESCO City of Gastronomy in 2012 largely on the strength of it. A proper Jeonju bibimbap comes in a brass bowl with rice, a dozen small toppings, raw beef, and a raw egg yolk, and it costs roughly 12,000-18,000 KRW at the well-known restaurants based on recent listings. The famous places have queues at lunch, so go early or go slightly off-peak. If the queue is an hour long, walk two streets over. The village is full of good kitchens, and the rule that has never failed anyone is to eat where the older locals are eating.
