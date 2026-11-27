@@ -1,58 +1,43 @@
 {{ define "main" }}
-{{/* Home: UI strings come from i18n (EN/KR). Guide cards are the EN guides:
-   on KR there are no translated posts yet, so the EN site's blog pages are
-   listed (internal links only - the KR home carries zero affiliate links). */}}
+{{/* Home (2026-11-27 redesign).
+   Order: hero -> map (the single region navigator, filters the cards below)
+   -> latest guides -> [ad slot] -> browse by theme -> trust/disclosure.
+   The "Browse by place" chip row and the header region strip are removed;
+   region hubs are linked from the footer.
+   KR falls back to the EN guide list when it has no posts of its own. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
 {{ $enSite := site }}{{ range $.Sites }}{{ if eq .Language.Lang "en" }}{{ $enSite = . }}{{ end }}{{ end }}
 {{ $pages := where .Site.RegularPages "Section" "blog" }}
 {{ if eq (len $pages) 0 }}{{ $pages = where $enSite.RegularPages "Section" "blog" }}{{ end }}
-{{ $country := site.Data.regions.country.slug | default "korea" }}
+
 <section class="hero" aria-label="{{ i18n "heroAria" }}">
-{{/* Responsive hero banner (2026-11-19 revamp): <picture> serves a portrait
-   banner on mobile and a landscape banner on desktop, each 1x/2x. The
-   container aspect-ratio always matches the served image, so cover crop is
-   ~0%. Images carry no text, logo, border or sign - all text is HTML. */}}
-<figure class="hero-photo">
-<picture>
-<source media="(max-width: 599px)" srcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x">
-<source media="(min-width: 600px)" srcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x">
-<img src="/images/banner/home-banner-desktop.webp" alt="{{ i18n "heroBannerAlt" }}" width="1920" height="820" loading="eager" fetchpriority="high">
-</picture>
-<div class="hero-overlay">
+<div class="hero__text">
 <p class="eyebrow">{{ i18n "heroEyebrow" | safeHTML }}</p>
-<h1>{{ i18n "heroTitle" | safeHTML }}</h1>
-<p class="lede">{{ i18n "heroLede" }}</p>
-<p class="cta">
+<h1 class="hero__title">{{ i18n "heroTitle" | safeHTML }}</h1>
+<p class="hero__lede">{{ i18n "heroLede" }}</p>
+<p class="cta hero__cta">
 <a class="btn btn-primary" href="{{ "/blog/seoul-essential-3-day-guide/" | relLangURL }}">{{ i18n "heroCtaPrimary" | safeHTML }}</a>
 <a class="btn btn-secondary" href="{{ "/blog/" | relLangURL }}">{{ i18n "heroCtaSecondary" }}</a>
 </p>
 </div>
+{{/* Same banner files and breakpoints as the baseof preloads (portrait <600px,
+   landscape >=600px). CSS crops to a fixed ratio per breakpoint; text is
+   never placed on top of the art. */}}
+<figure class="hero__media">
+<picture>
+<source media="(max-width: 599px)" srcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x">
+<source media="(min-width: 600px)" srcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x">
+<img src="/images/banner/home-banner-desktop.webp" alt="{{ i18n "heroBannerAlt" }}" width="1920" height="820" loading="eager" fetchpriority="high" decoding="async">
+</picture>
 </figure>
+
 </section>
+
 {{ partial "home-map.html" . }}
-<section class="browse" aria-label="{{ i18n "browseAria" }}">
-<div class="browse-block">
-<h2 data-reveal>{{ i18n "browsePlace" | safeHTML }}</h2>
-<div class="chip-row">
-{{ range first 8 site.Data.regions.regions }}
-{{ $rc := .country | default $country }}
-<a class="chip chip--region" href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a>
-{{ end }}
-<a class="chip chip--all" href="{{ "/regions/" | relLangURL }}">{{ i18n "allRegions" | safeHTML }}</a>
-</div>
-</div>
-<div class="browse-block">
-<h2 data-reveal>{{ i18n "browseTheme" | safeHTML }}</h2>
-<div class="chip-row">
-{{ range $slug := slice "itineraries" "food-restaurants" "day-trips" "transit-tips" "seasonal" "cafes" "nightlife" }}
-{{ with site.GetPage (printf "/themes/%s" $slug) }}{{ $t := index site.Data.themes $slug }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if eq site.Language.Lang "kr" }}{{ $t.name_ko }}{{ else }}{{ $t.name }}{{ end }}</a>{{ end }}
-{{ end }}
-<a class="chip chip--all" href="{{ "/themes/" | relLangURL }}">{{ i18n "allThemes" | safeHTML }}</a>
-</div>
-</div>
-</section>
-<section class="latest">
+
+<section class="latest" aria-labelledby="latest-guides-heading">
 <h2 data-reveal><span>{{ i18n "latestKicker" }}</span><b class="latest-title" id="latest-guides-heading">{{ i18n "latestGuides" }}</b></h2>
-<p class="intro" data-reveal>{{ i18n "latestIntro" }}</p>
+<p class="intro">{{ i18n "latestIntro" }}</p>
 <ul class="cards" id="latest-guides">
 {{ range $pages.ByDate.Reverse }}
 {{ partial "guide-card.html" . }}
@@ -60,7 +45,36 @@
 </ul>
 <p class="filter-empty" data-filter-empty hidden>{{ i18n "noGuidesFilter" }}</p>
 </section>
-<section class="trust"><div class="box" data-reveal>
+
+{{/* Ad slot: EN only (/kr stays ad-free), rendered only when params.adsense
+   has client + slot_home. During `hugo server` a labelled preview box shows
+   where the unit will sit. Label text is one of the two AdSense-approved ones. */}}
+{{ if not $isKR }}
+{{ $adClient := "" }}{{ $adSlot := "" }}
+{{ with site.Params.adsense }}{{ $adClient = .client }}{{ $adSlot = .slot_home }}{{ end }}
+{{ if and $adClient $adSlot }}
+<aside class="ad-slot" aria-label="Advertisements">
+<p class="ad-slot__label">Advertisements</p>
+<ins class="adsbygoogle" data-ad-client="{{ $adClient }}" data-ad-slot="{{ $adSlot }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) { /* ad blocked or not loaded */ }</script>
+</aside>
+{{ else if hugo.IsServer }}
+<aside class="ad-slot ad-slot--preview" aria-hidden="true"><p class="ad-slot__label">Advertisements</p><div class="ad-slot__box">Ad slot preview (home) - set params.adsense.slot_home</div></aside>
+{{ end }}
+{{ end }}
+
+
+<section class="browse" aria-label="{{ i18n "browseAria" }}">
+<h2>{{ i18n "browseTheme" | safeHTML }}</h2>
+<div class="chip-row">
+{{ range $slug := slice "itineraries" "food-restaurants" "day-trips" "transit-tips" "seasonal" "cafes" "nightlife" }}
+{{ with site.GetPage (printf "/themes/%s" $slug) }}{{ $t := index site.Data.themes $slug }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if $isKR }}{{ $t.name_ko }}{{ else }}{{ $t.name }}{{ end }}</a>{{ end }}
+{{ end }}
+<a class="chip chip--all" href="{{ "/themes/" | relLangURL }}">{{ i18n "allThemes" | safeHTML }}</a>
+</div>
+</section>
+
+<section class="trust"><div class="box">
 <h2>{{ i18n "trustTitle" }}</h2>
 <p>{{ i18n "trustBody" }}</p>
 <p class="disclosure"><strong>{{ i18n "affiliateDisclosureLabel" }}</strong> {{ i18n "affiliateDisclosure" }}</p>

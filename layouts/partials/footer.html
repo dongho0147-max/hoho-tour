@@ -1,13 +1,52 @@
+{{/* footer.html (2026-11-27 redesign): deep-green footer with link columns.
+   The region hub list lives here now (it used to be repeated in the header
+   strip, the home chips and the map list): one crawlable list of /korea/<slug>/
+   hubs on every page. Only regions with status "active" are listed; if none
+   are marked active, all are listed. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $country := site.Data.regions.country.slug | default "korea" }}
+{{ $hubs := where site.Data.regions.regions "status" "active" }}
+{{ if not $hubs }}{{ $hubs = site.Data.regions.regions }}{{ end }}
 <footer class="site"><div class="wrap">
-<p class="foot-brand">HOHO <em>Tour</em> - {{ i18n "footerTaglineShort" }}</p>
-<p><a href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a> &middot; <a href="{{ "/privacy/" | relLangURL }}">{{ i18n "privacy" }}</a> &middot; <a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a> &middot; <a href="{{ "/regions/" | relLangURL }}">{{ i18n "regions" }}</a> &middot; <a href="{{ "/themes/" | relLangURL }}">{{ i18n "themes" }}</a></p>
+<div class="foot-grid">
+<div class="foot-col foot-col--brand">
+<p class="foot-brand">HOHO <em>Tour</em></p>
+<p class="foot-tagline">{{ i18n "footerTaglineShort" }}</p>
+</div>
+<nav class="foot-col" aria-label="{{ i18n "guides" }}">
+<h2>{{ i18n "guides" }}</h2>
+<ul class="foot-links">
+<li><a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a></li>
+<li><a href="{{ "/regions/" | relLangURL }}">{{ i18n "regions" }}</a></li>
+<li><a href="{{ "/themes/" | relLangURL }}">{{ i18n "themes" }}</a></li>
+<li><a href="{{ "/themes/food-restaurants/" | relLangURL }}">{{ i18n "food" }}</a></li>
+</ul>
+</nav>
+<nav class="foot-col" aria-label="{{ i18n "regions" }}">
+<h2>{{ i18n "regions" }}</h2>
+<ul class="foot-links foot-links--regions">
+{{ range $hubs }}{{ $rc := .country | default $country }}<li><a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}">{{ if $isKR }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a></li>
+{{ end }}
+</ul>
+</nav>
+<nav class="foot-col" aria-label="HOHO Tour">
+
+<h2>HOHO Tour</h2>
+<ul class="foot-links">
+<li><a href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a></li>
+<li><a href="{{ "/privacy/" | relLangURL }}">{{ i18n "privacy" }}</a></li>
+</ul>
+</nav>
+</div>
+<div class="foot-bottom">
 <p class="foot-disclosure">{{ i18n "affiliateDisclosure" }}</p>
-<p>&copy; {{ now.Year }} HOHO Tour.</p>
 {{/* Visitor counter: filled in after page load from /api/visit (POST counts
-   one visit per visitor per day, GET only reads). The <p> starts hidden and
-   is shown only when the API answers with numbers, so a missing KV binding,
-   a failed fetch, or a local build never breaks the page or logs an error. */}}
+   one visit per visitor per day). Starts hidden; shown only when the API
+   answers with numbers, so a missing KV binding or a failed fetch never
+   breaks the page or logs an error. */}}
 <p class="foot-counter" id="visit-counter" hidden>{{ i18n "counterToday" }} <span id="visit-today">-</span> &middot; {{ i18n "counterTotal" }} <span id="visit-total">-</span></p>
+<p class="foot-copy">&copy; {{ now.Year }} HOHO Tour.</p>
+</div>
 </div></footer>
 <script>
 (function () {
@@ -22,11 +61,14 @@
     el.hidden = false;
   }
   function load() {
-    if (typeof fetch !== "function") return;
-    fetch("/api/visit", { method: "POST", credentials: "same-origin" })
-      .then(function (r) { if (!r.ok) throw new Error("counter off"); return r.json(); })
-      .then(function (d) { show(d.total, d.today); })
-      .catch(function () { /* counter stays hidden, page unaffected */ });
+    try {
+      if (typeof fetch !== "function") return;
+
+      fetch("/api/visit", { method: "POST", credentials: "same-origin" })
+        .then(function (r) { if (!r.ok) throw new Error("counter off"); return r.json(); })
+        .then(function (d) { show(d.total, d.today); })
+        .catch(function () { /* counter stays hidden, page unaffected */ });
+    } catch (e) { /* counter stays hidden */ }
   }
   if (document.readyState === "complete") load();
   else window.addEventListener("load", load);

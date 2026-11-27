@@ -1,25 +1,76 @@
 {{ define "main" }}
+{{/* single.html (2026-11-27 redesign): centred 720px reading column.
+   Head: breadcrumbs -> region label -> title -> date line -> hero photo.
+   Body: tour summary -> content -> optional FAQ (front matter `faq`) ->
+   [ad slot, EN only] -> tags -> related -> disclosure. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $label := "" }}
+{{ with .Params.regions }}
+  {{ $slug := index . 0 | urlize }}
+  {{ $r := index (where site.Data.regions.regions "slug" $slug) 0 }}
+  {{ if $r }}{{ $label = cond $isKR $r.name_ko $r.name }}{{ end }}
+{{ end }}
 <article>
+<header class="article-head">
 {{ partial "breadcrumbs.html" . }}
+{{ with $label }}<p class="card__label">{{ . }}</p>{{ end }}
 <h1>{{ .Title }}</h1>
-{{ if .Date }}<p class="meta">{{ if eq site.Language.Lang "kr" }}{{ .Date.Format "2006년 1월 2일" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}{{ with .Params.updated }} &middot; {{ i18n "dateUpdated" }} {{ . }}{{ end }} &middot; {{ i18n "minRead" .ReadingTime }}</p>{{ end }}
+{{ if .Date }}<p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ if $isKR }}{{ .Date.Format "2006년 1월 2일" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}</time>{{ with .Params.updated }} &middot; {{ i18n "dateUpdated" }} {{ . }}{{ end }} &middot; {{ i18n "minRead" .ReadingTime }}</p>{{ end }}
+</header>
 {{ with .Params.image }}
 {{ $alt := $.Params.image_alt | default $.Title }}
-{{ if eq site.Language.Lang "kr" }}{{ with index site.Data.kr_image_alt $.File.BaseFileName }}{{ $alt = . }}{{ end }}{{ end }}
+{{ if $isKR }}{{ with index site.Data.kr_image_alt $.File.BaseFileName }}{{ $alt = . }}{{ end }}{{ end }}
 {{ $credit := $.Params.image_credit | default $.Params.credit }}
 <figure class="hero-figure">
-<img src="{{ . | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager" fetchpriority="high">
+<img src="{{ . | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager" fetchpriority="high" decoding="async">
 {{ if or $alt $credit }}<figcaption>{{ $alt }}{{ with $credit }} &middot; {{ i18n "photoLabel" }} {{ . }}{{ end }}</figcaption>{{ end }}
 </figure>
 {{ end }}
 {{ partial "tour-summary.html" . }}
 {{ .Content }}
+
+{{/* FAQ: front matter
+
+     faq:
+       - q: "Question?"
+         a: "Answer (markdown allowed)."
+   Rendered visibly here; FAQPage JSON-LD is emitted from baseof.html. */}}
+{{ with .Params.faq }}
+{{ $faqTitle := i18n "faqTitle" }}{{ if not $faqTitle }}{{ $faqTitle = cond $isKR "자주 묻는 질문" "Frequently asked questions" }}{{ end }}
+<section class="faq" aria-labelledby="faq-title">
+<h2 id="faq-title">{{ $faqTitle }}</h2>
+{{ range . }}
+<div class="faq__item">
+<h3 class="faq__q">{{ .q }}</h3>
+<div class="faq__a">{{ .a | markdownify }}</div>
+</div>
+{{ end }}
+</section>
+{{ end }}
+
+{{/* In-article ad slot: after the content, away from navigation and CTAs.
+   EN blog posts only; needs params.adsense.client + slot_article. */}}
+{{ if and (not $isKR) (eq .Section "blog") }}
+{{ $adClient := "" }}{{ $adSlot := "" }}
+{{ with site.Params.adsense }}{{ $adClient = .client }}{{ $adSlot = .slot_article }}{{ end }}
+{{ if and $adClient $adSlot }}
+<aside class="ad-slot" aria-label="Advertisements">
+<p class="ad-slot__label">Advertisements</p>
+<ins class="adsbygoogle" data-ad-client="{{ $adClient }}" data-ad-slot="{{ $adSlot }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) { /* ad blocked or not loaded */ }</script>
+</aside>
+{{ else if hugo.IsServer }}
+<aside class="ad-slot ad-slot--preview" aria-hidden="true"><p class="ad-slot__label">Advertisements</p><div class="ad-slot__box">Ad slot preview (article) - set params.adsense.slot_article</div></aside>
+{{ end }}
+{{ end }}
+
+
 {{ $regions := .GetTerms "regions" }}
 {{ $themes := .GetTerms "themes" }}
 {{ if or $regions $themes }}
 <p class="term-chips" aria-label="{{ i18n "filedUnder" }}">
 {{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
-{{ range $themes }}{{ $t := index site.Data.themes .Data.Term }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if and (eq site.Language.Lang "kr") $t }}{{ $t.name_ko }}{{ else }}{{ .LinkTitle }}{{ end }}</a>{{ end }}
+{{ range $themes }}{{ $t := index site.Data.themes .Data.Term }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if and $isKR $t }}{{ $t.name_ko }}{{ else }}{{ .LinkTitle }}{{ end }}</a>{{ end }}
 </p>
 {{ end }}
 {{ partial "related-posts.html" . }}
