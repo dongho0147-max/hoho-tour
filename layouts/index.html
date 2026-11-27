@@ -19,6 +19,24 @@
 
 <h1 class="sr-only">{{ .Site.Title }} - {{ i18n "heroTitle" | plainify }}</h1>
 
+{{/* Phone/tablet quick nav (2026-11-28): the desktop menu is hidden behind the
+   hamburger under 1080px, so the home page shows the same targets as a visible
+   block: a 3x2 category grid and a swipeable region row. Hidden on desktop. */}}
+{{ $qTitle := cond $isKR "한눈에 보기" "Browse at a glance" }}
+<nav class="quick" aria-label="{{ $qTitle }}">
+<ul class="quick__grid">
+<li><a href="{{ "/regions/" | relLangURL }}">{{ i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}</a></li>
+<li><a href="{{ "/themes/food-restaurants/" | relLangURL }}">{{ i18n "food" }}</a></li>
+<li><a href="{{ "/themes/itineraries/" | relLangURL }}">{{ i18n "navItineraries" | default (cond $isKR "일정" "Itineraries") }}</a></li>
+<li><a href="{{ "/themes/transit-tips/" | relLangURL }}">{{ i18n "navTips" | default (cond $isKR "교통·팁" "Transport & Tips") }}</a></li>
+<li><a href="{{ "/map/" | relLangURL }}">{{ i18n "navMap" | default (cond $isKR "지도" "Map") }}</a></li>
+<li><a href="{{ "/blog/" | relLangURL }}">{{ i18n "navArchive" | default (cond $isKR "전체 글" "Archive") }}</a></li>
+</ul>
+<ul class="quick__regions">
+{{ range site.Data.regions.regions }}{{ if eq .status "active" }}<li><a href="{{ printf "/korea/%s/" .slug | relLangURL }}">{{ cond $isKR .name_ko .name }}</a></li>{{ end }}{{ end }}
+</ul>
+</nav>
+
 <section class="feature" aria-label="{{ $featuredLabel }}">
 <ul class="feature__grid">
 {{ range $i, $p := $featured }}{{ partial "guide-card.html" (dict "page" $p "variant" "feature" "eager" (eq $i 0)) }}{{ end }}

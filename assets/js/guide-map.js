@@ -141,7 +141,7 @@
         m.setLatLng(map.layerPointToLatLng(pt));
       });
     }
-    map.on('zoomend', function () { if (!current) spread(); });
+    map.on('zoomend moveend', function () { if (!current) spread(); });
 
     var back = L.control({ position: 'topright' });
     back.onAdd = function () {
@@ -190,7 +190,7 @@
     function fit() {
       var pts = current ? (sel && posts[sel] ? posts[sel].pts : regions[current].pts) : pins;
       var b = L.latLngBounds(pts.map(function (p) { return [p.lat, p.lng]; }));
-      map.fitBounds(b, { padding: [36, 36], maxZoom: current ? (sel ? 15 : 13) : 7, animate: !reduceMotion });
+      map.fitBounds(b, { padding: [36, 36], maxZoom: current ? (sel ? 15 : 13) : 7, animate: !reduceMotion && !!current });
     }
     function setStatus() {
       if (!statusEl) return;
@@ -235,7 +235,7 @@
       });
       setStatus();
       fit();
-      if (!current) { spread(); window.setTimeout(spread, 450); }
+      if (!current) { spread(); window.setTimeout(spread, 350); }
     }
     function go(slug) { current = slug; sel = ''; map.closePopup(); apply(); }
 
