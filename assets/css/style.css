@@ -466,7 +466,7 @@ article .tour-summary__title{font-size:20px;margin:0 0 12px}
 article ol.tour-summary__stops{list-style:none;counter-reset:stop;padding:0;margin:0 0 10px;position:relative}
 article ol.tour-summary__stops li{counter-increment:stop;position:relative;padding:0 0 12px 42px;margin:0;font-size:15px;line-height:1.5}
 .tour-summary__stops li::before{content:counter(stop);position:absolute;left:0;top:-1px;width:28px;height:28px;border-radius:50%;
-  background:var(--green);color:var(--on-accent);font-weight:600;font-size:13px;display:flex;align-items:center;justify-content:center;
+  background:var(--coral-ink);color:var(--on-accent);font-weight:600;font-size:13px;display:flex;align-items:center;justify-content:center;
   box-shadow:0 0 0 3px var(--paper)}
 .tour-summary__stops li:not(:last-child)::after{content:"";position:absolute;left:13px;top:27px;bottom:0;width:2px;
   background:repeating-linear-gradient(180deg,var(--cream-3) 0 4px,transparent 4px 8px)}
@@ -646,7 +646,7 @@ article code,article pre{overflow-wrap:anywhere;white-space:pre-wrap;max-width:1
 .tour-summary .tour-map .leaflet-tile{mix-blend-mode:plus-lighter}
 .tour-legend{list-style:none;display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 8px;padding:0;font-size:13px;color:var(--ink-3,#5A6B7C)}
 .tour-legend__item{display:inline-flex;align-items:center;gap:6px}
-.tour-legend__dot{width:12px;height:12px;border-radius:50%;background:var(--coral);box-shadow:0 0 0 2px #fff}
+.tour-legend__dot{width:12px;height:12px;border-radius:50%;background:var(--coral-ink);box-shadow:0 0 0 2px #fff}
 .tour-legend__item--market .tour-legend__dot{background:#E8920C}
 .tour-legend__item--lodging .tour-legend__dot{background:#6D5BD0}
 .tour-legend__item--transit .tour-legend__dot{background:#2E9BD6}
