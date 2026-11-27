@@ -2,8 +2,8 @@
 title: "현지인처럼 서울 다니기: 지하철, 티머니 카드, 그리고 택시를 타야 할 때"
 description: "서울 현지인이 솔직하게 알려 주는 지하철, 티머니 카드, 택시 가이드. 환승 통로는 어떻게 생겼는지, 요금은 얼마인지, 출퇴근 시간은 언제인지, 그리고 택시가 정답인 밤은 언제인지 정리했습니다."
 date: 2026-11-28
-image: "images/photos/seoul-metro-platform.webp"
-image_alt: "Commuters waiting and walking on a Seoul subway platform with screen doors"
+image: "images/photos/seoul-metro-car.webp"
+image_alt: "Commuters standing and sitting inside a Seoul Metro subway car"
 regions: ["seoul"]
 themes: ["transit-tips"]
 stops:
