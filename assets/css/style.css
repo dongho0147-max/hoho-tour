@@ -633,3 +633,30 @@ article ol.tour-summary__stops li{counter-increment:stop;position:relative;paddi
 }
 
 .tour-map .leaflet-tile{mix-blend-mode:plus-lighter}
+
+/* --- Tables (2026-11-28): one look for every post table -------------------
+   Desktop: tidy bordered table, left-aligned header and cells, header row tinted,
+   scrolls sideways inside .table-wrap if still too wide. <=640px: each row
+   becomes a labelled card (labels from the header row, added by the small script
+   in baseof.html). Without JS the table scrolls horizontally with readable
+   minimum column widths. */
+article table{border-collapse:separate;border-spacing:0;font-size:15px;word-break:keep-all;overflow-wrap:break-word}
+article table th,article table td{min-width:7.5em;padding:10px 12px;text-align:left;vertical-align:top;line-height:1.5;border-bottom:1px solid var(--border)}
+article table th:first-child,article table td:first-child{min-width:6em;font-weight:600}
+article table thead th,article table tr:first-child th{background:var(--sky-soft);color:var(--text-primary);font-weight:700;border-bottom:2px solid var(--sky)}
+article table tbody tr:nth-child(even) td{background:var(--surface-soft)}
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.2em 0;border:1px solid var(--border);border-radius:var(--radius-md)}
+.table-wrap>table{display:table;width:100%;margin:0}
+@media (max-width:640px){
+  .table-wrap{overflow:visible;border:0;border-radius:0}
+  .table-wrap>table.is-stacked,.table-wrap>table.is-stacked tbody{display:block;width:100%}
+  .table-wrap>table.is-stacked thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .table-wrap>table.is-stacked tr{display:block;margin:0 0 14px;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--surface);overflow:hidden}
+  .table-wrap>table.is-stacked td{display:grid;grid-template-columns:6.2em 1fr;gap:10px;min-width:0;width:auto;padding:9px 12px;border-bottom:1px solid var(--border-soft);font-size:14.5px;background:transparent!important}
+  .table-wrap>table.is-stacked td:last-child{border-bottom:0}
+  .table-wrap>table.is-stacked td::before{content:attr(data-label);font-weight:700;color:var(--sky-hover);font-size:13px}
+  .table-wrap>table.is-stacked td:first-child{background:var(--sky-soft)!important;font-weight:700}
+  .table-wrap>table.is-stacked td:first-child::before{color:var(--text-primary)}
+  .table-wrap>table:not(.is-stacked){min-width:560px}
+  .table-wrap:has(>table:not(.is-stacked)){overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius-md)}
+}
