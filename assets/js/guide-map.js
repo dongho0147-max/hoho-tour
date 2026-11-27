@@ -194,6 +194,7 @@
     }
     function fit() {
       var pts = current ? (sel && posts[sel] ? posts[sel].pts : regions[current].pts) : pins;
+      if (!current) { var kr = pts.filter(function (p) { return p.lng < 131.5 && p.lat > 32; }); if (kr.length) pts = kr; }
       var b = L.latLngBounds(pts.map(function (p) { return [p.lat, p.lng]; }));
       map.fitBounds(b, { padding: [36, 36], maxZoom: current ? (sel ? 15 : 13) : 7, animate: !reduceMotion && !!current });
     }
