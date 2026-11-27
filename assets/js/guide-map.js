@@ -135,7 +135,7 @@
       });
       cand.sort(function (a, b) { return Math.hypot(a[0] * 1.6, a[1]) - Math.hypot(b[0] * 1.6, b[1]); });
       badges.slice().sort(function (a, b) { return b._n - a._n; }).forEach(function (m) {
-        var base = map.latLngToLayerPoint(m._base);
+        var base = map.latLngToContainerPoint(m._base); var sz = map.getSize(); var half = m._len / 2 + 4; base = L.point(Math.min(Math.max(base.x, half + 44), sz.x - half - 4), base.y);
         var pt = base;
         for (var i = 0; i < cand.length; i++) {
           var t = L.point(base.x + cand[i][0] * (m._len * 0.55), base.y + cand[i][1] * 30);
@@ -143,7 +143,7 @@
           if (!bad) { pt = t; break; }
         }
         placed.push({ x: pt.x, y: pt.y, w: m._len });
-        m.setLatLng(map.layerPointToLatLng(pt));
+        m.setLatLng(map.containerPointToLatLng(pt));
       });
     }
     map.on('zoomend moveend', function () { if (!current) spread(); });
