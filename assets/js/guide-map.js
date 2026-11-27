@@ -150,14 +150,38 @@
     back.addTo(map);
     var backEl = back.getContainer();
 
+    function curvePts(a, b, n) {
+      var k = Math.cos((a.lat + b.lat) * Math.PI / 360);
+      var ax = a.lng * k, ay = a.lat, bx = b.lng * k, by = b.lat;
+      var dx = bx - ax, dy = by - ay;
+      var cx = (ax + bx) / 2 - dy * 0.16, cy = (ay + by) / 2 + dx * 0.16;
+      var out = [];
+      for (var i = 0; i <= n; i++) {
+        var t = i / n, u = 1 - t;
+        out.push(L.latLng(u * u * ay + 2 * u * t * cy + t * t * by, (u * u * ax + 2 * u * t * cx + t * t * bx) / k));
+      }
+      return out;
+    }
     function drawLines() {
       lineLayer.clearLayers();
       if (!current || !sel || !posts[sel]) return;
       var po = posts[sel];
       if (po.pts.length < 2) return;
-      L.polyline(po.pts.map(function (p) { return [p.lat, p.lng]; }), {
-        color: po.color, weight: 4, opacity: 0.85, lineCap: 'round', interactive: false
-      }).addTo(lineLayer);
+      var ll = po.pts.map(function (p) { return L.latLng(p.lat, p.lng); });
+      for (var i = 0; i + 1 < ll.length; i++) {
+        var c = curvePts(ll[i], ll[i + 1], 18), h = c.length >> 1;
+        L.polyline(c, { color: po.color, weight: 3, opacity: 0.85, lineCap: 'round', interactive: false }).addTo(lineLayer);
+        var p1 = map.latLngToContainerPoint(c[0]), p2 = map.latLngToContainerPoint(c[c.length - 1]);
+        var dx = p2.x - p1.x, dy = p2.y - p1.y;
+        if (Math.sqrt(dx * dx + dy * dy) < 54) continue;
+        var q1 = map.latLngToContainerPoint(c[h - 1]), q2 = map.latLngToContainerPoint(c[h + 1]);
+        var ang = Math.atan2(q2.y - q1.y, q2.x - q1.x) * 180 / Math.PI;
+        L.marker(c[h], {
+          interactive: false, keyboard: false, zIndexOffset: -500,
+          icon: L.divIcon({ className: 'gm-arrow', iconSize: [18, 18], iconAnchor: [9, 9],
+            html: '<svg viewBox="0 0 18 18" width="18" height="18" style="transform:rotate(' + ang.toFixed(1) + 'deg)" aria-hidden="true"><path d="M3 3l13 6-13 6 3-6z" fill="' + esc(po.color) + '" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg>' })
+        }).addTo(lineLayer);
+      }
     }
     function fit() {
       var pts = current ? (sel && posts[sel] ? posts[sel].pts : regions[current].pts) : pins;
@@ -185,6 +209,7 @@
       panel.innerHTML = h + '</ul>';
       panel.hidden = false;
     }
+    map.on('zoomend', function () { drawLines(); });
     function apply() {
       drawLines();
       renderPanel();

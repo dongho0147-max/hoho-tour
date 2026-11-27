@@ -688,3 +688,6 @@ article ol.tour-summary__stops li.stop--lodging,article ol.tour-summary__stops l
 .gm-card.is-on{background:var(--pin,#1F5B45);color:#fff;border-color:var(--pin,#1F5B45)}
 .gm-card.is-on span{color:rgba(255,255,255,.85)}
 @media (min-width:900px){.gm-panel__list{flex-wrap:wrap;overflow:visible}.gm-card{width:260px}}
+
+.tour-arrow,.gm-arrow{background:none;border:0;pointer-events:none}
+.tour-arrow svg,.gm-arrow svg{display:block;filter:drop-shadow(0 1px 1px rgba(0,0,0,.25))}
