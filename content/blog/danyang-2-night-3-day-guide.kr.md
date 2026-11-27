@@ -6,6 +6,37 @@ image: "images/photos/danyang-blog-06-skywalk.jpg"
 image_alt: "남한강 절벽 위 만천하스카이워크"
 regions: ["chungcheong"]
 themes: ["day-trips"]
+stops:
+  - name: "Dodamsambong and Seokmun"
+    name_ko: "도담삼봉과 석문"
+    lat: 37.0001167
+    lng: 128.3438889
+    note: "1일 차 오후, 남한강 위의 세 봉우리와 석문."
+  - name: "Danyang Gugyeong Market"
+    name_ko: "단양구경시장"
+    lat: 36.9828021
+    lng: 128.3698925
+    note: "1일 차, 마늘 간식과 시장 구경."
+  - name: "Danyanggang Jando"
+    name_ko: "단양강 잔도"
+    lat: 36.9780499
+    lng: 128.3398232
+    note: "1일 차 저녁, 강변 절벽 데크길 산책."
+  - name: "Gosu Cave"
+    name_ko: "고수동굴"
+    lat: 36.9887326
+    lng: 128.3816317
+    note: "2일 차 오전, 석회 동굴 구경."
+  - name: "Mancheonha Skywalk"
+    name_ko: "만천하스카이워크"
+    lat: 36.9804476
+    lng: 128.3397335
+    note: "2일 차 낮, 남한강 위 전망대."
+  - name: "Suyanggae Light Tunnel"
+    name_ko: "수양개빛터널"
+    lat: 36.9602399
+    lng: 128.3323156
+    note: "2일 차 저녁, 빛으로 채운 옛 터널."
 ---
 
 
@@ -16,20 +47,6 @@ themes: ["day-trips"]
 
 
 {{< figure src="images/photos/danyang-blog-01-dodam.jpg" alt="단양 남한강에 솟아 있는 도담삼봉" caption="남한강에 솟은 도담삼봉 세 봉우리. 사진: Ken Eckert, CC BY-SA 4.0" >}}
-
-
-## 🧭 3일 동선 한눈에 보기
-
-1. 도담삼봉과 석문 (1일 차 오후)
-2. 단양구경시장 (1일 차)
-3. 단양강 잔도 (1일 차 저녁)
-4. 고수동굴 (2일 차 오전)
-5. 만천하스카이워크 (2일 차 낮)
-6. 수양개빛터널 (2일 차 저녁)
-
-3일 차는 쏘가리 매운탕 한 끼와 강변 산책이라 지도에는 넣지 않았어요.
-
-{{< figure src="images/photos/route-map-danyang.jpg" alt="단양 2박 3일 동선 지도" caption="단양 2박 3일 동선 지도. 번호는 추천 방문 순서예요. 지도 기반: OpenStreetMap 기여자" >}}
 
 
 ## 🧳 출발 전 체크: 단양은 어떻게 갈까요?

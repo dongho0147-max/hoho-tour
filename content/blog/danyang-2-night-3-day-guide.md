@@ -6,6 +6,37 @@ image: "images/photos/danyang-blog-06-skywalk.jpg"
 image_alt: "Mancheonha Skywalk above the Namhan River in Danyang"
 regions: ["chungcheong"]
 themes: ["day-trips"]
+stops:
+  - name: "Dodamsambong and Seokmun"
+    name_ko: "도담삼봉과 석문"
+    lat: 37.0001167
+    lng: 128.3438889
+    note: "Day 1 afternoon: three peaks in the Namhan River and the Seokmun arch."
+  - name: "Danyang Gugyeong Market"
+    name_ko: "단양구경시장"
+    lat: 36.9828021
+    lng: 128.3698925
+    note: "Day 1: garlic snacks and the market."
+  - name: "Danyanggang Jando"
+    name_ko: "단양강 잔도"
+    lat: 36.9780499
+    lng: 128.3398232
+    note: "Day 1 evening: the cliffside riverside walkway."
+  - name: "Gosu Cave"
+    name_ko: "고수동굴"
+    lat: 36.9887326
+    lng: 128.3816317
+    note: "Day 2 morning: the limestone cave."
+  - name: "Mancheonha Skywalk"
+    name_ko: "만천하스카이워크"
+    lat: 36.9804476
+    lng: 128.3397335
+    note: "Day 2 midday: the viewing platform over the river."
+  - name: "Suyanggae Light Tunnel"
+    name_ko: "수양개빛터널"
+    lat: 36.9602399
+    lng: 128.3323156
+    note: "Day 2 evening: the old tunnel filled with light."
 ---
 
 
@@ -16,20 +47,6 @@ Two nights is the right length. You get a slow first evening on the river, one f
 
 
 {{< figure src="images/photos/danyang-blog-01-dodam.jpg" alt="Dodamsambong peaks rising from the Namhan River" caption="Dodamsambong, three peaks in the Namhan River. Photo: Ken Eckert, CC BY-SA 4.0" >}}
-
-
-## 🧭 The route at a glance
-
-1. Dodamsambong and Seokmun (day 1 afternoon)
-2. Danyang Gugyeong Market (day 1)
-3. Danyang River Jando walkway (day 1 evening)
-4. Gosu Cave (day 2 morning)
-5. Mancheonha Skywalk (day 2 midday)
-6. Suyanggae Light Tunnel (day 2 evening)
-
-Day 3 is one mandarin fish stew meal and a riverside walk, so it is not on the map.
-
-{{< figure src="images/photos/route-map-danyang.jpg" alt="Danyang 3-day route map" caption="Danyang 2-night 3-day route map. Numbers show the suggested order. Map data: OpenStreetMap contributors" >}}
 
 
 ## 🧳 Before you go: how do you get to Danyang?

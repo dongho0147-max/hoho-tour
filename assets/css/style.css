@@ -631,3 +631,5 @@ article ol.tour-summary__stops li{counter-increment:stop;position:relative;paddi
 @media(max-width:699px){
   .lang-toggle{margin-left:auto}
 }
+
+.tour-map .leaflet-tile{mix-blend-mode:plus-lighter}

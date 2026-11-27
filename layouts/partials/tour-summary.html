@@ -194,7 +194,21 @@
     var VIEW_MARGIN = 12;       /* px a badge centre must stay inside the map */
 
     var latlngs = stops.map(function (s) { return L.latLng(s.lat, s.lng); });
-    L.polyline(latlngs, { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map);
+    var straightLine = L.polyline(latlngs, { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map);
+    /* Road-following legs (static/data/routes/<slug>.json, OSRM on OpenStreetMap data).
+       Optional: 404 or bad JSON keeps the straight line above. */
+    try {
+      fetch({{ printf "data/routes/%s.json" (replaceRE "\\.kr$" "" $slug) | relURL | jsonify | safeJS }})
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+          if (!d || !d.legs || !d.legs.length) return;
+          d.legs.forEach(function (leg) {
+            if (leg && leg.length > 1) L.polyline(leg, { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map);
+          });
+          map.removeLayer(straightLine);
+        })
+        .catch(function () {});
+    } catch (e) {}
 
     /* ---- initial view: outlier exclusion + spacing zoom (spec C) ---- */
     function median(nums) {
