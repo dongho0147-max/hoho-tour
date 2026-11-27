@@ -708,9 +708,18 @@ article ol.tour-summary__stops li.stop--lodging,article ol.tour-summary__stops l
 
 @media (max-width:480px){.gm-region{min-height:24px;padding:0 4px 0 9px;gap:5px;font-size:12px;border-width:1.5px}.gm-region i{min-width:18px;height:18px;font-size:11px}}
 @media (max-width:1079px){
-  .quick__cats{display:flex;gap:8px;overflow-x:auto;margin:0 -20px 8px;padding:2px 20px 4px;list-style:none;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .quick__cats{display:flex;gap:0;overflow-x:auto;margin:0 -20px 2px;padding:0 12px;list-style:none;scrollbar-width:none;-webkit-overflow-scrolling:touch;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
   .quick__cats::-webkit-scrollbar{display:none}
-  .quick__cat{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);font:600 15px/1 var(--font-sans);white-space:nowrap;cursor:pointer;text-decoration:none}
-  .quick__cat.is-on{background:var(--green);border-color:var(--green);color:var(--on-accent)}
+  .quick__cat{flex:none;position:relative;display:inline-flex;align-items:center;min-height:50px;padding:0 13px;border:0;border-radius:0;background:none;color:var(--ink);font:500 12px/1 var(--font-sans);letter-spacing:.18em;text-transform:uppercase;white-space:nowrap;cursor:pointer;text-decoration:none}
+  html:lang(ko) .quick__cat{letter-spacing:.06em;font-size:13.5px}
+  .quick__cat.is-on{color:var(--green)}
+  .quick__cat.is-on::after{content:"";position:absolute;left:13px;right:13px;bottom:12px;height:1px;background:var(--coral)}
+  .quick__regions{gap:0;padding:0 12px 4px;margin-bottom:0}
+  .quick__regions a{min-height:40px;padding:0 11px;border:0;border-radius:0;background:none;color:var(--ink-2);font:400 13px/1 var(--font-sans);letter-spacing:.02em}
+  .quick__regions a:active{color:var(--green)}
   .quick__regions[hidden]{display:none}
 }
+
+/* Captions: small, credit on its own line (hero, in-body figures, KR and EN). */
+article figcaption,.hero-figure figcaption,.shortcode-figure figcaption{font-size:12px;line-height:1.5}
+figcaption .cap-credit{display:block;margin-top:2px;font-size:11px;color:var(--ink-3);opacity:.85}
