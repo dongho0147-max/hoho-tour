@@ -59,9 +59,9 @@ other = "가이드 읽기 &rarr;"
 [mapEyebrow]
 other = "지도로 찾기"
 [mapTitle]
-other = "지역을 누르면 아래에 가이드가 나와요"
+other = "어디로 갈까요? 지역을 골라 보세요"
 [mapHint]
-other = "지도나 칩을 누르면 이 페이지에서 바로 골라 볼 수 있어요."
+other = "지도나 칩에서 지역을 누르면 위쪽 가이드 목록이 그 지역으로 좁혀져요."
 [mapAll]
 other = "전체 지역"
 [mapHeadingAll]
@@ -202,3 +202,52 @@ other = "추천 숙소"
 
 [legendTransit]
 other = "대중교통"
+
+# --- 2026-11-28 마스트헤드 리디자인 + 가이드 지도 페이지 ---
+[navDestinations]
+other = "여행지"
+[navItineraries]
+other = "일정"
+[navTips]
+other = "교통·팁"
+[navMap]
+other = "지도"
+[navArchive]
+other = "전체 글"
+[menu]
+other = "메뉴"
+[mainNav]
+other = "주 메뉴"
+[railLabel]
+other = "바로가기"
+[skipToContent]
+other = "본문으로 건너뛰기"
+[faqTitle]
+other = "자주 묻는 질문"
+[featuredLabel]
+other = "새로 올라온 가이드"
+[aboutBandCta]
+other = "HOHO Tour 소개"
+[mapPageCta]
+other = "모든 장소 지도로 보기"
+[mapPageEyebrow]
+other = "모든 가이드, 한 장의 지도"
+[mapPageFilter]
+other = "지역별로 보기"
+
+[mapPageAll]
+other = "전체"
+[mapPageAria]
+other = "모든 가이드의 방문 장소 지도"
+[mapPageNoJS]
+other = "지도를 불러오지 못했어요. 아래 목록에서 모든 장소와 가이드를 볼 수 있어요."
+[mapPageListTitle]
+other = "지역별 모든 장소"
+[mapPageShow]
+other = "지도에서 보기"
+[mapPageRead]
+other = "가이드 읽기"
+[mapPageStatus]
+other = "장소 %d곳 표시 중"
+[mapPageReport]
+other = "지도 오류 신고"

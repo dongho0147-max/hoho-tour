@@ -1,0 +1,143 @@
+{{ define "main" }}
+{{/* map.html (2026-11-28): one map with every stop from every guide.
+   Used by content/map.md and content/map.kr.md (front matter `layout: map`).
+   - Pins are built HERE at build time from each blog post's front matter
+     `stops` (name / lat / lng / note). On /kr the Korean names and notes come
+     from data/kr_stops.yaml (index-aligned, same mechanism as tour-summary.html).
+     A KR page with no KR posts falls back to the EN posts.
+   - One pin per stop, coloured by the post's first region (data/regions.yaml
+     order); posts whose region is not in regions.yaml get a neutral colour.
+   - Map: self-hosted Leaflet (static/vendor/leaflet/) + OpenStreetMap raster
+     tiles with the required attribution. No Google tiles, no API key.
+   - Accessibility: region filters are real buttons (aria-pressed), markers are
+     keyboard-focusable (Enter opens the popup), and every place is also listed
+     below the map with a "show on map" button. Without JS (or if Leaflet fails)
+     the map box is hidden and the list still works. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $enSite := site }}{{ range $.Sites }}{{ if eq .Language.Lang "en" }}{{ $enSite = . }}{{ end }}{{ end }}
+{{ $posts := where site.RegularPages "Section" "blog" }}
+{{ if eq (len $posts) 0 }}{{ $posts = where $enSite.RegularPages "Section" "blog" }}{{ end }}
+{{ $regionsData := site.Data.regions.regions }}
+{{ $palette := slice "#1F5B45" "#C2412A" "#2F6EA3" "#A86B12" "#6B4FA0" "#1E7F7A" "#A23B72" "#5C6B2E" "#8A5A44" "#3D4F7A" "#7A6A1F" "#B0475E" }}
+{{ $neutral := "#646E68" }}
+
+{{/* ---- Build pins and per-post groups ---- */}}
+{{ $pins := slice }}
+{{ $postsOut := slice }}
+{{ range $posts.ByDate.Reverse }}
+  {{ $p := . }}
+  {{ with $p.Params.stops }}
+    {{ $stops := . }}
+    {{ $ov := slice }}
+    {{ if $isKR }}{{ with $p.File }}{{ with index site.Data.kr_stops .BaseFileName }}{{ with .stops }}{{ $ov = . }}{{ end }}{{ end }}{{ end }}{{ end }}
+
+    {{ $slug := "" }}{{ with $p.Params.regions }}{{ $slug = index . 0 | urlize }}{{ end }}
+    {{ $rIndex := -1 }}{{ $rName := "" }}
+    {{ range $i, $r := $regionsData }}{{ if eq $r.slug $slug }}{{ $rIndex = $i }}{{ $rName = cond $isKR $r.name_ko $r.name }}{{ end }}{{ end }}
+    {{ if not $rName }}{{ with $p.GetTerms "regions" }}{{ $rName = (index . 0).LinkTitle }}{{ else }}{{ $rName = $slug | humanize }}{{ end }}{{ end }}
+    {{ $color := $neutral }}{{ if ge $rIndex 0 }}{{ $color = index $palette (mod $rIndex (len $palette)) }}{{ end }}
+    {{ $thumb := "" }}
+    {{ with $p.Params.image }}
+      {{ $clean := strings.TrimPrefix "/" . }}
+      {{ $thumb = . | relURL }}
+      {{ if hugo.IsExtended }}{{ with resources.Get $clean }}{{ if gt .Width 200 }}{{ $thumb = (.Resize "200x webp q70").RelPermalink }}{{ else }}{{ $thumb = .RelPermalink }}{{ end }}{{ end }}{{ end }}
+    {{ end }}
+    {{ $postStops := slice }}
+    {{ range $i, $s := $stops }}
+      {{ if and $s.lat $s.lng }}
+        {{ $name := $s.name }}{{ $note := $s.note | default "" }}
+        {{ if $isKR }}
+          {{ with $s.name_ko }}{{ $name = . }}{{ end }}
+          {{ if lt $i (len $ov) }}{{ with index $ov $i }}{{ with .name_ko }}{{ $name = . }}{{ end }}{{ with .note_ko }}{{ $note = . }}{{ end }}{{ end }}{{ end }}
+        {{ end }}
+        {{ $id := len $pins }}
+        {{ $pins = $pins | append (dict "id" $id "lat" $s.lat "lng" $s.lng "name" $name "note" $note "post" $p.Title "url" $p.RelPermalink "region" (cond (ne $slug "") $slug "other") "regionName" $rName "color" $color "thumb" $thumb) }}
+        {{ $postStops = $postStops | append (dict "id" $id "name" $name) }}
+      {{ end }}
+    {{ end }}
+    {{ if $postStops }}
+      {{ $postsOut = $postsOut | append (dict "title" $p.Title "url" $p.RelPermalink "region" (cond (ne $slug "") $slug "other") "regionName" $rName "color" $color "rIndex" (cond (ge $rIndex 0) $rIndex 999) "stops" $postStops) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* ---- Region groups in regions.yaml order, then any others ---- */}}
+{{ $groups := slice }}
+
+{{ range $i, $r := $regionsData }}
+  {{ $inRegion := where $postsOut "region" $r.slug }}
+  {{ if $inRegion }}
+    {{ $n := len (where $pins "region" $r.slug) }}
+    {{ $groups = $groups | append (dict "slug" $r.slug "name" (cond $isKR $r.name_ko $r.name) "color" (index $palette (mod $i (len $palette))) "count" $n "posts" $inRegion) }}
+  {{ end }}
+{{ end }}
+{{ range $postsOut }}
+  {{ if eq .rIndex 999 }}
+    {{ $slug := .region }}
+    {{ if not (where $groups "slug" $slug) }}
+      {{ $groups = $groups | append (dict "slug" $slug "name" .regionName "color" $neutral "count" (len (where $pins "region" $slug)) "posts" (where $postsOut "region" $slug)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* ---- Strings (i18n with built-in fallbacks) ---- */}}
+{{ $tEyebrow := i18n "mapPageEyebrow" | default (cond $isKR "모든 가이드, 한 장의 지도" "Every guide, one map") }}
+{{ $tFilter := i18n "mapPageFilter" | default (cond $isKR "지역별로 보기" "Show places by region") }}
+{{ $tAll := i18n "mapPageAll" | default (cond $isKR "전체" "All") }}
+{{ $tAria := i18n "mapPageAria" | default (cond $isKR "모든 가이드의 방문 장소 지도" "Map of the places in every guide") }}
+{{ $tNoJS := i18n "mapPageNoJS" | default (cond $isKR "지도를 불러오지 못했어요. 아래 목록에서 모든 장소와 가이드를 볼 수 있어요." "The map could not load. Every place and its guide is listed below.") }}
+{{ $tList := i18n "mapPageListTitle" | default (cond $isKR "지역별 모든 장소" "Every place, by region") }}
+{{ $tShow := i18n "mapPageShow" | default (cond $isKR "지도에서 보기" "Show on map") }}
+{{ $tRead := i18n "mapPageRead" | default (cond $isKR "가이드 읽기" "Read the guide") }}
+{{ $tStatus := i18n "mapPageStatus" | default (cond $isKR "장소 %d곳 표시 중" "Showing %d places") }}
+{{ $tReport := i18n "mapPageReport" | default (cond $isKR "지도 오류 신고" "Report a map issue") }}
+{{ $tTotal := printf (cond $isKR "가이드 %d편, 장소 %d곳" "%d guides, %d places") (len $postsOut) (len $pins) }}
+
+<div class="gm">
+<header class="page-head">
+<p class="eyebrow">{{ $tEyebrow }}</p>
+
+<h1>{{ .Title }}</h1>
+{{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+<p class="count">{{ $tTotal }}</p>
+</header>
+
+<div class="gm__filters" role="group" aria-label="{{ $tFilter }}">
+<button type="button" class="chip" data-region-filter="" aria-pressed="true">{{ $tAll }}</button>
+{{ range $groups }}<button type="button" class="chip" data-region-filter="{{ .slug }}" aria-pressed="false"><span class="gm-dot" style="--pin:{{ .color | safeCSS }}" aria-hidden="true"></span>{{ .name }} <span class="map-chip__n">{{ .count }}</span></button>
+{{ end }}
+</div>
+<p class="gm__status" data-gm-status aria-live="polite" data-template="{{ $tStatus }}"></p>
+<p class="gm__nojs" data-gm-nojs>{{ $tNoJS }}</p>
+<div id="guide-map" class="gm__map" role="region" aria-label="{{ $tAria }}" hidden
+  data-tile-url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+  data-attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> {{ cond $isKR "기여자" "contributors" }}'
+  data-read-label="{{ $tRead }}"></div>
+<p class="gm__credit">&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> {{ cond $isKR "기여자" "contributors" }} &middot; <a href="https://www.openstreetmap.org/fixthemap">{{ $tReport }}</a></p>
+
+<section class="gm__list" aria-labelledby="gm-list-title">
+<h2 id="gm-list-title">{{ $tList }}</h2>
+{{ range $groups }}
+<div class="gm-region" data-gm-group="{{ .slug }}">
+<h3><span class="gm-dot" style="--pin:{{ .color | safeCSS }}" aria-hidden="true"></span>{{ .name }}</h3>
+<ul class="gm-posts">
+{{ range .posts }}
+<li class="gm-post">
+<a class="gm-post__title" href="{{ .url }}">{{ .title }}</a>
+<ul class="gm-stops">
+{{ range .stops }}<li><button type="button" class="gm-stop" data-pin="{{ .id }}" aria-label="{{ $tShow }}: {{ .name }}">{{ .name }}</button></li>{{ end }}
+</ul>
+</li>
+{{ end }}
+
+</ul>
+</div>
+{{ end }}
+</section>
+</div>
+
+<script type="application/json" id="guide-map-data">{{ $pins | jsonify | safeJS }}</script>
+<link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}">
+<script src="{{ "vendor/leaflet/leaflet.js" | relURL }}" defer></script>
+{{ with resources.Get "js/guide-map.js" }}{{ with . | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}{{ end }}
+{{ end }}

@@ -57,9 +57,9 @@ other = "Read the guide &rarr;"
 [mapEyebrow]
 other = "Explore by map"
 [mapTitle]
-other = "Tap a region, the guides fold out below"
+other = "Where to? Pick a region"
 [mapHint]
-other = "Pick a place on the map or a chip. The guide cards filter right here, no page jump."
+other = "Tap a region on the map or a chip: the guide list above narrows to that place."
 [mapAll]
 other = "All regions"
 [mapHeadingAll]
@@ -200,3 +200,52 @@ other = "Where to stay"
 
 [legendTransit]
 other = "Transit"
+
+# --- 2026-11-28 masthead redesign + guide map page ---
+[navDestinations]
+other = "Destinations"
+[navItineraries]
+other = "Itineraries"
+[navTips]
+other = "Transport & Tips"
+[navMap]
+other = "Map"
+[navArchive]
+other = "Archive"
+[menu]
+other = "Menu"
+[mainNav]
+other = "Main"
+[railLabel]
+other = "Shortcuts"
+[skipToContent]
+other = "Skip to content"
+[faqTitle]
+other = "Frequently asked questions"
+[featuredLabel]
+other = "Newest guides"
+[aboutBandCta]
+other = "About HOHO Tour"
+[mapPageCta]
+other = "See every place on the map"
+[mapPageEyebrow]
+other = "Every guide, one map"
+[mapPageFilter]
+other = "Show places by region"
+
+[mapPageAll]
+other = "All"
+[mapPageAria]
+other = "Map of the places in every guide"
+[mapPageNoJS]
+other = "The map could not load. Every place and its guide is listed below."
+[mapPageListTitle]
+other = "Every place, by region"
+[mapPageShow]
+other = "Show on map"
+[mapPageRead]
+other = "Read the guide"
+[mapPageStatus]
+other = "Showing %d places"
+[mapPageReport]
+other = "Report a map issue"

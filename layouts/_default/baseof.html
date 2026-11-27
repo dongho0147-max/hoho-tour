@@ -2,79 +2,176 @@
 <html lang="{{ .Site.Language.LanguageCode | default .Site.Language.Lang }}">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFFFFF">
 {{/* hreflang: one alternate per existing translation, plus x-default to the EN version.
    Pages without a KR translation list EN only - no KR alternate is claimed. */}}
 {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode | default .Language.Lang }}" href="{{ .Permalink }}">
 {{ end }}{{ with index (where .AllTranslations "Language.Lang" "en") 0 }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 {{ end }}
-{{/* Third-party emrld.ltd script: NOT rendered on /kr. The KR version is a review
-   build with zero external affiliate/tracking elements (2026-11-19 correction),
-   so this external script is EN-only. EN output is unchanged. */}}
-{{ if ne site.Language.Lang "kr" }}<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
-  (function () {
-      var script = document.createElement("script");
-      script.async = 1;
-      script.setAttribute("data-cmp-ab","2");
-      script.src = 'https://emrld.ltd/NTk5NzYz.js?t=599763';
-      document.head.appendChild(script);
-  })();
-</script>{{ end }}
-{{/* KR page titles: taxonomy term pages carry the English term name in .Title,
-   taxonomy index pages carry "Themes"/"Regions", and the 404 page carries
-   Hugo's default "404 Page not found" - all get their Korean title here. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+
+{{/* ---------- Titles ----------
+   KR taxonomy/term/404 pages get their Korean names (unchanged logic).
+   Front matter `seo_title` overrides the <title>/og:title of any page.
+   The " | HOHO Tour" suffix is added only while the result stays short;
+   long titles are emitted without it so the brand does not push the
+   meaningful words past ~60 characters. */}}
 {{ $pageTitle := .Title }}
-{{ if eq site.Language.Lang "kr" }}
+{{ if $isKR }}
   {{ if and (eq .Data.Plural "themes") .Data.Term }}{{ with index site.Data.themes .Data.Term }}{{ $pageTitle = .name_ko }}{{ end }}
   {{ else if eq .Kind "taxonomy" }}{{ $pageTitle = i18n .Data.Plural }}
   {{ else if eq .Kind "404" }}{{ $pageTitle = i18n "notFoundTitle" }}{{ end }}
 {{ end }}
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ i18n "homeTitleSuffix" }}{{ else }}{{ $pageTitle }} | {{ .Site.Title }}{{ end }}</title>
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ $seoTitle := .Params.seo_title | default $pageTitle }}
+{{ $docTitle := "" }}
+{{ if .IsHome }}{{ $docTitle = printf "%s%s" .Site.Title (i18n "homeTitleSuffix") }}
+{{ else if gt (strings.RuneCount $seoTitle) 48 }}{{ $docTitle = $seoTitle }}
+{{ else }}{{ $docTitle = printf "%s | %s" $seoTitle .Site.Title }}{{ end }}
+{{ $ogTitle := cond .IsHome .Site.Title $seoTitle }}
+
+
+
+{{/* ---------- Description ----------
+   seo_description > description > generated text for list pages (so KR
+   section/term pages stop repeating the site description) > site default.
+   Anything over 160 characters is cut at a word boundary. */}}
+{{ $desc := .Params.seo_description | default .Description }}
+{{ if and (not $desc) (not .IsHome) (in (slice "section" "taxonomy" "term") .Kind) }}
+  {{ $n := len .Pages }}
+  {{ if $isKR }}{{ $desc = printf "%s 여행 가이드 %d편. 서울에 사는 사람이 직접 정리한 일정, 교통, 맛집 정보를 한곳에 모았습니다." $pageTitle $n }}
+  {{ else }}{{ $desc = printf "%s: %d practical Korea travel guides with itineraries, transport and food tips, written by a Seoul local." $pageTitle $n }}{{ end }}
+{{ end }}
+{{ $desc = $desc | default .Site.Params.description | plainify | htmlUnescape }}
+{{ if gt (strings.RuneCount $desc) 160 }}{{ $desc = truncate 155 "…" $desc }}{{ end }}
+
+{{/* ---------- Share image ----------
+   Post `image` > params.ogImage (add a 1200x630 JPG) > home banner. */}}
+{{ $ogImage := .Params.image | default site.Params.ogImage | default "images/banner/home-banner-desktop.webp" }}
+{{ $ogImageURL := $ogImage | absURL }}
+{{ $ogImageAlt := .Params.image_alt | default $ogTitle }}
+{{ if and $isKR .Params.image }}{{ with .File }}{{ with index site.Data.kr_image_alt .BaseFileName }}{{ $ogImageAlt = . }}{{ end }}{{ end }}{{ end }}
+
+<title>{{ $docTitle }}</title>
+<meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $pageTitle }}{{ end }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:locale" content="{{ cond $isKR "ko_KR" "en_US" }}">
+<meta property="og:title" content="{{ $ogTitle }}">
+<meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{{ $ogImageURL }}">
+<meta property="og:image:alt" content="{{ $ogImageAlt }}">
+
+{{ if .IsPage }}{{ with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+
+{{ end }}{{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+{{ end }}{{ end }}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $ogTitle }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $ogImageURL }}">
+<meta name="twitter:image:alt" content="{{ $ogImageAlt }}">
+
+{{/* ---------- Structured data ---------- */}}
+{{ $publisher := dict "@type" "Organization" "name" .Site.Title "url" ("/" | absURL) "logo" (dict "@type" "ImageObject" "url" ("favicon-512.png" | absURL) "width" 512 "height" 512) }}
+{{ if .IsHome }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "WebSite" "name" .Site.Title "url" .Permalink "inLanguage" (.Site.Language.LanguageCode | default .Site.Language.Lang) "description" $desc "publisher" $publisher | jsonify | safeJS }}</script>
+{{ end }}
+{{ if and .IsPage (eq .Section "blog") }}
+{{ $post := dict
+  "@context" "https://schema.org"
+  "@type" "BlogPosting"
+  "headline" (truncate 110 "…" $seoTitle)
+  "description" $desc
+  "image" (slice $ogImageURL)
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "inLanguage" (.Site.Language.LanguageCode | default .Site.Language.Lang)
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+  "url" .Permalink
+  "wordCount" .WordCount
+  "author" (dict "@type" "Organization" "name" (.Site.Params.author | default .Site.Title) "url" ("/about/" | absLangURL))
+  "publisher" $publisher
+}}
+<script type="application/ld+json">{{ $post | jsonify | safeJS }}</script>
+
+{{ with .Params.faq }}
+{{ $qa := slice }}
+
+{{ range . }}{{ $qa = $qa | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" (.a | markdownify | plainify | htmlUnescape))) }}{{ end }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $qa | jsonify | safeJS }}</script>
+{{ end }}
+{{ end }}
+
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+{{/* ---------- Fonts ----------
+   Pretendard (variable, dynamic subset) for UI/body in both languages.
+   Kaushan Script for the wordmark only, both languages: the `text=` parameter
+   makes Google Fonts serve just the glyphs of "HOHO Tour" (a few KB),
+   display=swap shows the system script/cursive fallback until it arrives.
+   Fraunces (serif) for EN headings only; /kr does not request it.
+   (The old home hero banner preloads are gone: the home page now opens with
+   the feature photo pair, whose first image has fetchpriority="high".) */}}
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-{{/* Hero image + font preload (home only, 2026-11-19 revamp): the banner
-   image and the Inter stylesheet are fetched before first paint so the h1
-   line count does not shift after the webfont arrives (font reflow fix). */}}
-{{ if .IsHome }}
-<link rel="preload" as="image" imagesrcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x" media="(min-width: 600px)" fetchpriority="high">
-<link rel="preload" as="image" imagesrcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x" media="(max-width: 599px)" fetchpriority="high">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
-{{ end }}
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-{{/* Fingerprinted stylesheet (2026-11-19 revamp): the URL carries the content
-   hash, so a deploy can never serve a stale hero style. The old unversioned
-   /css/style.css was the reason the 16:20 deploy kept showing old CSS. */}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap&text=HOHOTour">
+{{ if not $isKR }}<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap">{{ end }}
+{{/* Fingerprinted stylesheet: the URL carries the content hash, so a deploy
+   can never serve a stale style (see static/_headers). */}}
 {{ with resources.Get "css/style.css" }}{{ with . | minify | fingerprint }}
+
 <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
 {{ end }}{{ end }}
+
+
+{{/* ---------- Third-party scripts (EN only; /kr stays free of them) ----------
+   AdSense loader: only when params.adsense.client is set.
+   emrld.ltd pop-under: OFF by default because pop-under style ads are an
+   AdSense approval risk. Set params.enablePopunder: true to restore it. */}}
+{{ if not $isKR }}
+{{ $adClient := "" }}{{ with site.Params.adsense }}{{ $adClient = .client }}{{ end }}
+{{ with $adClient }}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>{{ end }}
+{{ if site.Params.enablePopunder }}<script data-cfasync="false">
+  (function () {
+    try {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab", "2");
+      script.src = "https://emrld.ltd/NTk5NzYz.js?t=599763";
+      document.head.appendChild(script);
+    } catch (e) { /* third-party script failed; page unaffected */ }
+  })();
+</script>{{ end }}
+{{ end }}
 {{ with .Site.Params.cfAnalyticsToken }}
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ . }}"}'></script>
 {{ end }}
 </head>
 <body>
+<a class="sr-only skip-link" href="#main">{{ with i18n "skipToContent" }}{{ . }}{{ else }}{{ cond $isKR "본문으로 건너뛰기" "Skip to content" }}{{ end }}</a>
 {{ partial "header.html" . }}
-<main><div class="wrap">
+<main id="main"><div class="wrap">
 {{ block "main" . }}{{ end }}
+
 </div></main>
 {{ partial "footer.html" . }}
-{{/* Motion (2026-11-19, BUILD_LOG 20절): scroll reveal + card tilt.
-   Vanilla JS, defer, fingerprinted like home-map.js. Site-wide: the reveal
-   scope includes tour-summary on article pages, not just the home. */}}
+{{/* motion.js: 3D card tilt on [data-tilt] (fine pointer, no reduced motion)
+   and the IntersectionObserver reveal fallback for browsers without CSS
+   scroll-driven animations. Visibility never depends on it. */}}
 {{ with resources.Get "js/motion.js" }}{{ with . | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}{{ end }}
-<script>(function(){document.querySelectorAll('article table').forEach(function(t){if(t.parentNode.classList.contains('table-wrap'))return;var w=document.createElement('div');w.className='table-wrap';t.parentNode.insertBefore(w,t);w.appendChild(t);var h=t.querySelectorAll('thead th');if(!h.length){var r=t.querySelector('tr');if(r&&r.querySelectorAll('th').length)h=r.querySelectorAll('th');}if(!h.length)return;var labels=[].map.call(h,function(x){return x.textContent.trim()});t.querySelectorAll('tr').forEach(function(tr){var c=tr.querySelectorAll('td');if(!c.length)return;[].forEach.call(c,function(td,i){td.setAttribute('data-label',labels[i]||'')})});t.classList.add('is-stacked')})})();</script>
+{{/* Article tables (2026-11-27 mobile fix): wrap each table in .table-wrap and,
+   when it has header cells, label every <td> with its column name so CSS can
+   stack rows as cards at <=640px. Without JS the table scrolls sideways. */}}
+<script>(function(){try{document.querySelectorAll('article table').forEach(function(t){if(t.parentNode.classList.contains('table-wrap'))return;var w=document.createElement('div');w.className='table-wrap';t.parentNode.insertBefore(w,t);w.appendChild(t);var h=t.querySelectorAll('thead th');if(!h.length){var r=t.querySelector('tr');if(r&&r.querySelectorAll('th').length)h=r.querySelectorAll('th');}if(!h.length)return;var labels=[].map.call(h,function(x){return x.textContent.trim()});t.querySelectorAll('tr').forEach(function(tr){var c=tr.querySelectorAll('td');if(!c.length)return;[].forEach.call(c,function(td,i){td.setAttribute('data-label',labels[i]||'')})});t.classList.add('is-stacked')})}catch(e){/* tables stay scrollable */}})();</script>
 </body>
 </html>

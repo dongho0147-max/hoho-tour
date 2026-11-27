@@ -1,69 +1,103 @@
 {{ define "main" }}
-{{/* Home: UI strings come from i18n (EN/KR). Guide cards are the EN guides:
-   on KR there are no translated posts yet, so the EN site's blog pages are
-   listed (internal links only - the KR home carries zero affiliate links). */}}
+{{/* Home (2026-11-28 masthead + photo-grid redesign). Order:
+   1 feature pair: the 2 newest guides as big photos with captions
+   2 latest guides: every other guide, 2-column photo cards (1 on phones),
+     filtered client-side by the destinations map
+   3 destinations strip: the existing map + region chips (home-map.html)
+   4 short about band (+ affiliate disclosure)
+   5 ad slot (EN only, renders only when params.adsense is set) -> footer
+   KR falls back to the EN guide list when it has no posts of its own. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
 {{ $enSite := site }}{{ range $.Sites }}{{ if eq .Language.Lang "en" }}{{ $enSite = . }}{{ end }}{{ end }}
 {{ $pages := where .Site.RegularPages "Section" "blog" }}
 {{ if eq (len $pages) 0 }}{{ $pages = where $enSite.RegularPages "Section" "blog" }}{{ end }}
-{{ $country := site.Data.regions.country.slug | default "korea" }}
-<section class="hero" aria-label="{{ i18n "heroAria" }}">
-{{/* Responsive hero banner (2026-11-19 revamp): <picture> serves a portrait
-   banner on mobile and a landscape banner on desktop, each 1x/2x. The
-   container aspect-ratio always matches the served image, so cover crop is
-   ~0%. Images carry no text, logo, border or sign - all text is HTML. */}}
-<figure class="hero-photo">
-<picture>
-<source media="(max-width: 599px)" srcset="/images/banner/home-banner-mobile.webp 1x, /images/banner/home-banner-mobile@2x.webp 2x">
-<source media="(min-width: 600px)" srcset="/images/banner/home-banner-desktop.webp 1x, /images/banner/home-banner-desktop@2x.webp 2x">
-<img src="/images/banner/home-banner-desktop.webp" alt="{{ i18n "heroBannerAlt" }}" width="1920" height="820" loading="eager" fetchpriority="high">
-</picture>
-<div class="hero-overlay">
-<p class="eyebrow">{{ i18n "heroEyebrow" | safeHTML }}</p>
-<h1>{{ i18n "heroTitle" | safeHTML }}</h1>
-<p class="lede">{{ i18n "heroLede" }}</p>
-<p class="cta">
-<a class="btn btn-primary" href="{{ "/blog/seoul-essential-3-day-guide/" | relLangURL }}">{{ i18n "heroCtaPrimary" | safeHTML }}</a>
-<a class="btn btn-secondary" href="{{ "/blog/" | relLangURL }}">{{ i18n "heroCtaSecondary" }}</a>
-</p>
-</div>
-</figure>
+{{ $sorted := $pages.ByDate.Reverse }}
+{{ $featured := first 2 $sorted }}
+{{ $rest := after 2 $sorted }}
+{{ $featuredLabel := i18n "featuredLabel" | default (cond $isKR "새로 올라온 가이드" "Newest guides") }}
+{{ $aboutCta := i18n "aboutBandCta" | default (cond $isKR "HOHO Tour 소개" "About HOHO Tour") }}
+
+<h1 class="sr-only">{{ .Site.Title }} - {{ i18n "heroTitle" | plainify }}</h1>
+
+<section class="feature" aria-label="{{ $featuredLabel }}">
+<ul class="feature__grid">
+{{ range $i, $p := $featured }}{{ partial "guide-card.html" (dict "page" $p "variant" "feature" "eager" (eq $i 0)) }}{{ end }}
+</ul>
 </section>
-{{ partial "home-map.html" . }}
-<section class="browse" aria-label="{{ i18n "browseAria" }}">
-<div class="browse-block">
-<h2 data-reveal>{{ i18n "browsePlace" | safeHTML }}</h2>
-<div class="chip-row">
-{{ range first 8 site.Data.regions.regions }}
-{{ $rc := .country | default $country }}
-<a class="chip chip--region" href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}">{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a>
-{{ end }}
-<a class="chip chip--all" href="{{ "/regions/" | relLangURL }}">{{ i18n "allRegions" | safeHTML }}</a>
+
+<section class="latest" aria-labelledby="latest-guides-heading">
+<div class="section-head section-head--center">
+<p class="eyebrow">{{ i18n "latestKicker" }}</p>
+<h2 id="latest-guides-heading" class="latest-title">{{ i18n "latestGuides" }}</h2>
+<p class="intro">{{ i18n "latestIntro" }}</p>
+
 </div>
-</div>
-<div class="browse-block">
-<h2 data-reveal>{{ i18n "browseTheme" | safeHTML }}</h2>
-<div class="chip-row">
-{{ range $slug := slice "itineraries" "food-restaurants" "day-trips" "transit-tips" "seasonal" "cafes" "nightlife" }}
-{{ with site.GetPage (printf "/themes/%s" $slug) }}{{ $t := index site.Data.themes $slug }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if eq site.Language.Lang "kr" }}{{ $t.name_ko }}{{ else }}{{ $t.name }}{{ end }}</a>{{ end }}
-{{ end }}
-<a class="chip chip--all" href="{{ "/themes/" | relLangURL }}">{{ i18n "allThemes" | safeHTML }}</a>
-</div>
-</div>
-</section>
-<section class="latest">
-<h2 data-reveal><span>{{ i18n "latestKicker" }}</span><b class="latest-title" id="latest-guides-heading">{{ i18n "latestGuides" }}</b></h2>
-<p class="intro" data-reveal>{{ i18n "latestIntro" }}</p>
-<ul class="cards" id="latest-guides">
-{{ range $pages.ByDate.Reverse }}
-{{ partial "guide-card.html" . }}
-{{ end }}
+<ul class="cards cards--home" id="latest-guides">
+{{ range $rest }}{{ partial "guide-card.html" . }}{{ end }}
 </ul>
 <p class="filter-empty" data-filter-empty hidden>{{ i18n "noGuidesFilter" }}</p>
+<p class="section-more"><a class="btn btn-secondary" href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a></p>
 </section>
-<section class="trust"><div class="box" data-reveal>
-<h2>{{ i18n "trustTitle" }}</h2>
+
+<section class="destinations" aria-label="{{ i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}">
+{{ partial "home-map.html" . }}
+<p class="destinations__more"><a class="btn btn-secondary" href="{{ "/map/" | relLangURL }}">{{ i18n "mapPageCta" | default (cond $isKR "모든 장소 지도로 보기" "See every place on the map") }}</a></p>
+</section>
+
+<section class="about-band" aria-labelledby="about-band-title">
+<div class="about-band__inner">
+<p class="eyebrow">{{ i18n "heroEyebrow" | safeHTML }}</p>
+<h2 id="about-band-title">{{ i18n "trustTitle" }}</h2>
 <p>{{ i18n "trustBody" }}</p>
+<a class="btn btn-primary" href="{{ "/about/" | relLangURL }}">{{ $aboutCta }}</a>
 <p class="disclosure"><strong>{{ i18n "affiliateDisclosureLabel" }}</strong> {{ i18n "affiliateDisclosure" }}</p>
-</div></section>
+</div>
+</section>
+
+{{/* Ad slot: EN only (/kr stays ad-free), rendered only when params.adsense
+   has client + slot_home. During `hugo server` a labelled preview box shows
+   where the unit will sit. Label text is one of the two AdSense-approved ones. */}}
+{{ if not $isKR }}
+{{ $adClient := "" }}{{ $adSlot := "" }}
+{{ with site.Params.adsense }}{{ $adClient = .client }}{{ $adSlot = .slot_home }}{{ end }}
+{{ if and $adClient $adSlot }}
+<aside class="ad-slot" aria-label="Advertisements">
+<p class="ad-slot__label">Advertisements</p>
+
+<ins class="adsbygoogle" data-ad-client="{{ $adClient }}" data-ad-slot="{{ $adSlot }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) { /* ad blocked or not loaded */ }</script>
+</aside>
+{{ else if hugo.IsServer }}
+<aside class="ad-slot ad-slot--preview" aria-hidden="true"><p class="ad-slot__label">Advertisements</p><div class="ad-slot__box">Ad slot preview (home) - set params.adsense.slot_home</div></aside>
+{{ end }}
+{{ end }}
+
 {{ partial "filter-script.html" . }}
+{{/* The destinations map filters the guide list ABOVE it: after a region is
+   picked, bring the list heading into view (no scroll if already visible). */}}
+<script>
+(function () {
+  try {
+    var map = document.querySelector(".home-map");
+    var target = document.getElementById("latest-guides-heading");
+    if (!map || !target) return;
+    var reduce = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    var go = function () {
+      window.setTimeout(function () {
+        var top = target.getBoundingClientRect().top;
+        if (top < 0 || top > window.innerHeight * 0.6) {
+          target.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+        }
+      }, 80);
+    };
+    map.addEventListener("click", function (e) {
+      if (e.target.closest && e.target.closest("[data-filter-value]")) go();
+    });
+    map.addEventListener("keydown", function (e) {
+      if ((e.key === "Enter" || e.key === " ") && e.target.closest && e.target.closest("[data-filter-value]")) go();
+    });
+
+  } catch (err) { /* filtering still works without the scroll */ }
+})();
+</script>
 {{ end }}

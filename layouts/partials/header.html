@@ -1,51 +1,102 @@
-<header class="site"><div class="wrap">
+{{/* header.html (2026-11-28 masthead redesign).
+   Desktop (>=1080px): large centred script wordmark (green symbol + "HOHO Tour"),
+   small tracked tagline, then one thin uppercase menu row between hairlines with
+   the language toggle quietly at its right end. The masthead scrolls away.
+   Under 1080px: compact sticky bar (small wordmark | language | menu button);
+   the menu opens as a drawer. Without JS the menu stays visible as a
+   swipeable row under the logo.
+   Menu targets (all exist in content/ or as taxonomy pages, EN and /kr):
+     /  /regions/  /themes/food-restaurants/  /themes/itineraries/
+     /themes/transit-tips/  /map/  /blog/  /about/
+   Desktop side rail (>=1360px, no JS): Archive / Map / Destinations. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $homeURL := "/" | relLangURL }}
+{{ $destURL := "/regions/" | relLangURL }}
 {{ $foodURL := "/themes/food-restaurants/" | relLangURL }}
-<a class="brand" href="{{ "/" | relLangURL }}"><img src="/images/hoho-tour-logo-final.svg" alt="{{ i18n "logoAlt" }}" width="36" height="36">HOHO <em>Tour</em></a>
-<nav>
-<a href="{{ "/" | relLangURL }}"{{ if .IsHome }} aria-current="page"{{ end }}>{{ i18n "home" }}</a>
-<a href="{{ "/blog/" | relLangURL }}"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>{{ i18n "guides" }}</a>
-<a href="{{ "/regions/" | relLangURL }}"{{ if in .RelPermalink "/regions/" }} aria-current="page"{{ end }}>{{ i18n "regions" }}</a>
-<a href="{{ $foodURL }}"{{ if eq .RelPermalink $foodURL }} aria-current="page"{{ end }}>{{ i18n "food" }}</a>
-<a href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a>
-<a href="{{ "/privacy/" | relLangURL }}">{{ i18n "privacy" }}</a>
+{{ $itinURL := "/themes/itineraries/" | relLangURL }}
+{{ $tipsURL := "/themes/transit-tips/" | relLangURL }}
+{{ $mapURL := "/map/" | relLangURL }}
+{{ $archURL := "/blog/" | relLangURL }}
+{{ $aboutURL := "/about/" | relLangURL }}
+{{ $here := .RelPermalink }}
+{{ $menuLabel := i18n "menu" }}{{ if not $menuLabel }}{{ $menuLabel = cond $isKR "메뉴" "Menu" }}{{ end }}
+{{ $navLabel := i18n "mainNav" }}{{ if not $navLabel }}{{ $navLabel = cond $isKR "주 메뉴" "Main" }}{{ end }}
+{{ $railLabel := i18n "railLabel" }}{{ if not $railLabel }}{{ $railLabel = cond $isKR "바로가기" "Shortcuts" }}{{ end }}
+{{ $tDest := i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}
+{{ $tItin := i18n "navItineraries" | default (cond $isKR "일정" "Itineraries") }}
+{{ $tTips := i18n "navTips" | default (cond $isKR "교통·팁" "Transport & Tips") }}
+{{ $tMap := i18n "navMap" | default (cond $isKR "지도" "Map") }}
+{{ $tArch := i18n "navArchive" | default (cond $isKR "전체 글" "Archive") }}
+<header class="site" data-site-header>
+<div class="site__inner">
+<div class="masthead">
+
+<a class="brand" href="{{ $homeURL }}"{{ if .IsHome }} aria-current="page"{{ end }}><img src="/images/hoho-tour-logo-final.svg" alt="{{ i18n "logoAlt" }}" width="54" height="54"><span class="brand__word">HOHO <em>Tour</em></span></a>
+<p class="masthead__tag">{{ i18n "heroEyebrow" | safeHTML }}</p>
+</div>
+<div class="navbar"><div class="navbar__inner">
+<nav class="site-nav" id="site-nav" aria-label="{{ $navLabel }}">
+<a href="{{ $homeURL }}"{{ if .IsHome }} aria-current="page"{{ end }}>{{ i18n "home" }}</a>
+<a href="{{ $destURL }}"{{ if or (in $here "/regions/") (in $here "/korea/") }} aria-current="page"{{ end }}>{{ $tDest }}</a>
+<a href="{{ $foodURL }}"{{ if eq $here $foodURL }} aria-current="page"{{ end }}>{{ i18n "food" }}</a>
+<a href="{{ $itinURL }}"{{ if eq $here $itinURL }} aria-current="page"{{ end }}>{{ $tItin }}</a>
+<a href="{{ $tipsURL }}"{{ if eq $here $tipsURL }} aria-current="page"{{ end }}>{{ $tTips }}</a>
+<a href="{{ $mapURL }}"{{ if eq $here $mapURL }} aria-current="page"{{ end }}>{{ $tMap }}</a>
+<a href="{{ $archURL }}"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>{{ $tArch }}</a>
+<a href="{{ $aboutURL }}"{{ if eq $here $aboutURL }} aria-current="page"{{ end }}>{{ i18n "about" }}</a>
 </nav>
-{{ partial "lang-toggle.html" . }}
+<div class="navbar__tools">{{ partial "lang-toggle.html" . }}</div>
+<button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="{{ $menuLabel }}" hidden data-nav-toggle>
+<svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+<svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+</button>
+</div></div>
 </div>
 </header>
-{{/* Region nav row: big categories from data/regions.yaml (single source of truth).
-   Sibling of <header>, not inside it: it is its own sticky bar (position:sticky,
-   top = header height, see style.css .region-nav), so it stays pinned under the
-   sticky header while the page scrolls.
-   Hub links are language-aware (relLangURL): /korea/<slug>/ in EN,
-   /kr/korea/<slug>/ in KR. On KR the Korean name (name_ko) is the primary label. */}}
-{{ $country := site.Data.regions.country.slug | default "korea" }}
-{{ $curRegion := "" }}
-{{ if and (eq .Kind "term") (eq .Data.Plural "regions") }}{{ $curRegion = .Data.Term }}{{ else if .IsPage }}{{ with .Params.regions }}{{ $curRegion = index . 0 | urlize }}{{ end }}{{ end }}
-<nav class="region-nav" aria-label="{{ i18n "regions" }}">
-<div class="wrap region-nav__row">
-{{ range site.Data.regions.regions }}
-{{ $rc := .country | default $country }}
-<a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}" class="region-nav__link{{ if ne .status "active" }} is-soon{{ end }}"{{ if eq $curRegion .slug }}{{ if eq $.Kind "term" }} aria-current="page"{{ else }} aria-current="true"{{ end }}{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }}<span class="region-nav__ko" lang="ko">{{ .name_ko }}</span>{{ end }}</a>
-{{ end }}
-</div>
+<nav class="side-rail" aria-label="{{ $railLabel }}">
+<a href="{{ $archURL }}">{{ $tArch }}</a><span aria-hidden="true"></span>
+<a href="{{ $mapURL }}">{{ $tMap }}</a><span aria-hidden="true"></span>
+<a href="{{ $destURL }}">{{ $tDest }}</a>
 </nav>
-{{/* Header height sync: --header-h (and, through it, .region-nav top and
-   scroll-margin-top) always tracks the real rendered header height, at every
-   viewport. The CSS fallback in style.css is only the no-JS value; this
-   script measures header.site (2 rows on mobile, 1 row on desktop) and
-   re-measures on resize and on font load so a wrapping change can never
-   leave the region bar hidden under the header again. */}}
+{{/* Header script: (1) --header-h = real header height while the header is
+   sticky (mobile), 0 when it scrolls away (desktop), for scroll-margin-top;
+   (2) mobile drawer. If anything throws, the no-JS layout stays. */}}
 <script>
 (function () {
-  var header = document.querySelector("header.site");
-  if (!header) return;
-  function sync() {
-    document.documentElement.style.setProperty("--header-h", header.offsetHeight + "px");
+
+  try {
+    var header = document.querySelector("[data-site-header]");
+    if (!header) return;
+    var root = document.documentElement;
+    var sync = function () {
+      var sticky = window.getComputedStyle(header).position === "sticky";
+      root.style.setProperty("--header-h", (sticky ? header.offsetHeight : 0) + "px");
+    };
+    sync();
+    if ("ResizeObserver" in window) { new ResizeObserver(sync).observe(header); }
+    window.addEventListener("resize", sync);
+    if (document.fonts && document.fonts.ready) { document.fonts.ready.then(sync).catch(function () {}); }
+
+    var btn = header.querySelector("[data-nav-toggle]");
+    var nav = document.getElementById("site-nav");
+    if (!btn || !nav) return;
+    header.classList.add("has-menu");
+    btn.hidden = false;
+    var setOpen = function (open) {
+      header.classList.toggle("is-open", open);
+      btn.setAttribute("aria-expanded", String(open));
+    };
+    btn.addEventListener("click", function () { setOpen(!header.classList.contains("is-open")); });
+    nav.addEventListener("click", function (e) { if (e.target.closest("a")) setOpen(false); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && header.classList.contains("is-open")) { setOpen(false); btn.focus(); }
+    });
+    document.addEventListener("click", function (e) {
+      if (header.classList.contains("is-open") && !header.contains(e.target)) setOpen(false);
+    });
+  } catch (err) {
+    /* Leave the no-JS header in place. */
+
   }
-  sync();
-  if ("ResizeObserver" in window) { new ResizeObserver(sync).observe(header); }
-  window.addEventListener("resize", sync);
-  window.addEventListener("load", sync);
-  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(sync); }
 })();
 </script>

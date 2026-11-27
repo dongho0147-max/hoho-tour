@@ -1,23 +1,58 @@
-{{/* guide-card.html: one guide card. Context = the post page.
-   data-region / data-themes let assets/js/home-map.js filter cards client-side. */}}
-{{ $p := . }}
-{{ $regions := .GetTerms "regions" }}
-{{ $themes := .GetTerms "themes" }}
-{{ $firstRegion := "" }}{{ with .Params.regions }}{{ $firstRegion = index . 0 | urlize }}{{ end }}
-{{ $themeKeys := slice }}{{ range .Params.themes }}{{ $themeKeys = $themeKeys | append (. | urlize) }}{{ end }}
-{{ $alt := $p.Params.image_alt | default $p.Title }}
-{{ if eq site.Language.Lang "kr" }}{{ with index site.Data.kr_image_alt $p.File.BaseFileName }}{{ $alt = . }}{{ end }}{{ end }}
-<li class="card" data-reveal data-filter-item data-region="{{ $firstRegion }}" data-themes="{{ delimit $themeKeys " " }}">
-{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . | relURL }}" alt="{{ $alt }}" width="480" height="320" loading="lazy"></a>{{ else }}<a class="thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="/images/banner/banner-seoul.webp" alt="{{ $p.Title }}" width="480" height="320" loading="lazy"></a>{{ end }}
-<div class="card-body">
-<a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-<p class="desc">{{ .Description }}</p>
-<p class="meta">{{ if eq site.Language.Lang "kr" }}{{ .Date.Format "2006년 1월 2일" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }} &middot; {{ i18n "minRead" .ReadingTime }}</p>
-{{ if or $regions $themes }}
-<p class="term-chips" aria-label="{{ i18n "filedUnder" }}">
-{{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
-{{ range $themes }}{{ $t := index site.Data.themes .Data.Term }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if and (eq site.Language.Lang "kr") $t }}{{ $t.name_ko }}{{ else }}{{ .LinkTitle }}{{ end }}</a>{{ end }}
-</p>
+{{/* guide-card.html (2026-11-28): one photo-first card.
+   Called two ways:
+     {{ partial "guide-card.html" $page }}                         - grid card (home, lists, hubs)
+     {{ partial "guide-card.html" (dict "page" $page "variant" "feature" "eager" true) }}
+                                                                   - big feature photo (home top pair)
+   - Order: photo -> coral region tag -> 2-line title -> summary -> date.
+   - The title link is stretched over the whole card (CSS); one link per card.
+   - [data-tilt] is the motion.js 3D tilt target (fine pointer only).
+   - Grid cards carry data-filter-item / data-region / data-themes for
+     assets/js/home-map.js; feature cards do not (they are never filtered).
+   - Responsive images: when the photo is available to Hugo Pipes (module
+     mount static/images -> assets/images) on an extended build, WebP sizes are
+     generated with srcset; otherwise the original file is used.
+   - Front matter `image_position` (e.g. "30% 50%") sets the crop focus. */}}
+{{ $p := . }}{{ $variant := "" }}{{ $eager := false }}
+{{ if reflect.IsMap . }}{{ $p = .page }}{{ $variant = .variant | default "" }}{{ $eager = .eager | default false }}{{ end }}
+{{ $isFeature := eq $variant "feature" }}
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $firstRegion := "" }}{{ with $p.Params.regions }}{{ $firstRegion = index . 0 | urlize }}{{ end }}
+{{ $themeKeys := slice }}{{ range $p.Params.themes }}{{ $themeKeys = $themeKeys | append (. | urlize) }}{{ end }}
+
+{{/* Region tag: localized name from data/regions.yaml, else the term title. */}}
+{{ $label := "" }}
+{{ with $firstRegion }}
+  {{ $r := index (where site.Data.regions.regions "slug" .) 0 }}
+  {{ if $r }}{{ $label = cond $isKR $r.name_ko $r.name }}{{ else }}{{ with $p.GetTerms "regions" }}{{ $label = (index . 0).LinkTitle }}{{ end }}{{ end }}
 {{ end }}
-<a class="readmore" href="{{ .RelPermalink }}">{{ i18n "readGuide" | safeHTML }}</a>
-</div></li>
+
+{{ $alt := $p.Params.image_alt | default $p.Title }}
+{{ if $isKR }}{{ with $p.File }}{{ with index site.Data.kr_image_alt .BaseFileName }}{{ $alt = . }}{{ end }}{{ end }}{{ end }}
+{{ $src := $p.Params.image | default "images/banner/banner-seoul.webp" }}
+{{ $clean := strings.TrimPrefix "/" $src }}
+
+{{ $res := false }}
+{{ if and hugo.IsExtended (not (hasPrefix $clean "http")) }}{{ with resources.Get $clean }}{{ $res = . }}{{ end }}{{ end }}
+{{ $sizes := cond $isFeature "(min-width: 768px) 50vw, 100vw" "(min-width: 1080px) 540px, (min-width: 600px) 46vw, 92vw" }}
+{{ $wSmall := cond $isFeature 640 480 }}{{ $wLarge := cond $isFeature 1200 900 }}
+{{ $loading := cond $eager "eager" "lazy" }}
+{{ $pos := "" }}{{ with $p.Params.image_position }}{{ $pos = printf "object-position:%s" . }}{{ end }}
+
+<li class="card{{ if $isFeature }} card--feature{{ end }}" data-reveal data-tilt="{{ cond $isFeature "2" "3" }}"{{ if not $isFeature }} data-filter-item data-region="{{ $firstRegion }}" data-themes="{{ delimit $themeKeys " " }}"{{ end }}>
+<div class="thumb">
+{{ with $res }}
+  {{ $small := . }}{{ $large := . }}
+  {{ if gt .Width $wSmall }}{{ $small = .Resize (printf "%dx webp q72" $wSmall) }}{{ end }}
+  {{ if gt .Width $wLarge }}{{ $large = .Resize (printf "%dx webp q72" $wLarge) }}{{ end }}
+<img src="{{ $large.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="{{ $sizes }}" alt="{{ $alt }}" width="{{ $large.Width }}" height="{{ $large.Height }}" loading="{{ $loading }}"{{ if $eager }} fetchpriority="high"{{ end }} decoding="async"{{ with $pos }} style="{{ . | safeCSS }}"{{ end }}>
+{{ else }}
+<img src="{{ $src | relURL }}" alt="{{ $alt }}"{{ with partial "photo-dims.html" $src }}{{ . | safeHTMLAttr }}{{ else }} width="600" height="400"{{ end }} loading="{{ $loading }}"{{ if $eager }} fetchpriority="high"{{ end }} decoding="async"{{ with $pos }} style="{{ . | safeCSS }}"{{ end }}>
+{{ end }}
+</div>
+<div class="card-body">
+{{ if $isFeature }}<h2 class="card__heading"><a class="title" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h2>{{ else }}<a class="title" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>{{ end }}
+{{ with $label }}<p class="card__label">{{ . }}</p>{{ end }}
+{{ with $p.Description }}<p class="desc">{{ . }}</p>{{ end }}
+<p class="meta"><time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ if $isKR }}{{ $p.Date.Format "2006년 1월 2일" }}{{ else }}{{ $p.Date.Format "January 2, 2006" }}{{ end }}</time> &middot; {{ i18n "minRead" $p.ReadingTime }}</p>
+</div>
+</li>
