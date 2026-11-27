@@ -6,5 +6,5 @@
 <img src="{{ $src | relURL }}" alt="{{ .Get "alt" | default "" }}"{{ if .Get "width" }} width="{{ .Get "width" }}" height="{{ .Get "height" }}"{{ else }}{{ partial "photo-dims.html" $src | safeHTMLAttr }}{{ end }} loading="{{ .Get "loading" | default "lazy" }}">
 {{ $caption := .Get "caption" }}
 {{ if eq site.Language.Lang "kr" }}{{ $caption = replace $caption "Photo:" "사진:" }}{{ end }}
-{{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+{{ with $caption }}<figcaption>{{ partial "cap.html" . }}</figcaption>{{ end }}
 </figure>
