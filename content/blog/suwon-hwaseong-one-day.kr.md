@@ -78,6 +78,8 @@ map_note: "Banghwasuryujeong is not on the map: no verified coordinates were fou
 
 {{< sticker kind="photo-spot" >}}
 
+{{< figure src="images/photos/suwon-paldalmun-night-01.webp" alt="밤에 불이 켜진 수원화성 팔달문과 성곽" caption="수원화성은 개방형이라 밤에도 볼 수 있고 성곽 관람은 무료예요. 사진: oreum, CC BY-SA 3.0" >}}
+
 ## 🏯 화성행궁 안에는 무엇이 있나요?
 
 **화성행궁은 정조 임금이 아버지의 능을 찾을 때 머물도록 지은 성곽 안의 임시 궁궐이에요.** 09:00~18:00에 열고 연중무휴예요. 입장 마감은 관람시간 1시간 전이에요.

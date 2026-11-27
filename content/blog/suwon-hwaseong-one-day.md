@@ -79,6 +79,8 @@ Free guided tours with a cultural heritage guide leave from the guide offices at
 
 {{< sticker kind="photo-spot" >}}
 
+{{< figure src="images/photos/suwon-paldalmun-night-01.webp" alt="Paldalmun gate and the Hwaseong wall lit at night in Suwon" caption="The walls and gates are open all day, including after dark, and walking them is free. Photo: oreum, CC BY-SA 3.0" >}}
+
 ## 🏯 What is inside Hwaseong Haenggung?
 
 Hwaseong Haenggung is the temporary palace inside the fortress, built for King Jeongjo when he visited his father's tomb. It opens 09:00 to 18:00 year-round, with last entry at 17:00. Entry is 2,000 KRW for adults, 1,500 KRW for teens, and 1,000 KRW for children, based on recent listings. Entry is free in hanbok, for ages 65 and over with ID, and for children 6 and under, and for everyone on the last Wednesday of the month during daytime hours.

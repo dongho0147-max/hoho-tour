@@ -315,3 +315,7 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | danyang-paragliders-01.jpg | Paragliders above Danyang hills | 1400-1600 px | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Paragliders_in_Danyang.jpg |
 | danyang-bridge-night-01.jpg | Danyang arched bridge lit at night | 1400-1600 px | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Danyang_Bridge_at_Night.jpg |
 | danyang-eup-01.jpg | Danyang-eup town along the Namhan River | 1400-1600 px | Trainholic | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Danyang-Eup.jpg |
+| han-yeouido-01.webp | Han River with Yeouido skyline and Bamseom, daytime | 1600x1063 | heecheol890102 (Pixabay) | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Yeouido_Han_River_Seoul_Bamseom_Pixabay_1602524.jpg |
+| daegu-kim-street-01.webp | Song lyrics wall in Kim Gwang-seok Street, Daegu | 1400 px | Choi2451 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:The_lyrics_of_The_Private's_Letter.jpg |
+| suwon-paldalmun-night-01.webp | Paldalmun and Hwaseong wall at night, Suwon | 1400 px | oreum | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Paldalmun_night.JPG |
+| jeju3-olle-coast-01.webp | Jeju Olle Trail coastal path (Route 16) | 1400 px | Jeju Olle Foundation | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeju_Olle_Route_16.jpg |

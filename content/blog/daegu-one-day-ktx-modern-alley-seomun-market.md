@@ -104,6 +104,8 @@ On Friday, Saturday, and Sunday evenings the market becomes the Seomun Night Mar
 
 Ride or walk east to Kim Gwang-seok Street, a 350-meter mural lane beside Bangcheon Market dedicated to the folk singer who grew up here. It is free, always open, and best taken slowly: the walls carry his lyrics, buskers play his songs on weekends, and the cafes along the lane are the kind you sit in for an hour without meaning to. The nearest station is Kyungpook National University Hospital on Line 2, per secondary sources; the exact walking time from the platform is (미확인), so give yourself fifteen minutes.
 
+{{< figure src="images/photos/daegu-kim-street-01.webp" alt="Song lyrics written on a wall of Kim Gwang-seok Street in Daegu" caption="The street is free, always open, and best taken slowly. Photo: Choi2451, CC BY-SA 3.0" >}}
+
 ## 🚡 Before dark: pick a cable car
 
 Daegu has two cable cars, and one of them fits the end of this day. Apsan Cable Car is the city one, a 15-minute ride from downtown by car. The round trip is 14,000 KRW for adults and 10,000 KRW for children, and the cabin climbs 180 m to 510 m in about 5 minutes. In November the first ride up is 10:30, and the last departure from the top is 18:30 Monday to Thursday and 20:30 on Fridays, weekends, and holidays, with ticket sales closing 30 minutes before the end. On a Friday or weekend evening, the 20:30 last car makes Apsan the best night view in the city.

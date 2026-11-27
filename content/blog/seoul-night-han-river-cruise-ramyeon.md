@@ -55,6 +55,8 @@ For a night plan, book the Moonlight Music Cruise. It is the one that goes to Ba
 
 > **🔥 Local tip:** Arrive at the pier 20 minutes early. An online voucher is not a boarding pass: you swap it for a physical ticket at the E-Land ticket office with your passport or physical ID, and a phone photo of your ID does not count. Take Line 5 to Yeouinaru Station, not Yeouido Station, and use Exit 3. Booking online in advance also locks in a lower fare than the pier walk-up price and holds your seat on busy weekend evenings. Based on recent listings/reviews, checked November 2026.
 
+{{< figure src="images/photos/han-yeouido-01.webp" alt="Yeouido skyline and Bamseom island on the Han River in daylight" caption="Arrive at the pier 20 minutes early. Photo: heecheol890102, Pixabay, CC0" >}}
+
 ## 🌈 Will you see the rainbow fountain?
 
 Here is the honest answer, and it matters. The Banpo Bridge Moonlight Rainbow Fountain runs from April to October only, based on the cruise listing. In November, the fountain is off. The Moonlight Cruise still sails to Banpo Bridge in November, and the bridge and the skyline are still lit, but the rainbow water show is a warm-season thing. If the fountain is the reason you are going, go between April and October. If you are going in late November, go for the cruise, the lights, and the river air, and do not expect the fountain.

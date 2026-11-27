@@ -102,6 +102,8 @@ Option B is an Olle Trail section, and it is the better pick if your legs are ti
 
 {{< collage "images/photos/jeju-03.webp|Olle Trail ribbons|Unknown, CC BY-SA 3.0" "images/photos/jeju-04.webp|Hamdeok Beach|Hong Da Hyeon, CC0" "images/photos/jeju-06.webp|Seongeup Folk Village|Seefooddiet, CC BY-SA 4.0" >}}
 
+{{< figure src="images/photos/jeju3-olle-coast-01.webp" alt="A coastal walking path of the Jeju Olle Trail beside the sea" caption="It is a walk, not a hike. Pick a flat stretch and stop at a cafe when you feel like it. Photo: Jeju Olle Foundation, CC BY-SA 4.0" >}}
+
 ## 🛏️ Where should you stay?
 
 Stay in Jeju City for all three nights. Moving hotels eats half a day on an island where the bus is your transport, and Jeju City has the best bus connections in every direction. Pick a place within a 10-minute walk of a trunk bus stop, and check that before you book, not after.
