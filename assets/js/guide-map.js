@@ -126,16 +126,21 @@
     /* Nudge overlapping badges (Seoul / Incheon / Suwon sit close together). */
     function spread() {
       var placed = [];
+      /* Candidate offsets, nearest to the true spot first (up/down first, then
+         sideways), so each badge stays as close to its real location as the
+         other badges allow. */
+      var cand = [];
+      [0, -1, 1, -2, 2].forEach(function (kx) {
+        [0, -1, 1, -2, 2, -3, 3].forEach(function (ky) { cand.push([kx, ky]); });
+      });
+      cand.sort(function (a, b) { return Math.hypot(a[0] * 1.6, a[1]) - Math.hypot(b[0] * 1.6, b[1]); });
       badges.slice().sort(function (a, b) { return b._n - a._n; }).forEach(function (m) {
-        var base = map.latLngToLayerPoint(m._base), dy = 0, tries = 0;
-        function hit(pt) {
-          return placed.some(function (q) { return Math.abs(q.x - pt.x) < (q.w + m._len) / 2 && Math.abs(q.y - pt.y) < 32; });
-        }
-        var pt = L.point(base.x, base.y);
-        while (hit(pt) && tries < 12) {
-          tries++;
-          dy = (tries % 2 ? 1 : -1) * Math.ceil(tries / 2) * 34;
-          pt = L.point(base.x, base.y + dy);
+        var base = map.latLngToLayerPoint(m._base);
+        var pt = base;
+        for (var i = 0; i < cand.length; i++) {
+          var t = L.point(base.x + cand[i][0] * (m._len * 0.55), base.y + cand[i][1] * 30);
+          var bad = placed.some(function (q) { return Math.abs(q.x - t.x) < (q.w + m._len) / 2 + 2 && Math.abs(q.y - t.y) < 30; });
+          if (!bad) { pt = t; break; }
         }
         placed.push({ x: pt.x, y: pt.y, w: m._len });
         m.setLatLng(map.layerPointToLatLng(pt));
