@@ -68,7 +68,7 @@ Daegu is the easiest big-city day trip in Korea that most travelers skip. The KT
 
 This guide is written from research, not from a single visit. Times and prices below come from official city and operator pages, checked November 19, 2026. Anything we could not confirm against an official page is marked (미확인, unverified), so treat those lines as leads, not promises.
 
-{{< figure src="images/photos/daegu-01.webp" alt="Gyesan Cathedral in Daegu" caption="Gyesan Cathedral, the red-brick anchor of the Modern Alley walk. Photo: Šolon, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/daegu-01.webp" alt="Gyesan Cathedral in Daegu" caption="The Modern Alley loop is 1.64 km and takes about two hours. It is free and open at all hours. Photo: Šolon, CC BY-SA 4.0" >}}
 
 ## 🚄 How do you get to Daegu?
 
@@ -96,7 +96,7 @@ Walk ten minutes west to Seomun Market, one of the oldest markets in Korea and s
 
 On Friday, Saturday, and Sunday evenings the market becomes the Seomun Night Market. The 2026 season opened on March 27 and runs through December; the exact closing day in December is (미확인), and the market rests for about three months over winter. Hours are 19:00 to 23:30 on Fridays and Saturdays and 19:00 to 22:30 on Sundays, and it is closed Monday to Thursday.
 
-{{< figure src="images/photos/daegu-02.webp" alt="Seomun Night Market in Daegu" caption="Seomun Night Market in October 2016, its first season. Photo: Choi2451, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/daegu-02.webp" alt="Seomun Night Market in Daegu" caption="The night market opens 19:00 on Fridays to Sundays and is closed Monday to Thursday. Ignore old listings that say 17:30. Photo: Choi2451, CC BY-SA 3.0" >}}
 
 🔥 Local tip: Ignore any listing that gives night market hours as 17:30 to midnight. That is the old schedule still floating around on the city's own older pages. The current operator and the city's March 27, 2026 notice both say 19:00, and that is the schedule to plan around.
 
@@ -110,7 +110,7 @@ Daegu has two cable cars, and one of them fits the end of this day. Apsan Cable 
 
 Palgongsan Cable Car is the mountain one, an hour northeast at 820 m, and it pairs with the temples on Palgongsan rather than the downtown route. The round trip is 14,000 KRW for adults per the city tourism page, and the November hours are 09:30 to 17:10, with seasonal weekend extensions. The operator posts fares and the timetable as images, which we could not read, so both numbers are worth re-checking on the operator's site (미확인) before you build a day around them.
 
-{{< figure src="images/photos/daegu-03.webp" alt="Palgongsan Cable Car over forested mountains" caption="Palgongsan Cable Car, August 2016. Photo: Choi2451, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/daegu-03.webp" alt="Palgongsan Cable Car over forested mountains" caption="Fares and timetable are posted as images, so re-check them on the operator's site before you plan around the cable car. Photo: Choi2451, CC BY-SA 4.0" >}}
 
 ## 🍽️ What to eat: Daegu's official ten
 

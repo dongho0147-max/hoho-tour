@@ -38,7 +38,7 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/seoul-cafe-03.webp" alt="Storefronts on a street in Seongsu-dong" caption="Storefronts in Seongsu-dong. Photo: CartoonChess, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-cafe-03.webp" alt="Storefronts on a street in Seongsu-dong" caption="Cafes change menus and hours often. Check the place you care about before you go. Photo: CartoonChess, CC BY-SA 4.0" >}}
 
 ## ☕ Where do you start, and why Seongsu first?
 
@@ -70,13 +70,13 @@ Seongsu is the most spacious. Yeonnam is the most relaxed. Ikseon-dong is the pr
 
 Take the subway to Hongik University Station and walk to Yeonnam-dong, the quiet neighborhood just north of Hongdae. The center of it is the Gyeongui Line Forest Park, a long linear park built on an old railway line. The cafes sit along the park edges, with outdoor tables facing the trees. It is the most walkable cafe area in the city, and it is at its best in the late afternoon, when the light comes through the trees and the park fills with people walking dogs and riding bikes.
 
-{{< figure src="images/photos/seoul-cafe-04.webp" alt="Gyeongui Line Forest Park in Yeonnam-dong with trees and a path" caption="Gyeongui Line Forest Park in Yeonnam-dong. Photo: Korea Tourism Organization, Lee Bumsu, KOGL Type 1" >}}
+{{< figure src="images/photos/seoul-cafe-04.webp" alt="Gyeongui Line Forest Park in Yeonnam-dong with trees and a path" caption="The park is at its best in late afternoon. Order something iced if the weather is warm. Photo: Korea Tourism Organization, Lee Bumsu, KOGL Type 1" >}}
 
 Order something iced if the weather is warm, because Yeonnam cafes do iced coffee well and the park benches are made for sitting with one. If you want a break from coffee, the bakeries here are strong, and a pastry with a park view is a legitimate afternoon plan. Most cafes in the area close between 21:00 and 22:00 based on recent listings, so the evening belongs to the next stop, not this one.
 
 > **🔥 Local tip:** The window seats with park views are fought over on weekends, and some cafes run a waitlist at weekend lunchtime. Go on a weekday morning instead, then walk straight into the park while the light is still soft. Based on recent listings/reviews, checked November 2026.
 
-{{< figure src="images/photos/seoul-cafe-05.webp" alt="Inside a cafe in Hongdae with tables and a counter" caption="Inside a cafe in Hongdae, a short walk from Yeonnam-dong. Photo: seafaringwoman, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-cafe-05.webp" alt="Inside a cafe in Hongdae with tables and a counter" caption="Window seats with park views are fought over on weekends. Go on a weekday morning. Photo: seafaringwoman, CC BY 2.0" >}}
 
 ## 🏮 Why save Ikseon-dong for last?
 
@@ -92,7 +92,7 @@ The trade-off is size. The rooms are small, the popular places have queues, and 
 
 You do not need a fixed order, but it helps to have a plan. In Seongsu, order a flat white or a hand-drip coffee and a pastry, and judge the cafe on the coffee alone. In Yeonnam, order an iced americano and sit outside, and judge the cafe on the park view. In Ikseon-dong, order a dessert set and a tea or a latte, and judge the cafe on the room itself. Three stops, three different tests, and you will know which neighborhood is yours by the end of the day.
 
-{{< figure src="images/photos/seoul-cafe-07.webp" alt="A glass of latte with latte art and a pastry on a plate at a cafe table" caption="Latte and pastry, the cafe crawl in one frame. Photo: Jonatan Svensson Glad, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-cafe-07.webp" alt="A glass of latte with latte art and a pastry on a plate at a cafe table" caption="In Ikseon-dong, order a dessert set with tea or a latte, and judge the cafe on the room itself. Photo: Jonatan Svensson Glad, CC BY-SA 4.0" >}}
 
 {{< sticker kind="yum" >}}
 

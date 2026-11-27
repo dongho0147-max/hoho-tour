@@ -78,7 +78,7 @@ Sokcho is the best one-night escape from Seoul if you want a mountain, a beach, 
 
 This guide is written from research, not from a single visit. Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check the bus timetable in Naver Map before you go.
 
-{{< figure src="images/photos/sokcho-02.webp" alt="The Seoraksan cable car cabin on its wire above the mountain" caption="The Seoraksan cable car. Photo: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/sokcho-02.webp" alt="The Seoraksan cable car cabin on its wire above the mountain" caption="If you book a tour, check whether the cable car ticket is included. On the listing we found, it was not. Photo: Bernard Gagnon, CC0" >}}
 
 ## 🚌 Should you take the bus or a tour?
 
@@ -120,7 +120,7 @@ Sleep in Sokcho town, near the beach or the port, not up by the park entrance. T
 
 Dinner belongs to Daepohang Port. The port is a working harbor with a long row of sashimi restaurants and dried-fish stalls, and it stays lively into the evening. Order a sashimi set if you eat raw fish, or go for grilled fish and a hot soup if you do not. A full dinner for two at the port usually lands in the 40,000-80,000 KRW range based on recent listings, depending on what you order. If raw fish is not your thing, Sokcho has two local dishes worth trying instead: dakgangjeong, the sweet and crispy fried chicken sold by weight in the market, and squid sundae, a Sokcho specialty stuffed with squid and vegetables.
 
-{{< figure src="images/photos/sokcho-07.webp" alt="A platter of sliced raw fish hoe with banchan on a restaurant table" caption="Hoe, sliced raw fish with banchan: the plate Daepohang Port is built around. Photo: littlepepper, CC0" >}}
+{{< figure src="images/photos/sokcho-07.webp" alt="A platter of sliced raw fish hoe with banchan on a restaurant table" caption="Raw fish not your thing? Try dakgangjeong or squid sundae instead. Photo: littlepepper, CC0" >}}
 
 > **🔥 Local tip:** At Daepohang, a set for two runs about 40,000 to 70,000 KRW and mulhoe (spicy cold raw fish soup) about 15,000 to 22,000 KRW, based on recent visitor guides, checked November 2026. The price is the catch, not the fish: agree on the set and the price before you sit down, and check whether the maeuntang (spicy fish stew) at the end is included or extra.
 
@@ -128,7 +128,7 @@ Dinner belongs to Daepohang Port. The port is a working harbor with a long row o
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/sokcho-05.webp" alt="Daepo Port in Sokcho with boats and harbor buildings" caption="Daepo Port, Sokcho. Photo: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/sokcho-05.webp" alt="Daepo Port in Sokcho with boats and harbor buildings" caption="At Daepohang, agree on the set and the price before you sit. The price is the catch, not the fish. Photo: Bernard Gagnon, CC0" >}}
 
 ## 🏖️ What about Abai Village and the beach?
 
@@ -136,7 +136,7 @@ Save the morning of day two for the coast. Sokcho Beach is a long, clean stretch
 
 The Gaetbae boat, a small hand-pulled ferry across the harbor channel, is the charming way to get there. It is a short ride and costs a small fare, usually around 500-1,000 KRW based on recent listings. If the boat is not running, the road bridge works fine and the walk is short.
 
-{{< figure src="images/photos/sokcho-04.webp" alt="Sokcho Beach with sand and the sea" caption="Sokcho Beach. Photo: Dr. Thomas Liptak, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/sokcho-04.webp" alt="Sokcho Beach with sand and the sea" caption="The Gaetbae boat is a small hand-pulled ferry across the channel. If it is not running, the road bridge works. Photo: Dr. Thomas Liptak, CC BY-SA 4.0" >}}
 
 ## 🚫 Skip this if...
 

@@ -60,7 +60,7 @@ Danyang is a small riverside town in North Chungcheong that Seoulites treat as a
 Two nights is the right length. You get a slow first evening on the river, one full day for the sights, and a proper last meal before you head home. This guide is built around winter and shoulder-season hours (November to March), because that is when the opening times get tricky.
 
 
-{{< figure src="images/photos/danyang-blog-01-dodam.jpg" alt="Dodamsambong peaks rising from the Namhan River" caption="Dodamsambong, three peaks in the Namhan River. Photo: Ken Eckert, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/danyang-blog-01-dodam.jpg" alt="Dodamsambong peaks rising from the Namhan River" caption="Hours get tricky from November to March, so check them before you go. Photo: Ken Eckert, CC BY-SA 4.0" >}}
 
 
 ## 🧳 Before you go: how do you get to Danyang?
@@ -114,7 +114,7 @@ Dodamsambong is the postcard view of Danyang: three rock peaks standing in the N
 For the water-level view, there is a Dodamsambong cruise. In November and December it runs a shortened route, so check the fare and timetable on the operator's official site (danyangcruise.co.kr). Bring photo ID in case boarding needs it.
 
 
-{{< figure src="images/photos/danyang-blog-02-seokmun.jpg" alt="Seokmun stone gate framing the Namhan River in Danyang" caption="Seokmun, the natural stone gate with the river framed through it. Photo: Steve46814, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/danyang-blog-02-seokmun.jpg" alt="Seokmun stone gate framing the Namhan River in Danyang" caption="Seokmun often photographs better than the peaks. Give it about an hour in late afternoon light. Photo: Steve46814, CC BY-SA 3.0" >}}
 
 
 ### 🧄 Gugyeong Market, the garlic market
@@ -138,7 +138,7 @@ Skip filling up on one thing. Buy small, share, move on.
 Jando is the cliffside wooden walkway along the river, about 1.1 km and free (per Danyang County). Lights are said to stay on until 23:00 after sunset, but hours seem to vary by season, so check the county site first. It is a flat 1-hour walk and the calmest part of the trip.
 
 
-{{< figure src="images/photos/danyang-blog-05-jando.jpg" alt="Danyang River Jando wooden walkway along the river cliff" caption="Danyang River Jando, the riverside cliff walkway. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
+{{< figure src="images/photos/danyang-blog-05-jando.jpg" alt="Danyang River Jando wooden walkway along the river cliff" caption="The walkway is flat and takes about an hour. Check evening lighting hours with Danyang County. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
 
 
 ## ⛰️ Day 2: How do you fit the cave, the skywalk, and the lights into one day?
@@ -153,7 +153,7 @@ Start with the cave, because the light tunnel does not open until the afternoon 
 Gosu Cave is a registered Natural Monument (No. 256) and open every day of the year. Winter hours run 09:00 start, with the last entry at 17:00. An adult ticket is 11,000 KRW (the official list price, and online discounts may apply). Plan about 1 hour inside. The cave stays cool all year, and parts of the floor are wet, so wear shoes with grip.
 
 
-{{< figure src="images/photos/danyang-blog-03-gosu.jpg" alt="Inside Gosu Cave with limestone formations" caption="Inside Gosu Cave. Photo: Steve46814, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/danyang-blog-03-gosu.jpg" alt="Inside Gosu Cave with limestone formations" caption="Parts of the cave floor are wet, so wear non-slip shoes. Photo: Steve46814, CC BY-SA 3.0" >}}
 
 
 ### Mancheonha Skywalk (late morning to early afternoon)
@@ -162,7 +162,7 @@ Gosu Cave is a registered Natural Monument (No. 256) and open every day of the y
 The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay 4,000 KRW, and youth, children, and seniors pay 3,000 KRW (official site). In winter it runs 09:00 to 17:00, on-site ticket sales close around 4 pm (sources differ slightly), so arrive before 3 pm, and you reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline (30,000 KRW) and alpine coaster (18,000 KRW) cost extra.
 
 
-{{< figure src="images/photos/danyang-blog-06-skywalk.jpg" alt="Mancheonha Skywalk over the Namhan River cliff" caption="Mancheonha Skywalk, above the Namhan River. Photo: Korea Tourism Organization, Shin Minseon, KOGL Type 1" >}}
+{{< figure src="images/photos/danyang-blog-06-skywalk.jpg" alt="Mancheonha Skywalk over the Namhan River cliff" caption="The skywalk is reached by shuttle bus only, and it closes on Tuesdays. Photo: Korea Tourism Organization, Shin Minseon, KOGL Type 1" >}}
 
 
 ### Paragliding (optional, weather permitting)
@@ -180,7 +180,7 @@ Danyang is Korea's paragliding capital, with launch sites at Yangbangsan and Dus
 An old railway tunnel turned into a light show, with an LED garden outside. In winter (November to March) it opens at 14:00, closes at 21:50, and sells its last ticket at 21:00. Adults pay 9,000 KRW. It is closed on Tuesdays. Give it 30 to 40 minutes.
 
 
-{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="Suyanggae Light Tunnel LED garden at night" caption="Suyanggae Light Tunnel, the LED garden at night. Photo: Suyanggae Light Tunnel" >}}
+{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="Suyanggae Light Tunnel LED garden at night" caption="The Light Tunnel is closed on Tuesdays and 30 to 40 minutes is enough. Photo: Suyanggae Light Tunnel" >}}
 
 
 

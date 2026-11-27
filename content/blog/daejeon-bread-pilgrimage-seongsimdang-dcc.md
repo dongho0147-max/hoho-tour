@@ -80,7 +80,7 @@ Your train pulls into Daejeon Station, and the first Seongsimdang is right there
 
 Here is the move: buy one fried soboro now and eat it while it is still warm. Then buy nothing else. The full shop is 15 minutes away, and you do not want to carry a gift box through the morning. Around 08:00 this branch is quiet, based on recent reviews. Around 18:00 it is packed with commuters buying bread for the train home.
 
-{{< figure src="images/photos/daejeon-03.webp" alt="The train-shaped entrance of Daejeon Station on Metro Line 1 in Daejeon" caption="The train-shaped entrance of Daejeon Station on Metro Line 1. Photo: *Youngjin, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/daejeon-03.webp" alt="The train-shaped entrance of Daejeon Station on Metro Line 1 in Daejeon" caption="Around 18:00 this branch is packed with commuters. Go in the morning, when it is quiet. Photo: *Youngjin, CC BY-SA 3.0" >}}
 
 ## 🍞 Stop 2: the main store, and the queue game
 
@@ -92,7 +92,7 @@ Now the queue game. Arrive at 07:40 to 08:10, right at opening, and you walk in 
 
 {{< sticker kind="pro-tip" >}}
 
-{{< figure src="images/photos/daejeon-02.webp" alt="Crowded bread display trays inside Seongsimdang, croissants and pastries with price tags" caption="Bread trays inside Seongsimdang. Photo: Trainholic, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/daejeon-02.webp" alt="Crowded bread display trays inside Seongsimdang, croissants and pastries with price tags" caption="Decide your order before you join the queue. Twigim soboro and buchu-ppang are the two names to know. Photo: Trainholic, CC BY-SA 4.0" >}}
 
 ## 🛒 What to order, and what it costs
 
@@ -130,7 +130,7 @@ Before the bridge, finish the bread run properly. The Seongsimdang DCC branch si
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/daejeon-06.webp" alt="Expo Bridge in Daejeon at night, lit arches with Hanbit Tower in the distance" caption="Expo Bridge at night, with Hanbit Tower in the distance. Photo: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/daejeon-06.webp" alt="Expo Bridge in Daejeon at night, lit arches with Hanbit Tower in the distance" caption="Walk to the bridge as the light fades and stay for the full dark. It looks twice as good against a black sky. Photo: Bernard Gagnon, CC0" >}}
 
 ## 🗺️ Your one-day route, hour by hour
 

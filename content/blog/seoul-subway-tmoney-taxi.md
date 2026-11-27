@@ -36,9 +36,9 @@ Nobody on the train will stop you or glare at you for looking lost. The system i
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/seoul-08.webp" alt="Line 7 platform at Dobongsan Station" caption="A Line 7 platform at Dobongsan Station, waiting between trains. Photo: LERK, CC BY 2.5" >}}
+{{< figure src="images/photos/seoul-08.webp" alt="Line 7 platform at Dobongsan Station" caption="Seoul's subway gets very crowded at rush hour, so plan around it. Photo: LERK, CC BY 2.5" >}}
 
-{{< figure src="images/illust/subway-illust.webp" alt="Seoul transit at a glance: AREX, T-money, subway and taxi" caption="Getting around Seoul: AREX, T-money, subway, taxi. Illustration: AI-generated" >}}
+{{< figure src="images/illust/subway-illust.webp" alt="Seoul transit at a glance: AREX, T-money, subway and taxi" caption="Fares and times here are ranges, so check current fares before you ride. Illustration: AI-generated" >}}
 
 ## 💳 What should you buy first? The T-money card
 
@@ -72,7 +72,7 @@ The transfer halls are the part that worries people, and they should not. Follow
 
 The inside of a Seoul subway car is quieter than you might expect. People talk softly or not at all, and most of them are looking at their phones. The seats at the ends of each car are priority seats, marked for elderly passengers, pregnant women, and people with disabilities, and visitors are expected to leave them empty even when the car is crowded. The regular seats are fair game, and if the car is full, standing is normal and nobody minds.
 
-{{< figure src="images/photos/seoul-44.webp" alt="Inside a Seoul Metro Line 2 train, the LCD screen showing Nakseongdae Station" caption="Inside a Line 2 train, the screen showing Nakseongdae Station. Photo: Aspere, CC0" >}}
+{{< figure src="images/photos/seoul-44.webp" alt="Inside a Seoul Metro Line 2 train, the LCD screen showing Nakseongdae Station" caption="Leave the priority seats at the car ends empty, even when the car is crowded. Stations are announced in Korean and English. Photo: Aspere, CC0" >}}
 
 The doors chime, a voice announces the station in Korean and English, and the station name is written on the platform wall in large letters as you pull in. If you miss your stop, stay calm. Get off at the next one, cross to the other platform, and ride back. The trains come every few minutes during the day, and a missed stop costs you five minutes at most.
 
@@ -104,13 +104,13 @@ The subway wins almost every daytime trip in Seoul. But there are three situatio
 
 A taxi ride in Seoul starts at around 4,800 KRW on the meter, and a short hop across a neighborhood usually lands somewhere between 6,000 and 12,000 KRW, depending on traffic.
 
-{{< figure src="images/photos/seoul-09.webp" alt="Orange Seoul taxi, front view" caption="An orange Seoul taxi, the regular kind you will use most. Photo: U2em, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/seoul-09.webp" alt="Orange Seoul taxi, front view" caption="You can pay by card in nearly every taxi, and tipping is not expected. Photo: U2em, CC BY-SA 3.0" >}}
 
 A ride from central Seoul to the airport runs roughly 60,000 to 80,000 KRW, more late at night, when a surcharge of 20 to 40 percent applies roughly between 10 p.m. and 4 a.m. You can pay by card in nearly every taxi, and tipping is not expected. If a driver ever quotes you a flat price instead of using the meter for a normal city ride, just walk away and call another one through the app.
 
 The taxis themselves come in a few colors. The orange and white ones are the regular taxis you will use most. The black ones with a gold stripe are deluxe taxis, nicer cars and higher fares, which you do not need. In practice, any taxi with its red light on is available, and you can wave one down on any main street. At night in Hongdae or Itaewon, the street hails get competitive, and that is when the app earns its keep.
 
-{{< figure src="images/photos/seoul-06.webp" alt="Myeongdong street at night with neon signs, taxis, and a bus" caption="Myeongdong at night, when the taxis outnumber the subway trains. Photo: Tristan Surtel, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-06.webp" alt="Myeongdong street at night with neon signs, taxis, and a bus" caption="At night in Hongdae or Itaewon, street hails get competitive, so use the app. Photo: Tristan Surtel, CC BY-SA 4.0" >}}
 
 ## 🍜 Where should you eat near the stations?
 
@@ -128,7 +128,7 @@ Jongno is a good example. One station puts you next to Jogyesa Temple and its la
 
 {{< collage "images/photos/seoul-17.webp|Jogyesa Temple interior with golden Buddha statues|Severin.stalder, CC BY-SA 3.0" "images/photos/seoul-18.webp|Bosingak Pavilion in Jongno|sunbeams879, CC BY" >}}
 
-{{< figure src="images/photos/seoul-05.webp" alt="Gyeongui Line Forest Trail street near Hongdae in daytime" caption="The Gyeongui Line Forest Trail near Hongdae, where getting off a stop early pays off. Photo: Christian Bolz, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-05.webp" alt="Gyeongui Line Forest Trail street near Hongdae in daytime" caption="Plan by neighborhood, not by line. Use the subway as the short hop between areas. Photo: Christian Bolz, CC BY-SA 4.0" >}}
 
 {{< sticker kind="tired-rest" >}}
 

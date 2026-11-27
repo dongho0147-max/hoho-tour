@@ -99,7 +99,7 @@ One naming note before you book anything: since July 1, 2026, Gwangju and the ol
 
 This guide was put together from official city, park, and rail pages plus recent listings, checked November 2026. Where sources disagreed or a value could not be confirmed, it is marked (unconfirmed), so treat those lines as "check before you go."
 
-{{< figure src="images/photos/gwangju-01.webp" alt="Mudeungsan behind Gwangju in winter" caption="Mudeungsan behind Gwangju in winter. Photo: Kgw1226, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gwangju-01.webp" alt="Mudeungsan behind Gwangju in winter" caption="Plan roughly three hours up and two down, and check the details before you go. Photo: Kgw1226, CC BY-SA 4.0" >}}
 
 ## 🚄 How do you get to Gwangju?
 
@@ -113,7 +113,7 @@ Book the round trip as soon as your dates are fixed. Weekend morning trains down
 
 The day starts two minutes from the KTX gates. The 1913 Songjeong Station Market has traded next to the station since 1913, and its market alley still feels like a country market that grew up around the rails. It is open 08:00 to 20:00, seven days a week (unconfirmed; the market's own hours vary by stall), and it costs nothing to wander. Come for the tteokgalbi smoke first, then the dried fish and the rice cakes.
 
-{{< figure src="images/photos/gwangju-02.webp" alt="Gwangju-Songjeong Station building" caption="Gwangju-Songjeong Station in March 2015. Photo: Saigen Jiro, CC0" >}}
+{{< figure src="images/photos/gwangju-02.webp" alt="Gwangju-Songjeong Station building" caption="Tteokgalbi Street packs about ten restaurants into one 350 m alley, each with its own queue. Photo: Saigen Jiro, CC0" >}}
 
 Walk on into the alley behind the market and you are on Songjeong Tteokgalbi Street: roughly ten tteokgalbi restaurants in a single 350-meter alley, all grilling the same dish, all with their own queue. The original branch, the one this guide recommends, is the first shop on the left as you enter from the market, and a set runs about 15,000 KRW per person (unconfirmed). Eat it with the rice and the kimchi that come with it, and do not order the second helping until you have finished the first.
 
@@ -163,7 +163,7 @@ The city officially named its seven signature dishes in 2019: Gwangju hanjeongsi
 
 The one table this guide will send you to by name: the original Songjeong Tteokgalbi branch by the market, about 15,000 KRW a set (unconfirmed).
 
-{{< figure src="images/photos/gwangju-03.webp" alt="A plate of Songjeong tteokgalbi" caption="A plate of Songjeong tteokgalbi. Photo: Minseong Kim, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gwangju-03.webp" alt="A plate of Songjeong tteokgalbi" caption="Order at the original Songjeong branch by the market, and confirm the price before you sit. Photo: Minseong Kim, CC BY-SA 4.0" >}}
 
 One seasonal warning: the Daein Art Market near the square ran its night market season through October 2026; the 2026 edition has closed, so art travelers should watch for the next one.
 

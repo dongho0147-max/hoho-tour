@@ -91,7 +91,7 @@ Two things changed in 2026 that older guides still get wrong. The tax-free syste
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/tokyo-02.webp" alt="The Kaminarimon gate at Senso-ji with its giant red lantern" caption="The Kaminarimon gate at Senso-ji, Asakusa. Photo: Soramimi, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/tokyo-02.webp" alt="The Kaminarimon gate at Senso-ji with its giant red lantern" caption="Tax-free shopping moved to airport refunds on November 1, 2026, so you no longer get the discount at the register. Photo: Soramimi, CC BY-SA 4.0" >}}
 
 ## ✈️ Which airport, and how do you get into the city?
 
@@ -121,7 +121,7 @@ From Asakusa it is one stop or a short river-bus ride to Tokyo Skytree. The towe
 
 If you have energy left, Ueno is two subway stops away. Ameya-Yokocho, the market street under the train tracks, sells everything from dried squid to sneakers, and it is one of the few places in Tokyo where haggling sometimes works.
 
-{{< figure src="images/photos/tokyo-03.webp" alt="Tokyo Skytree rising above the city" caption="Tokyo Skytree. Photo: Sashimi-b, CC BY 4.0" >}}
+{{< figure src="images/photos/tokyo-03.webp" alt="Tokyo Skytree rising above the city" caption="Skytree uses date-based pricing. The adult ticket for both decks starts at 3,000 yen and moves with demand. Photo: Sashimi-b, CC BY 4.0" >}}
 
 ## 🍣 Where and what to eat
 
@@ -171,7 +171,7 @@ Japan still runs on more cash than Korea. Cards work at chains, but market stall
 
 Three small things surprise first-timers. Public trash cans barely exist, so carry a small bag for wrappers and expect to take trash back to your hotel. The power is 100 volts with flat two-pin Type A plugs, so Korean round-pin chargers need an adapter, though most modern chargers handle the voltage fine. And register on Visit Japan Web before you fly to get the immigration and customs QR codes, which turns the arrival line into a scan. The 1,000 yen departure tax is already inside your ticket price.
 
-{{< figure src="images/photos/tokyo-04.webp" alt="Cherry blossoms over the Meguro River" caption="Cherry blossom season on the Meguro River. Photo: Guilhem Vellut, CC BY 2.0" >}}
+{{< figure src="images/photos/tokyo-04.webp" alt="Cherry blossoms over the Meguro River" caption="Cherry blossoms peak around the last week of March, so treat forecasts as a moving target. Photo: Guilhem Vellut, CC BY 2.0" >}}
 
 ## 🌸 When to come
 

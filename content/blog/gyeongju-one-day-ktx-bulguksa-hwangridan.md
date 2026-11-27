@@ -41,7 +41,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/gyeongju-02.webp" alt="The grass tombs of Daereungwon Tomb Complex" caption="The grass tombs of Daereungwon Tomb Complex. Photo: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/gyeongju-02.webp" alt="The grass tombs of Daereungwon Tomb Complex" caption="Give the park about an hour and walk the paths between the mounds, not just the gate view. Photo: Bernard Gagnon, CC0" >}}
 
 ## 🚄 How do you get to Gyeongju?
 
@@ -59,11 +59,11 @@ If you would rather not plan the buses at all, a guided day tour from Busan cove
 
 Go to Bulguksa first, while the light is good and the tour buses are still arriving. The temple dates to the 8th century, and it is a UNESCO site along with the Seokguram Grotto above it. Give it 1.5 to 2 hours. The stone bridges at the entrance, the two stone pagodas in the courtyard, and the pond at the back are the three things to see slowly.
 
-{{< figure src="images/photos/gyeongju-01.webp" alt="The pond and stone bridge at Bulguksa Temple" caption="The pond and stone bridge at Bulguksa Temple. Photo: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-01.webp" alt="The pond and stone bridge at Bulguksa Temple" caption="Give Bulguksa 1.5 to 2 hours. Admission is free. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
 Admission is free - the temple stopped charging on May 4, 2023, under the revised Cultural Heritage Protection Act (checked November 2026). Parking runs 2,000 KRW for a car and 4,000 KRW for a bus. If you have time and legs, the walk up to Seokguram Grotto takes about 1.5 hours each way on a forest path, and a bus runs part of the way. The grotto holds a stone Buddha carved in the 8th century, and it is the quieter half of the UNESCO listing.
 
-{{< figure src="images/photos/gyeongju-06.webp" alt="Sugwangjeon hall at Seokguram Grotto" caption="Sugwangjeon hall at Seokguram Grotto, above Bulguksa. Photo: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/gyeongju-06.webp" alt="Sugwangjeon hall at Seokguram Grotto" caption="The walk up to Seokguram takes about 1.5 hours each way on a forest path, and a bus runs part of the way. Photo: Bernard Gagnon, CC0" >}}
 
 > **🔥 Local tip:** Be there when it opens at 09:00. School groups start arriving mid-morning, and the first hour after opening has the best light and the thinnest crowds. For the way back, city buses 10 and 11 loop between downtown and Bulguksa from the Hwangridan-gil parking lot, about 28 runs a day each, so gaps can pass 30 minutes: check the next departure before you leave the temple. Based on recent listings/reviews, checked November 2026.
 
@@ -73,7 +73,7 @@ Admission is free - the temple stopped charging on May 4, 2023, under the revise
 
 Come back into town for the afternoon, and walk the Daereungwon Tomb Complex. It is a park of huge grass-covered mounds, and each one is a royal tomb from the Silla dynasty. The park is free to enter, and Cheonmachong, the one tomb you can walk inside, shows the gold crown and goods found in it. Give the park about an hour, and walk slowly: the mounds are best seen from the paths between them, not from the gate.
 
-{{< figure src="images/photos/gyeongju-04.webp" alt="Cheomseongdae, the old stone observatory" caption="Cheomseongdae, the old stone observatory. Photo: Zsinj, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-04.webp" alt="Cheomseongdae, the old stone observatory" caption="Cheomseongdae is smaller than most visitors expect, which is part of its charm. Photo: Zsinj, CC BY-SA 4.0" >}}
 
 Right next to the tombs stands Cheomseongdae, the oldest surviving observatory in East Asia. It is a stone tower from the 7th century, and it is smaller than most visitors expect, which is part of its charm. You look at it from the grass, take your photo, and move on. Ten minutes is enough, and that is fine.
 
@@ -81,7 +81,7 @@ Right next to the tombs stands Cheomseongdae, the oldest surviving observatory i
 
 End the day on Hwangridan-gil, the cafe and snack street that runs past the tombs. It is where Gyeongju eats and shops now: hanok cafes, small restaurants, and street stalls in a row. The street food is the point. Try the 10-won bread, a sweet pancake stamped to look like the old 10-won coin, for about 3,000 KRW. Try the cheese coin pancakes and the soft-serve too. A full snack crawl runs about 10,000 to 15,000 KRW per person.
 
-{{< figure src="images/photos/gyeongju-03.webp" alt="10-won bread, a street snack on Hwangridan-gil" caption="10-won bread, a street snack on Hwangridan-gil. Photo: Seefooddiet, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-03.webp" alt="10-won bread, a street snack on Hwangridan-gil" caption="The 10-won bread is about 3,000 KRW. A full snack crawl runs about 10,000 to 15,000 KRW per person. Photo: Seefooddiet, CC BY-SA 4.0" >}}
 
 > **🔥 Local tip:** Buy Hwangnam-ppang warm from the original shops on the street: a bag of 10 runs about 6,000 KRW, and the thin-skinned red-bean cakes are best the same day. Then walk on to Gyochon Traditional Village: the hanok lanes have no gate and no fixed hours, and Woljeonggyo Bridge at its edge stays open and lit until 22:00. Based on recent listings/reviews, checked November 2026.
 

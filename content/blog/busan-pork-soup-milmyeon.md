@@ -51,7 +51,7 @@ The soup arrives plain on purpose. You season it yourself at the table with salt
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/illust/busan-illust.webp" alt="Busan soup comparison: hot gukbap and cold milmyeon" caption="Two bowls, two temperatures: hot gukbap, cold milmyeon. Illustration: AI-generated" >}}
+{{< figure src="images/illust/busan-illust.webp" alt="Busan soup comparison: hot gukbap and cold milmyeon" caption="The soup arrives plain on purpose. Season it at the table with salted shrimp and chives, a little at a time. Illustration: AI-generated" >}}
 
 ## 🍲 Where should you start? Songjeong Samdae in Seomyeon
 
@@ -71,7 +71,7 @@ The shop takes cards. It never closes, so it works as a first breakfast after an
 
 Haeundae's old soup house is a different animal. Haeundae Wonjo Halmae Gukbap serves beef gukbap, not pork, and it has been doing it for nearly 50 years near Haeundae Beach. The address to use is 33 Gunam-ro 21beon-gil, a short walk from Haeundae Station toward the sea. There is a similarly named shop nearby at number 27, so check that your map pin shows number 33 and the Korean name 해운대원조할매국밥 before you set out.
 
-{{< figure src="images/photos/busan-08.webp" alt="Beef gukbap, beef and rice soup in a bowl" caption="Beef gukbap: beef and rice soup, the Haeundae morning bowl. Photo: Melsj, CC BY" >}}
+{{< figure src="images/photos/busan-08.webp" alt="Beef gukbap, beef and rice soup in a bowl" caption="The broth is clear and lightly spicy, a good bowl after a morning walk on the beach. Photo: Melsj, CC BY" >}}
 
 The soup is clear and mildly spicy, cooked with bean sprouts and radish, and it tastes lighter than the milky pork broth in Seomyeon. Beef gukbap is 9,500 KRW, and the seonji version with ox-blood curd is 9,500 KRW too. The ttarro version, with the rice served on the side instead of in the soup, is 10,000 KRW. It is a good breakfast after a morning walk on the beach, and it is the bowl to order if pork soup sounds too heavy before noon.
 
@@ -91,7 +91,7 @@ A large milmyeon is 9,000 KRW. The bibim version with spicy sauce is 8,000 KRW. 
 
 {{< sticker kind="pro-tip" >}}
 
-{{< figure src="images/photos/seoul-38.webp" alt="Busan milmyeon in a metal bowl, wheat noodles in clear broth with egg, red paste and cucumber" caption="Milmyeon, Busan's cold wheat noodles. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-38.webp" alt="Busan milmyeon in a metal bowl, wheat noodles in clear broth with egg, red paste and cucumber" caption="Eat milmyeon fast. The noodles go soft as the ice melts. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🏛️ Where did milmyeon begin? Naeho Naengmyeon
 

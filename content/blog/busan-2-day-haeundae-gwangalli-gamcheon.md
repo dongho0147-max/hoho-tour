@@ -42,7 +42,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/busan-02.webp" alt="A night festival crowd at Gwangalli Beach" caption="A night festival crowd at Gwangalli Beach. Photo: Jiwoon Kim, CC0" >}}
+{{< figure src="images/photos/busan-02.webp" alt="A night festival crowd at Gwangalli Beach" caption="Gwangalli has a free drone light show on Saturday evenings. It can be cancelled for weather, so check before you go. Photo: Jiwoon Kim, CC0" >}}
 
 ## 🌊 Day 1: Haeundae Beach and the Sky Capsule
 
@@ -66,7 +66,7 @@ If you want the capsule, the temple, and Gamcheon done for you in one day, the g
 
 Take the subway or a short taxi to Gwangalli Beach for the evening. The beach curves around the bay, and the Gwangan Bridge lights up over the water after dark. Walk the beachfront, pick a cafe with a second-floor window, and stay for the light show. The bridge puts on a light display on weekend evenings, and the beachfront is at its best then.
 
-{{< figure src="images/photos/busan-07.webp" alt="Gwangalli Beach and Gwangan Bridge in daylight" caption="Gwangalli Beach and Gwangan Bridge in daylight. Photo: Masterhatch, CC BY" >}}
+{{< figure src="images/photos/busan-07.webp" alt="Gwangalli Beach and Gwangan Bridge in daylight" caption="The bridge lights up after sunset, so time your visit for dusk. Photo: Masterhatch, CC BY" >}}
 
 > **🔥 Local tip:** If day 1 is a Saturday, stay for the free M Drone Light Show: about 1,100 drones draw pictures over the water for 12 minutes, twice a night, at 19:00 and 21:00 from October to February (20:00 and 22:00 from March to September). No ticket needed. Rain or strong wind can cancel it, so check the official notice on the day. Based on recent listings/reviews, checked November 2026.
 
@@ -78,23 +78,23 @@ Dinner here is easy: raw fish restaurants line the beach road, and the cafes sta
 
 Start day 2 at Gamcheon Culture Village, the hillside neighborhood of colorful houses, murals, and steep alleys. Go in the morning, before the tour groups arrive, and give it 2 hours. The village was a refugee settlement during the Korean War, and the art came later, so walk it with that in mind: people live here, and the lanes are their streets, not a theme park.
 
-{{< figure src="images/photos/busan-03.webp" alt="Colorful houses in Gamcheon Culture Village at sunset" caption="Colorful houses in Gamcheon Culture Village at sunset. Photo: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-03.webp" alt="Colorful houses in Gamcheon Culture Village at sunset" caption="The lanes are residents' streets. Walk quietly and wear comfortable shoes. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
 Wear proper shoes. The alleys are steep, the steps are uneven, and the loop up to the viewpoints and back down is a real walk. Bring water in summer. The Little Prince statue and the main viewpoint draw the longest lines, so see them first and then wander the quieter lanes behind them.
 
 > **🔥 Local tip:** Arrive between 09:00 and 10:00 on a weekday, before the tour buses cluster from around 10:00 to 14:00. Pick up the stamp map at the information center and follow its route downhill: it spreads out the foot traffic and ends at the cafe street. At peak hours the Little Prince photo queue runs 20 to 30 minutes. Some small stalls do not take cards, so carry small bills. Based on recent listings/reviews, checked November 2026.
 
-{{< figure src="images/photos/busan-05.webp" alt="Gamcheon Culture Village on a cloudy autumn day" caption="Gamcheon Culture Village on a cloudy autumn day, seen from the village bus stop. Photo: RonanHoogmoed, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-05.webp" alt="Gamcheon Culture Village on a cloudy autumn day" caption="Go early on a weekday for fewer crowds, and carry a little cash. Photo: RonanHoogmoed, CC BY-SA 4.0" >}}
 
 ## 🍜 Day 2 lunch: Jagalchi Market and milmyeon
 
 From Gamcheon, take the bus or subway to Jagalchi Market, the big seafood market by the harbor. The ground floor sells live seafood, and the upper floors have small restaurants that cook what you buy downstairs. If raw fish is not your thing, the market building has cooked options too, and the restaurants around the edge serve grilled fish sets for about 15,000 to 25,000 KRW per person.
 
-{{< figure src="images/photos/busan-04.webp" alt="Jagalchi Market in Busan" caption="Jagalchi Market in Busan. Photo: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/busan-04.webp" alt="Jagalchi Market in Busan" caption="Upstairs restaurants cook what you buy on the ground floor, and cooked options exist if raw fish is not your thing. Photo: Bernard Gagnon, CC0" >}}
 
 For something lighter, try milmyeon, the Busan wheat noodle in clear broth. It is the local answer to cold noodles, and a bowl runs about 8,000 to 11,000 KRW, based on recent listings. Eat it at a market stall or a small shop near Jagalchi, with the egg, cucumber, and red paste on top.
 
-{{< figure src="images/photos/busan-06.webp" alt="Busan milmyeon in a metal bowl" caption="Busan milmyeon: wheat noodles in clear broth with egg and cucumber. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-06.webp" alt="Busan milmyeon in a metal bowl" caption="Milmyeon is Busan's cold wheat noodle. Top it with egg, cucumber and the red sauce. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 {{< sticker kind="yum" >}}
 

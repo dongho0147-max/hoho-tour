@@ -39,7 +39,7 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/jeonju-night-01.webp" alt="Omokdae pavilion at night with red pillars and green painted beams" caption="Omokdae pavilion at night. Photo: Пекту Сан, CC0" >}}
+{{< figure src="images/photos/jeonju-night-01.webp" alt="Omokdae pavilion at night with red pillars and green painted beams" caption="Check the night market schedule before you go. It runs on specific evenings. Photo: Пекту Сан, CC0" >}}
 
 ## 🌇 Where does the evening start?
 
@@ -47,7 +47,7 @@ Start at Omokdae, the small pavilion on the hill at the edge of the Hanok Villag
 
 From Omokdae, walk down into the village slowly. The main streets are quieter now, the hanok guesthouses glow warm from the inside, and the cafes put their tables out. This is the best hour for photos, and it is also the best hour for doing nothing in particular. Sit on a bench. Watch the village settle.
 
-{{< figure src="images/photos/jeonju-night-06.webp" alt="Hanok rooftops of Jeonju Hanok Village seen from Omokdae in daylight" caption="Hanok rooftops of Jeonju Hanok Village seen from Omokdae in daylight. By dusk, lanterns glow over the same lanes. Photo: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/jeonju-night-06.webp" alt="Hanok rooftops of Jeonju Hanok Village seen from Omokdae in daylight" caption="Walk down from Omokdae slowly in the evening. It is the best hour for photos. Photo: Bernard Gagnon, CC0" >}}
 
 {{< collage "images/photos/jeonju-night-04.webp|Hanok Village streets in the evening light|Photo: ecodallaluna, CC BY-SA 2.0" "images/photos/jeonju-night-05.webp|A Korean street-food stall|Photo: teamshaw79, CC BY-SA 2.0" >}}
 
@@ -71,7 +71,7 @@ If you do not drink, the same restaurants serve the food without the makgeolli, 
 
 {{< sticker kind="pro-tip" >}}
 
-{{< figure src="images/photos/jeonju-night-03.webp" alt="The Jeonju River by Nambu Market with trees and the river" caption="The Jeonju River by Nambu Market, a quiet walk after dinner. Photo: Shamus7792003, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-night-03.webp" alt="The Jeonju River by Nambu Market with trees and the river" caption="The riverside path is quiet and well lit after dark, a good way to walk off dinner. Photo: Shamus7792003, CC BY-SA 4.0" >}}
 
 ## 🌙 Where do you go when the market closes?
 
