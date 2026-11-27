@@ -99,7 +99,7 @@
     /* Real geographic anchors where the median of a region's stops is not where
        people expect the badge (Daejeon city, and the middle of North/South
        Chungcheong, kept clear of Daejeon). */
-    var ANCHOR = { daejeon: [36.3504, 127.3845], chungcheong: [36.78, 127.05] };
+    var ANCHOR = { daejeon: [36.3504, 127.3845], chungcheong: [36.78, 127.05], incheon: [37.46, 126.66], 'gyeonggi-suwon': [37.26, 127.03], gangwon: [37.72, 128.3] };
     order.forEach(function (r) {
       r.center = ANCHOR[r.slug] || [median(r.pts.map(function (p) { return p.lat; })), median(r.pts.map(function (p) { return p.lng; }))];
     });
@@ -119,13 +119,15 @@
         if (el) { el.setAttribute('role', 'button'); el.setAttribute('aria-label', r.name + ' (' + r.pts.length + ')'); }
       });
       m._base = L.latLng(r.center);
-      m._len = (r.name.length * 9 + 44);
+      m._len = (r.name.length * 7.6 + 38);
       m._n = r.pts.length;
       badges.push(m);
     });
     /* Nudge overlapping badges (Seoul / Incheon / Suwon sit close together). */
+    var leaders = [];
     function spread() {
       var placed = [];
+      leaders.forEach(function (l) { badgeLayer.removeLayer(l); }); leaders = [];
       /* Candidate offsets, nearest to the true spot first (up/down first, then
          sideways), so each badge stays as close to its real location as the
          other badges allow. */
@@ -138,12 +140,19 @@
         var base = map.latLngToContainerPoint(m._base); var sz = map.getSize(); var half = m._len * 0.5 + 6;
         var pt = L.point(Math.min(Math.max(base.x, half + 4), sz.x - half - 4), base.y);
         for (var i = 0; i < cand.length; i++) {
-          var t = L.point(Math.min(Math.max(base.x + cand[i][0] * (m._len * 0.55), half + 4), sz.x - half - 4), base.y + cand[i][1] * 30);
-          var bad = placed.some(function (q) { return Math.abs(q.x - t.x) < (q.w + m._len) / 2 + 2 && Math.abs(q.y - t.y) < 30; });
+          var t = L.point(Math.min(Math.max(base.x + cand[i][0] * (m._len * 0.55), half + 4), sz.x - half - 4), base.y + cand[i][1] * 26);
+          var bad = placed.some(function (q) { return Math.abs(q.x - t.x) < (q.w + m._len) / 2 + 2 && Math.abs(q.y - t.y) < 26; });
           if (!bad) { pt = t; break; }
         }
         placed.push({ x: pt.x, y: pt.y, w: m._len });
         m.setLatLng(map.containerPointToLatLng(pt));
+        var raw = map.latLngToContainerPoint(m._base);
+        if (Math.hypot(raw.x - pt.x, raw.y - pt.y) > 14) {
+          var ln = L.polyline([m._base, map.containerPointToLatLng(pt)], { color: '#17211C', weight: 1.5, dashArray: '3 3', interactive: false, opacity: .8 });
+          var dt = L.circleMarker(m._base, { radius: 3, color: '#fff', weight: 1.5, fillColor: '#17211C', fillOpacity: 1, interactive: false });
+          badgeLayer.addLayer(ln); badgeLayer.addLayer(dt); leaders.push(ln, dt);
+          m.setZIndexOffset(500);
+        }
       });
     }
     map.on('zoomend moveend', function () { if (!current) spread(); });
