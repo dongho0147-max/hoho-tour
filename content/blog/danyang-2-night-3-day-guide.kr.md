@@ -26,18 +26,21 @@ stops:
     lng: 128.3398232
     note: "1일 차 저녁, 강변 절벽 데크길 산책."
   - name: "Gosu Cave"
+    spot: "chungcheong/gosu-cave"
     type: attraction
     name_ko: "고수동굴"
     lat: 36.9887326
     lng: 128.3816317
     note: "2일 차 오전, 석회 동굴 구경."
   - name: "Mancheonha Skywalk"
+    spot: "chungcheong/mancheonha-skywalk"
     type: attraction
     name_ko: "만천하스카이워크"
     lat: 36.9804476
     lng: 128.3397335
     note: "2일 차 낮, 남한강 위 전망대."
   - name: "Suyanggae Light Tunnel"
+    spot: "chungcheong/suyanggae-light-tunnel"
     type: attraction
     name_ko: "수양개빛터널"
     lat: 36.9602399

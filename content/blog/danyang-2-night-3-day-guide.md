@@ -26,18 +26,21 @@ stops:
     lng: 128.3398232
     note: "Day 1 evening: the cliffside riverside walkway."
   - name: "Gosu Cave"
+    spot: "chungcheong/gosu-cave"
     type: attraction
     name_ko: "고수동굴"
     lat: 36.9887326
     lng: 128.3816317
     note: "Day 2 morning: the limestone cave."
   - name: "Mancheonha Skywalk"
+    spot: "chungcheong/mancheonha-skywalk"
     type: attraction
     name_ko: "만천하스카이워크"
     lat: 36.9804476
     lng: 128.3397335
     note: "Day 2 midday: the viewing platform over the river."
   - name: "Suyanggae Light Tunnel"
+    spot: "chungcheong/suyanggae-light-tunnel"
     type: attraction
     name_ko: "수양개빛터널"
     lat: 36.9602399
