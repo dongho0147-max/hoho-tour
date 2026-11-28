@@ -50,7 +50,7 @@ A single subway ride usually runs about {{< pr "1,550 KRW" >}} on the card, with
 
 If you lose the card, it is gone, and so is whatever balance was on it. Treat it like cash, because that is what it is. Keep it in the same slot every day, for example in your phone case.
 
-> **🔥 Local tip:** Top-ups at a convenience store counter are Korean won cash only, so change money before you load up. The card itself costs 3,000 to {{< pr "5,000 KRW" >}} and that price is never refunded, only the balance is. Near the end of the trip, stop reloading and spend the balance down: convenience stores refund up to 20,000 or {{< pr "30,000 KRW" >}} depending on the chain, minus a {{< pr "500 KRW" >}} fee, and larger balances go to Tmoney Town near Seoul Station, Exit 10. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Top-ups at a convenience store counter are Korean won cash only, so change money before you load up. The card itself costs 3,000 to {{< pr "5,000 KRW" >}} and that price is never refunded, only the balance is. Near the end of the trip, stop reloading and spend the balance down: convenience stores refund up to 20,000 or {{< pr "30,000 KRW" >}} depending on the chain, minus a {{< pr "500 KRW" >}} fee, and larger balances go to Tmoney Town near **Seoul Station**, **Exit 10**. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="pro-tip" >}}
 
@@ -60,13 +60,13 @@ If you want the airport leg handled before you land, a booked pickup means a dri
 
 ## 🚇 How do you read a station?
 
-A Seoul subway station is a small underground neighborhood, and the signs are doing more work than they first appear to do. Every line has a color and a number, and every station has a number of its own, so you can navigate by numbers alone even if you cannot read a word of Korean. Line 2 is green and runs in a big circle around the city.
+A Seoul subway station is a small underground neighborhood, and the signs are doing more work than they first appear to do. Every line has a color and a number, and every station has a number of its own, so you can navigate by numbers alone even if you cannot read a word of Korean. **Line 2** is green and runs in a big circle around the city.
 
-When someone tells you to meet them at Hongik University Station, what they really mean is Line 2, station 239, or the [AREX](https://www.klook.com/en-US/activity/1163-airport-to-seoul-city-center-arex-train-incheon/?aid=145455) line if you are coming from the airport. The exit number matters as much as the station name. Exit 9 at Hongik University puts you in the middle of the Hongdae streets. Exit 1 puts you somewhere else entirely.
+When someone tells you to meet them at **Hongik University Station**, what they really mean is **Line 2**, station 239, or the [AREX](https://www.klook.com/en-US/activity/1163-airport-to-seoul-city-center-arex-train-incheon/?aid=145455) line if you are coming from the airport. The exit number matters as much as the station name. Exit 9 at Hongik University puts you in the middle of the Hongdae streets. Exit 1 puts you somewhere else entirely.
 
-The transfer halls are the part that worries people, and they should not. Follow the signs that say Transfer with an arrow, and keep walking. Some transfers are short, a single flight of stairs. Some, like the walk between lines at Seoul Station or Dongdaemun History and Culture Park, are long enough that you will wonder if you took a wrong turn. You did not. The tunnels are just long. Give yourself ten minutes for a transfer you have never done before, and five once you know the route.
+The transfer halls are the part that worries people, and they should not. Follow the signs that say Transfer with an arrow, and keep walking. Some transfers are short, a single flight of stairs. Some, like the walk between lines at Seoul Station or Dongdaemun History and **Culture Park**, are long enough that you will wonder if you took a wrong turn. You did not. The tunnels are just long. Give yourself ten minutes for a transfer you have never done before, and five once you know the route.
 
-> **🔥 Local tip:** Check the direction before you step onto the platform, not after. Every platform sign shows the terminal station in that direction. If you are heading toward Hongik University on Line 2, you want the train going toward Hongdae, not the one going toward City Hall.
+> **🔥 Local tip:** Check the direction before you step onto the platform, not after. Every platform sign shows the terminal station in that direction. If you are heading toward Hongik University on **Line 2**, you want the train going toward Hongdae, not the one going toward **City Hall**.
 
 ## 🪑 What is it like inside the car?
 
@@ -116,7 +116,7 @@ The taxis themselves come in a few colors. The orange and white ones are the reg
 
 - **Hongik University Station, Exit 9.** The Hongdae streets start here. Street stalls sell snacks for roughly {{< pr "3,000-8,000 KRW" >}} each. Eat standing up and keep walking.
 - **Myeongdong Station.** The food street starts a few minutes from the gates. Items run {{< pr "3,000-10,000 KRW" >}}. Share, so you can try more.
-- **Jongno 5-ga Station, Line 1, Exit 8.** Gwangjang Market is right there. A full breakfast of pancakes and noodles runs about {{< pr "10,000-15,000 KRW" >}}. Bring cash.
+- **Jongno 5-ga Station, Line 1, Exit 8.** **Gwangjang Market** is right there. A full breakfast of pancakes and noodles runs about {{< pr "10,000-15,000 KRW" >}}. Bring cash.
 
 {{< sticker kind="yum" >}}
 
@@ -124,7 +124,7 @@ The taxis themselves come in a few colors. The orange and white ones are the reg
 
 The subway is a tool, not the trip. Plan your day around neighborhoods instead of lines. Pick one area, walk it properly, and let the subway be the twenty-minute hop between areas.
 
-Jongno is a good example. One station puts you next to Jogyesa Temple and its lanterns, and a short walk away stands Bosingak Pavilion, where the bell has marked the city for centuries.
+Jongno is a good example. One station puts you next to **Jogyesa Temple** and its lanterns, and a short walk away stands Bosingak Pavilion, where the bell has marked the city for centuries.
 
 {{< collage "images/photos/seoul-17.webp|Jogyesa Temple interior with golden Buddha statues|Severin.stalder, CC BY-SA 3.0" "images/photos/seoul-18.webp|Bosingak Pavilion in Jongno|sunbeams879, CC BY" >}}
 

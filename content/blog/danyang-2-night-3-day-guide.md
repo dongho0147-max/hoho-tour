@@ -66,7 +66,7 @@ Two nights is the right length. You get a slow first evening on the river, one f
 ## 🧳 Before you go: how do you get to Danyang?
 
 
-- **Train:** Jungang Line trains (KTX-Eum, ITX-Maum, Mugunghwa) run from Cheongnyangni Station to Danyang Station. Check times and fares on Korail.
+- **Train:** Jungang Line trains (KTX-Eum, ITX-Maum, Mugunghwa) run from **Cheongnyangni Station** to **Danyang Station**. Check times and fares on Korail.
 - **Express bus:** Dong Seoul Terminal and Danyang are about 2 hours 20 minutes apart (per the Danyang bus terminal notice). Danyang to Dong Seoul has 9 departures a day, but some do not run on Tuesdays, Wednesdays, and Thursdays, and the last one does not run Monday to Thursday. Check your return bus first.
 - **By car:** a car helps, because the cave, the skywalk, and the light tunnel are in different directions from town.
 
@@ -74,7 +74,7 @@ Two nights is the right length. You get a slow first evening on the river, one f
 The market and the river walk are on foot from the town center. For the rest, plan on short taxis.
 
 
-> **The mistake to avoid:** The Mancheonha Skywalk and the Suyanggae Light Tunnel are both closed every Tuesday. Check your dates before you book anything. Both can open on a public holiday, so ask first.
+> **The mistake to avoid:** The **Mancheonha Skywalk** and the Suyanggae Light Tunnel are both closed every Tuesday. Check your dates before you book anything. Both can open on a public holiday, so ask first.
 
 
 ### 💳 What should you sort out first?
@@ -122,7 +122,7 @@ For the water-level view, there is a Dodamsambong cruise. In November and Decemb
 ### 🧄 Gugyeong Market, the garlic market
 
 
-Gugyeong Market is a permanent traditional market of about 120 shops, and garlic shows up in much of the food.
+**Gugyeong Market** is a permanent traditional market of about 120 shops, and garlic shows up in much of the food.
 
 
 - **Garlic bread.** Several shops sell it, often as a snack size and a gift box. Eat it warm.
@@ -156,7 +156,7 @@ Start with the cave, because the light tunnel does not open until the afternoon 
 ### Gosu Cave (about 09:00)
 
 
-Gosu Cave is a registered Natural Monument (No. 256) and open every day of the year. Winter hours run 09:00 start, with the last entry at 17:00. An adult ticket is {{< pr "11,000 KRW" >}} (the official list price, and online discounts may apply). Plan about 1 hour inside. The cave stays cool all year, and parts of the floor are wet, so wear shoes with grip.
+**Gosu Cave** is a registered Natural Monument (No. 256) and open every day of the year. Winter hours run 09:00 start, with the last entry at 17:00. An adult ticket is {{< pr "11,000 KRW" >}} (the official list price, and online discounts may apply). Plan about 1 hour inside. The cave stays cool all year, and parts of the floor are wet, so wear shoes with grip.
 
 
 {{< figure src="images/photos/danyang-blog-03-gosu.jpg" alt="Inside Gosu Cave with limestone formations" caption="Parts of the cave floor are wet, so wear non-slip shoes. Photo: Steve46814, CC BY-SA 3.0" >}}

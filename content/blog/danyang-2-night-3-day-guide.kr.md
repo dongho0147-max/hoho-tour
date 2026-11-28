@@ -52,7 +52,7 @@ stops:
     source: "https://www.sonohotelsresorts.com/belle_dy"
 ---
 
-[단양](https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455)은 충청북도 북쪽의 작은 강변 마을이에요. 서울 사람들이 주말에 슬쩍 다녀오는 곳이죠. 서울에서 기차나 버스로 갈 수 있고, 강 위의 바위 봉우리, 석회동굴, 절벽 스카이워크, 빛터널, 마늘에 진심인 시장이 몇 킬로미터 안에 모여 있어요.
+[단양](https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455)은 충청북도 북쪽의 작은 강변 마을이에요. 서울 사람들이 주말에 슬쩍 다녀오는 곳이죠. 서울에서 기차나 버스로 갈 수 있고, 강 위의 바위 봉우리, **석회동굴**, 절벽 스카이워크, 빛터널, 마늘에 진심인 시장이 몇 킬로미터 안에 모여 있어요.
 
 2박 3일이 딱 맞아요. 첫날 저녁은 강변을 천천히 걷고, 둘째 날은 하루 종일 관광지를 돌고, 마지막 날은 제대로 된 한 끼를 먹고 돌아오면 돼요. 이 글은 운영시간이 까다로워지는 겨울과 환절기(11월~3월) 기준으로 썼어요.
 
@@ -104,7 +104,7 @@ stops:
 
 ### 🧄 구경시장, 마늘 시장
 
-구경시장은 점포가 120곳쯤 모인 상설 재래시장이고, 마늘이 들어간 먹거리가 많아요.
+**구경시장**은 점포가 120곳쯤 모인 상설 재래시장이고, 마늘이 들어간 먹거리가 많아요.
 
 - **마늘빵.** 마늘빵 가게가 여러 곳 있고, 간식용과 선물용을 따로 파는 곳이 많아요. 따뜻할 때 드세요.
 - **마늘순대.** 단양 마늘을 넣은 순대예요. 한 접시 나눠 드세요.
@@ -195,6 +195,6 @@ stops:
 
 **언제 가는 게 좋아요?** 4~5월과 10~11월이 가장 무난해요. 겨울은 조용하고 저렴하지만 해가 짧고 강이 회색이에요.
 
-_사실 확인 출처(2026년 11월 27일 확인): 고수동굴(gosucave.co.kr), 만천하스카이워크(danyang.go.kr/tour/1926), 수양개빛터널(ledtunnel.co.kr), 도담삼봉 유람선(danyangcruise.co.kr), 단양강 잔도(danyang.go.kr/geopark/1790), 단양관광호텔 에델바이스(danyang.go.kr), 단양군 교통정보(danyang.go.kr/tour/1919), 만천하 이용요금·FAQ(dytc.or.kr/mancheonha)._
+_사실 확인 출처(2026년 11월 27일 확인): **고수동굴**(gosucave.co.kr), 만천하스카이워크(danyang.go.kr/tour/1926), 수양개빛터널(ledtunnel.co.kr), 도담삼봉 유람선(danyangcruise.co.kr), 단양강 잔도(danyang.go.kr/geopark/1790), 단양관광호텔 에델바이스(danyang.go.kr), 단양군 교통정보(danyang.go.kr/tour/1919), 만천하 이용요금·FAQ(dytc.or.kr/mancheonha)._
 
 {{< aff href="https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455" text="단양 당일투어 예약하기" >}}

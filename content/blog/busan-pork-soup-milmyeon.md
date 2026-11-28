@@ -55,7 +55,7 @@ The soup arrives plain on purpose. You season it yourself at the table with salt
 
 ## 🍲 Where should you start? Songjeong Samdae in Seomyeon
 
-Songjeong Samdae Gukbap has stood in Seomyeon's dwaeji-gukbap alley since 1946, and it is now run by the third generation of the same family. The address is 33 Seomyeon-ro 68beon-gil, about 200 meters from Exit 1 of Seomyeon Station, and it is open 24 hours. The alley barely closes. At 3 a.m. the room is still half full.
+Songjeong Samdae Gukbap has stood in Seomyeon's dwaeji-gukbap alley since 1946, and it is now run by the third generation of the same family. The address is 33 Seomyeon-ro 68beon-gil, about 200 meters from **Exit 1** of **Seomyeon Station**, and it is open 24 hours. The alley barely closes. At 3 a.m. the room is still half full.
 
 The broth is what sets it apart. Most gukbap shops boil pork bones. This one boils beef leg bones alongside the pork, which gives the soup a milkier color and a richer taste than the shops nearby. A bowl of dwaeji gukbap is {{< pr "9,500 KRW" >}}. The sundae and offal versions are the same price. The boiled-pork set, with a plate of sliced pork on the side, is {{< pr "12,000 KRW" >}}. The portions are generous, and the dining room is clean and comfortable in a way the alley's older shops are not.
 
@@ -69,7 +69,7 @@ The shop takes cards. It never closes, so it works as a first breakfast after an
 
 ## 🥩 What about beef soup by the beach? Haeundae Wonjo Halmae
 
-Haeundae's old soup house is a different animal. Haeundae Wonjo Halmae Gukbap serves beef gukbap, not pork, and it has been doing it for nearly 50 years near Haeundae Beach. The address to use is 33 Gunam-ro 21beon-gil, a short walk from Haeundae Station toward the sea. There is a similarly named shop nearby at number 27, so check that your map pin shows number 33 and the Korean name 해운대원조할매국밥 before you set out.
+Haeundae's old soup house is a different animal. Haeundae Wonjo Halmae Gukbap serves beef gukbap, not pork, and it has been doing it for nearly 50 years near **Haeundae Beach**. The address to use is 33 Gunam-ro 21beon-gil, a short walk from **Haeundae Station** toward the sea. There is a similarly named shop nearby at number 27, so check that your map pin shows number 33 and the Korean name 해운대원조할매국밥 before you set out.
 
 {{< figure src="images/photos/busan-08.webp" alt="Beef gukbap, beef and rice soup in a bowl" caption="The broth is clear and lightly spicy, a good bowl after a morning walk on the beach. Photo: Melsj, CC BY" >}}
 
@@ -83,7 +83,7 @@ The hours are the one thing that could not be pinned down cleanly. Busan's multi
 
 Milmyeon needs a different kind of attention from soup. The noodles are wheat and starch, yellowish and chewy, served in a chilled clear broth under a sheet of ice. It is Busan's summer dish, but the shops serve it all year, and on a cold day the contrast of icy noodles and a warm room is half the pleasure.
 
-Halmae Gaya Milmyeon is the easiest first stop. It has been open since 1974 on Gwangbok-ro in Nampo-dong, a few minutes' walk from Nampo Station and BIFF Square, close to [Gukje Market](https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455) and Jagalchi. It is open 10:30 to 21:30 every day, and the room is big enough that the wait is usually short. The address is 56-14 Gwangbok-ro.
+Halmae Gaya Milmyeon is the easiest first stop. It has been open since 1974 on Gwangbok-ro in Nampo-dong, a few minutes' walk from **Nampo Station** and BIFF Square, close to [Gukje Market](https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455) and Jagalchi. It is open 10:30 to 21:30 every day, and the room is big enough that the wait is usually short. The address is 56-14 Gwangbok-ro.
 
 A large milmyeon is {{< hl "9,000 KRW" >}}. The bibim version with spicy sauce is {{< pr "8,000 KRW" >}}. The handmade jumbo mandu, four pieces, are {{< pr "5,000 KRW" >}}, and they are worth ordering. The bibim is the one to try if you like heat, and the plain mul-milmyeon is the one to try first if this is your first bowl. Either way, eat it fast. The noodles go soft as the ice melts, and the shop knows it, which is why nobody lingers.
 
@@ -95,7 +95,7 @@ A large milmyeon is {{< hl "9,000 KRW" >}}. The bibim version with spicy sauce i
 
 ## 🏛️ Where did milmyeon begin? Naeho Naengmyeon
 
-Naeho Naengmyeon is the bowl with the story. The shop sits in a narrow alley of Uam Market in Uam-dong, Nam-gu, at 17 Uambeonyeong-ro 26beon-gil. It opened in 1952, run by a family from Hungnam who had made naengmyeon there since 1919, and it is widely called the birthplace of milmyeon. The Korea Tourism Organization lists its hours as 10:30 to 19:00, last order 18:30, with no closing day.
+Naeho Naengmyeon is the bowl with the story. The shop sits in a narrow alley of **Uam Market** in Uam-dong, Nam-gu, at 17 Uambeonyeong-ro 26beon-gil. It opened in 1952, run by a family from Hungnam who had made naengmyeon there since 1919, and it is widely called the birthplace of milmyeon. The Korea Tourism Organization lists its hours as 10:30 to 19:00, last order 18:30, with no closing day.
 
 Getting there takes more effort than the other stops on this list. Uam-dong is not on the tourist loop, and the alley is narrow enough that you will doubt the map once or twice. That is part of it. The room is old and small, and the noodles are the point. Mul-naengmyeon is the main bowl, and bibim-milmyeon is the spicy one. Seasoned skate is there for the brave. No official source lists current prices, so no number is printed here. Look at the menu board when you arrive. A bowl of milmyeon in Busan generally runs 7,000 to {{< pr "10,000 KRW" >}}, and this shop sits in that range.
 
@@ -105,7 +105,7 @@ The honest trade-off is the trip itself. If you are spending the day around Namp
 
 ## 🌇 What do you see between bowls?
 
-Busan is not only soup. Between meals, the city gives you two views that cost nothing: Gamcheon Culture Village, the hillside of colorful houses above the harbor, and Haeundae Beach, the wide sand curve with its promenade and seafront towers. Both are easy to reach by subway or bus from the restaurant areas, and both are worth an hour when your stomach needs a break.
+Busan is not only soup. Between meals, the city gives you two views that cost nothing: **Gamcheon Culture Village**, the hillside of colorful houses above the harbor, and Haeundae Beach, the wide sand curve with its promenade and seafront towers. Both are easy to reach by subway or bus from the restaurant areas, and both are worth an hour when your stomach needs a break.
 
 {{< collage "images/photos/seoul-30.webp|Gamcheon Culture Village, colorful hillside houses at sunset|Basile Morin, CC BY-SA 4.0" "images/photos/seoul-31.webp|Haeundae Beach, wide sand beach with promenade and seafront towers|Mobius6, CC BY-SA 4.0" >}}
 

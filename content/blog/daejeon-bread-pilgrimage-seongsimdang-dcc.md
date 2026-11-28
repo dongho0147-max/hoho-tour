@@ -58,7 +58,7 @@ map_note: "The Daejeon Station branch has no separate map listing, so it is plot
 
 Daejeon has one honest claim to fame, and the whole city knows it. People ride the [KTX](https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455) for 50 minutes from Seoul, buy bread, and ride home. The bakery is Seongsimdang, open since 1956, and it has never opened a branch in Seoul. If you want the bread, you go to Daejeon.
 
-This guide turns that bread run into a full day: Daejeon Station, both Seongsimdang branches that matter, a cafe break in Soje-dong, a free arboretum walk, and the DCC Expo area as the bridge lights up. Five stops, one metro line, and a bag of bread for the train home.
+This guide turns that bread run into a full day: **Daejeon Station**, both Seongsimdang branches that matter, a cafe break in Soje-dong, a free arboretum walk, and the DCC Expo area as the bridge lights up. Five stops, one metro line, and a bag of bread for the train home.
 
 Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check the queue situation before you go.
 
@@ -66,11 +66,11 @@ Routes, times, and prices below come from recent listings and reviews, checked N
 
 ## 🚄 How do you get there?
 
-Take the KTX from Seoul Station to Daejeon Station. The fastest trains do it in about 50 minutes, and a standard-class ticket runs around {{< pr "21,600 KRW" >}} based on recent listings. Trains run more than 100 times a day in each direction, so you can pick a morning departure and stop stressing about the timetable. Book in the Korail app a few days ahead if you travel on a weekend.
+Take the KTX from **Seoul Station** to Daejeon Station. The fastest trains do it in about 50 minutes, and a standard-class ticket runs around {{< pr "21,600 KRW" >}} based on recent listings. Trains run more than 100 times a day in each direction, so you can pick a morning departure and stop stressing about the timetable. Book in the Korail app a few days ahead if you travel on a weekend.
 
 The slower ITX trains take 70 to 90 minutes and cost less, but they eat your morning. For a bread day, the KTX is the right call. Aim to arrive in Daejeon by 08:00. That puts you at the bakery doors right when they open, and the whole day runs on that one decision.
 
-Inside Daejeon, Metro Line 1 does almost everything. Daejeon Station to Jungangno is one stop, about {{< pr "1,550 KRW" >}} on a transport card, and that is your stop for the main store. For the DCC area, ride Line 1 to Government Complex Daejeon Station, then bus 606, 618, or 911 to Hanbat Arboretum. A taxi from Daejeon Station to DCC takes about 20 minutes and costs roughly {{< pr "10,000 KRW" >}} based on recent listings. Kakao T works in Daejeon.
+Inside Daejeon, Metro **Line 1** does almost everything. Daejeon Station to Jungangno is one stop, about {{< pr "1,550 KRW" >}} on a transport card, and that is your stop for the main store. For the DCC area, ride **Line 1** to Government Complex Daejeon Station, then bus 606, 618, or 911 to Hanbat Arboretum. A taxi from Daejeon Station to DCC takes about 20 minutes and costs roughly {{< pr "10,000 KRW" >}} based on recent listings. Kakao T works in Daejeon.
 
 {{< aff href="https://www.klook.com/en-GB/activity/161041-daejeon-private-taxi-tour/?aid=145455" text="See the Daejeon private taxi tour on Klook, with Hanbat Arboretum and Expo Park on the route" >}}
 
@@ -84,7 +84,7 @@ Here is the move: buy one fried soboro now and eat it while it is still warm. Th
 
 ## 🍞 Stop 2: the main store, and the queue game
 
-The main store is at 15 Daejong-ro 480beon-gil in Jung-gu, open every day 08:00 to 22:00, all year round. One stop on Line 1 from Daejeon Station to Jungangno, then a short walk. Or walk from the station in about 15 minutes. The building is hard to miss: a big lit sign, a queue, and the smell of fried bread from half a block away.
+The main store is at 15 Daejong-ro 480beon-gil in Jung-gu, open every day 08:00 to 22:00, all year round. One stop on **Line 1** from Daejeon Station to Jungangno, then a short walk. Or walk from the station in about 15 minutes. The building is hard to miss: a big lit sign, a queue, and the smell of fried bread from half a block away.
 
 Now the queue game. Arrive at 07:40 to 08:10, right at opening, and you walk in with a 5 to 10 minute wait even on weekends, based on recent visit reports. Arrive at 11:30, and you can wait over an hour. Weekends after noon can pass two hours. One weekday visit at 14:30 still had a line, though it moved in about 15 minutes. The line looks worse than it is.
 
@@ -114,7 +114,7 @@ If you want a real lunch instead of a second breakfast, the Daejeon Tourism Orga
 
 ## 🌳 Stop 4: Hanbat Arboretum, the free walk
 
-Ride Line 1 west to Government Complex Daejeon Station, then bus 606, 618, or 911 to Hanbat Arboretum at 169 Dunsan-daero. {{< mk "Admission is free" >}}, and it is Korea's largest man-made urban arboretum. East garden, west garden, and a tropical glasshouse, with 19 theme gardens across the site.
+Ride **Line 1** west to **Government Complex Daejeon Station**, then bus 606, 618, or 911 to Hanbat Arboretum at 169 Dunsan-daero. {{< mk "Admission is free" >}}, and it is Korea's largest man-made urban arboretum. East garden, west garden, and a tropical glasshouse, with 19 theme gardens across the site.
 
 Hours depend on the season, checked November 2026. From November to March the gardens open 07:00 to 19:00, last entry 18:00. From April to October they open 05:00 to 21:00, last entry 20:00. The tropical glasshouse opens 09:00 to 18:00 all year, last entry 17:30. The east garden and the glasshouse close on Mondays, the west garden closes on Tuesdays, and one side is always open.
 
@@ -124,9 +124,9 @@ Give it an hour to 90 minutes. The pine grove and the lake are the calmest corne
 
 ## 🌉 Stop 5: DCC and the Expo Bridge at night
 
-The last stop is the Daejeon Convention Center, at 107 Expo-ro in Yuseong-gu. DCC opened on 21 April 2008 and is the city's main convention venue, with two connected buildings, DCC 1 and DCC 2. There is no ticket and no tour. You come for the area: the big halls, the open plaza, and the Expo Bridge glowing next door.
+The last stop is the Daejeon Convention Center, at 107 Expo-ro in Yuseong-gu. DCC opened on 21 April 2008 and is the city's main convention venue, with two connected buildings, DCC 1 and DCC 2. There is no ticket and no tour. You come for the area: the big halls, the open plaza, and the **Expo Bridge** glowing next door.
 
-Before the bridge, finish the bread run properly. The Seongsimdang DCC branch sits on the 1st floor of DCC Exhibition Hall 1 and opens at 08:00. It runs two separate lines, and this is the detail that saves you 20 minutes. One line is for general bakery: twigim soboro, buchu-ppang, baguettes, and savory breads. The other line is for the Cake Boutique corner: siru cake, cream rolls, and whole cakes. On weekday mornings the lines are short or walk-in, based on recent reviews. On weekend afternoons from 11:00 to 16:00, the bread line runs 15 to 30 minutes and the cake line 20 to 40 minutes. Then walk to the Expo Bridge as the light fades. The arches light up blue and red, the Hanbit Tower stands at the end of the bridge, and the DCC buildings glow on the right. This is the photo of the day, and it costs nothing. Stay for the full dark. The bridge looks twice as good when the sky goes black behind it.
+Before the bridge, finish the bread run properly. The Seongsimdang DCC branch sits on the 1st floor of DCC **Exhibition Hall** 1 and opens at 08:00. It runs two separate lines, and this is the detail that saves you 20 minutes. One line is for general bakery: twigim soboro, buchu-ppang, baguettes, and savory breads. The other line is for the Cake Boutique corner: siru cake, cream rolls, and whole cakes. On weekday mornings the lines are short or walk-in, based on recent reviews. On weekend afternoons from 11:00 to 16:00, the bread line runs 15 to 30 minutes and the cake line 20 to 40 minutes. Then walk to the Expo Bridge as the light fades. The arches light up blue and red, the **Hanbit Tower** stands at the end of the bridge, and the DCC buildings glow on the right. This is the photo of the day, and it costs nothing. Stay for the full dark. The bridge looks twice as good when the sky goes black behind it.
 
 {{< sticker kind="photo-spot" >}}
 
@@ -147,7 +147,7 @@ Before the bridge, finish the bread run properly. The Seongsimdang DCC branch si
 
 ## 🎒 Skip this if...
 
-Skip the main store queue at noon on a weekend if you only want the famous bread. Go to the station branch or the DCC branch instead, or come back at 08:00 the next day. Skip the arboretum on its closing day for the side you want: east garden and glasshouse shut Mondays, west garden shuts Tuesdays. And skip the full day if you only have a morning. The honest half-day is the station branch plus the main store plus Soje-dong, and the train home by lunch. A second day could be Jangtaesan Forest and Jungang Market, trees instead of bread.
+Skip the main store queue at noon on a weekend if you only want the famous bread. Go to the station branch or the DCC branch instead, or come back at 08:00 the next day. Skip the arboretum on its closing day for the side you want: east garden and glasshouse shut Mondays, west garden shuts Tuesdays. And skip the full day if you only have a morning. The honest half-day is the station branch plus the main store plus Soje-dong, and the train home by lunch. A second day could be Jangtaesan Forest and **Jungang Market**, trees instead of bread.
 
 {{< aff href="https://www.klook.com/activity/105340-daejeon-o-world-cherry-blossom-tulip-jangtaesan-recreational-forest/?aid=145455" text="See the Daejeon Jangtaesan Forest and Jungang Market full-day tour on Klook" >}}
 

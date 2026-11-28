@@ -63,7 +63,7 @@ Udo is about 6 square km, home to around 1,800 people, and shaped like a cow lyi
 
 {{< figure src="images/photos/jeju-east-02.webp" alt="Udo Island off the east coast of Jeju" caption="Rental cars are not allowed on the island. Scooters and buggies need a valid driving licence, and staff check. Photo: 제주영상문화산업진흥원, KOGL Type 1" >}}
 
-The loop road is about 17 km around the coast, and it takes about two hours by e-bike at an easy pace, or closer to three or four hours if you stop at every beach and cafe, which is the point. Start at Cheonjin Port, where the ferry lands, and work your way around. Hagosudong Beach has white coral sand, Geommeolle Beach has dark sand, and Udobong Peak has the lighthouse and the view back to Seongsan.
+The loop road is about 17 km around the coast, and it takes about two hours by e-bike at an easy pace, or closer to three or four hours if you stop at every beach and cafe, which is the point. Start at Cheonjin Port, where the ferry lands, and work your way around. **Hagosudong Beach** has white coral sand, **Geommeolle Beach** has dark sand, and Udobong Peak has the lighthouse and the view back to Seongsan.
 
 > **🔥 Local tip:** Take the first bus you can from Jeju City and aim to be at Seongsan Port by 08:30 on weekends and holidays. The ferry lines and the e-bike shops at Udo fill up fast after 10:00, so arriving early gets you a bike with a full battery and a calm first hour on the island. Based on recent listings/reviews, checked November 2026.
 
@@ -87,7 +87,7 @@ Come back on the ferry by mid-afternoon and walk or take a short taxi ride to Se
 
 {{< figure src="images/photos/jeju-east-03.webp" alt="Seopjikoji, the cliff coast east of Seongsan" caption="Give Seopjikoji about an hour. It is at its best in the late afternoon light. Photo: Engin Cukuroglu, CC BY-SA 4.0" >}}
 
-Then end at Gwangchigi Beach, the black-sand beach that faces Seongsan Ilchulbong across the water. It is the classic photo of the east coast: dark sand in front, the cone behind. It is not a swimming beach for most of the year, so treat it as a viewpoint and a walk, not a place to lay out a towel.
+Then end at **Gwangchigi Beach**, the black-sand beach that faces Seongsan Ilchulbong across the water. It is the classic photo of the east coast: dark sand in front, the cone behind. It is not a swimming beach for most of the year, so treat it as a viewpoint and a walk, not a place to lay out a towel.
 
 {{< figure src="images/photos/jeju-east-05.webp" alt="Seongsan Ilchulbong seen from the coastal park at dusk" caption="Gwangchigi is not a swimming beach for most of the year. Treat it as a viewpoint and a walk. Photo: Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" >}}
 

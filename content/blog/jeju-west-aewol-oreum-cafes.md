@@ -62,9 +62,9 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🌊 Start at Hyeopjae Beach and Hallim Park
 
-Start at Hyeopjae Beach, on the northwest coast. It is the pale-sand beach the west is known for, with shallow turquoise water and Biyangdo Island sitting offshore. Come in the morning, when the light is soft and the wind is low. The supervised swimming season runs roughly late June to early September, based on recent listings. Outside that window, treat it as a shore walk, not a swim.
+Start at **Hyeopjae Beach**, on the northwest coast. It is the pale-sand beach the west is known for, with shallow turquoise water and **Biyangdo Island** sitting offshore. Come in the morning, when the light is soft and the wind is low. The supervised swimming season runs roughly late June to early September, based on recent listings. Outside that window, treat it as a shore walk, not a swim.
 
-Next door is Hallim Park, a garden park built on old lava fields, with palm gardens, a bonsai garden, and two lava caves you walk through underground. Give it 1.5 to 2 hours. Admission runs about 12,000 to {{< hl "15,000 KRW" >}} for an adult, based on recent listings. The park is the weather-proof part of this day: if the wind picks up on the beach, the palm garden and the caves still work.
+Next door is **Hallim Park**, a garden park built on old lava fields, with palm gardens, a bonsai garden, and two lava caves you walk through underground. Give it 1.5 to 2 hours. Admission runs about 12,000 to {{< hl "15,000 KRW" >}} for an adult, based on recent listings. The park is the weather-proof part of this day: if the wind picks up on the beach, the palm garden and the caves still work.
 
 {{< figure src="images/photos/jeju-west-05.webp" alt="Gardens inside Hallim Park in western Jeju" caption="The park is the weather-proof stop. If the wind picks up on the beach, the palm garden and caves still work. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
 
@@ -72,7 +72,7 @@ Next door is Hallim Park, a garden park built on old lava fields, with palm gard
 
 ## 🍵 After lunch: tea fields at O'sulloc
 
-Drive or take the bus inland to O'sulloc Tea Museum, about 30 to 40 minutes from Hyeopjae. The museum sits beside wide rows of green tea, and the building itself is worth a slow lap even if you skip the exhibits. The cafe serves green tea lattes, matcha soft-serve, and tea desserts, roughly 5,000 to {{< pr "9,000 KRW" >}} each, based on recent listings.
+Drive or take the bus inland to **O'sulloc Tea Museum**, about 30 to 40 minutes from Hyeopjae. The museum sits beside wide rows of green tea, and the building itself is worth a slow lap even if you skip the exhibits. The cafe serves green tea lattes, matcha soft-serve, and tea desserts, roughly 5,000 to {{< pr "9,000 KRW" >}} each, based on recent listings.
 
 Two things to know before you go. First, the tea fields are a working farm, so stay on the paths and do not walk into the rows for photos. Second, the museum runs booked tea programs that sell out, so if you want one, book ahead and do not count on a walk-in spot.
 
@@ -135,6 +135,6 @@ A private car with a driver is the other easy option, and it lets you set your o
 | 17:00 | Saebyeol Oreum | 1 hour | 20 to 30 minute climb, sunset |
 | 18:30 | Handam Coastal Trail | 40 minutes | Flat walk, cafe to finish |
 
-Want more Jeju after this? The [East Jeju one-day route](/blog/jeju-east-seongsan-udo/) covers Seongsan, Udo Island, and Seopjikoji on the other coast, and the [Jeju 3-day guide without a rental car](/blog/jeju-3-days-no-car/) strings the whole island together by bus.
+Want more Jeju after this? The [East Jeju one-day route](/blog/jeju-east-seongsan-udo/) covers Seongsan, **Udo Island**, and Seopjikoji on the other coast, and the [Jeju 3-day guide without a rental car](/blog/jeju-3-days-no-car/) strings the whole island together by bus.
 
 {{< aff href="https://www.klook.com/en-US/activity/198295-mt-halla-aewol-cafe-street-full-day-unesco-tour/?aid=145455" text="Book a Mt. Halla and Aewol cafe street day tour" >}}

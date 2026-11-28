@@ -41,11 +41,11 @@ The draw is simple: noodles invented in Chinatown, an old port with real history
 
 ## 🚇 How do you get there? The subway does it all
 
-The trip starts at Seoul Station, on subway Line 1, heading toward [Incheon](https://www.klook.com/en-US/destination/c158-incheon/?aid=145455). Take the express if one comes, because it skips a string of smaller stations and saves you about fifteen minutes, but do not wait for it if a local train is already there. The local takes around an hour and twenty minutes, the express around an hour, and the fare is roughly 2,000 to {{< hl "3,000 KRW" >}} each way on a T-money card. That is less than a coffee and one of the best deals in Korean travel.
+The trip starts at **Seoul Station**, on subway **Line 1**, heading toward [Incheon](https://www.klook.com/en-US/destination/c158-incheon/?aid=145455). Take the express if one comes, because it skips a string of smaller stations and saves you about fifteen minutes, but do not wait for it if a local train is already there. The local takes around an hour and twenty minutes, the express around an hour, and the fare is roughly 2,000 to {{< hl "3,000 KRW" >}} each way on a T-money card. That is less than a coffee and one of the best deals in Korean travel.
 
 If you have not used the subway much yet, the guide to [the subway, the T-money card, and taxis](/blog/seoul-subway-tmoney-taxi/) covers the card and the transfer halls in detail. The short version is: tap in, sit down, and watch the city thin out through the window.
 
-The ride itself is part of the pleasure. The train leaves the downtown tunnels, crosses the river, and then runs at ground level past apartment blocks, small factories, and stretches of flat land that look nothing like central Seoul. Somewhere around halfway, the passengers change. The office workers thin out, the shoppers disappear, and the car fills with people carrying small bags and no particular hurry. By the time the train pulls into Incheon Station, the last stop on the line, you can smell the sea if the wind is coming off the water.
+The ride itself is part of the pleasure. The train leaves the downtown tunnels, crosses the river, and then runs at ground level past apartment blocks, small factories, and stretches of flat land that look nothing like central Seoul. Somewhere around halfway, the passengers change. The office workers thin out, the shoppers disappear, and the car fills with people carrying small bags and no particular hurry. By the time the train pulls into **Incheon Station**, the last stop on the line, you can smell the sea if the wind is coming off the water.
 
 | DIY by subway | Guided day tour |
 |---|---|
@@ -53,7 +53,7 @@ The ride itself is part of the pleasure. The train leaves the downtown tunnels, 
 | Your own pace, your own restaurant picks | Fixed stops, less planning |
 | Best if you like wandering | Best if you want the luge, rail bike, and ferry bundled |
 
-> **🔥 Local tip:** Do not plan this trip for a Monday. The Wolmi Sea Train, the Jjajangmyeon Museum, and the Jemulpo Club all close on Mondays, so go Tuesday to Sunday. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Do not plan this trip for a Monday. The Wolmi Sea Train, the **Jjajangmyeon Museum**, and the Jemulpo Club all close on Mondays, so go Tuesday to Sunday. Based on recent listings/reviews, checked November 2026.
 
 If you want someone else to handle the logistics, day-trip options from Seoul are easy to browse ahead of time. A full-day tour bundles Chinatown and Wolmido with the luge, the rail bike, and a seagull-feeding ferry.
 
@@ -81,23 +81,23 @@ After lunch, walk it off. The main street is short, and the pleasure is in the e
 
 ## 🌊 What is the view from the park above the port?
 
-From Chinatown, walk up to Jayu Park, the Freedom Park on the hill above the old port. The climb is gentle but real, and it earns you the best view in Incheon: the harbor below, the cranes, the water stretching out toward the islands, and on a clear day the sense that you are standing at the edge of Korea looking outward.
+From Chinatown, walk up to **Jayu Park**, the **Freedom Park** on the hill above the old port. The climb is gentle but real, and it earns you the best view in Incheon: the harbor below, the cranes, the water stretching out toward the islands, and on a clear day the sense that you are standing at the edge of Korea looking outward.
 
 The park is where General MacArthur's statue stands, from the Korean War landing in 1950, and it is one of those places where the history is not in a museum but in the ground under your feet. Sit on one of the benches there for ten minutes and do nothing. The port moves below, slow and industrial, and the city noise drops away.
 
 {{< figure src="images/photos/seoul-28.webp" alt="View from Jayu Park over trees to the harbor with cranes, ships and the sea" caption="Sit on a bench for ten minutes and do nothing but watch the harbor. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-Right next to the park, down a small slope, is Songwoldong Fairy Tale Village, a hillside of houses painted with murals of storybook characters. It sounds like it should be embarrassing, and somehow it is not. The murals are bright and a little chaotic, the lanes are narrow and steep, and the whole place feels like a neighborhood that decided to have fun one year and never stopped. It is a thirty-minute wander at most, and it is best in the late afternoon, when the light comes over the rooftops and the day-trippers start heading home. If you are traveling with children, this is the part of the day they will remember.
+Right next to the park, down a small slope, is **Songwoldong Fairy Tale Village**, a hillside of houses painted with murals of storybook characters. It sounds like it should be embarrassing, and somehow it is not. The murals are bright and a little chaotic, the lanes are narrow and steep, and the whole place feels like a neighborhood that decided to have fun one year and never stopped. It is a thirty-minute wander at most, and it is best in the late afternoon, when the light comes over the rooftops and the day-trippers start heading home. If you are traveling with children, this is the part of the day they will remember.
 
 {{< sticker kind="photo-spot" >}}
 
-A guided walk helps here if you want the port history without reading plaques all afternoon. One option pairs Chinatown and the Fairy Tale Village with a rail bike ride and a seagull-feeding cruise.
+A guided walk helps here if you want the port history without reading plaques all afternoon. One option pairs Chinatown and the **Fairy Tale Village** with a rail bike ride and a seagull-feeding cruise.
 
 {{< aff href="https://www.klook.com/en-US/activity/101959-west-korea-tour/?aid=145455" text="Browse the Chinatown and Fairy Tale Village day tour on Klook" >}}
 
 ## 🌅 Should you go down to the sea?
 
-If you still have energy after the village, go down to the water. The old port area around Wolmi Island is a short bus or taxi ride from Chinatown, and it is where Incheon feels most like a seaside city: a promenade, a few seafood restaurants, the smell of salt, and the slow turning of the harbor. In summer it is lively, almost crowded. In late November and December, when the wind comes off the Yellow Sea, it is empty and cold and beautiful in a completely different way.
+If you still have energy after the village, go down to the water. The old port area around **Wolmi Island** is a short bus or taxi ride from Chinatown, and it is where Incheon feels most like a seaside city: a promenade, a few seafood restaurants, the smell of salt, and the slow turning of the harbor. In summer it is lively, almost crowded. In late November and December, when the wind comes off the Yellow Sea, it is empty and cold and beautiful in a completely different way.
 
 {{< figure src="images/photos/seoul-29.webp" alt="Wolmi Sea Train, blue and orange monorail car, on the elevated track over the sea at Wolmido" caption="The train loops the island, about 6 km. Late November and December are cold and windy, so dress warmly. Photo: Trainholic, CC BY-SA 4.0" >}}
 

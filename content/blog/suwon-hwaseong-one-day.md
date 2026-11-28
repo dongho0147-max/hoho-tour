@@ -59,13 +59,13 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 ## 🚆 How do you get there?
 
-You have two good options, and the train wins. From Seoul Station, take the ITX-Saemaeul intercity train to Suwon. It takes about 27 minutes and costs about {{< pr "4,800 KRW" >}}. Buy at the station kiosk or through the Korail site. Tickets rarely sell out except on national holidays.
+You have two good options, and the train wins. **From Seoul Station**, take the ITX-Saemaeul intercity train to Suwon. It takes about 27 minutes and costs about {{< pr "4,800 KRW" >}}. Buy at the station kiosk or through the Korail site. Tickets rarely sell out except on national holidays.
 
-The cheaper option is subway Line 1 toward Sinchang. Suwon is 14 stops south of Seoul Station, about 58 minutes, and costs about {{< pr "1,950 KRW" >}} on a T-money card. Take the train if you value your morning. Take the subway if you value the fare difference and do not mind the ride.
+The cheaper option is subway **Line 1** toward Sinchang. Suwon is 14 stops south of **Seoul Station**, about 58 minutes, and costs about {{< pr "1,950 KRW" >}} on a T-money card. Take the train if you value your morning. Take the subway if you value the fare difference and do not mind the ride.
 
-From Suwon Station, take city bus 11 or 13 from Exit 4 to the Hwaseong Haenggung stop, then walk about five minutes to the palace. Buses 2-2, 36, 39, 400, and 999 from the Maesan Market stop go to Paldalmun instead. Either way, the bus ride is short and the fortress is easy to find once you are there.
+**From Suwon Station**, take city bus 11 or 13 from **Exit 4** to the Hwaseong Haenggung stop, then walk about five minutes to the palace. Buses 2-2, 36, 39, 400, and 999 from the Maesan Market stop go to Paldalmun instead. Either way, the bus ride is short and the fortress is easy to find once you are there.
 
-> **🔥 Local tip:** Coming from Gangnam, skip Seoul Station entirely: express bus 3000 from Gangnam Station goes straight to Paldalmun, and from Jamsil, bus 1007 drops you at Hwaseong Haenggung. Based on recent visitor guides, checked November 2026.
+> **🔥 Local tip:** Coming from Gangnam, skip Seoul Station entirely: express bus 3000 from **Gangnam Station** goes straight to Paldalmun, and from Jamsil, bus 1007 drops you at Hwaseong Haenggung. Based on recent visitor guides, checked November 2026.
 
 ## 🧱 Where do you start the wall walk?
 
@@ -73,7 +73,7 @@ Start at Paldalmun, the south gate, and walk the wall clockwise. The walls and g
 
 {{< collage "images/photos/suwon-01.webp|The wall of Hwaseong Fortress in Suwon|Photo: VN.NguyenDucDuy, CC BY-SA 4.0" "images/photos/suwon-04.webp|Banghwasuryujeong pavilion on the fortress wall|Photo: oreum, CC BY-SA 3.0" >}}
 
-Free guided tours with a cultural heritage guide leave from the guide offices at the palace, Paldalmun, Seojangdae, Janganmun, Jangan Park, Hwahongmun, and Yeonmudae at 10:00, 11:00, 13:30, 14:30, and 15:30. English, Japanese, and Chinese tours are offered to foreign visitors. Walk-in requests need at least four people and can be turned down on busy days, so join the group at the office rather than hoping to flag one down on the wall.
+Free guided tours with a cultural heritage guide leave from the guide offices at the palace, Paldalmun, Seojangdae, Janganmun, **Jangan Park**, Hwahongmun, and Yeonmudae at 10:00, 11:00, 13:30, 14:30, and 15:30. English, Japanese, and Chinese tours are offered to foreign visitors. Walk-in requests need at least four people and can be turned down on busy days, so join the group at the office rather than hoping to flag one down on the wall.
 
 > **🔥 Local tip:** Walk the wall in the morning and visit the palace after lunch. The wall is exposed, so the morning light is better and the heat is lower. The palace has shade and courtyards, and it is the right place for the middle of the day.
 
@@ -117,7 +117,7 @@ If beef is not your thing, Suwon has a second classic: the fried chicken street 
 
 ## 🎫 Should you take a tour, or go yourself?
 
-Go yourself. The train is simple, the fortress is free to walk, and the palace costs {{< pr "2,000 KRW" >}}. A tour only makes sense if you want to combine Suwon with somewhere else, like the Korean Folk Village, Gwangmyeong Cave, or the Starfield Library. The guided options run about 10 to 11 hours and cost roughly US{{< pr "$45" >}}-70 per person based on recent listings, and most of that time goes to the other stops and the transfers.
+Go yourself. The train is simple, the fortress is free to walk, and the palace costs {{< pr "2,000 KRW" >}}. A tour only makes sense if you want to combine Suwon with somewhere else, like the **Korean Folk Village**, **Gwangmyeong Cave**, or the Starfield Library. The guided options run about 10 to 11 hours and cost roughly US{{< pr "$45" >}}-70 per person based on recent listings, and most of that time goes to the other stops and the transfers.
 
 One tour worth knowing about is the night-view version, which covers [Hwaseong Fortress](https://www.klook.com/en-US/activity/29707-suwon-hwaseong-fortress-folk-village-tour/?aid=145455), the Starfield Library, and the palace in the evening, running 10:50 to 22:20. Recent listings show it rated 5.0 out of 5, and note availability from November 23, 2026, so check the calendar if you are going right after this guide is published.
 

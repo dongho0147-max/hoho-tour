@@ -72,9 +72,9 @@ This guide is written from research, not from a single visit. Times and prices b
 
 ## 🚄 How do you get to Daegu?
 
-By KTX from Seoul Station to Dongdaegu Station, the trip takes about 1 hour 40 minutes. Since the KTX and SRT systems merged on September 1, 2026, fares vary by train depending on how many stops it makes. A standard one-way adult ticket from Seoul to Dongdaegu runs 32,600 to {{< pr "39,000 KRW" >}}, checked on Korail's own booking site on November 19, 2026. Fares differ by train type and time of day, so the same route can cost quite a bit more or less depending on which departure you pick. Book a few days ahead for weekend mornings.
+By KTX from **Seoul Station** to **Dongdaegu Station**, the trip takes about 1 hour 40 minutes. Since the KTX and SRT systems merged on September 1, 2026, fares vary by train depending on how many stops it makes. A standard one-way adult ticket from Seoul to Dongdaegu runs 32,600 to {{< pr "39,000 KRW" >}}, checked on Korail's own booking site on November 19, 2026. Fares differ by train type and time of day, so the same route can cost quite a bit more or less depending on which departure you pick. Book a few days ahead for weekend mornings.
 
-Dongdaegu Station sits on subway Line 1, and the station building connects straight into the platform. Daegu's subway is flat-fare: {{< pr "1,500 KRW" >}} per ride with a transit card, {{< pr "1,700 KRW" >}} for a single ticket, on all three lines. Lines 1 and 2 cross at Banwoldang, and Line 3 is a monorail that loops through the center and stops right at Seomun Market. Buy a T-money card before you leave Seoul: it works on every Daegu train and bus, but you cannot recharge it in Daegu, so top it up before you board the KTX.
+Dongdaegu Station sits on subway **Line 1**, and the station building connects straight into the platform. Daegu's subway is flat-fare: {{< pr "1,500 KRW" >}} per ride with a transit card, {{< pr "1,700 KRW" >}} for a single ticket, on all three lines. Lines 1 and 2 cross at Banwoldang, and **Line 3** is a monorail that loops through the center and stops right at Seomun Market. Buy a T-money card before you leave Seoul: it works on every Daegu train and bus, but you cannot recharge it in Daegu, so top it up before you board the KTX.
 
 🔥 Local tip: The first and last KTX times for Dongdaegu (listed around 05:57 and 22:57 in secondary sources) are (미확인): we could not confirm them on Korail's official timetable, so check Korail Talk the day before you travel, especially for the last train home.
 
@@ -86,15 +86,15 @@ If you would rather have the day organized for you, the Daegu city tour bus leav
 
 ## 🚶 Morning: the Modern Alley walk
 
-Start at Cheongna Hill and walk the Modern Alley course 2, Daegu's signature history walk. The whole loop is 1.64 km and takes about two hours on foot, and it is free and open at all hours. The route strings together the old missionaries' houses on the hill, the March 1st Independence Movement road, Gyesan Cathedral, the former homes of the poets Lee Sang-hwa and Seo Sang-don, and Jin-golmok, the old herbal medicine lane. Free guided tours run on Saturdays at 10:00 and 14:00 from the tourist information center, though the center's own opening hours differ between sources (미확인), so arrive a few minutes early and ask in person.
+Start at Cheongna Hill and walk the Modern Alley course 2, Daegu's signature history walk. The whole loop is 1.64 km and takes about two hours on foot, and it is free and open at all hours. The route strings together the old missionaries' houses on the hill, the March 1st Independence Movement road, **Gyesan Cathedral**, the former homes of the poets Lee Sang-hwa and Seo Sang-don, and Jin-golmok, the old herbal medicine lane. Free guided tours run on Saturdays at 10:00 and 14:00 from the tourist information center, though the center's own opening hours differ between sources (미확인), so arrive a few minutes early and ask in person.
 
 Gyesan Cathedral is the visual anchor of the walk, a red-brick church from the early 1900s that still holds Mass. The parish office is open 09:00 to 20:00 Tuesday to Friday, 09:00 to 20:30 on Saturdays, and 07:00 to 22:30 on Sundays, with a lunch break from 12:30 to 14:00; it is closed Mondays. The interior viewing hours for visitors are (미확인); only the office hours are officially posted, and access can be limited during Mass, so keep quiet inside and check at the door.
 
 ## 🥟 Lunch and afternoon: Seomun Market
 
-Walk ten minutes west to Seomun Market, one of the oldest markets in Korea and still the city's pantry. The day market runs 09:00 to 18:00 and rests on the first and third Sundays of each month, with hours varying stall by stall. Daegu's own tourism office points first-time visitors to three snacks here: kalguksu (knife-cut noodle soup), napjak-mandu (flat pan-fried dumplings), and seed hotteok. Eat them standing up, in that order, from whichever stalls have the local lines.
+Walk ten minutes west to **Seomun Market**, one of the oldest markets in Korea and still the city's pantry. The day market runs 09:00 to 18:00 and rests on the first and third Sundays of each month, with hours varying stall by stall. Daegu's own tourism office points first-time visitors to three snacks here: kalguksu (knife-cut noodle soup), napjak-mandu (flat pan-fried dumplings), and seed hotteok. Eat them standing up, in that order, from whichever stalls have the local lines.
 
-On Friday, Saturday, and Sunday evenings the market becomes the Seomun Night Market. The 2026 season opened on March 27 and runs through December; the exact closing day in December is (미확인), and the market rests for about three months over winter. Hours are 19:00 to 23:30 on Fridays and Saturdays and 19:00 to 22:30 on Sundays, and it is closed Monday to Thursday.
+On Friday, Saturday, and Sunday evenings the market becomes the **Seomun Night Market**. The 2026 season opened on March 27 and runs through December; the exact closing day in December is (미확인), and the market rests for about three months over winter. Hours are 19:00 to 23:30 on Fridays and Saturdays and 19:00 to 22:30 on Sundays, and it is closed Monday to Thursday.
 
 {{< figure src="images/photos/daegu-02.webp" alt="Seomun Night Market in Daegu" caption="The night market opens 19:00 on Fridays to Sundays and is closed Monday to Thursday. Ignore old listings that say 17:30. Photo: Choi2451, CC BY-SA 3.0" >}}
 
@@ -102,7 +102,7 @@ On Friday, Saturday, and Sunday evenings the market becomes the Seomun Night Mar
 
 ## 🎸 Late afternoon: Kim Gwang-seok Street
 
-Ride or walk east to Kim Gwang-seok Street, a 350-meter mural lane beside Bangcheon Market dedicated to the folk singer who grew up here. It is free, always open, and best taken slowly: the walls carry his lyrics, buskers play his songs on weekends, and the cafes along the lane are the kind you sit in for an hour without meaning to. The nearest station is Kyungpook National University Hospital on Line 2, per secondary sources; the exact walking time from the platform is (미확인), so give yourself fifteen minutes.
+Ride or walk east to Kim Gwang-seok Street, a 350-meter mural lane beside **Bangcheon Market** dedicated to the folk singer who grew up here. It is free, always open, and best taken slowly: the walls carry his lyrics, buskers play his songs on weekends, and the cafes along the lane are the kind you sit in for an hour without meaning to. The nearest station is Kyungpook National University Hospital on **Line 2**, per secondary sources; the exact walking time from the platform is (미확인), so give yourself fifteen minutes.
 
 {{< figure src="images/photos/daegu-kim-street-01.webp" alt="Song lyrics written on a wall of Kim Gwang-seok Street in Daegu" caption="The street is free, always open, and best taken slowly. Photo: Choi2451, CC BY-SA 3.0" >}}
 
@@ -124,7 +124,7 @@ One honest caveat: opening hours and prices for every one of these restaurants a
 
 ## 🎡 If you have a second day
 
-E-World and its 83 Tower, the 202 m landmark over Duryu Park, is the add-on for families and night views. We could not confirm any current ticket prices on the official site (미확인); secondary listings put an unlimited ride pass around {{< pr "49,000 KRW" >}} and the tower observatory around 15,000 to {{< pr "18,000 KRW" >}}, so verify before you go. Suseongmot Lake is the quieter option: a 2 km loop around the water, open 24 hours and free, with a music fountain that secondary sources say runs seven times a day (미확인). In spring, the first week of April is cherry blossom season around Duryu Park, Suseongmot, and the Palgongsan ring road; the 2026 bloom opened on March 26.
+E-World and its 83 Tower, the 202 m landmark over **Duryu Park**, is the add-on for families and night views. We could not confirm any current ticket prices on the official site (미확인); secondary listings put an unlimited ride pass around {{< pr "49,000 KRW" >}} and the tower observatory around 15,000 to {{< pr "18,000 KRW" >}}, so verify before you go. Suseongmot Lake is the quieter option: a 2 km loop around the water, open 24 hours and free, with a music fountain that secondary sources say runs seven times a day (미확인). In spring, the first week of April is cherry blossom season around Duryu Park, Suseongmot, and the Palgongsan ring road; the 2026 bloom opened on March 26.
 
 ## 🚫 Skip this if...
 
@@ -132,18 +132,18 @@ Skip the night market plan if you are in Daegu Monday to Thursday, because the n
 
 ## 🗓️ Your Daegu day at a glance
 
-- 09:00 Arrive Dongdaegu Station, -, KTX from Seoul, about 1 h 40 min
-- 09:40 Cheongna Hill and Modern Alley walk, 2 hours, Subway Line 1 or 2 to the center
+- 09:00 **Arrive Dongdaegu Station**, -, KTX from Seoul, about 1 h 40 min
+- 09:40 Cheongna Hill and Modern Alley walk, 2 hours, Subway **Line 1** or 2 to the center
 - 11:00 Gyesan Cathedral, 30 minutes, On the alley route
-- 12:00 Seomun Market lunch, 1.5 hours, 10-minute walk or Line 3
-- 14:00 Kim Gwang-seok Street, 1.5 hours, Line 2 toward Bangcheon Market
+- 12:00 Seomun Market lunch, 1.5 hours, 10-minute walk or **Line 3**
+- 14:00 Kim Gwang-seok Street, 1.5 hours, **Line 2** toward Bangcheon Market
 - 16:00 Apsan Cable Car, 2 hours, Taxi or bus south
 - 18:30 Makchang or jjimgalbi dinner, 1.5 hours, Back to the center
-- 20:00 Seomun Night Market (Fri to Sun only), 1.5 hours, Line 3, Seomun Market Station
+- 20:00 Seomun Night Market (Fri to Sun only), 1.5 hours, **Line 3**, **Seomun Market Station**
 - 22:00 KTX home from Dongdaegu, -, Check the last train the day before (미확인)
 
 ## 🧭 Keep going from Daegu
 
-Daegu sits on the same KTX line as two of our other favorite trips. North toward Seoul, [Gyeongju in One Day by KTX](/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/) pairs Bulguksa Temple with the tomb park an hour away. South, [Busan in Two Bowls](/blog/busan-pork-soup-milmyeon/) keeps the food theme going with pork soup and milmyeon at the end of the line.
+Daegu sits on the same KTX line as two of our other favorite trips. North toward Seoul, [Gyeongju in One Day by KTX](/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/) pairs **Bulguksa Temple** with the tomb park an hour away. South, [Busan in Two Bowls](/blog/busan-pork-soup-milmyeon/) keeps the food theme going with pork soup and milmyeon at the end of the line.
 
 {{< aff href="https://www.klook.com/en-US/activity/111728-daegu-hop-on-hop-off-bus-tour-open-top/?aid=145455" text="Book the Daegu hop-on hop-off bus tour" >}}

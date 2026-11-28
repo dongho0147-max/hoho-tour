@@ -103,15 +103,15 @@ This guide was put together from official city, park, and rail pages plus recent
 
 ## 🚄 How do you get to Gwangju?
 
-Take the KTX from Yongsan Station to Gwangju-Songjeong Station. The fastest trains do it in 1 hour 43 minutes, and a standard one-way ticket runs 41,500 to {{< pr "42,000 KRW" >}} depending on the train, under the integrated KTX-SRT fare table that took effect on September 1, 2026. After the merger, about 96 trains a day call at Gwangju-Songjeong, and roughly 100 a day run across the Honam high-speed line, with booking unified on the Korail website and the Korail+ app. Trains from Seoul Station exist too, but there are fewer of them and the ride varies a lot by train (unconfirmed), so search from Yongsan first.
+Take the KTX from **Yongsan Station** to Gwangju-**Songjeong Station**. The fastest trains do it in 1 hour 43 minutes, and a standard one-way ticket runs 41,500 to {{< pr "42,000 KRW" >}} depending on the train, under the integrated KTX-SRT fare table that took effect on September 1, 2026. After the merger, about 96 trains a day call at Gwangju-Songjeong, and roughly 100 a day run across the Honam high-speed line, with booking unified on the Korail website and the Korail+ app. Trains from Seoul Station exist too, but there are fewer of them and the ride varies a lot by train (unconfirmed), so search from Yongsan first.
 
-🔥 Local tip: Do not confuse Gwangju-Songjeong Station with Gwangju Station. The KTX only stops at Gwangju-Songjeong. Gwangju Station is downtown and handles slow trains only. If your ticket says "Gwangju", read the code: Songjeong is the KTX stop you need.
+🔥 Local tip: Do not confuse Gwangju-Songjeong Station with **Gwangju Station**. The KTX only stops at Gwangju-Songjeong. **Gwangju Station** is downtown and handles slow trains only. If your ticket says "Gwangju", read the code: Songjeong is the KTX stop you need.
 
 Book the round trip as soon as your dates are fixed. Weekend morning trains down and evening trains back sell out first, and the last KTX from Gwangju-Songjeong to Yongsan leaves at 22:57 (unconfirmed).
 
 ## 🥩 First stop: 1913 Songjeong Station Market and the tteokgalbi alley
 
-The day starts two minutes from the KTX gates. The 1913 Songjeong Station Market has traded next to the station since 1913, and its market alley still feels like a country market that grew up around the rails. It is open 08:00 to 20:00, seven days a week (unconfirmed; the market's own hours vary by stall), and it costs nothing to wander. Come for the tteokgalbi smoke first, then the dried fish and the rice cakes.
+The day starts two minutes from the KTX gates. The 1913 **Songjeong Station Market** has traded next to the station since 1913, and its market alley still feels like a country market that grew up around the rails. It is open 08:00 to 20:00, seven days a week (unconfirmed; the market's own hours vary by stall), and it costs nothing to wander. Come for the tteokgalbi smoke first, then the dried fish and the rice cakes.
 
 {{< figure src="images/photos/gwangju-02.webp" alt="Gwangju-Songjeong Station building" caption="Tteokgalbi Street packs about ten restaurants into one 350 m alley, each with its own queue. Photo: Saigen Jiro, CC0" >}}
 
@@ -119,9 +119,9 @@ Walk on into the alley behind the market and you are on Songjeong Tteokgalbi Str
 
 ## 🚇 Into town on Line 1
 
-Gwangju has exactly one subway line, which makes it impossible to get lost. Line 1 runs from Gwangju-Songjeong through the city center to Sotae, and the ride to Munhwa-jeondang Station, the stop for the square, takes 23 minutes. The fare is {{< pr "1,250 KRW" >}} with a transit card and {{< pr "1,400 KRW" >}} for a single ticket, and a T-money card works here too, though you cannot recharge it in Gwangju (unconfirmed).
+Gwangju has exactly one subway line, which makes it impossible to get lost. **Line 1** runs from Gwangju-Songjeong through the city center to Sotae, and the ride to Munhwa-jeondang Station, the stop for the square, takes 23 minutes. The fare is {{< pr "1,250 KRW" >}} with a transit card and {{< pr "1,400 KRW" >}} for a single ticket, and a T-money card works here too, though you cannot recharge it in Gwangju (unconfirmed).
 
-Two practical notes. The last Line 1 train toward downtown leaves Gwangju-Songjeong at 23:31 on weekdays; weekend and holiday first and last trains are unconfirmed, so if you arrive on a late KTX, check the board before you linger over dinner. And Line 2 does not exist yet: its first phase is targeted for December 2028 after repeated delays, so any guide that routes you onto a Line 2 transfer is out of date.
+Two practical notes. The last **Line 1** train toward downtown leaves Gwangju-Songjeong at 23:31 on weekdays; weekend and holiday first and last trains are unconfirmed, so if you arrive on a late KTX, check the board before you linger over dinner. And **Line 2** does not exist yet: its first phase is targeted for December 2028 after repeated delays, so any guide that routes you onto a Line 2 transfer is out of date.
 
 ## 🕊️ Downtown: May 18 Democracy Square and the old provincial office
 
@@ -145,7 +145,7 @@ Cross the main road east and the grid turns into Dongmyeong-dong, the cafe quart
 
 Fifteen minutes south on foot from the square (walking route unconfirmed, so check a map app on the day), the Yangnim-dong lanes are Gwangju's missionary quarter, a hillside of old wooden houses, churches, and gardens that feels a world away from downtown.
 
-Start at the Yangnim Village Story Center, the tourist information point, open 10:00 to 17:00. Then walk the lanes to the Horace Underwood house, the old missionary homes, and Penguin Village, the alley of penguin statues and small shops that locals love for photos.
+Start at the **Yangnim Village** Story Center, the tourist information point, open 10:00 to 17:00. Then walk the lanes to the Horace Underwood house, the old missionary homes, and **Penguin Village**, the alley of penguin statues and small shops that locals love for photos.
 
 ## ⛰️ If you have half a day more: Mudeungsan
 
@@ -159,13 +159,13 @@ If you would rather not deal with buses at all, or you want to fold in Damyang's
 
 ## 🍚 What Gwangju tastes like
 
-The city officially named its seven signature dishes in 2019: Gwangju hanjeongsik (the full table dinner), tteokgalbi, kimchi, and four others, and the best place to try them is the Daein Market area and the Songjeong alley.
+The city officially named its seven signature dishes in 2019: Gwangju hanjeongsik (the full table dinner), tteokgalbi, kimchi, and four others, and the best place to try them is the **Daein Market** area and the Songjeong alley.
 
 The one table this guide will send you to by name: the original Songjeong Tteokgalbi branch by the market, about {{< pr "15,000 KRW" >}} a set (unconfirmed).
 
 {{< figure src="images/photos/gwangju-03.webp" alt="A plate of Songjeong tteokgalbi" caption="Order at the original Songjeong branch by the market, and confirm the price before you sit. Photo: Minseong Kim, CC BY-SA 4.0" >}}
 
-One seasonal warning: the Daein Art Market near the square ran its night market season through October 2026; the 2026 edition has closed, so art travelers should watch for the next one.
+One seasonal warning: the **Daein Art Market** near the square ran its night market season through October 2026; the 2026 edition has closed, so art travelers should watch for the next one.
 
 ## 🌸 When to come
 
@@ -176,15 +176,15 @@ Spring is azalea season on Mudeungsan: the royal azaleas bloom in early May and 
 - 08:00 KTX from Yongsan, 1 hour 45 minutes, Book ahead on Korail+
 - 10:00 1913 Songjeong Station Market, 1 hour, 2-minute walk from the station
 - 11:00 Tteokgalbi alley lunch, 1 hour, Alley behind the market
-- 12:30 May 18 Democracy Square, 1 hour, Line 1 to Munhwa-jeondang, 23 minutes
+- 12:30 May 18 Democracy Square, 1 hour, **Line 1** to Munhwa-jeondang, 23 minutes
 - 13:30 Old provincial office museum, 1 hour, On the square
 - 14:30 ACC and Dongmyeong-dong, 2 hours, Next door, then across the road
 - 16:30 Yangnim-dong lanes, 1.5 hours, 15-minute walk south (unconfirmed)
-- 19:00 KTX home from Gwangju-Songjeong, -, Line 1 back, last train 23:31 weekdays
+- 19:00 KTX home from Gwangju-Songjeong, -, **Line 1** back, last train 23:31 weekdays
 
 ## 🌙 If you stay the night
 
-One day covers the route above, but two things sit outside a day trip. The National May 18 Cemetery in Buk-gu, where the uprising's dead rest, is open 09:00 to 18:00 with last entry at 17:00 and free parking; it is a separate trip from downtown and the public transport route is unconfirmed, so plan it as its own half day. The National Gwangju Museum is free and open 10:00 to 18:00 if you have a spare hour. Staying over also lets you start Mudeungsan at dawn, which is the only sane way to fit Seoseokdae and the city into one trip. If you do stay, the practical bases are downtown around Chungjang-ro and the ACC for restaurants and nightlife, or out by Gwangju-Songjeong Station for an early KTX.
+One day covers the route above, but two things sit outside a day trip. The National May 18 Cemetery in Buk-gu, where the uprising's dead rest, is open 09:00 to 18:00 with last entry at 17:00 and free parking; it is a separate trip from downtown and the public transport route is unconfirmed, so plan it as its own half day. The **National Gwangju Museum** is free and open 10:00 to 18:00 if you have a spare hour. Staying over also lets you start Mudeungsan at dawn, which is the only sane way to fit Seoseokdae and the city into one trip. If you do stay, the practical bases are downtown around Chungjang-ro and the ACC for restaurants and nightlife, or out by Gwangju-Songjeong Station for an early KTX.
 
 {{< aff href="https://www.agoda.com/city/gwangju-si-kr.html" text="Find Gwangju hotels on Agoda" >}}
 

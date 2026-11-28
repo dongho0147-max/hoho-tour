@@ -47,13 +47,13 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 The boat most people mean is the E-Land cruise from Yeouido. It has run on the Hangang since 1986, and a single Klook listing covers five ticket types, from a 40-minute daytime loop to a 70-minute music cruise. Recent listings rate it 4.4 out of 5 from more than 3,800 reviews, and tickets start from roughly US{{< pr "$8," >}} with prices varying by sailing and date.
 
-Here is what the five types actually are. The Tour Cruise is the 40-minute daytime loop from Yeouido to Seogang Bridge and back, with weekday departures from 14:00 and weekend departures from 11:00. The Sunset Cruise leaves at 17:00 from November to January. The Moonlight Music Cruise is the 70-minute evening run to Banpo Bridge, at 19:00 or 20:30 from April to November, and 19:30 from December to March. The Starlight Cruise is the late 50-minute sailing. The Fireworks Music Cruise runs on designated evenings only.
+Here is what the five types actually are. The Tour Cruise is the 40-minute daytime loop from Yeouido to **Seogang Bridge** and back, with weekday departures from 14:00 and weekend departures from 11:00. The Sunset Cruise leaves at 17:00 from November to January. The Moonlight Music Cruise is the 70-minute evening run to **Banpo Bridge**, at 19:00 or 20:30 from April to November, and 19:30 from December to March. The Starlight Cruise is the late 50-minute sailing. The Fireworks Music Cruise runs on designated evenings only.
 
 {{< aff href="https://www.klook.com/activity/6874-eland-han-river-cruise-seoul/?aid=145455" text="See the Seoul Yeouido E-Land Hangang River Cruise on Klook" >}}
 
 For a night plan, book the Moonlight Music Cruise. It is the one that goes to Banpo Bridge, it has live music, and it is the right length at 70 minutes. Book the daytime Tour Cruise if you want the cheapest ticket and a first look at the river in daylight.
 
-> **🔥 Local tip:** {{< mk "Arrive at the pier 20 minutes early." >}} An online voucher is not a boarding pass: you swap it for a physical ticket at the E-Land ticket office with your passport or physical ID, and a phone photo of your ID does not count. Take Line 5 to Yeouinaru Station, not Yeouido Station, and use Exit 3. Booking online in advance also locks in a lower fare than the pier walk-up price and holds your seat on busy weekend evenings. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** {{< mk "Arrive at the pier 20 minutes early." >}} An online voucher is not a boarding pass: you swap it for a physical ticket at the E-Land ticket office with your passport or physical ID, and a phone photo of your ID does not count. Take **Line 5** to **Yeouinaru Station**, not Yeouido Station, and use Exit 3. Booking online in advance also locks in a lower fare than the pier walk-up price and holds your seat on busy weekend evenings. Based on recent listings/reviews, checked November 2026.
 
 {{< figure src="images/photos/han-yeouido-01.webp" alt="Yeouido skyline and Bamseom island on the Han River in daylight" caption="Arrive at the pier 20 minutes early. Photo: heecheol890102, Pixabay, CC0" >}}
 
@@ -84,7 +84,7 @@ One thing to know before you book: the Klook listing for this cruise is not avai
 
 Han River ramyeon is cup ramyeon eaten on the riverbank, and it is a Seoul ritual. You buy a cup at a convenience store in the park, add hot water from the machine, and eat it sitting on the grass or the steps by the water. A cup runs about {{< pr "2,000-4,000 KRW" >}} based on recent listings, and the hot water is free at the store. It tastes better by the river than it has any right to, and that is the whole point.
 
-The best places for it are Banpo Hangang Park and Ttukseom Hangang Park, both of which have convenience stores, wide lawns, and good views. Yeouido Hangang Park works too, right after the cruise, since the pier is there. Go for the plain cup, not the fanciest one, and bring a jacket. The river wind after dark is cold even on a mild evening, and you will want to sit for a while.
+The best places for it are **Banpo Hangang Park** and **Ttukseom Hangang Park**, both of which have convenience stores, wide lawns, and good views. Yeouido Hangang Park works too, right after the cruise, since the pier is there. Go for the plain cup, not the fanciest one, and bring a jacket. The river wind after dark is cold even on a mild evening, and you will want to sit for a while.
 
 > **🔥 Local tip:** The real version uses a packet of ramyeon, not a cup. Buy a packet and a foil container at the park convenience store, set the container on the induction cooker, scan the barcode on the container, and press start: the machine adds the water and times it, usually about 4 minutes. Crack an egg in when about 1 minute 30 seconds is left. Shin Ramyun is the classic pick, Jin Ramen mild is the easier one if you do not like heat. A packet set runs about {{< pr "4,000-4,500 KRW" >}}. Based on recent listings/reviews, checked November 2026.
 
@@ -94,11 +94,11 @@ The best places for it are Banpo Hangang Park and Ttukseom Hangang Park, both of
 
 ## 🚲 What else can you do by the river at night?
 
-Rent a bike. The riverside path runs for kilometers in both directions, and the public bikes are cheap and easy to find near the parks. A slow ride from Yeouido toward Banpo at dusk is one of the best free things in the city. Walk Nodeul Island if you want a quieter stop: the island sits in the middle of the river with a theatre and a garden, and it is much calmer than the main parks after dark.
+Rent a bike. The riverside path runs for kilometers in both directions, and the public bikes are cheap and easy to find near the parks. A slow ride from Yeouido toward Banpo at dusk is one of the best free things in the city. Walk **Nodeul Island** if you want a quieter stop: the island sits in the middle of the river with a theatre and a garden, and it is much calmer than the main parks after dark.
 
 {{< figure src="images/photos/seoul-42.webp" alt="Ttukseom Hangang Park at dusk, the Han River and the lit-up skyline" caption="Use Jayang Station on Line 7, Exits 2 and 3. Ttukseom Station on Line 2 is a different station. Photo: Liziyuan0216, CC BY-SA 4.0" >}}
 
-> **🔥 Local tip:** For Ttukseom Hangang Park, use Jayang Station on Line 7, Exits 2 and 3, which connect straight into the park. Ttukseom Station on Line 2 is a different station, so check the line as well as the name before you ride. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** For Ttukseom Hangang Park, use **Jayang Station** on **Line 7**, Exits 2 and 3, which connect straight into the park. Ttukseom Station on Line 2 is a different station, so check the line as well as the name before you ride. Based on recent listings/reviews, checked November 2026.
 
 If you want a proper dinner instead of ramyeon, the restaurants around Yeouido and Banpo are a short taxi ride away, but honestly, the ramyeon is the memory. Save the proper dinner for another night.
 
@@ -117,6 +117,6 @@ Skip the cruise if the forecast is heavy rain or strong wind, because the sailin
 
 {{< sticker kind="tired-rest" >}}
 
-Keep the Seoul evening going: the [Seoul cafe crawl](/blog/seoul-cafes-seongsu-yeonnam-ikseon/) runs warehouse cafes by day and hanok lanes after dark, and the [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts the next morning at Gwangjang Market.
+Keep the Seoul evening going: the [Seoul cafe crawl](/blog/seoul-cafes-seongsu-yeonnam-ikseon/) runs warehouse cafes by day and hanok lanes after dark, and the [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts the next morning at **Gwangjang Market**.
 
 {{< aff href="https://www.klook.com/en-US/activity/6874-eland-han-river-cruise-seoul/?aid=145455" text="Book a Han River evening cruise" >}}

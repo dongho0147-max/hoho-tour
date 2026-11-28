@@ -60,7 +60,7 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 **서울 공식 관광정보로 평일은 08:00~15:00, 16:30~21:00, 일요일은 08:00~15:00, 16:30~20:00에 열고, 명절에는 쉬어요.** 홀이 조용하고 국물이 가장 신선한 아침에 가 보세요. 이제 너무 유명해서 점심에 붐빌 수 있지만, 이른 아침은 여전히 현지인의 시간이에요.
 
-> **🔥 현지 팁:** 평일 점심 피크인 11:30~13:30에는 줄이 생길 수 있어요. 그 시간을 피하면 편하게 들어가요. 영업시간은 가는 날 지도 앱으로 한 번 더 확인하세요.
+> **🔥 현지 팁:** 평일 점심 피크인 **11:30~13:30**에는 줄이 생길 수 있어요. 그 시간을 피하면 편하게 들어가요. 영업시간은 가는 날 지도 앱으로 한 번 더 확인하세요.
 
 ## 🥣 하동관은 뭐가 다를까요? 국물 하나, 오후면 끝
 
@@ -115,6 +115,6 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 {{< sticker kind="tired-rest" >}}
 
-이 먹거리 하루의 시장 버전이 궁금하세요? [오래된 시장을 느긋하게 도는 먹거리 투어](/kr/blog/seoul-market-food-walk/)는 광장시장에서 빈대떡, 마약김밥, 생선 가게로 시작해요.
+이 먹거리 하루의 시장 버전이 궁금하세요? [오래된 시장을 느긋하게 도는 먹거리 투어](/kr/blog/seoul-market-food-walk/)는 **광장시장**에서 빈대떡, 마약김밥, 생선 가게로 시작해요.
 
 {{< aff href="https://www.klook.com/en-US/activity/919-korean-night-dining-tour-seoul/?aid=145455" text="소규모 한식 BBQ 나이트 푸드투어 예약하기" >}}

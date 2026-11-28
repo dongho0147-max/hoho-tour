@@ -47,7 +47,7 @@ A few things to know before you start. Many of these places close for a break in
 
 ## 🍜 Why start at Imun Seolnongtang, the oldest bowl in Korea?
 
-Imun Seolnongtang opened in 1904, and it is often called the oldest restaurant still operating in Korea. It sits in a side street off Ujeongguk-ro in Jongno, a five-minute walk from Jonggak Station, Exit 3. The MICHELIN Guide lists it, and the Seoul government lists it as a Seoul Future Heritage site. The room is plain. There is nothing to look at except the pot, and that is the point.
+Imun Seolnongtang opened in 1904, and it is often called the oldest restaurant still operating in Korea. It sits in a side street off Ujeongguk-ro in Jongno, a five-minute walk from **Jonggak Station**, **Exit 3**. The MICHELIN Guide lists it, and the Seoul government lists it as a Seoul Future Heritage site. The room is plain. There is nothing to look at except the pot, and that is the point.
 
 The broth is ox leg bones and knuckle simmered for 16 to 17 hours in cast-iron pots, skimmed until it turns milky but never greasy. A regular seolleongtang is {{< pr "15,000 KRW" >}}. The special, with more meat, is {{< pr "18,000 KRW" >}}, and the doganitang made with knee cartilage is {{< pr "18,000 KRW" >}} too. The soup arrives unsalted. You season it yourself at the table with salt and pepper, then add the chopped scallions. It is mild by design. If you want heat, this is not your bowl, and no amount of pepper fixes that.
 
@@ -61,7 +61,7 @@ Hadongkwan has served gomtang since 1939, and it has served almost nothing else 
 
 A regular bowl is {{< pr "19,000 KRW" >}} as of November 2026, up from {{< pr "18,000 KRW" >}} earlier in the year. The 25-gong, with more meat, is {{< pr "25,000 KRW" >}}, and the 30-gong is {{< pr "30,000 KRW" >}}. The names sound strange until you realize the number is the old price in hundreds of won, and the names simply never changed. There is only one side dish, a sharp kkakdugi of cubed radish kimchi, and that is all the bowl needs.
 
-The hours are the famous part. Monday to Saturday, 07:00 to 16:00, closed Sundays and public holidays. The day ends when the pot does, and on a busy day that can be before 14:00. It sits at 12 Myeongdong 9-gil, about five minutes from Euljiro 1-ga Station or Myeongdong Station. Go before noon on a weekday. Come for dinner and the door will be shut. The price is the honest complaint here. At {{< pr "19,000 KRW" >}} for soup, some visitors feel the bowl has outrun the experience. The 25-gong earns it better, and the regular bowl is still the cheapest way to eat 86 years of habit.
+The hours are the famous part. Monday to Saturday, 07:00 to 16:00, closed Sundays and public holidays. The day ends when the pot does, and on a busy day that can be before 14:00. It sits at 12 Myeongdong 9-gil, about five minutes from Euljiro 1-ga Station or **Myeongdong Station**. Go before noon on a weekday. Come for dinner and the door will be shut. The price is the honest complaint here. At {{< pr "19,000 KRW" >}} for soup, some visitors feel the bowl has outrun the experience. The 25-gong earns it better, and the regular bowl is still the cheapest way to eat 86 years of habit.
 
 > **🔥 Local tip:** Eat Imun and Hadongkwan on separate mornings and compare them. The two soups look alike on paper and taste nothing alike in the bowl, and comparing them is the cheapest food education in the city.
 
@@ -77,7 +77,7 @@ If you want a guided first run through the old food streets instead of going alo
 
 ## 🐔 Where is the palace chicken soup? Tosokchon Samgyetang
 
-Tosokchon sits in a cluster of hanok buildings in Seochon, a few minutes from Gyeongbokgung Station, Exit 2. It has been serving samgyetang, ginseng chicken soup, since 1983. The building does half the work before the food arrives: low tile roofs, dark wood, paper screen doors, a courtyard in the middle. You walk in from a palace visit and the whole day slows down.
+Tosokchon sits in a cluster of hanok buildings in Seochon, a few minutes from **Gyeongbokgung Station**, **Exit 2**. It has been serving samgyetang, ginseng chicken soup, since 1983. The building does half the work before the food arrives: low tile roofs, dark wood, paper screen doors, a courtyard in the middle. You walk in from a palace visit and the whole day slows down.
 
 The standard samgyetang is {{< pr "20,000 KRW" >}}, a whole young chicken stuffed with rice and ginseng and simmered until the broth turns opaque. The black silkie chicken version is {{< pr "25,000 KRW" >}}. There is an English menu that explains how to eat it, which helps, because the chicken falls apart and the broth is hotter than it looks. It is open every day from 10:00 to 22:00, last order 21:00, which makes it the most forgiving stop on this list.
 
@@ -89,7 +89,7 @@ The wait is the catch. At weekends the line runs 20 to 30 minutes, and on bok-na
 
 ## 🍱 What is a baekban tray? Siu Sikdang in Seochon
 
-Siu Sikdang is a small neighborhood diner at 18 Pilun-daero in Seochon, about six or seven minutes from Gyeongbokgung Station, Exit 2. It does home-style set meals, the kind of lunch office workers eat on a normal Tuesday. The grilled pork belly set is {{< pr "12,000 KRW" >}}. The spicy stir-fried pork set is {{< pr "10,000 KRW" >}}. Most of the menu sits around {{< pr "10,000 KRW" >}}.
+Siu Sikdang is a small neighborhood diner at 18 Pilun-daero in Seochon, about six or seven minutes from Gyeongbokgung Station, **Exit 2**. It does home-style set meals, the kind of lunch office workers eat on a normal Tuesday. The grilled pork belly set is {{< pr "12,000 KRW" >}}. The spicy stir-fried pork set is {{< pr "10,000 KRW" >}}. Most of the menu sits around {{< pr "10,000 KRW" >}}.
 
 The pork set arrives as a full tray. Grilled pork belly comes with rice and seaweed soup, plus kimchi and small side dishes around the main. It is a lot of food for {{< pr "12,000 KRW" >}} in a neighborhood where lunch usually runs 13,000 to {{< pr "15,000 KRW" >}}. The room is bright and wood-toned, and it fills within 10 to 20 minutes of opening at 11:00. There is no English menu. Pointing works, and the staff are used to it.
 
@@ -97,7 +97,7 @@ It is open Monday to Saturday, 11:00 to 20:00, last order 19:30, and closed on S
 
 ## 🔥 How does barbecue work for a first-timer? Wangbijib in Myeongdong
 
-Wangbijib is the barbecue exception in Myeongdong, a district where most grill houses aim at tour groups. The main shop is on the second floor at 26 Myeongdong 8ga-gil, a few minutes from Myeongdong Station, Exit 9. It has been open since 1976. The staff grill the meat at your table and cut it with scissors, which makes it an easy first barbecue even if you have never held the tongs.
+Wangbijib is the barbecue exception in Myeongdong, a district where most grill houses aim at tour groups. The main shop is on the second floor at 26 Myeongdong 8ga-gil, a few minutes from Myeongdong Station, **Exit 9**. It has been open since 1976. The staff grill the meat at your table and cut it with scissors, which makes it an easy first barbecue even if you have never held the tongs.
 
 Fresh pork belly is {{< pr "19,000 KRW" >}} a portion. Marinated Korean pork is {{< pr "24,000 KRW" >}}, and marinated beef short rib is {{< pr "44,000 KRW" >}}. The best value is the lunch pork galbi set at {{< pr "15,000 KRW" >}}, served from 11:30 to 15:00, and {{< pr "17,000 KRW" >}} after that. The shop is open daily from 11:30 to 22:00, last order 21:15, and it takes reservations on Naver Booking. There is a one-person hanwoo set at {{< pr "49,000 KRW" >}}, which is rare. Most barbecue rooms want two portions minimum, and solo diners get turned away.
 
@@ -105,7 +105,7 @@ Fresh pork belly is {{< pr "19,000 KRW" >}} a portion. Marinated Korean pork is 
 
 Dinner for two with drinks lands around 50,000 to {{< pr "70,000 KRW" >}}, so it is not a cheap night. The stairs to the second floor are steep, and the room gets loud at peak hours. After 19:00 on a weekend, send one person ahead for a table. Order the pork belly for two, add a doenjang jjigae to finish, and let the staff do the grilling. That is the whole trick.
 
-If you want the palace and the food in one guided morning, a half-day tour pairs Gyeongbokgung with Seochon and a Tongin Market tasting.
+If you want the palace and the food in one guided morning, a half-day tour pairs Gyeongbokgung with Seochon and a **Tongin Market** tasting.
 
 {{< aff href="https://www.klook.com/en-US/activity/95245-gyeongbokgung-tour/?aid=145455" text="Browse the Gyeongbokgung palace and food half-day tour on Klook" >}}
 
@@ -120,6 +120,6 @@ If you want the palace and the food in one guided morning, a half-day tour pairs
 
 {{< sticker kind="tired-rest" >}}
 
-Want the market version of this food day? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts at Gwangjang Market with bindaetteok, mayak gimbap, and the fish stalls.
+Want the market version of this food day? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts at **Gwangjang Market** with bindaetteok, mayak gimbap, and the fish stalls.
 
 {{< aff href="https://www.klook.com/en-US/activity/919-korean-night-dining-tour-seoul/?aid=145455" text="Join a small-group Korean BBQ night food tour" >}}

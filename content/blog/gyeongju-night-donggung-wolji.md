@@ -41,7 +41,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🌆 Start at dusk: Donggung Palace and Wolji Pond
 
-Start at Donggung Palace and Wolji Pond, the old secondary palace of the Silla royal family. The pond was first built in 674, and the pavilions around it are lit after dark. The reflection on the still water is the most photographed night scene in Gyeongju, and it is best in the first hour after the lights come on, when the sky still holds some blue.
+Start at **Donggung Palace** and Wolji Pond, the old secondary palace of the Silla royal family. The pond was first built in 674, and the pavilions around it are lit after dark. The reflection on the still water is the most photographed night scene in Gyeongju, and it is best in the first hour after the lights come on, when the sky still holds some blue.
 
 Admission runs about {{< pr "3,000 KRW" >}} for an adult, based on recent listings. Give it 40 to 50 minutes: walk the pond loop slowly, stop at the main pavilion, and then walk to the far side for the wide view back. The far side is where the reflection photo works, and it is quieter than the entrance.
 
@@ -57,7 +57,7 @@ Admission runs about {{< pr "3,000 KRW" >}} for an adult, based on recent listin
 
 ## 🌉 Walk to Woljeonggyo Bridge
 
-From the pond, walk about 15 minutes to Woljeonggyo Bridge, the largest wooden bridge in Korea, rebuilt on its Silla-era site. At night the whole bridge is lit, and its reflection sits in the stream below. You can walk across it, and the inside walkway is lit too. The bridge is open until 22:00, based on recent listings.
+From the pond, walk about 15 minutes to **Woljeonggyo Bridge**, the largest wooden bridge in Korea, rebuilt on its Silla-era site. At night the whole bridge is lit, and its reflection sits in the stream below. You can walk across it, and the inside walkway is lit too. The bridge is open until 22:00, based on recent listings.
 
 {{< figure src="images/photos/gyeongju-night-05.webp" alt="The northern gate of Woljeonggyo Bridge at golden hour" caption="The bridge is open until 22:00, and you can walk across it. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
@@ -108,6 +108,6 @@ End the night on Hwangridan-gil, the cafe and snack street. It is livelier after
 
 ## ☀️ See Gyeongju by day
 
-The night walk is only half the city. For Bulguksa Temple, the tombs in daylight, and the Hwangridan-gil snack crawl, read [Gyeongju in One Day by KTX: Bulguksa, Tombs, and Hwangridan-gil](/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/).
+The night walk is only half the city. For **Bulguksa Temple**, the tombs in daylight, and the Hwangridan-gil snack crawl, read [Gyeongju in One Day by KTX: Bulguksa, Tombs, and Hwangridan-gil](/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/).
 
 {{< aff href="https://www.klook.com/en-US/activity/236761-gyeongju-bulguksa-temple-national-museum-full-day-cultural-tour/?aid=145455" text="Book a Gyeongju Bulguksa and museum day tour" >}}

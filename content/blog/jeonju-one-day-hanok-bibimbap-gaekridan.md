@@ -73,15 +73,15 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 ## 🚄 How do you get there?
 
-Take the KTX from Yongsan Station. Trains from Yongsan are far more frequent than from Seoul Station, and the ride to Jeonju Station takes about one hour and forty minutes. Book a round trip as soon as your dates are fixed, because the morning trains out and the evening trains back are the first to fill up on weekends.
+Take the KTX from **Yongsan Station**. Trains from Yongsan are far more frequent than from **Seoul Station**, and the ride to Jeonju Station takes about one hour and forty minutes. Book a round trip as soon as your dates are fixed, because the morning trains out and the evening trains back are the first to fill up on weekends.
 
-From Jeonju Station, take a city bus to the village. Buses 79, 119, 501, 550, and 999 run from the stop in front of the station to the Jeondong Cathedral and [Hanok Village](https://www.klook.com/en-US/activity/2999-jeonju-hanok-village-tour-seoul/?aid=145455) stop in about 25 minutes. Get off there and you are a two or three minute walk from Gyeonggijeon and the main village streets. A taxi from the station costs more but saves you the wait, and it makes sense if you are traveling with luggage or in a group.
+**From Jeonju Station**, take a city bus to the village. Buses 79, 119, 501, 550, and 999 run from the stop in front of the station to the **Jeondong Cathedral** and [Hanok Village](https://www.klook.com/en-US/activity/2999-jeonju-hanok-village-tour-seoul/?aid=145455) stop in about 25 minutes. Get off there and you are a two or three minute walk from Gyeonggijeon and the main village streets. A taxi from the station costs more but saves you the wait, and it makes sense if you are traveling with luggage or in a group.
 
 > **🔥 Local tip:** {{< mk "Search trains from Yongsan, not Seoul Station." >}} The same line serves both, but Yongsan has far more departures, and the difference on a weekend can be an hour of waiting.
 
 ## 🏯 What should you see first?
 
-Start at Gyeonggijeon, the shrine that holds the royal portrait of King Taejo, the founder of the Joseon dynasty. The grounds are calm in the morning, with old trees, a bamboo grove, and the Royal Portrait Museum. One thing to know before you go: the main hall is under dancheong repainting work from March 26 to December 17, 2026, based on recent listings, so you cannot go past the inner gate into the main hall area during that period. The rest of the grounds and the museum stay open as usual, so the visit is still worth it. Just do not plan your morning around a hall you cannot enter.
+Start at Gyeonggijeon, the shrine that holds the royal portrait of King Taejo, the founder of the Joseon dynasty. The grounds are calm in the morning, with old trees, a bamboo grove, and the **Royal Portrait Museum**. One thing to know before you go: the main hall is under dancheong repainting work from March 26 to December 17, 2026, based on recent listings, so you cannot go past the inner gate into the main hall area during that period. The rest of the grounds and the museum stay open as usual, so the visit is still worth it. Just do not plan your morning around a hall you cannot enter.
 
 Entry is a few thousand won per adult. Free guided walks in English run daily at about 11:00 and 15:00 from the ticket office, and they last around an hour. If you arrive early, walk the village streets first and join the later tour.
 
@@ -89,7 +89,7 @@ Entry is a few thousand won per adult. Free guided walks in English run daily at
 
 ## 🏘️ How do you walk the village without getting lost in the crowds?
 
-Jeonju Hanok Village has more than 800 hanok houses, and the main streets get crowded by midday, especially on weekends. The trick is to walk the edges. The main road from Gyeonggijeon to Jeondong Catholic Cathedral is the busy spine, and it is worth one walk through. Then turn into the side lanes. The houses are quieter there, the cafes are smaller, and you can actually hear yourself think.
+**Jeonju Hanok Village** has more than 800 hanok houses, and the main streets get crowded by midday, especially on weekends. The trick is to walk the edges. The main road from Gyeonggijeon to **Jeondong Catholic Cathedral** is the busy spine, and it is worth one walk through. Then turn into the side lanes. The houses are quieter there, the cafes are smaller, and you can actually hear yourself think.
 
 Jeondong Cathedral is worth a stop on the main road. It is a large Romanesque church built in the early 1900s, and its brick front is one of the most photographed corners in the village. Omokdae, a small pavilion on a hill at the edge of the village, is the viewpoint. The climb is short and the view over the rooftops is the best in town, especially in the late afternoon.
 

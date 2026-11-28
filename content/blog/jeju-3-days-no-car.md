@@ -60,7 +60,7 @@ If a full bus day sounds like too much planning, a small-group [day tour](https:
 
 Land, drop your bags, and stay near the old downtown or the airport area. Both work, but old downtown puts you closer to the market and the evening food streets, while the airport area is quieter. From the airport, bus 100 or 200 reaches downtown in about 20 to 30 minutes, depending on traffic.
 
-Spend the afternoon walking. Start at Dongmun Traditional Market, which is the loud, crowded heart of the city. Go hungry and graze: fried chicken skewers, tangerine juice, and the small fried snacks the stalls sell by weight. Prices run about 3,000 to {{< pr "8,000 KRW" >}} per snack, and a full grazing lunch lands around 12,000 to {{< pr "18,000 KRW" >}} per person.
+Spend the afternoon walking. Start at **Dongmun Traditional Market**, which is the loud, crowded heart of the city. Go hungry and graze: fried chicken skewers, tangerine juice, and the small fried snacks the stalls sell by weight. Prices run about 3,000 to {{< pr "8,000 KRW" >}} per snack, and a full grazing lunch lands around 12,000 to {{< pr "18,000 KRW" >}} per person.
 
 > **🔥 Local tip:** The day market runs 08:00 to 21:00 and the night market 18:00 to 24:00, and the 19:00 to 21:00 night-market rush is the busiest stretch. Go before 19:00 if you want the stalls quieter. Based on recent listings/reviews, checked November 2026.
 
@@ -74,11 +74,11 @@ After the market, walk to Yongduam Rock on the coast, about 30 minutes on foot o
 
 ## 🏖️ Day 2: the east coast by bus
 
-Day 2 is the big one, and the bus makes it work if you start early. Take trunk bus 701 or 702 from Jeju City toward Hamdeok Beach first, about 40 to 50 minutes. Hamdeok is the prettiest easy beach on the north coast, with clear water and white sand, and it is calm before the afternoon wind.
+Day 2 is the big one, and the bus makes it work if you start early. Take trunk bus 701 or 702 from Jeju City toward **Hamdeok Beach** first, about 40 to 50 minutes. Hamdeok is the prettiest easy beach on the north coast, with clear water and white sand, and it is calm before the afternoon wind.
 
 {{< figure src="images/photos/jeju-04.webp" alt="Hamdeok Beach in Jocheon with clear water and white sand" caption="Trunk bus 701 or 702 takes 40 to 50 minutes. The beach is calm before the afternoon wind. Photo: Hong Da Hyeon, CC0" >}}
 
-From Hamdeok, stay on the eastbound trunk bus toward Seongsan. The ride takes another hour or so, and the bus stops at Seongeup Folk Village on the way. Get off there for an hour. The village is a small cluster of thatched stone houses, and it is {{< mk "free to walk" >}} through. It is also the best place on this route to see what a Jeju farmhouse actually looked like.
+From Hamdeok, stay on the eastbound trunk bus toward Seongsan. The ride takes another hour or so, and the bus stops at **Seongeup Folk Village** on the way. Get off there for an hour. The village is a small cluster of thatched stone houses, and it is {{< mk "free to walk" >}} through. It is also the best place on this route to see what a Jeju farmhouse actually looked like.
 
 {{< figure src="images/photos/jeju-06.webp" alt="Thatched stone houses at Seongeup Folk Village" caption="Get off the bus here for an hour. The village is free to walk through. Photo: Seefooddiet, CC BY-SA 4.0" >}}
 

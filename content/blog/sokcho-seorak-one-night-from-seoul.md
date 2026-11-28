@@ -98,7 +98,7 @@ A guided day tour from Seoul does the driving for you. The Seoraksan and [Naksan
 
 ## ⛰️ What does the mountain day actually look like?
 
-Start at Seoraksan National Park, at the Sogongwon entrance on the Sokcho side. The park is huge, so do not try to see all of it. Pick one route and walk it properly. The most popular first-timer route is the cable car up to Gwongeumseong Fortress, a short walk to the viewpoint, and then back down to the valley floor for Sinheungsa Temple.
+Start at **Seoraksan National Park**, at the Sogongwon entrance on the Sokcho side. The park is huge, so do not try to see all of it. Pick one route and walk it properly. The most popular first-timer route is the cable car up to **Gwongeumseong Fortress**, a short walk to the viewpoint, and then back down to the valley floor for Sinheungsa Temple.
 
 The cable car is the part people remember. It lifts you over the valley in a few minutes, and the granite peaks open up below you. Go early if you can, because the queue grows fast on clear weekends, and the car can pause in strong wind. If the cable car is closed for weather, the valley walk to Sinheungsa is still worth your time. The temple sits in a quiet clearing with a large bronze Buddha, and the stream beside the path is the kind of place that slows you down without trying.
 
@@ -114,7 +114,7 @@ The valley trails near the entrance are the opposite: flat, shaded, and easy for
 
 ## 🍽️ Where do you sleep, and what do you eat?
 
-Sleep in Sokcho town, near the beach or the port, not up by the park entrance. The town is small, the bus connections are simple, and everything you want in the evening is within a short taxi ride. Guesthouses and small hotels cluster near Sokcho Beach, and larger hotels sit along the seafront. If you are staying overnight, it is worth comparing stays before you go, since weekend rooms near the beach sell out first.
+Sleep in Sokcho town, near the beach or the port, not up by the park entrance. The town is small, the bus connections are simple, and everything you want in the evening is within a short taxi ride. Guesthouses and small hotels cluster near **Sokcho Beach**, and larger hotels sit along the seafront. If you are staying overnight, it is worth comparing stays before you go, since weekend rooms near the beach sell out first.
 
 {{< aff href="https://www.agoda.com/region/gangwon-province-kr.html" text="Compare stays in Gangwon, including Sokcho, on Agoda" >}}
 
@@ -124,7 +124,7 @@ Dinner belongs to Daepohang Port. The port is a working harbor with a long row o
 
 > **🔥 Local tip:** At Daepohang, a set for two runs about 40,000 to {{< pr "70,000 KRW" >}} and mulhoe (spicy cold raw fish soup) about 15,000 to {{< pr "22,000 KRW" >}}, based on recent visitor guides, checked November 2026. The price is the catch, not the fish: agree on the set and the price before you sit down, and check whether the maeuntang (spicy fish stew) at the end is included or extra.
 
-> **🔥 Local tip:** Dakgangjeong is a takeaway game, not a sit-down one. The famous Manseok stall in Sokcho Tourist and Fishery Market draws a 30-minute line on weekends, and the Expo branch by Cheongcho Lake has parking and shorter waits, based on recent visitor reviews, checked November 2026. Buy it in the afternoon, eat it cold at the hotel that night: that is exactly what it is made for. A box runs about {{< pr "20,000 KRW" >}} for boneless, based on the official online shop, checked September 2026.
+> **🔥 Local tip:** Dakgangjeong is a takeaway game, not a sit-down one. The famous Manseok stall in Sokcho Tourist and **Fishery Market** draws a 30-minute line on weekends, and the Expo branch by Cheongcho Lake has parking and shorter waits, based on recent visitor reviews, checked November 2026. Buy it in the afternoon, eat it cold at the hotel that night: that is exactly what it is made for. A box runs about {{< pr "20,000 KRW" >}} for boneless, based on the official online shop, checked September 2026.
 
 {{< sticker kind="yum" >}}
 
@@ -132,7 +132,7 @@ Dinner belongs to Daepohang Port. The port is a working harbor with a long row o
 
 ## 🏖️ What about Abai Village and the beach?
 
-Save the morning of day two for the coast. Sokcho Beach is a long, clean stretch of sand with a promenade, and it is at its best in the early morning before the crowds arrive. Walk it, then cross to Abai Village, the small neighborhood on the other side of the harbor. Abai Village was settled by families who came from the north during the Korean War, and it still feels different from the rest of town: narrow lanes, low houses, and small restaurants serving Abai sundae.
+Save the morning of day two for the coast. Sokcho Beach is a long, clean stretch of sand with a promenade, and it is at its best in the early morning before the crowds arrive. Walk it, then cross to **Abai Village**, the small neighborhood on the other side of the harbor. **Abai Village** was settled by families who came from the north during the Korean War, and it still feels different from the rest of town: narrow lanes, low houses, and small restaurants serving Abai sundae.
 
 The Gaetbae boat, a small hand-pulled ferry across the harbor channel, is the charming way to get there. It is a short ride and costs a small fare, usually around {{< pr "500-1,000 KRW" >}} based on recent listings. If the boat is not running, the road bridge works fine and the walk is short.
 
@@ -152,6 +152,6 @@ Skip the overnight plan if you only want the mountain and nothing else. A day to
 | Day 2 morning | Sokcho Beach and Abai Village | Beach walk, Gaetbae boat, Abai sundae |
 | Day 2 midday | Sokcho Express Bus Terminal | Bus back to Seoul |
 
-If the east coast has you hooked, keep going south: the [Gangneung one-night guide](/blog/gangneung-one-night-ktx-coffee-gyeongpo/) pairs coffee street with Gyeongpo Beach an hour down the coast. And if this trip turned you into a regional food hunter, [Busan in two bowls](/blog/busan-pork-soup-milmyeon/) is the same idea further south: one city, two signature dishes.
+If the east coast has you hooked, keep going south: the [Gangneung one-night guide](/blog/gangneung-one-night-ktx-coffee-gyeongpo/) pairs coffee street with **Gyeongpo Beach** an hour down the coast. And if this trip turned you into a regional food hunter, [Busan in two bowls](/blog/busan-pork-soup-milmyeon/) is the same idea further south: one city, two signature dishes.
 
 {{< aff href="https://www.klook.com/en-US/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455" text="Book a Mt. Seorak and Naksansa Temple day tour from Seoul" >}}

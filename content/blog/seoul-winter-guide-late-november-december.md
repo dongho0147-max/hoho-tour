@@ -49,7 +49,7 @@ Snow is the question everyone asks, and the honest answer is that it snows, but 
 
 {{< collage "images/photos/seoul-40.webp|Hyangwonjeong Pavilion at Gyeongbokgung after a snowfall|Photo: Korea.net / Korean Culture and Information Service (Jeon Han), CC BY-SA 2.0" "images/photos/seoul-22.webp|Changdeokgung Injeongjeon Hall in daytime|After snow, the palace roofs are the best sight in the city. Photo: Koshyk, CC BY" >}}
 
-> **🔥 Local tip:** The Seoul Winter Festival runs from 11 December 2026 to 31 January 2027, with the Seoul Lantern Festival along Cheonggyecheon from 18:00 to 23:00 and the Gwanghwamun Market from 11 December to 10 January, 17:30 to 22:00, until 22:30 on Friday and Saturday. Weekday evenings are calmer than Fridays, weekends, Christmas Eve, and New Year's Eve. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The Seoul Winter Festival runs from 11 December 2026 to 31 January 2027, with the Seoul Lantern Festival along Cheonggyecheon from 18:00 to 23:00 and the **Gwanghwamun Market** from 11 December to 10 January, 17:30 to 22:00, until 22:30 on Friday and Saturday. Weekday evenings are calmer than Fridays, weekends, Christmas Eve, and New Year's Eve. Based on recent listings/reviews, checked November 2026.
 
 ## 🧥 How should you dress? Layers, and one long coat
 
@@ -96,7 +96,7 @@ The most important winter skill in Seoul is knowing where warmth lives. The subw
 
 The floors are the secret weapon. Korean homes, hotels, and many restaurants are heated from below, with ondol floor heating. Sit on the floor in a traditional restaurant, let the heat come up through you, and order something steaming. A hot bowl of noodles or a bubbling stew is not just dinner in winter. It is the whole point of the day. The guide to [a slow food walk through the old markets](/blog/seoul-market-food-walk/) is built around exactly this logic: walk the cold aisles, then eat something hot, then walk some more.
 
-If you are still choosing where to stay, this is the season when location matters most. A hotel or guesthouse within a few minutes of a subway station is worth more in December than in any other month, because every minute of cold walking is a minute you feel. Staying central, near Euljiro or Myeongdong, keeps every trip short. One well-placed option is Lotte Hotel Seoul, right by Euljiro Station in the middle of downtown.
+If you are still choosing where to stay, this is the season when location matters most. A hotel or guesthouse within a few minutes of a subway station is worth more in December than in any other month, because every minute of cold walking is a minute you feel. Staying central, near Euljiro or Myeongdong, keeps every trip short. One well-placed option is Lotte Hotel Seoul, right by **Euljiro Station** in the middle of downtown.
 
 {{< aff href="https://www.agoda.com/en-us/lotte-hotel-seoul/hotel/seoul-kr.html" text="Check Lotte Hotel Seoul on Agoda" >}}
 

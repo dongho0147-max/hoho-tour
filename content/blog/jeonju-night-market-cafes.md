@@ -53,7 +53,7 @@ From Omokdae, walk down into the village slowly. The main streets are quieter no
 
 ## 🌮 What is the Nambu Market night market actually like?
 
-Nambu Market is the old market at the edge of the village, and on Friday and Saturday evenings it turns into a night market with food stalls, live music, and crowds of locals. Based on recent listings, the night market runs on Friday and Saturday evenings, roughly from early evening until late, but the exact hours shift by season, so check the current schedule before you plan around it.
+**Nambu Market** is the old market at the edge of the village, and on Friday and Saturday evenings it turns into a night market with food stalls, live music, and crowds of locals. Based on recent listings, the night market runs on Friday and Saturday evenings, roughly from early evening until late, but the exact hours shift by season, so check the current schedule before you plan around it.
 
 The food is the point. Stalls sell grilled skewers, fried snacks, rice cakes, and drinks, and most items run {{< pr "3,000-8,000 KRW" >}} each based on recent listings. The method is simple: walk the whole market once without buying anything, then go back for the three things you actually want. Eat standing up, share everything, and keep moving. If you sit down for a full meal first, you will be too full to enjoy the stalls, and the stalls are the reason you came.
 
@@ -81,7 +81,7 @@ The second round is Gaekridan-gil. The cafe street near the old Gaeksa stays ope
 
 ## ☕ What about cafes at night?
 
-Cafes in the Hanok Village mostly close between 21:00 and 22:00, based on recent listings, so do not plan a midnight coffee in the village itself. Gaekridan-gil keeps later hours, and a few dessert cafes there serve drinks until late. If you want a nightcap, go to Gaekridan-gil. If you want a quiet tea before bed, buy it earlier in the day and drink it at your guesthouse.
+Cafes in the **Hanok Village** mostly close between 21:00 and 22:00, based on recent listings, so do not plan a midnight coffee in the village itself. Gaekridan-gil keeps later hours, and a few dessert cafes there serve drinks until late. If you want a nightcap, go to Gaekridan-gil. If you want a quiet tea before bed, buy it earlier in the day and drink it at your guesthouse.
 
 If you are staying overnight, a hanok guesthouse in the village is the move. Prices run roughly {{< pr "50,000-120,000 KRW" >}} a night based on recent listings. Book ahead on weekends, because the good ones fill up first.
 

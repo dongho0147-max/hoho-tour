@@ -45,11 +45,11 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🚄 How do you get to Gangneung?
 
-Take the KTX from Seoul Station or Cheongnyangni Station to Gangneung Station. The trip takes about 2 hours, and a standard one-way fare runs about 26,000 to {{< pr "35,000 KRW" >}}, based on recent listings. Book a few days ahead, because Friday evening and Sunday afternoon trains sell out.
+Take the KTX from **Seoul Station** or **Cheongnyangni Station** to Gangneung Station. The trip takes about 2 hours, and a standard one-way fare runs about 26,000 to {{< pr "35,000 KRW" >}}, based on recent listings. Book a few days ahead, because Friday evening and Sunday afternoon trains sell out.
 
-From Gangneung Station, take a bus or a taxi to Anmok Beach, about 15 to 20 minutes. A taxi runs about 10,000 to {{< hl "15,000 KRW" >}}. The bus is cheaper but slower, so take the taxi if you are short on time.
+**From Gangneung Station**, take a bus or a taxi to **Anmok Beach**, about 15 to 20 minutes. A taxi runs about 10,000 to {{< hl "15,000 KRW" >}}. The bus is cheaper but slower, so take the taxi if you are short on time.
 
-> **🔥 Local tip:** Sit on the right side of the train from Seoul for the mountain views in the second half of the trip. It is a small thing, and it makes the 2 hours feel shorter. From Gangneung Station Exit 1, bus 202 runs to Anmok Beach in about 20 minutes, about {{< pr "1,500 KRW" >}} by card, every 15 to 20 minutes. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Sit on the right side of the train from Seoul for the mountain views in the second half of the trip. It is a small thing, and it makes the 2 hours feel shorter. From Gangneung Station **Exit 1**, bus 202 runs to Anmok Beach in about 20 minutes, about {{< pr "1,500 KRW" >}} by card, every 15 to 20 minutes. Based on recent listings/reviews, checked November 2026.
 
 If you would rather not plan the transport at all, a day tour from Seoul covers the Gangneung highlights and brings you back the same evening. It is a good option if you cannot stay the night.
 
@@ -65,7 +65,7 @@ Do not try to do five cafes in one afternoon. Pick two at most: one for the coff
 
 ## 🌅 Sunset: Gyeongpo Beach and Gyeongpo Lake
 
-From Anmok, walk or take a short taxi to Gyeongpo Beach, the main beach of Gangneung. It is wider than Anmok, with a pine forest behind it and the GYEONGPO photo frame standing on the sand. The frame is the photo everyone takes, and the line for it is shortest at sunset, when most day visitors have left.
+From Anmok, walk or take a short taxi to **Gyeongpo Beach**, the main beach of Gangneung. It is wider than Anmok, with a pine forest behind it and the GYEONGPO photo frame standing on the sand. The frame is the photo everyone takes, and the line for it is shortest at sunset, when most day visitors have left.
 
 {{< sticker kind="photo-spot" >}}
 
@@ -86,23 +86,23 @@ Behind the beach sits Gyeongpo Lake, with the Gyeongpodae Pavilion on its edge. 
 | Chodang tofu | Chodang-dong, near Gyeongpo | About 8,000 to 12,000 KRW a set |
 | Seafood stew | Restaurants near Jumunjin | About 15,000 to 25,000 KRW |
 
-For dinner, walk to Gangneung Jungang Market for dakgangjeong, the sweet and spicy fried chicken the city is known for, or eat at a restaurant near Gyeongpo Beach. The market closes in the early evening, so go before 18:00 if you want the full choice.
+For dinner, walk to **Gangneung Jungang Market** for dakgangjeong, the sweet and spicy fried chicken the city is known for, or eat at a restaurant near Gyeongpo Beach. The market closes in the early evening, so go before 18:00 if you want the full choice.
 
 {{< figure src="images/photos/gangneung-07.webp" alt="The entrance of Gangneung Jungang Market at dusk" caption="The market is closed Sundays and the stalls close around 18:00. Half-and-half is the safe first box. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-> **🔥 Local tip:** The dakgangjeong stalls sell mild, spicy, and half-and-half boxes, and the half-and-half is the safe pick for a first try. Jungang Market is closed on Sundays and the stalls close around 18:00, so buy your box before dinner and eat it back at your hotel or on the beach. Chodang-dong, near Gyeongpo, is the place for the soft tofu set: the tofu is made with seawater and comes with rice and side dishes, about 8,000 to {{< pr "12,000 KRW" >}}. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The dakgangjeong stalls sell mild, spicy, and half-and-half boxes, and the half-and-half is the safe pick for a first try. **Jungang Market** is closed on Sundays and the stalls close around 18:00, so buy your box before dinner and eat it back at your hotel or on the beach. Chodang-dong, near Gyeongpo, is the place for the soft tofu set: the tofu is made with seawater and comes with rice and side dishes, about 8,000 to {{< pr "12,000 KRW" >}}. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 
 ## 🌊 Next morning: Jumunjin and Ojukheon
 
-Start the second day at Jumunjin Beach, about 20 minutes north by bus or taxi. The beach is known for two things: the BTS bus stop, the simple bus shelter from the album photos that fans visit, and the breakwater, a long concrete pier that is good for a walk. The bus stop draws a line on weekends, so go early if you want a photo without a queue.
+Start the second day at **Jumunjin Beach**, about 20 minutes north by bus or taxi. The beach is known for two things: the BTS bus stop, the simple bus shelter from the album photos that fans visit, and the breakwater, a long concrete pier that is good for a walk. The bus stop draws a line on weekends, so go early if you want a photo without a queue.
 
-> **🔥 Local tip:** The BTS bus stop stands on Hyangho Beach, just south of Jumunjin, and it is a photo spot, not a working bus stop: no real buses stop there. Buses 300 and 302 run from Gangneung Station toward Jumunjin in about 45 to 50 minutes, so build in that time for the morning. The stop has a small tripod stand, which solo visitors use for the photo. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The BTS bus stop stands on **Hyangho Beach**, just south of Jumunjin, and it is a photo spot, not a working bus stop: no real buses stop there. Buses 300 and 302 run from **Gangneung Station** toward Jumunjin in about 45 to 50 minutes, so build in that time for the morning. The stop has a small tripod stand, which solo visitors use for the photo. Based on recent listings/reviews, checked November 2026.
 
 {{< figure src="images/photos/gangneung-04.webp" alt="Jumunjin Beach, north of Gangneung" caption="Buses 300 and 302 from Gangneung Station take about 45 to 50 minutes, so build that into your morning. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-If you have time before your train, stop at Jeongdongjin Station on the way back. It is the seaside station just south of Jumunjin, famous for being the closest station to the sea in Korea, and the sunrise from its platform is a classic.
+If you have time before your train, stop at **Jeongdongjin Station** on the way back. It is the seaside station just south of Jumunjin, famous for being the closest station to the sea in Korea, and the sunrise from its platform is a classic.
 
 {{< figure src="images/photos/gangneung-06.webp" alt="Jeongdongjin Station, the seaside station near Jumunjin" caption="If you have time before your train, stop here on the way back. The sunrise from the platform is a classic. Photo: Unknown, CC0" >}}
 

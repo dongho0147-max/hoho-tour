@@ -24,7 +24,7 @@ stops:
 
 There is a way to eat in Seoul that has nothing to do with restaurants. No reservation, no menu, no table. You walk into a market in the morning, hungry, with cash in your pocket, and you let the smell decide. It is the best food morning in the city, and it is also the most forgiving. You cannot order wrong in a market. You point, you eat, you keep walking.
 
-The walk in this guide starts at Gwangjang Market, winds through the old streets around Jongno, and ends wherever your feet give out, usually in a narrow hanok alley with a coffee in your hand. It takes a morning, it costs less than a single restaurant dinner, and it shows you a Seoul that the shopping districts never will. If you want the full first-trip version of the city, the palaces and the river and the tower, the [Seoul Essential 3-Day Guide](/blog/seoul-essential-3-day-guide/) is the place to start. This walk is what you do on the morning after, when you already know your way around and you want to eat like someone who lives here.
+The walk in this guide starts at **Gwangjang Market**, winds through the old streets around Jongno, and ends wherever your feet give out, usually in a narrow hanok alley with a coffee in your hand. It takes a morning, it costs less than a single restaurant dinner, and it shows you a Seoul that the shopping districts never will. If you want the full first-trip version of the city, the palaces and the river and the tower, the [Seoul Essential 3-Day Guide](/blog/seoul-essential-3-day-guide/) is the place to start. This walk is what you do on the morning after, when you already know your way around and you want to eat like someone who lives here.
 
 {{< sticker kind="lets-go" >}}
 
@@ -58,7 +58,7 @@ The fish stall is the best example. Stand in front of it for a minute and really
 
 {{< figure src="images/photos/seoul-41.webp" alt="Vendors frying bindaetteok pancakes on a griddle at Gwangjang Market" caption="Look first, eat second. Every stall is someone's whole working life. Photo: Pfc. Bo Park, US Army, Public domain" >}}
 
-If raw fish is your thing, Noryangjin Fisheries Wholesale Market is a separate trip, and it is worth its own morning. The octopus there is the whole show.
+If raw fish is your thing, **Noryangjin Fisheries Wholesale Market** is a separate trip, and it is worth its own morning. The octopus there is the whole show.
 
 {{< figure src="images/photos/seoul-14.webp" alt="Raw octopus at Noryangjin Fisheries Wholesale Market, close-up" caption="Noryangjin is a separate trip and worth its own morning. Photo: Basile Morin, CC BY-SA 4.0" >}}
 

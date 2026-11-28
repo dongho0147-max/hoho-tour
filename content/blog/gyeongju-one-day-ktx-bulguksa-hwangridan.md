@@ -35,7 +35,7 @@ stops:
     note: "Hanok village and the old Choi family house."
 ---
 
-Gyeongju is the best one-day history trip in Korea, and the [KTX](https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455) makes it work. You arrive at Gyeongju Station in the morning, take a bus to Bulguksa Temple, spend the afternoon walking among royal tombs in the town center, and end the day eating your way down Hwangridan-gil. One day, no car, no rush.
+Gyeongju is the best one-day history trip in Korea, and the [KTX](https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455) makes it work. You arrive at **Gyeongju Station** in the morning, take a bus to **Bulguksa Temple**, spend the afternoon walking among royal tombs in the town center, and end the day eating your way down Hwangridan-gil. One day, no car, no rush.
 
 This guide was put together from recent listings, reviews, and official pages, checked November 2026. Train times and bus numbers change, so check them the day before you travel.
 
@@ -45,7 +45,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🚄 How do you get to Gyeongju?
 
-By KTX from Seoul Station, the trip to Gyeongju Station takes about 2 hours. From Busan Station, it takes about 30 minutes. Book your train a few days ahead, because weekend morning trains sell out. A standard one-way fare from Seoul runs about 38,000 to {{< pr "44,600 KRW" >}}, and from Busan about 10,000 to {{< pr "15,000 KRW" >}}, based on recent listings.
+By KTX from **Seoul Station**, the trip to Gyeongju Station takes about 2 hours. **From Busan Station**, it takes about 30 minutes. Book your train a few days ahead, because weekend morning trains sell out. A standard one-way fare from Seoul runs about 38,000 to {{< pr "44,600 KRW" >}}, and from Busan about 10,000 to {{< pr "15,000 KRW" >}}, based on recent listings.
 
 Gyeongju Station sits outside town, about 25 minutes by bus from the center. Buses 700 and 701 run from the station into town and on to Bulguksa. Buy a T-money card before you leave Seoul or Busan, and it works on Gyeongju buses too.
 
@@ -83,7 +83,7 @@ End the day on Hwangridan-gil, the cafe and snack street that runs past the tomb
 
 {{< figure src="images/photos/gyeongju-03.webp" alt="10-won bread, a street snack on Hwangridan-gil" caption="The 10-won bread is about 3,000 KRW. A full snack crawl runs about 10,000 to 15,000 KRW per person. Photo: Seefooddiet, CC BY-SA 4.0" >}}
 
-> **🔥 Local tip:** Buy Hwangnam-ppang warm from the original shops on the street: a bag of 10 runs about {{< pr "6,000 KRW" >}}, and the thin-skinned red-bean cakes are best the same day. Then walk on to Gyochon Traditional Village: the hanok lanes have no gate and no fixed hours, and Woljeonggyo Bridge at its edge stays open and lit until 22:00. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Buy Hwangnam-ppang warm from the original shops on the street: a bag of 10 runs about {{< pr "6,000 KRW" >}}, and the thin-skinned red-bean cakes are best the same day. Then walk on to **Gyochon Traditional Village**: the hanok lanes have no gate and no fixed hours, and **Woljeonggyo Bridge** at its edge stays open and lit until 22:00. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 

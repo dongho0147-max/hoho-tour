@@ -42,9 +42,9 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 ## ☕ Where do you start, and why Seongsu first?
 
-Start in Seongsu, on Line 2. Seongsu used to be a factory district, and the cafes moved into the old warehouses and print shops, so the rooms are big, the ceilings are high, and the coffee is serious. This is the neighborhood for a long morning sit: order a coffee, order a pastry, and stay for an hour. A coffee runs about {{< pr "5,000-7,000 KRW" >}} and a pastry about {{< pr "6,000-10,000 KRW" >}} based on recent listings.
+Start in Seongsu, on **Line 2**. Seongsu used to be a factory district, and the cafes moved into the old warehouses and print shops, so the rooms are big, the ceilings are high, and the coffee is serious. This is the neighborhood for a long morning sit: order a coffee, order a pastry, and stay for an hour. A coffee runs about {{< pr "5,000-7,000 KRW" >}} and a pastry about {{< pr "6,000-10,000 KRW" >}} based on recent listings.
 
-The area around Seongsu Station and Seoul Forest is the walk. The streets are flat, the shopfronts are worth looking at, and the crowd is younger and calmer than Hongdae. If you like street art and small design shops, the side streets behind the main road have plenty of both. Go before noon if you can, because the popular cafes develop queues by the early afternoon, and the queue is the least fun part of a cafe day.
+The area around **Seongsu Station** and Seoul Forest is the walk. The streets are flat, the shopfronts are worth looking at, and the crowd is younger and calmer than Hongdae. If you like street art and small design shops, the side streets behind the main road have plenty of both. Go before noon if you can, because the popular cafes develop queues by the early afternoon, and the queue is the least fun part of a cafe day.
 
 > **🔥 Local tip:** Cafe Onion, the converted-factory bakery that put Seongsu on the map, is calmest on weekday mornings before 09:00, when the bread is fresh and there is no wait. On weekend afternoons the line can run 30 minutes to an hour, and the rooftop fills first. At the ordering kiosk, pick dine-in (매장) if you want to sit inside: takeout (포장) means a to-go cup and no indoor table, even if seats are free. Based on recent listings/reviews, checked November 2026.
 
@@ -68,7 +68,7 @@ Seongsu is the most spacious. Yeonnam is the most relaxed. Ikseon-dong is the pr
 
 ## 🌳 How do you do Yeonnam-dong properly?
 
-Take the subway to Hongik University Station and walk to Yeonnam-dong, the quiet neighborhood just north of Hongdae. The center of it is the Gyeongui Line Forest Park, a long linear park built on an old railway line. The cafes sit along the park edges, with outdoor tables facing the trees. It is the most walkable cafe area in the city, and it is at its best in the late afternoon, when the light comes through the trees and the park fills with people walking dogs and riding bikes.
+Take the subway to **Hongik University Station** and walk to Yeonnam-dong, the quiet neighborhood just north of Hongdae. The center of it is the **Gyeongui Line Forest Park**, a long linear park built on an old railway line. The cafes sit along the park edges, with outdoor tables facing the trees. It is the most walkable cafe area in the city, and it is at its best in the late afternoon, when the light comes through the trees and the park fills with people walking dogs and riding bikes.
 
 {{< figure src="images/photos/seoul-cafe-04.webp" alt="Gyeongui Line Forest Park in Yeonnam-dong with trees and a path" caption="The park is at its best in late afternoon. Order something iced if the weather is warm. Photo: Korea Tourism Organization, Lee Bumsu, KOGL Type 1" >}}
 
@@ -96,7 +96,7 @@ You do not need a fixed order, but it helps to have a plan. In Seongsu, order a 
 
 {{< sticker kind="yum" >}}
 
-If you want a guided food walk to go with the cafe day, the Gwangjang Market food walk runs from the market to Cheonggyecheon and Heunginjimun Gate, and it is a good way to eat before the cafes. It includes a kimbap, bindaetteok, or tteokbokki tasting, and it pairs well with an afternoon in Ikseon-dong, which is nearby.
+If you want a guided food walk to go with the cafe day, the **Gwangjang Market** food walk runs from the market to Cheonggyecheon and **Heunginjimun Gate**, and it is a good way to eat before the cafes. It includes a kimbap, bindaetteok, or tteokbokki tasting, and it pairs well with an afternoon in Ikseon-dong, which is nearby.
 
 {{< aff href="https://www.klook.com/en-US/activity/68099-gwangjang-market-food-and-fortress-walk/?aid=145455" text="See the Gwangjang Market food and fortress walk on Klook" >}}
 
