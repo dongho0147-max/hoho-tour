@@ -1,1 +1,18 @@
-<div class="affiliate-cta"><p><a href="{{ .Get "href" }}" target="_blank" rel="{{ .Get "rel" | default "sponsored noopener" }}">{{ .Get "text" }}</a></p></div>
+{{ $href := .Get "href" }}
+{{ $text := .Get "text" }}
+{{ $rel := .Get "rel" | default "sponsored noopener" }}
+{{ $final := $href }}
+{{ if strings.Contains $href "agoda.com" }}
+  {{ $cid := site.Params.affiliate.agodaCid }}
+  {{ if and $cid (not (strings.Contains $href "cid=")) }}
+    {{ $sep := cond (strings.Contains $href "?") "&" "?" }}
+    {{ $final = printf "%s%scid=%s" $href $sep $cid }}
+  {{ end }}
+{{ else if strings.Contains $href "klook.com" }}
+  {{ $aid := site.Params.affiliate.klookAid | default "145455" }}
+  {{ if and $aid (not (strings.Contains $href "aid=")) }}
+    {{ $sep := cond (strings.Contains $href "?") "&" "?" }}
+    {{ $final = printf "%s%said=%s" $href $sep $aid }}
+  {{ end }}
+{{ end }}
+<div class="affiliate-cta"><p><a href="{{ $final }}" target="_blank" rel="{{ $rel }}">{{ $text }}</a></p></div>

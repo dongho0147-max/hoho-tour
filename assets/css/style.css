@@ -734,3 +734,22 @@ figcaption .cap-credit{position:absolute;top:8px;right:8px;display:block;max-wid
 .mk{background:#FFF1A8;border-radius:3px;padding:0 .18em;margin:0 -.02em;
   -webkit-box-decoration-break:clone;box-decoration-break:clone}
 @media print{.mk{background:none;padding:0}.pr{color:inherit}.pr.hl{background:none;padding:0}}
+
+/* ---------- Hero band (2026-11-28): visible H1 + CTAs above the feature pair.
+   The H1 was sr-only so the first screen showed only photos. ---------- */
+.hero-band{padding:44px 0 8px;text-align:center}
+.hero-band .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+.hero-title{font-size:clamp(30px,5.4vw,46px);line-height:1.15;margin:0 0 12px;text-wrap:balance}
+.hero-lede{color:var(--ink-2);font-size:clamp(16px,2.4vw,18px);line-height:1.6;margin:0 auto 22px;max-width:58ch}
+.cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:0 0 8px}
+.cta-row .btn{min-height:48px;display:inline-flex;align-items:center;padding:0 20px}
+/* Feature pair: shorten the photos so the first screen shows the headline
+   and the start of the guide list (mobile 16/9 instead of 4/3). */
+@media (max-width:767px){
+  .card--feature .thumb{aspect-ratio:16/9}
+}
+/* Map chips: make sure they wrap on desktop so 12 chips never force a
+   horizontal scrollbar (explicit fallback for the 1080px rule). */
+@media (min-width:1080px){
+  .map-chips{flex-wrap:wrap;overflow-x:visible}
+}
