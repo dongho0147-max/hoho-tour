@@ -1,4 +1,6 @@
 ---
+sitemap:
+  disable: true
 title: "Blog"
 description: "All HOHO Tour guides: Seoul itineraries, Korea transport, food, and day trips for first-time visitors."
 ---

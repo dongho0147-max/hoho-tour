@@ -7,8 +7,8 @@
    swipeable row under the logo.
    Menu targets (all exist in content/ or as taxonomy pages, EN and /kr):
      /  /regions/  /themes/food-restaurants/  /themes/itineraries/
-     /themes/transit-tips/  /map/  /blog/  /about/
-   Desktop side rail (>=1360px, no JS): Archive / Map / Destinations. */}}
+     /themes/transit-tips/  /map/  /about/ (Archive removed 2026-11-28; /blog/ redirects home)
+   Desktop side rail (>=1360px, no JS): Map / Destinations. */}}
 {{ $isKR := eq site.Language.Lang "kr" }}
 {{ $homeURL := "/" | relLangURL }}
 {{ $destURL := "/regions/" | relLangURL }}
@@ -16,7 +16,6 @@
 {{ $itinURL := "/themes/itineraries/" | relLangURL }}
 {{ $tipsURL := "/themes/transit-tips/" | relLangURL }}
 {{ $mapURL := "/map/" | relLangURL }}
-{{ $archURL := "/blog/" | relLangURL }}
 {{ $aboutURL := "/about/" | relLangURL }}
 {{ $here := .RelPermalink }}
 {{ $menuLabel := i18n "menu" }}{{ if not $menuLabel }}{{ $menuLabel = cond $isKR "메뉴" "Menu" }}{{ end }}
@@ -26,7 +25,6 @@
 {{ $tItin := i18n "navItineraries" | default (cond $isKR "일정" "Itineraries") }}
 {{ $tTips := i18n "navTips" | default (cond $isKR "교통·팁" "Transport & Tips") }}
 {{ $tMap := i18n "navMap" | default (cond $isKR "지도" "Map") }}
-{{ $tArch := i18n "navArchive" | default (cond $isKR "전체 글" "Archive") }}
 <header class="site" data-site-header>
 <div class="site__inner">
 <div class="masthead">
@@ -42,7 +40,6 @@
 <a href="{{ $itinURL }}"{{ if eq $here $itinURL }} aria-current="page"{{ end }}>{{ $tItin }}</a>
 <a href="{{ $tipsURL }}"{{ if eq $here $tipsURL }} aria-current="page"{{ end }}>{{ $tTips }}</a>
 <a href="{{ $mapURL }}"{{ if eq $here $mapURL }} aria-current="page"{{ end }}>{{ $tMap }}</a>
-<a href="{{ $archURL }}"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>{{ $tArch }}</a>
 <a href="{{ $aboutURL }}"{{ if eq $here $aboutURL }} aria-current="page"{{ end }}>{{ i18n "about" }}</a>
 </nav>
 <div class="navbar__tools">{{ partial "lang-toggle.html" . }}</div>
@@ -50,7 +47,6 @@
 </div>
 </header>
 <nav class="side-rail" aria-label="{{ $railLabel }}">
-<a href="{{ $archURL }}">{{ $tArch }}</a><span aria-hidden="true"></span>
 <a href="{{ $mapURL }}">{{ $tMap }}</a><span aria-hidden="true"></span>
 <a href="{{ $destURL }}">{{ $tDest }}</a>
 </nav>

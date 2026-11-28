@@ -66,7 +66,7 @@
 <p><a class="btn btn-secondary" href="{{ "/" | relLangURL }}">{{ i18n "hubBackToMap" }}</a></p>
 </div>
 {{ end }}
-<p class="hub-foot"><a href="{{ "/" | relLangURL }}">{{ i18n "hubMap" }}</a> &middot; <a href="{{ "/regions/" | relLangURL }}">{{ i18n "footAllRegions" }}</a> &middot; <a href="{{ "/themes/" | relLangURL }}">{{ i18n "footAllThemes" }}</a> &middot; <a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a></p>
+<p class="hub-foot"><a href="{{ "/" | relLangURL }}">{{ i18n "hubMap" }}</a> &middot; <a href="{{ "/regions/" | relLangURL }}">{{ i18n "footAllRegions" }}</a> &middot; <a href="{{ "/themes/" | relLangURL }}">{{ i18n "footAllThemes" }}</a></p>
 </div>
 {{ partial "filter-script.html" . }}
 {{ else }}
@@ -82,7 +82,7 @@
 <ul class="cards">
 {{ range .Pages.ByDate.Reverse }}{{ partial "guide-card.html" . }}{{ end }}
 </ul>
-<p><a href="{{ "/regions/" | relLangURL }}">{{ i18n "footAllRegions" }}</a> &middot; <a href="{{ "/themes/" | relLangURL }}">{{ i18n "footAllThemes" }}</a> &middot; <a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a></p>
+<p><a href="{{ "/regions/" | relLangURL }}">{{ i18n "footAllRegions" }}</a> &middot; <a href="{{ "/themes/" | relLangURL }}">{{ i18n "footAllThemes" }}</a></p>
 {{ else }}
 <p class="intro">{{ i18n "termNoGuides" }}</p>
 {{ end }}

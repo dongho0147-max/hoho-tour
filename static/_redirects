@@ -1,0 +1,6 @@
+/blog / 301
+/blog/ / 301
+/blog/page/* / 301
+/kr/blog /kr/ 301
+/kr/blog/ /kr/ 301
+/kr/blog/page/* /kr/ 301
