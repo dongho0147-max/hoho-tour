@@ -132,7 +132,7 @@ For the water-level view, there is a Dodamsambong cruise. In November and Decemb
 
 {{< figure src="images/photos/danyang-seokmun-02.jpg" alt="The Namhan River and green fields seen through the rock arch of Seokmun" caption="The Namhan River and fields framed by the Seokmun rock arch. Photo: Douglas Perkins, CC BY 4.0" >}}
 
-{{< collage "images/photos/danyang-dodam-05.jpg|Dodamsambong peaks reflected in the still river|Korea Tourism Organization" "images/photos/danyang-dodam-06.jpg|Dodamsambong peaks in golden light with their reflection|Korea Tourism Organization" "images/photos/danyang-seokmun-04.jpg|Seokmun rock arch framing the river and a wooden deck|Korea Tourism Organization" >}}
+{{< collage "images/photos/danyang-dodam-06.jpg|Dodamsambong peaks in golden light with their reflection|Korea Tourism Organization" "images/photos/danyang-seokmun-04.jpg|Seokmun rock arch framing the river and a wooden deck|Korea Tourism Organization" >}}
 
 
 ### 🧄 Gugyeong Market, the garlic market {.stop data-n="2" .stop-market}
@@ -176,7 +176,7 @@ The skywalk is a viewing platform with a walkway reaching out about 80 m above t
 
 {{< figure src="images/photos/danyang-skywalk-s4.jpg" alt="Mancheonha Skywalk tower on the ridge above the river and town" caption="The Mancheonha Skywalk tower on the ridge above the river and town. Photo: Korea Tourism Organization" >}}
 
-{{< collage "images/photos/danyang-skywalk-s1.jpg|Mancheonha Skywalk tower seen from below under a blue sky|Korea Tourism Organization" "images/photos/danyang-skywalk-s5.jpg|Glass walkway reaching out over the river toward the town|Korea Tourism Organization" "images/photos/danyang-skywalk-02.jpg|Aerial view of the Mancheonha Skywalk tower among green hills|Telltrip" "images/photos/danyang-skywalk-03.jpg|Glass-floor view from the Mancheonha Skywalk|Telltrip" >}}
+{{< collage "images/photos/danyang-skywalk-s1.jpg|Mancheonha Skywalk tower seen from below under a blue sky|Korea Tourism Organization" "images/photos/danyang-skywalk-s5.jpg|Glass walkway reaching out over the river toward the town|Korea Tourism Organization" "images/photos/danyang-skywalk-02.jpg|Aerial view of the Mancheonha Skywalk tower among green hills|Telltrip" >}}
 
 ### Paragliding (optional, weather permitting)
 
@@ -218,7 +218,7 @@ Plan 20 to 40 minutes for the view. There is no official car park, so cars use t
 
 {{< figure src="images/photos/danyang-guinsa-01.jpg" alt="Colorful painted eaves of Guinsa Temple among green trees" caption="Painted eaves and tiled roofs stacked up the Guinsa slope. Photo: Ken Eckert, CC BY-SA 4.0" >}}
 
-{{< collage "images/photos/danyang-guinsa-02.jpg|Golden-tiled red roof of a hall at Guinsa|Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-03.jpg|Bell pavilion with a white railing at Guinsa|Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-04.jpg|Avalokitesvara Hall with painted red eaves at Guinsa|Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-05.jpg|Red Iljumun entrance gate at Guinsa|Steve46814, CC BY-SA 3.0" >}}
+{{< collage "images/photos/danyang-guinsa-02.jpg|Golden-tiled red roof of a hall at Guinsa|Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-03.jpg|Bell pavilion with a white railing at Guinsa|Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-05.jpg|Red Iljumun entrance gate at Guinsa|Steve46814, CC BY-SA 3.0" >}}
 
 ### 🍲 Lunch: sogari maeuntang
 
@@ -230,7 +230,7 @@ Sogari (mandarin fish) maeuntang is the local dish: a spicy river-fish stew, sha
 
 {{< figure src="images/photos/danyang-ssogari-crop1.jpg" alt="Close-up of sogari maeuntang with perilla leaves and enoki mushrooms" caption="Close-up of sogari maeuntang with perilla leaves and enoki mushrooms. Photo: hyun chun kim, CC0" >}}
 
-{{< collage "images/photos/danyang-food-ssogari-02.jpg|Ladle resting in a pot of sogari maeuntang|yoona13 (Tistory)" "images/photos/danyang-ssogari-crop3.jpg|Close-up of sogari fish on a bowl of rice|Haessal Blog" >}}
+{{< figure src="images/photos/danyang-ssogari-crop3.jpg" alt="Close-up of sogari fish on a bowl of rice" caption="Close-up of sogari fish on a bowl of rice. Photo: Haessal Blog" >}}
 
 Walk the river once more, buy a box of garlic bread, and head home by train or bus.
 

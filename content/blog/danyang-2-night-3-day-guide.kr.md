@@ -134,7 +134,7 @@ stops:
 
 {{< figure src="images/photos/danyang-seokmun-02.jpg" alt="바위 아치 너머로 푸른 남한강과 들판이 보이는 석문" caption="석문 아치 너머로 보이는 남한강과 들판이에요. 사진: Douglas Perkins, CC BY 4.0" >}}
 
-{{< collage "images/photos/danyang-dodam-05.jpg|잔잔한 강에 비친 도담삼봉|사진: 한국관광공사" "images/photos/danyang-dodam-06.jpg|황금빛 햇살을 받은 도담삼봉과 물그림자|사진: 한국관광공사" "images/photos/danyang-seokmun-04.jpg|강과 나무 전망대를 감싼 석문 바위 아치|사진: 한국관광공사" >}}
+{{< collage "images/photos/danyang-dodam-06.jpg|황금빛 햇살을 받은 도담삼봉과 물그림자|사진: 한국관광공사" "images/photos/danyang-seokmun-04.jpg|강과 나무 전망대를 감싼 석문 바위 아치|사진: 한국관광공사" >}}
 
 
 ### 🧄 구경시장, 마늘 시장 {.stop data-n="2" .stop-market}
@@ -182,7 +182,7 @@ stops:
 
 {{< figure src="images/photos/danyang-skywalk-s4.jpg" alt="강과 시내 위 능선에 선 만천하스카이워크 전망탑" caption="강과 시내 위 능선에 선 만천하스카이워크 전망탑이에요. 사진: 한국관광공사" >}}
 
-{{< collage "images/photos/danyang-skywalk-s1.jpg|파란 하늘 아래에서 올려다본 만천하스카이워크 전망탑|사진: 한국관광공사" "images/photos/danyang-skywalk-s5.jpg|강 위로 뻗은 유리 전망대와 시내|사진: 한국관광공사" "images/photos/danyang-skywalk-02.jpg|초록 산 사이 만천하스카이워크 전망탑 항공 사진|사진: Telltrip" "images/photos/danyang-skywalk-03.jpg|만천하스카이워크 유리 바닥에서 본 풍경|사진: Telltrip" >}}
+{{< collage "images/photos/danyang-skywalk-s1.jpg|파란 하늘 아래에서 올려다본 만천하스카이워크 전망탑|사진: 한국관광공사" "images/photos/danyang-skywalk-s5.jpg|강 위로 뻗은 유리 전망대와 시내|사진: 한국관광공사" "images/photos/danyang-skywalk-02.jpg|초록 산 사이 만천하스카이워크 전망탑 항공 사진|사진: Telltrip" >}}
 
 ### 패러글라이딩(선택, 날씨 따라)
 
@@ -226,7 +226,7 @@ stops:
 
 {{< figure src="images/photos/danyang-guinsa-01.jpg" alt="초록 나무 사이로 보이는 구인사의 알록달록한 단청 처마" caption="구인사 비탈에 층층이 쌓인 단청 처마와 기와지붕이에요. 사진: Ken Eckert, CC BY-SA 4.0" >}}
 
-{{< collage "images/photos/danyang-guinsa-02.jpg|구인사의 금빛 기와를 얹은 붉은 전각 지붕|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-03.jpg|흰 난간이 둘린 구인사 종각|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-04.jpg|붉은 단청 처마가 있는 구인사 관음전|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-05.jpg|구인사 붉은 일주문|사진: Steve46814, CC BY-SA 3.0" >}}
+{{< collage "images/photos/danyang-guinsa-02.jpg|구인사의 금빛 기와를 얹은 붉은 전각 지붕|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-03.jpg|흰 난간이 둘린 구인사 종각|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-05.jpg|구인사 붉은 일주문|사진: Steve46814, CC BY-SA 3.0" >}}
 
 ### 🍲 점심은 쏘가리 매운탕
 
@@ -238,7 +238,7 @@ stops:
 
 {{< figure src="images/photos/danyang-ssogari-crop1.jpg" alt="깻잎과 팽이버섯을 올린 쏘가리 매운탕 근접 사진" caption="깻잎과 팽이버섯을 올린 쏘가리 매운탕 근접 사진이에요. 사진: hyun chun kim, CC0" >}}
 
-{{< collage "images/photos/danyang-food-ssogari-02.jpg|국자가 담긴 쏘가리 매운탕 냄비|사진: yoona13 (티스토리)" "images/photos/danyang-ssogari-crop3.jpg|공깃밥 위에 올린 쏘가리 살 근접 사진|사진: 햇살 블로그" >}}
+{{< figure src="images/photos/danyang-ssogari-crop3.jpg" alt="공깃밥 위에 올린 쏘가리 살 근접 사진" caption="공깃밥 위에 올린 쏘가리 살 근접 사진. 사진: 햇살 블로그" >}}
 
 강변을 한 번 더 걷고, 마늘빵을 한 상자 사서 기차나 버스로 돌아가세요.
 
