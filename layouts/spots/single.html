@@ -32,7 +32,7 @@
 {{ end }}
 <div class="post-body">
 {{ with $sp }}
-<section class="spot-facts" aria-label="{{ if $isKR }}한눈에 보기{{ else }}Quick facts{{ end }}">
+{{ if or .address .address_ko .elevation_m .fee .hours .getting_there .phone }}<section class="spot-facts" aria-label="{{ if $isKR }}한눈에 보기{{ else }}Quick facts{{ end }}">
 <h2>{{ if $isKR }}한눈에 보기{{ else }}Quick facts{{ end }}</h2>
 <dl>
 {{ if $isKR }}
@@ -51,7 +51,7 @@
 {{ with .phone }}<dt>Phone</dt><dd>{{ . }}</dd>{{ end }}
 {{ end }}
 </dl>
-</section>
+</section>{{ end }}
 {{ $stop := dict "name" (.name | default $.Title) "name_ko" .name_ko "type" "attraction" "lat" .lat "lng" .lng }}
 {{ partial "tour-summary.html" (dict "Params" (dict "stops" (slice $stop)) "File" $.File) }}
 {{ end }}
