@@ -62,7 +62,7 @@ landmarks:
 map_note: "Gaekridan-gil is not on the map: no verified coordinates were found for it, so it was left out rather than guessed."
 ---
 
-전주는 서울에서 가기 가장 쉬운 먹거리 도시이고, 하루면 사람들이 왜 이 도시를 좋아하는지 알기에 충분해요. 아침에 KTX를 타고, 점심 전에 한국에서 가장 큰 한옥마을을 걷고, 도시의 명물인 비빔밥을 먹고, 오후는 객리단길의 카페에서 마무리해요. 저녁에는 서울로 돌아오거나, 하룻밤 묵으며 불 켜진 마을을 보세요.
+전주는 서울에서 가기 가장 쉬운 먹거리 도시이고, 하루면 사람들이 왜 이 도시를 좋아하는지 알기에 충분해요. 아침에 KTX를 타고, 점심 전에 한국에서 가장 큰 [한옥마을](https://www.klook.com/en-US/activity/2999-jeonju-hanok-village-tour-seoul/?aid=145455)을 걷고, 도시의 명물인 비빔밥을 먹고, 오후는 객리단길의 카페에서 마무리해요. 저녁에는 서울로 돌아오거나, 하룻밤 묵으며 불 켜진 마을을 보세요.
 
 {{< sticker kind="lets-go" >}}
 
@@ -174,3 +174,5 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 | 오후 | 전동성당과 오목대 | 성당(17:00까지), 그다음 전망 |
 | 늦은 오후 | 객리단길 | 커피와 카페에서의 느린 한 시간 |
 | 저녁 | 전주역 | 서울행 KTX, 또는 한옥 게스트하우스에서 1박 |
+
+{{< aff href="https://www.klook.com/en-US/activity/2999-jeonju-hanok-village-tour-seoul/?aid=145455" text="전주 한옥마을 당일투어 예약하기" >}}

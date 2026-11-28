@@ -41,7 +41,7 @@ The draw is simple: noodles invented in Chinatown, an old port with real history
 
 ## 🚇 How do you get there? The subway does it all
 
-The trip starts at Seoul Station, on subway Line 1, heading toward Incheon. Take the express if one comes, because it skips a string of smaller stations and saves you about fifteen minutes, but do not wait for it if a local train is already there. The local takes around an hour and twenty minutes, the express around an hour, and the fare is roughly 2,000 to 3,000 KRW each way on a T-money card. That is less than a coffee and one of the best deals in Korean travel.
+The trip starts at Seoul Station, on subway Line 1, heading toward [Incheon](https://www.klook.com/en-US/destination/c158-incheon/?aid=145455). Take the express if one comes, because it skips a string of smaller stations and saves you about fifteen minutes, but do not wait for it if a local train is already there. The local takes around an hour and twenty minutes, the express around an hour, and the fare is roughly 2,000 to 3,000 KRW each way on a T-money card. That is less than a coffee and one of the best deals in Korean travel.
 
 If you have not used the subway much yet, the guide to [the subway, the T-money card, and taxis](/blog/seoul-subway-tmoney-taxi/) covers the card and the transfer halls in detail. The short version is: tap in, sit down, and watch the city thin out through the window.
 
@@ -57,7 +57,7 @@ The ride itself is part of the pleasure. The train leaves the downtown tunnels, 
 
 If you want someone else to handle the logistics, day-trip options from Seoul are easy to browse ahead of time. A full-day tour bundles Chinatown and Wolmido with the luge, the rail bike, and a seagull-feeding ferry.
 
-{{< aff href="https://www.klook.com/en-US/activity/4660-shopping-food-tour-incheon-seoul/" text="Browse Incheon day tours from Seoul on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/4660-shopping-food-tour-incheon-seoul/?aid=145455" text="Browse Incheon day tours from Seoul on Klook" >}}
 
 Get off, walk out of the station, and turn toward Chinatown. It is a few minutes on foot, uphill, and you will know you are there when the street turns red. Not metaphorically red. The gates are red, the lanterns are red, the signs are red, and the whole neighborhood feels like someone turned the saturation up. Incheon Chinatown is the oldest Chinatown in Korea, founded in the 1880s when the port opened, and it still feels like a working neighborhood rather than a theme park, even though plenty of visitors come through on weekends.
 
@@ -93,7 +93,7 @@ Right next to the park, down a small slope, is Songwoldong Fairy Tale Village, a
 
 A guided walk helps here if you want the port history without reading plaques all afternoon. One option pairs Chinatown and the Fairy Tale Village with a rail bike ride and a seagull-feeding cruise.
 
-{{< aff href="https://www.klook.com/en-US/activity/101959-west-korea-tour/" text="Browse the Chinatown and Fairy Tale Village day tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/101959-west-korea-tour/?aid=145455" text="Browse the Chinatown and Fairy Tale Village day tour on Klook" >}}
 
 ## 🌅 Should you go down to the sea?
 
@@ -126,3 +126,5 @@ That winter emptiness is the real reason to do this trip in the cold months. Seo
 ## 🍜 Keep eating back in Seoul
 
 One day of noodles and sea wind works up an appetite for the next one. Back in the city, walk the stalls with [Seoul Market Food Walk](/blog/seoul-market-food-walk/), sit down to the old restaurants in [Seoul Old Restaurants: Baekban and BBQ](/blog/seoul-old-restaurants-baekban-bbq/), or slow down in the cafes of [Seoul Cafe Crawl: Seongsu, Yeonnam, Ikseon](/blog/seoul-cafes-seongsu-yeonnam-ikseon/).
+
+{{< aff href="https://www.klook.com/en-US/destination/c158-incheon/?aid=145455" text="Explore Incheon tours and tickets on Klook" >}}

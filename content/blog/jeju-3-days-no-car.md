@@ -50,9 +50,9 @@ Buy a T-money card at a convenience store at the airport and top it up with abou
 
 > **🔥 Local tip:** Download Naver Map before you land and set it to English. It shows live bus times in Jeju, which Google Maps does not do well. Check the last bus home before you leave for the day, because east-coast buses thin out after 19:00.
 
-If a full bus day sounds like too much planning, a small-group day tour does the same east-coast loop with hotel pickup, and it is the simplest fix for day 2.
+If a full bus day sounds like too much planning, a small-group [day tour](https://www.klook.com/en-US/activity/189127-jeju-east-west-south-shared-day-tour/?aid=145455) does the same east-coast loop with hotel pickup, and it is the simplest fix for day 2.
 
-{{< aff href="https://www.klook.com/en-US/activity/237266-jeju-udo-east-jeju-full-day-tour-with-tangerine-picking/" text="Book the Udo and East Jeju full-day tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/237266-jeju-udo-east-jeju-full-day-tour-with-tangerine-picking/?aid=145455" text="Book the Udo and East Jeju full-day tour on Klook" >}}
 
 {{< figure src="images/photos/jeju-3-days-no-car-illust-02.webp" alt="Illustrated guide to Jeju buses, a transit card and a phone map" caption="East-coast buses thin out after 19:00, so check the last bus home before you leave. Illustration: AI-generated" >}}
 
@@ -90,7 +90,7 @@ End the day at Seongsan Ilchulbong, the tuff cone on the eastern tip. The stair 
 
 {{< sticker kind="photo-spot" >}}
 
-{{< aff href="https://www.klook.com/en-US/activity/18608-private-car-charter-jeju/" text="Book a private car charter with a driver in Jeju on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/18608-private-car-charter-jeju/?aid=145455" text="Book a private car charter with a driver in Jeju on Klook" >}}
 
 ## ⛰️ Day 3: one mountain, or one coastal walk
 
@@ -139,3 +139,5 @@ Food runs about 30,000 to 50,000 KRW a day if you eat at markets and casual rest
 
 - [East Jeju in one day: Seongsan, Udo, and Seopjikoji](/blog/jeju-east-seongsan-udo/) - the full east-coast loop from this guide, with the Udo ferry and the last-boat times.
 - [Jeju west coast: Aewol, oreum, and cafes](/blog/jeju-west-aewol-oreum-cafes/) - the other side of the island, for the cafe streets and the sunset oreum walk.
+
+{{< aff href="https://www.klook.com/en-US/activity/189127-jeju-east-west-south-shared-day-tour/?aid=145455" text="Book Jeju east and south-west shared day tours" >}}

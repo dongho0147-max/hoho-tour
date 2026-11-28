@@ -48,7 +48,7 @@ landmarks:
 map_note: "Banghwasuryujeong is not on the map: no verified coordinates were found for it, so it was left out rather than guessed."
 ---
 
-수원은 서울에서 가장 쉽게 다녀오는 역사 당일치기 여행지예요. 성곽 길이는 약 5.7km이고, 성곽을 따라 둘레길이 이어져요. 네 개의 성문과 그 한가운데의 화성행궁을 한 번의 산책에 담을 수 있어요.
+수원은 서울에서 가장 쉽게 다녀오는 역사 당일치기 여행지예요. 성곽 길이는 약 5.7km이고, 성곽을 따라 둘레길이 이어져요. 네 개의 성문과 그 한가운데의 [화성](https://www.klook.com/en-US/activity/29707-suwon-hwaseong-fortress-folk-village-tour/?aid=145455)행궁을 한 번의 산책에 담을 수 있어요.
 
 {{< sticker kind="lets-go" >}}
 
@@ -147,3 +147,5 @@ map_note: "Banghwasuryujeong is not on the map: no verified coordinates were fou
 | 저녁 | 팔달문 일대 | 수원 갈비 저녁, 이후 귀가 |
 
 성곽 하나를 끝냈으니 역사 하루를 더 해볼까요? [경주 당일 가이드](/kr/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/)는 KTX로 가서 고분과 사찰로 같은 매력을 보여 줘요. 갈비가 바비큐 공부를 더 하고 싶게 만든다면, [서울 노포](/kr/blog/seoul-old-restaurants-baekban-bbq/)도 읽어 보세요.
+
+{{< aff href="https://www.klook.com/en-US/activity/29707-suwon-hwaseong-fortress-folk-village-tour/?aid=145455" text="수원 화성 당일투어 예약하기" >}}

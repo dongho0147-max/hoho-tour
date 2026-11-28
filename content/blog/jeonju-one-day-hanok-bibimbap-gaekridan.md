@@ -75,7 +75,7 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 Take the KTX from Yongsan Station. Trains from Yongsan are far more frequent than from Seoul Station, and the ride to Jeonju Station takes about one hour and forty minutes. Book a round trip as soon as your dates are fixed, because the morning trains out and the evening trains back are the first to fill up on weekends.
 
-From Jeonju Station, take a city bus to the village. Buses 79, 119, 501, 550, and 999 run from the stop in front of the station to the Jeondong Cathedral and Hanok Village stop in about 25 minutes. Get off there and you are a two or three minute walk from Gyeonggijeon and the main village streets. A taxi from the station costs more but saves you the wait, and it makes sense if you are traveling with luggage or in a group.
+From Jeonju Station, take a city bus to the village. Buses 79, 119, 501, 550, and 999 run from the stop in front of the station to the Jeondong Cathedral and [Hanok Village](https://www.klook.com/en-US/activity/2999-jeonju-hanok-village-tour-seoul/?aid=145455) stop in about 25 minutes. Get off there and you are a two or three minute walk from Gyeonggijeon and the main village streets. A taxi from the station costs more but saves you the wait, and it makes sense if you are traveling with luggage or in a group.
 
 > **🔥 Local tip:** Search trains from Yongsan, not Seoul Station. The same line serves both, but Yongsan has far more departures, and the difference on a weekend can be an hour of waiting.
 
@@ -117,7 +117,7 @@ After bibimbap, try the street food. The village lanes sell choco pies, rice cak
 
 If you would rather let someone else handle the transport, a guided day tour from Seoul covers the village with about five hours of free time there, plus a village map. The Klook Jeonju day tour lists 4.7 out of 5 from 695 reviews, and a hanbok and foodie package adds a premium hanbok rental. Plan on a 12.5 to 13.5 hour day, since the operator warns the return can run late in traffic.
 
-{{< aff href="https://www.klook.com/activity/86815-jeonju-day-tour/" text="See the Jeonju Hanok Village day tour from Seoul on Klook" >}}
+{{< aff href="https://www.klook.com/activity/86815-jeonju-day-tour/?aid=145455" text="See the Jeonju Hanok Village day tour from Seoul on Klook" >}}
 
 ## ☕️ What is Gaekridan-gil, and why end the day there?
 
@@ -139,7 +139,7 @@ The night version of this day, market stalls and makgeolli included, is the [Jeo
 
 If you are doing Jeonju as part of a longer autumn trip, one more option exists: a combined Naejangsan and Jeonju Hanok Village day tour from Seoul, which pairs the mountain foliage with the village in a single 14 to 15 hour day. It is a long day, so only pick it if you actually want both stops.
 
-{{< aff href="https://www.klook.com/en-HK/activity/75845-naejang-mountain-jeonju-hanok-village/" text="See the Naejangsan and Jeonju Hanok Village day tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-HK/activity/75845-naejang-mountain-jeonju-hanok-village/?aid=145455" text="See the Naejangsan and Jeonju Hanok Village day tour on Klook" >}}
 
 {{< sticker kind="tired-rest" >}}
 
@@ -157,3 +157,5 @@ Skip the guided tour if you like moving at your own pace, because the KTX and bu
 | Afternoon | Jeondong Cathedral and Omokdae | Cathedral front, then the viewpoint over the rooftops |
 | Late afternoon | Gaekridan-gil | Coffee and a slow hour in a cafe |
 | Evening | Jeonju Station | KTX back to Seoul, or stay the night in a hanok guesthouse |
+
+{{< aff href="https://www.klook.com/en-US/activity/2999-jeonju-hanok-village-tour-seoul/?aid=145455" text="Book a Jeonju Hanok Village day tour from Seoul" >}}

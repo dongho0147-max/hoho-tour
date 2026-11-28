@@ -93,7 +93,7 @@ stops:
 
 {{< collage "images/photos/seoul-04.webp|밤의 한강과 대여 자전거|TurnOnTheNight, CC BY-SA 4.0" "images/photos/seoul-25.webp|한강 야경 스카이라인|valeuf, CC BY" >}}
 
-N서울타워도 겨울의 장소예요. 언덕 위라 해질녘에 춥고 바람이 불지만, 바로 그때 가는 게 좋아요. 서 있는 동안 도시의 불이 켜지니까요.
+[N서울타워](https://www.klook.com/en-US/activity/17323-n-seoul-tower-ticket-combos-seoul/?aid=145455)도 겨울의 장소예요. 언덕 위라 해질녘에 춥고 바람이 불지만, 바로 그때 가는 게 좋아요. 서 있는 동안 도시의 불이 켜지니까요.
 
 일몰을 보러 가서 어둠이 내린 첫 한 시간까지 머문 뒤 저녁을 먹으러 내려가세요. 전망대 요금은 공식 안내로 성인(만 13세 이상) **29,000원**이에요. 야외 테라스와 광장은 따로 돈이 들지 않아요.
 
@@ -151,3 +151,5 @@ N서울타워도 겨울의 장소예요. 언덕 위라 해질녘에 춥고 바�
 - [서울 시장 먹거리 투어: 광장시장과 오래된 시장](/kr/blog/seoul-market-food-walk/) - 추운 시장 아침을 마무리하는 뜨거운 그릇들이에요.
 - [밤의 한강: 크루즈와 라면](/kr/blog/seoul-night-han-river-cruise-ramyeon/) - 불빛이 검은 물 위에 비치는 해 진 뒤의 강이에요.
 - [서울 3일: 필수 코스](/kr/blog/seoul-essential-3-day-guide/) - 이 겨울 가이드가 더 긴 여행의 한 정거장이라면 보는 서울 전체 기본 계획이에요.
+
+{{< aff href="https://www.klook.com/en-US/activity/17323-n-seoul-tower-ticket-combos-seoul/?aid=145455" text="N서울타워 티켓 예약하기" >}}

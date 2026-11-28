@@ -38,7 +38,7 @@ stops:
 
 계획이라고 하기엔 너무 단순하게 들려요. 그런데 이게 계획이고, 복잡한 계획 대부분보다 잘 통해요.
 
-**이 글은 이랜드크루즈 공식 안내, 서울시 한강공원 안내를 바탕으로 2026년 11월에 정리했어요.** 운항은 날씨와 강 상태에 따라 바뀌니 당일 크루즈 일정을 확인하세요.
+**이 글은 이랜드[크루즈](https://www.klook.com/en-US/activity/6874-eland-han-river-cruise-seoul/?aid=145455) 공식 안내, 서울시 한강공원 안내를 바탕으로 2026년 11월에 정리했어요.** 운항은 날씨와 강 상태에 따라 바뀌니 당일 크루즈 일정을 확인하세요.
 
 {{< sticker kind="lets-go" >}}
 
@@ -133,3 +133,5 @@ stops:
 {{< sticker kind="tired-rest" >}}
 
 서울의 저녁을 이어 가세요. [서울 카페 크롤](/kr/blog/seoul-cafes-seongsu-yeonnam-ikseon/)은 낮엔 창고 카페, 해 진 뒤엔 한옥 골목을 돌고, [오래된 시장을 느긋하게 도는 먹거리 투어](/kr/blog/seoul-market-food-walk/)는 다음 날 아침 광장시장에서 시작해요.
+
+{{< aff href="https://www.klook.com/en-US/activity/6874-eland-han-river-cruise-seoul/?aid=145455" text="한강 이랜드 크루즈 예약하기" >}}

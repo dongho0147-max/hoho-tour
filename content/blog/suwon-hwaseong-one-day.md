@@ -119,13 +119,13 @@ If beef is not your thing, Suwon has a second classic: the fried chicken street 
 
 Go yourself. The train is simple, the fortress is free to walk, and the palace costs 2,000 KRW. A tour only makes sense if you want to combine Suwon with somewhere else, like the Korean Folk Village, Gwangmyeong Cave, or the Starfield Library. The guided options run about 10 to 11 hours and cost roughly US$45-70 per person based on recent listings, and most of that time goes to the other stops and the transfers.
 
-One tour worth knowing about is the night-view version, which covers Hwaseong Fortress, the Starfield Library, and the palace in the evening, running 10:50 to 22:20. Recent listings show it rated 5.0 out of 5, and note availability from November 23, 2026, so check the calendar if you are going right after this guide is published.
+One tour worth knowing about is the night-view version, which covers [Hwaseong Fortress](https://www.klook.com/en-US/activity/29707-suwon-hwaseong-fortress-folk-village-tour/?aid=145455), the Starfield Library, and the palace in the evening, running 10:50 to 22:20. Recent listings show it rated 5.0 out of 5, and note availability from November 23, 2026, so check the calendar if you are going right after this guide is published.
 
-{{< aff href="https://www.klook.com/en-CA/activity/202678-suwon-starfield-library-hwaseong-fortress-day-tour-with-night-view/" text="See the Suwon Hwaseong Fortress and Starfield Library night-view tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-CA/activity/202678-suwon-starfield-library-hwaseong-fortress-day-tour-with-night-view/?aid=145455" text="See the Suwon Hwaseong Fortress and Starfield Library night-view tour on Klook" >}}
 
 If you want the full combo day instead, the Starfield Library and Hwaseong tour is the shorter version, and it pairs the fortress with the famous library in the morning and the wall in the afternoon.
 
-{{< aff href="https://www.klook.com/en-HK/activity/107202-starfield-library-tour-suwon/" text="See the Starfield Library and Hwaseong Fortress guided tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-HK/activity/107202-starfield-library-tour-suwon/?aid=145455" text="See the Starfield Library and Hwaseong Fortress guided tour on Klook" >}}
 
 ## 🚫 Skip this if...
 
@@ -144,3 +144,5 @@ Skip the full wall loop if it is raining, because the stone steps get slippery a
 | Evening | Paldalmun area | Suwon galbi dinner, then the train back |
 
 One fortress down, one more history day to go? The [Gyeongju one-day guide](/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/) does the same trick with tombs and temples by KTX. And if tonight's galbi leaves you wanting the full barbecue education, [Seoul's old restaurants](/blog/seoul-old-restaurants-baekban-bbq/) runs beef soup at dawn, baekban at noon, and barbecue at night.
+
+{{< aff href="https://www.klook.com/en-US/activity/29707-suwon-hwaseong-fortress-folk-village-tour/?aid=145455" text="Book a Suwon Hwaseong day tour from Seoul" >}}

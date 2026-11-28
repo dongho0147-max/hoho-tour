@@ -141,3 +141,5 @@ stops:
 ## ☀️ 낮의 경주 보기
 
 **밤 산책은 도시의 절반일 뿐이에요.** 불국사, 낮의 고분, 황리단길 간식 투어는 [KTX로 하루 경주: 불국사, 고분, 황리단길](/kr/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/)에서 읽어 보세요.
+
+{{< aff href="https://www.klook.com/en-US/activity/236761-gyeongju-bulguksa-temple-national-museum-full-day-cultural-tour/?aid=145455" text="경주 불국사·박물관 문화 투어 예약하기" >}}

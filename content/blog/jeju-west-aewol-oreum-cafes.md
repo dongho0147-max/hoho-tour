@@ -82,7 +82,7 @@ Two things to know before you go. First, the tea fields are a working farm, so s
 
 ## ☕️ Which cafe stop is right for you?
 
-Aewol has more cafes than any other stretch of coast on Jeju, and they split into two kinds. Here is how to pick.
+[Aewol](https://www.klook.com/en-US/activity/198295-mt-halla-aewol-cafe-street-full-day-unesco-tour/?aid=145455) has more cafes than any other stretch of coast on Jeju, and they split into two kinds. Here is how to pick.
 
 {{< sticker kind="yum" >}}
 
@@ -116,11 +116,11 @@ End the day on the Handam Coastal Trail at Aewol, a flat lava-rock walk along th
 
 If you want the west coast without driving it yourself, the 3-route join-in day tour has a west package that covers O'sulloc, the tea fields, and Aewol Cafe Street in one day, with pickup in Jeju City.
 
-{{< aff href="https://www.klook.com/en-IN/activity/108459-jeju-island-charms-join-in-day-tour/" text="Book the Jeju 3-route day tour with the west package on Klook" >}}
+{{< aff href="https://www.klook.com/en-IN/activity/108459-jeju-island-charms-join-in-day-tour/?aid=145455" text="Book the Jeju 3-route day tour with the west package on Klook" >}}
 
 A private car with a driver is the other easy option, and it lets you set your own pace at the oreum and the cafes.
 
-{{< aff href="https://www.klook.com/en-US/activity/18608-private-car-charter-jeju/" text="Book a private car charter with a driver in Jeju on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/18608-private-car-charter-jeju/?aid=145455" text="Book a private car charter with a driver in Jeju on Klook" >}}
 
 {{< sticker kind="tired-rest" >}}
 
@@ -136,3 +136,5 @@ A private car with a driver is the other easy option, and it lets you set your o
 | 18:30 | Handam Coastal Trail | 40 minutes | Flat walk, cafe to finish |
 
 Want more Jeju after this? The [East Jeju one-day route](/blog/jeju-east-seongsan-udo/) covers Seongsan, Udo Island, and Seopjikoji on the other coast, and the [Jeju 3-day guide without a rental car](/blog/jeju-3-days-no-car/) strings the whole island together by bus.
+
+{{< aff href="https://www.klook.com/en-US/activity/198295-mt-halla-aewol-cafe-street-full-day-unesco-tour/?aid=145455" text="Book a Mt. Halla and Aewol cafe street day tour" >}}

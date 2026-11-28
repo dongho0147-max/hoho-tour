@@ -29,7 +29,7 @@ image_caption: "Avoid the 11:30 to 13:30 weekday lunch peak for a shorter wait. 
 
 The best meals in Seoul do not come with a view or a tasting menu. They come in a brass bowl at seven in the morning, or on a tray with small side dishes at noon, and they cost less than a movie ticket. The restaurants below have been open for decades. Some of them predate the subway lines that take you there.
 
-This guide picks five. Two soup houses that open before most cafes. One chicken soup house by the palace. One small baekban diner, and one barbecue room for the evening. You could eat at all five in two days without rushing. Prices below are in Korean won, checked November 2026.
+This guide picks five. Two soup houses that open before most cafes. One chicken soup house by the palace. One small baekban diner, and one [barbecue](https://www.klook.com/en-US/activity/919-korean-night-dining-tour-seoul/?aid=145455) room for the evening. You could eat at all five in two days without rushing. Prices below are in Korean won, checked November 2026.
 
 | Restaurant | What to order | Price | When to go |
 |---|---|---|---|
@@ -71,7 +71,7 @@ The hours are the famous part. Monday to Saturday, 07:00 to 16:00, closed Sunday
 
 If you want a guided first run through the old food streets instead of going alone, small-group food tours cover this part of town well.
 
-{{< aff href="https://www.klook.com/en-US/activity/87680-seoul-food-tour/" text="Browse small-group Seoul food tours on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/87680-seoul-food-tour/?aid=145455" text="Browse small-group Seoul food tours on Klook" >}}
 
 {{< figure src="images/photos/seoul-37.webp" alt="Samgyetang, ginseng chicken soup in a stone pot, whole chicken in bubbling broth" caption="Pay at the entrance counter when you arrive, and taste the broth before adding salt. Photo: karendotcom127, CC BY 2.0" >}}
 
@@ -107,7 +107,7 @@ Dinner for two with drinks lands around 50,000 to 70,000 KRW, so it is not a che
 
 If you want the palace and the food in one guided morning, a half-day tour pairs Gyeongbokgung with Seochon and a Tongin Market tasting.
 
-{{< aff href="https://www.klook.com/en-US/activity/95245-gyeongbokgung-tour/" text="Browse the Gyeongbokgung palace and food half-day tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/95245-gyeongbokgung-tour/?aid=145455" text="Browse the Gyeongbokgung palace and food half-day tour on Klook" >}}
 
 {{< figure src="images/photos/seoul-34.webp" alt="Samgyeopsal, grilled pork belly slices and kimchi on a grill" caption="Order the pork belly for two, add a doenjang jjigae to finish, and let the staff do the grilling. Photo: moso, CC BY 2.0" >}}
 
@@ -121,3 +121,5 @@ If you want the palace and the food in one guided morning, a half-day tour pairs
 {{< sticker kind="tired-rest" >}}
 
 Want the market version of this food day? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts at Gwangjang Market with bindaetteok, mayak gimbap, and the fish stalls.
+
+{{< aff href="https://www.klook.com/en-US/activity/919-korean-night-dining-tour-seoul/?aid=145455" text="Join a small-group Korean BBQ night food tour" >}}

@@ -109,3 +109,5 @@ End the night on Hwangridan-gil, the cafe and snack street. It is livelier after
 ## ☀️ See Gyeongju by day
 
 The night walk is only half the city. For Bulguksa Temple, the tombs in daylight, and the Hwangridan-gil snack crawl, read [Gyeongju in One Day by KTX: Bulguksa, Tombs, and Hwangridan-gil](/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/).
+
+{{< aff href="https://www.klook.com/en-US/activity/236761-gyeongju-bulguksa-temple-national-museum-full-day-cultural-tour/?aid=145455" text="Book a Gyeongju Bulguksa and museum day tour" >}}

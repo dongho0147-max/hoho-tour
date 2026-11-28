@@ -83,7 +83,7 @@ landmarks:
     symbol: "🌳"
 ---
 
-Tokyo is the easiest big trip from Seoul, and three days is enough to see the two cities it contains. One is the old east side, temples and market streets around Asakusa and Ueno. The other is the new west side, the Shibuya and Shinjuku you already know from photos. The trick is to do one side per day and let the Yamanote loop line do the work.
+[Tokyo](https://www.klook.com/en-US/city/28-tokyo-things-to-do/?aid=145455) is the easiest big trip from Seoul, and three days is enough to see the two cities it contains. One is the old east side, temples and market streets around Asakusa and Ueno. The other is the new west side, the Shibuya and Shinjuku you already know from photos. The trick is to do one side per day and let the Yamanote loop line do the work.
 
 This guide is written from research, not from a single visit. Routes, times, and prices below come from official pages and recent listings, checked November 2026. Treat prices as reference points, not promises, and double-check the big tickets before you fly.
 
@@ -109,7 +109,7 @@ For visitors there are two special IC cards. The Welcome Suica and the TOURIST P
 
 If you plan to ride a lot in one day, look at the passes. The Tokyo Metro 24-hour ticket costs 700 yen, covers all nine Metro lines, and pays for itself from the fourth ride. Visitors can also buy the Tokyo Subway Ticket online, which covers both Metro and Toei lines: 1,000 yen for 24 hours, 1,500 yen for 48 hours, and 2,000 yen for 72 hours. The combined Metro and Toei one-day pass costs 1,100 yen at station machines, and the Tokyo Free Ticket at 1,720 yen adds JR lines inside the city plus the Toei buses and the Sakura tram.
 
-{{< aff href="https://www.klook.com/activity/1552-subway-ticket-tokyo/" text="See the Tokyo Subway Ticket options on Klook" >}}
+{{< aff href="https://www.klook.com/activity/1552-subway-ticket-tokyo/?aid=145455" text="See the Tokyo Subway Ticket options on Klook" >}}
 
 > **🔥 Local tip:** An IC card plus the 700 yen Metro day pass covers almost every itinerary in this guide. Only buy the 1,720 yen Tokyo Free Ticket on a day you know you will mix JR and the subway several times.
 
@@ -139,7 +139,7 @@ Start at Meiji Jingu, the forest shrine a minute from Harajuku Station, free and
 
 Time Shibuya for late afternoon. Watch the scramble crossing from the station, then go up SHIBUYA SKY, the open-air rooftop on top of Shibuya Scramble Square. Online tickets cost 2,700 yen for entry before 3 PM and 3,400 yen after, and sunset slots sell out days ahead, so book when your dates are fixed. Tickets open two weeks in advance at midnight Japan time. One new rule to know: since November 19, 2026, overseas buyers must show an original passport at entry, and the name has to match the booking.
 
-{{< aff href="https://www.klook.com/activity/70672-shibuya-sky-tokyo/" text="Book SHIBUYA SKY tickets on Klook" >}}
+{{< aff href="https://www.klook.com/activity/70672-shibuya-sky-tokyo/?aid=145455" text="Book SHIBUYA SKY tickets on Klook" >}}
 
 The Klook listing shows 4.7 out of 5 from over 47,000 reviews, which matches the crowds. If the sunset slot is gone, the free alternative is the observation floor of the Tokyo Metropolitan Government Building in Shinjuku, which the next day covers anyway.
 
@@ -155,7 +155,7 @@ For the evening, stay on the west side. Kabukicho and Omoide Yokocho are both a 
 
 Two add-ons earn their time. teamLab Planets in Toyosu is the immersive digital art museum where you wade barefoot through knee-deep water. Adult tickets start from around 3,800 yen and vary by date. Tickets are sold online only for a fixed date and time slot, there are no sales at the door, and weekend slots go early, so book it the week before, not the day before.
 
-{{< aff href="https://www.klook.com/activity/25300-teamlab-planets-toyosu-tokyo-ticket/" text="Book teamLab Planets tickets on Klook" >}}
+{{< aff href="https://www.klook.com/activity/25300-teamlab-planets-toyosu-tokyo-ticket/?aid=145455" text="Book teamLab Planets tickets on Klook" >}}
 
 The other is Toyosu Market itself, where the tuna auctions moved from Tsukiji in 2018. Watching the market from the visitor decks is free, and it pairs naturally with teamLab ten minutes away. The old Tsukiji site, remember, still lives on as the outer market from Day 1's breakfast.
 
@@ -196,3 +196,5 @@ Skip the Skytree on a cloudy day, because the whole point is the view and the wi
 | Extra day | Toyosu | teamLab Planets on a pre-booked slot, market decks |
 
 Before you book anything, do the one piece of math this guide keeps coming back to: count your rides. If a day has four or more subway trips, the 700 yen Metro pass wins. If it has two, an IC card wins. Tokyo rewards the five minutes you spend on this more than any other planning.
+
+{{< aff href="https://www.klook.com/en-US/city/28-tokyo-things-to-do/?aid=145455" text="Explore Tokyo tours and tickets on Klook" >}}

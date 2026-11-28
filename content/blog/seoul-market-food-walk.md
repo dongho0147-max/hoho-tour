@@ -32,7 +32,7 @@ The walk in this guide starts at Gwangjang Market, winds through the old streets
 
 ## 🕘 When should you go, and what should you bring?
 
-Gwangjang Market opens early, and the food stalls hit their stride by nine or ten in the morning. Come before the tour groups arrive and the market is still waking up: the vendors setting out their trays, the aprons, the calls across the aisle, the smell of oil and sesame and something frying that you cannot quite name. That smell is bindaetteok, the mung bean pancake the market is famous for, and you should follow it.
+[Gwangjang Market](https://www.klook.com/en-US/activity/68099-gwangjang-market-food-and-fortress-walk/?aid=145455) opens early, and the food stalls hit their stride by nine or ten in the morning. Come before the tour groups arrive and the market is still waking up: the vendors setting out their trays, the aprons, the calls across the aisle, the smell of oil and sesame and something frying that you cannot quite name. That smell is bindaetteok, the mung bean pancake the market is famous for, and you should follow it.
 
 > **🔥 Local tip:** Come on a weekday morning. That is when the market belongs to the regulars, the vendors have time to talk, and the aisles are walkable. Skip Sunday afternoons in peak season, when the aisles pack shoulder to shoulder.
 
@@ -48,7 +48,7 @@ Bring cash. Cards work in more and more stalls every year, but the old market st
 
 If it is your first time and you want a guide for the first hour, small-group food tours cover this market well.
 
-{{< aff href="https://www.klook.com/en-US/activity/87680-seoul-food-tour/" text="Browse small-group Seoul food tours on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/87680-seoul-food-tour/?aid=145455" text="Browse small-group Seoul food tours on Klook" >}}
 
 ## 👀 How do you eat a market? Look first, eat second
 
@@ -106,3 +106,5 @@ A few practical things worth knowing before you go. Eat a small breakfast before
 {{< sticker kind="tired-rest" >}}
 
 Still hungry after the market? [Seoul's old restaurants](/blog/seoul-old-restaurants-baekban-bbq/) runs beef soup at dawn, baekban at noon, and barbecue at night, and the [Seoul cafe crawl](/blog/seoul-cafes-seongsu-yeonnam-ikseon/) ends the day in the hanok lanes of Ikseon-dong.
+
+{{< aff href="https://www.klook.com/en-US/activity/68099-gwangjang-market-food-and-fortress-walk/?aid=145455" text="Book a Gwangjang Market food walk" >}}

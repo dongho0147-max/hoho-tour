@@ -35,7 +35,7 @@ stops:
     note: "Historic house and museum in town."
 ---
 
-Gangneung is the easiest overnight trip from Seoul. The KTX takes about 2 hours, the beach and the coffee street sit next to each other, and one night is enough to do both properly. You arrive by lunch, spend the afternoon on coffee and sand, and go home the next day after a slow morning.
+Gangneung is the easiest overnight trip from Seoul. The [KTX](https://www.klook.com/en-US/activity/127057-seoul-gangneung-ktx-train-ticket/?aid=145455) takes about 2 hours, the beach and the coffee street sit next to each other, and one night is enough to do both properly. You arrive by lunch, spend the afternoon on coffee and sand, and go home the next day after a slow morning.
 
 This guide was put together from recent listings, reviews, and official pages, checked November 2026. Train times and cafe hours change, so check them the day before you travel.
 
@@ -53,7 +53,7 @@ From Gangneung Station, take a bus or a taxi to Anmok Beach, about 15 to 20 minu
 
 If you would rather not plan the transport at all, a day tour from Seoul covers the Gangneung highlights and brings you back the same evening. It is a good option if you cannot stay the night.
 
-{{< aff href="https://www.klook.com/en-GB/activity/19035-gangneung-gyeongpodae-cherry-blossoms-other-attractions-day-tour-seoul/" text="Book the Gangneung day tour from Seoul on Klook" >}}
+{{< aff href="https://www.klook.com/en-GB/activity/19035-gangneung-gyeongpodae-cherry-blossoms-other-attractions-day-tour-seoul/?aid=145455" text="Book the Gangneung day tour from Seoul on Klook" >}}
 
 ## ☕ Afternoon: Anmok Coffee Street
 
@@ -120,7 +120,7 @@ End the morning at Ojukheon, the historic house in town where the scholar Yulgok
 
 One night is the sweet spot. Two nights is better if you want the sunrise and a slow morning, and the 2-day starlight tour from Seoul is the packaged version of exactly that, with an overnight stay and a night-sky stop included.
 
-{{< aff href="https://www.klook.com/en-HK/activity/177365-gangneung-starlight-tour-from-seoul/" text="Book the 2-day Gangneung starlight tour from Seoul on Klook" >}}
+{{< aff href="https://www.klook.com/en-HK/activity/177365-gangneung-starlight-tour-from-seoul/?aid=145455" text="Book the 2-day Gangneung starlight tour from Seoul on Klook" >}}
 
 ## 🏨 Where to stay
 
@@ -151,3 +151,5 @@ For a mid-range stay near the beach, check the hotels around Gyeongpo before you
 ## 🍽️ Keep eating around Gangneung
 
 - [Sokcho and Seoraksan in one night from Seoul](/blog/sokcho-seorak-one-night-from-seoul/) - the next stop up the east coast, with the mountain, the beach, and the same overnight rhythm.
+
+{{< aff href="https://www.klook.com/en-US/activity/127057-seoul-gangneung-ktx-train-ticket/?aid=145455" text="Book Seoul to Gangneung KTX tickets" >}}

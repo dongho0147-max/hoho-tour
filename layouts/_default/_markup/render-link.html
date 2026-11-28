@@ -1,0 +1,2 @@
+{{- /* Markdown links. Klook/Agoda affiliate links open in a new tab with rel=sponsored. */ -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if findRE `klook\.com|agoda\.com` .Destination }} target="_blank" rel="sponsored noopener"{{ end }}>{{ .Text | safeHTML }}</a>

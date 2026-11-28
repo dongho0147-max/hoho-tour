@@ -48,7 +48,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 Start at Haeundae Beach, the wide sand beach with the promenade and the seafront towers. Walk the full length of the beach in the morning, when it is quiet, and keep going to Dongbaekseom Island, the small pine-covered island at the western end. The island loop takes about 40 minutes, and the Nurimaru APEC House sits on it, free to look at from outside.
 
-Then ride the Haeundae Blueline Park. The Sky Capsule is the slow one: private capsules for up to four people roll along an elevated rail 7 to 10 m above the shoreline between Mipo and Cheongsapo, 2 km in about 30 minutes. Tickets are one way and priced per capsule, not per person: about 50,000 KRW for 2 people, 55,000 for 3, and 60,000 for 4, based on recent listings. The Beach Train runs the same coastal line at ground level, about 8,000 to 10,000 KRW per person for a single ride.
+Then ride the Haeundae Blueline Park. The [Sky Capsule](https://www.klook.com/en-US/activity/133293-haeundae-blueline-park-ticket-in-busan/?aid=145455) is the slow one: private capsules for up to four people roll along an elevated rail 7 to 10 m above the shoreline between Mipo and Cheongsapo, 2 km in about 30 minutes. Tickets are one way and priced per capsule, not per person: about 50,000 KRW for 2 people, 55,000 for 3, and 60,000 for 4, based on recent listings. The Beach Train runs the same coastal line at ground level, about 8,000 to 10,000 KRW per person for a single ride.
 
 Book the capsule at least a week ahead. Sunset slots sell out 2 to 4 weeks ahead, and the capsule runs 08:30 to about 18:00 in winter. A Klook voucher covers the capsule or the train, but read the fine print: you still redeem the voucher on the Blueline Park site to pick a time slot, and Klook does not offer refunds on it.
 
@@ -56,11 +56,11 @@ Book the capsule at least a week ahead. Sunset slots sell out 2 to 4 weeks ahead
 
 {{< sticker kind="pro-tip" >}}
 
-{{< aff href="https://www.klook.com/activity/133293-haeundae-blueline-park-ticket-in-busan/" text="Book the Haeundae Sky Capsule and Beach Train voucher on Klook" >}}
+{{< aff href="https://www.klook.com/activity/133293-haeundae-blueline-park-ticket-in-busan/?aid=145455" text="Book the Haeundae Sky Capsule and Beach Train voucher on Klook" >}}
 
 If you want the capsule, the temple, and Gamcheon done for you in one day, the guided day tour covers all three with pickup, and it is the simplest way to fit the Sky Capsule into a short trip.
 
-{{< aff href="https://www.klook.com/en-US/activity/74132-busan-oneday-tour-busan/" text="Book the Busan day tour with Sky Capsule and Gamcheon on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/74132-busan-oneday-tour-busan/?aid=145455" text="Book the Busan day tour with Sky Capsule and Gamcheon on Klook" >}}
 
 ## 🌉 Day 1 evening: Gwangalli Beach and the bridge
 
@@ -124,7 +124,7 @@ Haeundae is the best base for this route. The beach, the Blueline Park, and the 
 
 If you want the temple and the coast covered without planning the buses, the full-day guided tour with Haedong Yonggungsa Temple is the other booking worth making. It runs the eastern coast, the temple, and Gamcheon in one day.
 
-{{< aff href="https://www.klook.com/en-US/activity/13011-skywalk-haedong-yonggungsa-temple-tour-busan/" text="Book the Busan full-day tour with Haedong Yonggungsa Temple on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/13011-skywalk-haedong-yonggungsa-temple-tour-busan/?aid=145455" text="Book the Busan full-day tour with Haedong Yonggungsa Temple on Klook" >}}
 
 ## ✅ Your 2 days at a glance
 
@@ -138,3 +138,5 @@ If you want the temple and the coast covered without planning the buses, the ful
 ## 🍜 Keep eating in Busan
 
 Two days of beach walks work up an appetite. For the full bowl-by-bowl version of this trip, read [Busan in Two Bowls: Dwaeji Gukbap and Milmyeon](/blog/busan-pork-soup-milmyeon/): the 24-hour soup alley in Seomyeon, beef soup by Haeundae Beach, and the birthplace of milmyeon in Uam-dong.
+
+{{< aff href="https://www.klook.com/en-US/activity/133293-haeundae-blueline-park-ticket-in-busan/?aid=145455" text="Get Haeundae Sky Capsule and Beach Train tickets" >}}

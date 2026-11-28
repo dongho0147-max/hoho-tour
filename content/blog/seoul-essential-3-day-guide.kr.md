@@ -123,7 +123,7 @@ landmarks:
 
 직통열차 표는 **미리 예약**해 두고, 입국심사를 마친 뒤 앱에서 활성화하세요.
 
-{{< aff href="https://www.klook.com/ko/activity/1163-airport-to-seoul-city-center-arex-train-incheon/" text="클룩에서 AREX 직통열차 표 예약하기" rel="sponsored noopener" >}}
+{{< aff href="https://www.klook.com/ko/activity/1163-airport-to-seoul-city-center-arex-train-incheon/?aid=145455" text="클룩에서 AREX 직통열차 표 예약하기" rel="sponsored noopener" >}}
 
 ### 💳 첫날 미리 챙겨 둘 것
 
@@ -178,7 +178,7 @@ landmarks:
 - 성인 입장료는 약 3,000원이고, **한복을 입으면 무료**예요.
 - 궁궐 주변 대여점에서 한복을 빌릴 수 있고, 사진도 잘 나와요. 대여 요금은 가게와 시간에 따라 달라요.
 
-{{< aff href="https://www.klook.com/ko/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/" text="클룩에서 경복궁 근처 한복 대여 예약하기" rel="sponsored noopener" >}}
+{{< aff href="https://www.klook.com/ko/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/?aid=145455" text="클룩에서 경복궁 근처 한복 대여 예약하기" rel="sponsored noopener" >}}
 
 > **⚠️ 단점도 있어요:** 11시쯤이면 마당이 붐비고 교대의식 주변에 사람이 여러 겹으로 늘어서요. **10시에 맞춰 오면** 빛도 좋고 공간도 여유로워요.
 
@@ -343,3 +343,5 @@ landmarks:
 | 1일 차 | 경복궁, 10시 수문장 교대의식(화요일 휴궁) | 통인시장 점심, 북촌, 인사동 | 청계천 |
 | 2일 차 | 홍대 카페와 상점 | 한강 자전거 또는 산책 | 일몰 무렵 N서울타워 |
 | 3일 차 | 광장시장 아침 식사 | 명동 길거리 음식과 쇼핑 | 동대문 또는 고기구이 저녁 |
+
+{{< aff href="https://www.klook.com/en-US/destination/c13-seoul/?aid=145455" text="클룩에서 서울 투어·티켓 둘러보기" >}}

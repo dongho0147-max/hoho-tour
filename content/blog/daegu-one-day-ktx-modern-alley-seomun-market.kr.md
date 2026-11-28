@@ -185,3 +185,5 @@ map_note: "약령시 한약재 시장은 지도에 없습니다. 확인된 좌�
 대구는 같은 KTX 노선에 있는 두 여행과 이어져요.
 
 서울 쪽으로는 [경주 당일치기](/kr/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/)가 가까워요. 불국사와 고분공원을 묶어요. 남쪽으로는 [부산 돼지국밥·밀면](/kr/blog/busan-pork-soup-milmyeon/)이 먹거리 테마를 이어가요.
+
+{{< aff href="https://www.klook.com/en-US/activity/111728-daegu-hop-on-hop-off-bus-tour-open-top/?aid=145455" text="대구 시티투어 버스 예약하기" >}}

@@ -46,7 +46,7 @@ stops:
 
 **성산일출봉은 제주 동쪽 끝에 있는 높이 180m의 응회구예요.** 늦은 오전이면 계단이 붐비기 때문에 첫 번째로 가요.
 
-**정상까지는 보통 30~40분쯤 걸리고, 정상에는 지름 약 600m의 분화구가 있어요.** 꼭대기에서는 우도, 성산 마을, 바다가 한눈에 들어와요.
+**정상까지는 보통 30~40분쯤 걸리고, 정상에는 지름 약 600m의 분화구가 있어요.** 꼭대기에서는 [우도](https://www.klook.com/en-US/activity/141274-jeju-udo-island-seongsan-ilchulbong-seopjikoji-day-tour/?aid=145455), 성산 마을, 바다가 한눈에 들어와요.
 
 **정상까지 가는 유료 구간의 입장료는 성인 5,000원, 청소년과 어린이는 2,500원이에요.** 11월부터 2월까지는 06:00~18:00에 열고, 매표는 17:00에 끝나요.
 
@@ -144,3 +144,5 @@ stops:
 
 - [렌터카 없이 가는 제주 3일](/kr/blog/jeju-3-days-no-car/) - 이 동쪽 해안 하루를 위한 뚜벅이 기본 계획으로, 버스 번호와 요금이 나와요.
 - [제주 서쪽 해안: 애월, 오름, 카페](/kr/blog/jeju-west-aewol-oreum-cafes/) - 섬의 반대편, 카페 거리와 일몰 오름 산책 코스예요.
+
+{{< aff href="https://www.klook.com/en-US/activity/141274-jeju-udo-island-seongsan-ilchulbong-seopjikoji-day-tour/?aid=145455" text="제주 동부(우도·성산) 당일투어 예약하기" >}}

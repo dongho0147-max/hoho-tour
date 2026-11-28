@@ -45,7 +45,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🌋 Start at Seongsan Ilchulbong, early
 
-Seongsan Ilchulbong is a 180 m tuff cone on the eastern tip of Jeju, and it is the first stop because the stairs get crowded by late morning. The climb is about 30 to 40 minutes of stairs to a viewing deck above the crater, which is roughly 600 m wide and covered in silver grass. From the top you see Udo Island, Seongsan village, and the sea in one sweep.
+Seongsan Ilchulbong is a 180 m tuff cone on the eastern tip of Jeju, and it is the first stop because the stairs get crowded by late morning. The climb is about 30 to 40 minutes of stairs to a viewing deck above the crater, which is roughly 600 m wide and covered in silver grass. From the top you see [Udo](https://www.klook.com/en-US/activity/141274-jeju-udo-island-seongsan-ilchulbong-seopjikoji-day-tour/?aid=145455) Island, Seongsan village, and the sea in one sweep.
 
 Admission runs about 5,000 KRW for an adult, based on recent listings. Ticket sales stop an hour before closing, and hours run shorter in winter, roughly 06:00 to 18:00 from November to February. The site closes on the first Monday of each month, and if that Monday is a public holiday, it closes the following day instead.
 
@@ -73,11 +73,11 @@ Eat peanut ice cream while you are there. Udo is known for its peanuts, and the 
 
 If you would rather not plan the ferry, the bus, and the bike rental yourself, a guided day tour covers Seongsan, Udo, and Seopjikoji in one booking with hotel pickup.
 
-{{< aff href="https://www.klook.com/en-US/activity/237266-jeju-udo-east-jeju-full-day-tour-with-tangerine-picking/" text="Book the Udo and East Jeju full-day tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/237266-jeju-udo-east-jeju-full-day-tour-with-tangerine-picking/?aid=145455" text="Book the Udo and East Jeju full-day tour on Klook" >}}
 
 There is also a private version of the same loop, which suits a group that wants its own pace and a driver who waits at each stop.
 
-{{< aff href="https://www.klook.com/en-HK/activity/141274-jeju-udo-island-seongsan-ilchulbong-seopjikoji-day-tour/" text="Book the private Udo, Seongsan, and Seopjikoji day tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-HK/activity/141274-jeju-udo-island-seongsan-ilchulbong-seopjikoji-day-tour/?aid=145455" text="Book the private Udo, Seongsan, and Seopjikoji day tour on Klook" >}}
 
 ## 🌅 Finish at Seopjikoji and Gwangchigi Beach
 
@@ -130,3 +130,5 @@ The bus option works, but it has one weak point: the last bus from Seongsan to J
 
 - [Jeju in 3 days without a rental car](/blog/jeju-3-days-no-car/) - the no-car base plan for this east-coast day, with bus numbers and fares.
 - [Jeju west coast: Aewol, oreum, and cafes](/blog/jeju-west-aewol-oreum-cafes/) - the other side of the island, for the cafe streets and the sunset oreum walk.
+
+{{< aff href="https://www.klook.com/en-US/activity/141274-jeju-udo-island-seongsan-ilchulbong-seopjikoji-day-tour/?aid=145455" text="Book a Jeju east course (Udo, Seongsan) day tour" >}}

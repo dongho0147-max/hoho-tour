@@ -113,7 +113,7 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 
 {{< figure src="images/photos/jeju-west-03.webp" alt="제주 서쪽의 낮은 화산체, 새별오름" caption="새별오름 정상은 바람이 강하고 해가 지면 금세 추워요. 겉옷을 챙기세요. 사진: M Min, CC BY 3.0" >}}
 
-해 지기 전에 여유 있게 정상에 도착하도록 시간을 맞추세요. 정상은 바람이 강하고 해가 지면 금세 추워지니 겉옷을 챙기세요. 하늘이 흐리다면 오름은 건너뛰고 애월로 바로 가도 좋아요.
+해 지기 전에 여유 있게 정상에 도착하도록 시간을 맞추세요. 정상은 바람이 강하고 해가 지면 금세 추워지니 겉옷을 챙기세요. 하늘이 흐리다면 오름은 건너뛰고 [애월](https://www.klook.com/en-US/activity/198295-mt-halla-aewol-cafe-street-full-day-unesco-tour/?aid=145455)로 바로 가도 좋아요.
 
 {{< sticker kind="photo-spot" >}}
 
@@ -147,3 +147,5 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 | 6 | 한담해안산책로 | 30분 | 평탄한 길 산책 후 카페 |
 
 이 뒤에 제주를 더 보고 싶다면 [제주 동쪽 하루 코스](/kr/blog/jeju-east-seongsan-udo/)가 반대쪽 해안의 성산과 우도, 섭지코지를 다루고, [렌터카 없이 제주 3일](/kr/blog/jeju-3-days-no-car/)이 버스로 섬 전체를 잇는 일정을 보여 줘요.
+
+{{< aff href="https://www.klook.com/en-US/activity/198295-mt-halla-aewol-cafe-street-full-day-unesco-tour/?aid=145455" text="한라산·애월 카페거리 당일투어 예약하기" >}}

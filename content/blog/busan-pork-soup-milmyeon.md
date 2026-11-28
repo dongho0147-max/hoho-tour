@@ -83,7 +83,7 @@ The hours are the one thing that could not be pinned down cleanly. Busan's multi
 
 Milmyeon needs a different kind of attention from soup. The noodles are wheat and starch, yellowish and chewy, served in a chilled clear broth under a sheet of ice. It is Busan's summer dish, but the shops serve it all year, and on a cold day the contrast of icy noodles and a warm room is half the pleasure.
 
-Halmae Gaya Milmyeon is the easiest first stop. It has been open since 1974 on Gwangbok-ro in Nampo-dong, a few minutes' walk from Nampo Station and BIFF Square, close to Gukje Market and Jagalchi. It is open 10:30 to 21:30 every day, and the room is big enough that the wait is usually short. The address is 56-14 Gwangbok-ro.
+Halmae Gaya Milmyeon is the easiest first stop. It has been open since 1974 on Gwangbok-ro in Nampo-dong, a few minutes' walk from Nampo Station and BIFF Square, close to [Gukje Market](https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455) and Jagalchi. It is open 10:30 to 21:30 every day, and the room is big enough that the wait is usually short. The address is 56-14 Gwangbok-ro.
 
 A large milmyeon is 9,000 KRW. The bibim version with spicy sauce is 8,000 KRW. The handmade jumbo mandu, four pieces, are 5,000 KRW, and they are worth ordering. The bibim is the one to try if you like heat, and the plain mul-milmyeon is the one to try first if this is your first bowl. Either way, eat it fast. The noodles go soft as the ice melts, and the shop knows it, which is why nobody lingers.
 
@@ -111,7 +111,7 @@ Busan is not only soup. Between meals, the city gives you two views that cost no
 
 If you only have one day in Busan and want the sights handled for you, a guided day tour covers Gamcheon, Haeundae, and the Sky Capsule in one loop.
 
-{{< aff href="https://www.klook.com/en-US/activity/74132-busan-oneday-tour-busan/" text="Browse the Busan day tour with Sky Capsule and Gamcheon on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/74132-busan-oneday-tour-busan/?aid=145455" text="Browse the Busan day tour with Sky Capsule and Gamcheon on Klook" >}}
 
 ## ✅ Your two days at a glance
 
@@ -125,3 +125,5 @@ If you only have one day in Busan and want the sights handled for you, a guided 
 ## 🗺️ See the bowls on a 2-day route
 
 Soup is only half the trip. For the beaches, the Sky Capsule, Gamcheon, and the markets around these restaurants, read [Busan in 2 Days: Haeundae, Gwangalli, and Gamcheon](/blog/busan-2-day-haeundae-gwangalli-gamcheon/).
+
+{{< aff href="https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455" text="Join a Busan market food tour" >}}

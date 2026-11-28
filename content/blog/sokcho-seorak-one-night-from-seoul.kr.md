@@ -70,7 +70,7 @@ landmarks:
     symbol: "🛍️"
 ---
 
-서울에서 하룻밤만 다녀오면서 산과 해변, 활기찬 어항까지 보고 싶다면 속초가 제격이에요. 오후에는 설악산 케이블카를 타고, 저녁에는 어선이 정박한 항구 옆에서 식사를 즐기고, 다음 날 아침에는 바닷가를 걸어요. 2박이면 더 여유롭겠지만 1박으로도 충분해요.
+서울에서 하룻밤만 다녀오면서 산과 해변, 활기찬 어항까지 보고 싶다면 속초가 제격이에요. 오후에는 [설악산](https://www.klook.com/en-US/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455) 케이블카를 타고, 저녁에는 어선이 정박한 항구 옆에서 식사를 즐기고, 다음 날 아침에는 바닷가를 걸어요. 2박이면 더 여유롭겠지만 1박으로도 충분해요.
 
 {{< sticker kind="lets-go" >}}
 
@@ -163,3 +163,5 @@ landmarks:
 | 둘째 날 정오 무렵 | 속초 | 서울행 버스 |
 
 동해안이 마음에 들었다면 남쪽으로 이어가세요. [강릉 1박 가이드](/kr/blog/gangneung-one-night-ktx-coffee-gyeongpo/)가 커피거리와 경포해변을 이어 주고, [부산의 두 그릇](/kr/blog/busan-pork-soup-milmyeon/)이 같은 방식으로 더 남쪽 도시를 다뤄요.
+
+{{< aff href="https://www.klook.com/en-US/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455" text="설악산·낙산사 당일투어 예약하기" >}}

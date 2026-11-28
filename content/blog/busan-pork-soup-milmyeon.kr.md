@@ -90,7 +90,7 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 
 할매가야밀면은 가장 쉬운 첫 번째 방문지예요. 남포동 광복로 56-14에 있고, BIFF 광장 근처예요. 부산관광공사(visitbusan)에 따르면 40년 전통의 밀면 전문점이고, 식사 시간에는 항상 줄이 서지만 140석을 갖춘 넓은 매장이라 대기 시간은 짧은 편이에요.
 
-**10:30부터 21:30까지 열고 연중무휴예요.** 국제시장과 자갈치시장도 가까워요.
+**10:30부터 21:30까지 열고 연중무휴예요.** [국제시장](https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455)과 자갈치시장도 가까워요.
 
 대표 메뉴는 밀면과 비빔밀면이에요. 매운 양념을 좋아한다면 비빔을, 첫 그릇이라면 담백한 물밀면을 먼저 드세요.
 
@@ -140,3 +140,5 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 ## 🗺️ 2일 코스로 그릇 따라가기
 
 **국밥은 여행의 절반일 뿐이에요.** 이 식당들 주변의 해변, 스카이캡슐, 감천, 시장은 [부산 2일 코스: 해운대, 광안리, 감천](/kr/blog/busan-2-day-haeundae-gwangalli-gamcheon/)에서 읽어 보세요.
+
+{{< aff href="https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455" text="부산 시장 먹거리 투어 예약하기" >}}

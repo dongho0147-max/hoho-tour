@@ -37,7 +37,7 @@ stops:
 
 The Han River at night is the most relaxing evening in Seoul. You get on a boat, the city slides past in lights, and then you eat instant noodles on the riverbank like everyone else does. It sounds too simple to be a plan. It is the plan, and it works better than most of the complicated ones.
 
-This guide is written from research, not from a single visit. Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check the cruise schedule on the day, since sailings change with weather and river conditions.
+This guide is written from research, not from a single visit. Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check the [cruise](https://www.klook.com/en-US/activity/6874-eland-han-river-cruise-seoul/?aid=145455) schedule on the day, since sailings change with weather and river conditions.
 
 {{< sticker kind="lets-go" >}}
 
@@ -49,7 +49,7 @@ The boat most people mean is the E-Land cruise from Yeouido. It has run on the H
 
 Here is what the five types actually are. The Tour Cruise is the 40-minute daytime loop from Yeouido to Seogang Bridge and back, with weekday departures from 14:00 and weekend departures from 11:00. The Sunset Cruise leaves at 17:00 from November to January. The Moonlight Music Cruise is the 70-minute evening run to Banpo Bridge, at 19:00 or 20:30 from April to November, and 19:30 from December to March. The Starlight Cruise is the late 50-minute sailing. The Fireworks Music Cruise runs on designated evenings only.
 
-{{< aff href="https://www.klook.com/activity/6874-eland-han-river-cruise-seoul/" text="See the Seoul Yeouido E-Land Hangang River Cruise on Klook" >}}
+{{< aff href="https://www.klook.com/activity/6874-eland-han-river-cruise-seoul/?aid=145455" text="See the Seoul Yeouido E-Land Hangang River Cruise on Klook" >}}
 
 For a night plan, book the Moonlight Music Cruise. It is the one that goes to Banpo Bridge, it has live music, and it is the right length at 70 minutes. Book the daytime Tour Cruise if you want the cheapest ticket and a first look at the river in daylight.
 
@@ -118,3 +118,5 @@ Skip the cruise if the forecast is heavy rain or strong wind, because the sailin
 {{< sticker kind="tired-rest" >}}
 
 Keep the Seoul evening going: the [Seoul cafe crawl](/blog/seoul-cafes-seongsu-yeonnam-ikseon/) runs warehouse cafes by day and hanok lanes after dark, and the [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts the next morning at Gwangjang Market.
+
+{{< aff href="https://www.klook.com/en-US/activity/6874-eland-han-river-cruise-seoul/?aid=145455" text="Book a Han River evening cruise" >}}

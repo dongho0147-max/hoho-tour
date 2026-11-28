@@ -98,7 +98,7 @@ You land at Incheon Airport, about an hour from central Seoul. Pick one of these
 
 If you want the express ticket sorted before you land, book it ahead and activate it in the app after immigration.
 
-{{< aff href="https://www.klook.com/en-US/activity/1163-airport-to-seoul-city-center-arex-train-incheon/" text="Book the AREX express ticket on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/1163-airport-to-seoul-city-center-arex-train-incheon/?aid=145455" text="Book the AREX express ticket on Klook" >}}
 
 ### 💳 What should you sort out on day one?
 
@@ -126,7 +126,7 @@ Admission runs about 3,000 KRW for adults. Wear a hanbok and entry is free. Rent
 
 The honest downside: the courtyard gets packed by 11, and the ceremony draws a crowd three deep. Come at 10 and you get the good light and the space. Subway: Gyeongbokgung Station, Line 3, Exit 5.
 
-{{< aff href="https://www.klook.com/en-US/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/" text="Book a hanbok rental near Gyeongbokgung on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/?aid=145455" text="Book a hanbok rental near Gyeongbokgung on Klook" >}}
 
 {{< figure src="images/photos/seoul-gwanghwamun-01.webp" alt="Gwanghwamun Square and Gwanghwamun Gate with Bukhansan behind" caption="Come for the 10:00 or 14:00 guard ceremony at Gwanghwamun. It lasts about 20 minutes and is free to watch from the square. Photo: Richard Mortel, CC BY 2.0" >}}
 
@@ -174,7 +174,7 @@ Take the cable car up from Myeongdong, or the bus from Itaewon. The observatory 
 
 One warning: the cable car line at sunset can eat 40 minutes. The bus from Itaewon is slower but you stay warm, and the plaza view is almost as good as the paid observatory. It costs nothing.
 
-{{< aff href="https://www.klook.com/en-US/activity/412-n-seoul-tower-seoul/" text="Book N Seoul Tower observatory tickets on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/412-n-seoul-tower-seoul/?aid=145455" text="Book N Seoul Tower observatory tickets on Klook" >}}
 
 ## 🍜 Day 3: How much can you eat in one day?
 
@@ -218,3 +218,5 @@ The old-school version of that dinner, beef soup at dawn and barbecue at night, 
 | Day 1 | Gyeongbokgung, 10:00 ceremony | Tongin Market lunch, Bukchon, Insadong | Cheonggyecheon Stream |
 | Day 2 | Hongdae cafes and shops | Han River bikes or walk | N Seoul Tower at sunset |
 | Day 3 | Gwangjang Market breakfast | Myeongdong food street and shopping | Dongdaemun or BBQ dinner |
+
+{{< aff href="https://www.klook.com/en-US/destination/c13-seoul/?aid=145455" text="Explore Seoul tours and tickets on Klook" >}}

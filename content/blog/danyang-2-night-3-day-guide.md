@@ -54,7 +54,7 @@ stops:
 ---
 
 
-Danyang is a small riverside town in North Chungcheong that Seoulites treat as a weekend secret. It is reachable from Seoul by train or bus, and it packs a river rock formation, a limestone cave, a cliff skywalk, a light tunnel, and a garlic-obsessed market into a few kilometers.
+[Danyang](https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455) is a small riverside town in North Chungcheong that Seoulites treat as a weekend secret. It is reachable from Seoul by train or bus, and it packs a river rock formation, a limestone cave, a cliff skywalk, a light tunnel, and a garlic-obsessed market into a few kilometers.
 
 
 Two nights is the right length. You get a slow first evening on the river, one full day for the sights, and a proper last meal before you head home. This guide is built around winter and shoulder-season hours (November to March), because that is when the opening times get tricky.
@@ -177,7 +177,7 @@ The skywalk is a viewing platform with a walkway reaching out about 80 m above t
 Danyang is Korea's paragliding capital, with launch sites at Yangbangsan and Dusan. Courses, prices, and age and weight limits differ by operator, so check when you book. Flights depend on wind, so book a day when you have slack and keep a backup plan.
 
 
-{{< aff href="https://www.klook.com/en-US/activity/104295-chunggbuk-danyang-paragliding-experience/" text="Book Danyang paragliding on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/104295-chunggbuk-danyang-paragliding-experience/?aid=145455" text="Book Danyang paragliding on Klook" >}}
 
 
 {{< figure src="images/photos/danyang-paragliders-01.jpg" alt="Paragliders gliding above the hills of Danyang" caption="Flights depend on wind, so book a day with slack and keep a backup plan. Photo: Douglas Perkins, CC BY 4.0" >}}
@@ -237,3 +237,5 @@ Walk the river once more, buy one last box of garlic bread, and take the train o
 
 
 _Fact sources (checked November 27, 2026): Gosu Cave (gosucave.co.kr), Mancheonha Skywalk (danyang.go.kr/tour/1926, dytc.or.kr/mancheonha), Suyanggae Light Tunnel (ledtunnel.co.kr), Dodamsambong cruise (danyangcruise.co.kr), Danyang River Jando (danyang.go.kr/geopark/1790), transport (danyang.go.kr/tour/1919), Edelweiss hotel (danyang.go.kr)._
+
+{{< aff href="https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455" text="Book a Danyang day tour from Seoul" >}}

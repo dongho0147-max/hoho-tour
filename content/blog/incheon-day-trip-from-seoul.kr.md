@@ -30,7 +30,7 @@ stops:
     note: "Sea Train or promenade"
 ---
 
-인천은 서울에서 가장 쉽게 다녀올 수 있는 당일치기 여행지예요. 예약해야 할 고속열차도, 따라붙어야 할 투어도 없고, 이른 알람도 필요 없어요. 지하철을 타고 종점까지 가서 내리면 다른 시대가 눈앞에 펼쳐져요.
+[인천](https://www.klook.com/en-US/destination/c158-incheon/?aid=145455)은 서울에서 가장 쉽게 다녀올 수 있는 당일치기 여행지예요. 예약해야 할 고속열차도, 따라붙어야 할 투어도 없고, 이른 알람도 필요 없어요. 지하철을 타고 종점까지 가서 내리면 다른 시대가 눈앞에 펼쳐져요.
 
 서울에서 3일밖에 없다면 [서울 필수 3일 가이드](/kr/blog/seoul-essential-3-day-guide/)에 시간을 쓰는 편이 나아요. 하지만 4일째나 5일째가 있다면, 궁궐 담장과 쇼핑 거리 너머의 한국을 보고 싶은 사람에게 인천을 권해요.
 
@@ -139,3 +139,5 @@ stops:
 ## 🍜 서울에서도 계속 먹어요
 
 **하루 동안의 국수와 바닷바람은 다음 끼니를 불러요.** 도시로 돌아와서는 [서울 시장 먹거리 투어](/kr/blog/seoul-market-food-walk/)로 노점을 걷고, [서울 노포: 백반과 바비큐](/kr/blog/seoul-old-restaurants-baekban-bbq/)에서 오래된 식당에 앉거나, [서울 카페 크롤: 성수, 연남, 익선](/kr/blog/seoul-cafes-seongsu-yeonnam-ikseon/)의 카페에서 느긋하게 쉬어 보세요.
+
+{{< aff href="https://www.klook.com/en-US/destination/c158-incheon/?aid=145455" text="클룩에서 인천 투어·티켓 둘러보기" >}}

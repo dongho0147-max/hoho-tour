@@ -43,7 +43,7 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 ## 🌇 Where does the evening start?
 
-Start at Omokdae, the small pavilion on the hill at the edge of the Hanok Village. Go up before sunset, not after. The climb is short, the view over the rooftops is the best in town, and you can watch the light change over the village while the lanterns below switch on one by one. Bring a light jacket, because the hill catches the wind after dark.
+Start at Omokdae, the small pavilion on the hill at the edge of the [Hanok Village](https://www.klook.com/en-US/destination/p50001575-jeonju-hanok-village/?aid=145455). Go up before sunset, not after. The climb is short, the view over the rooftops is the best in town, and you can watch the light change over the village while the lanterns below switch on one by one. Bring a light jacket, because the hill catches the wind after dark.
 
 From Omokdae, walk down into the village slowly. The main streets are quieter now, the hanok guesthouses glow warm from the inside, and the cafes put their tables out. This is the best hour for photos, and it is also the best hour for doing nothing in particular. Sit on a bench. Watch the village settle.
 
@@ -106,3 +106,5 @@ Skip the night market if you are in Jeonju on a weekday, because the big night m
 ## 🍽️ Keep eating around Jeonju
 
 - [Jeonju in one day: hanok, bibimbap, and Gaekridan](/blog/jeonju-one-day-hanok-bibimbap-gaekridan/) - the daytime plan that pairs with this evening, with the bibimbap spots and the daytime market walk.
+
+{{< aff href="https://www.klook.com/en-US/destination/p50001575-jeonju-hanok-village/?aid=145455" text="Plan Jeonju Hanok Village activities on Klook" >}}

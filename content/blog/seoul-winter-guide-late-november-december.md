@@ -78,11 +78,11 @@ Take the river at night. In summer, the Han River is for picnics and bicycles. I
 
 {{< collage "images/photos/seoul-04.webp|Han River at night with rental bicycles|TurnOnTheNight, CC BY-SA 4.0" "images/photos/seoul-25.webp|Han River night skyline|valeuf, CC BY" >}}
 
-The tower is another winter place. N Seoul Tower on its hill is cold and windy at dusk, and that is exactly when you should go, because the city lights come on while you are standing there, and the whole basin turns gold below you. Go for the sunset, stay for the first hour of dark, then head down for dinner. The observatory ticket runs about 29,000 KRW for adults at the counter, or around 24,100 KRW booked ahead on Klook (checked November 2026), but the outdoor terrace and the plaza are free, and on a clear winter night the free view is nearly as good as the paid one.
+The tower is another winter place. [N Seoul Tower](https://www.klook.com/en-US/activity/17323-n-seoul-tower-ticket-combos-seoul/?aid=145455) on its hill is cold and windy at dusk, and that is exactly when you should go, because the city lights come on while you are standing there, and the whole basin turns gold below you. Go for the sunset, stay for the first hour of dark, then head down for dinner. The observatory ticket runs about 29,000 KRW for adults at the counter, or around 24,100 KRW booked ahead on Klook (checked November 2026), but the outdoor terrace and the plaza are free, and on a clear winter night the free view is nearly as good as the paid one.
 
 If you want the observatory ticket sorted ahead, it is easy to book before you go up the hill.
 
-{{< aff href="https://www.klook.com/en-US/activity/412-n-seoul-tower-seoul/" text="Book N Seoul Tower observatory tickets on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/412-n-seoul-tower-seoul/?aid=145455" text="Book N Seoul Tower observatory tickets on Klook" >}}
 
 {{< figure src="images/photos/seoul-16.webp" alt="N Seoul Tower seen from a street below in daytime" caption="The terrace and plaza are free, and on a clear night the free view is nearly as good as the paid one. Photo: Devianagloria, CC BY-SA 4.0" >}}
 
@@ -132,3 +132,5 @@ Three things that work in December.
 - [Seoul market food walk: Gwangjang and the old markets](/blog/seoul-market-food-walk/) - the hot bowls that finish a cold market morning.
 - [Han River at night: cruise and ramyeon](/blog/seoul-night-han-river-cruise-ramyeon/) - the river after dark, when the lights double on black water.
 - [Seoul in 3 days: the essential route](/blog/seoul-essential-3-day-guide/) - the full Seoul base plan, if this winter guide is one stop on a longer trip.
+
+{{< aff href="https://www.klook.com/en-US/activity/17323-n-seoul-tower-ticket-combos-seoul/?aid=145455" text="Get N Seoul Tower tickets" >}}

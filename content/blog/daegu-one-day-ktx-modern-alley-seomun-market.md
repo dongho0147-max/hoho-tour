@@ -80,9 +80,9 @@ Dongdaegu Station sits on subway Line 1, and the station building connects strai
 
 If you would rather have the day organized for you, the Daegu city tour bus leaves from the square in front of Dongdaegu Station. The downtown loop costs 10,000 KRW for adults and 8,000 KRW for teens, with a discount to 8,000 KRW if you hold a same-day train, bus, or plane ticket. It runs Tuesday to Sunday and rests on Mondays, and the operator currently advertises a 30 percent Wednesday discount on its own page. Departure times are hourly from 09:30 to 15:30 in secondary sources, but we could not confirm the timetable on the official page (미확인).
 
-{{< aff href="https://www.klook.com/activity/111728-daegu-hop-on-hop-off-bus-tour-open-top/" text="Book the Daegu Hop-On Hop-Off Bus Tour on Klook" >}}
+{{< aff href="https://www.klook.com/activity/111728-daegu-hop-on-hop-off-bus-tour-open-top/?aid=145455" text="Book the Daegu Hop-On Hop-Off Bus Tour on Klook" >}}
 
-{{< aff href="https://www.klook.com/en-US/activity/194467-daegu-one-day-tour-palgongsan-cable-car-e-world-night-view/" text="Book the Daegu one-day tour with Palgongsan Cable Car and E-World night view on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/194467-daegu-one-day-tour-palgongsan-cable-car-e-world-night-view/?aid=145455" text="Book the Daegu one-day tour with Palgongsan Cable Car and E-World night view on Klook" >}}
 
 ## 🚶 Morning: the Modern Alley walk
 
@@ -145,3 +145,5 @@ Skip the night market plan if you are in Daegu Monday to Thursday, because the n
 ## 🧭 Keep going from Daegu
 
 Daegu sits on the same KTX line as two of our other favorite trips. North toward Seoul, [Gyeongju in One Day by KTX](/blog/gyeongju-one-day-ktx-bulguksa-hwangridan/) pairs Bulguksa Temple with the tomb park an hour away. South, [Busan in Two Bowls](/blog/busan-pork-soup-milmyeon/) keeps the food theme going with pork soup and milmyeon at the end of the line.
+
+{{< aff href="https://www.klook.com/en-US/activity/111728-daegu-hop-on-hop-off-bus-tour-open-top/?aid=145455" text="Book the Daegu hop-on hop-off bus tour" >}}

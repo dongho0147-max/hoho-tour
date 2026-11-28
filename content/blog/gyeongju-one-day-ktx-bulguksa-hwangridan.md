@@ -35,7 +35,7 @@ stops:
     note: "Hanok village and the old Choi family house."
 ---
 
-Gyeongju is the best one-day history trip in Korea, and the KTX makes it work. You arrive at Gyeongju Station in the morning, take a bus to Bulguksa Temple, spend the afternoon walking among royal tombs in the town center, and end the day eating your way down Hwangridan-gil. One day, no car, no rush.
+Gyeongju is the best one-day history trip in Korea, and the [KTX](https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455) makes it work. You arrive at Gyeongju Station in the morning, take a bus to Bulguksa Temple, spend the afternoon walking among royal tombs in the town center, and end the day eating your way down Hwangridan-gil. One day, no car, no rush.
 
 This guide was put together from recent listings, reviews, and official pages, checked November 2026. Train times and bus numbers change, so check them the day before you travel.
 
@@ -53,7 +53,7 @@ Gyeongju Station sits outside town, about 25 minutes by bus from the center. Bus
 
 If you would rather not plan the buses at all, a guided day tour from Busan covers Bulguksa, the tombs, and the hanok village in one booking, with pickup in Busan.
 
-{{< aff href="https://www.klook.com/en-US/activity/161323-gyeongju-unesco-legacy-1-day-tour-from-busan/" text="Book the Gyeongju UNESCO day tour from Busan on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/161323-gyeongju-unesco-legacy-1-day-tour-from-busan/?aid=145455" text="Book the Gyeongju UNESCO day tour from Busan on Klook" >}}
 
 ## 🏯 Morning: Bulguksa Temple
 
@@ -100,7 +100,7 @@ For dinner, the street has Gyeongju specialties: ssambap (rice with leaf wraps) 
 
 The solo route is easy and cheap if you are coming from Seoul, because the KTX plus two bus rides is all it takes. The tour makes more sense from Busan, where the train is short and the tour bus saves you the local bus connections.
 
-{{< aff href="https://www.klook.com/en-US/activity/194604-gyeongju-vip-small-group-heritage-nature-day-tour/" text="Book the Gyeongju small-group heritage tour from Busan on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/194604-gyeongju-vip-small-group-heritage-nature-day-tour/?aid=145455" text="Book the Gyeongju small-group heritage tour from Busan on Klook" >}}
 
 ## ✅ Your Gyeongju day at a glance
 
@@ -120,3 +120,5 @@ The solo route is easy and cheap if you are coming from Seoul, because the KTX p
 ## 🌙 Keep going after dark
 
 One day is enough for the sights, but Gyeongju changes after sunset. For the pond lights, the lit wooden bridge, and the late snack street, read [Gyeongju at Night: Donggung Palace, Wolji Pond, and Woljeonggyo](/blog/gyeongju-night-donggung-wolji/).
+
+{{< aff href="https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455" text="Get a Korea Rail Pass for KTX trips" >}}

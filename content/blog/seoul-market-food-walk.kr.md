@@ -25,7 +25,7 @@ stops:
 
 시장에서는 주문을 잘못할 걱정이 없어요. 가리키고, 먹고, 다시 걸으면 돼요.
 
-이 산책은 광장시장에서 출발해 종로의 오래된 거리를 지나, 발이 쉬고 싶어지는 곳에서 끝나요. 대개는 좁은 한옥 골목에서 커피를 손에 들게 돼요. 오전 한나절이면 되고, 쇼핑 거리에서는 볼 수 없는 서울을 만나요.
+이 산책은 [광장시장](https://www.klook.com/en-US/activity/68099-gwangjang-market-food-and-fortress-walk/?aid=145455)에서 출발해 종로의 오래된 거리를 지나, 발이 쉬고 싶어지는 곳에서 끝나요. 대개는 좁은 한옥 골목에서 커피를 손에 들게 돼요. 오전 한나절이면 되고, 쇼핑 거리에서는 볼 수 없는 서울을 만나요.
 
 궁궐과 한강, 타워까지 포함한 첫 여행이라면 [처음 서울을 찾는 여행자를 위한 3일 핵심 코스](/kr/blog/seoul-essential-3-day-guide/)부터 보세요. 이 산책은 서울이 조금 익숙해진 다음 날 아침, 이곳에 사는 사람처럼 먹고 싶을 때 어울려요.
 
@@ -127,3 +127,5 @@ stops:
 {{< sticker kind="tired-rest" >}}
 
 시장을 나와도 배가 고프다면 [서울의 노포](/kr/blog/seoul-old-restaurants-baekban-bbq/)가 이어지고, [서울 카페 크롤](/kr/blog/seoul-cafes-seongsu-yeonnam-ikseon/)은 익선동 한옥 골목에서 하루를 마무리해요.
+
+{{< aff href="https://www.klook.com/en-US/activity/68099-gwangjang-market-food-and-fortress-walk/?aid=145455" text="광장시장 먹거리 워킹투어 예약하기" >}}

@@ -34,7 +34,7 @@ stops:
     note: "Hanok village and the old Choi family house."
 ---
 
-경주는 한국에서 가장 좋은 당일 역사 여행지이고, KTX 덕분에 가능해요. 아침에 신경주역에 도착해 버스로 불국사에 가고, 오후에는 시내 중심의 왕릉 사이를 걷고, 황리단길을 따라 먹으며 하루를 마치면 돼요. 하루, 차 없이, 서두르지 않고 다녀올 수 있어요.
+경주는 한국에서 가장 좋은 당일 역사 여행지이고, [KTX](https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455) 덕분에 가능해요. 아침에 신경주역에 도착해 버스로 불국사에 가고, 오후에는 시내 중심의 왕릉 사이를 걷고, 황리단길을 따라 먹으며 하루를 마치면 돼요. 하루, 차 없이, 서두르지 않고 다녀올 수 있어요.
 
 **이 글은 공식 안내 페이지를 바탕으로 2026년 11월에 정리했어요.** 열차 시간과 버스 노선은 바뀔 수 있으니 출발 전날 확인하세요.
 
@@ -56,7 +56,7 @@ stops:
 
 버스 계획을 아예 하고 싶지 않다면, 부산 출발 가이드 데이투어가 불국사, 고분군, 한옥마을을 부산 픽업과 함께 한 번의 예약으로 묶어 돌아요. 상품마다 포함 내용과 취소 조건이 다르니 예약 전에 상세 페이지를 읽어 보세요.
 
-{{< aff href="https://www.klook.com/ko/activity/161323-gyeongju-unesco-legacy-1-day-tour-from-busan/" text="클룩에서 경주 유네스코 1일 투어 예약하기" rel="sponsored noopener" >}}
+{{< aff href="https://www.klook.com/ko/activity/161323-gyeongju-unesco-legacy-1-day-tour-from-busan/?aid=145455" text="클룩에서 경주 유네스코 1일 투어 예약하기" rel="sponsored noopener" >}}
 
 ## 🏯 오전: 불국사
 
@@ -136,3 +136,5 @@ stops:
 ## 🌙 해가 진 뒤에도 계속
 
 **하루면 볼거리는 충분하지만, 경주는 해가 지면 달라져요.** 연못 조명, 불 켜진 목조 다리, 늦게까지 여는 간식 거리는 [경주의 밤: 동궁, 월지, 월정교](/kr/blog/gyeongju-night-donggung-wolji/)에서 읽어 보세요.
+
+{{< aff href="https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455" text="코레일패스(KTX) 구매하기" >}}

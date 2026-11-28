@@ -29,7 +29,7 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 아래 식당들은 수십 년째 문을 열어 왔어요. 그중 몇 곳은 여러분을 거기로 데려다줄 지하철 노선보다도 먼저 생겼어요.
 
-이 가이드는 네 곳을 골라요. 대부분의 카페보다 먼저 여는 국물집 두 곳, 궁궐 옆 삼계탕집 한 곳, 저녁용 바비큐집 한 곳이에요. 서두르지 않고 이틀이면 네 곳 모두에서 먹을 수 있어요.
+이 가이드는 네 곳을 골라요. 대부분의 카페보다 먼저 여는 국물집 두 곳, 궁궐 옆 삼계탕집 한 곳, 저녁용 [바비큐](https://www.klook.com/en-US/activity/919-korean-night-dining-tour-seoul/?aid=145455)집 한 곳이에요. 서두르지 않고 이틀이면 네 곳 모두에서 먹을 수 있어요.
 
 **영업시간은 서울 공식 관광 안내와 미쉐린 가이드를 바탕으로 2026년 11월에 정리했어요.** 가격과 시간은 바뀔 수 있어요.
 
@@ -116,3 +116,5 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 {{< sticker kind="tired-rest" >}}
 
 이 먹거리 하루의 시장 버전이 궁금하세요? [오래된 시장을 느긋하게 도는 먹거리 투어](/kr/blog/seoul-market-food-walk/)는 광장시장에서 빈대떡, 마약김밥, 생선 가게로 시작해요.
+
+{{< aff href="https://www.klook.com/en-US/activity/919-korean-night-dining-tour-seoul/?aid=145455" text="소규모 한식 BBQ 나이트 푸드투어 예약하기" >}}

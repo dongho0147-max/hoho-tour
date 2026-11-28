@@ -31,7 +31,7 @@ stops:
     note: "Hanok lanes"
 ---
 
-서울에는 한 사람이 평생 다 가 보기 어려울 만큼 좋은 카페가 많아요. 그러니 영리한 방법은 동네 세 곳을 골라 제대로 걷는 거예요. 큰 창고 카페의 성수, 공원 옆 푸른 커피의 연남, 기와지붕 한옥 카페의 익선동. 하루에 세 가지 분위기를 만나고, 모든 걸 다 하려는 곳은 없어요.
+서울에는 한 사람이 평생 다 가 보기 어려울 만큼 좋은 카페가 많아요. 그러니 영리한 방법은 동네 세 곳을 골라 제대로 걷는 거예요. 큰 창고 카페의 [성수](https://www.klook.com/en-US/activity/217039-seongsu-station-ttukseom-hangang-park-half-day-river-hidden-gems-tour/?aid=145455), 공원 옆 푸른 커피의 연남, 기와지붕 한옥 카페의 익선동. 하루에 세 가지 분위기를 만나고, 모든 걸 다 하려는 곳은 없어요.
 
 이 가이드는 직접 가 본 경험이 아니라 자료 조사를 바탕으로 썼어요. 동네 소개와 영업시간은 서울 공식 관광정보와 서울시 자료에서 가져왔고 2026년 11월에 정리했어요. 서울 카페는 메뉴와 영업시간이 자주 바뀌니, 꼭 가고 싶은 곳은 가기 전에 확인하세요.
 
@@ -131,3 +131,5 @@ stops:
 {{< sticker kind="tired-rest" >}}
 
 카페 크롤 후에도 배가 고픈가요? [오래된 시장을 느긋하게 도는 먹거리 투어](/kr/blog/seoul-market-food-walk/)는 광장시장에서 빈대떡과 마약김밥으로 시작하고, [서울의 오래된 식당](/kr/blog/seoul-old-restaurants-baekban-bbq/)은 새벽 소고기 국물, 낮 삼계탕, 밤 바비큐로 이어져요.
+
+{{< aff href="https://www.klook.com/en-US/activity/217039-seongsu-station-ttukseom-hangang-park-half-day-river-hidden-gems-tour/?aid=145455" text="성수·뚝섬 한강공원 반일 투어 예약하기" >}}

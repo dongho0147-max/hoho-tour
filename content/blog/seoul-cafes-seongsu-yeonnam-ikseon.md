@@ -32,7 +32,7 @@ stops:
     note: "Hanok lanes"
 ---
 
-Seoul has more good cafes than any one person can visit in a lifetime, so the smart move is to pick three neighborhoods and walk them properly. Seongsu for big warehouse cafes, Yeonnam for leafy park-side coffee, and Ikseon-dong for hanok cafes with tiled roofs. One day, three moods, and no single place trying to be everything.
+Seoul has more good cafes than any one person can visit in a lifetime, so the smart move is to pick three neighborhoods and walk them properly. [Seongsu](https://www.klook.com/en-US/activity/217039-seongsu-station-ttukseom-hangang-park-half-day-river-hidden-gems-tour/?aid=145455) for big warehouse cafes, Yeonnam for leafy park-side coffee, and Ikseon-dong for hanok cafes with tiled roofs. One day, three moods, and no single place trying to be everything.
 
 This guide is written from research, not from a single visit. Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises. Cafes in Seoul change menus and hours often, so check the place you care about before you go.
 
@@ -98,7 +98,7 @@ You do not need a fixed order, but it helps to have a plan. In Seongsu, order a 
 
 If you want a guided food walk to go with the cafe day, the Gwangjang Market food walk runs from the market to Cheonggyecheon and Heunginjimun Gate, and it is a good way to eat before the cafes. It includes a kimbap, bindaetteok, or tteokbokki tasting, and it pairs well with an afternoon in Ikseon-dong, which is nearby.
 
-{{< aff href="https://www.klook.com/en-US/activity/68099-gwangjang-market-food-and-fortress-walk/" text="See the Gwangjang Market food and fortress walk on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/68099-gwangjang-market-food-and-fortress-walk/?aid=145455" text="See the Gwangjang Market food and fortress walk on Klook" >}}
 
 ## 🚫 Skip this if...
 
@@ -116,3 +116,5 @@ Skip the crawl if you only like one kind of cafe, because the whole point is the
 {{< sticker kind="tired-rest" >}}
 
 Still hungry after the crawl? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts at Gwangjang Market with bindaetteok and mayak gimbap, and [Seoul's old restaurants](/blog/seoul-old-restaurants-baekban-bbq/) runs beef soup at dawn, baekban at noon, and barbecue at night.
+
+{{< aff href="https://www.klook.com/en-US/activity/217039-seongsu-station-ttukseom-hangang-park-half-day-river-hidden-gems-tour/?aid=145455" text="Join a Seongsu and Hangang hidden gems tour" >}}

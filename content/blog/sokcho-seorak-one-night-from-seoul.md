@@ -84,9 +84,9 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 Here is the honest answer: the bus is cheaper and more flexible, and the tour is easier. Express buses run regularly from Seoul Express Bus Terminal to Sokcho, and the ride takes about two and a half hours each way. You pick your own pace, you stay for sunset, and you sleep in Sokcho instead of rushing back. The trade-off is that you handle every connection yourself, including the local bus from Sokcho to the national park.
 
-A guided day tour from Seoul does the driving for you. The Seoraksan and Naksansa Temple full-day tour on Klook runs about 12.5 hours, from 07:20 to 19:50, with an English and Chinese speaking guide, and recent listings rate it 4.7 out of 5 from more than 1,100 reviews. Read the fine print before you book: on that listing the cable car is not included, so budget for it separately if you want the ride up.
+A guided day tour from Seoul does the driving for you. The Seoraksan and [Naksansa](https://www.klook.com/en-US/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455) Temple full-day tour on Klook runs about 12.5 hours, from 07:20 to 19:50, with an English and Chinese speaking guide, and recent listings rate it 4.7 out of 5 from more than 1,100 reviews. Read the fine print before you book: on that listing the cable car is not included, so budget for it separately if you want the ride up.
 
-{{< aff href="https://www.klook.com/activity/2529-mount-seorak-naksansa-temple-gangwon-do/" text="See the Seoraksan and Naksansa Temple full-day tour from Seoul on Klook" >}}
+{{< aff href="https://www.klook.com/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455" text="See the Seoraksan and Naksansa Temple full-day tour from Seoul on Klook" >}}
 
 | Option | Time | Freedom | Best for |
 |---|---|---|---|
@@ -153,3 +153,5 @@ Skip the overnight plan if you only want the mountain and nothing else. A day to
 | Day 2 midday | Sokcho Express Bus Terminal | Bus back to Seoul |
 
 If the east coast has you hooked, keep going south: the [Gangneung one-night guide](/blog/gangneung-one-night-ktx-coffee-gyeongpo/) pairs coffee street with Gyeongpo Beach an hour down the coast. And if this trip turned you into a regional food hunter, [Busan in two bowls](/blog/busan-pork-soup-milmyeon/) is the same idea further south: one city, two signature dishes.
+
+{{< aff href="https://www.klook.com/en-US/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455" text="Book a Mt. Seorak and Naksansa Temple day tour from Seoul" >}}

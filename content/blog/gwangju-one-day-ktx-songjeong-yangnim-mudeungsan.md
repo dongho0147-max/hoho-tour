@@ -93,7 +93,7 @@ landmarks:
 map_note: "Yongsan Station is the Seoul departure point and stays off the map; the map covers the eight Gwangju stops and landmarks (9 with the departure point included in the frontmatter). Walking between the square and Yangnim is unconfirmed: a map app check is advised before publishing the 15-minute estimate."
 ---
 
-Gwangju is the easiest big city in the southwest to reach from Seoul, and one day is enough for its history, its food, and its art. The KTX from Yongsan takes under two hours, and the city center is compact enough to walk between its main sights.
+Gwangju is the easiest big city in the southwest to reach from Seoul, and one day is enough for its history, its food, and its art. The [KTX](https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455) from Yongsan takes under two hours, and the city center is compact enough to walk between its main sights.
 
 One naming note before you book anything: since July 1, 2026, Gwangju and the old South Jeolla Province have merged into the Jeonnam-Gwangju Special Metropolitan City. The merger changed the administration, not the map: the five districts are unchanged, and Gwangju-Songjeong is still the KTX station. Some official pages have not caught up with the new name or address yet, so both names refer to the same place.
 
@@ -137,7 +137,7 @@ Next to the square, the Asia Culture Center is a vast cultural complex built int
 
 If you want the downtown story told properly, with the square, the old office, and the old town alleys, the Gwangju Soul Walk runs a 6.5-hour English tour that covers them in one afternoon.
 
-{{< aff href="https://www.klook.com/en-US/activity/160778-gwangju-soul-walk-human-acts-5-18-democracy-old-town-tour/" text="Book the Gwangju Soul Walk English tour on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/160778-gwangju-soul-walk-human-acts-5-18-democracy-old-town-tour/?aid=145455" text="Book the Gwangju Soul Walk English tour on Klook" >}}
 
 Cross the main road east and the grid turns into Dongmyeong-dong, the cafe quarter locals call Dongmyeong-dong, a grid of low houses, book cafes, and roasteries that is at its best in the late afternoon.
 
@@ -155,7 +155,7 @@ Cheonwangbong, the 1,187-meter summit, sits inside a military zone and is not a 
 
 If you would rather not deal with buses at all, or you want to fold in Damyang's bamboo forest or another southwest stop, the private taxi tour from Gwangju covers Damyang, Gochang, Suncheon, and Yeosu in a day.
 
-{{< aff href="https://www.klook.com/en-US/activity/190223-gwangju-damyang-gochang-suncheon-yeosu-private-taxi-tour-from-gwangju/" text="Book the private taxi tour from Gwangju on Klook" >}}
+{{< aff href="https://www.klook.com/en-US/activity/190223-gwangju-damyang-gochang-suncheon-yeosu-private-taxi-tour-from-gwangju/?aid=145455" text="Book the private taxi tour from Gwangju on Klook" >}}
 
 ## 🍚 What Gwangju tastes like
 
@@ -189,3 +189,5 @@ One day covers the route above, but two things sit outside a day trip. The Natio
 {{< aff href="https://www.agoda.com/city/gwangju-si-kr.html" text="Find Gwangju hotels on Agoda" >}}
 
 And if the southwest has you hooked, Jeonju and its hanok village make the natural next stop: the [Jeonju one-day guide](/blog/jeonju-one-day-hanok-bibimbap-gaekridan/) picks up right where this one ends.
+
+{{< aff href="https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455" text="Get a Korea Rail Pass for KTX day trips" >}}

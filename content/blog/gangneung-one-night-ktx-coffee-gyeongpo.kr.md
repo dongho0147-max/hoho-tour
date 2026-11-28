@@ -34,7 +34,7 @@ stops:
     note: "Historic house and museum in town."
 ---
 
-**강릉은 서울에서 비교적 쉽게 다녀올 수 있는 1박 여행지예요.** KTX로 2시간 안팎이고, 해변과 커피거리가 가까이 붙어 있어서 하룻밤이면 둘 다 즐길 수 있어요. 점심때 도착해서 오후는 커피와 모래사장에서 보내고, 다음 날 느긋한 아침을 보낸 뒤 돌아가면 돼요.
+**강릉은 서울에서 비교적 쉽게 다녀올 수 있는 1박 여행지예요.** [KTX](https://www.klook.com/en-US/activity/127057-seoul-gangneung-ktx-train-ticket/?aid=145455)로 2시간 안팎이고, 해변과 커피거리가 가까이 붙어 있어서 하룻밤이면 둘 다 즐길 수 있어요. 점심때 도착해서 오후는 커피와 모래사장에서 보내고, 다음 날 느긋한 아침을 보낸 뒤 돌아가면 돼요.
 
 **이 글은 강릉시 관광 안내와 한국관광공사 자료를 바탕으로 2026년 11월에 정리했어요.** 열차 시간과 카페 영업시간은 바뀌니 여행 전날 확인하세요.
 
@@ -161,3 +161,5 @@ stops:
 ## 🍽️ 강릉을 계속 먹어보세요
 
 - [서울에서 1박 속초·설악산](/kr/blog/sokcho-seorak-one-night-from-seoul/) - 동해안을 따라 올라가는 다음 정거장으로, 산, 해변, 같은 1박 리듬이에요.
+
+{{< aff href="https://www.klook.com/en-US/activity/127057-seoul-gangneung-ktx-train-ticket/?aid=145455" text="서울-강릉 KTX 티켓 예약하기" >}}

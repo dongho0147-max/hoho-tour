@@ -56,7 +56,7 @@ landmarks:
 map_note: "The Daejeon Station branch has no separate map listing, so it is plotted at Daejeon Station itself; the branch sits on the 2nd floor inside the station. The Seongsimdang DCC branch (36.3753357, 127.3922164) sits beside DCC and is covered in the DCC section rather than plotted as a sixth stop."
 ---
 
-Daejeon has one honest claim to fame, and the whole city knows it. People ride the KTX for 50 minutes from Seoul, buy bread, and ride home. The bakery is Seongsimdang, open since 1956, and it has never opened a branch in Seoul. If you want the bread, you go to Daejeon.
+Daejeon has one honest claim to fame, and the whole city knows it. People ride the [KTX](https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455) for 50 minutes from Seoul, buy bread, and ride home. The bakery is Seongsimdang, open since 1956, and it has never opened a branch in Seoul. If you want the bread, you go to Daejeon.
 
 This guide turns that bread run into a full day: Daejeon Station, both Seongsimdang branches that matter, a cafe break in Soje-dong, a free arboretum walk, and the DCC Expo area as the bridge lights up. Five stops, one metro line, and a bag of bread for the train home.
 
@@ -72,7 +72,7 @@ The slower ITX trains take 70 to 90 minutes and cost less, but they eat your mor
 
 Inside Daejeon, Metro Line 1 does almost everything. Daejeon Station to Jungangno is one stop, about 1,550 KRW on a transport card, and that is your stop for the main store. For the DCC area, ride Line 1 to Government Complex Daejeon Station, then bus 606, 618, or 911 to Hanbat Arboretum. A taxi from Daejeon Station to DCC takes about 20 minutes and costs roughly 10,000 KRW based on recent listings. Kakao T works in Daejeon.
 
-{{< aff href="https://www.klook.com/en-GB/activity/161041-daejeon-private-taxi-tour/" text="See the Daejeon private taxi tour on Klook, with Hanbat Arboretum and Expo Park on the route" >}}
+{{< aff href="https://www.klook.com/en-GB/activity/161041-daejeon-private-taxi-tour/?aid=145455" text="See the Daejeon private taxi tour on Klook, with Hanbat Arboretum and Expo Park on the route" >}}
 
 ## 🍞 Stop 1: the station branch first, while the city wakes up
 
@@ -149,10 +149,12 @@ Before the bridge, finish the bread run properly. The Seongsimdang DCC branch si
 
 Skip the main store queue at noon on a weekend if you only want the famous bread. Go to the station branch or the DCC branch instead, or come back at 08:00 the next day. Skip the arboretum on its closing day for the side you want: east garden and glasshouse shut Mondays, west garden shuts Tuesdays. And skip the full day if you only have a morning. The honest half-day is the station branch plus the main store plus Soje-dong, and the train home by lunch. A second day could be Jangtaesan Forest and Jungang Market, trees instead of bread.
 
-{{< aff href="https://www.klook.com/activity/105340-daejeon-o-world-cherry-blossom-tulip-jangtaesan-recreational-forest/" text="See the Daejeon Jangtaesan Forest and Jungang Market full-day tour on Klook" >}}
+{{< aff href="https://www.klook.com/activity/105340-daejeon-o-world-cherry-blossom-tulip-jangtaesan-recreational-forest/?aid=145455" text="See the Daejeon Jangtaesan Forest and Jungang Market full-day tour on Klook" >}}
 
 If you stay the night, stay near Daejeon Station or in Dunsan. The station side keeps your morning short, and Dunsan puts you near the arboretum and DCC.
 
 {{< aff href="https://www.agoda.com/city/daejeon-kr.html" text="See Daejeon hotels on Agoda" >}}
 
 One last thing: eat the soboro on the day you buy it. It is fried, it is best warm, and tomorrow it is just a bun. The train home is the right place for the last one.
+
+{{< aff href="https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455" text="Get a Korea Rail Pass for KTX day trips" >}}

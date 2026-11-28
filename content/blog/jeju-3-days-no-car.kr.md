@@ -51,7 +51,7 @@ stops:
 
 > **🔥 현지 팁:** 도착하기 전에 지도 앱에서 실시간 버스 도착 정보가 나오는지 확인해 두세요. 제주버스정보시스템(bus.jeju.go.kr)에서도 노선과 시간표를 볼 수 있어요. 일정을 나서기 전에 돌아오는 마지막 버스 시간을 꼭 확인하세요.
 
-버스로 하루를 다 도는 게 부담스럽다면, 소그룹 데이투어가 호텔 픽업으로 똑같은 동쪽 코스를 돌아줘요. 2일차를 해결하는 가장 간단한 방법이에요.
+버스로 하루를 다 도는 게 부담스럽다면, 소그룹 데이[투어](https://www.klook.com/en-US/activity/189127-jeju-east-west-south-shared-day-tour/?aid=145455)가 호텔 픽업으로 똑같은 동쪽 코스를 돌아줘요. 2일차를 해결하는 가장 간단한 방법이에요.
 
 {{< figure src="images/photos/jeju-3-days-no-car-illust-02.webp" alt="제주 버스, 교통카드, 휴대폰 지도를 그린 일러스트 안내" caption="제주 버스는 교통카드로 타고, 택시는 카카오 T를 쓰면 편해요. 일러스트: AI 생성" >}}
 
@@ -145,3 +145,5 @@ stops:
 
 - [하루 만에 도는 동제주: 성산, 우도, 섭지코지](/kr/blog/jeju-east-seongsan-udo/) - 이 글의 동쪽 해안 코스를 전부 담았고, 우도 배편과 막배 시간까지 나와요.
 - [제주 서쪽 해안: 애월, 오름, 카페](/kr/blog/jeju-west-aewol-oreum-cafes/) - 섬의 반대편, 카페 거리와 일몰 오름 산책 코스예요.
+
+{{< aff href="https://www.klook.com/en-US/activity/189127-jeju-east-west-south-shared-day-tour/?aid=145455" text="제주 동부·서남부 공유 당일투어 예약하기" >}}

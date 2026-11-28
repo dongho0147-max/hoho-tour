@@ -64,7 +64,7 @@ stops:
 
 섬 안의 누리마루 APEC 하우스는 무료로 관람할 수 있어요. **09:00~18:00**에 열고 입장은 17:00에 마감해요. 매월 첫째 월요일은 쉬어요(12월은 7일).
 
-그다음은 해운대 블루라인파크예요. 스카이캡슐은 최대 4명이 타는 프라이빗 캡슐로, 해안선을 따라 미포와 청사포 사이를 편도 약 30분에 달려요. 속도는 느린 편이라 풍경을 보기에 좋아요.
+그다음은 해운대 블루라인파크예요. [스카이캡슐](https://www.klook.com/en-US/activity/133293-haeundae-blueline-park-ticket-in-busan/?aid=145455)은 최대 4명이 타는 프라이빗 캡슐로, 해안선을 따라 미포와 청사포 사이를 편도 약 30분에 달려요. 속도는 느린 편이라 풍경을 보기에 좋아요.
 
 **겨울 운행 시간은 08:30~18:00이에요.** 요금은 1인당이 아니라 캡슐 한 대 기준이고, 공식 요금표에서는 2인 50,000원, 3인 55,000원, 4인 60,000원이에요.
 
@@ -76,7 +76,7 @@ stops:
 
 캡슐, 사찰, 감천을 하루에 맡기고 싶다면 픽업이 포함된 가이드 데이투어가 세 곳을 모두 다뤄요. 짧은 일정에 스카이캡슐을 넣는 가장 간단한 방법이에요. 상품마다 포함 내용과 취소 조건이 다르니 예약 전에 상세 페이지를 읽어 보세요.
 
-{{< aff href="https://www.klook.com/ko/activity/74132-busan-oneday-tour-busan/" text="클룩에서 스카이캡슐·감천 일일 투어 예약하기" rel="sponsored noopener" >}}
+{{< aff href="https://www.klook.com/ko/activity/74132-busan-oneday-tour-busan/?aid=145455" text="클룩에서 스카이캡슐·감천 일일 투어 예약하기" rel="sponsored noopener" >}}
 
 ## 🌉 첫째 날 저녁: 광안리 해변과 광안대교
 
@@ -160,3 +160,4 @@ stops:
 
 **이틀 동안 해변을 걸으면 배가 고파져요.** 서면의 국밥 골목, 해운대의 소고기국밥, 밀면의 발상지까지, 이번 여행을 한 그릇씩 풀어 쓴 글은 [부산의 두 그릇: 돼지국밥과 밀면](/kr/blog/busan-pork-soup-milmyeon/)에서 읽어 보세요.
 
+{{< aff href="https://www.klook.com/en-US/activity/133293-haeundae-blueline-park-ticket-in-busan/?aid=145455" text="해운대 스카이캡슐·해변열차 티켓 예약하기" >}}
