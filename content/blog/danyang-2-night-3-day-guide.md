@@ -1,10 +1,10 @@
 ---
-title: "Danyang 2-Night 3-Day Guide: Rivers, a Cave, and Garlic Everything"
-description: "A 2-night 3-day Danyang itinerary from Seoul: Dodamsambong and the market on day 1, Gosu Cave, the skywalk and the light tunnel on day 2, plus real fares, winter hours, and the Tuesday closures that catch visitors out."
+title: "Danyang 2 Nights 3 Days: The Wrong Order Wastes a Day"
+description: "A 2-night 3-day Danyang route from Seoul, ordered around the Tuesday closures, the 2 pm light tunnel opening, and the skywalk ticket cutoff, with real fares and winter hours."
 date: 2026-11-28
-image: "images/photos/danyang-blog-06-skywalk.jpg"
-image_alt: "Mancheonha Skywalk above the Namhan River in Danyang"
-image_caption: "The skywalk and light tunnel are both closed on Tuesdays. Photo: Korea Tourism Organization, Shin Minseon, KOGL Type 1"
+image: "images/photos/danyang-v10-01.jpg"
+image_alt: "Dodamsambong peaks reflected in the Namhan River"
+image_caption: "Dodamsambong looks best in late-afternoon light. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1"
 regions: ["chungcheong"]
 themes: ["day-trips"]
 stops:
@@ -53,46 +53,38 @@ stops:
     source: "https://www.sonohotelsresorts.com/belle_dy"
 ---
 
+A 2-night [Danyang](https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455) trip works if you get the order right, and the wrong order costs you a whole day. The skywalk is closed on Tuesdays, the light tunnel does not open until 2 pm, and some days the last bus to Seoul does not run at all.
 
-[Danyang](https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455) is a small riverside town in North Chungcheong that Seoulites treat as a weekend secret. It is reachable from Seoul by train or bus, and it packs a river rock formation, a limestone cave, a cliff skywalk, a light tunnel, and a garlic-obsessed market into a few kilometers.
+This guide is built for November to March from Seoul. The route is planned to flow without backtracking, and the fares and hours were checked against official pages.
 
+## ⚠️ 4 ordering mistakes that waste a day
 
-Two nights is the right length. You get a slow first evening on the river, one full day for the sights, and a proper last meal before you head home. This guide is built around winter and shoulder-season hours (November to March), because that is when the opening times get tricky.
+1. **Tuesday closes two sights.** The Mancheonha Skywalk and the Suyanggae Light Tunnel are both closed every Tuesday.
+2. **The light tunnel is not a morning stop.** In winter it opens at 14:00 and closes at 21:50.
+3. **Reach the skywalk before 4 pm.** In winter, on-site ticket sales end between 16:00 and 16:30 (sources differ).
+4. **Check your return bus first.** Some Danyang departures do not run on certain weekdays.
 
-
-{{< figure src="images/photos/danyang-blog-01-dodam.jpg" alt="Dodamsambong peaks rising from the Namhan River" caption="Hours get tricky from November to March, so check them before you go. Photo: Ken Eckert, CC BY-SA 4.0" >}}
-
+> **💡 Insider tip:** On day 2, go Gosu Cave (morning), then the skywalk (early afternoon), then the light tunnel (evening). The skywalk and the tunnel are a little over 2 km apart on the map, so the transfer is short, and the tunnel opens just as you arrive.
 
 ## 🧳 Before you go: how do you get to Danyang?
 
-
 - **Train:** Jungang Line trains (KTX-Eum, ITX-Maum, Mugunghwa) run from **Cheongnyangni Station** to **Danyang Station**. Check times and fares on Korail.
-- **Express bus:** Dong Seoul Terminal and Danyang are about 2 hours 20 minutes apart (per the Danyang bus terminal notice). Danyang to Dong Seoul has 9 departures a day, but some do not run on Tuesdays, Wednesdays, and Thursdays, and the last one does not run Monday to Thursday. Check your return bus first.
+- **Express bus:** Dong Seoul Terminal and Danyang are about 2 hours 20 minutes apart (per the Danyang bus terminal notice). Danyang to Dong Seoul has 9 departures a day, but some do not run on Tuesdays, Wednesdays, and Thursdays, and the last one does not run Monday to Thursday.
 - **By car:** a car helps, because the cave, the skywalk, and the light tunnel are in different directions from town.
-
 
 The market and the river walk are on foot from the town center. For the rest, plan on short taxis.
 
-
-> **The mistake to avoid:** The **Mancheonha Skywalk** and the Suyanggae Light Tunnel are both closed every Tuesday. Check your dates before you book anything. Both can open on a public holiday, so ask first.
-
-
 ### 💳 What should you sort out first?
-
 
 - **Naver Map, not Google Maps.** Navigation on Google Maps in Korea is weak. Naver Map has English.
 - **Bring some cash for the market.** Many small stalls prefer cash.
 - **Weekends are busy.** Saturday afternoon is the peak at the skywalk and the market.
 
-
 {{< figure src="images/photos/danyang-eup-01.jpg" alt="Danyang-eup town stretched along the Namhan River" caption="To do the market and river walk on foot, stay in town. Photo: Trainholic, CC BY-SA 4.0" >}}
 
 ### 🛏️ Where should you stay?
 
-
-**Sono Belle Danyang** is a large resort hotel in Danyang-eup. Prices are mid-range and everything is under one roof.
-
-Rates run from about KRW 120,000 on third-party sites and change by date.
+**Sono Belle Danyang** is a large resort hotel in Danyang-eup with everything under one roof. Rates change by date, so check a booking site.
 
 > **⚠️ Closure notice:** Sono Belle Danyang is **closed from December 2 to December 22, 2026** for facility work (official Sono Hotels & Resorts notice, October 28, 2026). If you travel in that window, book somewhere else.
 
@@ -100,142 +92,108 @@ If you want the market and river walk on foot, **Danyang Tourist Hotel Edelweiss
 
 {{< aff href="https://www.agoda.com/ko-kr/daemyung-resort-danyang/hotel/danyang-gun-kr.html" text="Check Sono Belle Danyang on Agoda" rel="sponsored noopener" >}}
 
+## 🏯 Day 1: Can you see Danyang's famous views the moment you arrive?
 
-## 🏯 Day 1: Can you do Danyang's famous view and the market in one slow afternoon?
-
-
-Yes. Arrive by early afternoon and keep it light.
-
+Yes. Arrive by early afternoon and keep it light. Dodamsambong, then the market, then the Jando walkway flows with no wasted travel.
 
 ### Dodamsambong and Seokmun
 
-
 Dodamsambong is the postcard view of Danyang: three rock peaks standing in the Namhan River. It is one of the Eight Views of Danyang. The stone arch called Seokmun is nearby, and it often photographs better than the peaks. Give it about an hour. The light is best in late afternoon.
-
 
 For the water-level view, there is a Dodamsambong cruise. In November and December it runs a shortened route, so check the fare and timetable on the operator's official site (danyangcruise.co.kr). Bring photo ID in case boarding needs it.
 
-
-{{< figure src="images/photos/danyang-blog-02-seokmun.jpg" alt="Seokmun stone gate framing the Namhan River in Danyang" caption="Seokmun often photographs better than the peaks. Give it about an hour in late afternoon light. Photo: Steve46814, CC BY-SA 3.0" >}}
-
+{{< figure src="images/photos/danyang-seokmun-02.jpg" alt="The Namhan River and green fields seen through the rock arch of Seokmun" caption="The view from inside the Seokmun arch is the best part. The cruise runs a shortened route in November and December, so check the timetable. Photo: Douglas Perkins, CC BY 4.0" >}}
 
 ### 🧄 Gugyeong Market, the garlic market
 
-
-**Gugyeong Market** is a permanent traditional market of about 120 shops, and garlic shows up in much of the food.
-
+**Gugyeong Market** is a permanent traditional market, and garlic shows up in much of the food.
 
 - **Garlic bread.** Several shops sell it, often as a snack size and a gift box. Eat it warm.
 - **Garlic sundae.** Blood sausage made with Danyang garlic. Share a plate.
 - **Black garlic dakgangjeong.** Crunchy fried chicken in a black garlic glaze that stays crisp when cold.
 - **Tteokgalbi.** Grilled short-rib patties with garlic flakes. Order one to share.
 
+> **💡 Insider tip:** Skip filling up on one thing. Buy small and share. Buy a gift box of garlic bread on your way home.
 
-Skip filling up on one thing. Buy small, share, move on.
+{{< figure src="images/photos/danyang-garlic-03.jpg" alt="Danyang garlic bundles tied with red string and stacked" caption="The market sells garlic by the bundle too. Buy gifts on your last day. Photo: Douglas Perkins, CC BY 4.0" >}}
 
-
-{{< figure src="images/photos/danyang-garlic-01.jpg" alt="Garlic piled along the street at Gugyeong Market in Danyang" caption="Skip filling up on one thing. Buy small, share, move on. Photo: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-v10-05.jpg" alt="A box of garlic bread from Danyang" caption="Eat garlic bread warm, and buy the gift box on your last day. Photo: Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
 
 ### Danyang River Jando at night
 
-
 Jando is the cliffside wooden walkway along the river, about 1.1 km and free (per Danyang County). Lights are said to stay on until 23:00 after sunset, but hours seem to vary by season, so check the county site first. It is a flat 1-hour walk and the calmest part of the trip.
 
-
-{{< figure src="images/photos/danyang-blog-05-jando.jpg" alt="Danyang River Jando wooden walkway along the river cliff" caption="The walkway is flat and takes about an hour. Check evening lighting hours with Danyang County. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
-
+{{< figure src="images/photos/danyang-v10-06.jpg" alt="Danyang River Jando walkway along the river cliff" caption="The walkway is flat and takes about an hour. Check evening lighting hours with Danyang County. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
 
 {{< figure src="images/photos/danyang-bridge-night-01.jpg" alt="Arched bridge lit at night over the Namhan River in Danyang" caption="Night lighting hours seem to vary by season, so check the Danyang County site first. Photo: Douglas Perkins, CC BY 4.0" >}}
 
-## ⛰️ Day 2: How do you fit the cave, the skywalk, and the lights into one day?
+## ⛰️ Day 2: How do you fit the cave, the skywalk, and the lights into one day, in order?
 
-
-Start with the cave, because the light tunnel does not open until the afternoon in winter.
-
+**The order is everything.** Cave, skywalk, light tunnel: the tunnel opens when you arrive, and you beat the skywalk ticket cutoff.
 
 ### Gosu Cave (about 09:00)
 
+**Gosu Cave** is a registered Natural Monument (No. 256) and open every day of the year. Entry starts at 09:00, with the last entry at 17:00. An adult ticket is {{< pr "11,000 KRW" >}} at the door (list price). Online tickets are listed at 9,900 KRW (Gosu Cave website). Plan about 1 hour inside. The cave stays cool all year, and parts of the floor are wet, so wear shoes with grip.
 
-**Gosu Cave** is a registered Natural Monument (No. 256) and open every day of the year. Winter hours run 09:00 start, with the last entry at 17:00. An adult ticket is {{< pr "11,000 KRW" >}} (the official list price, and online discounts may apply). Plan about 1 hour inside. The cave stays cool all year, and parts of the floor are wet, so wear shoes with grip.
+{{< figure src="images/photos/danyang-v10-04.jpg" alt="Stalactites and limestone formations inside Gosu Cave" caption="Online tickets are cheaper than the door price. Wear non-slip shoes on the wet floor. Photo: Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
 
+### Mancheonha Skywalk (early afternoon)
 
-{{< figure src="images/photos/danyang-blog-03-gosu.jpg" alt="Inside Gosu Cave with limestone formations" caption="Parts of the cave floor are wet, so wear non-slip shoes. Photo: Steve46814, CC BY-SA 3.0" >}}
+The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay {{< hl "4,000 KRW" >}}, and youth, children, and seniors pay {{< pr "3,000 KRW" >}} (official site). In winter it runs 09:00 to 17:00, and on-site ticket sales close between 16:00 and 16:30, so arrive before 3 pm. You reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline ({{< pr "30,000 KRW" >}}) and alpine coaster ({{< pr "18,000 KRW" >}}) cost extra.
 
-
-### Mancheonha Skywalk (late morning to early afternoon)
-
-
-The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay {{< hl "4,000 KRW" >}}, and youth, children, and seniors pay {{< hl "3,000 KRW" >}} (official site). In winter it runs 09:00 to 17:00, on-site ticket sales close around 4 pm (sources differ slightly), so arrive before 3 pm, and you reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline ({{< pr "30,000 KRW" >}}) and alpine coaster ({{< pr "18,000 KRW" >}}) cost extra.
-
-
-{{< figure src="images/photos/danyang-blog-06-skywalk.jpg" alt="Mancheonha Skywalk over the Namhan River cliff" caption="The skywalk is reached by shuttle bus only, and it closes on Tuesdays. Photo: Korea Tourism Organization, Shin Minseon, KOGL Type 1" >}}
-
+{{< figure src="images/photos/danyang-v10-07.jpg" alt="Aerial view of the Mancheonha Skywalk rising above the mountains and the Namhan River" caption="The skywalk is reached by shuttle bus only, and it closes on Tuesdays. Arrive before 3 pm. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
 
 ### Paragliding (optional, weather permitting)
 
+You can paraglide from the Yangbangsan and Dusan launch sites. Courses, prices, and age and weight limits differ by operator, so check when you book. Flights depend on wind, so book a day when you have slack and keep a backup plan.
 
-Danyang is Korea's paragliding capital, with launch sites at Yangbangsan and Dusan. Courses, prices, and age and weight limits differ by operator, so check when you book. Flights depend on wind, so book a day when you have slack and keep a backup plan.
-
+> **💡 Insider tip:** Lock in the paragliding date first and fit everything else around it. If you cannot fly, move the skywalk earlier into that slot.
 
 {{< aff href="https://www.klook.com/en-US/activity/104295-chunggbuk-danyang-paragliding-experience/?aid=145455" text="Book Danyang paragliding on Klook" >}}
 
-
-{{< figure src="images/photos/danyang-paragliders-01.jpg" alt="Paragliders gliding above the hills of Danyang" caption="Flights depend on wind, so book a day with slack and keep a backup plan. Photo: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-paragliders-02.jpg" alt="Paragliders gliding in the sky above Danyang hills" caption="Flights depend on wind, so book a day with slack. Photo: Douglas Perkins, CC BY 4.0" >}}
 
 ### Suyanggae Light Tunnel (evening)
 
-
 An old railway tunnel turned into a light show, with an LED garden outside. In winter (November to March) it opens at 14:00, closes at 21:50, and sells its last ticket at 21:00. Adults pay {{< pr "9,000 KRW" >}}. It is closed on Tuesdays. Give it 30 to 40 minutes.
 
-
-
-
-
-{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="Suyanggae Light Tunnel LED garden at night" caption="The Light Tunnel is closed on Tuesdays and 30 to 40 minutes is enough. Photo: Suyanggae Light Tunnel" >}}
+{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="Suyanggae Light Tunnel LED garden at night" caption="The Light Tunnel is closed on Tuesdays and 30 to 40 minutes is enough. Photo: Suyanggae Light Tunnel official site" >}}
 
 ## 🍲 Day 3: What is the last meal in Danyang?
 
+Sogari (mandarin fish) maeuntang is the local dish: a spicy river-fish stew, shared by two or more. Expect a sit-down price, not a street-snack price.
 
-Sogari (mandarin fish) maeuntang is the local dish: a spicy river-fish stew, shared by two or more. Expect a sit-down price, not a street-snack price, since a pot is meant for two or more. Check each restaurant's afternoon break time before you go. Many small places close for a while between lunch and dinner.
+> **💡 Insider tip:** Check each restaurant's afternoon break time before you go. Many small places close for a while between lunch and dinner.
 
+**If you have a car and time, skip lunch for the Chungju Lake cruise** from Janghoe Wharf past Oksunbong and Gugambong (about 1 to 1.5 hours). Two companies run similar-looking boats from the same wharf, so pick an operator before you book.
 
-If you have a car and time, you can swap lunch for the Janghoe-naru lake cruise past Oksunbong and Gudambong (about 1 hour to 90 minutes). Choose the operator before you book, because two companies run similar-looking trips from the same pier.
+{{< figure src="images/photos/danyang-ssogari-01.jpg" alt="Sogari maeuntang simmering with perilla leaves and enoki mushrooms" caption="One pot is meant for two or more people. Check the break time before you go. Photo: hyun chun kim, CC0" >}}
 
+Walk the river once more, buy a box of garlic bread, and head home by train or bus.
 
-Walk the river once more, buy one last box of garlic bread, and take the train or bus home.
-
-
-## 🗺️ Your 3 days at a glance
-
+## 🗺️ The 3 days at a glance
 
 | Day | Morning | Afternoon | Evening |
 |---|---|---|---|
 | Day 1 | Travel to Danyang | Dodamsambong, Seokmun, Gugyeong Market | Danyang River Jando |
 | Day 2 | Gosu Cave | Skywalk, optional paragliding | Suyanggae Light Tunnel |
-| Day 3 | Walk the river | Sogari maeuntang, go home | |
+| Day 3 | River walk | Sogari maeuntang, head home | |
 
+## 💡 Tips that save time
 
-## 💡 Quick tips that save time
+- **Do not schedule the skywalk or the light tunnel on a Tuesday.** Both close every Tuesday.
+- **Winter days are short.** Skywalk on-site tickets and the last cave entry end by mid-afternoon.
+- **Lock in the paragliding date first** and fit the rest around it.
+- **Check your return bus first.** Some Danyang departures do not run on certain weekdays.
 
+## ❓ Frequently asked questions
 
-- **Never plan a Tuesday for the skywalk or the light tunnel.** Both close every Tuesday.
-- **Winter shortens the day.** The skywalk's on-site ticket counter and the cave's last entry both end by mid-afternoon.
-- **Pick your paragliding day first,** then fit everything else around it.
-- **Check your return ride first.** Some Danyang buses do not run on certain weekdays.
+**Are two nights too long?** No. With one night you have to cram the cave and the skywalk into a single afternoon.
 
+**Can you do it as a day trip?** Yes, but you will see only one or two sights, and in winter the light tunnel does not open until the afternoon.
 
-## ❓ FAQ
+**When is the best time to go?** April to May and October to November are the easiest. Winter is quiet, but the days are short.
 
+_Fact sources (checked November 28, 2026): **Gosu Cave** (gosucave.co.kr), Mancheonha Skywalk (danyang.go.kr/tour/1926, dytc.or.kr/mancheonha), Suyanggae Light Tunnel (ledtunnel.co.kr), Dodamsambong cruise (danyangcruise.co.kr), Danyang River Jando (danyang.go.kr/geopark/1790), Danyang Tourist Hotel Edelweiss (danyang.go.kr), Danyang County transport info (danyang.go.kr/tour/1919), Sono Belle Danyang notice (sonohotelsresorts.com/belle_dy/notice)._
 
-**Is two nights too long?** No. One night means rushing the cave and the skywalk into a single afternoon.
-
-
-**Can I do Danyang as a day trip?** It is possible. You will get one or two stops, and the light tunnel does not open until the afternoon in winter.
-
-
-**When is the best time to visit?** April to May and October to November are the mildest months. Winter is quiet and cheap, but the days are short and the river looks gray.
-
-
-_Fact sources (checked November 27, 2026): Gosu Cave (gosucave.co.kr), Mancheonha Skywalk (danyang.go.kr/tour/1926, dytc.or.kr/mancheonha), Suyanggae Light Tunnel (ledtunnel.co.kr), Dodamsambong cruise (danyangcruise.co.kr), Danyang River Jando (danyang.go.kr/geopark/1790), transport (danyang.go.kr/tour/1919), Edelweiss hotel (danyang.go.kr)._
-
-{{< aff href="https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455" text="Book a Danyang day tour from Seoul" >}}
+{{< aff href="https://www.klook.com/en-US/activity/157939-dynamic-danyang-tour-from-seoul/?aid=145455" text="Book a Danyang day tour" >}}

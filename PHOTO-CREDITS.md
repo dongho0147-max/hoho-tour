@@ -390,3 +390,13 @@ The card-slide and popup sounds are synthesized in the browser with the Web Audi
 | File | Source title | Author | License | URL |
 |---|---|---|---|---|
 | cards/jeju-card-udo.webp | Udo, Jeju Province, South Korea 02.jpg | 제주영상문화산업진흥원 (Jeju Film Culture Industry Promotion Agency) | KOGL Type 1 (공공누리 제1유형) | https://commons.wikimedia.org/wiki/File:Udo,_Jeju_Province,_South_Korea_02.jpg |
+
+### Phase 31 (Danyang photo overhaul)
+
+| File | Source title | Author | License | URL |
+|---|---|---|---|---|
+| danyang-seokmun-02.jpg | Stone Gate of Danyang.jpg | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Stone_Gate_of_Danyang.jpg |
+| danyang-garlic-03.jpg | Garlic in Danyang 03.jpg | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Garlic_in_Danyang_03.jpg |
+| danyang-ssogari-01.jpg | Ssogari-maeun-tang.jpg (cropped 4:3) | hyun chun kim | CC0 | https://commons.wikimedia.org/wiki/File:Ssogari-maeun-tang.jpg |
+| danyang-paragliders-02.jpg | Paragliders in Danyang.jpg (cropped to remove flowers) | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Paragliders_in_Danyang.jpg |
+| danyang-blog-07-tunnel.jpg | Suyanggae Light Tunnel LED garden | Suyanggae Light Tunnel (official site, ledtunnel.co.kr) | non-free-licence | http://ledtunnel.co.kr/ |
