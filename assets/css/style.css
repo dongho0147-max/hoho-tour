@@ -1067,3 +1067,10 @@ body:has(.home-map--first)::before{background:linear-gradient(rgba(252,249,243,.
 .spot-sources a{color:inherit}
 @media(max-width:479px){.spot-facts dl{grid-template-columns:minmax(0,1fr);gap:2px}.spot-facts dd{margin-bottom:8px}}
 .spot .tour-summary__title,.spot .tour-summary__stops{display:none}
+.hub-items{list-style:none;margin:1.2em 0;padding:0}
+.hub-item{margin:0 0 1.8em;padding:0 0 1.2em;border-bottom:1px solid var(--line)}
+.hub-item figure{margin:0 0 .8em;position:relative}
+.hub-item h2{margin:.2em 0 .1em;font-size:1.2rem}
+.hub-item__ko{font-size:.85em;color:var(--muted,#6b6b6b);font-weight:400}
+.hub-item__area{margin:0 0 .5em;font-size:.9rem;color:var(--muted,#6b6b6b)}
+@media(min-width:700px){.hub-item{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:20px;align-items:start}.hub-item figure{margin:0}}

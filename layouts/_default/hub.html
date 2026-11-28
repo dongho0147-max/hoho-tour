@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{/* hub.html (2026-11-28, scratch): per-region stay / tours / food page.
+   Use with `layout: hub` in front matter. Front matter `hub:` { type: stay|tours|food,
+   verified_on, itineraries[] (blog slugs), spots[] ("region/slug"),
+   items[]: { name, name_ko, area, note, photo, alt, credit, source,
+   book: { url, text } } }. Items render as photo + text rows; a booking link only
+   shows when `book.url` is set. Affiliate disclosure always shown. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $h := .Params.hub }}
+{{ $label := "" }}
+{{ with .Params.regions }}
+  {{ $slug := index . 0 | urlize }}
+  {{ $r := index (where site.Data.regions.regions "slug" $slug) 0 }}
+  {{ if $r }}{{ $label = cond $isKR $r.name_ko $r.name }}{{ end }}
+{{ end }}
+<article class="post hub">
+<header class="post-head">
+{{ partial "breadcrumbs.html" . }}
+{{ with $label }}<p class="card__label">{{ . }}</p>{{ end }}
+<h1>{{ .Title }}</h1>
+{{ with $h.verified_on }}<p class="meta">{{ if $isKR }}확인일{{ else }}Checked{{ end }} {{ . }}</p>{{ end }}
+</header>
+<div class="post-body">
+{{ .Content }}
+<ul class="hub-items">
+{{ range $h.items }}
+{{ $it := . }}
+<li class="hub-item">
+{{ with $it.photo }}<figure><img src="{{ . | relURL }}" alt="{{ $it.alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="lazy" decoding="async"><figcaption>{{ with $it.caption }}{{ partial "cap.html" . }}{{ end }}{{ with $it.credit }}<span class="cap-credit">{{ i18n "photoLabel" }} {{ . }}</span>{{ end }}</figcaption></figure>{{ end }}
+<div class="hub-item__body">
+<h2>{{ $it.name }}{{ if and (not $isKR) $it.name_ko }} <span class="hub-item__ko" lang="ko">{{ $it.name_ko }}</span>{{ end }}</h2>
+{{ with $it.area }}<p class="hub-item__area">{{ . }}</p>{{ end }}
+{{ with $it.note }}<p>{{ . }}</p>{{ end }}
+{{ with $it.book }}<div class="affiliate-cta"><p><a href="{{ .url }}" target="_blank" rel="sponsored noopener">{{ .text }}</a></p></div>{{ end }}
+{{ with $it.source }}<p class="spot-sources"><em>{{ if $isKR }}출처{{ else }}Source{{ end }}: <a href="{{ . }}" rel="noopener nofollow">{{ . | replaceRE "^https?://(www\\.)?" "" | replaceRE "/$" "" }}</a></em></p>{{ end }}
+</div>
+</li>
+{{ end }}
+</ul>
+{{ with $h.itineraries }}
+<section class="spot-links"><h2>{{ if $isKR }}이 지역 일정{{ else }}Itineraries for this region{{ end }}</h2>
+<ul class="related__list">{{ range . }}{{ with site.GetPage (printf "/blog/%s" .) }}{{ partial "related-card.html" . }}{{ end }}{{ end }}</ul></section>
+{{ end }}
+{{ with $h.spots }}
+<section class="spot-links"><h2>{{ if $isKR }}명소 가이드{{ else }}Spot guides{{ end }}</h2>
+<ul class="related__list">{{ range . }}{{ with site.GetPage (printf "/spots/%s" .) }}{{ partial "related-card.html" . }}{{ end }}{{ end }}</ul></section>
+{{ end }}
+<div class="disclosure">{{ i18n "affiliateDisclosure" }}</div>
+</div>
+</article>
+{{ end }}

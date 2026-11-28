@@ -8,9 +8,9 @@ Status: spot template built on scratch only. Everything else below is a proposal
 | Itinerary (exists) | /blog/<slug>/ | _default/single.html | live |
 | Spot guide (one place) | /spots/<region>/<slug>/ | layouts/spots/single.html | built on scratch (Bobaljae) |
 | Spot list per region | /spots/<region>/ and /spots/ | layouts/spots/list.html | built on scratch |
-| Where to stay, per region | /stay/<region>/ | proposed: layouts/hub/single.html, type: stay | not built |
-| Tours and activities, per region | /tours/<region>/ | same template, type: tours | not built |
-| Food and restaurants, per region | /food/<region>/ | same template, type: food | not built |
+| Where to stay, per region | /stay/<region>/<place>/ (e.g. /stay/chungcheong/danyang/) | layouts/_default/hub.html (layout: hub) | built on scratch, Danyang EN+KR |
+| Tours and activities, per region | /tours/<region>/<place>/ | same template | built, Danyang EN+KR |
+| Food and restaurants, per region | /food/<region>/<place>/ | same template | built, Danyang EN+KR |
 
 Notes: the main nav already has Food and Itineraries, so /food/<region>/ should be reconciled with whatever that menu opens today before building. Region slugs stay the existing ones (chungcheong etc.).
 
