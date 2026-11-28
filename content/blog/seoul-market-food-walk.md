@@ -2,9 +2,9 @@
 title: "A Slow Food Walk Through Seoul's Old Markets"
 description: "A Seoul local's slow morning of eating through Gwangjang Market and the old Jongno alleys: bindaetteok, mayak gimbap, the fish stalls, and how to wander without a plan."
 date: 2026-11-17
-image: "images/photos/seoul-13.webp"
-image_alt: "Gwangjang Market food stall, customers eating noodles and dumplings"
-image_caption: "Come on a weekday morning, and order only where prices are posted. Photo: kallerna, CC BY-SA 4.0"
+image: "images/photos/gwangjang-entrance-01.webp"
+image_alt: "The Gwangjang Market entrance and sign under a blue sky"
+image_caption: "Come on a weekday morning, and order only where prices are posted. Photo: Bgag, CC0"
 regions: ["seoul"]
 themes: ["food-restaurants"]
 stops:

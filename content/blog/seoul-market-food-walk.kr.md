@@ -2,8 +2,8 @@
 title: "서울의 오래된 시장을 천천히 맛보는 산책"
 description: "서울 토박이의 느긋한 오전 먹거리 산책: 광장시장의 빈대떡과 마약김밥, 생선 가게, 그리고 계획 없이 종로 골목을 걷는 법."
 date: 2026-11-28
-image: "images/photos/seoul-13.webp"
-image_alt: "국수와 만두를 먹는 손님들이 있는 광장시장 노점"
+image: "images/photos/gwangjang-entrance-01.webp"
+image_alt: "푸른 하늘 아래 광장시장 입구와 간판"
 regions: ["seoul"]
 themes: ["food-restaurants"]
 stops:

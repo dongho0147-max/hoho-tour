@@ -73,9 +73,9 @@ From Anmok, walk or take a short taxi to **Gyeongpo Beach**, the main beach of G
 
 Behind the beach sits Gyeongpo Lake, with the Gyeongpodae Pavilion on its edge. Walk the lake path as the light fades. The loop takes about 40 minutes, and the pavilion is the quiet end to the day. In spring the lake path is lined with cherry blossoms, and in autumn the leaves turn, but the walk works in any season.
 
-{{< figure src="images/photos/gangneung-03.webp" alt="Gyeongpo Lake" caption="The lake loop takes about 40 minutes and works in any season. Photo: Solène Huille, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongpo-lake-blue-01.webp" alt="Gyeongpo Lake reflecting a blue sky" caption="The lake loop takes about 40 minutes and works in any season. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-{{< collage "images/photos/gangneung-02.webp|Anmok Beach|Mobius6, CC BY-SA 4.0" "images/photos/gangneung-03.webp|Gyeongpo Lake|Solène Huille, CC BY-SA 4.0" "images/photos/gangneung-04.webp|Jumunjin Beach|Mobius6, CC BY-SA 4.0" >}}
+{{< collage "images/photos/gangneung-02.webp|Anmok Beach|Mobius6, CC BY-SA 4.0" "images/photos/gyeongpo-lake-blue-01.webp|Gyeongpo Lake reflecting a blue sky|Mobius6, CC BY-SA 4.0" "images/photos/gangneung-04.webp|Jumunjin Beach|Mobius6, CC BY-SA 4.0" >}}
 
 ## 🍽️ What should you eat in Gangneung?
 
@@ -108,7 +108,7 @@ If you have time before your train, stop at **Jeongdongjin Station** on the way 
 
 End the morning at Ojukheon, the historic house in town where the scholar Yulgok was born. The house and its museum take about an hour, and the black bamboo grove behind it is the part to walk slowly. Admission runs about {{< pr "3,000 KRW" >}} for an adult, based on recent listings.
 
-{{< figure src="images/photos/gangneung-05.webp" alt="Ojukheon, the historic house in Gangneung" caption="Give the house and museum about an hour, and walk the black bamboo grove slowly. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/ojukheon-gate-01.webp" alt="The red gate and stone steps at Ojukheon under a blue sky" caption="Give the house and museum about an hour, and walk the black bamboo grove slowly. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🛏️ One night or two?
 

@@ -184,7 +184,7 @@ One of Seoul's oldest markets, famous for food. Bindaetteok (mung bean pancakes)
 
 Subway: Jongno 5-ga Station, **Line 1**, **Exit 8**.
 
-{{< figure src="images/photos/seoul-13.webp" alt="Customers eating noodles and dumplings at a Gwangjang Market food stall" caption="Go hungry and bring cash. The calm window is 10:00 to 11:00 on weekdays. Photo: kallerna, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gwangjang-entrance-01.webp" alt="The Gwangjang Market entrance and sign under a blue sky" caption="Go hungry and bring cash. The calm window is 10:00 to 11:00 on weekdays. Photo: Bgag, CC0" >}}
 
 > **🔥 Local tip:** The market opens around 09:00 and the calm window is 10:00 to 11:00 on weekdays. Bindaetteok runs about {{< pr "5,000 KRW" >}} a piece and mayak gimbap about {{< pr "3,000 KRW" >}} a roll pack, based on recent visitor guides, checked November 2026. If a stool opens up, sit down first and order second: the stalls turn over fast and the line moves with you. Want the whole market as its own morning? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts right here.
 

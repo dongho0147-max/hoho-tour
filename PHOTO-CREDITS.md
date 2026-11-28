@@ -330,3 +330,7 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | seoul-bosingak-01.webp | Bosingak, Seoul.jpg | 1600 px | Tristan Surtel | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Bosingak,_Seoul.jpg |
 | gwangju-mudeung-snow-01.webp | Mt Mudeungsan - panoramio - gary4now.jpg | 1600 px | gary4now | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Mt_Mudeungsan_-_panoramio_-_gary4now.jpg |
 | gwangju-mudeung-ridge-01.webp | Mt Mudeungsan - panoramio.jpg | 1600 px | gary4now | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Mt_Mudeungsan_-_panoramio.jpg |
+| seongsan-sunny-01.webp | Seongsan Ilchulbong, Jeju Island.jpg | 1600 px | Justin De La O | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Seongsan_Ilchulbong,_Jeju_Island.jpg |
+| gwangjang-entrance-01.webp | Gwangjang Market, Seoul 01.jpg | 1600 px | Bgag | CC0 | https://commons.wikimedia.org/wiki/File:Gwangjang_Market,_Seoul_01.jpg |
+| ojukheon-gate-01.webp | Ojukheon 20220501 014.jpg | 1600 px | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ojukheon_20220501_014.jpg |
+| gyeongpo-lake-blue-01.webp | Gyeongpo Lake 20220502 001.jpg | 1600 px | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gyeongpo_Lake_20220502_001.jpg |

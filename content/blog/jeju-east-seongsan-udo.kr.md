@@ -2,8 +2,8 @@
 title: "하루 만에 도는 동제주: 성산, 우도, 섭지코지"
 description: "동제주 하루 코스: 오전에 성산일출봉을 오르고, 오후에는 배로 우도에 가고, 섭지코지와 광치기해변에서 마무리해요. 배 시간과 요금을 담았어요."
 date: 2026-11-28
-image: "images/photos/jeju-east-01.webp"
-image_alt: "Hydrangeas in front of Seongsan Ilchulbong at blue hour"
+image: "images/photos/seongsan-sunny-01.webp"
+image_alt: "맑은 하늘 아래 바다 위로 솟은 성산일출봉"
 regions: ["jeju"]
 themes: ["itineraries", "day-trips"]
 stops:

@@ -78,9 +78,9 @@ stops:
 
 **해변 뒤에는 경포호가 있고, 호숫가 언덕에는 보물 제2046호 경포대 누각이 있어요.** 경포호둘레길은 약 4.3km로 평지라 걷기 편해요(한국관광공사). 빛이 사그라들 때 호숫길을 걸으세요. 어느 계절에도 걷기 좋아요.
 
-{{< figure src="images/photos/gangneung-03.webp" alt="경포호" caption="경포호둘레길은 약 4.3km 평지라 걷기 편해요. 어느 계절에도 좋아요. 사진: Solène Huille, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongpo-lake-blue-01.webp" alt="푸른 하늘이 비치는 경포호" caption="경포호둘레길은 약 4.3km 평지라 걷기 편해요. 어느 계절에도 좋아요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
-{{< collage "images/photos/gangneung-02.webp|안목해변|Mobius6, CC BY-SA 4.0" "images/photos/gangneung-03.webp|경포호|Solène Huille, CC BY-SA 4.0" "images/photos/gangneung-04.webp|주문진해변|Mobius6, CC BY-SA 4.0" >}}
+{{< collage "images/photos/gangneung-02.webp|안목해변|Mobius6, CC BY-SA 4.0" "images/photos/gyeongpo-lake-blue-01.webp|푸른 하늘이 비치는 경포호|Mobius6, CC BY-SA 4.0" "images/photos/gangneung-04.webp|주문진해변|Mobius6, CC BY-SA 4.0" >}}
 
 {{< figure src="images/photos/gangneung-p13-02.webp" alt="해변 뒤로 소나무가 늘어선 강릉 바닷가" caption="경포 일대는 평지라 걷기 편해요. 경포호둘레길은 약 4.3km예요(한국관광공사). 사진: Pexels" >}}
 
@@ -120,7 +120,7 @@ stops:
 
 **입장료는 어른 {{< pr "3,000원" >}}이고 만 65세 이상은 무료예요.** 정월 초하루와 설날, 추석 당일에는 실내 전시실이 쉬어요.
 
-{{< figure src="images/photos/gangneung-05.webp" alt="강릉의 고택 오죽헌" caption="오죽헌 입장은 17:00까지예요. 어른 3,000원, 만 65세 이상은 무료예요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/ojukheon-gate-01.webp" alt="맑은 하늘 아래 오죽헌의 붉은 문과 돌계단" caption="오죽헌 입장은 17:00까지예요. 어른 3,000원, 만 65세 이상은 무료예요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🛏️ 1박일까요, 2박일까요?
 

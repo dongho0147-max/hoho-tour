@@ -2,9 +2,9 @@
 title: "East Jeju in One Day: Seongsan, Udo Island, and Seopjikoji"
 description: "A one-day east Jeju route: climb Seongsan Ilchulbong in the morning, take the ferry to Udo Island for the afternoon, and finish at Seopjikoji and Gwangchigi Beach, with ferry times and fares."
 date: 2026-11-19
-image: "images/photos/jeju-east-01.webp"
-image_alt: "Hydrangeas in front of Seongsan Ilchulbong at blue hour"
-image_caption: "Go early: the stairs get crowded by late morning. Photo: Basile Morin, CC BY-SA 4.0"
+image: "images/photos/seongsan-sunny-01.webp"
+image_alt: "Seongsan Ilchulbong rising from the sea under a clear blue sky"
+image_caption: "Go early: the stairs get crowded by late morning. Photo: Justin De La O, CC BY 2.0"
 regions: ["jeju"]
 themes: ["itineraries", "day-trips"]
 stops:
