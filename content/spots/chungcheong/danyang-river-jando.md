@@ -1,0 +1,44 @@
+---
+title: "Danyang River Jando: The Cliffside Walkway at Night"
+description: "Danyang River Jando is a free cliffside wooden walkway of about 1.1 km along the Namhan River. Length, time needed, night lights and hours to check."
+date: 2026-11-28
+draft: true
+image: "images/photos/danyang-v10-06.jpg"
+image_alt: "Danyang River Jando walkway along the river cliff"
+image_credit: "Korea Tourism Organization, Kim Jiho, KOGL Type 1"
+regions: ["chungcheong"]
+themes: ["day-trips"]
+spot:
+  slug: "danyang-river-jando"
+  name: "Danyang River Jando"
+  name_ko: "단양강 잔도"
+  lat: 36.9780499
+  lng: 128.3398232
+  fee: "Free (per Danyang County)."
+  hours: "Lights are said to stay on until 23:00 after sunset. Hours seem to vary by season, so check the county site."
+  verified_on: "2026-11-28"
+  sources:
+    - "https://www.danyang.go.kr/geopark/1790"
+  itineraries:
+    - "danyang-2-night-3-day-guide"
+  nearby:
+    - "chungcheong/gugyeong-market"
+    - "chungcheong/mancheonha-skywalk"
+---
+
+**Jando** is the cliffside wooden walkway along the river, about 1.1 km and free (per Danyang County).
+
+## Night walk
+
+Lights are said to stay on until 23:00 after sunset, but hours seem to vary by season, so check the county site first.
+
+## Time needed
+
+It is a flat 1-hour walk and the calmest part of the trip.
+
+{{< collage "images/photos/danyang-jando-autumn-01.jpg|Danyang River Jando beside autumn leaves and blue water|Danyang County, via Telltrip" "images/photos/danyang-jando-night-01.jpg|Lights on around Danyang River Jando at night|Danyang County Culture & Tourism Instagram" >}}
+
+## Where it fits
+
+In the Danyang 2-night guide it is the evening walk on Day 1, after Dodamsambong and the market.
+

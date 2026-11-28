@@ -8,18 +8,21 @@ regions: ["chungcheong"]
 themes: ["day-trips"]
 stops:
   - name: "Dodamsambong and Seokmun"
+    spot: "chungcheong/dodamsambong-seokmun"
     type: attraction
     name_ko: "도담삼봉과 석문"
     lat: 37.0001167
     lng: 128.3438889
     note: "1일 차 오후, 남한강 위의 세 봉우리와 석문."
   - name: "Danyang Gugyeong Market"
+    spot: "chungcheong/gugyeong-market"
     type: market
     name_ko: "단양구경시장"
     lat: 36.9828021
     lng: 128.3698925
     note: "1일 차, 마늘 간식과 시장 구경."
   - name: "Danyanggang Jando"
+    spot: "chungcheong/danyang-river-jando"
     type: attraction
     name_ko: "단양강 잔도"
     lat: 36.9780499

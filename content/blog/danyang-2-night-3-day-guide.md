@@ -8,18 +8,21 @@ regions: ["chungcheong"]
 themes: ["day-trips"]
 stops:
   - name: "Dodamsambong and Seokmun"
+    spot: "chungcheong/dodamsambong-seokmun"
     type: attraction
     name_ko: "도담삼봉과 석문"
     lat: 37.0001167
     lng: 128.3438889
     note: "Day 1 afternoon: three peaks in the Namhan River and the Seokmun arch."
   - name: "Danyang Gugyeong Market"
+    spot: "chungcheong/gugyeong-market"
     type: market
     name_ko: "단양구경시장"
     lat: 36.9828021
     lng: 128.3698925
     note: "Day 1: garlic snacks and the market."
   - name: "Danyanggang Jando"
+    spot: "chungcheong/danyang-river-jando"
     type: attraction
     name_ko: "단양강 잔도"
     lat: 36.9780499
