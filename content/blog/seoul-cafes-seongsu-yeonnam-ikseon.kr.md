@@ -37,7 +37,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/seoul-cafe-03.webp" alt="성수동 거리의 상점들" caption="성수는 카페 크롤의 첫 코스로 좋아요. 동네당 두세 곳만 가세요. 사진: CartoonChess, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-cafe-03.webp" alt="성수동 거리의 상점들" caption="성수동 거리의 상점들이에요. 사진: CartoonChess, CC BY-SA 4.0" >}}
 
 ## ☕ 어디서 시작할까요, 왜 성수가 먼저일까요?
 
@@ -49,9 +49,9 @@ stops:
 
 > **🔥 현지 팁:** 성수를 유명하게 만든 카페 중 하나인 어니언은 1970년대에 지은 건물을 고쳐 만들었고, 20여 종의 빵과 커피를 팔아요. 서울 공식 관광정보 기준으로 월~금 **08:00~22:00**, 주말 **09:00~22:00**에 열어요. 주말 오후에는 붐비니 평일 오전을 노려보세요. 영업시간과 좌석 이용 방식은 가기 전에 확인하세요.
 
-{{< figure src="images/photos/seoul-cafe-06.webp" alt="성수동 벽의 스트리트 아트" caption="성수동 벽의 스트리트 아트. 사진: CartoonChess, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-cafe-06.webp" alt="성수동 벽의 스트리트 아트" caption="성수동 벽의 스트리트 아트예요. 사진: CartoonChess, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/seoulcafe-p13-01.webp" alt="어니언 간판이 걸린 오래된 건물의 카페 입구" caption="어니언은 1970년대에 지은 건물을 고쳐 만든 곳이에요. 빵이 20여 종이라 커피와 함께 드세요. 사진: Pexels" >}}
+{{< figure src="images/photos/seoulcafe-p13-01.webp" alt="어니언 간판이 걸린 오래된 건물의 카페 입구" caption="어니언 간판이 걸린 오래된 건물의 카페 입구예요. 사진: Pexels" >}}
 
 ## 🗺️ 세 동네는 뭐가 다를까요?
 
@@ -75,15 +75,15 @@ stops:
 
 옛 경의선 철길이 지하화된 뒤 그 지상 부분을 공원으로 만든 6.3km의 선형 공원이고, 연남동 구간은 그중 가장 길어요(서울시 공원 안내). 연남동 구간은 연트럴파크라고도 불려요. 공원 가장자리를 따라 카페가 있고 나무를 마주 보는 야외 테이블도 있어요. 서울에서 가장 걷기 좋은 카페 지역 중 하나예요.
 
-{{< figure src="images/photos/seoul-cafe-04.webp" alt="나무와 길이 있는 연남동 경의선숲길" caption="연남동 경의선숲길은 6.3km 선형 공원이에요. 날이 따뜻하면 아이스 음료를 들고 벤치에 앉아 보세요. 사진: 한국관광공사, Lee Bumsu, KOGL Type 1" >}}
+{{< figure src="images/photos/seoul-cafe-04.webp" alt="나무와 길이 있는 연남동 경의선숲길" caption="나무와 길이 있는 연남동 경의선숲길이에요. 사진: 한국관광공사, Lee Bumsu, KOGL Type 1" >}}
 
 날이 따뜻하면 아이스 음료를 시켜 공원 벤치에 앉아 보세요. 커피에서 잠시 쉬고 싶다면 이곳 베이커리도 좋아서, 공원 풍경을 곁들인 빵 한 조각이면 충분히 오후 일정이 돼요. 카페 영업시간은 가게마다 달라서, 저녁은 여기가 아니라 다음 코스의 몫이라고 생각하는 편이 안전해요.
 
 > **🔥 현지 팁:** 공원이 보이는 창가 자리는 주말에 경쟁이 치열해요. 평일 오전에 가서 빛이 아직 부드러울 때 곧장 공원으로 걸어 들어가 보세요.
 
-{{< figure src="images/photos/seoul-cafe-05.webp" alt="테이블과 카운터가 있는 홍대 카페 내부" caption="공원 창가 자리는 주말에 경쟁이 치열해요. 평일 오전에 가세요. 사진: seafaringwoman, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-cafe-05.webp" alt="테이블과 카운터가 있는 홍대 카페 내부" caption="테이블과 카운터가 있는 홍대 카페 내부예요. 사진: seafaringwoman, CC BY 2.0" >}}
 
-{{< figure src="images/photos/seoulcafe-p13-02.webp" alt="나뭇가지 너머로 보이는 네온 카페 간판" caption="연남동 공원이 보이는 창가는 주말에 경쟁이 치열해요. 평일 오전에 가세요. 사진: Pexels" >}}
+{{< figure src="images/photos/seoulcafe-p13-02.webp" alt="나뭇가지 너머로 보이는 네온 카페 간판" caption="나뭇가지 너머로 보이는 네온 카페 간판이에요. 사진: Pexels" >}}
 
 ## 🏮 왜 익선동은 마지막일까요?
 
@@ -99,7 +99,7 @@ stops:
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/seoulcafe-p13-03.webp" alt="길가 카페 바 자리에 나란히 앉은 두 사람의 뒷모습" caption="카페는 동네당 두 곳, 많아야 세 곳이 적당해요. 다섯 곳은 즐거움이 아니라 습관이 돼요. 사진: Pexels" >}}
+{{< figure src="images/photos/seoulcafe-p13-03.webp" alt="길가 카페 바 자리에 나란히 앉은 두 사람의 뒷모습" caption="길가 카페 바 자리에 나란히 앉은 두 사람의 뒷모습이에요. 사진: Pexels" >}}
 
 ## 🍰 곳곳에서 뭘 시킬까요?
 
@@ -107,7 +107,7 @@ stops:
 
 익선동에서는 디저트 세트와 차나 라테를 시키고, 공간 자체로 카페를 평가하세요. 세 곳, 세 가지 다른 시험이고, 하루가 끝날 즈음에는 어느 동네가 내 동네인지 알게 돼요.
 
-{{< figure src="images/photos/seoul-cafe-07.webp" alt="카페 테이블 위 라테 아트가 있는 라테 한 잔과 접시 위 빵" caption="익선동에서는 디저트 세트와 차나 라테를 시키고, 공간 자체로 카페를 평가하세요. 사진: Jonatan Svensson Glad, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-cafe-07.webp" alt="카페 테이블 위 라테 아트가 있는 라테 한 잔과 접시 위 빵" caption="카페 테이블 위 라테 아트가 있는 라테 한 잔과 접시 위 빵이에요. 사진: Jonatan Svensson Glad, CC BY-SA 4.0" >}}
 
 {{< sticker kind="yum" >}}
 

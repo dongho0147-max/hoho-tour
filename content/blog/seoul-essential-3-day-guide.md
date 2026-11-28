@@ -80,7 +80,7 @@ Three days is the sweet spot for a first trip to Seoul. One day is a blur. Five 
 
 How was this guide checked? Prices and hours come from recent listings and official pages, checked November 2026. We are a Seoul local blog, and we label anything we have not verified the same way. Treat the big numbers as a shape, not a promise, and check the expensive ones before you go.
 
-{{< figure src="images/photos/seoul-02.webp" alt="Geunjeongjeon throne hall at Gyeongbokgung" caption="Three days is the sweet spot for a first Seoul trip. The palace comes first. Photo: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-02.webp" alt="Geunjeongjeon throne hall at Gyeongbokgung" caption="Geunjeongjeon throne hall at Gyeongbokgung. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
 {{< figure src="images/illust/3day-illust.webp" alt="Three-day Seoul itinerary at a glance, illustrated as day cards" caption="Three days covers the palace, the old streets, the food alleys and the river. Illustration: AI-generated" >}}
 
@@ -127,7 +127,7 @@ The honest downside: the courtyard gets packed by 11, and the ceremony draws a c
 
 {{< aff href="https://www.klook.com/en-US/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/?aid=145455" text="Book a hanbok rental near Gyeongbokgung on Klook" >}}
 
-{{< figure src="images/photos/seoul-gwanghwamun-01.webp" alt="Gwanghwamun Square and Gwanghwamun Gate with Bukhansan behind" caption="Come for the 10:00 or 14:00 guard ceremony at Gwanghwamun. It lasts about 20 minutes and is free to watch from the square. Photo: Richard Mortel, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-gwanghwamun-01.webp" alt="Gwanghwamun Square and Gwanghwamun Gate with Bukhansan behind" caption="Gwanghwamun Square and Gwanghwamun Gate with Bukhansan behind. Photo: Richard Mortel, CC BY 2.0" >}}
 
 ### 🍱 Eat lunch the market way at Tongin Market
 
@@ -165,7 +165,7 @@ Take the subway to **Yeouido Hangang Park** or **Banpo Hangang Park**. Rent a bi
 
 Buy instant noodles and a boiled egg at the park convenience store and eat them on the riverbank. It is a small ritual for Seoulites, and it costs less than {{< pr "5,000 KRW" >}}. The full night version, cruise and all, lives in the [Han River night guide](/blog/seoul-night-han-river-cruise-ramyeon/).
 
-{{< figure src="images/photos/seoul-04.webp" alt="Han River at night with rental bicycles and a lit bridge" caption="Check the Banpo rainbow fountain season before you go, and rent a bike for about 3,000 KRW an hour. Photo: TurnOnTheNight, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-04.webp" alt="Han River at night with rental bicycles and a lit bridge" caption="Han River at night with rental bicycles and a lit bridge. Photo: TurnOnTheNight, CC BY-SA 4.0" >}}
 
 ### 🌇 Watch sunset from N Seoul Tower
 
@@ -183,7 +183,7 @@ One of Seoul's oldest markets, famous for food. Bindaetteok (mung bean pancakes)
 
 Subway: Jongno 5-ga Station, **Line 1**, **Exit 8**.
 
-{{< figure src="images/photos/gwangjang-entrance-01.webp" alt="The Gwangjang Market entrance and sign under a blue sky" caption="Go hungry and bring cash. The calm window is 10:00 to 11:00 on weekdays. Photo: Bgag, CC0" >}}
+{{< figure src="images/photos/gwangjang-entrance-01.webp" alt="The Gwangjang Market entrance and sign under a blue sky" caption="The Gwangjang Market entrance and sign under a blue sky. Photo: Bgag, CC0" >}}
 
 > **🔥 Local tip:** The market opens around 09:00 and the calm window is 10:00 to 11:00 on weekdays. Bindaetteok runs about {{< pr "5,000 KRW" >}} a piece and mayak gimbap about {{< pr "3,000 KRW" >}} a roll pack, based on recent visitor guides, checked November 2026. If a stool opens up, sit down first and order second: the stalls turn over fast and the line moves with you. Want the whole market as its own morning? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts right here.
 
@@ -191,13 +191,13 @@ Subway: Jongno 5-ga Station, **Line 1**, **Exit 8**.
 
 Myeongdong is a shopping district first and a food street second, but the street food is the point for most first-timers. Grilled lobster tails, egg bread, tteokbokki, and Korean fried chicken cups. Prices run {{< pr "3,000-10,000 KRW" >}} per item. Share, so you can try more.
 
-{{< figure src="images/photos/seoul-39.webp" alt="Tteokbokki rice cakes in glossy red sauce with fish cake" caption="Tteokbokki at the Myeongdong stalls is about 2,000 KRW a skewer, and most stalls prefer cash. Photo: Choe Kwangmo, CC0" >}}
+{{< figure src="images/photos/seoul-39.webp" alt="Tteokbokki rice cakes in glossy red sauce with fish cake" caption="Tteokbokki rice cakes in glossy red sauce with fish cake. Photo: Choe Kwangmo, CC0" >}}
 
 > **🔥 Local tip:** Myeongdong stalls fire up around 17:00 and run to about 23:00, and most of them prefer cash, so bring small bills and coins. A skewer of tteokbokki is about {{< pr "2,000 KRW" >}} at the stalls, based on recent visitor guides, checked November 2026. Eat standing, move on, repeat.
 
 After eating, shop. Skincare and cosmetics are the main draw, and most shops offer tax refunds for tourists. Ask at the counter and bring your passport.
 
-{{< figure src="images/photos/seoul-06.webp" alt="Myeongdong street at night with neon signs, taxis, and a bus" caption="Stalls run from about 17:00 to 23:00. Bring small bills and coins. Photo: Tristan Surtel, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-06.webp" alt="Myeongdong street at night with neon signs, taxis, and a bus" caption="Myeongdong street at night with neon signs, taxis, and a bus. Photo: Tristan Surtel, CC BY-SA 4.0" >}}
 
 ### Finish with Dongdaemun or a farewell dinner
 
@@ -208,7 +208,7 @@ The old-school version of that dinner, beef soup at dawn and barbecue at night, 
 {{< sticker kind="yum" >}}
 {{< sticker kind="tired-rest" >}}
 
-{{< figure src="images/photos/seoul-ddp-01.webp" alt="The curved facade of Dongdaemun Design Plaza in daylight" caption="DDP is worth seeing at night, and the malls around it stay open late. Photo: Dwxn, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-ddp-01.webp" alt="The curved facade of Dongdaemun Design Plaza in daylight" caption="The curved facade of Dongdaemun Design Plaza in daylight. Photo: Dwxn, CC BY-SA 4.0" >}}
 
 ## 🗺️ Your 3 days at a glance
 

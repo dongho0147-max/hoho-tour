@@ -40,7 +40,7 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/han-03.webp" alt="Seongsan Bridge lit up over the Han River at night" caption="Check the cruise schedule on the day. Sailings change with weather and river conditions. Photo: travel oriented, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/han-03.webp" alt="Seongsan Bridge lit up over the Han River at night" caption="Seongsan Bridge lit up over the Han River at night. Photo: travel oriented, CC BY-SA 2.0" >}}
 
 ## 🚢 Which cruise should you book?
 
@@ -54,13 +54,13 @@ For a night plan, book the Moonlight Music Cruise. It is the one that goes to Ba
 
 > **🔥 Local tip:** {{< mk "Arrive at the pier 20 minutes early." >}} An online voucher is not a boarding pass: you swap it for a physical ticket at the E-Land ticket office with your passport or physical ID, and a phone photo of your ID does not count. Take **Line 5** to **Yeouinaru Station**, not Yeouido Station, and use Exit 3. Booking online in advance also locks in a lower fare than the pier walk-up price and holds your seat on busy weekend evenings. Based on recent listings/reviews, checked November 2026.
 
-{{< figure src="images/photos/han-yeouido-01.webp" alt="Yeouido skyline and Bamseom island on the Han River in daylight" caption="Arrive at the pier 20 minutes early. Photo: heecheol890102, Pixabay, CC0" >}}
+{{< figure src="images/photos/han-yeouido-01.webp" alt="Yeouido skyline and Bamseom island on the Han River in daylight" caption="Yeouido skyline and Bamseom island on the Han River in daylight. Photo: heecheol890102, Pixabay, CC0" >}}
 
 ## 🌈 Will you see the rainbow fountain?
 
 Here is the honest answer, and it matters. The Banpo Bridge Moonlight Rainbow Fountain runs from April to October only, based on the cruise listing. In November, the fountain is off. The Moonlight Cruise still sails to Banpo Bridge in November, and the bridge and the skyline are still lit, but the rainbow water show is a warm-season thing. If the fountain is the reason you are going, go between April and October. If you are going in late November, go for the cruise, the lights, and the river air, and do not expect the fountain.
 
-{{< figure src="images/photos/han-02.webp" alt="The Banpo Bridge rainbow fountain in the daytime" caption="The fountain is a warm-season show, April to October. Do not expect it in late November. Photo: travel oriented, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/han-02.webp" alt="The Banpo Bridge rainbow fountain in the daytime" caption="The Banpo Bridge rainbow fountain in the daytime. Photo: travel oriented, CC BY-SA 2.0" >}}
 
 ## 🌊 What does the cruise feel like?
 
@@ -87,7 +87,7 @@ The best places for it are **Banpo Hangang Park** and **Ttukseom Hangang Park**,
 
 > **🔥 Local tip:** The real version uses a packet of ramyeon, not a cup. Buy a packet and a foil container at the park convenience store, set the container on the induction cooker, scan the barcode on the container, and press start: the machine adds the water and times it, usually about 4 minutes. Crack an egg in when about 1 minute 30 seconds is left. Shin Ramyun is the classic pick, Jin Ramen mild is the easier one if you do not like heat. A packet set runs about {{< pr "4,000-4,500 KRW" >}}. Based on recent listings/reviews, checked November 2026.
 
-{{< figure src="images/photos/han-04.webp" alt="A cup of instant ramyeon" caption="The machine adds the water and times it, about 4 minutes. Crack an egg in with about 1 minute 30 seconds left. Photo: The Pancake of Heaven!, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/han-04.webp" alt="A cup of instant ramyeon" caption="A cup of instant ramyeon. Photo: The Pancake of Heaven!, CC BY-SA 4.0" >}}
 
 {{< sticker kind="yum" >}}
 
@@ -95,7 +95,7 @@ The best places for it are **Banpo Hangang Park** and **Ttukseom Hangang Park**,
 
 Rent a bike. The riverside path runs for kilometers in both directions, and the public bikes are cheap and easy to find near the parks. A slow ride from Yeouido toward Banpo at dusk is one of the best free things in the city. Walk **Nodeul Island** if you want a quieter stop: the island sits in the middle of the river with a theatre and a garden, and it is much calmer than the main parks after dark.
 
-{{< figure src="images/photos/seoul-42.webp" alt="Ttukseom Hangang Park at dusk, the Han River and the lit-up skyline" caption="Use Jayang Station on Line 7, Exits 2 and 3. Ttukseom Station on Line 2 is a different station. Photo: Liziyuan0216, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-42.webp" alt="Ttukseom Hangang Park at dusk, the Han River and the lit-up skyline" caption="Ttukseom Hangang Park at dusk, the Han River and the lit-up skyline. Photo: Liziyuan0216, CC BY-SA 4.0" >}}
 
 > **🔥 Local tip:** For Ttukseom Hangang Park, use **Jayang Station** on **Line 7**, Exits 2 and 3, which connect straight into the park. Ttukseom Station on Line 2 is a different station, so check the line as well as the name before you ride. Based on recent listings/reviews, checked November 2026.
 

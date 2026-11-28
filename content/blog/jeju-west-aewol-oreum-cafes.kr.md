@@ -57,7 +57,7 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 
 **이 글은 제주관광공사(비짓제주)와 각 시설의 공식 안내를 바탕으로 2026년 11월에 정리했어요.** 운영 시간은 계절에 따라 바뀌니 주요 방문지는 전날 다시 확인하세요.
 
-{{< figure src="images/photos/jeju-west-02.webp" alt="제주 서쪽 애월 해안" caption="운영 시간은 계절에 따라 바뀌어요. 주요 방문지는 전날 다시 확인하세요. 사진: Jeong seolah, CC0" >}}
+{{< figure src="images/photos/jeju-west-02.webp" alt="제주 서쪽 애월 해안" caption="제주 서쪽 애월 해안이에요. 사진: Jeong seolah, CC0" >}}
 
 ## 🌊 협재해수욕장과 한림공원에서 시작하기
 
@@ -69,11 +69,11 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 
 **11월부터 2월까지는 16:30에 매표가 끝나니 오후에 늦게 가지 마세요.** 입장료는 한림공원 홈페이지(hallimpark.com)에서 확인하세요. 주차는 무료예요.
 
-{{< figure src="images/photos/jeju-west-05.webp" alt="제주 서쪽 한림공원 안의 정원" caption="한림공원은 11~2월에 16:30에 매표가 끝나요. 오후 늦게 가지 마세요. 사진: Grapesurgeon, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-west-05.webp" alt="제주 서쪽 한림공원 안의 정원" caption="제주 서쪽 한림공원 안의 정원이에요. 사진: Grapesurgeon, CC BY-SA 4.0" >}}
 
 > **🔥 현지 팁:** 협재 옆에는 **금능해수욕장**이 있어요. 협재가 붐빈다면 금능으로 가 보세요. 비슷한 풍경을 더 조용하게 즐길 수 있는 경우가 많아요.
 
-{{< figure src="images/photos/jejuw-p13-01.webp" alt="푸른 바다와 작은 섬, 풍력발전기가 보이는 제주 해안" caption="서쪽 해안은 빛이 부드러운 아침과 일몰 무렵이 좋아요. 사진: Pexels" >}}
+{{< figure src="images/photos/jejuw-p13-01.webp" alt="푸른 바다와 작은 섬, 풍력발전기가 보이는 제주 해안" caption="푸른 바다와 작은 섬, 풍력발전기가 보이는 제주 해안이에요. 사진: Pexels" >}}
 
 ## 🍵 점심 후: 오설록 차밭
 
@@ -85,7 +85,7 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 
 방문 전 한 가지만 기억하세요. 차밭은 실제로 차를 재배하는 농장이므로 길을 벗어나 차나무 사이로 들어가면 안 돼요. 예약제 프로그램은 미리 예약하세요.
 
-{{< figure src="images/photos/jeju-west-04.webp" alt="오설록 티뮤지엄 차밭" caption="차밭은 실제 농장이에요. 길을 벗어나 차나무 사이로 들어가지 마세요. 사진: Matt Kieffer, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/jeju-west-04.webp" alt="오설록 티뮤지엄 차밭" caption="오설록 티뮤지엄 차밭이에요. 사진: Matt Kieffer, CC BY-SA 2.0" >}}
 
 > **🔥 현지 팁:** {{< mk "관광객이 몰리는 낮 시간대를 피하려면 문을 열 때 바로 가거나 늦은 오후에 가세요." >}} 카페에서는 자리부터 잡고 주문하세요.
 
@@ -103,7 +103,7 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 
 주말 오후에는 큰 카페가 붐벼요. 창가 자리를 원한다면 점심 전이나 늦은 오후를 노리세요. 메뉴와 가격은 카페마다 달라요.
 
-{{< figure src="images/photos/jejuw-p13-02.webp" alt="돌담과 나무 사이로 이어진 제주의 시골길" caption="오름 정상은 바람이 강하고 해가 지면 금세 추워요. 겉옷을 챙기세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jejuw-p13-02.webp" alt="돌담과 나무 사이로 이어진 제주의 시골길" caption="돌담과 나무 사이로 이어진 제주의 시골길이에요. 사진: Pexels" >}}
 
 ## 🌅 새별오름에서 일몰 보기
 
@@ -111,7 +111,7 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 
 가을에는 오름 전체에 억새가 피어요. 걷기 좋은 신발을 신으세요.
 
-{{< figure src="images/photos/jeju-west-03.webp" alt="제주 서쪽의 낮은 화산체, 새별오름" caption="새별오름 정상은 바람이 강하고 해가 지면 금세 추워요. 겉옷을 챙기세요. 사진: M Min, CC BY 3.0" >}}
+{{< figure src="images/photos/jeju-west-03.webp" alt="제주 서쪽의 낮은 화산체, 새별오름" caption="제주 서쪽의 낮은 화산체, 새별오름이에요. 사진: M Min, CC BY 3.0" >}}
 
 해 지기 전에 여유 있게 정상에 도착하도록 시간을 맞추세요. 정상은 바람이 강하고 해가 지면 금세 추워지니 겉옷을 챙기세요. 하늘이 흐리다면 오름은 건너뛰고 [애월](https://www.klook.com/en-US/activity/198295-mt-halla-aewol-cafe-street-full-day-unesco-tour/?aid=145455)로 바로 가도 좋아요.
 
@@ -123,7 +123,7 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 
 서쪽 해안이라 일몰을 보기에도 좋아요. 걷다가 마음에 드는 카페에 앉으세요. 일몰과 원하는 좌석이 모두 맞아떨어지지는 않으니 그날 만난 풍경을 즐겨 보세요.
 
-{{< figure src="images/photos/jeju-west-06.webp" alt="제주 서쪽 협재 근처 곽지해수욕장의 맑은 바다" caption="곽지 쪽 해안은 일몰 보기에 좋아요. 걷다가 마음에 드는 카페에 앉으세요. 사진: Jeong seolah, CC0" >}}
+{{< figure src="images/photos/jeju-west-06.webp" alt="제주 서쪽 협재 근처 곽지해수욕장의 맑은 바다" caption="제주 서쪽 협재 근처 곽지해수욕장의 맑은 바다예요. 사진: Jeong seolah, CC0" >}}
 
 {{< collage "images/photos/jeju-west-01.webp|협재해수욕장, 하루를 시작하는 밝은 모래사장|Jeong seolah, CC0" "images/photos/jeju-west-07.webp|카페 테이블 위 따뜻한 말차 라테, 이 해안이 마시는 한 잔|Cendy00, CC BY 4.0" >}}
 

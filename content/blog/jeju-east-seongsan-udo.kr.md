@@ -40,7 +40,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/jeju-east-06.webp" alt="성산일출봉의 응회구" caption="계단에는 그늘이 거의 없어요. 물과 모자를 챙기세요. 사진: Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/jeju-east-06.webp" alt="성산일출봉의 응회구" caption="성산일출봉의 응회구예요. 사진: Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
 
 ## 🌋 성산일출봉에서, 일찍 시작하세요
 
@@ -58,7 +58,7 @@ stops:
 
 > **🔥 현지 팁:** 물과 모자를 챙기세요. 계단에는 그늘이 거의 없고, 꼭대기의 바람은 매표소에서 느끼는 것보다 훨씬 세요. 아침에 안개가 꼈다면 무료 해안길을 먼저 걷고 날씨를 보며 올라가세요.
 
-{{< figure src="images/photos/jejue-p13-01.webp" alt="검은 모래 해변 너머로 보이는 성산일출봉" caption="물과 모자를 챙기세요. 꼭대기 바람은 매표소에서 느끼는 것보다 훨씬 세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jejue-p13-01.webp" alt="검은 모래 해변 너머로 보이는 성산일출봉" caption="검은 모래 해변 너머로 보이는 성산일출봉이에요. 사진: Pexels" >}}
 
 ## ⛴️ 우도행 배를 타세요
 
@@ -72,7 +72,7 @@ stops:
 
 스쿠터나 전기차를 빌린다면 유효한 운전면허가 필요하고 차종에 따라 면허 기준이 달라요. 빌리기 전에 업체에 먼저 확인하세요.
 
-{{< figure src="images/photos/jeju-east-02.webp" alt="제주 동쪽 해안 앞바다의 우도" caption="우도 순환 도로는 약 17km예요. 스쿠터나 전기차는 면허 기준을 업체에 먼저 확인하세요. 사진: 제주영상문화산업진흥원, KOGL Type 1" >}}
+{{< figure src="images/photos/jeju-east-02.webp" alt="제주 동쪽 해안 앞바다의 우도" caption="제주 동쪽 해안 앞바다의 우도예요. 사진: 제주영상문화산업진흥원, KOGL Type 1" >}}
 
 **우도 순환 도로는 해안을 따라 약 17km예요.** 쉬지 않고 걸으면 3~4시간쯤 걸려요.
 
@@ -96,17 +96,17 @@ stops:
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/jeju-east-03.webp" alt="성산 동쪽의 절벽 해안 섭지코지" caption="섭지코지는 일몰 무렵에 가면 좋아요. 바람이 세니 겉옷을 챙기세요. 사진: Engin Cukuroglu, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-east-03.webp" alt="성산 동쪽의 절벽 해안 섭지코지" caption="성산 동쪽의 절벽 해안 섭지코지예요. 사진: Engin Cukuroglu, CC BY-SA 4.0" >}}
 
 마지막은 성산일출봉이 보이는 **광치기해변**이에요. 성산일출봉에서 섭지코지로 가는 길목에 있고, 제주올레 1코스의 마지막이자 2코스가 시작되는 곳이에요. 용암이 굳어 만들어진 지형이라 썰물 때는 바닷물에 가려 있던 모습이 드러나요.
 
 앞에는 바다, 뒤에는 분석구예요. 수영하는 해변보다 전망 포인트이자 산책 코스로 생각하세요.
 
-{{< figure src="images/photos/jeju-east-05.webp" alt="해 질 녘 해안 공원에서 본 성산일출봉" caption="광치기해변은 수영보다 전망 포인트로 생각하세요. 썰물 때 용암 지형이 드러나요. 사진: Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/jeju-east-05.webp" alt="해 질 녘 해안 공원에서 본 성산일출봉" caption="해 질 녘 해안 공원에서 본 성산일출봉이에요. 사진: Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" >}}
 
 {{< collage "images/photos/jeju-east-02.webp|우도|제주영상문화산업진흥원, KOGL Type 1" "images/photos/jeju-east-05.webp|해안 공원에서 본 성산|Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" "images/photos/jeju-east-06.webp|성산일출봉|Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
 
-{{< figure src="images/photos/jejue-p13-02.webp" alt="검은 바위 해안과 파란 바다, 멀리 보이는 방파제" caption="11월 우도 막배는 성산항행이 오후 5시 전후예요. 막배 말고 그 전 배를 노리세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jejue-p13-02.webp" alt="검은 바위 해안과 파란 바다, 멀리 보이는 방파제" caption="검은 바위 해안과 파란 바다, 멀리 보이는 방파제예요. 사진: Pexels" >}}
 
 ## 🛏️ 동쪽에서 어디에 묵을까요?
 

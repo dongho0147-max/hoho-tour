@@ -37,7 +37,7 @@ The walk in this guide starts at **Gwangjang Market**, winds through the old str
 
 The way it works is simple. You find a stall with a hot griddle and a small crowd, you order a pancake, and you eat it standing at the counter or perched on a plastic stool with everyone else. A pancake runs roughly 5,000 to {{< pr "8,000 KRW" >}}. Add a plate of mayak gimbap, the little seaweed rolls people call addictive for a reason, for a few thousand won more, and a bowl of knife-cut noodles if you are properly hungry, and you have eaten one of the great breakfasts of the world for about 10,000 to {{< pr "20,000 KRW" >}} per person. Prices are ranges, last checked November 2026.
 
-{{< figure src="images/photos/seoul-33.webp" alt="Bindaetteok, mung bean pancake with pork pieces, whole pancake on a white plate" caption="Add mayak gimbap, and knife-cut noodles if you are properly hungry. A great breakfast runs about 10,000 to 20,000 KRW. Photo: chomjong, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-33.webp" alt="Bindaetteok, mung bean pancake with pork pieces, whole pancake on a white plate" caption="Bindaetteok, mung bean pancake with pork pieces, whole pancake on a white plate. Photo: chomjong, CC BY 2.0" >}}
 
 Bring cash. Cards work in more and more stalls every year, but the old market still runs on paper money, and the vendors who have been there for decades will appreciate it. Carry 20,000 to {{< pr "30,000 KRW" >}} in small bills for a market morning. There are ATMs nearby, but the walk to find one is a walk away from the food, and that is the wrong direction.
 
@@ -55,11 +55,11 @@ The biggest mistake is rushing it with a list in your head: three dishes, in and
 
 The fish stall is the best example. Stand in front of it for a minute and really look: the rows of fresh fish on ice, the dried fish hanging overhead, the vendor working with a knife in one hand and a conversation in the other, moving faster than seems possible. That stall is someone's whole working life. You are not just buying lunch. You are standing in someone's life for a minute.
 
-{{< figure src="images/photos/seoul-41.webp" alt="Vendors frying bindaetteok pancakes on a griddle at Gwangjang Market" caption="Look first, eat second. Every stall is someone's whole working life. Photo: Pfc. Bo Park, US Army, Public domain" >}}
+{{< figure src="images/photos/seoul-41.webp" alt="Vendors frying bindaetteok pancakes on a griddle at Gwangjang Market" caption="Vendors frying bindaetteok pancakes on a griddle at Gwangjang Market. Photo: Pfc. Bo Park, US Army, Public domain" >}}
 
 If raw fish is your thing, **Noryangjin Fisheries Wholesale Market** is a separate trip, and it is worth its own morning. The octopus there is the whole show.
 
-{{< figure src="images/photos/noryangjin-stalls-01.webp" alt="Seafood tanks and trays at Noryangjin Fisheries Wholesale Market" caption="Noryangjin is a separate trip and worth its own morning. Photo: Gaël Chardon, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/noryangjin-stalls-01.webp" alt="Seafood tanks and trays at Noryangjin Fisheries Wholesale Market" caption="Seafood tanks and trays at Noryangjin Fisheries Wholesale Market. Photo: Gaël Chardon, CC BY-SA 2.0" >}}
 
 The same goes for the fabric section, which surprises everyone. Gwangjang is also one of the largest fabric markets in Korea, and the aisles of silk and hanbok cloth are a whole second market hiding inside the first. You do not need to buy anything. Walk through it after you eat, when your hands are free and your stomach is full, and look at the colors. The pinks and reds and golds are the same colors you will see in the hanbok rentals near the palace, and now you know where the cloth comes from.
 
@@ -77,7 +77,7 @@ The gimbap you see in the market is not the gimbap from a convenience store, and
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/seoul-21.webp" alt="Kimbap, Korean rice rolls, close-up" caption="Eat a cut roll within the hour, when it is at its best. Photo: CC BY-SA 4.0, author unknown" >}}
+{{< figure src="images/photos/seoul-21.webp" alt="Kimbap, Korean rice rolls, close-up" caption="Kimbap, Korean rice rolls, close-up. Photo: CC BY-SA 4.0, author unknown" >}}
 
 ## 🚶 Where do you go after the market?
 
@@ -89,7 +89,7 @@ You will pass a tea house, then a shop selling nothing but scissors, then a tiny
 
 This is where the walk stops being a food tour and becomes a wander, and that is the point. Do not plan this part. Turn down whatever alley looks interesting, stop when something smells good, and keep a coffee in your hand for the last stretch. Ikseon-dong, the hanok alley neighborhood a short walk west, is a good place to end up. The old wooden houses there have become cafes and small restaurants, and the lanes are so narrow that two people can barely pass, which is exactly why they are lovely. Sit down, order something warm, and let your feet rest. You have earned it.
 
-{{< figure src="images/photos/seoul-35.webp" alt="Bibimbap in a bowl, rice topped with carrot, mushroom, zucchini, egg strips, meat and gochujang" caption="After the market, sit down somewhere warm and let your feet rest. Photo: Chloe Lim, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-35.webp" alt="Bibimbap in a bowl, rice topped with carrot, mushroom, zucchini, egg strips, meat and gochujang" caption="Bibimbap in a bowl, rice topped with carrot, mushroom, zucchini, egg strips, meat and gochujang. Photo: Chloe Lim, CC BY 2.0" >}}
 
 A few practical things worth knowing before you go. Eat a small breakfast before you come, not a big one, because you want to be hungry enough to try things but not so hungry that you fill up at the first stall. Wear shoes you can stand in for three hours, because there is almost nowhere to sit in a market and you will be on your feet the whole time.
 

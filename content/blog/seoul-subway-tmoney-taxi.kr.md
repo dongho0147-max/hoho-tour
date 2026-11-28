@@ -39,7 +39,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/seoul-subway-platform-02.webp" alt="6호선 디지털미디어시티역 승강장, 출구 안내판과 스크린도어" caption="출구 안내판이 걸린 6호선 디지털미디어시티역 승강장이에요. 사진: G43, Wikimedia Commons, CC BY 3.0" >}}
+{{< figure src="images/photos/seoul-subway-platform-02.webp" alt="6호선 디지털미디어시티역 승강장, 출구 안내판과 스크린도어" caption="6호선 디지털미디어시티역 승강장, 출구 안내판과 스크린도어예요. 사진: G43, Wikimedia Commons, CC BY 3.0" >}}
 
 {{< figure src="images/illust/subway-illust.webp" alt="한눈에 보는 서울 교통: 공항철도, 티머니, 지하철, 택시" caption="이동은 티머니 카드부터 사세요. 지하철과 택시를 함께 쓰면 편해요. 일러스트: AI 생성" >}}
 
@@ -79,7 +79,7 @@ stops:
 
 객차 양 끝에는 노약자 등을 위한 교통약자 지정석이 있고, 분홍색으로 표시된 임산부 배려석은 중앙 좌석 양 끝에 있어요(서울시 안내). 객차가 붐벼도 여행자는 비워 두는 것이 예의예요. 일반 좌석은 앉아도 되고, 칸이 꽉 찼을 때 서서 가는 건 흔한 일이에요.
 
-{{< figure src="images/photos/seoul-44.webp" alt="서울 지하철 2호선 열차 안, 낙성대역을 표시하는 LCD 화면" caption="임산부 배려석은 비워 두는 것이 예의예요. 역 이름은 한국어와 영어로 방송돼요. 사진: Aspere, CC0" >}}
+{{< figure src="images/photos/seoul-44.webp" alt="서울 지하철 2호선 열차 안, 낙성대역을 표시하는 LCD 화면" caption="서울 지하철 2호선 열차 안, 낙성대역을 표시하는 LCD 화면이에요. 사진: Aspere, CC0" >}}
 
 열차 안에서는 한국어와 영어로 역 이름이 방송돼요. 내릴 역을 놓쳐도 침착하세요. 다음 역에서 내려 반대편 승강장으로 건너가 되돌아가면 돼요.
 
@@ -119,13 +119,13 @@ stops:
 
 거의 모든 택시에서 카드 결제가 가능해요. 일반적인 시내 이동에서 기사님이 미터기 대신 정액을 부르면 그냥 내려서 앱으로 다른 택시를 부르세요.
 
-{{< figure src="images/photos/seoul-09.webp" alt="정면에서 본 서울 주황색 택시" caption="택시는 카드 결제가 돼요. 기사님이 미터기 대신 정액을 부르면 내려서 앱으로 다시 부르세요. 사진: U2em, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/seoul-09.webp" alt="정면에서 본 서울 주황색 택시" caption="정면에서 본 서울 주황색 택시예요. 사진: U2em, CC BY-SA 3.0" >}}
 
 택시는 색깔이 몇 가지 있어요. 서울시 관광 안내로 일반 택시는 주황색, 흰색, 회색이 있고 서울에서 가장 흔해요.
 
 검은색 바탕에 황금 띠를 두른 택시는 모범택시로, 일반 택시보다 요금이 비싸요. 큰길에서 손을 들어 잡을 수도 있지만, 밤의 홍대나 이태원에서는 잡는 경쟁이 치열해서 앱이 제값을 해요.
 
-{{< figure src="images/photos/seoul-06.webp" alt="네온사인, 택시, 버스가 있는 밤의 명동 거리" caption="밤의 홍대나 이태원에서는 택시 잡기가 치열해요. 앱을 쓰세요. 사진: Tristan Surtel, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-06.webp" alt="네온사인, 택시, 버스가 있는 밤의 명동 거리" caption="네온사인, 택시, 버스가 있는 밤의 명동 거리예요. 사진: Tristan Surtel, CC BY-SA 4.0" >}}
 
 ## 🍜 역 근처에서 어디서 먹을까요?
 
@@ -143,7 +143,7 @@ stops:
 
 {{< collage "images/photos/seoul-17.webp|금빛 불상이 있는 조계사 내부|Severin.stalder, CC BY-SA 3.0" "images/photos/seoul-bosingak-01.webp|종로의 보신각|Tristan Surtel, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/seoul-gyeongui-sunny-01.webp" alt="맑은 날의 홍대 근처 경의선숲길 거리" caption="한 정거장 일찍 내려 걷는 재미가 쏠쏠해요. 사진: Christian Bolz, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-gyeongui-sunny-01.webp" alt="맑은 날의 홍대 근처 경의선숲길 거리" caption="맑은 날의 홍대 근처 경의선숲길 거리예요. 사진: Christian Bolz, CC BY-SA 4.0" >}}
 
 {{< sticker kind="tired-rest" >}}
 

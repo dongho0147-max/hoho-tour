@@ -83,11 +83,11 @@ If you want the observatory ticket sorted ahead, it is easy to book before you g
 
 {{< aff href="https://www.klook.com/en-US/activity/412-n-seoul-tower-seoul/?aid=145455" text="Book N Seoul Tower observatory tickets on Klook" >}}
 
-{{< figure src="images/photos/seoul-16.webp" alt="N Seoul Tower seen from a street below in daytime" caption="The terrace and plaza are free, and on a clear night the free view is nearly as good as the paid one. Photo: Devianagloria, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-16.webp" alt="N Seoul Tower seen from a street below in daytime" caption="N Seoul Tower seen from a street below in daytime. Photo: Devianagloria, CC BY-SA 4.0" >}}
 
 Downtown has its own winter pleasures. Dongdaemun Design Plaza, the curved silver building in the east of the city, looks like a spaceship at night, and the plaza around it hosts a Christmas market and light displays in December. It is {{< mk "free to walk" >}} around, it is open late, and it is the kind of place that is better in the dark than in the day. Go after dinner, when the lights are on and the air is sharp, and give yourself half an hour of just looking.
 
-{{< figure src="images/photos/seoul-23.webp" alt="Dongdaemun Design Plaza at night, black and white" caption="Go after dinner, when the lights are on, and give yourself half an hour of just looking. Photo: anokarina, CC BY-SA" >}}
+{{< figure src="images/photos/seoul-23.webp" alt="Dongdaemun Design Plaza at night, black and white" caption="Dongdaemun Design Plaza at night, black and white. Photo: anokarina, CC BY-SA" >}}
 
 ## 🔥 Where is the warmth? Use it as a strategy
 

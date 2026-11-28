@@ -36,7 +36,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/gyeongju-night-02.webp" alt="Woljeonggyo Bridge lit at blue hour" caption="Light-up times shift with the sunset. Arrive before dusk and let the lights come to you. Photo: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-night-02.webp" alt="Woljeonggyo Bridge lit at blue hour" caption="Woljeonggyo Bridge lit at blue hour. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
 ## 🌆 Start at dusk: Donggung Palace and Wolji Pond
 
@@ -44,7 +44,7 @@ Start at **Donggung Palace** and Wolji Pond, the old secondary palace of the Sil
 
 Admission runs about {{< pr "3,000 KRW" >}} for an adult, based on recent listings. Give it 40 to 50 minutes: walk the pond loop slowly, stop at the main pavilion, and then walk to the far side for the wide view back. The far side is where the reflection photo works, and it is quieter than the entrance.
 
-{{< figure src="images/photos/gyeongju-night-01.webp" alt="Donggung Palace and Wolji Pond lit up at night" caption="Enter 20 to 30 minutes before sunset to catch the sky turning blue as the lights come on. Photo: lumoplank, CC0" >}}
+{{< figure src="images/photos/gyeongju-night-01.webp" alt="Donggung Palace and Wolji Pond lit up at night" caption="Donggung Palace and Wolji Pond lit up at night. Photo: lumoplank, CC0" >}}
 
 > **🔥 Local tip:** {{< mk "Enter 20 to 30 minutes before sunset" >}} so you catch the sky turning blue as the lights come on one by one. The best reflection shot is near the third restored building walking clockwise from the entrance: stand facing it straight on and the palace doubles in the water. Last entry is 21:30 and the lights go out around 22:00. Based on recent listings/reviews, checked November 2026.
 
@@ -58,21 +58,21 @@ Admission runs about {{< pr "3,000 KRW" >}} for an adult, based on recent listin
 
 From the pond, walk about 15 minutes to **Woljeonggyo Bridge**, the largest wooden bridge in Korea, rebuilt on its Silla-era site. At night the whole bridge is lit, and its reflection sits in the stream below. You can walk across it, and the inside walkway is lit too. The bridge is open until 22:00, based on recent listings.
 
-{{< figure src="images/photos/gyeongju-night-05.webp" alt="The northern gate of Woljeonggyo Bridge at golden hour" caption="The bridge is open until 22:00, and you can walk across it. Photo: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-night-05.webp" alt="The northern gate of Woljeonggyo Bridge at golden hour" caption="The northern gate of Woljeonggyo Bridge at golden hour. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
 The walk between the pond and the bridge is part of the evening. It passes the edge of the tomb park and the quiet streets of the old town, and it is the calmest stretch of the night. If you are doing this walk in winter, wear a proper coat: Gyeongju nights get cold fast once the sun is down.
 
-{{< figure src="images/photos/gyeongju-night-06.webp" alt="Grass tombs of Daereungwon under a blue sky" caption="Gyeongju nights get cold fast after sunset, so wear a proper coat. Photo: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-night-06.webp" alt="Grass tombs of Daereungwon under a blue sky" caption="Grass tombs of Daereungwon under a blue sky. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
 ## 🗼 Cheomseongdae under lights
 
 From the bridge, walk 10 minutes to Cheomseongdae, the old stone observatory. At night it is lit, and it stands alone on the open grass, which makes it feel bigger than it does in the daytime. The light color changes: on some nights it glows blue, and the blue nights are the ones photographers wait for.
 
-{{< figure src="images/photos/gyeongju-night-03.webp" alt="Cheomseongdae lit in blue at night" caption="There is no ticket to buy. Give it 15 to 20 minutes, then walk on. Photo: Brinacor, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-night-03.webp" alt="Cheomseongdae lit in blue at night" caption="Cheomseongdae lit in blue at night. Photo: Brinacor, CC BY-SA 4.0" >}}
 
 Give it 15 to 20 minutes. There is nothing to enter and no ticket to buy, so this is a look-and-walk-on stop. The grass around it is the place to stand and look back at the tombs, which sit as dark shapes against the sky.
 
-{{< figure src="images/photos/gyeongju-night-04.webp" alt="Anapji Pond in daylight, with the pavilion across the water" caption="Walk the pond loop slowly, then cross to the far side for the reflection photo. It is quieter than the entrance. Photo: 螺钉, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/gyeongju-night-04.webp" alt="Anapji Pond in daylight, with the pavilion across the water" caption="Anapji Pond in daylight, with the pavilion across the water. Photo: 螺钉, CC BY-SA 3.0" >}}
 
 ## 🍜 Finish on Hwangridan-gil
 

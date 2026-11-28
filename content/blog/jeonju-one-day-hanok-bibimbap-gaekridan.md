@@ -68,7 +68,7 @@ Jeonju is the easiest food city to reach from Seoul, and one day is enough to un
 
 This guide is written from research, not from a single visit. Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check train times before you book.
 
-{{< figure src="images/photos/jeonju-gyeonggijeon-01.webp" alt="Red wooden hall with a courtyard and clay pots at Gyeonggijeon" caption="A red wooden hall and sunlit courtyard at Gyeonggijeon. Photo: Bernard Gagnon, Wikimedia Commons, CC0" >}}
+{{< figure src="images/photos/jeonju-gyeonggijeon-01.webp" alt="Red wooden hall with a courtyard and clay pots at Gyeonggijeon" caption="Red wooden hall with a courtyard and clay pots at Gyeonggijeon. Photo: Bernard Gagnon, Wikimedia Commons, CC0" >}}
 
 ## 🚄 How do you get there?
 
@@ -96,15 +96,15 @@ Wear shoes you can walk in. The village is all on foot, the lanes are stone and 
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/jeonju-cathedral-01.webp" alt="Red brick front of Jeondong Cathedral under a blue sky" caption="The cathedral front is one of the most photographed corners in the village, so stop on the main road. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-cathedral-01.webp" alt="Red brick front of Jeondong Cathedral under a blue sky" caption="Red brick front of Jeondong Cathedral under a blue sky. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/jeonju-omokdae-01.webp" alt="Hanok Village rooftops and the city seen from inside the Omokdae pavilion" caption="Go up Omokdae in the late afternoon. The climb is short and the rooftop view is the best in town. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-omokdae-01.webp" alt="Hanok Village rooftops and the city seen from inside the Omokdae pavilion" caption="Hanok Village rooftops and the city seen from inside the Omokdae pavilion. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🍚 What to order for lunch
 
 Bibimbap is the dish Jeonju is known for, and the city was named a UNESCO City of Gastronomy in 2012 largely on the strength of it. A proper Jeonju bibimbap comes in a brass bowl with rice, a dozen small toppings, raw beef, and a raw egg yolk, and it costs roughly {{< pr "12,000-18,000 KRW" >}} at the well-known restaurants based on recent listings. The famous places have queues at lunch, so go early or go slightly off-peak. If the queue is an hour long, walk two streets over. The village is full of good kitchens, and the rule that has never failed anyone is to eat where the older locals are eating.
 
-{{< figure src="images/photos/seoul-35.webp" alt="Bibimbap in a bowl with carrot, mushroom, egg, meat and gochujang" caption="The big-name bibimbap houses queue 30 to 40 minutes at weekend lunch. Go early, or walk two streets over. Photo: Chloe Lim, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-35.webp" alt="Bibimbap in a bowl with carrot, mushroom, egg, meat and gochujang" caption="Bibimbap in a bowl with carrot, mushroom, egg, meat and gochujang. Photo: Chloe Lim, CC BY 2.0" >}}
 
 > **🔥 Local tip:** The big-name bibimbap houses queue 30 to 40 minutes on weekend lunches, and the village default is to wait. Two names come up in nearly every recent roundup, checked November 2026: Hangukjip (1952, third generation, bibimbap {{< pr "15,000 KRW" >}}, yukhoe bibimbap {{< pr "17,000 KRW" >}}, 09:50 to 20:50, one hour of free parking with a meal) and Pungnamjeong (yukhoe bibimbap {{< pr "13,000 KRW" >}}, tteokgalbi {{< pr "5,000 KRW" >}}, break time 15:00 to 16:00). The honest shortcut: go at 11:00 sharp or after 14:00, and order the bibimbap plus tteokgalbi combo. If the line is still an hour, the bowl two streets over is nearly as good and you eat it an hour earlier.
 
@@ -124,13 +124,13 @@ Gaekridan-gil is the cafe street near the old Gaeksa guesthouse, about a ten min
 
 This is also the right place for a hanbok photo if you skipped it in the village. Hanbok rental shops cluster near Gyeonggijeon, with hundreds of outfits and free basic hairstyling, and rental for a few hours usually runs {{< pr "10,000-20,000 KRW" >}} based on recent listings. Wear it in the village in the morning, not in the afternoon, because the light is better and the streets are emptier.
 
-{{< figure src="images/photos/jeonju-04.webp" alt="A street in downtown Jeonju with shops" caption="Hanbok rental runs about 10,000 to 20,000 KRW for a few hours. Wear it in the morning, when the light is better. Photo: Shamus7792003, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-04.webp" alt="A street in downtown Jeonju with shops" caption="A street in downtown Jeonju with shops. Photo: Shamus7792003, CC BY-SA 4.0" >}}
 
 ## 🌙 Should you stay the night?
 
 If you can, yes. The village changes after dark, when the day-trippers leave and the lanterns come on. A hanok guesthouse inside the village costs roughly {{< pr "50,000-120,000 KRW" >}} a night based on recent listings, and sleeping on a heated floor in a courtyard house is part of the experience. If you stay, read the companion guide to the village at night for the evening plan.
 
-{{< figure src="images/photos/jeonju-05.webp" alt="A bowl of makgeolli rice wine on a wooden table" caption="A hanok guesthouse in the village costs roughly 50,000 to 120,000 KRW a night. Staying lets you see it after the day-trippers leave. Photo: jinho kim, CC0" >}}
+{{< figure src="images/photos/jeonju-05.webp" alt="A bowl of makgeolli rice wine on a wooden table" caption="A bowl of makgeolli rice wine on a wooden table. Photo: jinho kim, CC0" >}}
 
 The night version of this day, market stalls and makgeolli included, is the [Jeonju after dark guide](/blog/jeonju-night-market-cafes/). And if one market meal is not enough, the [slow food walk through Seoul's old markets](/blog/seoul-market-food-walk/) is the same idea back in the capital: walk, point, eat, repeat.
 

@@ -40,7 +40,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/jeju-east-06.webp" alt="The tuff cone of Seongsan Ilchulbong" caption="Ferry times shift by season and stop in bad weather. Confirm the first and last boats on the day. Photo: Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/jeju-east-06.webp" alt="The tuff cone of Seongsan Ilchulbong" caption="The tuff cone of Seongsan Ilchulbong. Photo: Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
 
 ## 🌋 Start at Seongsan Ilchulbong, early
 
@@ -60,7 +60,7 @@ From the peak, walk 10 minutes to Seongsan Port. Ferries to Udo leave every 20 t
 
 Udo is about 6 square km, home to around 1,800 people, and shaped like a cow lying down, which is how it got its name. Rental cars are not allowed on the island, so you get around by e-bike, scooter, electric buggy, or the island shuttle bus. E-bikes run about {{< pr "10,000 KRW" >}} for three hours or {{< pr "20,000 KRW" >}} for a full day, and they need no licence. Scooters and buggies are faster, but Korean law requires a valid driving licence, and staff do check.
 
-{{< figure src="images/photos/jeju-east-02.webp" alt="Udo Island off the east coast of Jeju" caption="Rental cars are not allowed on the island. Scooters and buggies need a valid driving licence, and staff check. Photo: 제주영상문화산업진흥원, KOGL Type 1" >}}
+{{< figure src="images/photos/jeju-east-02.webp" alt="Udo Island off the east coast of Jeju" caption="Udo Island off the east coast of Jeju. Photo: 제주영상문화산업진흥원, KOGL Type 1" >}}
 
 The loop road is about 17 km around the coast, and it takes about two hours by e-bike at an easy pace, or closer to three or four hours if you stop at every beach and cafe, which is the point. Start at Cheonjin Port, where the ferry lands, and work your way around. **Hagosudong Beach** has white coral sand, **Geommeolle Beach** has dark sand, and Udobong Peak has the lighthouse and the view back to Seongsan.
 
@@ -84,11 +84,11 @@ Come back on the ferry by mid-afternoon and walk or take a short taxi ride to Se
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/jeju-east-03.webp" alt="Seopjikoji, the cliff coast east of Seongsan" caption="Give Seopjikoji about an hour. It is at its best in the late afternoon light. Photo: Engin Cukuroglu, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-east-03.webp" alt="Seopjikoji, the cliff coast east of Seongsan" caption="Seopjikoji, the cliff coast east of Seongsan. Photo: Engin Cukuroglu, CC BY-SA 4.0" >}}
 
 Then end at **Gwangchigi Beach**, the black-sand beach that faces Seongsan Ilchulbong across the water. It is the classic photo of the east coast: dark sand in front, the cone behind. It is not a swimming beach for most of the year, so treat it as a viewpoint and a walk, not a place to lay out a towel.
 
-{{< figure src="images/photos/jeju-east-05.webp" alt="Seongsan Ilchulbong seen from the coastal park at dusk" caption="Gwangchigi is not a swimming beach for most of the year. Treat it as a viewpoint and a walk. Photo: Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/jeju-east-05.webp" alt="Seongsan Ilchulbong seen from the coastal park at dusk" caption="Seongsan Ilchulbong seen from the coastal park at dusk. Photo: Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" >}}
 
 {{< collage "images/photos/jeju-east-02.webp|Udo Island|제주영상문화산업진흥원, KOGL Type 1" "images/photos/jeju-east-05.webp|Seongsan from the coastal park|Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" "images/photos/jeju-east-06.webp|Seongsan Ilchulbong|Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
 

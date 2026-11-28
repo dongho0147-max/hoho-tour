@@ -40,7 +40,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/gangneung-02.webp" alt="커피거리가 있는 안목해변" caption="안목해변에서 시작하면 코스를 짜기 편해요. 위로 강문해변, 경포해변이 차례로 이어져요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gangneung-02.webp" alt="커피거리가 있는 안목해변" caption="커피거리가 있는 안목해변이에요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🚄 강릉에는 어떻게 가나요?
 
@@ -68,7 +68,7 @@ stops:
 
 두 곳 사이에는 해변을 걸으세요. 안목해변은 강릉에서 가장 남쪽에 있는 해변이고, 위로 올라가면 **강문해변**, **경포해변**이 차례로 나와요. 그래서 안목에서 시작하면 코스를 짜기 편해요.
 
-{{< figure src="images/photos/gangneung-p13-01.webp" alt="바다가 보이는 난간 위에 놓인 아이스커피 두 잔" caption="바다 쪽 창가 자리는 주말에 금방 차요. 도착하자마자 첫 카페에서 자리부터 잡으세요. 사진: Pexels" >}}
+{{< figure src="images/photos/gangneung-p13-01.webp" alt="바다가 보이는 난간 위에 놓인 아이스커피 두 잔" caption="바다가 보이는 난간 위에 놓인 아이스커피 두 잔이에요. 사진: Pexels" >}}
 
 ## 🌅 일몰: 경포해변과 경포호
 
@@ -76,15 +76,15 @@ stops:
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/gangneung-01.webp" alt="경포해변의 GYEONGPO 포토 프레임" caption="경포해변은 일몰 시간에 맞춰 가세요. 빛이 사그라들 때 호숫길을 걸으면 좋아요. 사진: Sergiy Galyonkin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gangneung-01.webp" alt="경포해변의 GYEONGPO 포토 프레임" caption="경포해변의 GYEONGPO 포토 프레임이에요. 사진: Sergiy Galyonkin, CC BY-SA 4.0" >}}
 
 **해변 뒤에는 경포호가 있고, 호숫가 언덕에는 보물 제2046호 경포대 누각이 있어요.** 경포호둘레길은 약 4.3km로 평지라 걷기 편해요(한국관광공사). 빛이 사그라들 때 호숫길을 걸으세요. 어느 계절에도 걷기 좋아요.
 
-{{< figure src="images/photos/gyeongpo-lake-blue-01.webp" alt="푸른 하늘이 비치는 경포호" caption="경포호둘레길은 약 4.3km 평지라 걷기 편해요. 어느 계절에도 좋아요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongpo-lake-blue-01.webp" alt="푸른 하늘이 비치는 경포호" caption="푸른 하늘이 비치는 경포호예요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 {{< collage "images/photos/gangneung-02.webp|안목해변|Mobius6, CC BY-SA 4.0" "images/photos/gyeongpo-lake-blue-01.webp|푸른 하늘이 비치는 경포호|Mobius6, CC BY-SA 4.0" "images/photos/gangneung-04.webp|주문진해변|Mobius6, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/gangneung-p13-02.webp" alt="해변 뒤로 소나무가 늘어선 강릉 바닷가" caption="경포 일대는 평지라 걷기 편해요. 경포호둘레길은 약 4.3km예요(한국관광공사). 사진: Pexels" >}}
+{{< figure src="images/photos/gangneung-p13-02.webp" alt="해변 뒤로 소나무가 늘어선 강릉 바닷가" caption="해변 뒤로 소나무가 늘어선 강릉 바닷가예요. 사진: Pexels" >}}
 
 ## 🍽️ 강릉에서 무엇을 먹을까요?
 
@@ -98,7 +98,7 @@ stops:
 
 고정 휴무일이 없고 점포별로 영업시간이 달라서, 저녁이 이르면 문 닫은 곳이 있을 수 있어요. 일찍 가는 편이 안전해요.
 
-{{< figure src="images/photos/gangneung-07.webp" alt="해 질 녘 강릉 중앙시장 입구" caption="중앙시장은 점포별 영업시간이 달라요. 저녁이 이르면 닫은 곳이 있으니 일찍 가세요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gangneung-07.webp" alt="해 질 녘 강릉 중앙시장 입구" caption="해 질 녘 강릉 중앙시장 입구예요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 > **🔥 현지 팁:** 닭강정은 맛을 섞어서 파는 곳이 많아요. 처음이면 순한 맛과 매운 맛이 섞인 반반을 고르는 편이 안전해요. 사서 호텔이나 해변에서 드세요. 경포 근처 초당동에는 **초당순두부마을**이 있어요. 한국관광공사 안내로는 콩을 갈아 동해 바닷물로 응고시켜 만들어서 부드럽고 고소해요. 두부전골, 모두부, 짬뽕순두부가 대표 메뉴예요.
 
@@ -112,17 +112,17 @@ stops:
 
 > **🔥 현지 팁:** 대중교통으로 갈 때는 강릉 버스정보시스템에서 시티1 같은 주문진 방면 노선의 시간표를 확인하세요. 배차가 길 수 있으니 돌아오는 차편도 같이 보세요.
 
-{{< figure src="images/photos/gangneung-04.webp" alt="강릉 북쪽의 주문진해변" caption="주문진은 버스 배차가 길 수 있어요. 돌아오는 차편 시간도 같이 확인하세요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gangneung-04.webp" alt="강릉 북쪽의 주문진해변" caption="강릉 북쪽의 주문진해변이에요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 기차 시간 전에 여유가 있다면 정동진역에 들르세요. 강릉 남쪽 바닷가에 있는 역으로, 한국관광공사 안내로는 전국에서 바다가 가장 가까운 역이에요. 일출 명소로도 유명해요.
 
-{{< figure src="images/photos/gangneung-06.webp" alt="주문진 근처 바닷가 역, 정동진역" caption="기차 시간 전에 여유가 있다면 정동진역에 들러 보세요. 일출 명소로 유명해요. 사진: Unknown, CC0" >}}
+{{< figure src="images/photos/gangneung-06.webp" alt="주문진 근처 바닷가 역, 정동진역" caption="주문진 근처 바닷가 역, 정동진역이에요. 사진: Unknown, CC0" >}}
 
 오전은 시내의 고택 오죽헌에서 마무리하세요. 율곡 이이가 태어난 집으로 알려진 곳이고, **시립박물관**이 함께 있어요. 강릉시 안내로 관람 시간은 **09:00~18:00**이고 입장은 17:00까지예요.
 
 **입장료는 어른 {{< pr "3,000원" >}}이고 만 65세 이상은 무료예요.** 정월 초하루와 설날, 추석 당일에는 실내 전시실이 쉬어요.
 
-{{< figure src="images/photos/ojukheon-gate-01.webp" alt="맑은 하늘 아래 오죽헌의 붉은 문과 돌계단" caption="오죽헌 입장은 17:00까지예요. 어른 3,000원, 만 65세 이상은 무료예요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/ojukheon-gate-01.webp" alt="맑은 하늘 아래 오죽헌의 붉은 문과 돌계단" caption="맑은 하늘 아래 오죽헌의 붉은 문과 돌계단이에요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🛏️ 1박일까요, 2박일까요?
 
@@ -134,7 +134,7 @@ stops:
 
 1박이 딱 좋아요. 일출과 느긋한 아침을 원한다면 2박이 더 좋아요.
 
-{{< figure src="images/photos/gangneung-p13-03.webp" alt="파도치는 해변 옆 테이블 위의 커피잔과 책" caption="카페는 많아야 두 곳만 가세요. 하나는 커피, 하나는 전망으로 정하세요. 사진: Pexels" >}}
+{{< figure src="images/photos/gangneung-p13-03.webp" alt="파도치는 해변 옆 테이블 위의 커피잔과 책" caption="파도치는 해변 옆 테이블 위의 커피잔과 책이에요. 사진: Pexels" >}}
 
 {{< aff href="https://www.klook.com/en-HK/activity/177365-gangneung-starlight-tour-from-seoul/?aid=145455" text="클룩에서 서울 출발 강릉 별빛 2일 투어 예약하기" >}}
 

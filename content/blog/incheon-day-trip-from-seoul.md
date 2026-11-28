@@ -66,7 +66,7 @@ Here is the honest truth about Incheon Chinatown: you are here for jajangmyeon. 
 
 A bowl usually runs about 7,000 to {{< pr "12,000 KRW" >}}, and the difference between a good one and a great one is the shine on the sauce and the chew of the noodles. Order it with a plate of tangsuyuk, the sweet and sour pork, if you are hungry, and expect to spend roughly 10,000 to {{< pr "20,000 KRW" >}} per person for a proper lunch. Prices are ranges, last checked November 2026.
 
-{{< figure src="images/photos/incheon-01.webp" alt="Jajangmyeon, black bean noodles in a bowl" caption="Budget roughly 10,000 to 20,000 KRW per person for a proper lunch, and expect weekend lines at the famous places. Photo: Stegano, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/incheon-01.webp" alt="Jajangmyeon, black bean noodles in a bowl" caption="Jajangmyeon, black bean noodles in a bowl. Photo: Stegano, CC BY-SA 3.0" >}}
 
 There is no single restaurant to send you to, and that is deliberate. The famous old restaurants are worth trying, and the queues outside them on weekends are real, but the side streets are full of good kitchens. The rule that has never failed, based on recent reviews, is to eat where the older locals are eating. Point at the pictures on the wall if there is no English menu. Smile. It works every time.
 
@@ -76,7 +76,7 @@ There is no single restaurant to send you to, and that is deliberate. The famous
 
 After lunch, walk it off. The main street is short, and the pleasure is in the edges: the small shops selling Chinese snacks and tea, the stairways that lead up to viewpoints over the rooftops, and the quiet lanes behind the restaurants where the neighborhood stops performing and goes back to being a neighborhood. Give Chinatown an hour, maybe two if you are a slow wanderer. It is compact, and that is part of its charm.
 
-{{< figure src="images/photos/seoul-27.webp" alt="Incheon Chinatown main street, crowded with shoppers, red shopfronts and lanterns" caption="Chinatown is compact. One to two hours at a slow pace is enough. Photo: AhmadElq, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-27.webp" alt="Incheon Chinatown main street, crowded with shoppers, red shopfronts and lanterns" caption="Incheon Chinatown main street, crowded with shoppers, red shopfronts and lanterns. Photo: AhmadElq, CC BY-SA 4.0" >}}
 
 ## 🌊 What is the view from the park above the port?
 
@@ -84,7 +84,7 @@ From Chinatown, walk up to **Jayu Park**, the **Freedom Park** on the hill above
 
 The park is where General MacArthur's statue stands, from the Korean War landing in 1950, and it is one of those places where the history is not in a museum but in the ground under your feet. Sit on one of the benches there for ten minutes and do nothing. The port moves below, slow and industrial, and the city noise drops away.
 
-{{< figure src="images/photos/seoul-28.webp" alt="View from Jayu Park over trees to the harbor with cranes, ships and the sea" caption="Sit on a bench for ten minutes and do nothing but watch the harbor. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-28.webp" alt="View from Jayu Park over trees to the harbor with cranes, ships and the sea" caption="View from Jayu Park over trees to the harbor with cranes, ships and the sea. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 Right next to the park, down a small slope, is **Songwoldong Fairy Tale Village**, a hillside of houses painted with murals of storybook characters. It sounds like it should be embarrassing, and somehow it is not. The murals are bright and a little chaotic, the lanes are narrow and steep, and the whole place feels like a neighborhood that decided to have fun one year and never stopped. It is a thirty-minute wander at most, and it is best in the late afternoon, when the light comes over the rooftops and the day-trippers start heading home. If you are traveling with children, this is the part of the day they will remember.
 
@@ -98,9 +98,9 @@ A guided walk helps here if you want the port history without reading plaques al
 
 If you still have energy after the village, go down to the water. The old port area around **Wolmi Island** is a short bus or taxi ride from Chinatown, and it is where Incheon feels most like a seaside city: a promenade, a few seafood restaurants, the smell of salt, and the slow turning of the harbor. In summer it is lively, almost crowded. In late November and December, when the wind comes off the Yellow Sea, it is empty and cold and beautiful in a completely different way.
 
-{{< figure src="images/photos/seoul-29.webp" alt="Wolmi Sea Train, blue and orange monorail car, on the elevated track over the sea at Wolmido" caption="The train loops the island, about 6 km. Late November and December are cold and windy, so dress warmly. Photo: Trainholic, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-29.webp" alt="Wolmi Sea Train, blue and orange monorail car, on the elevated track over the sea at Wolmido" caption="Wolmi Sea Train, blue and orange monorail car, on the elevated track over the sea at Wolmido. Photo: Trainholic, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/seoul-09.webp" alt="Orange Seoul taxi, front view" caption="Wolmi is a short bus or taxi ride from Chinatown. It is empty and cold in late November and December. Photo: U2em, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/seoul-09.webp" alt="Orange Seoul taxi, front view" caption="Orange Seoul taxi, front view. Photo: U2em, CC BY-SA 3.0" >}}
 
 The Wolmi Sea Train loops the island on an elevated track, about 6 km, and it is the easiest way to see the waterfront without walking the whole promenade. Recent listings put it at about {{< pr "11,000 KRW" >}} on weekdays and {{< pr "14,000 KRW" >}} on weekends, running roughly 10:00 to 18:00 and closed on Mondays (checked November 2026).
 

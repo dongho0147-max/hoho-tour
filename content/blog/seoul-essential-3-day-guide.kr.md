@@ -104,14 +104,14 @@ landmarks:
 > - **경복궁**은 **매주 화요일에 쉬어요.** 여행 날짜에 화요일이 끼면 1일 차와 2일 차를 바꾸세요.
 > - 겨울(11~2월)에는 경복궁이 **17:00에 닫고**, 입장은 16:00까지예요.
 
-{{< figure src="images/photos/seoul-02.webp" alt="경복궁의 정전인 근정전" caption="겨울(11~2월)에는 경복궁이 17:00에 닫고 입장은 16:00까지예요. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-02.webp" alt="경복궁의 정전인 근정전" caption="경복궁의 정전인 근정전이에요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 
 ## ✈️ 공항에서 서울 시내로: 네 가지 방법
 
 인천공항에서 서울 도심까지는 **한 시간쯤** 걸려요. 짐 양과 숙소 위치에 맞춰 네 가지 중에서 고르세요.
 
-{{< figure src="images/photos/seoul-new-arex.webp" alt="인천공항 1터미널역의 공항철도 직통열차 승강장과 매표소" caption="인천공항에서 서울 도심까지는 한 시간쯤 걸려요. 짐 양과 숙소 위치에 맞춰 고르세요. 사진: MNXANL, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-new-arex.webp" alt="인천공항 1터미널역의 공항철도 직통열차 승강장과 매표소" caption="인천공항 1터미널역의 공항철도 직통열차 승강장과 매표소예요. 사진: MNXANL, CC BY-SA 4.0" >}}
 
 | 교통수단 | 소요시간 | 편도 요금 | 이런 경우에 추천 |
 | --- | --- | --- | --- |
@@ -183,7 +183,7 @@ landmarks:
 
 🚇 지하철은 **3호선 경복궁역 5번 출구**로 나오세요.
 
-{{< figure src="images/photos/seoul-gwanghwamun-01.webp" alt="광화문광장과 광화문, 뒤로 북한산이 보인다" caption="수문장 교대의식은 오전 10시와 오후 2시에 광화문에서 열려요. 약 20분이고 무료예요. 사진: Richard Mortel, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-gwanghwamun-01.webp" alt="광화문광장과 광화문, 뒤로 북한산이 보인다" caption="광화문광장과 광화문, 뒤로 북한산이 보인다예요. 사진: Richard Mortel, CC BY 2.0" >}}
 
 ### 🍱 점심은 통인시장 도시락으로
 
@@ -210,7 +210,7 @@ landmarks:
 - 도자기, 종이, 차처럼 오래 간직할 기념품을 고르기 좋아요.
 - 전통 찻집에서 잠깐 쉬어 가세요. 이쯤이면 발도 쉬어야 할 때예요.
 
-{{< figure src="images/photos/seoul-new-insadong.webp" alt="전통 상점이 늘어선 낮의 인사동길" caption="도자기, 종이, 차 같은 기념품을 고르고 전통 찻집에서 잠깐 쉬어 가세요. 사진: Dr. Thomas Liptak, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-new-insadong.webp" alt="전통 상점이 늘어선 낮의 인사동길" caption="전통 상점이 늘어선 낮의 인사동길이에요. 사진: Dr. Thomas Liptak, CC BY-SA 4.0" >}}
 
 {{< sticker kind="photo-spot" >}}
 
@@ -249,7 +249,7 @@ landmarks:
 
 공원 편의점에서 라면과 삶은 달걀을 사서 강변에서 먹어 보세요. 서울 사람들이 즐기는 소소한 한강 나들이를 부담 없이 해 볼 수 있어요. 크루즈까지 넣은 밤 버전은 [한강의 밤 가이드](/kr/blog/seoul-night-han-river-cruise-ramyeon/)에 정리해 뒀어요.
 
-{{< figure src="images/photos/seoul-04.webp" alt="대여 자전거와 조명 켜진 다리가 보이는 한강의 밤" caption="공원 편의점에서 라면과 삶은 달걀을 사서 강변에서 먹어 보세요. 사진: TurnOnTheNight, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-04.webp" alt="대여 자전거와 조명 켜진 다리가 보이는 한강의 밤" caption="대여 자전거와 조명 켜진 다리가 보이는 한강의 밤이에요. 사진: TurnOnTheNight, CC BY-SA 4.0" >}}
 
 ### 🌇 N서울타워에서 일몰 보기
 
@@ -266,7 +266,7 @@ landmarks:
 
 > **⚠️ 참고:** 일몰 시간대에는 케이블카 줄이 길어질 수 있어요. 기상이 나쁘면 운행이 멈추기도 해요. **무료인 광장 전망도** 유료 전망대 못지않게 좋아요.
 
-{{< figure src="images/photos/seoul-new-nseoultower.webp" alt="전망대에서 내려다본 해 질 무렵의 서울 시내 야경" caption="일몰 시간대에는 케이블카 줄이 길어져요. 무료 광장 전망도 유료 전망대 못지않아요. 사진: kallerna, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-new-nseoultower.webp" alt="전망대에서 내려다본 해 질 무렵의 서울 시내 야경" caption="전망대에서 내려다본 해 질 무렵의 서울 시내 야경이에요. 사진: kallerna, CC BY-SA 4.0" >}}
 
 ## 🍜 셋째 날: 하루 종일 먹는 날
 
@@ -283,7 +283,7 @@ landmarks:
 - 아침 한 끼 예산은 {{< pr "10,000~15,000원" >}} 정도예요.
 - 🚇 **1호선** **종로5가역 8번 출구**로 나오세요.
 
-{{< figure src="images/photos/gwangjang-entrance-01.webp" alt="푸른 하늘 아래 광장시장 입구와 간판" caption="종로5가역 1호선 8번 출구로 나오세요. 일반 상가는 일요일에 쉬어요. 사진: Bgag, CC0" >}}
+{{< figure src="images/photos/gwangjang-entrance-01.webp" alt="푸른 하늘 아래 광장시장 입구와 간판" caption="푸른 하늘 아래 광장시장 입구와 간판이에요. 사진: Bgag, CC0" >}}
 
 > **🔥 현지 팁**
 > - 먹자골목은 매일 **09:00~23:00**에 열어요(노점마다 시간이 달라요). 일반 상가는 **09:00~18:00**에 열고 일요일에 쉬어요.
@@ -296,7 +296,7 @@ landmarks:
 
 명동은 기본적으로 쇼핑 거리지만, 처음 온 여행자에게는 **길거리 음식도 큰 재미**예요. 랍스터 꼬리구이, 계란빵, 떡볶이, 컵에 담은 닭강정까지 다양해요. 나눠 먹으며 여러 가지를 맛보세요.
 
-{{< figure src="images/photos/seoul-39.webp" alt="윤기 나는 빨간 양념에 어묵을 곁들인 떡볶이" caption="명동 노점은 오후 4~5시쯤 열어 밤 11시쯤까지 이어져요. 사진: Choe Kwangmo, CC0" >}}
+{{< figure src="images/photos/seoul-39.webp" alt="윤기 나는 빨간 양념에 어묵을 곁들인 떡볶이" caption="윤기 나는 빨간 양념에 어묵을 곁들인 떡볶이예요. 사진: Choe Kwangmo, CC0" >}}
 
 > **🔥 현지 팁**
 > - 노점은 대부분 오후 4~5시쯤 열어 밤 11시쯤까지 이어져요.
@@ -311,7 +311,7 @@ landmarks:
 - 최소 구매금액과 한도는 매장에 물어보세요.
 - 여권을 챙겨 가세요.
 
-{{< figure src="images/photos/seoul-06.webp" alt="네온사인과 택시, 버스가 있는 밤의 명동 거리" caption="면세 환급은 최소 구매금액과 한도를 매장에 묻고, 여권을 챙겨 가세요. 사진: Tristan Surtel, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-06.webp" alt="네온사인과 택시, 버스가 있는 밤의 명동 거리" caption="네온사인과 택시, 버스가 있는 밤의 명동 거리예요. 사진: Tristan Surtel, CC BY-SA 4.0" >}}
 
 ### 동대문 또는 마지막 저녁 식사로 마무리
 
@@ -333,7 +333,7 @@ landmarks:
 
 {{< sticker kind="tired-rest" >}}
 
-{{< figure src="images/photos/seoul-ddp-01.webp" alt="낮의 동대문디자인플라자 곡선 외벽" caption="DDP는 밤에 특히 볼 만해요. 어울림광장에서는 매일 19:00~22:00에 미디어아트를 틀어요. 사진: Dwxn, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-ddp-01.webp" alt="낮의 동대문디자인플라자 곡선 외벽" caption="낮의 동대문디자인플라자 곡선 외벽이에요. 사진: Dwxn, CC BY-SA 4.0" >}}
 
 {{< figure src="images/illust/3day-illust.webp" alt="3일 일정을 카드로 그린 삽화" caption="경복궁은 화요일에 쉬어요. 여행 날짜에 화요일이 끼면 1일 차와 2일 차를 바꾸세요. 삽화: AI 생성 이미지" >}}
 

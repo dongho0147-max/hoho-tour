@@ -70,7 +70,7 @@ stops:
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/jeju-05.webp" alt="제주시 동문시장 안의 가판대" caption="동문시장 뒤에는 바닷가를 걷는 길이 있어요. 용두암까지 걸어가 보세요. 사진: Grapesurgeon, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-05.webp" alt="제주시 동문시장 안의 가판대" caption="제주시 동문시장 안의 가판대예요. 사진: Grapesurgeon, CC BY-SA 4.0" >}}
 
 시장을 나와서는 해안의 용두암으로 가세요. 바다에 있는 작은 용 모양 바위인데, 상시 개방이고 무료예요. 핵심은 바위 자체보다 바닷가를 따라 걷는 길이에요.
 
@@ -80,13 +80,13 @@ stops:
 
 2일차가 하이라이트예요. 일찍 출발하면 버스로도 충분히 가능해요. 먼저 급행 101번을 타고 **함덕해수욕장**으로 가요. 함덕은 북쪽 해안에서 가장 예쁘고 가기 쉬운 해변으로, 물이 맑고 모래가 하얘요.
 
-{{< figure src="images/photos/jeju-04.webp" alt="맑은 물과 하얀 모래가 있는 조천의 함덕해수욕장" caption="함덕은 급행 101번으로 가요. 물이 맑고 모래가 하얘서 북쪽 해안에서 가장 예뻐요. 사진: Hong Da Hyeon, CC0" >}}
+{{< figure src="images/photos/jeju-04.webp" alt="맑은 물과 하얀 모래가 있는 조천의 함덕해수욕장" caption="맑은 물과 하얀 모래가 있는 조천의 함덕해수욕장이에요. 사진: Hong Da Hyeon, CC0" >}}
 
 시간이 있다면 **성읍민속마을**에 들러 보세요. 초가지붕 돌집이 모여 있는 마을로, 상시 개방이고 {{< mk "입장은 무료예요" >}}. 지금도 사람이 사는 마을이라 조용히 걸어 주세요.
 
 해안 도로에서 안쪽으로 들어가 있어서, 버스 노선과 환승은 가기 전에 제주버스정보시스템에서 확인해야 해요. 일정이 빠듯하면 건너뛰어도 괜찮아요.
 
-{{< figure src="images/photos/jeju-06.webp" alt="성읍민속마을의 초가지붕 돌집" caption="성읍민속마을은 지금도 사람이 사는 곳이에요. 조용히 걸으세요. 사진: Seefooddiet, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-06.webp" alt="성읍민속마을의 초가지붕 돌집" caption="성읍민속마을의 초가지붕 돌집이에요. 사진: Seefooddiet, CC BY-SA 4.0" >}}
 
 하루의 끝은 동쪽 끝의 응회구, 성산일출봉이에요. 정상까지 계단을 올라 분화구를 볼 수 있어요. 11월부터 2월까지는 **06:00~18:00**에 열고 매표는 17:00에 마감해요.
 
@@ -94,13 +94,13 @@ stops:
 
 정상에 오르지 않아도 무료 탐방로로 해안 풍경을 볼 수 있어요. 돌아오는 마지막 버스는 꼭 확인하세요. 시간이 빠듯하다 싶으면, 기사가 딸린 전용 차량이 버스 시간표 없이 같은 동쪽 코스를 돌아줘요.
 
-{{< figure src="images/photos/jeju-07.webp" alt="성산 마을과 바다 위로 솟은 성산일출봉" caption="성산일출봉은 겨울에 18:00에 닫아요. 돌아오는 마지막 버스를 꼭 확인하세요. 사진: Justin De La Ornell, CC BY 2.0" >}}
+{{< figure src="images/photos/jeju-07.webp" alt="성산 마을과 바다 위로 솟은 성산일출봉" caption="성산 마을과 바다 위로 솟은 성산일출봉이에요. 사진: Justin De La Ornell, CC BY 2.0" >}}
 
 > **🔥 현지 팁:** 2일차를 확정하기 전에 성산일출봉 휴관일(매달 첫째 월요일)과 그날 날씨를 확인하세요. 겨울에는 해가 일찍 져서 18:00에 문을 닫는다는 점을 기준으로 일정을 짜세요.
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/jeju3-p13-01.webp" alt="빨간 등대가 있는 방파제와 뒤로 솟은 성산일출봉" caption="성산일출봉은 매달 첫째 월요일에 쉬어요. 2일차를 정하기 전에 휴관일과 날씨를 확인하세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jeju3-p13-01.webp" alt="빨간 등대가 있는 방파제와 뒤로 솟은 성산일출봉" caption="빨간 등대가 있는 방파제와 뒤로 솟은 성산일출봉이에요. 사진: Pexels" >}}
 
 {{< aff href="https://www.klook.com/en-US/activity/18608-private-car-charter-jeju/?aid=145455" text="클룩에서 제주 기사 포함 프라이빗 차량 예약하기" >}}
 
@@ -116,13 +116,13 @@ stops:
 
 제주시나 함덕 근처의 평탄한 구간을 골라 걷다가 쉬고 싶을 때 카페에 들르세요. 등산이 아니라 산책이고, 그게 매력이에요.
 
-{{< figure src="images/photos/jeju-03.webp" alt="제주 올레길을 표시하는 파란색과 주황색 리본" caption="올레길은 등산이 아니라 산책이에요. 제주시나 함덕 근처 평탄한 구간부터 걸으세요. 사진: Unknown, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/jeju-03.webp" alt="제주 올레길을 표시하는 파란색과 주황색 리본" caption="제주 올레길을 표시하는 파란색과 주황색 리본이에요. 사진: Unknown, CC BY-SA 3.0" >}}
 
 {{< collage "images/photos/jeju-03.webp|올레길 리본|Unknown, CC BY-SA 3.0" "images/photos/jeju-04.webp|함덕해수욕장|Hong Da Hyeon, CC0" "images/photos/jeju-06.webp|성읍민속마을|Seefooddiet, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/jeju3-p13-02.webp" alt="난간 너머로 제주 시내와 바다를 내려다보는 두 사람의 뒷모습" caption="도착하기 전에 지도 앱에서 실시간 버스 도착 정보가 나오는지 확인하세요. 돌아오는 마지막 버스도 꼭 확인하세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jeju3-p13-02.webp" alt="난간 너머로 제주 시내와 바다를 내려다보는 두 사람의 뒷모습" caption="난간 너머로 제주 시내와 바다를 내려다보는 두 사람의 뒷모습이에요. 사진: Pexels" >}}
 
-{{< figure src="images/photos/jeju3-olle-coast-01.webp" alt="바다를 따라 이어진 제주 올레길 해안 산책로" caption="올레길은 등산이 아니라 산책이에요. 평탄한 구간을 골라 걷다가 카페에서 쉬세요. 사진: 제주올레, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju3-olle-coast-01.webp" alt="바다를 따라 이어진 제주 올레길 해안 산책로" caption="바다를 따라 이어진 제주 올레길 해안 산책로예요. 사진: 제주올레, CC BY-SA 4.0" >}}
 
 ## 🛏️ 어디에 묵을까요?
 

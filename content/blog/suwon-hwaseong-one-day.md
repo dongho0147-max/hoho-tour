@@ -54,7 +54,7 @@ Suwon is the easiest history day trip from Seoul, and it is the only one where y
 
 This guide is written from research, not from a single visit. Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check train times before you go.
 
-{{< figure src="images/photos/suwon-02.webp" alt="Hwaseong Haenggung Palace in Suwon with traditional buildings" caption="The wall is 5.7 km and takes about three hours to walk. The wall walk is free every day. Photo: Adil, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/suwon-02.webp" alt="Hwaseong Haenggung Palace in Suwon with traditional buildings" caption="Hwaseong Haenggung Palace in Suwon with traditional buildings. Photo: Adil, CC BY-SA 4.0" >}}
 
 ## 🚆 How do you get there?
 
@@ -78,7 +78,7 @@ Free guided tours with a cultural heritage guide leave from the guide offices at
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/suwon-paldalmun-night-01.webp" alt="Paldalmun gate and the Hwaseong wall lit at night in Suwon" caption="The walls and gates are open all day, including after dark, and walking them is free. Photo: oreum, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/suwon-paldalmun-night-01.webp" alt="Paldalmun gate and the Hwaseong wall lit at night in Suwon" caption="Paldalmun gate and the Hwaseong wall lit at night in Suwon. Photo: oreum, CC BY-SA 3.0" >}}
 
 ## 🏯 What is inside Hwaseong Haenggung?
 
@@ -90,7 +90,7 @@ One thing to know about timing: the palace night opening ran on Friday, Saturday
 
 > **🔥 Local tip:** The palace is free on the last Wednesday of the month in the daytime, under the Culture Day program, and the wall walk itself is free every day. If the budget matters, that Wednesday is the day to pick. Based on recent visitor guides, checked November 2026.
 
-{{< figure src="images/photos/suwon-haenggung-gate-01.webp" alt="The stone gate of Hwaseong Haenggung palace in Suwon" caption="The palace night opening ended on November 1, so do not plan a night visit in late November. Photo: G41rn8, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/suwon-haenggung-gate-01.webp" alt="The stone gate of Hwaseong Haenggung palace in Suwon" caption="The stone gate of Hwaseong Haenggung palace in Suwon. Photo: G41rn8, CC BY-SA 4.0" >}}
 
 ## 🚋 Should you ride the trolley?
 
@@ -104,7 +104,7 @@ The trolley is a ride, not a substitute for walking. It shows you the fortress f
 
 Suwon galbi. The city is famous for its marinated beef short ribs, grilled at the table, and the restaurants near Paldalmun and the station have been serving them for decades. A galbi dinner runs roughly {{< pr "20,000-40,000 KRW" >}} per person based on recent listings, depending on the cut and the restaurant. Order the galbi, a pot of rice, and a stew to share, and let the staff grill the meat if they offer to.
 
-{{< figure src="images/photos/suwon-06.webp" alt="Marinated beef short ribs grilling on a charcoal grill at a Korean barbecue table" caption="A galbi dinner runs roughly 20,000 to 40,000 KRW per person. Photo: Jo Hanshin, CC0" >}}
+{{< figure src="images/photos/suwon-06.webp" alt="Marinated beef short ribs grilling on a charcoal grill at a Korean barbecue table" caption="Marinated beef short ribs grilling on a charcoal grill at a Korean barbecue table. Photo: Jo Hanshin, CC0" >}}
 
 If beef is not your thing, Suwon has a second classic: the fried chicken street near Paldalmun, where whole chickens are fried and served with a cold beer. It is cheaper than galbi, it is faster, and it is the right dinner if you have a train to catch.
 
@@ -112,7 +112,7 @@ If beef is not your thing, Suwon has a second classic: the fried chicken street 
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/suwon-05.webp" alt="Hwaseong Haenggung Palace in Suwon in the evening light" caption="The fried chicken street near Paldalmun is cheaper and faster, a good choice if you have a train to catch. Photo: Gayeong2133, CC0" >}}
+{{< figure src="images/photos/suwon-05.webp" alt="Hwaseong Haenggung Palace in Suwon in the evening light" caption="Hwaseong Haenggung Palace in Suwon in the evening light. Photo: Gayeong2133, CC0" >}}
 
 ## 🎫 Should you take a tour, or go yourself?
 

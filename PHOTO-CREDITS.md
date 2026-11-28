@@ -481,7 +481,7 @@ Brightened by the photo PM (mild auto-enhance): danyang-garlic-03, skywalk-aeria
 ## Duplicate fixes (2026-11-28)
 | busan-gamcheon-street-01.webp | Gamcheon Culture Village - 55503107051.jpg (Wikimedia Commons), replaces busan-gamcheon-sunset-01 (exact duplicate of busan-03) | xiquinhosilva | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Gamcheon_Culture_Village_-_55503107051.jpg |
 (seoul-cafe-02.webp removed from the Seoul cafes post: exact duplicate of ikseon-teal-hanok-01.)
-| seoul-subway-platform-01.webp | Gwangheungchang Station platform, Seoul Metro Line 6; subway post hero | G43 | CC BY 3.0 | https://commons.wikimedia.org/wiki/Category:Gwangheungchang_Station |
-| seoul-subway-platform-02.webp | Digital Media City Station platform, Line 6, with exit signs and platform doors; subway post body | G43 | CC BY 3.0 | https://commons.wikimedia.org/wiki/Category:Digital_Media_City_Station |
-| jeonju-hanok-roofs-01.webp | Gray-tiled hanok roofs of Jeonju Hanok Village with the city behind; Jeonju one-day hero | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/Category:Jeonju_Hanok_Village |
-| jeonju-gyeonggijeon-01.webp | Red wooden hall and courtyard at Gyeonggijeon, Jeonju; Jeonju one-day body (replaces jeonju-01 there) | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/Category:Gyeonggijeon |
+| seoul-subway-platform-01.webp | Gwangheungchang Station platform, Seoul Metro Line 6; subway post hero | G43 | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:SMRT_Seoul_Subway_Line_6_Gwangheungchang_Station.jpg |
+| seoul-subway-platform-02.webp | Digital Media City Station platform, Line 6, with exit signs and platform doors; subway post body | G43 | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:SMRT_Seoul_Subway_Line_6_Digital_Media_City_Station_Platform.jpg |
+| jeonju-hanok-roofs-01.webp | Gray-tiled hanok roofs of Jeonju Hanok Village with the city behind; Jeonju one-day hero | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Jeonju_Hanok_Maeul_02.jpg |
+| jeonju-gyeonggijeon-01.webp | Red wooden hall and courtyard at Gyeonggijeon, Jeonju; Jeonju one-day body (replaces jeonju-01 there) | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Gyeonggijeon_Shrine_04.jpg |

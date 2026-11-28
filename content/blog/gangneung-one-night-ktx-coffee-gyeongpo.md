@@ -40,7 +40,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/gangneung-02.webp" alt="Anmok Beach, home to the coffee street" caption="Start at Anmok and work north, with Gangmun and Gyeongpo beaches following in order. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gangneung-02.webp" alt="Anmok Beach, home to the coffee street" caption="Anmok Beach, home to the coffee street. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🚄 How do you get to Gangneung?
 
@@ -68,11 +68,11 @@ From Anmok, walk or take a short taxi to **Gyeongpo Beach**, the main beach of G
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/gangneung-01.webp" alt="The GYEONGPO photo frame on Gyeongpo Beach" caption="The line for the GYEONGPO frame is shortest at sunset, when most day visitors have left. Photo: Sergiy Galyonkin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gangneung-01.webp" alt="The GYEONGPO photo frame on Gyeongpo Beach" caption="The GYEONGPO photo frame on Gyeongpo Beach. Photo: Sergiy Galyonkin, CC BY-SA 4.0" >}}
 
 Behind the beach sits Gyeongpo Lake, with the Gyeongpodae Pavilion on its edge. Walk the lake path as the light fades. The loop takes about 40 minutes, and the pavilion is the quiet end to the day. In spring the lake path is lined with cherry blossoms, and in autumn the leaves turn, but the walk works in any season.
 
-{{< figure src="images/photos/gyeongpo-lake-blue-01.webp" alt="Gyeongpo Lake reflecting a blue sky" caption="The lake loop takes about 40 minutes and works in any season. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongpo-lake-blue-01.webp" alt="Gyeongpo Lake reflecting a blue sky" caption="Gyeongpo Lake reflecting a blue sky. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 {{< collage "images/photos/gangneung-02.webp|Anmok Beach|Mobius6, CC BY-SA 4.0" "images/photos/gyeongpo-lake-blue-01.webp|Gyeongpo Lake reflecting a blue sky|Mobius6, CC BY-SA 4.0" "images/photos/gangneung-04.webp|Jumunjin Beach|Mobius6, CC BY-SA 4.0" >}}
 
@@ -87,7 +87,7 @@ Behind the beach sits Gyeongpo Lake, with the Gyeongpodae Pavilion on its edge. 
 
 For dinner, walk to **Gangneung Jungang Market** for dakgangjeong, the sweet and spicy fried chicken the city is known for, or eat at a restaurant near Gyeongpo Beach. The market closes in the early evening, so go before 18:00 if you want the full choice.
 
-{{< figure src="images/photos/gangneung-07.webp" alt="The entrance of Gangneung Jungang Market at dusk" caption="The market is closed Sundays and the stalls close around 18:00. Half-and-half is the safe first box. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gangneung-07.webp" alt="The entrance of Gangneung Jungang Market at dusk" caption="The entrance of Gangneung Jungang Market at dusk. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 > **🔥 Local tip:** The dakgangjeong stalls sell mild, spicy, and half-and-half boxes, and the half-and-half is the safe pick for a first try. **Jungang Market** is closed on Sundays and the stalls close around 18:00, so buy your box before dinner and eat it back at your hotel or on the beach. Chodang-dong, near Gyeongpo, is the place for the soft tofu set: the tofu is made with seawater and comes with rice and side dishes, about 8,000 to {{< pr "12,000 KRW" >}}. Based on recent listings/reviews, checked November 2026.
 
@@ -99,15 +99,15 @@ Start the second day at **Jumunjin Beach**, about 20 minutes north by bus or tax
 
 > **🔥 Local tip:** The BTS bus stop stands on **Hyangho Beach**, just south of Jumunjin, and it is a photo spot, not a working bus stop: no real buses stop there. Buses 300 and 302 run from **Gangneung Station** toward Jumunjin in about 45 to 50 minutes, so build in that time for the morning. The stop has a small tripod stand, which solo visitors use for the photo. Based on recent listings/reviews, checked November 2026.
 
-{{< figure src="images/photos/gangneung-04.webp" alt="Jumunjin Beach, north of Gangneung" caption="Buses 300 and 302 from Gangneung Station take about 45 to 50 minutes, so build that into your morning. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gangneung-04.webp" alt="Jumunjin Beach, north of Gangneung" caption="Jumunjin Beach, north of Gangneung. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 If you have time before your train, stop at **Jeongdongjin Station** on the way back. It is the seaside station just south of Jumunjin, famous for being the closest station to the sea in Korea, and the sunrise from its platform is a classic.
 
-{{< figure src="images/photos/gangneung-06.webp" alt="Jeongdongjin Station, the seaside station near Jumunjin" caption="If you have time before your train, stop here on the way back. The sunrise from the platform is a classic. Photo: Unknown, CC0" >}}
+{{< figure src="images/photos/gangneung-06.webp" alt="Jeongdongjin Station, the seaside station near Jumunjin" caption="Jeongdongjin Station, the seaside station near Jumunjin. Photo: Unknown, CC0" >}}
 
 End the morning at Ojukheon, the historic house in town where the scholar Yulgok was born. The house and its museum take about an hour, and the black bamboo grove behind it is the part to walk slowly. Admission runs about {{< pr "3,000 KRW" >}} for an adult, based on recent listings.
 
-{{< figure src="images/photos/ojukheon-gate-01.webp" alt="The red gate and stone steps at Ojukheon under a blue sky" caption="Give the house and museum about an hour, and walk the black bamboo grove slowly. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/ojukheon-gate-01.webp" alt="The red gate and stone steps at Ojukheon under a blue sky" caption="The red gate and stone steps at Ojukheon under a blue sky. Photo: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🛏️ One night or two?
 

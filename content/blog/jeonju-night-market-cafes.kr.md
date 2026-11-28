@@ -33,7 +33,7 @@ map_note: "남부시장 야시장과 전주천은 확인된 좌표를 확보하�
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/jeonju-night-01.webp" alt="붉은 기둥과 단청이 있는 밤의 오목대" caption="오목대에서 마을로 천천히 내려오세요. 해 질 무렵 불빛이 켜지는 걸 보기 좋아요. 사진: Пекту Сан, CC0" >}}
+{{< figure src="images/photos/jeonju-night-01.webp" alt="붉은 기둥과 단청이 있는 밤의 오목대" caption="붉은 기둥과 단청이 있는 밤의 오목대예요. 사진: Пекту Сан, CC0" >}}
 
 ## 🌇 저녁은 어디서 시작할까?
 
@@ -43,11 +43,11 @@ map_note: "남부시장 야시장과 전주천은 확인된 좌표를 확보하�
 
 오목대에서 마을로 천천히 내려오세요. 큰길은 낮보다 한산해지고, 한옥 숙소 창문에서는 따뜻한 빛이 새어 나와요. 사진을 찍기에도, 특별한 일 없이 시간을 보내기에도 좋은 때예요.
 
-{{< figure src="images/photos/jeonju-night-06.webp" alt="오목대에서 내려다본 낮의 전주 한옥마을 기와지붕" caption="저녁에는 큰길이 낮보다 한산해져요. 해 지기 전에 오목대에 올라 보세요. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/jeonju-night-06.webp" alt="오목대에서 내려다본 낮의 전주 한옥마을 기와지붕" caption="오목대에서 내려다본 낮의 전주 한옥마을 기와지붕이에요. 사진: Bernard Gagnon, CC0" >}}
 
 {{< collage "images/photos/jeonju-night-04.webp|저녁 빛이 드는 한옥마을 거리|사진: ecodallaluna, CC BY-SA 2.0" "images/photos/jeonju-night-05.webp|한국 길거리 음식 노점|사진: teamshaw79, CC BY-SA 2.0" >}}
 
-{{< figure src="images/photos/jeonju2-p13-01.webp" alt="나뭇가지 너머로 내려다본 한옥 지붕들" caption="오목대는 한옥마을 가장자리 언덕 위에 있어요. 해가 지기 전에 올라 마을의 불빛이 켜지는 걸 보세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jeonju2-p13-01.webp" alt="나뭇가지 너머로 내려다본 한옥 지붕들" caption="나뭇가지 너머로 내려다본 한옥 지붕들이에요. 사진: Pexels" >}}
 
 ## 🌮 남부시장 야시장은 어떤 곳일까?
 
@@ -61,7 +61,7 @@ map_note: "남부시장 야시장과 전주천은 확인된 좌표를 확보하�
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/jeonju2-p13-02.webp" alt="한옥 상점이 늘어선 가을의 전주 골목" caption="야시장은 금·토요일에만 열려요. 가기 전에 운영 일정을 확인하세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jeonju2-p13-02.webp" alt="한옥 상점이 늘어선 가을의 전주 골목" caption="한옥 상점이 늘어선 가을의 전주 골목이에요. 사진: Pexels" >}}
 
 ## 🍶 시장 다음에는 무엇을 먹을까?
 
@@ -75,7 +75,7 @@ map_note: "남부시장 야시장과 전주천은 확인된 좌표를 확보하�
 
 {{< sticker kind="pro-tip" >}}
 
-{{< figure src="images/photos/jeonju-night-03.webp" alt="남부시장 옆 나무와 강이 있는 전주천" caption="전주천은 남부시장에서 식사한 뒤 조용히 걷기 좋은 길이에요. 사진: Shamus7792003, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-night-03.webp" alt="남부시장 옆 나무와 강이 있는 전주천" caption="남부시장 옆 나무와 강이 있는 전주천이에요. 사진: Shamus7792003, CC BY-SA 4.0" >}}
 
 ## 🌙 시장이 문을 닫으면 어디로 갈까?
 
@@ -85,7 +85,7 @@ map_note: "남부시장 야시장과 전주천은 확인된 좌표를 확보하�
 
 한 곳을 골라 한 잔만 마시고 마무리하세요. 다음 날 아침의 한옥마을도 즐기려면 너무 늦지 않게 쉬세요.
 
-{{< figure src="images/photos/jeonju2-p13-03.webp" alt="기와 담장이 이어진 한옥 골목" caption="한옥 게스트하우스는 주말에 좋은 방부터 차요. 미리 예약하세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jeonju2-p13-03.webp" alt="기와 담장이 이어진 한옥 골목" caption="기와 담장이 이어진 한옥 골목이에요. 사진: Pexels" >}}
 
 ## ☕ 밤에도 카페에 갈 수 있을까?
 

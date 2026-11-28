@@ -66,7 +66,7 @@ Spend the afternoon walking. Start at **Dongmun Traditional Market**, which is t
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/jeju-05.webp" alt="Stalls inside Dongmun Traditional Market in Jeju City" caption="The night-market rush is 19:00 to 21:00. Go before 19:00 for quieter stalls. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-05.webp" alt="Stalls inside Dongmun Traditional Market in Jeju City" caption="Stalls inside Dongmun Traditional Market in Jeju City. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
 
 After the market, walk to Yongduam Rock on the coast, about 30 minutes on foot or one short bus ride away. It is a small dragon-shaped rock in the sea, and the point is the walk there along the water, not the rock itself. Come back through the black-pork streets near the old city for dinner. Black pork barbecue runs about 15,000 to {{< pr "25,000 KRW" >}} per person, and most places have picture menus.
 
@@ -76,15 +76,15 @@ After the market, walk to Yongduam Rock on the coast, about 30 minutes on foot o
 
 Day 2 is the big one, and the bus makes it work if you start early. Take trunk bus 701 or 702 from Jeju City toward **Hamdeok Beach** first, about 40 to 50 minutes. Hamdeok is the prettiest easy beach on the north coast, with clear water and white sand, and it is calm before the afternoon wind.
 
-{{< figure src="images/photos/jeju-04.webp" alt="Hamdeok Beach in Jocheon with clear water and white sand" caption="Trunk bus 701 or 702 takes 40 to 50 minutes. The beach is calm before the afternoon wind. Photo: Hong Da Hyeon, CC0" >}}
+{{< figure src="images/photos/jeju-04.webp" alt="Hamdeok Beach in Jocheon with clear water and white sand" caption="Hamdeok Beach in Jocheon with clear water and white sand. Photo: Hong Da Hyeon, CC0" >}}
 
 From Hamdeok, stay on the eastbound trunk bus toward Seongsan. The ride takes another hour or so, and the bus stops at **Seongeup Folk Village** on the way. Get off there for an hour. The village is a small cluster of thatched stone houses, and it is {{< mk "free to walk" >}} through. It is also the best place on this route to see what a Jeju farmhouse actually looked like.
 
-{{< figure src="images/photos/jeju-06.webp" alt="Thatched stone houses at Seongeup Folk Village" caption="Get off the bus here for an hour. The village is free to walk through. Photo: Seefooddiet, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-06.webp" alt="Thatched stone houses at Seongeup Folk Village" caption="Thatched stone houses at Seongeup Folk Village. Photo: Seefooddiet, CC BY-SA 4.0" >}}
 
 End the day at Seongsan Ilchulbong, the tuff cone on the eastern tip. The stair climb to the top takes 30 to 40 minutes, and the crater view is worth it. Ticket sales stop an hour before closing, and the site closes on the first Monday of each month, so check the day before. The last bus back to Jeju City leaves Seongsan in the early evening, so plan to be on it. If that timing feels tight, a private car with a driver covers the same east loop without the bus timetable.
 
-{{< figure src="images/photos/jeju-07.webp" alt="Seongsan Ilchulbong rising over Seongsan village and the sea" caption="The peak closes on the first Monday of each month, and ticket sales stop an hour before closing. Catch the last bus back. Photo: Justin De La Ornell, CC BY 2.0" >}}
+{{< figure src="images/photos/jeju-07.webp" alt="Seongsan Ilchulbong rising over Seongsan village and the sea" caption="Seongsan Ilchulbong rising over Seongsan village and the sea. Photo: Justin De La Ornell, CC BY 2.0" >}}
 
 > **🔥 Local tip:** Seongsan closes on the first Monday of every month, and if that Monday is a public holiday it closes the next day instead, so check before you set day 2 in stone. Express buses 111 and 101 also run between the airport or central Jeju City and Seongsan, which can be faster than the trunk bus. Based on recent listings/reviews, checked November 2026.
 
@@ -98,11 +98,11 @@ Day 3 is a choice, and you should pick one. Option A is Hallasan, the mountain i
 
 Option B is an Olle Trail section, and it is the better pick if your legs are tired from day 2. The Olle trails are marked coastal walking routes, and the blue and orange ribbons are the markers you follow. Pick a flat section near Jeju City or Hamdeok, walk for 2 to 3 hours, and stop at a cafe when you feel like it. It is a walk, not a hike, and that is the appeal.
 
-{{< figure src="images/photos/jeju-03.webp" alt="Blue and orange ribbons marking the Jeju Olle Trail" caption="Pick a flat stretch, walk 2 to 3 hours and stop at a cafe. It is a walk, not a hike. Photo: Unknown, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/jeju-03.webp" alt="Blue and orange ribbons marking the Jeju Olle Trail" caption="Blue and orange ribbons marking the Jeju Olle Trail. Photo: Unknown, CC BY-SA 3.0" >}}
 
 {{< collage "images/photos/jeju-03.webp|Olle Trail ribbons|Unknown, CC BY-SA 3.0" "images/photos/jeju-04.webp|Hamdeok Beach|Hong Da Hyeon, CC0" "images/photos/jeju-06.webp|Seongeup Folk Village|Seefooddiet, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/jeju3-olle-coast-01.webp" alt="A coastal walking path of the Jeju Olle Trail beside the sea" caption="It is a walk, not a hike. Pick a flat stretch and stop at a cafe when you feel like it. Photo: Jeju Olle Foundation, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju3-olle-coast-01.webp" alt="A coastal walking path of the Jeju Olle Trail beside the sea" caption="A coastal walking path of the Jeju Olle Trail beside the sea. Photo: Jeju Olle Foundation, CC BY-SA 4.0" >}}
 
 ## 🛏️ Where should you stay?
 

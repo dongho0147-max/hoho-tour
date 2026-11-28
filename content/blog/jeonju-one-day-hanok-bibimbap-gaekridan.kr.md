@@ -68,7 +68,7 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 **이 글은 전주시와 한국관광공사 등 공식 안내를 바탕으로 2026년 11월에 정리했어요.** 열차 시간과 운영 시간은 바뀔 수 있으니 예매 전에 확인하세요.
 
-{{< figure src="images/photos/jeonju-gyeonggijeon-01.webp" alt="경기전의 붉은 목조 건물과 마당" caption="햇살이 드는 마당과 붉은 목조 건물이 있는 경기전이에요. 사진: Bernard Gagnon, Wikimedia Commons, CC0" >}}
+{{< figure src="images/photos/jeonju-gyeonggijeon-01.webp" alt="경기전의 붉은 목조 건물과 마당" caption="경기전의 붉은 목조 건물과 마당이에요. 사진: Bernard Gagnon, Wikimedia Commons, CC0" >}}
 
 ## 🚄 어떻게 가나요?
 
@@ -106,11 +106,11 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/jeonju1-p13-01.webp" alt="푸른 기와지붕이 이어진 한옥 지붕들" caption="한옥마을 골목은 돌과 벽돌길이라 생각보다 많이 걸어요. 편한 신발을 신으세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jeonju1-p13-01.webp" alt="푸른 기와지붕이 이어진 한옥 지붕들" caption="푸른 기와지붕이 이어진 한옥 지붕들이에요. 사진: Pexels" >}}
 
-{{< figure src="images/photos/jeonju-cathedral-01.webp" alt="푸른 하늘 아래 붉은 벽돌의 전동성당 정면" caption="전동성당은 09:00~17:00에 열고 미사 시간에는 관람이 제한돼요. 경기전보다 일찍 닫으니 먼저 들르세요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-cathedral-01.webp" alt="푸른 하늘 아래 붉은 벽돌의 전동성당 정면" caption="푸른 하늘 아래 붉은 벽돌의 전동성당 정면이에요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/jeonju-omokdae-01.webp" alt="오목대 정자 안에서 본 한옥마을과 도심 전경" caption="오목대에서는 지붕들 너머 마을이 내려다보여요. 마을은 전부 도보이니 편한 신발을 신으세요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-omokdae-01.webp" alt="오목대 정자 안에서 본 한옥마을과 도심 전경" caption="오목대 정자 안에서 본 한옥마을과 도심 전경이에요. 사진: Mobius6, CC BY-SA 4.0" >}}
 
 ## 🍚 점심은 무엇을 먹을까요?
 
@@ -118,7 +118,7 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 줄이 길면 한두 골목 건너로 가세요. 마을에는 좋은 부엌이 가득하고, 현지 분들이 먹는 곳에서 먹는 게 가장 안전해요.
 
-{{< figure src="images/photos/seoul-35.webp" alt="당근, 버섯, 달걀, 고기, 고추장이 올라간 비빔밥 한 그릇" caption="비빔밥집은 주말 점심에 줄이 길어요. 11시 정각이나 14시 이후가 덜 기다려요. 사진: Chloe Lim, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-35.webp" alt="당근, 버섯, 달걀, 고기, 고추장이 올라간 비빔밥 한 그릇" caption="당근, 버섯, 달걀, 고기, 고추장이 올라간 비빔밥 한 그릇이에요. 사진: Chloe Lim, CC BY 2.0" >}}
 
 > **🔥 현지 팁:** 이름난 비빔밥집은 주말 점심에 줄이 길어요. 11시 정각이나 14시 이후에 가면 덜 기다려요. 가격과 브레이크타임은 가게마다 다르니 방문 전에 확인하세요.
 
@@ -132,7 +132,7 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 이동을 남에게 맡기고 싶다면, 서울 출발 가이드 데이투어도 있어요. 상품마다 일정과 복귀 시간이 다르고 교통 체증으로 늦어질 수 있으니 예약 전에 상세 페이지를 확인하세요.
 
-{{< figure src="images/photos/jeonju1-p13-02.webp" alt="돌길로 이어지는 한옥 대문" caption="데이투어는 일정과 복귀 시간이 상품마다 달라요. 예약 전에 상세 페이지를 확인하세요. 사진: Pexels" >}}
+{{< figure src="images/photos/jeonju1-p13-02.webp" alt="돌길로 이어지는 한옥 대문" caption="돌길로 이어지는 한옥 대문이에요. 사진: Pexels" >}}
 
 {{< aff href="https://www.klook.com/activity/86815-jeonju-day-tour/?aid=145455" text="클룩에서 서울 출발 전주 한옥마을 당일투어 보기" >}}
 
@@ -146,13 +146,13 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 빛이 더 좋고 거리가 더 한산해요. 대여 요금과 시간은 가게마다 달라요.
 
-{{< figure src="images/photos/jeonju-04.webp" alt="가게가 있는 전주 시내의 거리" caption="객리단길은 한옥마을에서 조금만 걸으면 나와요. 빛이 좋고 한산한 시간에 가세요. 사진: Shamus7792003, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-04.webp" alt="가게가 있는 전주 시내의 거리" caption="가게가 있는 전주 시내의 거리예요. 사진: Shamus7792003, CC BY-SA 4.0" >}}
 
 ## 🌙 하룻밤 묵어야 할까요?
 
 **가능하다면 네.** 당일치기 손님이 떠나고 등이 켜지는 밤에는 마을이 달라져요. 마을 안에는 한옥 게스트하우스가 있고, 마당 있는 집의 온돌바닥에서 자는 것도 경험의 일부예요.
 
-{{< figure src="images/photos/jeonju-05.webp" alt="나무 테이블 위의 막걸리 한 사발" caption="밤에는 마을이 달라져요. 가능하면 한옥 게스트하우스에서 하룻밤 묵어 보세요. 사진: jinho kim, CC0" >}}
+{{< figure src="images/photos/jeonju-05.webp" alt="나무 테이블 위의 막걸리 한 사발" caption="나무 테이블 위의 막걸리 한 사발이에요. 사진: jinho kim, CC0" >}}
 
 시장 가판과 막걸리까지 포함한 이 하루의 밤 버전이 [해 진 뒤의 전주 가이드](/kr/blog/jeonju-night-market-cafes/)예요. 그리고 시장 한 끼로 부족하다면 [서울의 옛 시장을 천천히 걷는 먹거리 산책](/kr/blog/seoul-market-food-walk/)이 서울에서의 같은 아이디어예요. 걷고, 가리키고, 먹고, 반복하세요.
 

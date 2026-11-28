@@ -59,7 +59,7 @@ map_note: "대전역점은 별도의 지도 등록이 없어 대전역 위치에
 
 이 글은 그 빵 원정을 하루 일정으로 바꿨어요. 대전역점, 본점, 소제동 카페, 한밭수목원, 해 질 녘 엑스포다리까지 이어져요. 운영 시간과 휴무는 성심당 공식 누리집, 대전시, 대전컨벤션센터 안내를 바탕으로 2026년 11월에 정리했어요.
 
-{{< figure src="images/photos/daejeon-02.webp" alt="성심당 매장 안 붐비는 빵 진열 트레이, 가격표가 붙은 크루아상과 페이스트리" caption="튀김 소보로는 따뜻할 때 드시고, 큰 쇼핑은 본점에서 하세요. 사진: Trainholic, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/daejeon-02.webp" alt="성심당 매장 안 붐비는 빵 진열 트레이, 가격표가 붙은 크루아상과 페이스트리" caption="성심당 매장 안 붐비는 빵 진열 트레이, 가격표가 붙은 크루아상과 페이스트리예요. 사진: Trainholic, CC BY-SA 4.0" >}}
 
 빵 가격과 대기 줄은 날마다 달라서 따로 적지 않았어요. 가기 전에 한 번 더 확인하세요.
 
@@ -85,7 +85,7 @@ ITX나 무궁화호는 더 오래 걸리니 빵 투어 당일에는 KTX가 편�
 
 요령은 간단해요. 튀김 소보로 하나를 지금 사서 따뜻할 때 먹고, 큰 쇼핑은 본점에서 하세요. 아침에는 한산한 편이라는 후기가 많고, 퇴근 시간대에는 기차에서 먹을 빵을 사려는 사람들로 붐벼요.
 
-{{< figure src="images/photos/daejeon-03.webp" alt="대전 지하철 1호선 대전역의 기차 모양 출입구" caption="대전역점은 퇴근 시간대에 기차에서 먹을 빵을 사려는 사람들로 붐벼요. 사진: Youngjin, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/daejeon-03.webp" alt="대전 지하철 1호선 대전역의 기차 모양 출입구" caption="대전 지하철 1호선 대전역의 기차 모양 출입구예요. 사진: Youngjin, CC BY-SA 3.0" >}}
 
 ## 🍞 2코스: 본점, 줄 서기 게임
 
@@ -98,7 +98,7 @@ ITX나 무궁화호는 더 오래 걸리니 빵 투어 당일에는 KTX가 편�
 {{< sticker kind="pro-tip" >}}
 
 
-{{< figure src="images/photos/daejeon-p13-01.webp" alt="저녁에 불이 켜진 성심당 본점 입구" caption="본점은 저녁에도 사람이 많아요. 줄에 서기 전에 살 빵부터 정해 두세요. 사진: Trainholic, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/daejeon-p13-01.webp" alt="저녁에 불이 켜진 성심당 본점 입구" caption="저녁에 불이 켜진 성심당 본점 입구예요. 사진: Trainholic, CC BY-SA 4.0" >}}
 
 ## 🛒 무엇을 사면 좋을까요?
 
@@ -110,7 +110,7 @@ ITX나 무궁화호는 더 오래 걸리니 빵 투어 당일에는 KTX가 편�
 
 {{< sticker kind="yum" >}}
 
-{{< figure src="images/photos/daejeon-p13-02.webp" alt="성심당 진열대에 놓인 여러 종류의 빵" caption="진열대를 보고 고르되 가격은 매장 가격표로 확인하세요. 케이크는 빵 줄이 아니라 케이크 부티크에서 따로 팔아요. 사진: Trainholic, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/daejeon-p13-02.webp" alt="성심당 진열대에 놓인 여러 종류의 빵" caption="성심당 진열대에 놓인 여러 종류의 빵이에요. 사진: Trainholic, CC BY-SA 4.0" >}}
 
 ## ☕ 3코스: 소제동 카페, 숨 고르기
 
@@ -146,7 +146,7 @@ ITX나 무궁화호는 더 오래 걸리니 빵 투어 당일에는 KTX가 편�
 
 {{< sticker kind="photo-spot" >}}
 
-{{< figure src="images/photos/daejeon-06.webp" alt="밤의 대전 엑스포다리, 조명 켜진 아치와 멀리 보이는 한빛탑" caption="엑스포다리는 해 질 녘에 가세요. 밤에는 조명이 켜져요. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/daejeon-06.webp" alt="밤의 대전 엑스포다리, 조명 켜진 아치와 멀리 보이는 한빛탑" caption="밤의 대전 엑스포다리, 조명 켜진 아치와 멀리 보이는 한빛탑이에요. 사진: Bernard Gagnon, CC0" >}}
 
 ## 🗺️ 하루 코스, 시간대별 정리
 

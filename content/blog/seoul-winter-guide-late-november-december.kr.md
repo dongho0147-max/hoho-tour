@@ -97,11 +97,11 @@ stops:
 
 일몰을 보러 가서 어둠이 내린 첫 한 시간까지 머문 뒤 저녁을 먹으러 내려가세요. 전망대 요금은 공식 안내로 성인(만 13세 이상) **{{< pr "29,000원" >}}**이에요. 야외 테라스와 광장은 따로 돈이 들지 않아요.
 
-{{< figure src="images/photos/seoul-16.webp" alt="낮에 아래 거리에서 본 N서울타워" caption="N서울타워는 해질녘이 좋아요. 언덕 위라 춥고 바람이 부니 단단히 입으세요. 사진: Devianagloria, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-16.webp" alt="낮에 아래 거리에서 본 N서울타워" caption="낮에 아래 거리에서 본 N서울타워예요. 사진: Devianagloria, CC BY-SA 4.0" >}}
 
 도심에도 겨울 즐거움이 있어요. 동대문디자인플라자(DDP)는 밤에 우주선처럼 보이고, 12월 17일부터 31일까지 서울라이트 DDP 겨울이라는 이름으로 외벽 미디어파사드와 크리스마스 연출이 열려요(서울시 펀서울). 저녁을 먹은 뒤 조명이 켜졌을 때 가서 30분쯤 바라보세요.
 
-{{< figure src="images/photos/seoul-23.webp" alt="흑백으로 본 밤의 동대문디자인플라자" caption="DDP는 12월 17일부터 31일까지 서울라이트 DDP 겨울이 열려요. 저녁을 먹은 뒤 조명이 켜졌을 때 가세요. 사진: anokarina, CC BY-SA" >}}
+{{< figure src="images/photos/seoul-23.webp" alt="흑백으로 본 밤의 동대문디자인플라자" caption="흑백으로 본 밤의 동대문디자인플라자예요. 사진: anokarina, CC BY-SA" >}}
 
 {{< aff href="https://www.klook.com/en-US/activity/412-n-seoul-tower-seoul/?aid=145455" text="클룩에서 N서울타워 전망대 티켓 예약하기" >}}
 

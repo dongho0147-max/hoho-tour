@@ -45,7 +45,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/gyeongju-night-02.webp" alt="푸른 시간대에 불이 켜진 월정교" caption="경주의 밤은 해가 지면 빠르게 추워져요. 따뜻하게 입으세요. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-night-02.webp" alt="푸른 시간대에 불이 켜진 월정교" caption="푸른 시간대에 불이 켜진 월정교예요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 ## 🌆 해 질 녘에 시작: 동궁과 월지
 
@@ -57,7 +57,7 @@ stops:
 
 **입장료는 성인 {{< pr "3,000원" >}}, 청소년 {{< pr "2,000원" >}}, 어린이 {{< pr "1,000원" >}}이에요.** 경주시 안내에 따르면 경내에 들어서서 복원 건물 세 곳을 지나 뒤쪽 관람로를 따라가면, 사람들이 모여 있는 곳이 야경 사진을 가장 예쁘게 담을 수 있는 자리예요.
 
-{{< figure src="images/photos/gyeongju-night-01.webp" alt="밤에 불이 켜진 동궁과 월지" caption="일몰 전에 입장해 조명이 켜지는 모습을 보세요. 늦게 가면 21:30 전에 표를 사야 하고, 플래시는 꺼 두세요. 사진: lumoplank, CC0" >}}
+{{< figure src="images/photos/gyeongju-night-01.webp" alt="밤에 불이 켜진 동궁과 월지" caption="밤에 불이 켜진 동궁과 월지예요. 사진: lumoplank, CC0" >}}
 
 > **🔥 현지 팁:** {{< mk "일몰 전에 입장해서 조명이 켜지고 하늘이 푸르게 변하는 모습을 보세요." >}} 매표 마감과 폐장 시간이 다르니, 늦게 도착한다면 21:30 전에 표를 사야 해요. 넓은 연못에서는 플래시가 소용없으니 끄세요.
 
@@ -77,13 +77,13 @@ stops:
 
 다리 앞 징검다리에 서서 강 위에서 은은하게 빛나는 다리를 담아 보세요. 다리 안으로 들어가 걸을 수도 있고, 문루 전시관은 10:00부터 열어요.
 
-{{< figure src="images/photos/gyeongju-night-05.webp" alt="황금빛 시간대의 월정교 북문" caption="월정교 앞 징검다리에서 강 위로 빛나는 다리를 담아 보세요. 문루 전시관은 10:00부터 열어요. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-night-05.webp" alt="황금빛 시간대의 월정교 북문" caption="황금빛 시간대의 월정교 북문이에요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 연못과 다리 사이의 걸음도 저녁의 일부예요. 고분 공원의 가장자리와 구도심의 조용한 골목을 지나는 구간이에요.
 
 겨울에 이 길을 걷는다면 따뜻하게 입으세요. 경주의 밤은 해가 지면 빠르게 추워져요.
 
-{{< figure src="images/photos/gyeongju-night-06.webp" alt="푸른 하늘 아래 대릉원의 잔디 고분들" caption="연못에서 월정교까지는 고분 공원 가장자리와 조용한 골목을 걸어요. 따뜻하게 입으세요. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-night-06.webp" alt="푸른 하늘 아래 대릉원의 잔디 고분들" caption="푸른 하늘 아래 대릉원의 잔디 고분들이에요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 ## 🗼 조명 아래의 첨성대
 
@@ -93,9 +93,9 @@ stops:
 
 **겨울에 간다면 21:00를 기준으로 일정을 잡으세요.** 들어갈 곳도 사야 할 티켓도 없어서 보고 걸어가는 코스예요.
 
-{{< figure src="images/photos/gyeongju-night-03.webp" alt="밤에 푸르게 불이 켜진 첨성대" caption="겨울에는 21:00를 기준으로 일정을 잡으세요. 티켓 없이 보며 걷는 코스예요. 사진: Brinacor, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gyeongju-night-03.webp" alt="밤에 푸르게 불이 켜진 첨성대" caption="밤에 푸르게 불이 켜진 첨성대예요. 사진: Brinacor, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/gyeongju-night-04.webp" alt="물 건너 정자가 보이는 낮의 안압지" caption="동궁과 월지는 해가 지면 정자에 불이 켜져요. 일몰 전에 입장하세요. 사진: 螺钉, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/gyeongju-night-04.webp" alt="물 건너 정자가 보이는 낮의 안압지" caption="물 건너 정자가 보이는 낮의 안압지예요. 사진: 螺钉, CC BY-SA 3.0" >}}
 
 ## 🍜 황리단길에서 마무리
 

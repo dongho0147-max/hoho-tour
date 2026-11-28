@@ -72,7 +72,7 @@ If you want a guided first run through the old food streets instead of going alo
 
 {{< aff href="https://www.klook.com/en-US/activity/87680-seoul-food-tour/?aid=145455" text="Browse small-group Seoul food tours on Klook" >}}
 
-{{< figure src="images/photos/seoul-37.webp" alt="Samgyetang, ginseng chicken soup in a stone pot, whole chicken in bubbling broth" caption="Pay at the entrance counter when you arrive, and taste the broth before adding salt. Photo: karendotcom127, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-37.webp" alt="Samgyetang, ginseng chicken soup in a stone pot, whole chicken in bubbling broth" caption="Samgyetang, ginseng chicken soup in a stone pot, whole chicken in bubbling broth. Photo: karendotcom127, CC BY 2.0" >}}
 
 ## 🐔 Where is the palace chicken soup? Tosokchon Samgyetang
 
@@ -100,7 +100,7 @@ Wangbijib is the barbecue exception in Myeongdong, a district where most grill h
 
 Fresh pork belly is {{< pr "19,000 KRW" >}} a portion. Marinated Korean pork is {{< pr "24,000 KRW" >}}, and marinated beef short rib is {{< pr "44,000 KRW" >}}. The best value is the lunch pork galbi set at {{< pr "15,000 KRW" >}}, served from 11:30 to 15:00, and {{< pr "17,000 KRW" >}} after that. The shop is open daily from 11:30 to 22:00, last order 21:15, and it takes reservations on Naver Booking. There is a one-person hanwoo set at {{< pr "49,000 KRW" >}}, which is rare. Most barbecue rooms want two portions minimum, and solo diners get turned away.
 
-{{< figure src="images/photos/seoul-43.webp" alt="Charcoal-grilled Korean beef on a mesh grill over glowing coals" caption="After 19:00 on a weekend, send one person ahead for a table. The stairs to the second floor are steep. Photo: lazy fri13th, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-43.webp" alt="Charcoal-grilled Korean beef on a mesh grill over glowing coals" caption="Charcoal-grilled Korean beef on a mesh grill over glowing coals. Photo: lazy fri13th, CC BY 2.0" >}}
 
 Dinner for two with drinks lands around 50,000 to {{< pr "70,000 KRW" >}}, so it is not a cheap night. The stairs to the second floor are steep, and the room gets loud at peak hours. After 19:00 on a weekend, send one person ahead for a table. Order the pork belly for two, add a doenjang jjigae to finish, and let the staff do the grilling. That is the whole trick.
 
@@ -108,7 +108,7 @@ If you want the palace and the food in one guided morning, a half-day tour pairs
 
 {{< aff href="https://www.klook.com/en-US/activity/95245-gyeongbokgung-tour/?aid=145455" text="Browse the Gyeongbokgung palace and food half-day tour on Klook" >}}
 
-{{< figure src="images/photos/seoul-34.webp" alt="Samgyeopsal, grilled pork belly slices and kimchi on a grill" caption="Order the pork belly for two, add a doenjang jjigae to finish, and let the staff do the grilling. Photo: moso, CC BY 2.0" >}}
+{{< figure src="images/photos/seoul-34.webp" alt="Samgyeopsal, grilled pork belly slices and kimchi on a grill" caption="Samgyeopsal, grilled pork belly slices and kimchi on a grill. Photo: moso, CC BY 2.0" >}}
 
 ## 🗺️ Your two days at a glance
 

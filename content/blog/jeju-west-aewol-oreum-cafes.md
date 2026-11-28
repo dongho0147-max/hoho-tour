@@ -57,7 +57,7 @@ West Jeju is the slow side of the island. The beaches are paler, the hills are l
 
 This guide was put together from recent listings, reviews, and official pages, checked November 2026. Opening hours and cafe menus change often, so check the big ones the day before you go.
 
-{{< figure src="images/photos/jeju-west-02.webp" alt="The coast at Aewol in western Jeju" caption="Opening hours and cafe menus change often, so check the big stops the day before. Photo: Jeong seolah, CC0" >}}
+{{< figure src="images/photos/jeju-west-02.webp" alt="The coast at Aewol in western Jeju" caption="The coast at Aewol in western Jeju. Photo: Jeong seolah, CC0" >}}
 
 ## 🌊 Start at Hyeopjae Beach and Hallim Park
 
@@ -65,7 +65,7 @@ Start at **Hyeopjae Beach**, on the northwest coast. It is the pale-sand beach t
 
 Next door is **Hallim Park**, a garden park built on old lava fields, with palm gardens, a bonsai garden, and two lava caves you walk through underground. Give it 1.5 to 2 hours. Admission runs about 12,000 to {{< hl "15,000 KRW" >}} for an adult, based on recent listings. The park is the weather-proof part of this day: if the wind picks up on the beach, the palm garden and the caves still work.
 
-{{< figure src="images/photos/jeju-west-05.webp" alt="Gardens inside Hallim Park in western Jeju" caption="The park is the weather-proof stop. If the wind picks up on the beach, the palm garden and caves still work. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-west-05.webp" alt="Gardens inside Hallim Park in western Jeju" caption="Gardens inside Hallim Park in western Jeju. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
 
 > **🔥 Local tip:** Hyeopjae and Geumneung beaches sit next to each other, and Geumneung is the quieter of the two. If Hyeopjae is busy, walk 10 minutes east and you get the same sand with fewer people.
 
@@ -75,7 +75,7 @@ Drive or take the bus inland to **O'sulloc Tea Museum**, about 30 to 40 minutes 
 
 Two things to know before you go. First, the tea fields are a working farm, so stay on the paths and do not walk into the rows for photos. Second, the museum runs booked tea programs that sell out, so if you want one, book ahead and do not count on a walk-in spot.
 
-{{< figure src="images/photos/jeju-west-04.webp" alt="The tea fields at O'sulloc Tea Museum" caption="The fields are a working farm, so stay on the paths. Go at opening or after 16:00 to miss the crowds. Photo: Matt Kieffer, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/jeju-west-04.webp" alt="The tea fields at O'sulloc Tea Museum" caption="The tea fields at O'sulloc Tea Museum. Photo: Matt Kieffer, CC BY-SA 2.0" >}}
 
 > **🔥 Local tip:** O'sulloc is {{< mk "free to enter" >}} and open 09:00 to 18:00 every day, but the crowd peaks hard between 11:00 and 15:00, when tour buses roll in. Go right at opening or after 16:00 and the whole place breathes again. At the cafe, grab a seat first and order second: one person holds the table while the other queues, or check the mobile order option if the counter line is long. Based on recent visitor reviews, checked November 2026.
 
@@ -99,7 +99,7 @@ Prices run about 6,000 to {{< pr "9,000 KRW" >}} for a latte and 7,000 to {{< pr
 
 Saebyeol Oreum is a low volcanic cone, and it is the sunset stop on this route. The walk up takes about 20 to 30 minutes on a clear path, and the top gives you a wide view over the fields and the sea. It is not a hard climb, but wear proper shoes: the path is dirt and loose stone in places.
 
-{{< figure src="images/photos/jeju-west-03.webp" alt="Saebyeol Oreum, a low volcanic cone in western Jeju" caption="Reach the top about 30 minutes before sunset. Bring a layer, because the wind is stronger than at the car park. Photo: M Min, CC BY 3.0" >}}
+{{< figure src="images/photos/jeju-west-03.webp" alt="Saebyeol Oreum, a low volcanic cone in western Jeju" caption="Saebyeol Oreum, a low volcanic cone in western Jeju. Photo: M Min, CC BY 3.0" >}}
 
 Time it so you reach the top about 30 minutes before sunset. Bring a layer: the wind on the cone is stronger than it feels at the car park, and it cools fast after the sun drops. If the sky is cloudy, skip the climb and go straight to Aewol instead. A grey sunset from a hill is not better than a good coffee by the sea.
 
@@ -109,7 +109,7 @@ Time it so you reach the top about 30 minutes before sunset. Bring a layer: the 
 
 End the day on the Handam Coastal Trail at Aewol, a flat lava-rock walk along the water lined with cafes. Walk for 30 to 40 minutes, pick a cafe, and sit. This is the part of the day to stop planning. The trail is the destination, and the sunset, the seat, and the light are never guaranteed, so enjoy whichever version you get.
 
-{{< figure src="images/photos/jeju-west-06.webp" alt="The clear water at Gwakji Beach in western Jeju" caption="Walk the Handam trail for 30 to 40 minutes, then pick a cafe and sit. The sunset is never guaranteed. Photo: Jeong seolah, CC0" >}}
+{{< figure src="images/photos/jeju-west-06.webp" alt="The clear water at Gwakji Beach in western Jeju" caption="The clear water at Gwakji Beach in western Jeju. Photo: Jeong seolah, CC0" >}}
 
 {{< collage "images/photos/jeju-west-01.webp|Hyeopjae Beach, the pale-sand beach that starts the day|Jeong seolah, CC0" "images/photos/jeju-west-07.webp|A warm matcha latte on a cafe table, the drink this coast runs on|Cendy00, CC BY 4.0" >}}
 
