@@ -1092,3 +1092,5 @@ body:has(.home-map--first)::before{background:linear-gradient(rgba(252,249,243,.
 @media(min-width:1080px){.pw__tabad{display:inline}}
 .pw__tab{text-orientation:sideways}
 .pw__tabad::before{content:"\00a0\00b7\00a0"}
+.pw__tabbrand{display:inline;margin:0 0 0 .5em;font-weight:800;letter-spacing:0;text-transform:none;color:var(--ink)}
+.pw__tabbrand::before{content:"\00b7\00a0";font-weight:400;color:#666}
