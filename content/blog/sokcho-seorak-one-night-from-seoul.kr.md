@@ -76,7 +76,7 @@ landmarks:
 
 **이 글은 설악 케이블카, 국립공원공단, 속초시시설관리공단 등 공식 안내를 바탕으로 2026년 11월에 정리했어요.** 버스 시간과 케이블카 운행은 당일 기준으로 다시 확인하세요.
 
-{{< figure src="images/photos/sokcho-02.webp" alt="산 위 케이블에 매달린 설악산 케이블카" caption="케이블카 운행은 당일 기준으로 다시 확인하세요. 사진: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/seorak-cablecar-01.webp" alt="초록 산자락 위를 지나는 설악산 케이블카" caption="케이블카 운행은 당일 기준으로 다시 확인하세요. 사진: Bernard Gagnon, CC0" >}}
 
 ## 🚌 고속버스로 갈까, 투어를 이용할까?
 

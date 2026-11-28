@@ -60,7 +60,7 @@ The fish stall is the best example. Stand in front of it for a minute and really
 
 If raw fish is your thing, **Noryangjin Fisheries Wholesale Market** is a separate trip, and it is worth its own morning. The octopus there is the whole show.
 
-{{< figure src="images/photos/seoul-14.webp" alt="Raw octopus at Noryangjin Fisheries Wholesale Market, close-up" caption="Noryangjin is a separate trip and worth its own morning. Photo: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/noryangjin-stalls-01.webp" alt="Seafood tanks and trays at Noryangjin Fisheries Wholesale Market" caption="Noryangjin is a separate trip and worth its own morning. Photo: Gaël Chardon, CC BY-SA 2.0" >}}
 
 The same goes for the fabric section, which surprises everyone. Gwangjang is also one of the largest fabric markets in Korea, and the aisles of silk and hanbok cloth are a whole second market hiding inside the first. You do not need to buy anything. Walk through it after you eat, when your hands are free and your stomach is full, and look at the colors. The pinks and reds and golds are the same colors you will see in the hanbok rentals near the palace, and now you know where the cloth comes from.
 

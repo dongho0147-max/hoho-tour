@@ -78,7 +78,7 @@ Sokcho is the best one-night escape from Seoul if you want a mountain, a beach, 
 
 This guide is written from research, not from a single visit. Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check the bus timetable in Naver Map before you go.
 
-{{< figure src="images/photos/sokcho-02.webp" alt="The Seoraksan cable car cabin on its wire above the mountain" caption="If you book a tour, check whether the cable car ticket is included. On the listing we found, it was not. Photo: Bernard Gagnon, CC0" >}}
+{{< figure src="images/photos/seorak-cablecar-01.webp" alt="A Seoraksan cable car cabin over the green mountain slopes" caption="If you book a tour, check whether the cable car ticket is included. On the listing we found, it was not. Photo: Bernard Gagnon, CC0" >}}
 
 ## 🚌 Should you take the bus or a tour?
 

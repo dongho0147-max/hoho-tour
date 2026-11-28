@@ -334,3 +334,5 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | gwangjang-entrance-01.webp | Gwangjang Market, Seoul 01.jpg | 1600 px | Bgag | CC0 | https://commons.wikimedia.org/wiki/File:Gwangjang_Market,_Seoul_01.jpg |
 | ojukheon-gate-01.webp | Ojukheon 20220501 014.jpg | 1600 px | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ojukheon_20220501_014.jpg |
 | gyeongpo-lake-blue-01.webp | Gyeongpo Lake 20220502 001.jpg | 1600 px | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gyeongpo_Lake_20220502_001.jpg |
+| seorak-cablecar-01.webp | Seoraksan Cable Car 04.jpg | 1600 px | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Seoraksan_Cable_Car_04.jpg |
+| noryangjin-stalls-01.webp | Korea-Seoul-Noryangjin Fish Market-04.jpg | 1600 px | Gael Chardon | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Korea-Seoul-Noryangjin_Fish_Market-04.jpg |
