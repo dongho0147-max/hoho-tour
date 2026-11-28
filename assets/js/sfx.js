@@ -10,7 +10,7 @@
     if (mq && mq.matches) { window.HHSfx = { off: true, plays: 0 }; return; }
     var AC = window.AudioContext || window.webkitAudioContext;
     if (!AC) return;
-    var KEY = 'hh-sfx', VOL = 0.5, ctx = null, master = null, noise = null;
+    var KEY = 'hh-sfx', VOL = 0.35, ctx = null, master = null, noise = null;
     var lastGesture = 0, lastPlay = {}, api = { plays: 0, muted: false };
     function stored() { try { return localStorage.getItem(KEY) === 'off'; } catch (e) { return false; } }
     api.muted = stored();
@@ -31,39 +31,43 @@
       window.addEventListener(ev, unlock, { passive: true, capture: true });
     });
 
-    function ok(name, gap) {
+    // One voice at a time. A new sound fades the previous one out (20ms) and replaces it;
+    // anything arriving within GAP ms of the last sound is dropped, so rapid taps, drags
+    // and carousel changes never stack or buzz.
+    var GAP = 160, lastAny = 0, cur = null;
+    function ok() {
       if (api.muted || !ctx || ctx.state !== 'running') return false;
-      if (Date.now() - lastGesture > 4000) return false; // only as a result of a recent user action
-      var t = Date.now(); if (lastPlay[name] && t - lastPlay[name] < gap) return false;
-      lastPlay[name] = t; api.plays++; return true;
+      if (Date.now() - lastGesture > 2500) return false; // only as a result of a recent user action
+      var t = Date.now(); if (t - lastAny < GAP) return false;
+      lastAny = t; api.plays++; return true;
     }
-    // page flip: a soft airy swish (high-passed noise, quick rise, short fade)
-    // plus a few tiny paper rustle grains. No tonal click.
+    function stopCur() {
+      if (!cur) return;
+      try { var t = ctx.currentTime; cur.g.gain.cancelScheduledValues(t); cur.g.gain.setTargetAtTime(0.0001, t, 0.008); cur.nodes.forEach(function (n) { try { n.stop(t + 0.04); } catch (e) {} }); } catch (e) {}
+      cur = null;
+    }
+    // slide: soft airy whoosh. Low-passed noise, 300-900Hz band, slow attack, ~200ms. Nothing above ~1.2kHz.
     function slide() {
-      if (!ok('slide', 110)) return;
-      var t0 = ctx.currentTime, i;
-      var src = ctx.createBufferSource(), hp = ctx.createBiquadFilter(), bp = ctx.createBiquadFilter(), g = ctx.createGain();
+      if (!ok()) return;
+      stopCur();
+      var t0 = ctx.currentTime, src = ctx.createBufferSource(), bp = ctx.createBiquadFilter(), lp = ctx.createBiquadFilter(), g = ctx.createGain();
       src.buffer = noise; src.playbackRate.value = 0.9 + Math.random() * 0.2;
-      hp.type = 'highpass'; hp.frequency.value = 1400;
-      bp.type = 'bandpass'; bp.Q.value = 0.35;
-      bp.frequency.setValueAtTime(2200, t0); bp.frequency.exponentialRampToValueAtTime(4800, t0 + 0.2);
-      g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.11, t0 + 0.05);
-      g.gain.exponentialRampToValueAtTime(0.045, t0 + 0.13); g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.3);
-      src.connect(hp); hp.connect(bp); bp.connect(g); g.connect(master); src.start(t0, Math.random() * 0.5); src.stop(t0 + 0.32);
-      for (i = 0; i < 5; i++) {
-        var tg = t0 + 0.03 + Math.random() * 0.22, gs = ctx.createBufferSource(), gf = ctx.createBiquadFilter(), gg = ctx.createGain();
-        gs.buffer = noise; gf.type = 'highpass'; gf.frequency.value = 3000 + Math.random() * 2500;
-        gg.gain.setValueAtTime(0.0001, tg); gg.gain.exponentialRampToValueAtTime(0.03 * (1 - i * 0.12), tg + 0.004); gg.gain.exponentialRampToValueAtTime(0.0001, tg + 0.03);
-        gs.connect(gf); gf.connect(gg); gg.connect(master); gs.start(tg, Math.random() * 0.5); gs.stop(tg + 0.04);
-      }
+      bp.type = 'bandpass'; bp.Q.value = 0.8; bp.frequency.setValueAtTime(380, t0); bp.frequency.exponentialRampToValueAtTime(820, t0 + 0.2);
+      lp.type = 'lowpass'; lp.frequency.value = 1200;
+      g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.16, t0 + 0.06); g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.22);
+      src.connect(bp); bp.connect(lp); lp.connect(g); g.connect(master); src.start(t0, Math.random() * 0.05); src.stop(t0 + 0.24);
+      cur = { g: g, nodes: [src] };
     }
-    // gentle pop: short sine drop
+    // popup: soft sine blip, gentle attack, low-passed.
     function pop() {
-      if (!ok('pop', 160)) return;
-      var t0 = ctx.currentTime, o = ctx.createOscillator(), g = ctx.createGain();
-      o.type = 'sine'; o.frequency.setValueAtTime(640, t0); o.frequency.exponentialRampToValueAtTime(360, t0 + 0.09);
-      g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.2, t0 + 0.012); g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.14);
-      o.connect(g); g.connect(master); o.start(t0); o.stop(t0 + 0.16);
+      if (!ok()) return;
+      stopCur();
+      var t0 = ctx.currentTime, o = ctx.createOscillator(), lp = ctx.createBiquadFilter(), g = ctx.createGain();
+      o.type = 'sine'; o.frequency.setValueAtTime(520, t0); o.frequency.exponentialRampToValueAtTime(400, t0 + 0.1);
+      lp.type = 'lowpass'; lp.frequency.value = 1500;
+      g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.1, t0 + 0.014); g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.16);
+      o.connect(lp); lp.connect(g); g.connect(master); o.start(t0); o.stop(t0 + 0.18);
+      cur = { g: g, nodes: [o] };
     }
     api.play = function (n) { if (n === 'slide') slide(); else if (n === 'pop') pop(); };
 
