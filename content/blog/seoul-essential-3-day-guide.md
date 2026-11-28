@@ -122,7 +122,7 @@ Start early. The palaces are best before the tour buses arrive.
 
 Seoul's main royal palace was built in 1395. Come for the 10:00 or 14:00 Royal Guard Changing Ceremony at Gwanghwamun Gate. It lasts about 20 minutes and is free to watch from the square.
 
-Admission runs about {{< pr "3,000 KRW" >}} for adults. Wear a hanbok and entry is free. Rentals from shops near the palace run roughly {{< pr "15,000-30,000 KRW" >}} for a few hours, and your photos will look far better for it. Give the palace 2 hours. Do not rush the throne hall and the back gardens.
+Admission runs about {{< pr "3,000 KRW" >}} for adults. Wear a hanbok and {{< mk "entry is free" >}}. Rentals from shops near the palace run roughly {{< pr "15,000-30,000 KRW" >}} for a few hours, and your photos will look far better for it. Give the palace 2 hours. Do not rush the throne hall and the back gardens.
 
 The honest downside: the courtyard gets packed by 11, and the ceremony draws a crowd three deep. Come at 10 and you get the good light and the space. Subway: Gyeongbokgung Station, Line 3, Exit 5.
 
@@ -162,7 +162,7 @@ If Hongdae cafes are your thing, the [Seoul cafe crawl](/blog/seoul-cafes-seongs
 
 ### 🚲 Take the afternoon to the Han River
 
-Take the subway to Yeouido Hangang Park or Banpo Hangang Park. Rent a bike for about {{< pr "3,000 KRW" >}} per hour, or just walk the riverside path. In the evening, Banpo Bridge runs its rainbow fountain show. Check the season schedule before you go, because it does not run in winter.
+Take the subway to Yeouido Hangang Park or Banpo Hangang Park. Rent a bike for about {{< hl "3,000 KRW" >}} per hour, or just walk the riverside path. In the evening, Banpo Bridge runs its rainbow fountain show. Check the season schedule before you go, because it does not run in winter.
 
 Buy instant noodles and a boiled egg at the park convenience store and eat them on the riverbank. It is a small ritual for Seoulites, and it costs less than {{< pr "5,000 KRW" >}}. The full night version, cruise and all, lives in the [Han River night guide](/blog/seoul-night-han-river-cruise-ramyeon/).
 

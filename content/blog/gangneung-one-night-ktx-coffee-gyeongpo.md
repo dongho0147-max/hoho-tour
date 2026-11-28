@@ -47,7 +47,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 Take the KTX from Seoul Station or Cheongnyangni Station to Gangneung Station. The trip takes about 2 hours, and a standard one-way fare runs about 26,000 to {{< pr "35,000 KRW" >}}, based on recent listings. Book a few days ahead, because Friday evening and Sunday afternoon trains sell out.
 
-From Gangneung Station, take a bus or a taxi to Anmok Beach, about 15 to 20 minutes. A taxi runs about 10,000 to {{< pr "15,000 KRW" >}}. The bus is cheaper but slower, so take the taxi if you are short on time.
+From Gangneung Station, take a bus or a taxi to Anmok Beach, about 15 to 20 minutes. A taxi runs about 10,000 to {{< hl "15,000 KRW" >}}. The bus is cheaper but slower, so take the taxi if you are short on time.
 
 > **🔥 Local tip:** Sit on the right side of the train from Seoul for the mountain views in the second half of the trip. It is a small thing, and it makes the 2 hours feel shorter. From Gangneung Station Exit 1, bus 202 runs to Anmok Beach in about 20 minutes, about {{< pr "1,500 KRW" >}} by card, every 15 to 20 minutes. Based on recent listings/reviews, checked November 2026.
 

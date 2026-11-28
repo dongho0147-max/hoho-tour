@@ -42,7 +42,7 @@ The way it works is simple. You find a stall with a hot griddle and a small crow
 
 Bring cash. Cards work in more and more stalls every year, but the old market still runs on paper money, and the vendors who have been there for decades will appreciate it. Carry 20,000 to {{< pr "30,000 KRW" >}} in small bills for a market morning. There are ATMs nearby, but the walk to find one is a walk away from the food, and that is the wrong direction.
 
-> **🔥 Local tip:** Order only from a stall where the price is written down where you can see it before you order. That is the one rule worth following since a late-2025 overcharging case pushed the market to post prices openly. The two famous millstone stalls, Soonhee-ne and Park Ga-ne, list bindaetteok at about 5,000 to {{< pr "6,000 KRW" >}}, and a weekday lunch window around 11:30 to 13:00 gets you a seat at the counter without a long queue. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Order only from a stall where the price is written down where you can see it before you order. That is the one rule worth following since a late-2025 overcharging case pushed the market to post prices openly. The two famous millstone stalls, Soonhee-ne and Park Ga-ne, list bindaetteok at about 5,000 to {{< hl "6,000 KRW" >}}, and a weekday lunch window around 11:30 to 13:00 gets you a seat at the counter without a long queue. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="pro-tip" >}}
 

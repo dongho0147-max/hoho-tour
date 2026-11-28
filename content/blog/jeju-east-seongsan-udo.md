@@ -55,7 +55,7 @@ The free part is worth your time too. A coastal path drops to Umutgae Coast, whe
 
 ## ⛴️ Take the ferry to Udo Island
 
-From the peak, walk 10 minutes to Seongsan Port. Ferries to Udo leave every 20 to 30 minutes, and the crossing takes about 15 minutes. A round trip for an adult costs about {{< pr "11,000 KRW" >}} including the marine park fee, based on recent listings. Bring your passport: you show it when you buy the ticket and when you board. In November, boats from Seongsan run only until about 17:00, and the last boat back leaves Udo around 17:00 as well, so do not cut it close.
+From the peak, walk 10 minutes to Seongsan Port. Ferries to Udo leave every 20 to 30 minutes, and the crossing takes about 15 minutes. A round trip for an adult costs about {{< hl "11,000 KRW" >}} including the marine park fee, based on recent listings. Bring your passport: you show it when you buy the ticket and when you board. In November, boats from Seongsan run only until about 17:00, and the last boat back leaves Udo around 17:00 as well, so do not cut it close.
 
 > **🔥 Local tip:** The last boat back from Udo leaves at 17:00 from November to February, 17:30 in March and October, and 18:00 in April and September. Aim for the second-to-last boat, not the last one: if the sea turns rough, a sailing can be cancelled and the last boat is the one you miss. When you buy your ticket, note the return time on the spot, and check the departure board before you leave Udo, because the island has two small ports, Cheonjin and Haumokdong, and the one in use can vary by day. Based on recent listings/reviews, checked November 2026.
 

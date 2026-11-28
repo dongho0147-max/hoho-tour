@@ -64,7 +64,7 @@ landmarks:
 map_note: "Yangnyeongsi herbal medicine market is not on the map: no verified coordinates were found for it, so it stays as a text mention only. The alley walk passes its neighbourhood on foot."
 ---
 
-Daegu is the easiest big-city day trip in Korea that most travelers skip. The KTX from Seoul takes under two hours, the subway costs a flat {{< pr "1,500 KRW" >}} a ride, and the center packs a century of modern history, one of the country's oldest markets, and a mountain view into a single walkable day. Come hungry: Daegu has its own list of ten official local dishes, and several of them are things you cannot get done properly anywhere else.
+Daegu is the easiest big-city day trip in Korea that most travelers skip. The KTX from Seoul takes under two hours, the subway costs a flat {{< hl "1,500 KRW" >}} a ride, and the center packs a century of modern history, one of the country's oldest markets, and a mountain view into a single walkable day. Come hungry: Daegu has its own list of ten official local dishes, and several of them are things you cannot get done properly anywhere else.
 
 This guide is written from research, not from a single visit. Times and prices below come from official city and operator pages, checked November 19, 2026. Anything we could not confirm against an official page is marked (미확인, unverified), so treat those lines as leads, not promises.
 

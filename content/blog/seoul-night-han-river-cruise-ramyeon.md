@@ -53,7 +53,7 @@ Here is what the five types actually are. The Tour Cruise is the 40-minute dayti
 
 For a night plan, book the Moonlight Music Cruise. It is the one that goes to Banpo Bridge, it has live music, and it is the right length at 70 minutes. Book the daytime Tour Cruise if you want the cheapest ticket and a first look at the river in daylight.
 
-> **🔥 Local tip:** Arrive at the pier 20 minutes early. An online voucher is not a boarding pass: you swap it for a physical ticket at the E-Land ticket office with your passport or physical ID, and a phone photo of your ID does not count. Take Line 5 to Yeouinaru Station, not Yeouido Station, and use Exit 3. Booking online in advance also locks in a lower fare than the pier walk-up price and holds your seat on busy weekend evenings. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** {{< mk "Arrive at the pier 20 minutes early." >}} An online voucher is not a boarding pass: you swap it for a physical ticket at the E-Land ticket office with your passport or physical ID, and a phone photo of your ID does not count. Take Line 5 to Yeouinaru Station, not Yeouido Station, and use Exit 3. Booking online in advance also locks in a lower fare than the pier walk-up price and holds your seat on busy weekend evenings. Based on recent listings/reviews, checked November 2026.
 
 {{< figure src="images/photos/han-yeouido-01.webp" alt="Yeouido skyline and Bamseom island on the Han River in daylight" caption="Arrive at the pier 20 minutes early. Photo: heecheol890102, Pixabay, CC0" >}}
 

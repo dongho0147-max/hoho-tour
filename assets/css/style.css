@@ -730,4 +730,7 @@ figcaption .cap-credit{position:absolute;top:8px;right:8px;display:block;max-wid
 .pr{color:#B42318;font-weight:inherit}
 .pr.hl{background:#FFF1A8;border-radius:3px;padding:0 .18em;margin:0 -.02em;
   -webkit-box-decoration-break:clone;box-decoration-break:clone}
-@media print{.pr{color:inherit}.pr.hl{background:none;padding:0}}
+/* .mk: yellow marker on a key phrase (free entry, must-know tip) */
+.mk{background:#FFF1A8;border-radius:3px;padding:0 .18em;margin:0 -.02em;
+  -webkit-box-decoration-break:clone;box-decoration-break:clone}
+@media print{.mk{background:none;padding:0}.pr{color:inherit}.pr.hl{background:none;padding:0}}

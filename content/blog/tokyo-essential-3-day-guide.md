@@ -95,7 +95,7 @@ Two things changed in 2026 that older guides still get wrong. The tax-free syste
 
 ## ✈️ Which airport, and how do you get into the city?
 
-If you are flying from Korea, you will most likely land at Haneda, since the Gimpo-Haneda route is short and frequent. Haneda sits inside the city, and the ride in is cheap. The Tokyo Monorail runs from Terminal 3 to Hamamatsucho in 13 minutes for {{< pr "520 yen" >}}, where you transfer to the Yamanote line. The Keikyu line runs to Shinagawa in about the same time for {{< pr "330 yen" >}}, and some trains continue straight onto the Asakusa subway line.
+If you are flying from Korea, you will most likely land at Haneda, since the Gimpo-Haneda route is short and frequent. Haneda sits inside the city, and the ride in is cheap. The Tokyo Monorail runs from Terminal 3 to Hamamatsucho in 13 minutes for {{< hl "520 yen" >}}, where you transfer to the Yamanote line. The Keikyu line runs to Shinagawa in about the same time for {{< pr "330 yen" >}}, and some trains continue straight onto the Asakusa subway line.
 
 Narita is farther out, about 60 kilometers east, and the ride costs more. The fastest options are the N'EX to Tokyo Station at {{< pr "3,140 yen" >}} in about 53 minutes, and the Keisei Skyliner to Ueno at {{< pr "2,580 yen" >}} ({{< pr "1,280 yen" >}} fare + {{< pr "1,300 yen" >}} liner ticket) in about 41 minutes. From March 13, 2027, the liner ticket increases by {{< pr "200 yen" >}}, making the Skyliner total {{< pr "2,780 yen" >}}. The budget option is the Keisei main line at {{< pr "1,050 yen" >}}, and the TYO-NRT shuttle bus runs to Tokyo Station for {{< pr "1,500 yen" >}} with no reservation needed.
 

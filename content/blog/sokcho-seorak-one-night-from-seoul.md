@@ -94,7 +94,7 @@ A guided day tour from Seoul does the driving for you. The Seoraksan and [Naksan
 | Guided day tour from Seoul | About 12.5 hours, 07:20-19:50 | Low - fixed stops | First-timers who want transport handled |
 | Bus out, tour-style day back | About 2.5 hours each way | Medium | Anyone who wants the mountain without the 07:20 start |
 
-> **🔥 Local tip:** If you go by bus, leave Seoul early. The mountain deserves your morning energy, and the beach deserves your evening. A late start squeezes both, and Sokcho traffic on weekend afternoons is slow.
+> **🔥 Local tip:** {{< mk "If you go by bus, leave Seoul early." >}} The mountain deserves your morning energy, and the beach deserves your evening. A late start squeezes both, and Sokcho traffic on weekend afternoons is slow.
 
 ## ⛰️ What does the mountain day actually look like?
 

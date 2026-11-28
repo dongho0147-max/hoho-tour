@@ -114,7 +114,7 @@ If you want a real lunch instead of a second breakfast, the Daejeon Tourism Orga
 
 ## 🌳 Stop 4: Hanbat Arboretum, the free walk
 
-Ride Line 1 west to Government Complex Daejeon Station, then bus 606, 618, or 911 to Hanbat Arboretum at 169 Dunsan-daero. Admission is free, and it is Korea's largest man-made urban arboretum. East garden, west garden, and a tropical glasshouse, with 19 theme gardens across the site.
+Ride Line 1 west to Government Complex Daejeon Station, then bus 606, 618, or 911 to Hanbat Arboretum at 169 Dunsan-daero. {{< mk "Admission is free" >}}, and it is Korea's largest man-made urban arboretum. East garden, west garden, and a tropical glasshouse, with 19 theme gardens across the site.
 
 Hours depend on the season, checked November 2026. From November to March the gardens open 07:00 to 19:00, last entry 18:00. From April to October they open 05:00 to 21:00, last entry 20:00. The tropical glasshouse opens 09:00 to 18:00 all year, last entry 17:30. The east garden and the glasshouse close on Mondays, the west garden closes on Tuesdays, and one side is always open.
 

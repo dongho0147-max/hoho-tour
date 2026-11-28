@@ -62,7 +62,7 @@ Here is the short version, so you can pick the one that fits your mood.
 
 Seongsu is the most spacious. Yeonnam is the most relaxed. Ikseon-dong is the prettiest after dark, when the lanterns come on in the lanes. You do not need to love all three equally. Pick the one that matches your day and spend more time there.
 
-> **🔥 Local tip:** Do not try to visit five cafes in each neighborhood. Two good cafes per neighborhood is the right pace. Three is the maximum before everything starts tasting the same and your feet give up.
+> **🔥 Local tip:** {{< mk "Do not try to visit five cafes in each neighborhood." >}} Two good cafes per neighborhood is the right pace. Three is the maximum before everything starts tasting the same and your feet give up.
 
 {{< sticker kind="pro-tip" >}}
 

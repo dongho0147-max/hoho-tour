@@ -78,7 +78,7 @@ Day 2 is the big one, and the bus makes it work if you start early. Take trunk b
 
 {{< figure src="images/photos/jeju-04.webp" alt="Hamdeok Beach in Jocheon with clear water and white sand" caption="Trunk bus 701 or 702 takes 40 to 50 minutes. The beach is calm before the afternoon wind. Photo: Hong Da Hyeon, CC0" >}}
 
-From Hamdeok, stay on the eastbound trunk bus toward Seongsan. The ride takes another hour or so, and the bus stops at Seongeup Folk Village on the way. Get off there for an hour. The village is a small cluster of thatched stone houses, and it is free to walk through. It is also the best place on this route to see what a Jeju farmhouse actually looked like.
+From Hamdeok, stay on the eastbound trunk bus toward Seongsan. The ride takes another hour or so, and the bus stops at Seongeup Folk Village on the way. Get off there for an hour. The village is a small cluster of thatched stone houses, and it is {{< mk "free to walk" >}} through. It is also the best place on this route to see what a Jeju farmhouse actually looked like.
 
 {{< figure src="images/photos/jeju-06.webp" alt="Thatched stone houses at Seongeup Folk Village" caption="Get off the bus here for an hour. The village is free to walk through. Photo: Seefooddiet, CC BY-SA 4.0" >}}
 

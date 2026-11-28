@@ -77,7 +77,7 @@ Take the KTX from Yongsan Station. Trains from Yongsan are far more frequent tha
 
 From Jeonju Station, take a city bus to the village. Buses 79, 119, 501, 550, and 999 run from the stop in front of the station to the Jeondong Cathedral and [Hanok Village](https://www.klook.com/en-US/activity/2999-jeonju-hanok-village-tour-seoul/?aid=145455) stop in about 25 minutes. Get off there and you are a two or three minute walk from Gyeonggijeon and the main village streets. A taxi from the station costs more but saves you the wait, and it makes sense if you are traveling with luggage or in a group.
 
-> **🔥 Local tip:** Search trains from Yongsan, not Seoul Station. The same line serves both, but Yongsan has far more departures, and the difference on a weekend can be an hour of waiting.
+> **🔥 Local tip:** {{< mk "Search trains from Yongsan, not Seoul Station." >}} The same line serves both, but Yongsan has far more departures, and the difference on a weekend can be an hour of waiting.
 
 ## 🏯 What should you see first?
 

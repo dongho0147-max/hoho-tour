@@ -61,7 +61,7 @@ Go to Bulguksa first, while the light is good and the tour buses are still arriv
 
 {{< figure src="images/photos/gyeongju-01.webp" alt="The pond and stone bridge at Bulguksa Temple" caption="Give Bulguksa 1.5 to 2 hours. Admission is free. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
-Admission is free - the temple stopped charging on May 4, 2023, under the revised Cultural Heritage Protection Act (checked November 2026). Parking runs {{< pr "2,000 KRW" >}} for a car and {{< pr "4,000 KRW" >}} for a bus. If you have time and legs, the walk up to Seokguram Grotto takes about 1.5 hours each way on a forest path, and a bus runs part of the way. The grotto holds a stone Buddha carved in the 8th century, and it is the quieter half of the UNESCO listing.
+{{< mk "Admission is free" >}} - the temple stopped charging on May 4, 2023, under the revised Cultural Heritage Protection Act (checked November 2026). Parking runs {{< pr "2,000 KRW" >}} for a car and {{< pr "4,000 KRW" >}} for a bus. If you have time and legs, the walk up to Seokguram Grotto takes about 1.5 hours each way on a forest path, and a bus runs part of the way. The grotto holds a stone Buddha carved in the 8th century, and it is the quieter half of the UNESCO listing.
 
 {{< figure src="images/photos/gyeongju-06.webp" alt="Sugwangjeon hall at Seokguram Grotto" caption="The walk up to Seokguram takes about 1.5 hours each way on a forest path, and a bus runs part of the way. Photo: Bernard Gagnon, CC0" >}}
 

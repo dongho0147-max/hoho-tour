@@ -41,7 +41,7 @@ The draw is simple: noodles invented in Chinatown, an old port with real history
 
 ## 🚇 How do you get there? The subway does it all
 
-The trip starts at Seoul Station, on subway Line 1, heading toward [Incheon](https://www.klook.com/en-US/destination/c158-incheon/?aid=145455). Take the express if one comes, because it skips a string of smaller stations and saves you about fifteen minutes, but do not wait for it if a local train is already there. The local takes around an hour and twenty minutes, the express around an hour, and the fare is roughly 2,000 to {{< pr "3,000 KRW" >}} each way on a T-money card. That is less than a coffee and one of the best deals in Korean travel.
+The trip starts at Seoul Station, on subway Line 1, heading toward [Incheon](https://www.klook.com/en-US/destination/c158-incheon/?aid=145455). Take the express if one comes, because it skips a string of smaller stations and saves you about fifteen minutes, but do not wait for it if a local train is already there. The local takes around an hour and twenty minutes, the express around an hour, and the fare is roughly 2,000 to {{< hl "3,000 KRW" >}} each way on a T-money card. That is less than a coffee and one of the best deals in Korean travel.
 
 If you have not used the subway much yet, the guide to [the subway, the T-money card, and taxis](/blog/seoul-subway-tmoney-taxi/) covers the card and the transfer halls in detail. The short version is: tap in, sit down, and watch the city thin out through the window.
 

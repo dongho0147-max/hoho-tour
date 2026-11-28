@@ -57,7 +57,7 @@ Nambu Market is the old market at the edge of the village, and on Friday and Sat
 
 The food is the point. Stalls sell grilled skewers, fried snacks, rice cakes, and drinks, and most items run {{< pr "3,000-8,000 KRW" >}} each based on recent listings. The method is simple: walk the whole market once without buying anything, then go back for the three things you actually want. Eat standing up, share everything, and keep moving. If you sit down for a full meal first, you will be too full to enjoy the stalls, and the stalls are the reason you came.
 
-> **🔥 Local tip:** Go to the night market hungry and bring cash in small bills. Many stalls are cash-only, the card readers are slow, and the queue behind you will not wait while you fumble with an app. The stalls are fully stocked and the lines shortest before 19:00, and the market starts to thin out after 21:00, so eat in the first hour. The mung bean pancakes at the Yanggane Nokdujeon stall run about {{< pr "5,000 KRW" >}}, and the night market closes around 22:00 on Friday and 23:00 on Saturday. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Go to the night market hungry and bring cash in small bills. Many stalls are cash-only, the card readers are slow, and the queue behind you will not wait while you fumble with an app. The stalls are fully stocked and the lines shortest before 19:00, and the market starts to thin out after 21:00, so eat in the first hour. The mung bean pancakes at the Yanggane Nokdujeon stall run about {{< hl "5,000 KRW" >}}, and the night market closes around 22:00 on Friday and 23:00 on Saturday. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 

@@ -64,7 +64,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 Start at Hyeopjae Beach, on the northwest coast. It is the pale-sand beach the west is known for, with shallow turquoise water and Biyangdo Island sitting offshore. Come in the morning, when the light is soft and the wind is low. The supervised swimming season runs roughly late June to early September, based on recent listings. Outside that window, treat it as a shore walk, not a swim.
 
-Next door is Hallim Park, a garden park built on old lava fields, with palm gardens, a bonsai garden, and two lava caves you walk through underground. Give it 1.5 to 2 hours. Admission runs about 12,000 to {{< pr "15,000 KRW" >}} for an adult, based on recent listings. The park is the weather-proof part of this day: if the wind picks up on the beach, the palm garden and the caves still work.
+Next door is Hallim Park, a garden park built on old lava fields, with palm gardens, a bonsai garden, and two lava caves you walk through underground. Give it 1.5 to 2 hours. Admission runs about 12,000 to {{< hl "15,000 KRW" >}} for an adult, based on recent listings. The park is the weather-proof part of this day: if the wind picks up on the beach, the palm garden and the caves still work.
 
 {{< figure src="images/photos/jeju-west-05.webp" alt="Gardens inside Hallim Park in western Jeju" caption="The park is the weather-proof stop. If the wind picks up on the beach, the palm garden and caves still work. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
 
@@ -78,7 +78,7 @@ Two things to know before you go. First, the tea fields are a working farm, so s
 
 {{< figure src="images/photos/jeju-west-04.webp" alt="The tea fields at O'sulloc Tea Museum" caption="The fields are a working farm, so stay on the paths. Go at opening or after 16:00 to miss the crowds. Photo: Matt Kieffer, CC BY-SA 2.0" >}}
 
-> **🔥 Local tip:** O'sulloc is free to enter and open 09:00 to 18:00 every day, but the crowd peaks hard between 11:00 and 15:00, when tour buses roll in. Go right at opening or after 16:00 and the whole place breathes again. At the cafe, grab a seat first and order second: one person holds the table while the other queues, or check the mobile order option if the counter line is long. Based on recent visitor reviews, checked November 2026.
+> **🔥 Local tip:** O'sulloc is {{< mk "free to enter" >}} and open 09:00 to 18:00 every day, but the crowd peaks hard between 11:00 and 15:00, when tour buses roll in. Go right at opening or after 16:00 and the whole place breathes again. At the cafe, grab a seat first and order second: one person holds the table while the other queues, or check the mobile order option if the counter line is long. Based on recent visitor reviews, checked November 2026.
 
 ## ☕️ Which cafe stop is right for you?
 

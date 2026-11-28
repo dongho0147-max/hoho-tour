@@ -127,7 +127,7 @@ Two practical notes. The last Line 1 train toward downtown leaves Gwangju-Songje
 
 Get off at Munhwa-jeondang Station and you are standing where modern Korean history turned. The May 18 Democracy Square is open around the clock and free, and it is the open-air memorial to the May 18, 1980 uprising, with the fountain, the flagpoles, and the names of the dead set into the paving.
 
-The old provincial office building itself reopened on May 18, 2026 after a full restoration to its 1980 appearance, and it is now a museum. It is open 09:00 to 18:00, closed on Mondays, and admission is free (unconfirmed for some details).
+The old provincial office building itself reopened on May 18, 2026 after a full restoration to its 1980 appearance, and it is now a museum. It is open 09:00 to 18:00, closed on Mondays, and {{< mk "admission is free" >}} (unconfirmed for some details).
 
 🔥 Local tip: Never plan Gwangju downtown for a Monday. The old provincial office and the Asia Culture Center both close on Mondays, and the square itself is at its quietest then.
 
