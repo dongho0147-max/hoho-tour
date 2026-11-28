@@ -19,7 +19,7 @@ stops:
   - name: "Hamdeok Beach"
     lat: 33.54319
     lng: 126.66988
-    note: "Day 2 morning beach; bus 701 or 702 from Jeju City."
+    note: "Day 2 morning beach; express bus 101 from Jeju City."
   - name: "Seongeup Folk Village"
     lat: 33.38667
     lng: 126.78528
@@ -62,7 +62,7 @@ Land, drop your bags, and stay near the old downtown or the airport area. Both w
 
 Spend the afternoon walking. Start at **Dongmun Traditional Market**, which is the loud, crowded heart of the city. Go hungry and graze: fried chicken skewers, tangerine juice, and the small fried snacks the stalls sell by weight. Prices run about 3,000 to {{< pr "8,000 KRW" >}} per snack, and a full grazing lunch lands around 12,000 to {{< pr "18,000 KRW" >}} per person.
 
-> **🔥 Local tip:** The day market runs 08:00 to 21:00 and the night market 18:00 to 24:00, and the 19:00 to 21:00 night-market rush is the busiest stretch. Go before 19:00 if you want the stalls quieter. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The day market runs about 07:00 to 21:00 (it varies by shop) and the night market 18:00 to 24:00 from November to April, closing early when stalls sell out, and the 19:00 to 21:00 night-market rush is the busiest stretch. Go before 19:00 if you want the stalls quieter. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 
@@ -74,7 +74,7 @@ After the market, walk to Yongduam Rock on the coast, about 30 minutes on foot o
 
 ## 🏖️ Day 2: the east coast by bus
 
-Day 2 is the big one, and the bus makes it work if you start early. Take trunk bus 701 or 702 from Jeju City toward **Hamdeok Beach** first, about 40 to 50 minutes. Hamdeok is the prettiest easy beach on the north coast, with clear water and white sand, and it is calm before the afternoon wind.
+Day 2 is the big one, and the bus makes it work if you start early. Take express bus 101 from Jeju City toward **Hamdeok Beach** first, about 40 to 50 minutes. The 201 trunk bus follows the same coast road, and the 701 and 702 are local branch buses, so skip those. Hamdeok is the prettiest easy beach on the north coast, with clear water and white sand, and it is calm before the afternoon wind.
 
 {{< figure src="images/photos/jeju-04.webp" alt="Hamdeok Beach in Jocheon with clear water and white sand" caption="Hamdeok Beach in Jocheon with clear water and white sand. Photo: Hong Da Hyeon, CC0" >}}
 
@@ -82,7 +82,7 @@ From Hamdeok, stay on the eastbound trunk bus toward Seongsan. The ride takes an
 
 {{< figure src="images/photos/jeju-06.webp" alt="Thatched stone houses at Seongeup Folk Village" caption="Thatched stone houses at Seongeup Folk Village. Photo: Seefooddiet, CC BY-SA 4.0" >}}
 
-End the day at Seongsan Ilchulbong, the tuff cone on the eastern tip. The stair climb to the top takes 30 to 40 minutes, and the crater view is worth it. Ticket sales stop an hour before closing, and the site closes on the first Monday of each month, so check the day before. The last bus back to Jeju City leaves Seongsan in the early evening, so plan to be on it. If that timing feels tight, a private car with a driver covers the same east loop without the bus timetable.
+End the day at Seongsan Ilchulbong, the tuff cone on the eastern tip. The stair climb to the top takes 30 to 40 minutes, and the crater view is worth it. From November to February it is open 06:00 to 18:00 and ticket sales stop at 17:00, and the site closes on the first Monday of each month, so check the day before. The last bus back to Jeju City leaves Seongsan in the early evening, so plan to be on it. If that timing feels tight, a private car with a driver covers the same east loop without the bus timetable.
 
 {{< figure src="images/photos/jeju-07.webp" alt="Seongsan Ilchulbong rising over Seongsan village and the sea" caption="Seongsan Ilchulbong rising over Seongsan village and the sea. Photo: Justin De La Ornell, CC BY 2.0" >}}
 
@@ -94,7 +94,7 @@ End the day at Seongsan Ilchulbong, the tuff cone on the eastern tip. The stair 
 
 ## ⛰️ Day 3: one mountain, or one coastal walk
 
-Day 3 is a choice, and you should pick one. Option A is Hallasan, the mountain in the middle of the island. Bus 240 runs from Jeju City to the Eorimok trail entrance in about 50 minutes. The Eorimok trail is a steady uphill walk of about 5 km each way, and most people take 4 to 5 hours return. It does not reach the summit, but it gives you the forest and the high meadow, which is the point for most walkers.
+Day 3 is a choice, and you should pick one. Option A is Hallasan, the mountain in the middle of the island. Bus 240 runs from the Jeju bus terminal to the Eorimok trail entrance in under an hour, and the stop is a 10-15 minute walk from the trail. In winter (October to March) the Eorimok trail entrance closes to new hikers at 12:00 and you must start down from Witseoreum by 15:00, so take an early bus. The Eorimok trail is a steady uphill walk of about 5 km each way, and most people take 4 to 5 hours return. It does not reach the summit, but it gives you the forest and the high meadow, which is the point for most walkers.
 
 Option B is an Olle Trail section, and it is the better pick if your legs are tired from day 2. The Olle trails are marked coastal walking routes, and the blue and orange ribbons are the markers you follow. Pick a flat section near Jeju City or Hamdeok, walk for 2 to 3 hours, and stop at a cafe when you feel like it. It is a walk, not a hike, and that is the appeal.
 
@@ -130,7 +130,7 @@ Food runs about 30,000 to {{< pr "50,000 KRW" >}} a day if you eat at markets an
 | Day | Morning | Afternoon | Evening | Last bus check |
 |---|---|---|---|---|
 | Day 1 | Land, bus to hotel | Dongmun Market, coastal walk | Black pork dinner downtown | City buses run late |
-| Day 2 | Bus 701 or 702 to Hamdeok | Seongeup Village, Seongsan climb | Bus back to Jeju City | Leave Seongsan by early evening |
+| Day 2 | Express bus 101 to Hamdeok | Seongeup Village, Seongsan climb | Bus back to Jeju City | Leave Seongsan by early evening |
 | Day 3 | Hallasan Eorimok or Olle walk | Cafe stop, slow afternoon | Pack, one last market snack | City buses run late |
 
 {{< sticker kind="tired-rest" >}}
