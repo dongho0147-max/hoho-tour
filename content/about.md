@@ -36,9 +36,7 @@ landing at Incheon Airport tomorrow.
 
 ## Links to booking sites
 
-Some links on this page are affiliate links. If you book through one, we may
-earn a small commission at no extra cost to you. It never changes what we
-recommend.
+Some links on this site are affiliate links (Klook). If you book through them, we earn a small commission at no extra cost to you.
 
 Links never decide what we recommend. We only link to services we would use
 ourselves, and a link never changes a price, a rating, or an itinerary.
