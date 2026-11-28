@@ -1,4 +1,4 @@
-/* HOHO Tour UI sounds. Two tiny sounds (card slide, popup open), synthesized
+/* HOHO Tour UI sounds. Two tiny sounds (page-flip swish for card slide, popup open), synthesized
    with the Web Audio API: no audio files, no third-party samples, nothing to
    license. Quiet by design. Starts only after a user gesture (autoplay and iOS
    rules), stays off under prefers-reduced-motion, and has a mute toggle kept in
@@ -37,15 +37,25 @@
       var t = Date.now(); if (lastPlay[name] && t - lastPlay[name] < gap) return false;
       lastPlay[name] = t; api.plays++; return true;
     }
-    // soft paper/wood slide: short band-passed noise sweep
+    // page flip: a soft airy swish (high-passed noise, quick rise, short fade)
+    // plus a few tiny paper rustle grains. No tonal click.
     function slide() {
       if (!ok('slide', 110)) return;
-      var t0 = ctx.currentTime, src = ctx.createBufferSource(), f = ctx.createBiquadFilter(), g = ctx.createGain();
-      src.buffer = noise; f.type = 'bandpass'; f.Q.value = 0.9;
-      var base = 700 + Math.random() * 200;
-      f.frequency.setValueAtTime(base, t0); f.frequency.exponentialRampToValueAtTime(base * 2.1, t0 + 0.16);
-      g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.16, t0 + 0.03); g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.2);
-      src.connect(f); f.connect(g); g.connect(master); src.start(t0); src.stop(t0 + 0.22);
+      var t0 = ctx.currentTime, i;
+      var src = ctx.createBufferSource(), hp = ctx.createBiquadFilter(), bp = ctx.createBiquadFilter(), g = ctx.createGain();
+      src.buffer = noise; src.playbackRate.value = 0.9 + Math.random() * 0.2;
+      hp.type = 'highpass'; hp.frequency.value = 1400;
+      bp.type = 'bandpass'; bp.Q.value = 0.35;
+      bp.frequency.setValueAtTime(2200, t0); bp.frequency.exponentialRampToValueAtTime(4800, t0 + 0.2);
+      g.gain.setValueAtTime(0.0001, t0); g.gain.exponentialRampToValueAtTime(0.11, t0 + 0.05);
+      g.gain.exponentialRampToValueAtTime(0.045, t0 + 0.13); g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.3);
+      src.connect(hp); hp.connect(bp); bp.connect(g); g.connect(master); src.start(t0, Math.random() * 0.5); src.stop(t0 + 0.32);
+      for (i = 0; i < 5; i++) {
+        var tg = t0 + 0.03 + Math.random() * 0.22, gs = ctx.createBufferSource(), gf = ctx.createBiquadFilter(), gg = ctx.createGain();
+        gs.buffer = noise; gf.type = 'highpass'; gf.frequency.value = 3000 + Math.random() * 2500;
+        gg.gain.setValueAtTime(0.0001, tg); gg.gain.exponentialRampToValueAtTime(0.03 * (1 - i * 0.12), tg + 0.004); gg.gain.exponentialRampToValueAtTime(0.0001, tg + 0.03);
+        gs.connect(gf); gf.connect(gg); gg.connect(master); gs.start(tg, Math.random() * 0.5); gs.stop(tg + 0.04);
+      }
     }
     // gentle pop: short sine drop
     function pop() {

@@ -1025,3 +1025,8 @@ body:has(.home-map--first)::before{background:linear-gradient(rgba(252,249,243,.
 .home-map--first .map-pin.is-selected circle{transform:translateY(-4px)}
 @keyframes provpop{0%{transform:translateY(0) scale(1)}55%{transform:translateY(-9px) scale(1.07)}100%{transform:translateY(-5px) scale(1.04)}}
 @media(prefers-reduced-motion:reduce){.home-map--first .prov--active.is-selected{animation:none;transform:none}.home-map--first .map-pin.is-selected circle{transform:none}}
+
+/* Active region label stays popped up while selected */
+.home-map--first .map-pin text{transform-box:fill-box;transform-origin:center;transition:transform .35s cubic-bezier(.3,1.5,.5,1),fill .15s}
+.home-map--first .map-pin.is-selected text{transform:translate(-4px,-7px) scale(1.2);font-weight:800;fill:var(--coral-ink)}
+@media(prefers-reduced-motion:reduce){.home-map--first .map-pin text{transition:none}.home-map--first .map-pin.is-selected text{transform:none}}
