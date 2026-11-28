@@ -56,6 +56,12 @@ stops:
     lat: 37.033833
     lng: 128.471676
     note: "3일 차 오전, 차로만 갈 수 있는 굽잇길 고갯길과 전망대."
+  - name: "Guinsa Temple"
+    type: attraction
+    name_ko: "구인사"
+    lat: 37.0328286
+    lng: 128.4808781
+    note: "3일 차 오전, 보발재 다음에 차로: 가파른 골짜기를 따라 전각이 올라가는 천태종 총본산."
   - name: "Sono Belle Danyang"
     type: lodging
     name_ko: "소노벨 단양"
@@ -116,21 +122,22 @@ stops:
 
 **네, 가능해요.** 이른 오후에 도착해서 가볍게 다니면 돼요. 도담삼봉, 시장, 잔도 순서면 동선이 낭비 없이 이어져요.
 
-### 도담삼봉과 석문
+### 도담삼봉과 석문 {.stop data-n="1"}
 
 **도담삼봉은 단양의 엽서 같은 풍경이에요.** 남한강 한가운데 바위 봉우리 세 개가 서 있고, 단양팔경 중 하나예요. 근처의 돌문 석문은 봉우리보다 사진이 더 잘 나올 때가 많아요.
 
 한 시간쯤 잡으세요. 빛은 늦은 오후가 제일 예뻐요.
 
-{{< figure src="images/photos/danyang-dodam-02.jpg" alt="푸른 물 위에 솟은 도담삼봉 세 봉우리와 정자" caption="푸른 물 위에 솟은 도담삼봉 세 봉우리와 정자예요. 사진: Seongbin Im, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/danyang-dodam-04.jpg" alt="파란 하늘 아래 푸른 물 위에 솟은 도담삼봉 세 봉우리" caption="파란 하늘 아래 푸른 물 위에 솟은 도담삼봉이에요. 사진: 한국관광공사" >}}
 
 물 위에서 보고 싶다면 도담삼봉 유람선이 있어요. 11~12월에는 단축 운항이라 요금과 시간표는 도담삼봉유람선 공식 누리집(danyangcruise.co.kr)에서 확인하세요. 승선할 때 신분증이 필요할 수 있어요.
 
 {{< figure src="images/photos/danyang-seokmun-02.jpg" alt="바위 아치 너머로 푸른 남한강과 들판이 보이는 석문" caption="석문 아치 너머로 보이는 남한강과 들판이에요. 사진: Douglas Perkins, CC BY 4.0" >}}
 
-{{< collage "images/photos/danyang-dodam-03.jpg|바위 봉우리와 붉은 정자를 가까이서 본 도담삼봉|사진: Korea.net, CC BY-SA 2.0" "images/photos/danyang-seokmun-03.jpg|가을 단풍이 든 절벽에 뚫린 석문 아치|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-v10-03.jpg|청록빛 강 위 전망 데크와 바위 아치|사진: 한국관광공사, 손정원, KOGL 제1유형" >}}
+{{< collage "images/photos/danyang-dodam-05.jpg|잔잔한 강에 비친 도담삼봉|사진: 한국관광공사" "images/photos/danyang-dodam-06.jpg|황금빛 햇살을 받은 도담삼봉과 물그림자|사진: 한국관광공사" "images/photos/danyang-seokmun-04.jpg|강과 나무 전망대를 감싼 석문 바위 아치|사진: 한국관광공사" >}}
 
-### 🧄 구경시장, 마늘 시장
+
+### 🧄 구경시장, 마늘 시장 {.stop data-n="2" .stop-market}
 
 **구경시장**은 상설 재래시장이고, 마늘이 들어간 먹거리가 많아요.
 
@@ -145,7 +152,7 @@ stops:
 
 {{< collage "images/photos/danyang-garlic-03.jpg|붉은 끈으로 묶어 쌓아 놓은 단양 마늘 다발|사진: Douglas Perkins, CC BY 4.0" "images/photos/danyang-garlic-crop.jpg|시장 좌판에 쌓인 단양 마늘|사진: Douglas Perkins, CC BY 4.0" "images/photos/danyang-sundae-crop.jpg|접시에 담긴 단양 마늘순대 근접 사진|사진: 낭만한량 블로그" "images/photos/danyang-garlicbread-crop.jpg|상자에 담긴 마늘빵 근접 사진|사진: 한국관광공사, 우창민, KOGL 제1유형" >}}
 
-### 밤의 단양강 잔도
+### 밤의 단양강 잔도 {.stop data-n="3"}
 
 **잔도는 절벽을 따라 놓인 나무 데크길이에요.** 길이 1.2km 안팎에 무료예요. 단양지질공원 안내 페이지에는 운영 시간이 09:00~23:00로 나와 있어요. 계절에 따라 바뀔 수 있으니 가기 전에 단양군 누리집에서 확인하세요. 평탄해서 1시간 정도 걷기 좋아요.
 
@@ -157,7 +164,7 @@ stops:
 
 **순서가 전부예요.** 동굴 → 스카이워크 → 빛터널로 가면 빛터널이 열 시간에 맞고, 스카이워크 발권 마감도 지나지 않아요.
 
-### 고수동굴(09:00쯤)
+### 고수동굴(09:00쯤) {.stop data-n="4"}
 
 **고수동굴은 천연기념물 제256호이고 연중무휴예요.** 09:00에 입장을 시작하고 마지막 입장은 17:00예요.
 
@@ -167,15 +174,15 @@ stops:
 
 {{< collage "images/photos/danyang-gosu-02.jpg|주황빛 종유석이 늘어진 고수동굴 내부|사진: Olga Lipunova, CC BY-SA 3.0" "images/photos/danyang-gosu-entrance-01.jpg|고수동굴 입구 간판과 계단|사진: 여행을 말하다(Telltrip)" >}}
 
-### 만천하스카이워크(이른 오후)
+### 만천하스카이워크(이른 오후) {.stop data-n="5"}
 
 남한강 수면 위 80m 높이로 뻗은 하늘길이 있는 전망대예요(단양군 안내). 입장료는 성인 **{{< hl "4,000원" >}}**, 청소년·어린이·경로 **{{< pr "3,000원" >}}**이에요(만천하 공식 누리집). 동절기에는 09:00~17:00 운영하고 현장 발권은 오후 4시~4시 30분에 마감해요. 오후 3시 전에 도착하세요.
 
 전망대는 셔틀버스로만 올라가요. 매주 화요일은 정기 휴장이에요(화요일이 공휴일이면 정상 운영, 만천하 공식 FAQ). 짚와이어(**{{< pr "30,000원" >}}**)와 알파인코스터(**{{< pr "18,000원" >}}**)는 별도 요금이에요.
 
-{{< figure src="images/photos/danyang-skywalk-aerial-01.jpg" alt="남한강과 마을 위로 보이는 만천하스카이워크 전경" caption="남한강과 마을 위로 본 만천하스카이워크 전경이에요. 사진: CC데일리뉴스" >}}
+{{< figure src="images/photos/danyang-skywalk-s4.jpg" alt="강과 시내 위 능선에 선 만천하스카이워크 전망탑" caption="강과 시내 위 능선에 선 만천하스카이워크 전망탑이에요. 사진: 한국관광공사" >}}
 
-{{< collage "images/photos/danyang-skywalk-01.jpg|산 위에 솟은 타원형 구조물의 만천하스카이워크|사진: 여행을 말하다(Telltrip)" "images/photos/danyang-skywalk-glass-01.jpg|푸른 하늘 아래 유리 바닥 전망대|사진: Loyqu" "images/photos/danyang-v10-07.jpg|강 절벽과 다리 위로 솟은 만천하스카이워크|사진: 한국관광공사, 김지호, KOGL 제1유형" >}}
+{{< collage "images/photos/danyang-skywalk-s1.jpg|파란 하늘 아래에서 올려다본 만천하스카이워크 전망탑|사진: 한국관광공사" "images/photos/danyang-skywalk-s5.jpg|강 위로 뻗은 유리 전망대와 시내|사진: 한국관광공사" "images/photos/danyang-skywalk-02.jpg|초록 산 사이 만천하스카이워크 전망탑 항공 사진|사진: Telltrip" "images/photos/danyang-skywalk-03.jpg|만천하스카이워크 유리 바닥에서 본 풍경|사진: Telltrip" >}}
 
 ### 패러글라이딩(선택, 날씨 따라)
 
@@ -185,11 +192,11 @@ stops:
 
 {{< aff href="https://www.klook.com/ko/activity/104295-chunggbuk-danyang-paragliding-experience/?aid=145455" text="클룩에서 단양 패러글라이딩 예약하기" rel="sponsored noopener" >}}
 
-{{< figure src="images/photos/danyang-paragliding-close-01.jpg" alt="붉은 날개를 펴고 이륙하는 패러글라이더" caption="붉은 날개를 펴고 이륙하는 패러글라이더예요. 사진: 단양군청" >}}
+{{< figure src="images/photos/danyang-paraglide-04.jpg" alt="강 골짜기 위로 노을 속을 나는 초록 패러글라이더" caption="강 골짜기 위로 노을 속을 나는 초록 패러글라이더예요. 사진: 한국관광공사" >}}
 
-{{< collage "images/photos/danyang-paragliding-far-01.jpg|멀리 단양 시내와 강 위를 나는 패러글라이더|사진: 서울트래블패스" "images/photos/danyang-paragliders-02.jpg|단양 산 위 하늘에서 활공하는 패러글라이더|사진: Douglas Perkins, CC BY 4.0" >}}
+{{< collage "images/photos/danyang-paragliding-close-01.jpg|이륙하며 빨간 날개를 펴는 패러글라이더|사진: 단양군청" "images/photos/danyang-paraglide-06.jpg|풀밭 비탈에서 떠오르는 주황 패러글라이더|사진: 한국관광공사" "images/photos/danyang-paraglide-05.jpg|활공장 돔 건물 옆 빨간 패러글라이더|사진: 한국관광공사" "images/photos/danyang-paragliding-far-01.jpg|멀리 단양 시내와 강 위를 나는 패러글라이더|사진: Seoul Travel Pass" >}}
 
-### 수양개빛터널(저녁)
+### 수양개빛터널(저녁) {.stop data-n="6"}
 
 **옛 철도 터널을 빛 쇼로 바꾼 곳이에요.** 겨울(11~3월)에는 14:00에 열어 21:50에 닫고, 매표는 21:00까지예요.
 
@@ -201,17 +208,25 @@ stops:
 
 ## 🍲 3일 차: 단양의 마지막 한 끼는 뭘로 할까요?
 
-### 🍁 차가 있다면 아침에 보발재
+### 🍁 차가 있다면 아침에 보발재 {.stop data-n="7"}
 
 보발재는 가곡면 보발리와 영춘면 백자리를 잇는 해발 540m 고갯길이에요. 약 3km 구간의 굽잇길과 무료 전망대로 유명해요(충북나드리). 연중 무료로 열려 있어요(Korea Beyond Seoul). 버스는 다니지 않아서 자가용이나 택시가 필요해요. 단양읍에서 직선거리로 북동쪽 약 12km인데 도로는 더 길어요. 출발 전에 내비게이션으로 이동 시간을 꼭 확인하세요.
 
 > **⚠️ 계절:** 유명한 붉은 단풍은 10월 하순이 절정이에요. 11~3월에는 앙상한 나무나 눈 덮인 풍경이고, 도로가 얼 수 있으니 비·안개가 끼거나 눈이 온 뒤에는 건너뛰세요.
 
-전망은 20~40분이면 충분해요. 공식 주차장이 없어서 전망대에서 200m쯤 뒤쪽 공터나 갓길에 대야 해요(하루하루 여행 블로그). 사진은 도로 말고 전망대에서 찍으세요. 시간이 되면 약 0.8km 떨어진 구인사도 들를 만해요(충북나드리).
+전망은 20~40분이면 충분해요. 공식 주차장이 없어서 전망대에서 200m쯤 뒤쪽 공터나 갓길에 대야 해요(하루하루 여행 블로그). 사진은 도로 말고 전망대에서 찍으세요. 직선으로 1km도 안 떨어진 구인사까지 한 번에 묶어서 다녀오세요. 도로는 더 길 수 있으니 내비게이션으로 확인하세요.
 
 {{< figure src="images/photos/danyang-bobaljae-01.jpg" alt="붉고 노란 단풍 사이로 굽이치는 보발재 고갯길" caption="붉고 노란 단풍 사이로 굽이치는 보발재 고갯길이에요. 사진: 한국관광공사, KOGL 제1유형" >}}
 
-{{< collage "images/photos/danyang-bobaljae-02.jpg|굽이진 보발재 도로 위에 놓인 나무 전망대|사진: 한국관광공사, KOGL 제1유형" "images/photos/danyang-bobaljae-03.jpg|단풍 사이로 이어지는 보발재 굽잇길 항공 사진|사진: 한국관광공사, KOGL 제1유형" "images/photos/danyang-bobaljae-winter-01.jpg|눈이 내려앉은 보발재 굽잇길 항공 사진|사진: 한국관광공사, KOGL 제1유형" >}}
+{{< collage "images/photos/danyang-bobaljae-02.jpg|굽이진 보발재 도로 위에 놓인 나무 전망대|사진: 한국관광공사, KOGL 제1유형" "images/photos/danyang-bobaljae-03.jpg|단풍 사이로 이어지는 보발재 굽잇길 항공 사진|사진: 한국관광공사, KOGL 제1유형" "images/photos/danyang-bobaljae-04.jpg|위에서 본 단풍 속 보발재 굽잇길|사진: 한국관광공사" >}}
+
+### ⛩️ 구인사(선택, 보발재 다음에 차로) {.stop data-n="8"}
+
+**구인사**는 천태종 총본산이에요. 가파른 소백산 골짜기를 따라 전각이 층층이 올라가요. 가장 큰 법당은 한 번에 1만 명쯤 들어간다고 해요(충북 관광 사이트). 연중무휴로 늘 열려 있고, **입장은 무료**예요(충북 관광 사이트, 한국관광공사). 돈이 드는 건 주차예요. 승용차는 **3,000원쯤**이라는 블로그 후기가 있으니 입구 안내판에서 확인하세요. 오르막이 가파르니 미끄럽지 않은 신발을 신으세요. 지금도 수행하는 사찰이라서 조용히 다니고, 출입을 막은 곳은 들어가지 마세요. 1~1.5시간 잡으세요. 전화는 043-423-7100이에요.
+
+{{< figure src="images/photos/danyang-guinsa-01.jpg" alt="초록 나무 사이로 보이는 구인사의 알록달록한 단청 처마" caption="구인사 비탈에 층층이 쌓인 단청 처마와 기와지붕이에요. 사진: Ken Eckert, CC BY-SA 4.0" >}}
+
+{{< collage "images/photos/danyang-guinsa-02.jpg|구인사의 금빛 기와를 얹은 붉은 전각 지붕|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-03.jpg|흰 난간이 둘린 구인사 종각|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-04.jpg|붉은 단청 처마가 있는 구인사 관음전|사진: Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-05.jpg|구인사 붉은 일주문|사진: Steve46814, CC BY-SA 3.0" >}}
 
 ### 🍲 점심은 쏘가리 매운탕
 
@@ -233,7 +248,7 @@ stops:
 |---|---|---|---|
 | 1일 차 | 단양으로 이동 | 도담삼봉, 석문, 구경시장 | 단양강 잔도 |
 | 2일 차 | 고수동굴 | 스카이워크, 선택: 패러글라이딩 | 수양개빛터널 |
-| 3일 차 | 강변 산책, 차량은 보발재 | 쏘가리 매운탕, 귀가 | |
+| 3일 차 | 강변 산책, 차량은 보발재와 구인사 | 쏘가리 매운탕, 귀가 | |
 
 ## 💡 시간을 아껴주는 팁
 

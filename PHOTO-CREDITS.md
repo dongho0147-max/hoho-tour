@@ -438,3 +438,29 @@ The card-slide and popup sounds are synthesized in the browser with the Web Audi
 | danyang-bobaljae-02.jpg | Bobaljae viewing deck 4062630 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms2/website/30/4062630.jpg |
 | danyang-bobaljae-03.jpg | Bobaljae aerial 3470671 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms2/website/71/3470671.jpg |
 | danyang-bobaljae-winter-01.jpg | Bobaljae in snow 3009293 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms/resource/93/3009293_image2_1.jpg |
+
+## Danyang post additions (2026-11-28, scratch-guinsa)
+Free licence (Wikimedia Commons, fetched via API 2026-11-28, light saturation +8%, resized):
+| File | Commons title | Author | Licence |
+|---|---|---|---|
+| danyang-guinsa-01.jpg | Guinsa Temple Roofs, South Korea.jpg | Ken Eckert (User:Keneckert) | CC BY-SA 4.0 |
+| danyang-guinsa-02.jpg | Korea-Danyang-Guinsa Gold Tiled Roof 3014-07.JPG | Steve46814 | CC BY-SA 3.0 |
+| danyang-guinsa-03.jpg | Korea-Danyang-Guinsa Bell Pavilion 2946-07.JPG | Steve46814 | CC BY-SA 3.0 |
+| danyang-guinsa-04.jpg | Korea-Danyang-Guinsa Avalokitesvara Hall 2959-07.JPG | Steve46814 | CC BY-SA 3.0 |
+| danyang-guinsa-05.jpg | Korea-Danyang-Guinsa Iljumun 2887-07.JPG | Steve46814 | CC BY-SA 3.0 |
+
+NON-FREE / unverified licence (from the photo PM bundle, source https://danyang.webforai.kr/en/places/mancheonha-seukaiwokeu/ , credited to Korea Tourism Organization; licence not independently verified): danyang-skywalk-s1.jpg, danyang-skywalk-s4.jpg, danyang-skywalk-s5.jpg. Licence risk handled per the earlier instruction relayed by main (not re-verified here).
+Brightened by the photo PM (mild auto-enhance): danyang-garlic-03, skywalk-aerial-01, market-street-01, seokmun-02, sundae-crop.
+
+### Phase 38 (Danyang bright replacements)
+
+| danyang-dodam-04.jpg | Dodamsambong under a blue sky | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/dodamsambong/ ; https://tong.visitkorea.or.kr/cms2/website/72/1746472.jpg |
+| danyang-dodam-05.jpg | Dodamsambong peaks reflected in the river | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/dodamsambong/ ; https://tong.visitkorea.or.kr/cms2/website/21/2620321.jpg |
+| danyang-dodam-06.jpg | Dodamsambong at golden hour | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/dodamsambong/ ; https://tong.visitkorea.or.kr/cms2/website/03/2613203.jpg |
+| danyang-seokmun-04.jpg | Seokmun arch framing the river | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/seongmun/ ; https://tong.visitkorea.or.kr/cms/resource/99/3081099_image2_1.jpg |
+| danyang-paraglide-04.jpg | Paraglider at sunset over the river | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/yangbangsanhwalgongjang/ ; https://tong.visitkorea.or.kr/cms2/website/77/2563877.jpg |
+| danyang-paraglide-05.jpg | Red paraglider at Yangbangsan | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/yangbangsanhwalgongjang/ ; https://tong.visitkorea.or.kr/cms/resource/94/3587394_image2_1.jpg |
+| danyang-paraglide-06.jpg | Orange paraglider taking off | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/yangbangsanhwalgongjang/ ; https://tong.visitkorea.or.kr/cms/resource/96/3587396_image2_1.jpg |
+| danyang-bobaljae-04.jpg | Bobaljae road in autumn color | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/danyang-bobaljae/ ; https://tong.visitkorea.or.kr/cms2/website/70/3470670.jpg |
+| danyang-skywalk-02.jpg | Mancheonha Skywalk aerial (skywalk-07) | 여행을 말하다(Telltrip) | non-free-licence | https://egloos.com/telltrip/4408 |
+| danyang-skywalk-03.jpg | Mancheonha Skywalk glass floor view (skywalk-08) | Telltrip (author unknown) | non-free-licence | https://www.telltrip.com/domestic-travel/danyang-mancheonha-skywalk-glass-floor-view/ |

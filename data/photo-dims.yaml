@@ -739,3 +739,67 @@ danyang-bobaljae-03:
 danyang-bobaljae-winter-01:
   width: 940
   height: 529
+danyang-guinsa-01:
+  width: 1200
+  height: 875
+danyang-guinsa-02:
+  width: 1280
+  height: 960
+danyang-guinsa-03:
+  width: 1280
+  height: 960
+danyang-guinsa-04:
+  width: 1280
+  height: 852
+danyang-guinsa-05:
+  width: 1280
+  height: 960
+danyang-skywalk-s1:
+  width: 1280
+  height: 720
+danyang-skywalk-s4:
+  width: 1280
+  height: 853
+danyang-skywalk-s5:
+  width: 1280
+  height: 720
+
+danyang-dodam-04:
+  width: 1280
+  height: 853
+
+danyang-dodam-05:
+  width: 1280
+  height: 853
+
+danyang-dodam-06:
+  width: 1280
+  height: 853
+
+danyang-seokmun-04:
+  width: 940
+  height: 627
+
+danyang-paraglide-04:
+  width: 1280
+  height: 885
+
+danyang-paraglide-05:
+  width: 940
+  height: 627
+
+danyang-paraglide-06:
+  width: 940
+  height: 738
+
+danyang-bobaljae-04:
+  width: 1280
+  height: 720
+
+danyang-skywalk-02:
+  width: 1200
+  height: 675
+
+danyang-skywalk-03:
+  width: 1200
+  height: 675

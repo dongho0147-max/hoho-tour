@@ -56,6 +56,12 @@ stops:
     lat: 37.033833
     lng: 128.471676
     note: "Day 3 morning, by car only: the winding mountain-pass road and its viewing deck."
+  - name: "Guinsa Temple"
+    type: attraction
+    name_ko: "구인사"
+    lat: 37.0328286
+    lng: 128.4808781
+    note: "Day 3 morning, by car, after Bobaljae: the Cheontae Order head temple climbing a steep valley."
   - name: "Sono Belle Danyang"
     type: lodging
     name_ko: "소노벨 단양"
@@ -116,19 +122,20 @@ If you want the market and river walk on foot, **Danyang Tourist Hotel Edelweiss
 
 Yes. Arrive by early afternoon and keep it light. Dodamsambong, then the market, then the Jando walkway flows with no wasted travel.
 
-### Dodamsambong and Seokmun
+### Dodamsambong and Seokmun {.stop data-n="1"}
 
 Dodamsambong is the postcard view of Danyang: three rock peaks standing in the Namhan River. It is one of the Eight Views of Danyang. The stone arch called Seokmun is nearby, and it often photographs better than the peaks. Give it about an hour. The light is best in late afternoon.
 
-{{< figure src="images/photos/danyang-dodam-02.jpg" alt="Three peaks of Dodamsambong and a pavilion rising from blue water" caption="The three peaks of Dodamsambong and a pavilion rising from blue water. Photo: Seongbin Im, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/danyang-dodam-04.jpg" alt="The three peaks of Dodamsambong in blue water under a bright sky" caption="The three peaks of Dodamsambong in blue water under a bright sky. Photo: Korea Tourism Organization" >}}
 
 For the water-level view, there is a Dodamsambong cruise. In November and December it runs a shortened route, so check the fare and timetable on the operator's official site (danyangcruise.co.kr). Bring photo ID in case boarding needs it.
 
 {{< figure src="images/photos/danyang-seokmun-02.jpg" alt="The Namhan River and green fields seen through the rock arch of Seokmun" caption="The Namhan River and fields framed by the Seokmun rock arch. Photo: Douglas Perkins, CC BY 4.0" >}}
 
-{{< collage "images/photos/danyang-dodam-03.jpg|Rock peak and red pavilion at Dodamsambong from close up|Korea.net, CC BY-SA 2.0" "images/photos/danyang-seokmun-03.jpg|Rock arch of Seokmun cut into an autumn-colored cliff|Steve46814, CC BY-SA 3.0" "images/photos/danyang-v10-03.jpg|A rock arch with a viewing deck above a turquoise river|Korea Tourism Organization, Son Jeongwon, KOGL Type 1" >}}
+{{< collage "images/photos/danyang-dodam-05.jpg|Dodamsambong peaks reflected in the still river|Korea Tourism Organization" "images/photos/danyang-dodam-06.jpg|Dodamsambong peaks in golden light with their reflection|Korea Tourism Organization" "images/photos/danyang-seokmun-04.jpg|Seokmun rock arch framing the river and a wooden deck|Korea Tourism Organization" >}}
 
-### 🧄 Gugyeong Market, the garlic market
+
+### 🧄 Gugyeong Market, the garlic market {.stop data-n="2" .stop-market}
 
 **Gugyeong Market** is a permanent traditional market, and garlic shows up in much of the food.
 
@@ -143,7 +150,7 @@ For the water-level view, there is a Dodamsambong cruise. In November and Decemb
 
 {{< collage "images/photos/danyang-garlic-03.jpg|Danyang garlic bundles tied with red string and stacked|Douglas Perkins, CC BY 4.0" "images/photos/danyang-garlic-crop.jpg|Heaps of Danyang garlic heads at a market stall|Douglas Perkins, CC BY 4.0" "images/photos/danyang-sundae-crop.jpg|Close-up of Danyang garlic sundae on a plate|Nangman Hanryang blog" "images/photos/danyang-garlicbread-crop.jpg|Close-up of garlic bread in a gift box|Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
 
-### Danyang River Jando at night
+### Danyang River Jando at night {.stop data-n="3"}
 
 Jando is the cliffside wooden walkway along the river, about 1.2 km and free. The Danyang geopark page lists hours of 09:00 to 23:00. Hours can change by season, so check the county site first. It is a flat 1-hour walk and the calmest part of the trip.
 
@@ -155,7 +162,7 @@ Jando is the cliffside wooden walkway along the river, about 1.2 km and free. Th
 
 **The order is everything.** Cave, skywalk, light tunnel: the tunnel opens when you arrive, and you beat the skywalk ticket cutoff.
 
-### Gosu Cave (about 09:00)
+### Gosu Cave (about 09:00) {.stop data-n="4"}
 
 **Gosu Cave** is a registered Natural Monument (No. 256) and open every day of the year. Entry starts at 09:00, with the last entry at 17:00. An adult ticket is {{< pr "11,000 KRW" >}} at the door (list price). Online tickets are listed at 9,900 KRW (Gosu Cave website). Plan about 1 hour inside. The cave stays cool all year, and parts of the floor are wet, so wear shoes with grip.
 
@@ -163,13 +170,13 @@ Jando is the cliffside wooden walkway along the river, about 1.2 km and free. Th
 
 {{< collage "images/photos/danyang-gosu-02.jpg|Orange stalactites hanging inside Gosu Cave|Olga Lipunova, CC BY-SA 3.0" "images/photos/danyang-gosu-entrance-01.jpg|Gosu Cave entrance sign and stairs|Telltrip" >}}
 
-### Mancheonha Skywalk (early afternoon)
+### Mancheonha Skywalk (early afternoon) {.stop data-n="5"}
 
 The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay {{< hl "4,000 KRW" >}}, and youth, children, and seniors pay {{< pr "3,000 KRW" >}} (official site). In winter it runs 09:00 to 17:00, and on-site ticket sales end at 16:30 per the county page (some sites say 16:00), so arrive before 3 pm. You reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline ({{< pr "30,000 KRW" >}}) and alpine coaster ({{< pr "18,000 KRW" >}}) cost extra.
 
-{{< figure src="images/photos/danyang-skywalk-aerial-01.jpg" alt="Mancheonha Skywalk above the Namhan River and town" caption="Mancheonha Skywalk above the Namhan River and the town. Photo: CC Daily News" >}}
+{{< figure src="images/photos/danyang-skywalk-s4.jpg" alt="Mancheonha Skywalk tower on the ridge above the river and town" caption="The Mancheonha Skywalk tower on the ridge above the river and town. Photo: Korea Tourism Organization" >}}
 
-{{< collage "images/photos/danyang-skywalk-01.jpg|Oval-shaped Mancheonha Skywalk structure on a mountaintop|Telltrip" "images/photos/danyang-skywalk-glass-01.jpg|Glass-floor viewing deck under a blue sky|Loyqu" "images/photos/danyang-v10-07.jpg|Mancheonha Skywalk above the river cliff and bridges|Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
+{{< collage "images/photos/danyang-skywalk-s1.jpg|Mancheonha Skywalk tower seen from below under a blue sky|Korea Tourism Organization" "images/photos/danyang-skywalk-s5.jpg|Glass walkway reaching out over the river toward the town|Korea Tourism Organization" "images/photos/danyang-skywalk-02.jpg|Aerial view of the Mancheonha Skywalk tower among green hills|Telltrip" "images/photos/danyang-skywalk-03.jpg|Glass-floor view from the Mancheonha Skywalk|Telltrip" >}}
 
 ### Paragliding (optional, weather permitting)
 
@@ -179,11 +186,11 @@ You can paraglide from the Yangbangsan and Dusan launch sites. Courses, prices, 
 
 {{< aff href="https://www.klook.com/en-US/activity/104295-chunggbuk-danyang-paragliding-experience/?aid=145455" text="Book Danyang paragliding on Klook" >}}
 
-{{< figure src="images/photos/danyang-paragliding-close-01.jpg" alt="Paraglider opening a red wing at takeoff" caption="A paraglider opening a red wing at takeoff. Photo: Danyang County Office" >}}
+{{< figure src="images/photos/danyang-paraglide-04.jpg" alt="A green paraglider at sunset above the river valley" caption="A green paraglider at sunset above the river valley. Photo: Korea Tourism Organization" >}}
 
-{{< collage "images/photos/danyang-paragliding-far-01.jpg|Paraglider above Danyang town and the river, seen from a distance|Seoul Travel Pass" "images/photos/danyang-paragliders-02.jpg|Paragliders gliding in the sky above Danyang hills|Douglas Perkins, CC BY 4.0" >}}
+{{< collage "images/photos/danyang-paragliding-close-01.jpg|Paraglider opening a red wing at takeoff|Danyang County Office" "images/photos/danyang-paraglide-06.jpg|Orange paraglider lifting off a grassy slope|Korea Tourism Organization" "images/photos/danyang-paraglide-05.jpg|Red paraglider beside a domed building at the launch site|Korea Tourism Organization" "images/photos/danyang-paragliding-far-01.jpg|Paraglider above Danyang town and the river, seen from a distance|Seoul Travel Pass" >}}
 
-### Suyanggae Light Tunnel (evening)
+### Suyanggae Light Tunnel (evening) {.stop data-n="6"}
 
 An old railway tunnel turned into a light show, with an LED garden outside. In winter (November to March) it opens at 14:00, closes at 21:50, and sells its last ticket at 21:00. Adults pay {{< pr "9,000 KRW" >}}. It is closed on Tuesdays. Give it 30 to 40 minutes.
 
@@ -193,17 +200,25 @@ An old railway tunnel turned into a light show, with an LED garden outside. In w
 
 ## 🍲 Day 3: What is the last meal in Danyang?
 
-### 🍁 Optional by car: Bobaljae Pass in the morning
+### 🍁 Optional by car: Bobaljae Pass in the morning {.stop data-n="7"}
 
 Bobaljae is a 540 m mountain pass between Bobal-ri and Baekja-ri, known for about 3 km of winding road and a free viewing deck (Chungbuk Nadeuri). It is open all year and free (Korea Beyond Seoul). No bus goes there, so you need a car or a taxi. The pass is about 12 km north-east of Danyang-eup in a straight line, and the road is longer, so check the drive time on your navigation app before you commit.
 
 > **⚠️ Season:** The famous red leaves peak around late October. On a November to March trip you see bare trees or snow instead, and the road can ice over, so skip it in rain, fog, or after snow.
 
-Plan 20 to 40 minutes for the view. There is no official car park, so cars use the open ground about 200 m behind the deck or the roadside (Haruharu travel blog). Take photos from the deck, not on the bends. Guinsa temple is about 0.8 km further on (Chungbuk Nadeuri) if you have time.
+Plan 20 to 40 minutes for the view. There is no official car park, so cars use the open ground about 200 m behind the deck or the roadside (Haruharu travel blog). Take photos from the deck, not on the bends. Guinsa temple is less than 1 km away in a straight line (the road is longer, so check your navigation app), so do both in one trip.
 
 {{< figure src="images/photos/danyang-bobaljae-01.jpg" alt="Hairpin curve of Bobaljae Pass among red and yellow foliage" caption="Hairpin curve of Bobaljae Pass among red and yellow foliage. Photo: Korea Tourism Organization, KOGL Type 1" >}}
 
-{{< collage "images/photos/danyang-bobaljae-02.jpg|Wooden viewing deck above the winding Bobaljae road|Korea Tourism Organization, KOGL Type 1" "images/photos/danyang-bobaljae-03.jpg|Aerial view of Bobaljae's looping road through autumn colors|Korea Tourism Organization, KOGL Type 1" "images/photos/danyang-bobaljae-winter-01.jpg|Aerial view of Bobaljae's looping road dusted with snow|Korea Tourism Organization, KOGL Type 1" >}}
+{{< collage "images/photos/danyang-bobaljae-02.jpg|Wooden viewing deck above the winding Bobaljae road|Korea Tourism Organization, KOGL Type 1" "images/photos/danyang-bobaljae-03.jpg|Aerial view of Bobaljae's looping road through autumn colors|Korea Tourism Organization, KOGL Type 1" "images/photos/danyang-bobaljae-04.jpg|Bobaljae road curving through autumn color from above|Korea Tourism Organization" >}}
+
+### ⛩️ Guinsa Temple (optional, by car, right after Bobaljae) {.stop data-n="8"}
+
+**Guinsa** is the head temple of the Cheontae Order, and it is built straight up a steep Sobaeksan valley, one hall above the next. The biggest hall is said to hold about 10,000 people at once (Chungbuk tourism site). It is open all day, every day of the year, and **entry is free** (Chungbuk tourism site, VisitKorea). The parking lot is the paid part: blogs report about **₩3,000 for a car**, so check the sign at the gate. The walk up is steep, so wear shoes with grip. It is a working temple, so keep your voice low and stay out of closed areas. Give it 1 to 1.5 hours. Phone: 043-423-7100.
+
+{{< figure src="images/photos/danyang-guinsa-01.jpg" alt="Colorful painted eaves of Guinsa Temple among green trees" caption="Painted eaves and tiled roofs stacked up the Guinsa slope. Photo: Ken Eckert, CC BY-SA 4.0" >}}
+
+{{< collage "images/photos/danyang-guinsa-02.jpg|Golden-tiled red roof of a hall at Guinsa|Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-03.jpg|Bell pavilion with a white railing at Guinsa|Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-04.jpg|Avalokitesvara Hall with painted red eaves at Guinsa|Steve46814, CC BY-SA 3.0" "images/photos/danyang-guinsa-05.jpg|Red Iljumun entrance gate at Guinsa|Steve46814, CC BY-SA 3.0" >}}
 
 ### 🍲 Lunch: sogari maeuntang
 
@@ -225,7 +240,7 @@ Walk the river once more, buy a box of garlic bread, and head home by train or b
 |---|---|---|---|
 | Day 1 | Travel to Danyang | Dodamsambong, Seokmun, Gugyeong Market | Danyang River Jando |
 | Day 2 | Gosu Cave | Skywalk, optional paragliding | Suyanggae Light Tunnel |
-| Day 3 | River walk, or Bobaljae by car | Sogari maeuntang, head home | |
+| Day 3 | River walk, or Bobaljae and Guinsa by car | Sogari maeuntang, head home | |
 
 ## 💡 Tips that save time
 
