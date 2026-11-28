@@ -139,9 +139,9 @@ stops:
 
 종로가 좋은 예예요. 연등이 걸린 조계사가 있고, 조금 걸으면 오랫동안 도시의 시간을 알려 온 종이 있는 보신각이 있어요.
 
-{{< collage "images/photos/seoul-17.webp|금빛 불상이 있는 조계사 내부|Severin.stalder, CC BY-SA 3.0" "images/photos/seoul-18.webp|종로의 보신각|sunbeams879, CC BY" >}}
+{{< collage "images/photos/seoul-17.webp|금빛 불상이 있는 조계사 내부|Severin.stalder, CC BY-SA 3.0" "images/photos/seoul-bosingak-01.webp|종로의 보신각|Tristan Surtel, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/seoul-05.webp" alt="낮의 홍대 근처 경의선숲길 거리" caption="지하철에서 한 정거장 일찍 내려 걸으면 보람이 있어요. 사진: Christian Bolz, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-gyeongui-sunny-01.webp" alt="맑은 날의 홍대 근처 경의선숲길 거리" caption="지하철에서 한 정거장 일찍 내려 걸으면 보람이 있어요. 사진: Christian Bolz, CC BY-SA 4.0" >}}
 
 {{< sticker kind="tired-rest" >}}
 

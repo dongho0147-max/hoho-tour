@@ -86,7 +86,7 @@ By late morning, the market starts to fill with visitors, and that is your cue t
 
 You will pass a tea house, then a shop selling nothing but scissors, then a tiny restaurant with four tables and a line out the door. The line is the review. Join it.
 
-{{< collage "images/photos/seoul-18.webp|Bosingak Pavilion in Jongno|sunbeams879, CC BY" "images/photos/seoul-17.webp|Jogyesa Temple interior with golden Buddha statues|Severin.stalder, CC BY-SA 3.0" >}}
+{{< collage "images/photos/seoul-bosingak-01.webp|Bosingak Pavilion in Jongno|Tristan Surtel, CC BY-SA 4.0" "images/photos/seoul-17.webp|Jogyesa Temple interior with golden Buddha statues|Severin.stalder, CC BY-SA 3.0" >}}
 
 This is where the walk stops being a food tour and becomes a wander, and that is the point. Do not plan this part. Turn down whatever alley looks interesting, stop when something smells good, and keep a coffee in your hand for the last stretch. Ikseon-dong, the hanok alley neighborhood a short walk west, is a good place to end up. The old wooden houses there have become cafes and small restaurants, and the lanes are so narrow that two people can barely pass, which is exactly why they are lovely. Sit down, order something warm, and let your feet rest. You have earned it.
 

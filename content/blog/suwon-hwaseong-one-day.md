@@ -91,7 +91,7 @@ One thing to know about timing: the palace night opening ran on Friday, Saturday
 
 > **🔥 Local tip:** The palace is free on the last Wednesday of the month in the daytime, under the Culture Day program, and the wall walk itself is free every day. If the budget matters, that Wednesday is the day to pick. Based on recent visitor guides, checked November 2026.
 
-{{< figure src="images/photos/suwon-03.webp" alt="Janganmun, the north gate of Hwaseong Fortress in Suwon" caption="The palace night opening ended on November 1, so do not plan a night visit in late November. Photo: oreum, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/suwon-haenggung-gate-01.webp" alt="The stone gate of Hwaseong Haenggung palace in Suwon" caption="The palace night opening ended on November 1, so do not plan a night visit in late November. Photo: G41rn8, CC BY-SA 4.0" >}}
 
 ## 🚋 Should you ride the trolley?
 

@@ -2,9 +2,9 @@
 title: "Daejeon Bread Pilgrimage: Seongsimdang to DCC"
 description: "A one-day Daejeon bread run from Seoul: Seongsimdang main store and station branch, Soje-dong cafes, Hanbat Arboretum, and the DCC Expo area at night."
 date: 2026-11-19
-image: "images/photos/daejeon-01.webp"
-image_alt: "Seongsimdang main store in Daejeon at night, lit sign and customers at the door"
-image_caption: "Decide your order before you join the queue. Photo: Trainholic, CC BY-SA 4.0"
+image: "images/photos/daejeon-bakery-hero-01.webp"
+image_alt: "Freshly baked loaves stacked on wooden bakery shelves"
+image_caption: "Decide your order before you join the queue. Photo: wal_172619, Pexels"
 regions: ["daejeon"]
 themes: ["food-restaurants", "day-trips"]
 stops:

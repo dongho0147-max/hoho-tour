@@ -140,7 +140,7 @@ It closes early in the afternoon, and the coin counter gets a line at noon. Go s
 
 Bukchon is the hillside neighborhood of traditional wooden houses between the two palaces. Walk the famous photo alley, but keep your voice down. People live here, and the village now limits tourist hours in the residential lanes. About 1 hour is enough, and that is plenty. The roofs are the view. The quiet is part of it.
 
-{{< collage "images/photos/seoul-03.webp|Bukchon at blue hour|Basile Morin, CC BY-SA 4.0" "images/photos/seoul-26.webp|Buk drum at Gyeongbokgung|IssamBarhoumi, CC BY-SA 4.0" >}}
+{{< collage "images/photos/bukchon-sunny-01.webp|Bukchon hanok alley under a blue sky|Basile Morin, CC BY-SA 4.0" "images/photos/seoul-26.webp|Buk drum at Gyeongbokgung|IssamBarhoumi, CC BY-SA 4.0" >}}
 
 Insadong sits just south of Bukchon. It is the traditional craft and tea street, good for souvenirs that are not airport junk: ceramics, paper, tea. Stop at a traditional tea house for a break. Your feet will want one by then.
 

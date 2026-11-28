@@ -204,7 +204,7 @@ landmarks:
 
 > **⚠️ 주민이 사는 곳이에요.** 유명한 사진 명소 골목을 걸을 때는 목소리를 낮춰 주세요. 북촌로11길 일대(레드존)는 관광객이 **10:00~17:00에만** 들어갈 수 있어요. 그 밖의 시간에 관광 목적으로 들어가면 과태료 {{< pr "10만원" >}}이 부과될 수 있어요.
 
-{{< collage "images/photos/seoul-03.webp|해 질 무렵의 북촌|Basile Morin, CC BY-SA 4.0" "images/photos/seoul-26.webp|경복궁의 북|IssamBarhoumi, CC BY-SA 4.0" >}}
+{{< collage "images/photos/bukchon-sunny-01.webp|푸른 하늘 아래 북촌 한옥 골목|Basile Morin, CC BY-SA 4.0" "images/photos/seoul-26.webp|경복궁의 북|IssamBarhoumi, CC BY-SA 4.0" >}}
 
 북촌 남쪽이 **인사동**이에요. 전통 공예품 가게와 찻집이 모인 거리예요.
 

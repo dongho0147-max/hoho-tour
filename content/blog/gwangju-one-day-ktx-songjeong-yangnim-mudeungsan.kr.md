@@ -176,9 +176,9 @@ map_note: "용산역은 서울 출발점이라 지도에서 뺍니다. 지도는
 
 **무등산은 광주 하늘 아래 늘 서 있는 산이에요.** **국립공원**이고 유네스코 **세계지질공원**이에요.
 
-{{< figure src="images/photos/gwangju-05.webp" alt="무등산의 숲길, 나무 사이로 이어진 흙길" caption="무등산 증심사 코스는 6.8km, 편도 약 3시간 30분이에요. 반나절 따로 잡으세요. 사진: Korea.net, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/gwangju-mudeung-snow-01.webp" alt="눈 덮인 무등산 숲길과 돌계단" caption="무등산 증심사 코스는 6.8km, 편도 약 3시간 30분이에요. 반나절 따로 잡으세요. 사진: gary4now, CC BY 3.0" >}}
 
-{{< figure src="images/photos/gwangju-04.webp" alt="겨울 햇빛 아래 하천 너머로 보이는 광주 무등산" caption="무등산은 시내에서도 보이지만 오르려면 반나절이 필요해요. 사진: Kgw1226, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/gwangju-mudeung-ridge-01.webp" alt="맑은 하늘 아래 무등산 능선으로 이어진 탐방로" caption="무등산은 시내에서도 보이지만 오르려면 반나절이 필요해요. 사진: gary4now, CC BY 3.0" >}}
 
 증심사 코스는 입석대와 서석대에 오르는 대표 코스예요. 국립공원공단 안내로 6.8km이고 편도 약 3시간 30분이 걸려요. 반나절 따로 잡으세요.
 

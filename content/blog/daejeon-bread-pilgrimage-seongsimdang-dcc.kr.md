@@ -2,8 +2,8 @@
 title: "대전 빵 성지순례: 성심당에서 DCC까지"
 description: "서울에서 당일치기로 다녀오는 대전 빵 투어. 성심당 본점과 대전역점, 소제동 카페, 한밭수목원, 그리고 밤에 빛나는 DCC 엑스포 지구까지."
 date: 2026-11-28
-image: "images/photos/daejeon-01.webp"
-image_alt: "밤의 성심당 대전 본점, 켜진 간판과 가게 문 앞의 손님들"
+image: "images/photos/daejeon-bakery-hero-01.webp"
+image_alt: "나무 선반에 가득 진열된 갓 구운 빵"
 regions: ["daejeon"]
 themes: ["food-restaurants", "day-trips"]
 stops:

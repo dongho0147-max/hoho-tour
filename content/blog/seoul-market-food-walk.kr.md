@@ -101,7 +101,7 @@ stops:
 
 찻집을 지나면 작은 식당 앞에 줄이 보일지도 몰라요. 그 줄이 곧 후기예요. 한번 서 보세요.
 
-{{< collage "images/photos/seoul-18.webp|종로의 보신각|sunbeams879, CC BY" "images/photos/seoul-17.webp|금빛 불상이 있는 조계사 내부|Severin.stalder, CC BY-SA 3.0" >}}
+{{< collage "images/photos/seoul-bosingak-01.webp|종로의 보신각|Tristan Surtel, CC BY-SA 4.0" "images/photos/seoul-17.webp|금빛 불상이 있는 조계사 내부|Severin.stalder, CC BY-SA 3.0" >}}
 
 이쯤부터는 음식 투어가 발길 닿는 대로 걷는 산책으로 바뀌어요. 그게 이 코스의 묘미예요. 이 구간까지 빼곡하게 계획하지 마세요.
 

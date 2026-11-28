@@ -126,9 +126,9 @@ The subway is a tool, not the trip. Plan your day around neighborhoods instead o
 
 Jongno is a good example. One station puts you next to **Jogyesa Temple** and its lanterns, and a short walk away stands Bosingak Pavilion, where the bell has marked the city for centuries.
 
-{{< collage "images/photos/seoul-17.webp|Jogyesa Temple interior with golden Buddha statues|Severin.stalder, CC BY-SA 3.0" "images/photos/seoul-18.webp|Bosingak Pavilion in Jongno|sunbeams879, CC BY" >}}
+{{< collage "images/photos/seoul-17.webp|Jogyesa Temple interior with golden Buddha statues|Severin.stalder, CC BY-SA 3.0" "images/photos/seoul-bosingak-01.webp|Bosingak Pavilion in Jongno|Tristan Surtel, CC BY-SA 4.0" >}}
 
-{{< figure src="images/photos/seoul-05.webp" alt="Gyeongui Line Forest Trail street near Hongdae in daytime" caption="Plan by neighborhood, not by line. Use the subway as the short hop between areas. Photo: Christian Bolz, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-gyeongui-sunny-01.webp" alt="Gyeongui Line Forest Trail near Hongdae on a sunny day" caption="Plan by neighborhood, not by line. Use the subway as the short hop between areas. Photo: Christian Bolz, CC BY-SA 4.0" >}}
 
 {{< sticker kind="tired-rest" >}}
 

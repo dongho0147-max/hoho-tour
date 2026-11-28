@@ -94,7 +94,7 @@ map_note: "Banghwasuryujeong is not on the map: no verified coordinates were fou
 
 > **🔥 현지 팁:** 궁궐은 문화가 있는 날에 무료이고, 성곽 걷기는 매일 무료예요. 예산이 중요하다면 마지막 주 수요일을 고르세요. 다만 야간개장에는 문화가 있는 날 무료가 적용되지 않아요.
 
-{{< figure src="images/photos/suwon-03.webp" alt="수원 화성의 북문 장안문" caption="11월 말에는 궁궐 야간 방문을 계획하지 마세요. 성곽은 밤에도 볼 수 있어요. 사진: oreum, CC BY-SA 3.0" >}}
+{{< figure src="images/photos/suwon-haenggung-gate-01.webp" alt="수원 화성행궁의 석문, 한옥 지붕 아래 열린 문" caption="11월 말에는 궁궐 야간 방문을 계획하지 마세요. 성곽은 밤에도 볼 수 있어요. 사진: G41rn8, CC BY-SA 4.0" >}}
 
 ## 🚋 화성어차를 탈까요?
 
