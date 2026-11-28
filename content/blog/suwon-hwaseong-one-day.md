@@ -83,7 +83,7 @@ Free guided tours with a cultural heritage guide leave from the guide offices at
 
 ## 🏯 What is inside Hwaseong Haenggung?
 
-Hwaseong Haenggung is the temporary palace inside the fortress, built for King Jeongjo when he visited his father's tomb. It opens 09:00 to 18:00 year-round, with last entry at 17:00. Entry is {{< pr "2,000 KRW" >}} for adults, {{< pr "1,500 KRW" >}} for teens, and {{< pr "1,000 KRW" >}} for children, based on recent listings. Entry is free in hanbok, for ages 65 and over with ID, and for children 6 and under, and for everyone on the last Wednesday of the month during daytime hours.
+Hwaseong Haenggung is the temporary palace inside the fortress, built for King Jeongjo when he visited his father's tomb. It opens 09:00 to 18:00 year-round, with last entry at 17:00. Entry is {{< hl "2,000 KRW" >}} for adults, {{< pr "1,500 KRW" >}} for teens, and {{< pr "1,000 KRW" >}} for children, based on recent listings. Entry is free in hanbok, for ages 65 and over with ID, and for children 6 and under, and for everyone on the last Wednesday of the month during daytime hours.
 
 The palace is smaller than the palaces in Seoul, and that is its charm. You can see the whole complex in an hour: the main hall, the courtyards, the king's quarters, and the Hwaryeongjeon shrine next door. The martial arts show and the archery experience run on most days, but both stop in rain or snow, and the martial arts show takes Mondays off.
 

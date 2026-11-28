@@ -78,7 +78,7 @@ Dongdaegu Station sits on subway Line 1, and the station building connects strai
 
 🔥 Local tip: The first and last KTX times for Dongdaegu (listed around 05:57 and 22:57 in secondary sources) are (미확인): we could not confirm them on Korail's official timetable, so check Korail Talk the day before you travel, especially for the last train home.
 
-If you would rather have the day organized for you, the Daegu city tour bus leaves from the square in front of Dongdaegu Station. The downtown loop costs {{< pr "10,000 KRW" >}} for adults and {{< pr "8,000 KRW" >}} for teens, with a discount to {{< pr "8,000 KRW" >}} if you hold a same-day train, bus, or plane ticket. It runs Tuesday to Sunday and rests on Mondays, and the operator currently advertises a 30 percent Wednesday discount on its own page. Departure times are hourly from 09:30 to 15:30 in secondary sources, but we could not confirm the timetable on the official page (미확인).
+If you would rather have the day organized for you, the Daegu city tour bus leaves from the square in front of Dongdaegu Station. The downtown loop costs {{< hl "10,000 KRW" >}} for adults and {{< pr "8,000 KRW" >}} for teens, with a discount to {{< pr "8,000 KRW" >}} if you hold a same-day train, bus, or plane ticket. It runs Tuesday to Sunday and rests on Mondays, and the operator currently advertises a 30 percent Wednesday discount on its own page. Departure times are hourly from 09:30 to 15:30 in secondary sources, but we could not confirm the timetable on the official page (미확인).
 
 {{< aff href="https://www.klook.com/activity/111728-daegu-hop-on-hop-off-bus-tour-open-top/?aid=145455" text="Book the Daegu Hop-On Hop-Off Bus Tour on Klook" >}}
 
