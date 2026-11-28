@@ -1,7 +1,7 @@
 ---
 title: "부산의 두 그릇: 돼지국밥과 밀면"
 description: "부산을 대표하는 두 그릇을 현지식으로: 서면 송정삼대의 돼지국밥과 해운대의 소고기국밥, 남포동 할매가야밀면의 차가운 밀면, 원조 내호냉면까지. 영업시간과 주문 방법을 2026년 11월 기준으로 정리했어요."
-date: 2026-11-28
+date: 2026-11-18
 regions: ["busan"]
 themes: ["food-restaurants"]
 stops:
@@ -127,6 +127,8 @@ image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
 {{< collage "images/photos/seoul-30.webp|해 질 녘 알록달록한 언덕 집들, 감천문화마을|Basile Morin, CC BY-SA 4.0" "images/photos/seoul-31.webp|산책로와 바다 앞 고층 건물이 있는 넓은 백사장, 해운대 해변|Mobius6, CC BY-SA 4.0" >}}
 
 부산에서 하루뿐이라면 이동 시간을 먼저 계산해 보세요. 식당들이 서로 떨어져 있어서 하루에 다 가려면 욕심을 줄이는 편이 좋아요.
+
+{{< aff href="https://www.klook.com/en-US/activity/74132-busan-oneday-tour-busan/?aid=145455" text="클룩에서 부산 일일 투어(스카이캡슐·감천) 둘러보기" >}}
 
 ## ✅ 2일 일정 한눈에 보기
 

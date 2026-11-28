@@ -1,7 +1,7 @@
 ---
 title: "서울의 11월 말과 12월: 겨울은 실제로 어떻고, 어떻게 입을까"
 description: "서울 현지인이 솔직하게 알려 주는 도시의 겨울 가이드. 추위는 실제로 어떤지, 정말 통하는 겹쳐 입기, 온돌, 밤 산책, 그리고 12월에 더 좋은 곳들을 정리했습니다."
-date: 2026-11-28
+date: 2026-11-17
 image: "images/photos/seoul-15.webp"
 image_alt: "Hyangwonjeong Pavilion at Gyeongbokgung in snow"
 regions: ["seoul"]
@@ -102,6 +102,8 @@ stops:
 도심에도 겨울 즐거움이 있어요. 동대문디자인플라자(DDP)는 밤에 우주선처럼 보이고, 12월 17일부터 31일까지 서울라이트 DDP 겨울이라는 이름으로 외벽 미디어파사드와 크리스마스 연출이 열려요(서울시 펀서울). 저녁을 먹은 뒤 조명이 켜졌을 때 가서 30분쯤 바라보세요.
 
 {{< figure src="images/photos/seoul-23.webp" alt="흑백으로 본 밤의 동대문디자인플라자" caption="DDP는 12월 17일부터 31일까지 서울라이트 DDP 겨울이 열려요. 저녁을 먹은 뒤 조명이 켜졌을 때 가세요. 사진: anokarina, CC BY-SA" >}}
+
+{{< aff href="https://www.klook.com/en-US/activity/412-n-seoul-tower-seoul/?aid=145455" text="클룩에서 N서울타워 전망대 티켓 예약하기" >}}
 
 ## 🔥 온기는 어디에 있을까요? 전략으로 쓰세요
 

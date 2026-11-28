@@ -1,7 +1,7 @@
 ---
 title: "전주 하루 여행: 서울에서 한옥마을, 비빔밥, 객리단길"
 description: "서울에서 KTX로 떠나는 전주 당일 여행: 오전에는 경기전과 한옥마을, 점심은 진짜 전주 비빔밥, 오후에는 객리단길의 카페."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/seoul-24.webp"
 image_alt: "Jeonju Hanok Village rooftops and a street in daytime"
 regions: ["jeonju"]
@@ -134,6 +134,8 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 {{< figure src="images/photos/jeonju1-p13-02.webp" alt="돌길로 이어지는 한옥 대문" caption="데이투어는 일정과 복귀 시간이 상품마다 달라요. 예약 전에 상세 페이지를 확인하세요. 사진: Pexels" >}}
 
+{{< aff href="https://www.klook.com/activity/86815-jeonju-day-tour/?aid=145455" text="클룩에서 서울 출발 전주 한옥마을 당일투어 보기" >}}
+
 ## ☕ 객리단길은 무엇이고, 왜 하루를 거기서 끝낼까요?
 
 **객리단길은 옛 객사 근처의 카페 거리로, 전주 사람들이 역사 대신 커피가 필요할 때 가는 곳이에요.** 거리에는 개조한 집의 작은 카페, 베이커리, 바가 늘어서 있고, 늦은 오후에는 마을보다 훨씬 차분해요.
@@ -155,6 +157,8 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 시장 가판과 막걸리까지 포함한 이 하루의 밤 버전이 [해 진 뒤의 전주 가이드](/kr/blog/jeonju-night-market-cafes/)예요. 그리고 시장 한 끼로 부족하다면 [서울의 옛 시장을 천천히 걷는 먹거리 산책](/kr/blog/seoul-market-food-walk/)이 서울에서의 같은 아이디어예요. 걷고, 가리키고, 먹고, 반복하세요.
 
 {{< sticker kind="tired-rest" >}}
+
+{{< aff href="https://www.klook.com/en-HK/activity/75845-naejang-mountain-jeonju-hanok-village/?aid=145455" text="클룩에서 내장산·전주 한옥마을 당일투어 보기" >}}
 
 ## 🚫 이럴 땐 건너뛰세요
 

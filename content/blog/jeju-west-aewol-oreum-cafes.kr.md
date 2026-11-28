@@ -1,7 +1,7 @@
 ---
 title: "제주 서쪽 하루 코스: 애월 카페, 오름, 협재해수욕장"
 description: "느긋한 제주 서쪽 하루 코스: 오전에는 협재해수욕장과 한림공원, 점심 뒤에는 오설록 차밭, 해 질 녘에는 새별오름, 마무리는 애월 카페거리."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/jeju-west-01.webp"
 image_alt: "제주 서쪽의 협재해수욕장"
 regions: ["jeju"]
@@ -132,6 +132,10 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 오름과 카페에서 머무는 시간을 원하는 대로 조절할 수 있어요. 상품마다 포함 내용이 다르니 예약 전에 확인하세요.
 
 {{< sticker kind="tired-rest" >}}
+
+{{< aff href="https://www.klook.com/en-IN/activity/108459-jeju-island-charms-join-in-day-tour/?aid=145455" text="클룩에서 제주 3코스 데이투어(서부 패키지) 예약하기" >}}
+
+{{< aff href="https://www.klook.com/en-US/activity/18608-private-car-charter-jeju/?aid=145455" text="클룩에서 제주 기사 포함 프라이빗 차량 예약하기" >}}
 
 ## 🗺️ 제주 서쪽 하루 일정 한눈에 보기
 

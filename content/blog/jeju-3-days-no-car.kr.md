@@ -1,7 +1,7 @@
 ---
 title: "렌터카 없이 제주 3일"
 description: "렌터카 없이 떠나는 현실적인 제주 3일 일정: 제주시는 도보와 버스로, 동쪽 해안은 대중버스로, 3일차는 한라산 또는 올레길 걷기로. 운영 시간과 버스 요금을 공식 안내 기준으로 담았어요."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/jeju-01.webp"
 image_alt: "Green slopes and drifting cloud on Hallasan in Jeju"
 regions: ["jeju"]
@@ -55,6 +55,8 @@ stops:
 
 {{< figure src="images/photos/jeju-3-days-no-car-illust-02.webp" alt="제주 버스, 교통카드, 휴대폰 지도를 그린 일러스트 안내" caption="제주 버스는 교통카드로 타고, 택시는 카카오 T를 쓰면 편해요. 일러스트: AI 생성" >}}
 
+{{< aff href="https://www.klook.com/en-US/activity/237266-jeju-udo-east-jeju-full-day-tour-with-tangerine-picking/?aid=145455" text="클룩에서 우도·제주 동부 종일 투어 예약하기" >}}
+
 ## 🌅 1일차: 제주시를 걷고 버스로 다니기
 
 **도착하면 짐을 맡기고, 구제주 시내나 공항 근처에 묵으세요.** 둘 다 괜찮지만 구제주는 시장과 저녁 먹거리에 더 가깝고, 공항 근처는 더 조용해요. 공항에서 시내로 가는 버스는 여러 노선이 있으니 숙소에 맞는 노선을 제주버스정보시스템에서 고르세요.
@@ -98,6 +100,8 @@ stops:
 {{< sticker kind="photo-spot" >}}
 
 {{< figure src="images/photos/jeju3-p13-01.webp" alt="빨간 등대가 있는 방파제와 뒤로 솟은 성산일출봉" caption="성산일출봉은 매달 첫째 월요일에 쉬어요. 2일차를 정하기 전에 휴관일과 날씨를 확인하세요. 사진: Pexels" >}}
+
+{{< aff href="https://www.klook.com/en-US/activity/18608-private-car-charter-jeju/?aid=145455" text="클룩에서 제주 기사 포함 프라이빗 차량 예약하기" >}}
 
 ## ⛰️ 3일차: 산 하나, 아니면 해안 걷기 하나
 

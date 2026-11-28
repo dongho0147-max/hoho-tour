@@ -1,7 +1,7 @@
 ---
 title: "부산 2일 코스: 해운대, 광안리, 감천"
 description: "부산 2일 코스: 첫째 날은 해운대 해변과 스카이캡슐, 밤에는 광안대교, 둘째 날은 감천문화마을, 자갈치시장, BIFF 광장까지. 요금과 먹거리 정보를 함께 담았습니다."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/busan-01.webp"
 image_alt: "Haeundae Beach with the promenade and seafront towers"
 regions: ["busan"]

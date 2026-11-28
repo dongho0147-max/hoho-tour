@@ -505,7 +505,7 @@ article ol.tour-summary__stops li{counter-increment:stop;position:relative;paddi
 /* ---------- Guide map page (layouts/_default/map.html + assets/js/guide-map.js) ---------- */
 .gm{padding:0}
 .gm .page-head{margin-bottom:28px}
-.gm__filters{display:flex;gap:8px;overflow-x:auto;flex-wrap:nowrap;padding:2px 2px 10px;margin:0 0 12px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+.gm__filters{display:flex;gap:8px;flex-wrap:wrap;overflow:visible;padding:2px 2px 6px;margin:0 0 12px}
 .gm__filters .chip{flex:0 0 auto}
 .gm__filters .chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:var(--on-accent)}
 .gm-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--pin,var(--green));box-shadow:0 0 0 2px var(--paper)}

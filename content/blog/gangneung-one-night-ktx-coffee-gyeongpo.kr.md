@@ -1,7 +1,7 @@
 ---
 title: "KTX로 떠나는 강릉 1박: 커피거리, 경포해변, 호수"
 description: "서울에서 KTX로 떠나는 강릉 1박 여행: 오후에는 안목 커피거리, 해 질 녘에는 경포해변과 경포호, 다음 날 아침에는 주문진과 오죽헌."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/gangneung-01.webp"
 image_alt: "The GYEONGPO photo frame on Gyeongpo Beach"
 regions: ["gangwon"]
@@ -53,6 +53,8 @@ stops:
 **경포해변 쪽은 202번대 버스가 있어요.** 시간이 없으면 택시가 편해요.
 
 > **🔥 현지 팁:** 버스 시간은 강릉 버스정보시스템(bis.gn.go.kr)에서 미리 확인하세요. 배차 간격은 노선과 요일에 따라 달라요.
+
+{{< aff href="https://www.klook.com/en-GB/activity/19035-gangneung-gyeongpodae-cherry-blossoms-other-attractions-day-tour-seoul/?aid=145455" text="클룩에서 서울 출발 강릉 당일투어 예약하기" >}}
 
 ## ☕ 오후: 안목 커피거리
 
@@ -133,6 +135,8 @@ stops:
 1박이 딱 좋아요. 일출과 느긋한 아침을 원한다면 2박이 더 좋아요.
 
 {{< figure src="images/photos/gangneung-p13-03.webp" alt="파도치는 해변 옆 테이블 위의 커피잔과 책" caption="카페는 많아야 두 곳만 가세요. 하나는 커피, 하나는 전망으로 정하세요. 사진: Pexels" >}}
+
+{{< aff href="https://www.klook.com/en-HK/activity/177365-gangneung-starlight-tour-from-seoul/?aid=145455" text="클룩에서 서울 출발 강릉 별빛 2일 투어 예약하기" >}}
 
 ## 🏨 어디에 묵을까요?
 

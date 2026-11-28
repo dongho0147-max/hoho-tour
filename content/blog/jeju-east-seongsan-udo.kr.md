@@ -1,7 +1,7 @@
 ---
 title: "하루 만에 도는 동제주: 성산, 우도, 섭지코지"
 description: "동제주 하루 코스: 오전에 성산일출봉을 오르고, 오후에는 배로 우도에 가고, 섭지코지와 광치기해변에서 마무리해요. 배 시간과 요금을 담았어요."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/seongsan-sunny-01.webp"
 image_alt: "맑은 하늘 아래 바다 위로 솟은 성산일출봉"
 regions: ["jeju"]
@@ -85,6 +85,8 @@ stops:
 {{< sticker kind="yum" >}}
 
 배, 버스, 자전거 대여를 직접 짜기 싫다면, 가이드가 있는 데이투어 하나로 호텔 픽업과 함께 성산, 우도, 섭지코지를 한 번에 다닐 수 있어요. 같은 코스를 도는 프라이빗 투어도 있어요. 상품마다 포함 내용이 다르니 예약 전에 확인하세요.
+
+{{< aff href="https://www.klook.com/en-US/activity/237266-jeju-udo-east-jeju-full-day-tour-with-tangerine-picking/?aid=145455" text="클룩에서 우도·제주 동부 종일 투어 예약하기" >}}
 
 ## 🌅 섭지코지와 광치기해변에서 마무리
 

@@ -1,7 +1,7 @@
 ---
 title: "대전 빵 성지순례: 성심당에서 DCC까지"
 description: "서울에서 당일치기로 다녀오는 대전 빵 투어. 성심당 본점과 대전역점, 소제동 카페, 한밭수목원, 그리고 밤에 빛나는 DCC 엑스포 지구까지."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/daejeon-bakery-hero-01.webp"
 image_alt: "나무 선반에 가득 진열된 갓 구운 빵"
 regions: ["daejeon"]
@@ -74,6 +74,8 @@ ITX나 무궁화호는 더 오래 걸리니 빵 투어 당일에는 KTX가 편�
 **시내 이동은 지하철 1호선이 편해요.** 대전역에서 중앙로역은 한 정거장이고, 본점이 이 근처예요.
 
 **한밭수목원 쪽은 1호선 정부청사역에서 내려 시내버스나 택시로 이어 가세요.** 버스 번호와 시간은 지도 앱에서 확인하는 편이 정확해요.
+
+{{< aff href="https://www.klook.com/en-GB/activity/161041-daejeon-private-taxi-tour/?aid=145455" text="클룩에서 대전 프라이빗 택시 투어 보기 (한밭수목원·엑스포공원 코스)" >}}
 
 ## 🍞 1코스: 먼저 대전역점
 
@@ -171,3 +173,5 @@ ITX나 무궁화호는 더 오래 걸리니 빵 투어 당일에는 KTX가 편�
 마지막으로 하나. 튀김 소보로는 산 날에 드세요. 튀긴 빵이라 따뜻할 때가 제일 맛있어요. 돌아가는 기차가 마지막 하나를 먹기에 딱 좋은 자리예요.
 
 {{< aff href="https://www.klook.com/en-US/activity/2847-korea-rail-pass-seoul/?aid=145455" text="코레일패스(KTX) 구매하기" >}}
+
+{{< aff href="https://www.klook.com/activity/105340-daejeon-o-world-cherry-blossom-tulip-jangtaesan-recreational-forest/?aid=145455" text="클룩에서 대전 장태산숲·중앙시장 종일 투어 보기" >}}

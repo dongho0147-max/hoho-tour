@@ -1,7 +1,7 @@
 ---
 title: "서울에서 광주 당일치기: 송정시장, 양림동, 무등산"
 description: "용산에서 KTX로 떠나는 광주 당일치기: 송정시장과 떡갈비 골목, 5·18민주광장, 국립아시아문화전당, 양림동, 무등산."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/gwangju-01.webp"
 image_alt: "겨울 광주 도심 너머 무등산"
 regions: ["gwangju"]
@@ -162,6 +162,8 @@ map_note: "용산역은 서울 출발점이라 지도에서 뺍니다. 지도는
 
 전당 근처의 동명동은 카페 거리로 알려진 동네예요. 낮은 집과 작은 카페가 모여 있고, 늦은 오후에 걷기 좋아요.
 
+{{< aff href="https://www.klook.com/en-US/activity/160778-gwangju-soul-walk-human-acts-5-18-democracy-old-town-tour/?aid=145455" text="클룩에서 광주 소울워크 영어 투어 예약하기" >}}
+
 ## 🐧 늦은 오후: 양림동 골목
 
 **양림동은 광주의 선교사 마을이에요.** 오래된 선교사 사택과 교회, 정원이 모인 언덕이에요.
@@ -183,6 +185,8 @@ map_note: "용산역은 서울 출발점이라 지도에서 뺍니다. 지도는
 증심사 코스는 입석대와 서석대에 오르는 대표 코스예요. 국립공원공단 안내로 6.8km이고 편도 약 3시간 30분이 걸려요. 반나절 따로 잡으세요.
 
 **국립공원공단은 11월 15일부터 12월 15일까지 전국 일부 탐방로를 통제하고, 무등산도 일부 구간이 대상이에요.** 가기 전에 국립공원공단 탐방로 안내에서 통제 구간과 겨울철 입산·하산 시간을 확인하세요.
+
+{{< aff href="https://www.klook.com/en-US/activity/190223-gwangju-damyang-gochang-suncheon-yeosu-private-taxi-tour-from-gwangju/?aid=145455" text="클룩에서 광주 출발 프라이빗 택시 투어 예약하기" >}}
 
 ## 🍚 광주 맛
 

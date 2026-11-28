@@ -1,7 +1,7 @@
 ---
 title: "KTX로 하루 경주: 불국사, 고분, 황리단길"
 description: "서울이나 부산에서 KTX로 떠나는 경주 당일 코스: 오전에는 불국사, 오후에는 대릉원 고분군과 첨성대, 그리고 먹거리와 카페가 있는 황리단길."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/gyeongju-01.webp"
 image_alt: "The pond and stone bridge at Bulguksa Temple"
 regions: ["gyeongju"]
@@ -115,6 +115,8 @@ stops:
 **서울에서 간다면 혼자 가는 길이 쉬워요.** KTX에 버스만 잘 확인하면 돼요. 투어는 부산에서 갈 때 더 말이 돼요.
 
 기차가 짧고, 투어 버스가 현지 버스 환승을 덜어 주기 때문이에요. 투어는 상품마다 가격과 포함 내용이 크게 다르니 날짜를 넣고 직접 비교하세요.
+
+{{< aff href="https://www.klook.com/en-US/activity/194604-gyeongju-vip-small-group-heritage-nature-day-tour/?aid=145455" text="클룩에서 부산 출발 경주 소그룹 문화유산 투어 예약하기" >}}
 
 ## ✅ 경주 하루 일정 한눈에 보기
 

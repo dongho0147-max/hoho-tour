@@ -1,7 +1,7 @@
 ---
 title: "하루 만에 수원: 서울에서 떠나는 화성 성곽길 걷기"
 description: "서울에서 수원으로 떠나는 당일 여행: 화성 성곽길 걷기, 화성행궁, 네 개의 성문, 그리고 저녁은 수원 갈비."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/suwon-hwaseong-03.webp"
 image_alt: "Stone path along the Hwaseong Fortress wall in Suwon"
 regions: ["gyeonggi-suwon"]
@@ -127,6 +127,10 @@ map_note: "Banghwasuryujeong is not on the map: no verified coordinates were fou
 **직접 가세요.** 이동은 단순하고, 성곽은 걷는 데 돈이 들지 않고, 궁궐은 입장료가 {{< pr "2,000원" >}}이에요.
 
 투어는 수원을 다른 곳과 묶고 싶을 때만 의미가 있어요. 투어는 상품마다 포함 내용과 시간이 다르니 예약 전에 상세 페이지를 읽어 보세요.
+
+{{< aff href="https://www.klook.com/en-CA/activity/202678-suwon-starfield-library-hwaseong-fortress-day-tour-with-night-view/?aid=145455" text="클룩에서 수원 화성·별마당도서관 야경 투어 보기" >}}
+
+{{< aff href="https://www.klook.com/en-HK/activity/107202-starfield-library-tour-suwon/?aid=145455" text="클룩에서 별마당도서관·화성 가이드 투어 보기" >}}
 
 ## 🚫 이런 경우엔 건너뛰세요
 

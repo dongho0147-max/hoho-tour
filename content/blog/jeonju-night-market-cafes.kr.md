@@ -1,7 +1,7 @@
 ---
 title: "전주의 밤: 남부시장 야시장, 막걸리, 한옥마을 카페"
 description: "전주의 저녁 코스: 밤의 오목대, 남부시장 야시장, 안주가 쏟아지는 막걸리, 그리고 한옥마을과 객리단길의 늦은 카페."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/jeonju-night-02.webp"
 image_alt: "지붕과 언덕 너머로 해가 지는 전주"
 regions: ["jeonju"]

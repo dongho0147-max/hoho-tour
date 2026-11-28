@@ -1,7 +1,7 @@
 ---
 title: "현지인처럼 서울 다니기: 지하철, 티머니 카드, 그리고 택시를 타야 할 때"
 description: "서울 현지인이 솔직하게 알려 주는 지하철, 티머니 카드, 택시 가이드. 환승 통로는 어떻게 생겼는지, 요금은 얼마인지, 출퇴근 시간은 언제인지, 그리고 택시가 정답인 밤은 언제인지 정리했습니다."
-date: 2026-11-28
+date: 2026-11-17
 image: "images/photos/seoul-metro-car.webp"
 image_alt: "Commuters standing and sitting inside a Seoul Metro subway car"
 regions: ["seoul"]
@@ -56,6 +56,8 @@ stops:
 > **🔥 현지 팁:** 여행 막바지에는 충전을 멈추고 잔액을 소진하세요. 남은 잔액은 환불받을 수 있지만 카드값은 돌려받지 못하고, 환불 수수료가 {{< pr "500원" >}} 붙어요. 편의점마다 환불할 수 있는 잔액 한도가 달라서, 한도를 넘으면 지하철역 고객안내센터나 티머니 서비스 창구로 가야 해요. 환불 규정은 티머니 공식 안내를 확인하세요.
 
 {{< sticker kind="pro-tip" >}}
+
+{{< aff href="https://www.klook.com/en-US/activity/76596-private-incheon-airport-taxi-transfers-seoul/?aid=145455" text="클룩에서 인천공항 픽업 예약하기" >}}
 
 ## 🚇 역은 어떻게 읽을까요?
 

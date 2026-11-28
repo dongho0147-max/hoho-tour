@@ -48,7 +48,7 @@
 
 <section class="latest" aria-labelledby="latest-guides-heading">
 <div class="section-head section-head--center">
-<p class="eyebrow">{{ i18n "latestKicker" }}</p>
+<p class="eyebrow">{{ i18n "latestKicker" }} &middot; {{ cond $isKR (printf "가이드 %d편" (len $sorted)) (printf "%d guides" (len $sorted)) }}</p>
 <h2 id="latest-guides-heading" class="latest-title">{{ i18n "latestGuides" }}</h2>
 <p class="intro">{{ i18n "latestIntro" }}</p>
 

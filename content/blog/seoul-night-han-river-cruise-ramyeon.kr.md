@@ -1,7 +1,7 @@
 ---
 title: "한강의 서울 야경: 크루즈, 반포대교, 그리고 한강 라면"
 description: "서울 한강에서 보내는 하루 저녁: 여의도 이랜드 크루즈, 해 진 뒤의 반포대교, 한강공원 강변의 컵라면까지."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/han-01.webp"
 image_alt: "Banpo Bridge Moonlight Rainbow Fountain at night over the Han River"
 regions: ["seoul"]

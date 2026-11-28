@@ -1,7 +1,7 @@
 ---
 title: "경주의 밤: 동궁, 월지, 월정교"
 description: "경주 야간 산책 코스: 해 질 녘의 동궁과 월지, 개울 위로 불 켜진 월정교, 조명 아래의 첨성대, 그리고 늦은 간식을 위한 황리단길."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/gyeongju-night-01.webp"
 image_alt: "Donggung Palace and Wolji Pond lit up at night"
 regions: ["gyeongju"]

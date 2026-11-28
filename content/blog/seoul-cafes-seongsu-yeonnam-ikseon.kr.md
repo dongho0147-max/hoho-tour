@@ -1,7 +1,7 @@
 ---
 title: "서울 카페 크롤: 하루에 성수, 연남, 익선동"
 description: "세 동네를 도는 서울 카페 크롤 하루 코스. 성수의 창고 카페, 경의선숲길 옆 푸른 연남동, 익선동의 한옥 카페를 담았어요."
-date: 2026-11-28
+date: 2026-11-19
 image: "images/photos/seoul-cafe-01.webp"
 image_alt: "A narrow lane in Ikseon-dong with cafe tables outside"
 regions: ["seoul"]
@@ -110,6 +110,8 @@ stops:
 {{< figure src="images/photos/seoul-cafe-07.webp" alt="카페 테이블 위 라테 아트가 있는 라테 한 잔과 접시 위 빵" caption="익선동에서는 디저트 세트와 차나 라테를 시키고, 공간 자체로 카페를 평가하세요. 사진: Jonatan Svensson Glad, CC BY-SA 4.0" >}}
 
 {{< sticker kind="yum" >}}
+
+{{< aff href="https://www.klook.com/en-US/activity/68099-gwangjang-market-food-and-fortress-walk/?aid=145455" text="클룩에서 광장시장 먹거리·성곽 워킹투어 보기" >}}
 
 ## 🚫 이럴 땐 건너뛰세요
 
