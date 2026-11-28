@@ -40,6 +40,8 @@ You can do Jeju in three days without renting a car, and you can enjoy it. The t
 
 This guide was put together from recent listings, reviews, and official transport pages, checked November 2026. Bus numbers and fares change, so treat the numbers below as ranges and check the day before you travel. This route is built for a first-time visitor who would rather ride the bus than argue with a rental desk.
 
+{{< figure src="images/photos/jeju-3-days-no-car-illust-02.webp" alt="Illustrated guide to Jeju buses, a transit card and a phone map" caption="East-coast buses thin out after 19:00, so check the last bus home before you leave. Illustration: AI-generated" >}}
+
 {{< sticker kind="lets-go" >}}
 
 ## 🚌 How do you get around Jeju without a car?
@@ -54,7 +56,6 @@ If a full bus day sounds like too much planning, a small-group [day tour](https:
 
 {{< aff href="https://www.klook.com/en-US/activity/237266-jeju-udo-east-jeju-full-day-tour-with-tangerine-picking/?aid=145455" text="Book the Udo and East Jeju full-day tour on Klook" >}}
 
-{{< figure src="images/photos/jeju-3-days-no-car-illust-02.webp" alt="Illustrated guide to Jeju buses, a transit card and a phone map" caption="East-coast buses thin out after 19:00, so check the last bus home before you leave. Illustration: AI-generated" >}}
 
 ## 🌅 Day 1: Jeju City on foot and by bus
 

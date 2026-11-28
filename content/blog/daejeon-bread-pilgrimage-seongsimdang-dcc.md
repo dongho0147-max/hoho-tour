@@ -60,6 +60,8 @@ Daejeon has one honest claim to fame, and the whole city knows it. People ride t
 
 This guide turns that bread run into a full day: **Daejeon Station**, both Seongsimdang branches that matter, a cafe break in Soje-dong, a free arboretum walk, and the DCC Expo area as the bridge lights up. Five stops, one metro line, and a bag of bread for the train home.
 
+{{< figure src="images/photos/daejeon-02.webp" alt="Crowded bread display trays inside Seongsimdang, croissants and pastries with price tags" caption="Decide your order before you join the queue. Twigim soboro and buchu-ppang are the two names to know. Photo: Trainholic, CC BY-SA 4.0" >}}
+
 Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check the queue situation before you go.
 
 {{< sticker kind="lets-go" >}}
@@ -92,7 +94,6 @@ Now the queue game. Arrive at 07:40 to 08:10, right at opening, and you walk in 
 
 {{< sticker kind="pro-tip" >}}
 
-{{< figure src="images/photos/daejeon-02.webp" alt="Crowded bread display trays inside Seongsimdang, croissants and pastries with price tags" caption="Decide your order before you join the queue. Twigim soboro and buchu-ppang are the two names to know. Photo: Trainholic, CC BY-SA 4.0" >}}
 
 ## 🛒 What to order, and what it costs
 

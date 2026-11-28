@@ -36,7 +36,7 @@ Nobody on the train will stop you or glare at you for looking lost. The system i
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/seoul-08.webp" alt="Line 7 platform at Dobongsan Station" caption="Seoul's subway gets very crowded at rush hour, so plan around it. Photo: LERK, CC BY 2.5" >}}
+{{< figure src="images/photos/seoul-08.webp" alt="Line 7 platform at Dobongsan Station" caption="Line colors and station numbers are all you need to navigate, even without reading Korean. Photo: LERK, CC BY 2.5" >}}
 
 {{< figure src="images/illust/subway-illust.webp" alt="Seoul transit at a glance: AREX, T-money, subway and taxi" caption="Fares and times here are ranges, so check current fares before you ride. Illustration: AI-generated" >}}
 

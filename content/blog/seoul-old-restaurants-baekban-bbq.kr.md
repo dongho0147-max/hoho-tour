@@ -27,7 +27,9 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 서울 최고의 식사는 전망이나 코스 요리와 함께 오지 않아요. 아침 일곱 시의 놋그릇에 담겨 오거나, 뜨거운 뚝배기로 나오거나, 숯불 앞에서 직원이 구워 줘요.
 
-아래 식당들은 수십 년째 문을 열어 왔어요. 그중 몇 곳은 여러분을 거기로 데려다줄 지하철 노선보다도 먼저 생겼어요.
+아래 식당들은 수십 년째 문을 열어 왔어요. 그중 몇 곳은 그 동네에 지하철이 닿기보다 먼저 생겼어요.
+
+{{< figure src="images/illust/old-illust.webp" alt="서울 노포: 설렁탕, 곰탕, 삼계탕, 바비큐" caption="노포는 가게마다 시간이 달라요. 가기 전에 영업시간을 확인하세요. 일러스트: AI 생성" >}}
 
 이 가이드는 네 곳을 골라요. 대부분의 카페보다 먼저 여는 국물집 두 곳, 궁궐 옆 삼계탕집 한 곳, 저녁용 [바비큐](https://www.klook.com/en-US/activity/919-korean-night-dining-tour-seoul/?aid=145455)집 한 곳이에요. 서두르지 않고 이틀이면 네 곳 모두에서 먹을 수 있어요.
 
@@ -46,7 +48,6 @@ image_alt: "Seolleongtang, milky ox-bone soup with sliced beef and scallions"
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/illust/old-illust.webp" alt="서울 노포: 설렁탕, 곰탕, 삼계탕, 바비큐" caption="노포는 가게마다 시간이 달라요. 가기 전에 영업시간을 확인하세요. 일러스트: AI 생성" >}}
 
 ## 🍜 서울에서 가장 오래된 식당 중 하나, 이문설농탕에서 시작하는 이유는?
 

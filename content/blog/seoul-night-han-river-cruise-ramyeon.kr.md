@@ -42,7 +42,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/han-03.webp" alt="낮의 한강 위 성산대교" caption="11월 말에도 크루즈는 다니고 다리에 불도 켜져요. 무지개 분수는 4~10월에만 가동해요. 사진: travel oriented, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/han-03.webp" alt="불이 켜진 한강 위 성산대교의 밤" caption="11월 말에도 크루즈는 다니고 다리에 불도 켜져요. 무지개 분수는 4~10월에만 가동해요. 사진: travel oriented, CC BY-SA 2.0" >}}
 
 ## 🚢 어떤 크루즈를 예약할까요?
 

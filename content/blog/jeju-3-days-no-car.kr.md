@@ -39,6 +39,8 @@ stops:
 
 **이 글은 공식 안내 페이지를 바탕으로 2026년 11월에 정리했어요.** 버스 노선과 요금, 운영 시간은 바뀔 수 있으니 출발 전날 제주버스정보시스템과 각 시설 안내를 다시 확인하세요. 렌터카 데스크와 씨름하느니 버스를 타겠다는 첫 방문 여행자를 위해 짠 코스예요.
 
+{{< figure src="images/photos/jeju-3-days-no-car-illust-02.webp" alt="제주 버스, 교통카드, 휴대폰 지도를 그린 일러스트 안내" caption="제주 버스는 교통카드로 타고, 택시는 카카오 T를 쓰면 편해요. 일러스트: AI 생성" >}}
+
 {{< sticker kind="lets-go" >}}
 
 ## 🚌 렌터카 없이 제주를 어떻게 다닐까요?
@@ -53,7 +55,6 @@ stops:
 
 버스로 하루를 다 도는 게 부담스럽다면, 소그룹 데이[투어](https://www.klook.com/en-US/activity/189127-jeju-east-west-south-shared-day-tour/?aid=145455)가 호텔 픽업으로 똑같은 동쪽 코스를 돌아줘요. 2일차를 해결하는 가장 간단한 방법이에요.
 
-{{< figure src="images/photos/jeju-3-days-no-car-illust-02.webp" alt="제주 버스, 교통카드, 휴대폰 지도를 그린 일러스트 안내" caption="제주 버스는 교통카드로 타고, 택시는 카카오 T를 쓰면 편해요. 일러스트: AI 생성" >}}
 
 {{< aff href="https://www.klook.com/en-US/activity/237266-jeju-udo-east-jeju-full-day-tour-with-tangerine-picking/?aid=145455" text="클룩에서 우도·제주 동부 종일 투어 예약하기" >}}
 

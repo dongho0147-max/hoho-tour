@@ -59,6 +59,8 @@ map_note: "대전역점은 별도의 지도 등록이 없어 대전역 위치에
 
 이 글은 그 빵 원정을 하루 일정으로 바꿨어요. 대전역점, 본점, 소제동 카페, 한밭수목원, 해 질 녘 엑스포다리까지 이어져요. 운영 시간과 휴무는 성심당 공식 누리집, 대전시, 대전컨벤션센터 안내를 바탕으로 2026년 11월에 정리했어요.
 
+{{< figure src="images/photos/daejeon-02.webp" alt="성심당 매장 안 붐비는 빵 진열 트레이, 가격표가 붙은 크루아상과 페이스트리" caption="튀김 소보로는 따뜻할 때 드시고, 큰 쇼핑은 본점에서 하세요. 사진: Trainholic, CC BY-SA 4.0" >}}
+
 빵 가격과 대기 줄은 날마다 달라서 따로 적지 않았어요. 가기 전에 한 번 더 확인하세요.
 
 {{< sticker kind="lets-go" >}}
@@ -95,7 +97,6 @@ ITX나 무궁화호는 더 오래 걸리니 빵 투어 당일에는 KTX가 편�
 
 {{< sticker kind="pro-tip" >}}
 
-{{< figure src="images/photos/daejeon-02.webp" alt="성심당 매장 안 붐비는 빵 진열 트레이, 가격표가 붙은 크루아상과 페이스트리" caption="튀김 소보로는 따뜻할 때 드시고, 큰 쇼핑은 본점에서 하세요. 사진: Trainholic, CC BY-SA 4.0" >}}
 
 {{< figure src="images/photos/daejeon-p13-01.webp" alt="저녁에 불이 켜진 성심당 본점 입구" caption="본점은 저녁에도 사람이 많아요. 줄에 서기 전에 살 빵부터 정해 두세요. 사진: Trainholic, CC BY-SA 4.0" >}}
 

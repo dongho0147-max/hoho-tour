@@ -12,6 +12,9 @@ Last updated: 2026-11-18 (revamp v1).
   `layouts/_default/single.html` - never paste a hero figure by hand.
 - Body photos: 3-6 per guide. First body photo within the first 2-3
   paragraphs - never below paragraph 5.
+- Sunny and bright: unless the post or section is about night views or
+  mood, photos are sunny daytime shots. Dark or overcast daytime photos
+  are flagged for replacement (Dongho, 2026-11-28).
 - Collages: 2-4 photos in one `{{< collage >}}` block, CSS grid
   (mobile 2 columns, desktop 2-4 columns). Use one collage per guide at most,
   two only in a long guide (2,000+ words).

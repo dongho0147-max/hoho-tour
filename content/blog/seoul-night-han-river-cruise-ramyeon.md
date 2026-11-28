@@ -41,7 +41,7 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/han-03.webp" alt="Seongsan Bridge over the Han River in daylight" caption="Check the cruise schedule on the day. Sailings change with weather and river conditions. Photo: travel oriented, CC BY-SA 2.0" >}}
+{{< figure src="images/photos/han-03.webp" alt="Seongsan Bridge lit up over the Han River at night" caption="Check the cruise schedule on the day. Sailings change with weather and river conditions. Photo: travel oriented, CC BY-SA 2.0" >}}
 
 ## 🚢 Which cruise should you book?
 

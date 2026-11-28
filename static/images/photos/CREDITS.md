@@ -339,3 +339,8 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | seoulcafe-p13-03.webp | 길가 카페 바 자리에 나란히 앉은 두 사람의 뒷모습 | 1600 px | Pexels contributor (see page) | Pexels License (free to use, no attribution required; not CC) | https://www.pexels.com/photo/young-couple-sitting-at-a-table-on-the-sidewalk-19271565/ |
 | daejeon-p13-01.webp | Seongsimdang main store entrance at night, Daejeon | 1600 px | Trainholic | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sungsimdang_2019.jpg |
 | daejeon-p13-02.webp | Bread display at Seongsimdang (cropped to the bread, crowd removed) | 1600 px | Trainholic | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Sungsimdang_display_stand.jpg |
+| seoul-new-arex.webp | 인천공항 1터미널역 공항철도 직통열차 개찰구·매표 구역 | 1600 px | MNXANL | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:202403_AREX_Express_Train_Concourse_at_Incheon_International_Airport_Terminal_1_Station.jpg |
+| seoul-new-hongdae.webp | 네온과 인파가 가득한 홍대 밤거리 | 1600 px | Sgroey | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hongdae_2.jpg |
+| seoul-new-insadong.webp | 전통 상점이 늘어선 낮의 인사동길 | 1600 px | Dr. Thomas Liptak | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Seoul,_Jongno_District,_Insa-dong,_Insadong-gil.jpg |
+| seoul-new-myeongdong.webp | 해 질 무렵 불이 켜진 명동예술극장 | 1600 px | lumoplank | CC0 | https://commons.wikimedia.org/wiki/File:Myeongdong,_Seoul_-_Myeongdong3165.jpg |
+| seoul-new-nseoultower.webp | N서울타워 전망대에서 내려다본 해 질 무렵 서울 시내 | 1600 px | kallerna | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:N_Seoul_Tower_view_2.jpg |
