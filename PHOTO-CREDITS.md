@@ -483,3 +483,5 @@ Brightened by the photo PM (mild auto-enhance): danyang-garlic-03, skywalk-aeria
 (seoul-cafe-02.webp removed from the Seoul cafes post: exact duplicate of ikseon-teal-hanok-01.)
 | seoul-subway-platform-01.webp | Gwangheungchang Station platform, Seoul Metro Line 6; subway post hero | G43 | CC BY 3.0 | https://commons.wikimedia.org/wiki/Category:Gwangheungchang_Station |
 | seoul-subway-platform-02.webp | Digital Media City Station platform, Line 6, with exit signs and platform doors; subway post body | G43 | CC BY 3.0 | https://commons.wikimedia.org/wiki/Category:Digital_Media_City_Station |
+| jeonju-hanok-roofs-01.webp | Gray-tiled hanok roofs of Jeonju Hanok Village with the city behind; Jeonju one-day hero | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/Category:Jeonju_Hanok_Village |
+| jeonju-gyeonggijeon-01.webp | Red wooden hall and courtyard at Gyeonggijeon, Jeonju; Jeonju one-day body (replaces jeonju-01 there) | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/Category:Gyeonggijeon |

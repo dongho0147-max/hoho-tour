@@ -2,8 +2,8 @@
 title: "Jeonju in One Day: Hanok Village, Bibimbap, and Gaekridan-gil from Seoul"
 description: "A one-day trip from Seoul to Jeonju by KTX: Gyeonggijeon and the Hanok Village in the morning, real Jeonju bibimbap for lunch, and cafes on Gaekridan-gil in the afternoon."
 date: 2026-11-19
-image: "images/photos/seoul-24.webp"
-image_alt: "Jeonju Hanok Village rooftops and a street in daytime"
+image: "images/photos/jeonju-hanok-roofs-01.webp"
+image_alt: "Gray-tiled hanok roofs of Jeonju Hanok Village with the city behind"
 regions: ["jeonju"]
 themes: ["day-trips", "food-restaurants"]
 stops:
@@ -68,7 +68,7 @@ Jeonju is the easiest food city to reach from Seoul, and one day is enough to un
 
 This guide is written from research, not from a single visit. Routes, times, and prices below come from recent listings and reviews, checked November 2026. Treat prices as ranges, not promises, and check train times before you book.
 
-{{< figure src="images/photos/jeonju-01.webp" alt="Gyeonggijeon shrine buildings in Jeonju with trees" caption="Check train times before you book. Prices here are ranges, not promises. Photo: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-gyeonggijeon-01.webp" alt="Red wooden hall with a courtyard and clay pots at Gyeonggijeon" caption="A red wooden hall and sunlit courtyard at Gyeonggijeon. Photo: Bernard Gagnon, Wikimedia Commons, CC0" >}}
 
 ## 🚄 How do you get there?
 
@@ -82,7 +82,7 @@ Take the KTX from **Yongsan Station**. Trains from Yongsan are far more frequent
 
 Start at Gyeonggijeon, the shrine that holds the royal portrait of King Taejo, the founder of the Joseon dynasty. The grounds are calm in the morning, with old trees, a bamboo grove, and the **Royal Portrait Museum**. One thing to know before you go: the main hall is under dancheong repainting work from March 26 to December 17, 2026, based on recent listings, so you cannot go past the inner gate into the main hall area during that period. The rest of the grounds and the museum stay open as usual, so the visit is still worth it. Just do not plan your morning around a hall you cannot enter.
 
-Entry is a few thousand won per adult. Free guided walks in English run daily at about 11:00 and 15:00 from the ticket office, and they last around an hour. If you arrive early, walk the village streets first and join the later tour.
+Entry is 3,000 KRW per adult, and free on the last Wednesday of each month. Free guided walks run daily from inside the main gate and last about an hour. The 11:00 and 14:00 departures list English, and there are Korean-only ones at 10:00, 15:00 and 16:00. If you arrive early, walk the village streets first and join the later tour.
 
 {{< collage "images/photos/jeonju-02.webp|Gyeonggijeon shrine from another angle|Photo: Mobius6, CC BY-SA 4.0" "images/photos/jeonju-03.webp|A street in Jeonju Hanok Village|Photo: ecodallaluna, CC BY-SA 2.0" >}}
 

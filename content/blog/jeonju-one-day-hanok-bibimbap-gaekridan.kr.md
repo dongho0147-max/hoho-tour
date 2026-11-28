@@ -2,8 +2,8 @@
 title: "전주 하루 여행: 서울에서 한옥마을, 비빔밥, 객리단길"
 description: "서울에서 KTX로 떠나는 전주 당일 여행: 오전에는 경기전과 한옥마을, 점심은 진짜 전주 비빔밥, 오후에는 객리단길의 카페."
 date: 2026-11-19
-image: "images/photos/seoul-24.webp"
-image_alt: "Jeonju Hanok Village rooftops and a street in daytime"
+image: "images/photos/jeonju-hanok-roofs-01.webp"
+image_alt: "전주 한옥마을의 회색 기와지붕과 뒤로 보이는 도심"
 regions: ["jeonju"]
 themes: ["day-trips", "food-restaurants"]
 stops:
@@ -68,7 +68,7 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 **이 글은 전주시와 한국관광공사 등 공식 안내를 바탕으로 2026년 11월에 정리했어요.** 열차 시간과 운영 시간은 바뀔 수 있으니 예매 전에 확인하세요.
 
-{{< figure src="images/photos/jeonju-01.webp" alt="나무가 있는 전주 경기전 건물들" caption="경기전 투어는 10:00과 11:00에 출발해요. 11:00 투어는 외국어로도 진행돼요. 사진: Mobius6, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeonju-gyeonggijeon-01.webp" alt="경기전의 붉은 목조 건물과 마당" caption="햇살이 드는 마당과 붉은 목조 건물이 있는 경기전이에요. 사진: Bernard Gagnon, Wikimedia Commons, CC0" >}}
 
 ## 🚄 어떻게 가나요?
 
@@ -84,11 +84,11 @@ map_note: "Gaekridan-gil is not on the map: no verified coordinates were found f
 
 가기 전에 알아둘 점이 하나 있어요. 정전은 2026년 3월 26일부터 12월 17일까지 단청 공사 중이라 내신문 안쪽 정전 구역에는 들어갈 수 없어요(공사 기간은 연장될 수 있어요). 나머지 경내와 어진박물관은 볼 수 있어요.
 
-**겨울에는 저녁 6시쯤 닫고 입장은 마감 1시간 전까지예요.** 입장료는 유료이고, 매달 마지막 주 수요일 문화가 있는 날에는 무료예요.
+**겨울에는 저녁 6시쯤 닫고 입장은 마감 1시간 전까지예요.** 입장료는 성인 3,000원이고, 매달 마지막 주 수요일 문화가 있는 날에는 무료예요.
 
 전주시는 한옥마을에서 문화관광해설 정기투어를 매일 운영해요. 예약은 필요 없고 시간표를 보고 집결 장소로 가면 돼요.
 
-**경기전 투어는 10:00과 11:00에 출발하고, 11:00 투어는 한국어, 영어, 중국어, 일본어로 진행돼요.** 기상에 따라 중단되거나 바뀔 수 있어요.
+**경기전 투어는 10:00, 11:00, 14:00, 15:00, 16:00에 출발하고, 11:00와 14:00 투어는 영어, 중국어, 일본어 안내도 있어요.** 기상에 따라 중단되거나 바뀔 수 있어요.
 
 {{< collage "images/photos/jeonju-02.webp|다른 각도에서 본 경기전|사진: Mobius6, CC BY-SA 4.0" "images/photos/jeonju-03.webp|전주 한옥마을의 거리|사진: ecodallaluna, CC BY-SA 2.0" >}}
 
