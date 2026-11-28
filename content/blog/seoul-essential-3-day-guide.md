@@ -122,7 +122,7 @@ Start early. The palaces are best before the tour buses arrive.
 
 Seoul's main royal palace was built in 1395. Come for the 10:00 or 14:00 Royal Guard Changing Ceremony at Gwanghwamun Gate. It lasts about 20 minutes and is free to watch from the square.
 
-Admission runs about {{< hl "3,000 KRW" >}} for adults. Wear a hanbok and entry is free. Rentals from shops near the palace run roughly {{< pr "15,000-30,000 KRW" >}} for a few hours, and your photos will look far better for it. Give the palace 2 hours. Do not rush the throne hall and the back gardens.
+Admission runs about {{< pr "3,000 KRW" >}} for adults. Wear a hanbok and entry is free. Rentals from shops near the palace run roughly {{< pr "15,000-30,000 KRW" >}} for a few hours, and your photos will look far better for it. Give the palace 2 hours. Do not rush the throne hall and the back gardens.
 
 The honest downside: the courtyard gets packed by 11, and the ceremony draws a crowd three deep. Come at 10 and you get the good light and the space. Subway: Gyeongbokgung Station, Line 3, Exit 5.
 

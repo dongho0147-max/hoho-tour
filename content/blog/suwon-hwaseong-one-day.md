@@ -61,7 +61,7 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 You have two good options, and the train wins. From Seoul Station, take the ITX-Saemaeul intercity train to Suwon. It takes about 27 minutes and costs about {{< pr "4,800 KRW" >}}. Buy at the station kiosk or through the Korail site. Tickets rarely sell out except on national holidays.
 
-The cheaper option is subway Line 1 toward Sinchang. Suwon is 14 stops south of Seoul Station, about 58 minutes, and costs about {{< hl "1,950 KRW" >}} on a T-money card. Take the train if you value your morning. Take the subway if you value the fare difference and do not mind the ride.
+The cheaper option is subway Line 1 toward Sinchang. Suwon is 14 stops south of Seoul Station, about 58 minutes, and costs about {{< pr "1,950 KRW" >}} on a T-money card. Take the train if you value your morning. Take the subway if you value the fare difference and do not mind the ride.
 
 From Suwon Station, take city bus 11 or 13 from Exit 4 to the Hwaseong Haenggung stop, then walk about five minutes to the palace. Buses 2-2, 36, 39, 400, and 999 from the Maesan Market stop go to Paldalmun instead. Either way, the bus ride is short and the fortress is easy to find once you are there.
 

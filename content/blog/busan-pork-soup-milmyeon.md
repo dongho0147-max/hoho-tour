@@ -85,7 +85,7 @@ Milmyeon needs a different kind of attention from soup. The noodles are wheat an
 
 Halmae Gaya Milmyeon is the easiest first stop. It has been open since 1974 on Gwangbok-ro in Nampo-dong, a few minutes' walk from Nampo Station and BIFF Square, close to [Gukje Market](https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455) and Jagalchi. It is open 10:30 to 21:30 every day, and the room is big enough that the wait is usually short. The address is 56-14 Gwangbok-ro.
 
-A large milmyeon is {{< hl "9,000 KRW" >}}. The bibim version with spicy sauce is {{< pr "8,000 KRW" >}}. The handmade jumbo mandu, four pieces, are {{< pr "5,000 KRW" >}}, and they are worth ordering. The bibim is the one to try if you like heat, and the plain mul-milmyeon is the one to try first if this is your first bowl. Either way, eat it fast. The noodles go soft as the ice melts, and the shop knows it, which is why nobody lingers.
+A large milmyeon is {{< pr "9,000 KRW" >}}. The bibim version with spicy sauce is {{< pr "8,000 KRW" >}}. The handmade jumbo mandu, four pieces, are {{< pr "5,000 KRW" >}}, and they are worth ordering. The bibim is the one to try if you like heat, and the plain mul-milmyeon is the one to try first if this is your first bowl. Either way, eat it fast. The noodles go soft as the ice melts, and the shop knows it, which is why nobody lingers.
 
 > **🔥 Local tip:** Find it by the address, not the name: some tourism pages list it as Gaya Milmyeon. Order the handmade king mandu with your noodles: four pieces is the popular combo, and it is the side regulars point to first. Based on recent listings/reviews, checked November 2026.
 
