@@ -469,3 +469,15 @@ Brightened by the photo PM (mild auto-enhance): danyang-garlic-03, skywalk-aeria
 | danyang-dakgangjeong-01.jpg | Dak-gangjeong 1.jpg (Wikimedia Commons) | Ajumeoni | CC0 | https://commons.wikimedia.org/wiki/File:Dak-gangjeong_1.jpg |
 (danyang-garlic-crop.jpg removed from the Danyang post market collage: same composition as danyang-garlic-03.)
 | seoul-gyeonghoeru-01.webp | File:Gyeongbokgung-Gyeonghoeru-02.jpg (Wikimedia Commons), Gyeonghoeru Pavilion on its pond, blue sky; Seoul 3-day hero | eimoberg (Flickr) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Gyeongbokgung-Gyeonghoeru-02.jpg |
+## Guinsa spot page photos (2026-11-28, phase 37, free licence)
+| file | source | author | licence |
+|---|---|---|---|
+| danyang-guinsa-s02.jpg | Korea-Danyang-Guinsa 2902-07.JPG (Commons) | Steve46814 | CC BY-SA 3.0 |
+| danyang-guinsa-s03.jpg | Korea-Danyang-Guinsa 2907-07.JPG (Commons) | Steve46814 | CC BY-SA 3.0 |
+| danyang-guinsa-s04.jpg | Korea-Danyang-Guinsa 2909-07.JPG (Commons) | Steve46814 | CC BY-SA 3.0 |
+| danyang-guinsa-s05.jpg | Korea-Danyang-Guinsa Daejosajeon 3038-07.JPG (Commons) | Steve46814 | CC BY-SA 3.0 |
+| danyang-guinsa-s06.jpg | Korea-Danyang-Guinsa Gold Tiled Roof 3017-07.JPG (Commons) | Steve46814 | CC BY-SA 3.0 |
+
+## Duplicate fixes (2026-11-28)
+| busan-gamcheon-street-01.webp | Gamcheon Culture Village - 55503107051.jpg (Wikimedia Commons), replaces busan-gamcheon-sunset-01 (exact duplicate of busan-03) | xiquinhosilva | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Gamcheon_Culture_Village_-_55503107051.jpg |
+(seoul-cafe-02.webp removed from the Seoul cafes post: exact duplicate of ikseon-teal-hanok-01.)

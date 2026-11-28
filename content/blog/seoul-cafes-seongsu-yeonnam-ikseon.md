@@ -47,7 +47,7 @@ The area around **Seongsu Station** and Seoul Forest is the walk. The streets ar
 
 > **🔥 Local tip:** Cafe Onion, the converted-factory bakery that put Seongsu on the map, is calmest on weekday mornings before 09:00, when the bread is fresh and there is no wait. On weekend afternoons the line can run 30 minutes to an hour, and the rooftop fills first. At the ordering kiosk, pick dine-in (매장) if you want to sit inside: takeout (포장) means a to-go cup and no indoor table, even if seats are free. Based on recent listings/reviews, checked November 2026.
 
-{{< collage "images/photos/seoul-cafe-06.webp|Street art on a wall in Seongsu-dong|Photo: CartoonChess, CC BY-SA 4.0" "images/photos/seoul-cafe-02.webp|A lane in Ikseon-dong with shops|Photo: S h y numis, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-cafe-06.webp" alt="Street art on a wall in Seongsu-dong" caption="Street art on a wall in Seongsu-dong. Photo: CartoonChess, CC BY-SA 4.0" >}}
 
 ## 🗺️ What is the difference between the three neighborhoods?
 

@@ -49,7 +49,7 @@ stops:
 
 > **🔥 현지 팁:** 성수를 유명하게 만든 카페 중 하나인 어니언은 1970년대에 지은 건물을 고쳐 만들었고, 20여 종의 빵과 커피를 팔아요. 서울 공식 관광정보 기준으로 월~금 **08:00~22:00**, 주말 **09:00~22:00**에 열어요. 주말 오후에는 붐비니 평일 오전을 노려보세요. 영업시간과 좌석 이용 방식은 가기 전에 확인하세요.
 
-{{< collage "images/photos/seoul-cafe-06.webp|성수동 벽의 스트리트 아트|사진: CartoonChess, CC BY-SA 4.0" "images/photos/seoul-cafe-02.webp|가게가 늘어선 익선동 골목|사진: S h y numis, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/seoul-cafe-06.webp" alt="성수동 벽의 스트리트 아트" caption="성수동 벽의 스트리트 아트. 사진: CartoonChess, CC BY-SA 4.0" >}}
 
 {{< figure src="images/photos/seoulcafe-p13-01.webp" alt="어니언 간판이 걸린 오래된 건물의 카페 입구" caption="어니언은 1970년대에 지은 건물을 고쳐 만든 곳이에요. 빵이 20여 종이라 커피와 함께 드세요. 사진: Pexels" >}}
 

@@ -75,7 +75,7 @@ Dinner here is easy: raw fish restaurants line the beach road, and the cafes sta
 
 ## 🏘️ Day 2: Gamcheon Culture Village in the morning
 
-Start day 2 at **Gamcheon Culture Village**, the hillside neighborhood of colorful houses, murals, and steep alleys. Go in the morning, before the tour groups arrive, and give it 2 hours. The village was a refugee settlement during the Korean War, and the art came later, so walk it with that in mind: people live here, and the lanes are their streets, not a theme park.
+Start day 2 at **Gamcheon Culture Village**, the hillside neighborhood of colorful houses, murals, and steep alleys. Entry is free, and the village is open 09:00 to 17:00 from November to February. Go in the morning, before the tour groups arrive, and give it 2 hours. The village was a refugee settlement during the Korean War, and the art came later, so walk it with that in mind: people live here, and the lanes are their streets, not a theme park.
 
 {{< figure src="images/photos/busan-03.webp" alt="Colorful houses in Gamcheon Culture Village at sunset" caption="The lanes are residents' streets. Walk quietly and wear comfortable shoes. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
@@ -83,7 +83,7 @@ Wear proper shoes. The alleys are steep, the steps are uneven, and the loop up t
 
 > **🔥 Local tip:** Arrive between 09:00 and 10:00 on a weekday, before the tour buses cluster from around 10:00 to 14:00. Pick up the stamp map at the information center and follow its route downhill: it spreads out the foot traffic and ends at the cafe street. At peak hours the Little Prince photo queue runs 20 to 30 minutes. Some small stalls do not take cards, so carry small bills. Based on recent listings/reviews, checked November 2026.
 
-{{< figure src="images/photos/busan-gamcheon-sunset-01.webp" alt="Colorful houses of Gamcheon Culture Village at sunset" caption="Go early on a weekday for fewer crowds, and carry a little cash. Photo: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-gamcheon-street-01.webp" alt="Shops, a postcard sign and colorful buildings along a Gamcheon Culture Village street" caption="Go early on a weekday for fewer crowds, and carry a little cash. Photo: xiquinhosilva, Wikimedia Commons, CC BY 4.0" >}}
 
 ## 🍜 Day 2 lunch: Jagalchi Market and milmyeon
 

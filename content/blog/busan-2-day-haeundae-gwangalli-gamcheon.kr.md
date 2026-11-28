@@ -106,7 +106,7 @@ stops:
 
 > **🔥 현지 팁:** 가능하면 평일 오전 일찍 도착하세요. 마을 안내센터에서 지도를 받아 코스를 따라 내려오면 사람이 분산돼요. 카드를 받지 않는 작은 가게도 있을 수 있으니 약간의 현금을 챙기세요.
 
-{{< figure src="images/photos/busan-gamcheon-sunset-01.webp" alt="해 질 녘 감천문화마을의 알록달록한 집들" caption="평일 오전 일찍 가면 사람이 덜 몰려요. 약간의 현금도 챙기세요. 사진: Basile Morin, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-gamcheon-street-01.webp" alt="감천문화마을 거리의 가게와 엽서 간판, 알록달록한 건물들" caption="평일 오전 일찍 가면 사람이 덜 몰려요. 약간의 현금도 챙기세요. 사진: xiquinhosilva, Wikimedia Commons, CC BY 4.0" >}}
 
 ## 🍜 둘째 날 점심: 자갈치시장과 밀면
 
