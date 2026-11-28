@@ -17,7 +17,7 @@ hub:
   - name: Sono Belle Danyang
     name_ko: 소노벨 단양
     area: Danyang-eup. Large resort hotel above the Namhan River.
-    note: Everything is under one roof. Closed December 2 to 22, 2026 for facility work (official Sono Hotels & Resorts notice, October 28, 2026), so book another hotel for those dates.
+    note: 'Everything is under one roof. Closed December 2 to 22, 2026 for facility work (official Sono Hotels & Resorts notice, October 28, 2026), so book another hotel for those dates. Address: Sambong-ro 187-17, Danyang-eup. Google 4.0 from 7,311 reviews. Apartment-style rooms with a kitchen.'
     photo: images/photos/danyang-sono-02.jpg
     alt: Aerial view of Sono Belle Danyang among autumn hills
     caption: Aerial view of Sono Belle Danyang among autumn hills.
@@ -38,10 +38,11 @@ hub:
   - name: Danyang Tourist Hotel Edelweiss
     name_ko: 단양관광호텔 에델바이스
     area: Danyang town, a walk from the market and the river path.
-    note: All 80 rooms face the river (per the hotel's official page). The Klook page is in Korean.
+    note: 'All 80 rooms face the river (per the hotel''s official page). The Klook page is in Korean. Address: Sambong-ro 31, Danyang-eup. Google 3.8 from 636 reviews. About 2 km west of Gugyeong Market on the map.'
     book:
       url: https://www.klook.com/ko/hotels/detail/278013-danyang-tourist-hotel-edelweiss/?aid=145455
       text: See Edelweiss rates on Klook (Korean page)
+  sources_note: Google Maps ratings via the photo PM, checked 2026-11-28; not re-verified by the site agent.
 ---
 
 Two places we checked for the Danyang 2-night route. Prices change by date, so open the booking page for the current rate.

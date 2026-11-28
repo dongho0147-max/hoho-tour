@@ -16,7 +16,7 @@ hub:
   items:
   - name: 쏘가리 매운탕
     area: 단양의 향토 음식, 민물고기 탕.
-    note: 민물고기 쏘가리로 끓인 매운탕이에요.
+    note: 민물고기 쏘가리로 끓인 매운탕이에요. 박쏘가리, 단양읍 수변로 85. 구글 평점 3.7(후기 479개).
     photo: images/photos/danyang-food-ssogari-01.jpg
     alt: 매운탕 냄비를 위에서 본 모습
     caption: 냄비에 끓는 쏘가리 매운탕.
@@ -30,7 +30,7 @@ hub:
       credit: yoona13 (Tistory)
   - name: 마늘 순대국밥
     area: 순대국밥집.
-    note: 마늘을 넣은 순대가 들어간 국밥이에요. 접시에 담긴 순대보다 국밥으로 파는 곳이 많아요.
+    note: 마늘을 넣은 순대가 들어간 국밥이에요. 접시에 담긴 순대보다 국밥으로 파는 곳이 많아요. 달동네마늘순대, 단양읍 도전리. 구글 평점 2.8(후기 84개). 후기가 엇갈려서 꼭 가야 할 집은 아니고 향토 음식 한 끼로 보세요.
     photo: images/photos/danyang-food-sundaeguk-01.jpg
     alt: 뚝배기에 담긴 순대국밥
     caption: 뚝배기에 담긴 순대국밥.
@@ -51,7 +51,7 @@ hub:
     credit: 낭만한량 블로그
   - name: 흑마늘 닭강정
     area: 구경시장 주변.
-    note: 흑마늘 양념을 입힌 바삭한 닭강정이에요. 식어도 바삭해요.
+    note: 흑마늘 양념을 입힌 바삭한 닭강정이에요. 식어도 바삭해요. 원주닭집 단양 흑마늘 닭강정, 단양읍 도전4길 30. 구글 평점 3.5(후기 101개). 포장 상자로 팔아요.
     photo: images/photos/danyang-food-dakgangjeong-01.jpg
     alt: 상자에 담긴 닭강정
     caption: 상자에 담은 닭강정.
@@ -65,7 +65,7 @@ hub:
       credit: padmapadme (Tistory)
   - name: 마늘 떡갈비
     area: 단양읍.
-    note: 마늘 플레이크를 얹어 구운 갈비 패티예요. 하나 시켜서 나눠 드세요.
+    note: 마늘 플레이크를 얹어 구운 갈비 패티예요. 하나 시켜서 나눠 드세요. 원시인마늘떡갈비, 구경시장 옆. 구글 평점 4.1이지만 후기가 7개뿐이라 참고만 하세요.
     photo: images/photos/danyang-food-tteokgalbi-01.jpg
     alt: 철판에 올린 떡갈비 두 장
     caption: 철판에 올린 마늘 떡갈비.
@@ -84,6 +84,7 @@ hub:
     alt: 마늘빵
     caption: 마늘빵.
     credit: 우창민 / 한국관광콘텐츠랩
+  sources_note: Google Maps ratings via the photo PM, checked 2026-11-28; not re-verified by the site agent.
 ---
 
 단양은 마늘과 민물고기로 유명해요. 일정에 넣은 음식이고, 따로 예약할 필요는 없어요.

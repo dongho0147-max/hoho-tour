@@ -438,3 +438,15 @@ The card-slide and popup sounds are synthesized in the browser with the Web Audi
 | danyang-bobaljae-02.jpg | Bobaljae viewing deck 4062630 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms2/website/30/4062630.jpg |
 | danyang-bobaljae-03.jpg | Bobaljae aerial 3470671 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms2/website/71/3470671.jpg |
 | danyang-bobaljae-winter-01.jpg | Bobaljae in snow 3009293 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms/resource/93/3009293_image2_1.jpg |
+
+### Phase 35 (Danyang food and lodging hubs, from the Muse Drive set; all NON-FREE: Tistory personal blogs, no licence stated, credit shown)
+| file | source | author | licence | url |
+|---|---|---|---|---|
+| danyang-food-ssogari-01/02/03.jpg | Drive food-10, 12, 13 | yoona13 | non-free (none stated) | https://yoona13.tistory.com/412 |
+| danyang-food-sundaeguk-01/02/03.jpg | Drive food-01, 02, 03 | sungyk | non-free (none stated) | https://sungyk.tistory.com/100 |
+| danyang-food-dakgangjeong-01.jpg | Drive food-06, cropped to remove a corner watermark | moneyistech | non-free (none stated) | https://moneyistech.tistory.com/237 |
+| danyang-food-dakgangjeong-02/03.jpg | Drive food-04, 05 | padmapadme | non-free (none stated) | https://padmapadme.tistory.com/944 |
+| danyang-food-tteokgalbi-01/02/03.jpg | Drive food-07, 08, 09 | sungyk | non-free (none stated) | https://sungyk.tistory.com/v/99 |
+| danyang-sono-east-01/02/03.jpg | Drive sonobel-01, 02, 03 | witchice | non-free (none stated) | https://witchice.tistory.com/17 |
+| danyang-sono-room-01.jpg, danyang-sono-bath-01.jpg | Drive sonobel-06, 08 | sweets-sokuri | non-free (none stated) | https://sweets-sokuri.tistory.com/entry/충북-단양-소노벨-단양-EAST동-숙박-후기 |
+Not used: sonobel-04, 05, 07 (TRVLOGUE, author unknown).
