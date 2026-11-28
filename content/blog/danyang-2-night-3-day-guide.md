@@ -4,7 +4,7 @@ description: "A 2-night 3-day Danyang route from Seoul, ordered around the Tuesd
 date: 2026-11-28
 image: "images/photos/danyang-v10-01.jpg"
 image_alt: "Dodamsambong peaks reflected in the Namhan River"
-image_caption: "Dodamsambong looks best in late-afternoon light. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1"
+image_caption: "Dodamsambong's three rock peaks in the Namhan River, with the pavilion on the middle one. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1"
 regions: ["chungcheong"]
 themes: ["day-trips"]
 stops:
@@ -80,7 +80,7 @@ The market and the river walk are on foot from the town center. For the rest, pl
 - **Bring some cash for the market.** Many small stalls prefer cash.
 - **Weekends are busy.** Saturday afternoon is the peak at the skywalk and the market.
 
-{{< figure src="images/photos/danyang-eup-01.jpg" alt="Danyang-eup town stretched along the Namhan River" caption="To do the market and river walk on foot, stay in town. Photo: Trainholic, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/danyang-eup-01.jpg" alt="Danyang-eup town stretched along the Namhan River" caption="Danyang town stretched along the Namhan River, seen from above. Photo: Trainholic, CC BY-SA 4.0" >}}
 
 ### 🛏️ Where should you stay?
 
@@ -102,7 +102,7 @@ Dodamsambong is the postcard view of Danyang: three rock peaks standing in the N
 
 For the water-level view, there is a Dodamsambong cruise. In November and December it runs a shortened route, so check the fare and timetable on the operator's official site (danyangcruise.co.kr). Bring photo ID in case boarding needs it.
 
-{{< figure src="images/photos/danyang-seokmun-02.jpg" alt="The Namhan River and green fields seen through the rock arch of Seokmun" caption="The view from inside the Seokmun arch is the best part. The cruise runs a shortened route in November and December, so check the timetable. Photo: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-seokmun-02.jpg" alt="The Namhan River and green fields seen through the rock arch of Seokmun" caption="The Namhan River and fields framed by the Seokmun rock arch. Photo: Douglas Perkins, CC BY 4.0" >}}
 
 ### 🧄 Gugyeong Market, the garlic market
 
@@ -115,17 +115,17 @@ For the water-level view, there is a Dodamsambong cruise. In November and Decemb
 
 > **💡 Insider tip:** Skip filling up on one thing. Buy small and share. Buy a gift box of garlic bread on your way home.
 
-{{< figure src="images/photos/danyang-garlic-03.jpg" alt="Danyang garlic bundles tied with red string and stacked" caption="The market sells garlic by the bundle too. Buy gifts on your last day. Photo: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-garlic-03.jpg" alt="Danyang garlic bundles tied with red string and stacked" caption="Danyang garlic tied in bundles with red string. Photo: Douglas Perkins, CC BY 4.0" >}}
 
-{{< figure src="images/photos/danyang-v10-05.jpg" alt="A box of garlic bread from Danyang" caption="Eat garlic bread warm, and buy the gift box on your last day. Photo: Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
+{{< figure src="images/photos/danyang-v10-05.jpg" alt="A box of garlic bread from Danyang" caption="Danyang garlic bread in a gift box. Photo: Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
 
 ### Danyang River Jando at night
 
 Jando is the cliffside wooden walkway along the river, about 1.1 km and free (per Danyang County). Lights are said to stay on until 23:00 after sunset, but hours seem to vary by season, so check the county site first. It is a flat 1-hour walk and the calmest part of the trip.
 
-{{< figure src="images/photos/danyang-v10-06.jpg" alt="Danyang River Jando walkway along the river cliff" caption="The walkway is flat and takes about an hour. Check evening lighting hours with Danyang County. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
+{{< figure src="images/photos/danyang-v10-06.jpg" alt="Danyang River Jando walkway along the river cliff" caption="The Danyang River cliffs, with a bridge in the distance. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
 
-{{< figure src="images/photos/danyang-bridge-night-01.jpg" alt="Arched bridge lit at night over the Namhan River in Danyang" caption="Night lighting hours seem to vary by season, so check the Danyang County site first. Photo: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-bridge-night-01.jpg" alt="Arched bridge lit at night over the Namhan River in Danyang" caption="An arched bridge lit up at night over the Namhan River. Photo: Douglas Perkins, CC BY 4.0" >}}
 
 ## ⛰️ Day 2: How do you fit the cave, the skywalk, and the lights into one day, in order?
 
@@ -135,13 +135,13 @@ Jando is the cliffside wooden walkway along the river, about 1.1 km and free (pe
 
 **Gosu Cave** is a registered Natural Monument (No. 256) and open every day of the year. Entry starts at 09:00, with the last entry at 17:00. An adult ticket is {{< pr "11,000 KRW" >}} at the door (list price). Online tickets are listed at 9,900 KRW (Gosu Cave website). Plan about 1 hour inside. The cave stays cool all year, and parts of the floor are wet, so wear shoes with grip.
 
-{{< figure src="images/photos/danyang-v10-04.jpg" alt="Stalactites and limestone formations inside Gosu Cave" caption="Online tickets are cheaper than the door price. Wear non-slip shoes on the wet floor. Photo: Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
+{{< figure src="images/photos/danyang-v10-04.jpg" alt="Stalactites and limestone formations inside Gosu Cave" caption="Stalactites and limestone inside Gosu Cave. Photo: Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
 
 ### Mancheonha Skywalk (early afternoon)
 
 The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay {{< hl "4,000 KRW" >}}, and youth, children, and seniors pay {{< pr "3,000 KRW" >}} (official site). In winter it runs 09:00 to 17:00, and on-site ticket sales close between 16:00 and 16:30, so arrive before 3 pm. You reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline ({{< pr "30,000 KRW" >}}) and alpine coaster ({{< pr "18,000 KRW" >}}) cost extra.
 
-{{< figure src="images/photos/danyang-v10-07.jpg" alt="Aerial view of the Mancheonha Skywalk rising above the mountains and the Namhan River" caption="The skywalk is reached by shuttle bus only, and it closes on Tuesdays. Arrive before 3 pm. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
+{{< figure src="images/photos/danyang-v10-07.jpg" alt="Aerial view of the Mancheonha Skywalk rising above the mountains and the Namhan River" caption="The Mancheonha Skywalk above the mountains and the river, from the air. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
 
 ### Paragliding (optional, weather permitting)
 
@@ -151,13 +151,13 @@ You can paraglide from the Yangbangsan and Dusan launch sites. Courses, prices, 
 
 {{< aff href="https://www.klook.com/en-US/activity/104295-chunggbuk-danyang-paragliding-experience/?aid=145455" text="Book Danyang paragliding on Klook" >}}
 
-{{< figure src="images/photos/danyang-paragliders-02.jpg" alt="Paragliders gliding in the sky above Danyang hills" caption="Flights depend on wind, so book a day with slack. Photo: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-paragliders-02.jpg" alt="Paragliders gliding in the sky above Danyang hills" caption="Paragliders in the sky above the Danyang hills. Photo: Douglas Perkins, CC BY 4.0" >}}
 
 ### Suyanggae Light Tunnel (evening)
 
 An old railway tunnel turned into a light show, with an LED garden outside. In winter (November to March) it opens at 14:00, closes at 21:50, and sells its last ticket at 21:00. Adults pay {{< pr "9,000 KRW" >}}. It is closed on Tuesdays. Give it 30 to 40 minutes.
 
-{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="Suyanggae Light Tunnel LED garden at night" caption="The Light Tunnel is closed on Tuesdays and 30 to 40 minutes is enough. Photo: Suyanggae Light Tunnel official site" >}}
+{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="Suyanggae Light Tunnel LED garden at night" caption="The LED light garden at night inside Suyanggae Light Tunnel. Photo: Suyanggae Light Tunnel official site" >}}
 
 ## 🍲 Day 3: What is the last meal in Danyang?
 
@@ -167,7 +167,7 @@ Sogari (mandarin fish) maeuntang is the local dish: a spicy river-fish stew, sha
 
 **If you have a car and time, skip lunch for the Chungju Lake cruise** from Janghoe Wharf past Oksunbong and Gugambong (about 1 to 1.5 hours). Two companies run similar-looking boats from the same wharf, so pick an operator before you book.
 
-{{< figure src="images/photos/danyang-ssogari-01.jpg" alt="Sogari maeuntang simmering with perilla leaves and enoki mushrooms" caption="One pot is meant for two or more people. Check the break time before you go. Photo: hyun chun kim, CC0" >}}
+{{< figure src="images/photos/danyang-ssogari-01.jpg" alt="Sogari maeuntang simmering with perilla leaves and enoki mushrooms" caption="Ssogari maeuntang simmering with perilla leaves and enoki mushrooms. Photo: hyun chun kim, CC0" >}}
 
 Walk the river once more, buy a box of garlic bread, and head home by train or bus.
 

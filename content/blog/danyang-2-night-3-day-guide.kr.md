@@ -79,7 +79,7 @@ stops:
 - **시장에서는 현금이 편해요.** 작은 가게는 현금을 선호해요. 소액 현금을 챙기세요.
 - **주말은 붐벼요.** 토요일 오후가 스카이워크와 시장의 피크예요.
 
-{{< figure src="images/photos/danyang-eup-01.jpg" alt="남한강을 따라 펼쳐진 단양읍 시내 전경" caption="시장과 강변 산책로를 걸어서 다니려면 단양읍 시내 숙소가 편해요. 사진: Trainholic, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/danyang-eup-01.jpg" alt="남한강을 따라 펼쳐진 단양읍 시내 전경" caption="남한강을 따라 길게 이어진 단양읍 시내예요. 사진: Trainholic, CC BY-SA 4.0" >}}
 
 ### 🛏️ 숙소는 어디가 좋을까
 
@@ -103,7 +103,7 @@ stops:
 
 물 위에서 보고 싶다면 도담삼봉 유람선이 있어요. 11~12월에는 단축 운항이라 요금과 시간표는 도담삼봉유람선 공식 누리집(danyangcruise.co.kr)에서 확인하세요. 승선할 때 신분증이 필요할 수 있어요.
 
-{{< figure src="images/photos/danyang-seokmun-02.jpg" alt="바위 아치 너머로 푸른 남한강과 들판이 보이는 석문" caption="석문 아치 안쪽에서 보는 강이 가장 예뻐요. 유람선은 11~12월 단축 운항이니 시간표를 확인하세요. 사진: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-seokmun-02.jpg" alt="바위 아치 너머로 푸른 남한강과 들판이 보이는 석문" caption="석문 아치 너머로 보이는 남한강과 들판이에요. 사진: Douglas Perkins, CC BY 4.0" >}}
 
 ### 🧄 구경시장, 마늘 시장
 
@@ -116,17 +116,17 @@ stops:
 
 > **💡 꿀팁:** 한 가지로 배 채우지 말고 조금씩 사서 나눠 드세요. 마늘빵은 돌아가는 날 한 상자 더 사면 선물로 좋아요.
 
-{{< figure src="images/photos/danyang-garlic-03.jpg" alt="붉은 끈으로 묶어 쌓아 놓은 단양 마늘 다발" caption="마늘은 시장에서 다발로도 팔아요. 선물용은 돌아가는 날 사세요. 사진: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-garlic-03.jpg" alt="붉은 끈으로 묶어 쌓아 놓은 단양 마늘 다발" caption="붉은 끈으로 묶은 단양 마늘 다발이에요. 사진: Douglas Perkins, CC BY 4.0" >}}
 
-{{< figure src="images/photos/danyang-v10-05.jpg" alt="상자에 담긴 단양 마늘빵" caption="마늘빵은 따뜻할 때 드세요. 선물용 상자는 돌아가는 날 사세요. 사진: 한국관광공사, 우창민, KOGL 제1유형" >}}
+{{< figure src="images/photos/danyang-v10-05.jpg" alt="상자에 담긴 단양 마늘빵" caption="상자에 담은 단양 마늘빵이에요. 사진: 한국관광공사, 우창민, KOGL 제1유형" >}}
 
 ### 밤의 단양강 잔도
 
 **잔도는 절벽을 따라 놓인 나무 데크길이에요.** 길이 1.1km 안팎에 무료예요(단양군 안내). 해가 진 뒤 밤 11시까지 조명이 켜진다는 안내가 있지만 운영 시간은 계절에 따라 달라 보이니 가기 전에 단양군 누리집에서 확인하세요. 평탄해서 1시간 정도 걷기 좋아요.
 
-{{< figure src="images/photos/danyang-v10-06.jpg" alt="단양강 절벽을 따라 놓인 잔도와 강" caption="잔도는 평탄해서 1시간이면 돼요. 야간 조명 시간은 단양군 누리집에서 확인하세요. 사진: 한국관광공사, 김지호, KOGL 제1유형" >}}
+{{< figure src="images/photos/danyang-v10-06.jpg" alt="단양강 절벽을 따라 놓인 잔도와 강" caption="단양강과 절벽, 멀리 다리가 보여요. 사진: 한국관광공사, 김지호, KOGL 제1유형" >}}
 
-{{< figure src="images/photos/danyang-bridge-night-01.jpg" alt="남한강 위에서 밤에 불을 밝힌 단양의 아치 다리" caption="밤 조명 시간은 계절에 따라 달라 보여요. 가기 전에 단양군 누리집에서 확인하세요. 사진: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-bridge-night-01.jpg" alt="남한강 위에서 밤에 불을 밝힌 단양의 아치 다리" caption="밤에 불을 밝힌 남한강의 아치 다리예요. 사진: Douglas Perkins, CC BY 4.0" >}}
 
 ## ⛰️ 2일 차: 동굴, 스카이워크, 빛터널을 순서대로 다 볼 수 있을까요?
 
@@ -138,7 +138,7 @@ stops:
 
 **성인 요금은 {{< pr "11,000원" >}}이에요(현장 정가). 온라인 예매는 9,900원으로 안내돼요(고수동굴 누리집).** 안에서 1시간쯤 잡으세요. 동굴 안은 일 년 내내 서늘하고 바닥이 젖은 구간이 있으니 미끄럼 방지 신발을 신으세요.
 
-{{< figure src="images/photos/danyang-v10-04.jpg" alt="고수동굴 내부의 종유석과 석회암 지형" caption="온라인 예매가 현장 정가보다 저렴해요. 바닥이 젖으니 미끄럼 방지 신발을 신으세요. 사진: 한국관광공사, 우창민, KOGL 제1유형" >}}
+{{< figure src="images/photos/danyang-v10-04.jpg" alt="고수동굴 내부의 종유석과 석회암 지형" caption="고수동굴 안의 종유석과 석회암이에요. 사진: 한국관광공사, 우창민, KOGL 제1유형" >}}
 
 ### 만천하스카이워크(이른 오후)
 
@@ -146,7 +146,7 @@ stops:
 
 전망대는 셔틀버스로만 올라가요. 매주 화요일은 정기 휴장이에요(화요일이 공휴일이면 정상 운영, 만천하 공식 FAQ). 짚와이어(**{{< pr "30,000원" >}}**)와 알파인코스터(**{{< pr "18,000원" >}}**)는 별도 요금이에요.
 
-{{< figure src="images/photos/danyang-v10-07.jpg" alt="산과 남한강 위로 솟은 만천하스카이워크 전경" caption="스카이워크는 셔틀버스로만 올라가고 화요일은 쉬어요. 오후 3시 전에 도착하세요. 사진: 한국관광공사, 김지호, KOGL 제1유형" >}}
+{{< figure src="images/photos/danyang-v10-07.jpg" alt="산과 남한강 위로 솟은 만천하스카이워크 전경" caption="산과 강 위로 솟은 만천하스카이워크를 위에서 본 모습이에요. 사진: 한국관광공사, 김지호, KOGL 제1유형" >}}
 
 ### 패러글라이딩(선택, 날씨 따라)
 
@@ -156,7 +156,7 @@ stops:
 
 {{< aff href="https://www.klook.com/ko/activity/104295-chunggbuk-danyang-paragliding-experience/?aid=145455" text="클룩에서 단양 패러글라이딩 예약하기" rel="sponsored noopener" >}}
 
-{{< figure src="images/photos/danyang-paragliders-02.jpg" alt="단양 산 위 하늘에서 활공하는 패러글라이더" caption="바람 때문에 못 뜨는 날이 있어요. 여유 있는 날에 예약하세요. 사진: Douglas Perkins, CC BY 4.0" >}}
+{{< figure src="images/photos/danyang-paragliders-02.jpg" alt="단양 산 위 하늘에서 활공하는 패러글라이더" caption="단양 산 위를 나는 패러글라이더예요. 사진: Douglas Perkins, CC BY 4.0" >}}
 
 ### 수양개빛터널(저녁)
 
@@ -164,7 +164,7 @@ stops:
 
 **성인 {{< pr "9,000원" >}}이고 화요일은 쉬어요.** 30~40분이면 충분해요.
 
-{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="밤에 빛나는 수양개빛터널 LED 정원" caption="수양개빛터널은 화요일 휴무예요. 30~40분이면 충분해요. 사진: 수양개빛터널 공식 누리집" >}}
+{{< figure src="images/photos/danyang-blog-07-tunnel.jpg" alt="밤에 빛나는 수양개빛터널 LED 정원" caption="밤에 빛나는 수양개빛터널의 LED 정원이에요. 사진: 수양개빛터널 공식 누리집" >}}
 
 ## 🍲 3일 차: 단양의 마지막 한 끼는 뭘로 할까요?
 
@@ -174,7 +174,7 @@ stops:
 
 **차와 시간이 있으면 점심 대신 장회나루에서 옥순봉·구담봉을 지나는 충주호 유람선(약 1시간~1시간 30분)도 좋아요.** 비슷해 보이는 배를 두 회사가 같은 선착장에서 운영하니 예약 전에 업체를 정하세요.
 
-{{< figure src="images/photos/danyang-ssogari-01.jpg" alt="깻잎과 팽이버섯을 올려 끓이는 쏘가리 매운탕" caption="냄비 하나를 둘 이상이 나눠 먹어요. 가기 전에 브레이크타임을 확인하세요. 사진: hyun chun kim, CC0" >}}
+{{< figure src="images/photos/danyang-ssogari-01.jpg" alt="깻잎과 팽이버섯을 올려 끓이는 쏘가리 매운탕" caption="깻잎과 팽이버섯을 올려 끓이는 쏘가리 매운탕이에요. 사진: hyun chun kim, CC0" >}}
 
 강변을 한 번 더 걷고, 마늘빵을 한 상자 사서 기차나 버스로 돌아가세요.
 
