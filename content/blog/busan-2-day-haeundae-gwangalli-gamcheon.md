@@ -42,7 +42,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/busan-02.webp" alt="A night festival crowd at Gwangalli Beach" caption="Gwangalli has a free drone light show on Saturday evenings. It can be cancelled for weather, so check before you go. Photo: Jiwoon Kim, CC0" >}}
+{{< figure src="images/photos/busan-gwangan-night-01.webp" alt="The Gwangan Bridge lit blue at night over Gwangalli Beach" caption="Gwangalli has a free drone light show on Saturday evenings. It can be cancelled for weather, so check before you go. Photo: lumoplank, CC0" >}}
 
 ## 🌊 Day 1: Haeundae Beach and the Sky Capsule
 
@@ -84,7 +84,7 @@ Wear proper shoes. The alleys are steep, the steps are uneven, and the loop up t
 
 > **🔥 Local tip:** Arrive between 09:00 and 10:00 on a weekday, before the tour buses cluster from around 10:00 to 14:00. Pick up the stamp map at the information center and follow its route downhill: it spreads out the foot traffic and ends at the cafe street. At peak hours the Little Prince photo queue runs 20 to 30 minutes. Some small stalls do not take cards, so carry small bills. Based on recent listings/reviews, checked November 2026.
 
-{{< figure src="images/photos/busan-05.webp" alt="Gamcheon Culture Village on a cloudy autumn day" caption="Go early on a weekday for fewer crowds, and carry a little cash. Photo: RonanHoogmoed, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-gamcheon-sunset-01.webp" alt="Colorful houses of Gamcheon Culture Village at sunset" caption="Go early on a weekday for fewer crowds, and carry a little cash. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
 ## 🍜 Day 2 lunch: Jagalchi Market and milmyeon
 

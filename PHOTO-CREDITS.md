@@ -321,3 +321,5 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | jeju3-olle-coast-01.webp | Jeju Olle Trail coastal path (Route 16) | 1400 px | Jeju Olle Foundation | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeju_Olle_Route_16.jpg |
 | jeonju-cathedral-01.webp | Jeondong Catholic Cathedral front, Jeonju | 1600 px | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeondong_Catholic_Cathedral_20230408_005.jpg |
 | jeonju-omokdae-01.webp | View over Jeonju Hanok Village from inside Omokdae pavilion | 1600 px | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Omokdae_20230408_013.jpg |
+| busan-gwangan-night-01.webp | Gwangan Bridge and Gwangalli Beach - Gwangalli2721.jpg | lumoplank | CC0 | https://commons.wikimedia.org/wiki/File:Gwangan_Bridge_and_Gwangalli_Beach_-_Gwangalli2721.jpg |
+| busan-gamcheon-sunset-01.webp | Colorful houses in Gamcheon Culture Village at sunset in Busan South Korea.jpg | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Colorful_houses_in_Gamcheon_Culture_Village_at_sunset_in_Busan_South_Korea.jpg |

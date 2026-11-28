@@ -56,7 +56,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/busan-02.webp" alt="광안리 해변의 야간 축제 인파" caption="광안리는 토요일 저녁 무료 드론 라이트 쇼가 열려요. 날씨에 따라 취소될 수 있으니 확인하고 가세요. 사진: Jiwoon Kim, CC0" >}}
+{{< figure src="images/photos/busan-gwangan-night-01.webp" alt="밤에 파란 조명이 켜진 광안대교와 광안리 해변" caption="광안리는 토요일 저녁 무료 드론 라이트 쇼가 열려요. 날씨에 따라 취소될 수 있으니 확인하고 가세요. 사진: lumoplank, CC0" >}}
 
 ## 🌊 첫째 날: 해운대 해변과 스카이캡슐
 
@@ -106,7 +106,7 @@ stops:
 
 > **🔥 현지 팁:** 가능하면 평일 오전 일찍 도착하세요. 마을 안내센터에서 지도를 받아 코스를 따라 내려오면 사람이 분산돼요. 카드를 받지 않는 작은 가게도 있을 수 있으니 약간의 현금을 챙기세요.
 
-{{< figure src="images/photos/busan-05.webp" alt="구름 낀 가을날의 감천문화마을" caption="평일 오전 일찍 가면 사람이 덜 몰려요. 약간의 현금도 챙기세요. 사진: RonanHoogmoed, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/busan-gamcheon-sunset-01.webp" alt="해 질 녘 감천문화마을의 알록달록한 집들" caption="평일 오전 일찍 가면 사람이 덜 몰려요. 약간의 현금도 챙기세요. 사진: Basile Morin, CC BY-SA 4.0" >}}
 
 ## 🍜 둘째 날 점심: 자갈치시장과 밀면
 
