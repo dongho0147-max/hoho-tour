@@ -308,7 +308,7 @@
     var pts = latlngs.map(function (ll) { return containerPt(ll); });
     for (var i = 0; i < n; i++) {
       for (var j = i + 1; j < n; j++) {
-        if ((stops[i].type === "lodging" || stops[i].type === "transit" || stops[j].type === "lodging" || stops[j].type === "transit")) continue;
+        if ((stops[i].type === "lodging" || stops[i].type === "transit" || stops[i].type === "market" || stops[j].type === "lodging" || stops[j].type === "transit" || stops[j].type === "market")) continue;
         if (Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y) < MIN_SEP) union(i, j);
       }
     }
@@ -326,7 +326,7 @@
         /* A lodging or transit pin that sits on top of another stop is nudged
            16 px right and 18 px down (pixel offset, so it stays apart at any zoom). */
         var crowded = false;
-        if (s.type === "lodging" || s.type === "transit") {
+        if (s.type === "lodging" || s.type === "transit" || s.type === "market") {
           for (var oi = 0; oi < n; oi++) {
             if (oi !== si && Math.hypot(pts[oi].x - pts[si].x, pts[oi].y - pts[si].y) < MIN_SEP) { crowded = true; break; }
           }
@@ -334,6 +334,7 @@
         var ax = bw / 2 - (crowded ? 16 : 0), ay = BADGE_R - (crowded ? 18 : 0);
         var mk = L.marker(latlngs[si], {
           pane: "tourBadgePane",
+          zIndexOffset: s.type === "market" ? 1000 : 0,
           icon: L.divIcon({ className: "tour-marker-wrap",
             html: '<span class="' + badgeCls(s, badgeText(si)) + '">' + badgeText(si) + '</span>',
             iconSize: [bw, BADGE_D], iconAnchor: [ax, ay] })
