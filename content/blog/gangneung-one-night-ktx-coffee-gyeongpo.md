@@ -45,11 +45,11 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🚄 How do you get to Gangneung?
 
-Take the KTX from Seoul Station or Cheongnyangni Station to Gangneung Station. The trip takes about 2 hours, and a standard one-way fare runs about 26,000 to 35,000 KRW, based on recent listings. Book a few days ahead, because Friday evening and Sunday afternoon trains sell out.
+Take the KTX from Seoul Station or Cheongnyangni Station to Gangneung Station. The trip takes about 2 hours, and a standard one-way fare runs about 26,000 to {{< hl "35,000 KRW" >}}, based on recent listings. Book a few days ahead, because Friday evening and Sunday afternoon trains sell out.
 
-From Gangneung Station, take a bus or a taxi to Anmok Beach, about 15 to 20 minutes. A taxi runs about 10,000 to 15,000 KRW. The bus is cheaper but slower, so take the taxi if you are short on time.
+From Gangneung Station, take a bus or a taxi to Anmok Beach, about 15 to 20 minutes. A taxi runs about 10,000 to {{< hl "15,000 KRW" >}}. The bus is cheaper but slower, so take the taxi if you are short on time.
 
-> **🔥 Local tip:** Sit on the right side of the train from Seoul for the mountain views in the second half of the trip. It is a small thing, and it makes the 2 hours feel shorter. From Gangneung Station Exit 1, bus 202 runs to Anmok Beach in about 20 minutes, about 1,500 KRW by card, every 15 to 20 minutes. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Sit on the right side of the train from Seoul for the mountain views in the second half of the trip. It is a small thing, and it makes the 2 hours feel shorter. From Gangneung Station {{< hl "Exit 1" >}}, bus 202 runs to Anmok Beach in about 20 minutes, about {{< hl "1,500 KRW" >}} by card, every 15 to 20 minutes. Based on recent listings/reviews, checked November 2026.
 
 If you would rather not plan the transport at all, a day tour from Seoul covers the Gangneung highlights and brings you back the same evening. It is a good option if you cannot stay the night.
 
@@ -57,7 +57,7 @@ If you would rather not plan the transport at all, a day tour from Seoul covers 
 
 ## ☕ Afternoon: Anmok Coffee Street
 
-Start at Anmok Beach Coffee Street, the row of cafes along Anmok Beach. Gangneung calls itself a coffee city, and this street is why: the cafes roast their own beans, and the street has been a coffee destination since the first cafes opened here years ago. Pick one with a sea view, order a hand drip, and sit. A hand drip runs about 6,000 to 9,000 KRW, and a latte runs about 6,000 to 8,000 KRW, based on recent listings.
+Start at Anmok Beach Coffee Street, the row of cafes along Anmok Beach. Gangneung calls itself a coffee city, and this street is why: the cafes roast their own beans, and the street has been a coffee destination since the first cafes opened here years ago. Pick one with a sea view, order a hand drip, and sit. A hand drip runs about 6,000 to {{< hl "9,000 KRW" >}}, and a latte runs about 6,000 to {{< hl "8,000 KRW" >}}, based on recent listings.
 
 > **🔥 Local tip:** The window seats on the sea side fill fast on weekends, so go to your first cafe straight off the train instead of browsing the whole street first. The cafes open early, and the morning light on the water is the quietest hour on the street. Based on recent listings/reviews, checked November 2026.
 
@@ -86,11 +86,11 @@ Behind the beach sits Gyeongpo Lake, with the Gyeongpodae Pavilion on its edge. 
 | Chodang tofu | Chodang-dong, near Gyeongpo | About 8,000 to 12,000 KRW a set |
 | Seafood stew | Restaurants near Jumunjin | About 15,000 to 25,000 KRW |
 
-For dinner, walk to Gangneung Jungang Market for dakgangjeong, the sweet and spicy fried chicken the city is known for, or eat at a restaurant near Gyeongpo Beach. The market closes in the early evening, so go before 18:00 if you want the full choice.
+For dinner, walk to Gangneung Jungang Market for dakgangjeong, the sweet and spicy fried chicken the city is known for, or eat at a restaurant near Gyeongpo Beach. The market closes in the early evening, so go before {{< hl "18:00" >}} if you want the full choice.
 
 {{< figure src="images/photos/gangneung-07.webp" alt="The entrance of Gangneung Jungang Market at dusk" caption="The market is closed Sundays and the stalls close around 18:00. Half-and-half is the safe first box. Photo: Mobius6, CC BY-SA 4.0" >}}
 
-> **🔥 Local tip:** The dakgangjeong stalls sell mild, spicy, and half-and-half boxes, and the half-and-half is the safe pick for a first try. Jungang Market is closed on Sundays and the stalls close around 18:00, so buy your box before dinner and eat it back at your hotel or on the beach. Chodang-dong, near Gyeongpo, is the place for the soft tofu set: the tofu is made with seawater and comes with rice and side dishes, about 8,000 to 12,000 KRW. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The dakgangjeong stalls sell mild, spicy, and half-and-half boxes, and the half-and-half is the safe pick for a first try. Jungang Market is closed on Sundays and the stalls close around {{< hl "18:00" >}}, so buy your box before dinner and eat it back at your hotel or on the beach. Chodang-dong, near Gyeongpo, is the place for the soft tofu set: the tofu is made with seawater and comes with rice and side dishes, about 8,000 to {{< hl "12,000 KRW" >}}. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 
@@ -106,7 +106,7 @@ If you have time before your train, stop at Jeongdongjin Station on the way back
 
 {{< figure src="images/photos/gangneung-06.webp" alt="Jeongdongjin Station, the seaside station near Jumunjin" caption="If you have time before your train, stop here on the way back. The sunrise from the platform is a classic. Photo: Unknown, CC0" >}}
 
-End the morning at Ojukheon, the historic house in town where the scholar Yulgok was born. The house and its museum take about an hour, and the black bamboo grove behind it is the part to walk slowly. Admission runs about 3,000 KRW for an adult, based on recent listings.
+End the morning at Ojukheon, the historic house in town where the scholar Yulgok was born. The house and its museum take about an hour, and the black bamboo grove behind it is the part to walk slowly. Admission runs about {{< hl "3,000 KRW" >}} for an adult, based on recent listings.
 
 {{< figure src="images/photos/gangneung-05.webp" alt="Ojukheon, the historic house in Gangneung" caption="Give the house and museum about an hour, and walk the black bamboo grove slowly. Photo: Mobius6, CC BY-SA 4.0" >}}
 
@@ -124,7 +124,7 @@ One night is the sweet spot. Two nights is better if you want the sunrise and a 
 
 ## 🏨 Where to stay
 
-Stay near Gyeongpo Beach or Anmok Beach, not near the station. The station area is quiet at night, and the beach area has the cafes and the restaurants. Hotels near Gyeongpo run about 100,000 to 200,000 KRW a night, and guesthouses near Anmok run about 50,000 to 90,000 KRW, based on recent listings.
+Stay near Gyeongpo Beach or Anmok Beach, not near the station. The station area is quiet at night, and the beach area has the cafes and the restaurants. Hotels near Gyeongpo run about 100,000 to {{< hl "200,000 KRW" >}} a night, and guesthouses near Anmok run about 50,000 to {{< hl "90,000 KRW" >}}, based on recent listings.
 
 {{< aff href="https://www.agoda.com/city/gangneung-si-kr.html" text="Compare Gangneung hotels on Agoda" >}}
 

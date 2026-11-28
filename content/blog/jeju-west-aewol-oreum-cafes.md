@@ -64,7 +64,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 Start at Hyeopjae Beach, on the northwest coast. It is the pale-sand beach the west is known for, with shallow turquoise water and Biyangdo Island sitting offshore. Come in the morning, when the light is soft and the wind is low. The supervised swimming season runs roughly late June to early September, based on recent listings. Outside that window, treat it as a shore walk, not a swim.
 
-Next door is Hallim Park, a garden park built on old lava fields, with palm gardens, a bonsai garden, and two lava caves you walk through underground. Give it 1.5 to 2 hours. Admission runs about 12,000 to 15,000 KRW for an adult, based on recent listings. The park is the weather-proof part of this day: if the wind picks up on the beach, the palm garden and the caves still work.
+Next door is Hallim Park, a garden park built on old lava fields, with palm gardens, a bonsai garden, and two lava caves you walk through underground. Give it 1.5 to 2 hours. Admission runs about 12,000 to {{< hl "15,000 KRW" >}} for an adult, based on recent listings. The park is the weather-proof part of this day: if the wind picks up on the beach, the palm garden and the caves still work.
 
 {{< figure src="images/photos/jeju-west-05.webp" alt="Gardens inside Hallim Park in western Jeju" caption="The park is the weather-proof stop. If the wind picks up on the beach, the palm garden and caves still work. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
 
@@ -72,13 +72,13 @@ Next door is Hallim Park, a garden park built on old lava fields, with palm gard
 
 ## 🍵 After lunch: tea fields at O'sulloc
 
-Drive or take the bus inland to O'sulloc Tea Museum, about 30 to 40 minutes from Hyeopjae. The museum sits beside wide rows of green tea, and the building itself is worth a slow lap even if you skip the exhibits. The cafe serves green tea lattes, matcha soft-serve, and tea desserts, roughly 5,000 to 9,000 KRW each, based on recent listings.
+Drive or take the bus inland to O'sulloc Tea Museum, about 30 to 40 minutes from Hyeopjae. The museum sits beside wide rows of green tea, and the building itself is worth a slow lap even if you skip the exhibits. The cafe serves green tea lattes, matcha soft-serve, and tea desserts, roughly 5,000 to {{< hl "9,000 KRW" >}} each, based on recent listings.
 
 Two things to know before you go. First, the tea fields are a working farm, so stay on the paths and do not walk into the rows for photos. Second, the museum runs booked tea programs that sell out, so if you want one, book ahead and do not count on a walk-in spot.
 
 {{< figure src="images/photos/jeju-west-04.webp" alt="The tea fields at O'sulloc Tea Museum" caption="The fields are a working farm, so stay on the paths. Go at opening or after 16:00 to miss the crowds. Photo: Matt Kieffer, CC BY-SA 2.0" >}}
 
-> **🔥 Local tip:** O'sulloc is free to enter and open 09:00 to 18:00 every day, but the crowd peaks hard between 11:00 and 15:00, when tour buses roll in. Go right at opening or after 16:00 and the whole place breathes again. At the cafe, grab a seat first and order second: one person holds the table while the other queues, or check the mobile order option if the counter line is long. Based on recent visitor reviews, checked November 2026.
+> **🔥 Local tip:** O'sulloc is free to enter and open {{< hl "09:00" >}} to {{< hl "18:00" >}} every day, but the crowd peaks hard between {{< hl "11:00" >}} and {{< hl "15:00" >}}, when tour buses roll in. Go right at opening or after {{< hl "16:00" >}} and the whole place breathes again. At the cafe, grab a seat first and order second: one person holds the table while the other queues, or check the mobile order option if the counter line is long. Based on recent visitor reviews, checked November 2026.
 
 ## ☕️ Which cafe stop is right for you?
 
@@ -92,9 +92,9 @@ Two things to know before you go. First, the tea fields are a working farm, so s
 | Small roastery | Counter seats, hand drip, beans to buy | Coffee people and a quiet hour |
 | Bakery cafe | Bread and pastries first, coffee second | A late lunch that is not a restaurant |
 
-Prices run about 6,000 to 9,000 KRW for a latte and 7,000 to 12,000 KRW for a cake slice, based on recent listings. The big cafes fill up on weekend afternoons, so if you want a window seat, arrive before 15:00 or after 17:00.
+Prices run about 6,000 to {{< hl "9,000 KRW" >}} for a latte and 7,000 to {{< hl "12,000 KRW" >}} for a cake slice, based on recent listings. The big cafes fill up on weekend afternoons, so if you want a window seat, arrive before {{< hl "15:00" >}} or after {{< hl "17:00" >}}.
 
-> **🔥 Local tip:** Aewol Cafe Street gets busiest around lunch, so aim to arrive before 11:00 if you want a sea-view seat without a wait. The light after 15:00 is the pretty one for photos, and the brunch crowds thin out by then. Based on recent visitor guides, checked November 2026.
+> **🔥 Local tip:** Aewol Cafe Street gets busiest around lunch, so aim to arrive before {{< hl "11:00" >}} if you want a sea-view seat without a wait. The light after {{< hl "15:00" >}} is the pretty one for photos, and the brunch crowds thin out by then. Based on recent visitor guides, checked November 2026.
 
 ## 🌅 Sunset on Saebyeol Oreum
 

@@ -42,15 +42,15 @@ Nobody on the train will stop you or glare at you for looking lost. The system i
 
 ## 💳 What should you buy first? The T-money card
 
-Before anything else, get a T-money card. You can buy one at almost any convenience store, including the ones at Incheon Airport, for around 4,000 to 5,000 KRW, and then you top it up with cash or a card at the same counter. The card works on the subway, on city buses, and at many convenience stores, so it quietly becomes your wallet for the small stuff.
+Before anything else, get a T-money card. You can buy one at almost any convenience store, including the ones at Incheon Airport, for around 4,000 to {{< hl "5,000 KRW" >}}, and then you top it up with cash or a card at the same counter. The card works on the subway, on city buses, and at many convenience stores, so it quietly becomes your wallet for the small stuff.
 
 Tap it on the reader as you enter the gates, tap it again as you leave, and that is the whole ceremony. The fare comes off automatically, and a transfer between subway and bus within about half an hour costs you little or nothing extra. That small kindness adds up over a week of sightseeing.
 
-A single subway ride usually runs about 1,550 KRW on the card, with the price rising a little for very long distances. The exact number matters less than the shape of it: a ride across the city costs less than a coffee. Keep the card topped up with 20,000 to 30,000 KRW at a time and you will stop thinking about money entirely.
+A single subway ride usually runs about {{< hl "1,550 KRW" >}} on the card, with the price rising a little for very long distances. The exact number matters less than the shape of it: a ride across the city costs less than a coffee. Keep the card topped up with 20,000 to {{< hl "30,000 KRW" >}} at a time and you will stop thinking about money entirely.
 
 If you lose the card, it is gone, and so is whatever balance was on it. Treat it like cash, because that is what it is. Keep it in the same slot every day, for example in your phone case.
 
-> **🔥 Local tip:** Top-ups at a convenience store counter are Korean won cash only, so change money before you load up. The card itself costs 3,000 to 5,000 KRW and that price is never refunded, only the balance is. Near the end of the trip, stop reloading and spend the balance down: convenience stores refund up to 20,000 or 30,000 KRW depending on the chain, minus a 500 KRW fee, and larger balances go to Tmoney Town near Seoul Station, Exit 10. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Top-ups at a convenience store counter are Korean won cash only, so change money before you load up. The card itself costs 3,000 to {{< hl "5,000 KRW" >}} and that price is never refunded, only the balance is. Near the end of the trip, stop reloading and spend the balance down: convenience stores refund up to 20,000 or {{< hl "30,000 KRW" >}} depending on the chain, minus a {{< hl "500 KRW" >}} fee, and larger balances go to Tmoney Town near Seoul Station, {{< hl "Exit 10" >}}. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="pro-tip" >}}
 
@@ -60,13 +60,13 @@ If you want the airport leg handled before you land, a booked pickup means a dri
 
 ## 🚇 How do you read a station?
 
-A Seoul subway station is a small underground neighborhood, and the signs are doing more work than they first appear to do. Every line has a color and a number, and every station has a number of its own, so you can navigate by numbers alone even if you cannot read a word of Korean. Line 2 is green and runs in a big circle around the city.
+A Seoul subway station is a small underground neighborhood, and the signs are doing more work than they first appear to do. Every line has a color and a number, and every station has a number of its own, so you can navigate by numbers alone even if you cannot read a word of Korean. {{< hl "Line 2" >}} is green and runs in a big circle around the city.
 
-When someone tells you to meet them at Hongik University Station, what they really mean is Line 2, station 239, or the [AREX](https://www.klook.com/en-US/activity/1163-airport-to-seoul-city-center-arex-train-incheon/?aid=145455) line if you are coming from the airport. The exit number matters as much as the station name. Exit 9 at Hongik University puts you in the middle of the Hongdae streets. Exit 1 puts you somewhere else entirely.
+When someone tells you to meet them at Hongik University Station, what they really mean is {{< hl "Line 2" >}}, {{< hl "station 239" >}}, or the [AREX](https://www.klook.com/en-US/activity/1163-airport-to-seoul-city-center-arex-train-incheon/?aid=145455) line if you are coming from the airport. The exit number matters as much as the station name. {{< hl "Exit 9" >}} at Hongik University puts you in the middle of the Hongdae streets. {{< hl "Exit 1" >}} puts you somewhere else entirely.
 
 The transfer halls are the part that worries people, and they should not. Follow the signs that say Transfer with an arrow, and keep walking. Some transfers are short, a single flight of stairs. Some, like the walk between lines at Seoul Station or Dongdaemun History and Culture Park, are long enough that you will wonder if you took a wrong turn. You did not. The tunnels are just long. Give yourself ten minutes for a transfer you have never done before, and five once you know the route.
 
-> **🔥 Local tip:** Check the direction before you step onto the platform, not after. Every platform sign shows the terminal station in that direction. If you are heading toward Hongik University on Line 2, you want the train going toward Hongdae, not the one going toward City Hall.
+> **🔥 Local tip:** Check the direction before you step onto the platform, not after. Every platform sign shows the terminal station in that direction. If you are heading toward Hongik University on {{< hl "Line 2" >}}, you want the train going toward Hongdae, not the one going toward City Hall.
 
 ## 🪑 What is it like inside the car?
 
@@ -78,7 +78,7 @@ The doors chime, a voice announces the station in Korean and English, and the st
 
 ## ⏰ When is rush hour, and how do you dodge it?
 
-The subway runs from about 05:30 until around midnight, and for most of the day it is comfortable. Twice a day it is not. From about 08:00 to 09:30 in the morning and 18:00 to 19:30 in the evening, the cars fill up fast, and at the busiest stations you may watch one full train go by before you can squeeze onto the next. It is not dangerous, and it is not rude, but it is not pleasant with a backpack and a suitcase, and it is the worst time to be figuring out a transfer for the first time.
+The subway runs from about {{< hl "05:30" >}} until around midnight, and for most of the day it is comfortable. Twice a day it is not. From about {{< hl "08:00" >}} to {{< hl "09:30" >}} in the morning and {{< hl "18:00" >}} to {{< hl "19:30" >}} in the evening, the cars fill up fast, and at the busiest stations you may watch one full train go by before you can squeeze onto the next. It is not dangerous, and it is not rude, but it is not pleasant with a backpack and a suitcase, and it is the worst time to be figuring out a transfer for the first time.
 
 Plan around it. Eat a slow breakfast and start sightseeing at ten. Or start very early, before eight, and be already somewhere beautiful when the rush begins. If you must travel at rush hour, travel light and keep your bag in front of you.
 
@@ -102,11 +102,11 @@ What Naver Map will not do is hold your hand through a taxi ride, and that is wh
 
 The subway wins almost every daytime trip in Seoul. But there are three situations where a taxi is the right call without a second thought. The first is after midnight, when the subway has stopped. The second is when you are carrying something heavy or awkward, like a suitcase on the way to the airport. The third is when three or four of you are traveling together, because the fare splits nicely and the door-to-door trip beats four subway fares and a ten-minute walk.
 
-A taxi ride in Seoul starts at around 4,800 KRW on the meter, and a short hop across a neighborhood usually lands somewhere between 6,000 and 12,000 KRW, depending on traffic.
+A taxi ride in Seoul starts at around {{< hl "4,800 KRW" >}} on the meter, and a short hop across a neighborhood usually lands somewhere between 6,000 and {{< hl "12,000 KRW" >}}, depending on traffic.
 
 {{< figure src="images/photos/seoul-09.webp" alt="Orange Seoul taxi, front view" caption="You can pay by card in nearly every taxi, and tipping is not expected. Photo: U2em, CC BY-SA 3.0" >}}
 
-A ride from central Seoul to the airport runs roughly 60,000 to 80,000 KRW, more late at night, when a surcharge of 20 to 40 percent applies roughly between 10 p.m. and 4 a.m. You can pay by card in nearly every taxi, and tipping is not expected. If a driver ever quotes you a flat price instead of using the meter for a normal city ride, just walk away and call another one through the app.
+A ride from central Seoul to the airport runs roughly 60,000 to {{< hl "80,000 KRW" >}}, more late at night, when a surcharge of 20 to 40 percent applies roughly between 10 p.m. and 4 a.m. You can pay by card in nearly every taxi, and tipping is not expected. If a driver ever quotes you a flat price instead of using the meter for a normal city ride, just walk away and call another one through the app.
 
 The taxis themselves come in a few colors. The orange and white ones are the regular taxis you will use most. The black ones with a gold stripe are deluxe taxis, nicer cars and higher fares, which you do not need. In practice, any taxi with its red light on is available, and you can wave one down on any main street. At night in Hongdae or Itaewon, the street hails get competitive, and that is when the app earns its keep.
 
@@ -114,9 +114,9 @@ The taxis themselves come in a few colors. The orange and white ones are the reg
 
 ## 🍜 Where should you eat near the stations?
 
-- **Hongik University Station, Exit 9.** The Hongdae streets start here. Street stalls sell snacks for roughly 3,000-8,000 KRW each. Eat standing up and keep walking.
-- **Myeongdong Station.** The food street starts a few minutes from the gates. Items run 3,000-10,000 KRW. Share, so you can try more.
-- **Jongno 5-ga Station, Line 1, Exit 8.** Gwangjang Market is right there. A full breakfast of pancakes and noodles runs about 10,000-15,000 KRW. Bring cash.
+- **Hongik University Station, {{< hl "Exit 9" >}}.** The Hongdae streets start here. Street stalls sell snacks for roughly {{< hl "3,000-8,000 KRW" >}} each. Eat standing up and keep walking.
+- **Myeongdong Station.** The food street starts a few minutes from the gates. Items run {{< hl "3,000-10,000 KRW" >}}. Share, so you can try more.
+- **Jongno 5-ga Station, {{< hl "Line 1" >}}, {{< hl "Exit 8" >}}.** Gwangjang Market is right there. A full breakfast of pancakes and noodles runs about {{< hl "10,000-15,000 KRW" >}}. Bring cash.
 
 {{< sticker kind="yum" >}}
 

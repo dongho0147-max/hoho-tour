@@ -55,13 +55,13 @@ The soup arrives plain on purpose. You season it yourself at the table with salt
 
 ## 🍲 Where should you start? Songjeong Samdae in Seomyeon
 
-Songjeong Samdae Gukbap has stood in Seomyeon's dwaeji-gukbap alley since 1946, and it is now run by the third generation of the same family. The address is 33 Seomyeon-ro 68beon-gil, about 200 meters from Exit 1 of Seomyeon Station, and it is open 24 hours. The alley barely closes. At 3 a.m. the room is still half full.
+Songjeong Samdae Gukbap has stood in Seomyeon's dwaeji-gukbap alley since 1946, and it is now run by the third generation of the same family. The address is 33 Seomyeon-ro 68beon-gil, about 200 meters from {{< hl "Exit 1" >}} of Seomyeon Station, and it is open 24 hours. The alley barely closes. At 3 a.m. the room is still half full.
 
-The broth is what sets it apart. Most gukbap shops boil pork bones. This one boils beef leg bones alongside the pork, which gives the soup a milkier color and a richer taste than the shops nearby. A bowl of dwaeji gukbap is 9,500 KRW. The sundae and offal versions are the same price. The boiled-pork set, with a plate of sliced pork on the side, is 12,000 KRW. The portions are generous, and the dining room is clean and comfortable in a way the alley's older shops are not.
+The broth is what sets it apart. Most gukbap shops boil pork bones. This one boils beef leg bones alongside the pork, which gives the soup a milkier color and a richer taste than the shops nearby. A bowl of dwaeji gukbap is {{< hl "9,500 KRW" >}}. The sundae and offal versions are the same price. The boiled-pork set, with a plate of sliced pork on the side, is {{< hl "12,000 KRW" >}}. The portions are generous, and the dining room is clean and comfortable in a way the alley's older shops are not.
 
 > **🔥 Local tip:** Taste the soup plain first. The most common first-timer mistake is eating it as served and calling it bland: the salt comes from the salted shrimp and the heat from the chili paste on the side, added a little at a time. An English menu is available, and staff will walk you through the seasoning. Based on recent listings/reviews, checked November 2026.
 
-> **🔥 Local tip:** Skip the sticky-rice sundae. Based on recent reviews, it starts at 11,000 KRW and is packed so densely with rice that it eats like a second bowl. Order the plain dwaeji gukbap, or the suyuk set if you are properly hungry.
+> **🔥 Local tip:** Skip the sticky-rice sundae. Based on recent reviews, it starts at {{< hl "11,000 KRW" >}} and is packed so densely with rice that it eats like a second bowl. Order the plain dwaeji gukbap, or the suyuk set if you are properly hungry.
 
 {{< sticker kind="yum" >}}
 
@@ -73,19 +73,19 @@ Haeundae's old soup house is a different animal. Haeundae Wonjo Halmae Gukbap se
 
 {{< figure src="images/photos/busan-08.webp" alt="Beef gukbap, beef and rice soup in a bowl" caption="The broth is clear and lightly spicy, a good bowl after a morning walk on the beach. Photo: Melsj, CC BY" >}}
 
-The soup is clear and mildly spicy, cooked with bean sprouts and radish, and it tastes lighter than the milky pork broth in Seomyeon. Beef gukbap is 9,500 KRW, and the seonji version with ox-blood curd is 9,500 KRW too. The ttarro version, with the rice served on the side instead of in the soup, is 10,000 KRW. It is a good breakfast after a morning walk on the beach, and it is the bowl to order if pork soup sounds too heavy before noon.
+The soup is clear and mildly spicy, cooked with bean sprouts and radish, and it tastes lighter than the milky pork broth in Seomyeon. Beef gukbap is {{< hl "9,500 KRW" >}}, and the seonji version with ox-blood curd is {{< hl "9,500 KRW" >}} too. The ttarro version, with the rice served on the side instead of in the soup, is {{< hl "10,000 KRW" >}}. It is a good breakfast after a morning walk on the beach, and it is the bowl to order if pork soup sounds too heavy before noon.
 
-> **🔥 Local tip:** If the line is long, Haeundae Gaya Milmyeon nearby is the backup bowl: cold wheat noodles from 09:00, about 10,000 KRW a person. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** If the line is long, Haeundae Gaya Milmyeon nearby is the backup bowl: cold wheat noodles from {{< hl "09:00" >}}, about {{< hl "10,000 KRW" >}} a person. Based on recent listings/reviews, checked November 2026.
 
-The hours are the one thing that could not be pinned down cleanly. Busan's multilingual menu service lists 08:00 to 21:00 daily, while other listings show near-round-the-clock hours with a Wednesday closure. Treat the hours as unconfirmed and check the map listing before you go. Some visitors have also reported that the shop only took cash, so bring paper money just in case. The food is worth the small fuss. The admin is not.
+The hours are the one thing that could not be pinned down cleanly. Busan's multilingual menu service lists {{< hl "08:00" >}} to {{< hl "21:00" >}} daily, while other listings show near-round-the-clock hours with a Wednesday closure. Treat the hours as unconfirmed and check the map listing before you go. Some visitors have also reported that the shop only took cash, so bring paper money just in case. The food is worth the small fuss. The admin is not.
 
 ## 🍜 What is milmyeon, and where is the easy first bowl?
 
 Milmyeon needs a different kind of attention from soup. The noodles are wheat and starch, yellowish and chewy, served in a chilled clear broth under a sheet of ice. It is Busan's summer dish, but the shops serve it all year, and on a cold day the contrast of icy noodles and a warm room is half the pleasure.
 
-Halmae Gaya Milmyeon is the easiest first stop. It has been open since 1974 on Gwangbok-ro in Nampo-dong, a few minutes' walk from Nampo Station and BIFF Square, close to [Gukje Market](https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455) and Jagalchi. It is open 10:30 to 21:30 every day, and the room is big enough that the wait is usually short. The address is 56-14 Gwangbok-ro.
+Halmae Gaya Milmyeon is the easiest first stop. It has been open since 1974 on Gwangbok-ro in Nampo-dong, a few minutes' walk from Nampo Station and BIFF Square, close to [Gukje Market](https://www.klook.com/en-US/activity/175722-busan-gukje-market-biff-square-half-day-local-food-experience/?aid=145455) and Jagalchi. It is open {{< hl "10:30" >}} to {{< hl "21:30" >}} every day, and the room is big enough that the wait is usually short. The address is 56-14 Gwangbok-ro.
 
-A large milmyeon is 9,000 KRW. The bibim version with spicy sauce is 8,000 KRW. The handmade jumbo mandu, four pieces, are 5,000 KRW, and they are worth ordering. The bibim is the one to try if you like heat, and the plain mul-milmyeon is the one to try first if this is your first bowl. Either way, eat it fast. The noodles go soft as the ice melts, and the shop knows it, which is why nobody lingers.
+A large milmyeon is {{< hl "9,000 KRW" >}}. The bibim version with spicy sauce is {{< hl "8,000 KRW" >}}. The handmade jumbo mandu, four pieces, are {{< hl "5,000 KRW" >}}, and they are worth ordering. The bibim is the one to try if you like heat, and the plain mul-milmyeon is the one to try first if this is your first bowl. Either way, eat it fast. The noodles go soft as the ice melts, and the shop knows it, which is why nobody lingers.
 
 > **🔥 Local tip:** Find it by the address, not the name: some tourism pages list it as Gaya Milmyeon. Order the handmade king mandu with your noodles: four pieces is the popular combo, and it is the side regulars point to first. Based on recent listings/reviews, checked November 2026.
 
@@ -95,13 +95,13 @@ A large milmyeon is 9,000 KRW. The bibim version with spicy sauce is 8,000 KRW. 
 
 ## 🏛️ Where did milmyeon begin? Naeho Naengmyeon
 
-Naeho Naengmyeon is the bowl with the story. The shop sits in a narrow alley of Uam Market in Uam-dong, Nam-gu, at 17 Uambeonyeong-ro 26beon-gil. It opened in 1952, run by a family from Hungnam who had made naengmyeon there since 1919, and it is widely called the birthplace of milmyeon. The Korea Tourism Organization lists its hours as 10:30 to 19:00, last order 18:30, with no closing day.
+Naeho Naengmyeon is the bowl with the story. The shop sits in a narrow alley of Uam Market in Uam-dong, Nam-gu, at 17 Uambeonyeong-ro 26beon-gil. It opened in 1952, run by a family from Hungnam who had made naengmyeon there since 1919, and it is widely called the birthplace of milmyeon. The Korea Tourism Organization lists its hours as {{< hl "10:30" >}} to {{< hl "19:00" >}}, last order {{< hl "18:30" >}}, with no closing day.
 
-Getting there takes more effort than the other stops on this list. Uam-dong is not on the tourist loop, and the alley is narrow enough that you will doubt the map once or twice. That is part of it. The room is old and small, and the noodles are the point. Mul-naengmyeon is the main bowl, and bibim-milmyeon is the spicy one. Seasoned skate is there for the brave. No official source lists current prices, so no number is printed here. Look at the menu board when you arrive. A bowl of milmyeon in Busan generally runs 7,000 to 10,000 KRW, and this shop sits in that range.
+Getting there takes more effort than the other stops on this list. Uam-dong is not on the tourist loop, and the alley is narrow enough that you will doubt the map once or twice. That is part of it. The room is old and small, and the noodles are the point. Mul-naengmyeon is the main bowl, and bibim-milmyeon is the spicy one. Seasoned skate is there for the brave. No official source lists current prices, so no number is printed here. Look at the menu board when you arrive. A bowl of milmyeon in Busan generally runs 7,000 to {{< hl "10,000 KRW" >}}, and this shop sits in that range.
 
-> **🔥 Local tip:** Take a bus to the Nambu Jungang KFCC stop (routes 134, 23, 26, 68, 138-1 or 168) and walk 3 minutes into the market alley. Go before 18:30 so you are not turned away at the last order. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Take a bus to the Nambu Jungang KFCC stop (routes 134, 23, 26, 68, 138-1 or 168) and walk 3 minutes into the market alley. Go before {{< hl "18:30" >}} so you are not turned away at the last order. Based on recent listings/reviews, checked November 2026.
 
-The honest trade-off is the trip itself. If you are spending the day around Nampo-dong, start at Halmae Gaya instead. Save Naeho for a day when you have time to wander, and go before 18:30 so you are not turned away at the door. The history is real, but a bowl of cold noodles is not worth a ruined afternoon of rushing across town.
+The honest trade-off is the trip itself. If you are spending the day around Nampo-dong, start at Halmae Gaya instead. Save Naeho for a day when you have time to wander, and go before {{< hl "18:30" >}} so you are not turned away at the door. The history is real, but a bowl of cold noodles is not worth a ruined afternoon of rushing across town.
 
 ## 🌇 What do you see between bowls?
 

@@ -55,15 +55,15 @@ From Omokdae, walk down into the village slowly. The main streets are quieter no
 
 Nambu Market is the old market at the edge of the village, and on Friday and Saturday evenings it turns into a night market with food stalls, live music, and crowds of locals. Based on recent listings, the night market runs on Friday and Saturday evenings, roughly from early evening until late, but the exact hours shift by season, so check the current schedule before you plan around it.
 
-The food is the point. Stalls sell grilled skewers, fried snacks, rice cakes, and drinks, and most items run 3,000-8,000 KRW each based on recent listings. The method is simple: walk the whole market once without buying anything, then go back for the three things you actually want. Eat standing up, share everything, and keep moving. If you sit down for a full meal first, you will be too full to enjoy the stalls, and the stalls are the reason you came.
+The food is the point. Stalls sell grilled skewers, fried snacks, rice cakes, and drinks, and most items run {{< hl "3,000-8,000 KRW" >}} each based on recent listings. The method is simple: walk the whole market once without buying anything, then go back for the three things you actually want. Eat standing up, share everything, and keep moving. If you sit down for a full meal first, you will be too full to enjoy the stalls, and the stalls are the reason you came.
 
-> **🔥 Local tip:** Go to the night market hungry and bring cash in small bills. Many stalls are cash-only, the card readers are slow, and the queue behind you will not wait while you fumble with an app. The stalls are fully stocked and the lines shortest before 19:00, and the market starts to thin out after 21:00, so eat in the first hour. The mung bean pancakes at the Yanggane Nokdujeon stall run about 5,000 KRW, and the night market closes around 22:00 on Friday and 23:00 on Saturday. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Go to the night market hungry and bring cash in small bills. Many stalls are cash-only, the card readers are slow, and the queue behind you will not wait while you fumble with an app. The stalls are fully stocked and the lines shortest before {{< hl "19:00" >}}, and the market starts to thin out after {{< hl "21:00" >}}, so eat in the first hour. The mung bean pancakes at the Yanggane Nokdujeon stall run about {{< hl "5,000 KRW" >}}, and the night market closes around {{< hl "22:00" >}} on Friday and {{< hl "23:00" >}} on Saturday. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 
 ## 🍶 What to order after the market
 
-Makgeolli. Jeonju is one of the best cities in Korea for it, and the local style comes with a table full of side dishes. Order a kettle of makgeolli and the food keeps coming: pancakes, stews, vegetables, and small plates you did not ask for and will finish anyway. A kettle for two with side dishes usually runs 20,000-40,000 KRW based on recent listings, depending on the place. The bars near the village and on Gaekridan-gil stay open late, and the older the room looks, the better the food tends to be.
+Makgeolli. Jeonju is one of the best cities in Korea for it, and the local style comes with a table full of side dishes. Order a kettle of makgeolli and the food keeps coming: pancakes, stews, vegetables, and small plates you did not ask for and will finish anyway. A kettle for two with side dishes usually runs {{< hl "20,000-40,000 KRW" >}} based on recent listings, depending on the place. The bars near the village and on Gaekridan-gil stay open late, and the older the room looks, the better the food tends to be.
 
 > **🔥 Local tip:** Order one kettle and look at the table before you order a second. One kettle arrives with 15 to 25 small side dishes, so a second kettle often goes to waste. The makgeolli alleys around Samcheon-dong and Seosin-dong work the same way, so pick the place with a line of locals outside rather than the one with the biggest sign. Based on recent listings/reviews, checked November 2026.
 
@@ -81,9 +81,9 @@ The second round is Gaekridan-gil. The cafe street near the old Gaeksa stays ope
 
 ## ☕ What about cafes at night?
 
-Cafes in the Hanok Village mostly close between 21:00 and 22:00, based on recent listings, so do not plan a midnight coffee in the village itself. Gaekridan-gil keeps later hours, and a few dessert cafes there serve drinks until late. If you want a nightcap, go to Gaekridan-gil. If you want a quiet tea before bed, buy it earlier in the day and drink it at your guesthouse.
+Cafes in the Hanok Village mostly close between {{< hl "21:00" >}} and {{< hl "22:00" >}}, based on recent listings, so do not plan a midnight coffee in the village itself. Gaekridan-gil keeps later hours, and a few dessert cafes there serve drinks until late. If you want a nightcap, go to Gaekridan-gil. If you want a quiet tea before bed, buy it earlier in the day and drink it at your guesthouse.
 
-If you are staying overnight, a hanok guesthouse in the village is the move. Prices run roughly 50,000-120,000 KRW a night based on recent listings. Book ahead on weekends, because the good ones fill up first.
+If you are staying overnight, a hanok guesthouse in the village is the move. Prices run roughly {{< hl "50,000-120,000 KRW" >}} a night based on recent listings. Book ahead on weekends, because the good ones fill up first.
 
 {{< aff href="https://www.agoda.com/city/jeonju-si-kr.html" text="Compare hanok stays and hotels in Jeonju on Agoda" >}}
 

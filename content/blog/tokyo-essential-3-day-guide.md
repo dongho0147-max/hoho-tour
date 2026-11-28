@@ -95,29 +95,29 @@ Two things changed in 2026 that older guides still get wrong. The tax-free syste
 
 ## ✈️ Which airport, and how do you get into the city?
 
-If you are flying from Korea, you will most likely land at Haneda, since the Gimpo-Haneda route is short and frequent. Haneda sits inside the city, and the ride in is cheap. The Tokyo Monorail runs from Terminal 3 to Hamamatsucho in 13 minutes for 520 yen, where you transfer to the Yamanote line. The Keikyu line runs to Shinagawa in about the same time for 330 yen, and some trains continue straight onto the Asakusa subway line.
+If you are flying from Korea, you will most likely land at Haneda, since the Gimpo-Haneda route is short and frequent. Haneda sits inside the city, and the ride in is cheap. The Tokyo Monorail runs from Terminal 3 to Hamamatsucho in 13 minutes for {{< hl "520 yen" >}}, where you transfer to the Yamanote line. The Keikyu line runs to Shinagawa in about the same time for {{< hl "330 yen" >}}, and some trains continue straight onto the Asakusa subway line.
 
-Narita is farther out, about 60 kilometers east, and the ride costs more. The fastest options are the N'EX to Tokyo Station at 3,140 yen in about 53 minutes, and the Keisei Skyliner to Ueno at 2,580 yen (1,280 yen fare + 1,300 yen liner ticket) in about 41 minutes. From March 13, 2027, the liner ticket increases by 200 yen, making the Skyliner total 2,780 yen. The budget option is the Keisei main line at 1,050 yen, and the TYO-NRT shuttle bus runs to Tokyo Station for 1,500 yen with no reservation needed.
+Narita is farther out, about 60 kilometers east, and the ride costs more. The fastest options are the N'EX to Tokyo Station at {{< hl "3,140 yen" >}} in about 53 minutes, and the Keisei Skyliner to Ueno at {{< hl "2,580 yen" >}} ({{< hl "1,280 yen" >}} fare + {{< hl "1,300 yen" >}} liner ticket) in about 41 minutes. From March 13, 2027, the liner ticket increases by {{< hl "200 yen" >}}, making the Skyliner total {{< hl "2,780 yen" >}}. The budget option is the Keisei main line at {{< hl "1,050 yen" >}}, and the TYO-NRT shuttle bus runs to Tokyo Station for {{< hl "1,500 yen" >}} with no reservation needed.
 
-> **🔥 Local tip:** If you fly into Narita on the N'EX and back out within 14 days, ask for the N'EX Tokyo Round Trip Ticket at the airport station. It costs 5,200 yen for foreigners, which is close to half the regular round-trip fare.
+> **🔥 Local tip:** If you fly into Narita on the N'EX and back out within 14 days, ask for the N'EX Tokyo Round Trip Ticket at the airport station. It costs {{< hl "5,200 yen" >}} for foreigners, which is close to half the regular round-trip fare.
 
 ## 🚇 How does the subway work, and which pass is worth it?
 
-Tokyo has two subway companies plus JR, and they charge separately. Tokyo Metro runs nine lines, the Toei subway runs four, and JR runs the Yamanote loop above ground. Base fares are small: 178 yen by IC card on both subway companies, and 155 yen on JR since the March 2026 fare revision. An IC card sorts out the transfer math automatically, so get one before your first ride.
+Tokyo has two subway companies plus JR, and they charge separately. Tokyo Metro runs nine lines, the Toei subway runs four, and JR runs the Yamanote loop above ground. Base fares are small: {{< hl "178 yen" >}} by IC card on both subway companies, and {{< hl "155 yen" >}} on JR since the March 2026 fare revision. An IC card sorts out the transfer math automatically, so get one before your first ride.
 
-For visitors there are two special IC cards. The Welcome Suica and the TOURIST PASMO, launched in 2026, both last 28 days, need no deposit, and cannot be refunded. Regular Suica and PASMO cards went back on sale in March 2025 with a refundable 500 yen deposit, and iPhone users can skip the plastic entirely by adding Suica to Apple Pay. Any of them also pays at convenience stores and vending machines.
+For visitors there are two special IC cards. The Welcome Suica and the TOURIST PASMO, launched in 2026, both last 28 days, need no deposit, and cannot be refunded. Regular Suica and PASMO cards went back on sale in March 2025 with a refundable {{< hl "500 yen" >}} deposit, and iPhone users can skip the plastic entirely by adding Suica to Apple Pay. Any of them also pays at convenience stores and vending machines.
 
-If you plan to ride a lot in one day, look at the passes. The Tokyo Metro 24-hour ticket costs 700 yen, covers all nine Metro lines, and pays for itself from the fourth ride. Visitors can also buy the Tokyo Subway Ticket online, which covers both Metro and Toei lines: 1,000 yen for 24 hours, 1,500 yen for 48 hours, and 2,000 yen for 72 hours. The combined Metro and Toei one-day pass costs 1,100 yen at station machines, and the Tokyo Free Ticket at 1,720 yen adds JR lines inside the city plus the Toei buses and the Sakura tram.
+If you plan to ride a lot in one day, look at the passes. The Tokyo Metro 24-hour ticket costs {{< hl "700 yen" >}}, covers all nine Metro lines, and pays for itself from the fourth ride. Visitors can also buy the Tokyo Subway Ticket online, which covers both Metro and Toei lines: {{< hl "1,000 yen" >}} for 24 hours, {{< hl "1,500 yen" >}} for 48 hours, and {{< hl "2,000 yen" >}} for 72 hours. The combined Metro and Toei one-day pass costs {{< hl "1,100 yen" >}} at station machines, and the Tokyo Free Ticket at {{< hl "1,720 yen" >}} adds JR lines inside the city plus the Toei buses and the Sakura tram.
 
 {{< aff href="https://www.klook.com/activity/1552-subway-ticket-tokyo/?aid=145455" text="See the Tokyo Subway Ticket options on Klook" >}}
 
-> **🔥 Local tip:** An IC card plus the 700 yen Metro day pass covers almost every itinerary in this guide. Only buy the 1,720 yen Tokyo Free Ticket on a day you know you will mix JR and the subway several times.
+> **🔥 Local tip:** An IC card plus the {{< hl "700 yen" >}} Metro day pass covers almost every itinerary in this guide. Only buy the {{< hl "1,720 yen" >}} Tokyo Free Ticket on a day you know you will mix JR and the subway several times.
 
 ## 🗼 Day 1: Senso-ji, Ueno, and the Skytree
 
 Start in Asakusa, the oldest-feeling corner of the city. Senso-ji is free, and the walk from the Kaminarimon gate up the Nakamise shopping street to the main hall is the classic first morning in Tokyo. Go before ten if you can. By midday the street is shoulder to shoulder, and the snack stalls have lines.
 
-From Asakusa it is one stop or a short river-bus ride to Tokyo Skytree. The tower switched to date-based dynamic pricing for visits from April 1, 2026, so the adult ticket for both observation decks starts at 3,000 yen and moves with demand. Buying at the window adds 500 yen per ticket, so book online on the official calendar before you go. On a clear day the view reaches Mount Fuji, and the clearest air is usually in winter and early morning.
+From Asakusa it is one stop or a short river-bus ride to Tokyo Skytree. The tower switched to date-based dynamic pricing for visits from April 1, 2026, so the adult ticket for both observation decks starts at {{< hl "3,000 yen" >}} and moves with demand. Buying at the window adds {{< hl "500 yen" >}} per ticket, so book online on the official calendar before you go. On a clear day the view reaches Mount Fuji, and the clearest air is usually in winter and early morning.
 
 If you have energy left, Ueno is two subway stops away. Ameya-Yokocho, the market street under the train tracks, sells everything from dried squid to sneakers, and it is one of the few places in Tokyo where haggling sometimes works.
 
@@ -125,11 +125,11 @@ If you have energy left, Ueno is two subway stops away. Ameya-Yokocho, the marke
 
 ## 🍣 Where and what to eat
 
-The honest answer is that Tokyo makes it hard to eat badly, and the structured answer is to plan meals by neighborhood. Start one morning at the Tsukiji Outer Market, where the old market's food stalls still serve sushi breakfasts and tamagoyaki on sticks. Go early, because many stalls close by early afternoon and a lot of them take Sundays and holidays off. A filling market breakfast runs roughly 2,000 to 4,000 yen depending on how serious the sushi is.
+The honest answer is that Tokyo makes it hard to eat badly, and the structured answer is to plan meals by neighborhood. Start one morning at the Tsukiji Outer Market, where the old market's food stalls still serve sushi breakfasts and tamagoyaki on sticks. Go early, because many stalls close by early afternoon and a lot of them take Sundays and holidays off. A filling market breakfast runs roughly 2,000 to {{< hl "4,000 yen" >}} depending on how serious the sushi is.
 
-For lunch, two genre stops are worth seeking out. Monjayaki, Tokyo's runny local answer to okonomiyaki, has its own street in Tsukishima, one station from Ginza. Ramen has a basement hall at Tokyo Station called Ramen Street, where several famous shops keep branches, so you can try a top bowl without crossing the city. Most ramen shops take cash only at a ticket machine, and a bowl runs about 1,000 to 1,500 yen.
+For lunch, two genre stops are worth seeking out. Monjayaki, Tokyo's runny local answer to okonomiyaki, has its own street in Tsukishima, one station from Ginza. Ramen has a basement hall at Tokyo Station called Ramen Street, where several famous shops keep branches, so you can try a top bowl without crossing the city. Most ramen shops take cash only at a ticket machine, and a bowl runs about 1,000 to {{< hl "1,500 yen" >}}.
 
-At night, the west side takes over. Omoide Yokocho by Shinjuku Station is a lantern-lit alley of tiny yakitori counters, and Golden Gai nearby packs some two hundred miniature bars into a few lanes. Many Golden Gai bars add a table charge, usually 500 to 1,500 yen per person, and the amount varies by shop, so check the sign at the door before you sit down. Department store basements, called depachika, are the local secret for a high-quality cheap dinner: the same food halls discount sushi and bento in the last hour before closing.
+At night, the west side takes over. Omoide Yokocho by Shinjuku Station is a lantern-lit alley of tiny yakitori counters, and Golden Gai nearby packs some two hundred miniature bars into a few lanes. Many Golden Gai bars add a table charge, usually 500 to {{< hl "1,500 yen" >}} per person, and the amount varies by shop, so check the sign at the door before you sit down. Department store basements, called depachika, are the local secret for a high-quality cheap dinner: the same food halls discount sushi and bento in the last hour before closing.
 
 {{< sticker kind="yum" >}}
 
@@ -137,7 +137,7 @@ At night, the west side takes over. Omoide Yokocho by Shinjuku Station is a lant
 
 Start at Meiji Jingu, the forest shrine a minute from Harajuku Station, free and quietest before nine. Then walk back through Takeshita Street, the teenage fashion lane famous for crepes, and continue up Omotesando's tree-lined avenue toward Shibuya. The whole walk is about thirty minutes without stops, which is not how anyone actually does it.
 
-Time Shibuya for late afternoon. Watch the scramble crossing from the station, then go up SHIBUYA SKY, the open-air rooftop on top of Shibuya Scramble Square. Online tickets cost 2,700 yen for entry before 3 PM and 3,400 yen after, and sunset slots sell out days ahead, so book when your dates are fixed. Tickets open two weeks in advance at midnight Japan time. One new rule to know: since November 19, 2026, overseas buyers must show an original passport at entry, and the name has to match the booking.
+Time Shibuya for late afternoon. Watch the scramble crossing from the station, then go up SHIBUYA SKY, the open-air rooftop on top of Shibuya Scramble Square. Online tickets cost {{< hl "2,700 yen" >}} for entry before 3 PM and {{< hl "3,400 yen" >}} after, and sunset slots sell out days ahead, so book when your dates are fixed. Tickets open two weeks in advance at midnight Japan time. One new rule to know: since November 19, 2026, overseas buyers must show an original passport at entry, and the name has to match the booking.
 
 {{< aff href="https://www.klook.com/activity/70672-shibuya-sky-tokyo/?aid=145455" text="Book SHIBUYA SKY tickets on Klook" >}}
 
@@ -145,7 +145,7 @@ The Klook listing shows 4.7 out of 5 from over 47,000 reviews, which matches the
 
 ## 🏙️ Day 3: Shinjuku, a free view, and the park that closes on Mondays
 
-Shinjuku is the world's busiest station and a full day on its own. Start at the Tokyo Metropolitan Government Building, where both observatories on the 45th floor are free. On a clear winter morning you can see Mount Fuji from here without paying a yen. Then cross to Shinjuku Gyoen, the city's best-paid park at 500 yen, and the single most useful fact about it is that it closes on Mondays. It opens seven days a week during cherry blossom season and the November chrysanthemum exhibition, but the rest of the year, Monday is a dead day.
+Shinjuku is the world's busiest station and a full day on its own. Start at the Tokyo Metropolitan Government Building, where both observatories on the 45th floor are free. On a clear winter morning you can see Mount Fuji from here without paying a yen. Then cross to Shinjuku Gyoen, the city's best-paid park at {{< hl "500 yen" >}}, and the single most useful fact about it is that it closes on Mondays. It opens seven days a week during cherry blossom season and the November chrysanthemum exhibition, but the rest of the year, Monday is a dead day.
 
 For the evening, stay on the west side. Kabukicho and Omoide Yokocho are both a short walk from the station, and the department stores around the east exit run their depachika discounts from about an hour before closing.
 
@@ -153,7 +153,7 @@ For the evening, stay on the west side. Kabukicho and Omoide Yokocho are both a 
 
 ## 🎨 If you have a fourth day
 
-Two add-ons earn their time. teamLab Planets in Toyosu is the immersive digital art museum where you wade barefoot through knee-deep water. Adult tickets start from around 3,800 yen and vary by date. Tickets are sold online only for a fixed date and time slot, there are no sales at the door, and weekend slots go early, so book it the week before, not the day before.
+Two add-ons earn their time. teamLab Planets in Toyosu is the immersive digital art museum where you wade barefoot through knee-deep water. Adult tickets start from around {{< hl "3,800 yen" >}} and vary by date. Tickets are sold online only for a fixed date and time slot, there are no sales at the door, and weekend slots go early, so book it the week before, not the day before.
 
 {{< aff href="https://www.klook.com/activity/25300-teamlab-planets-toyosu-tokyo-ticket/?aid=145455" text="Book teamLab Planets tickets on Klook" >}}
 
@@ -169,7 +169,7 @@ The practical effect is simple. Keep every receipt, do not use the consumables b
 
 Japan still runs on more cash than Korea. Cards work at chains, but market stalls, old restaurants, and ramen ticket machines often do not take them, so withdraw yen from a Seven Bank ATM inside any 7-Eleven, which accepts international cards. There is no tipping anywhere, not in taxis, not in restaurants.
 
-Three small things surprise first-timers. Public trash cans barely exist, so carry a small bag for wrappers and expect to take trash back to your hotel. The power is 100 volts with flat two-pin Type A plugs, so Korean round-pin chargers need an adapter, though most modern chargers handle the voltage fine. And register on Visit Japan Web before you fly to get the immigration and customs QR codes, which turns the arrival line into a scan. The 1,000 yen departure tax is already inside your ticket price.
+Three small things surprise first-timers. Public trash cans barely exist, so carry a small bag for wrappers and expect to take trash back to your hotel. The power is 100 volts with flat two-pin Type A plugs, so Korean round-pin chargers need an adapter, though most modern chargers handle the voltage fine. And register on Visit Japan Web before you fly to get the immigration and customs QR codes, which turns the arrival line into a scan. The {{< hl "1,000 yen" >}} departure tax is already inside your ticket price.
 
 {{< figure src="images/photos/tokyo-04.webp" alt="Cherry blossoms over the Meguro River" caption="Cherry blossoms peak around the last week of March, so treat forecasts as a moving target. Photo: Guilhem Vellut, CC BY 2.0" >}}
 
@@ -195,6 +195,6 @@ Skip the Skytree on a cloudy day, because the whole point is the view and the wi
 | Day 3 evening | Shinjuku | Omoide Yokocho or Golden Gai, depachika dinner |
 | Extra day | Toyosu | teamLab Planets on a pre-booked slot, market decks |
 
-Before you book anything, do the one piece of math this guide keeps coming back to: count your rides. If a day has four or more subway trips, the 700 yen Metro pass wins. If it has two, an IC card wins. Tokyo rewards the five minutes you spend on this more than any other planning.
+Before you book anything, do the one piece of math this guide keeps coming back to: count your rides. If a day has four or more subway trips, the {{< hl "700 yen" >}} Metro pass wins. If it has two, an IC card wins. Tokyo rewards the five minutes you spend on this more than any other planning.
 
 {{< aff href="https://www.klook.com/en-US/city/28-tokyo-things-to-do/?aid=145455" text="Explore Tokyo tours and tickets on Klook" >}}
