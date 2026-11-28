@@ -30,3 +30,10 @@ Hugo: /tmp/hg/hugo. Check with `hugo --buildDrafts -d /tmp/pubS` (drafts visible
 7. Next region: repeat the SOP; do not copy Danyang facts.
 ## Standing rules
 No Agoda link edits, footer "(Klook, Agoda)", emrld pop-under off, free OSM/SVG maps only, /kr/about disclosure unchanged, Klook AID 145455, Viator skipped, photo captions describe only the photo, keep the tunnel photo blog-07.
+
+## Update 17:10 KST
+- Danyang post is LIVE (commit 1eee809 on origin/main, pushed 17:06 after Dongho's go). Spot/hub pages and the Drive photos were not in that push.
+- scratch-phase32 now also has: Muse/Drive food + Sonobel photos in the food and stay hubs (44aaf67), credits as non-free in PHOTO-CREDITS.md, place names/addresses/Google ratings from the photo PM's phase35 drafts (NOT verified by the site agent; verify before any publish). PM phase35 files (/tmp/p35, content/eat, content/stay/danyang) were not applied: my /food|/stay|/tours/<region>/<place>/ structure replaces them.
+- Unused Drive photos: sonobel-04/05/07 (TRVLOGUE, author unknown), food-11.
+- Branch scratch-widget (worktree /tmp/hhwidget, commit 99d4f8c, based on 1eee809): partner widget preview from /tmp/hhmain plus the exact disclosure label ("이 링크는 제휴 광고를 포함합니다" / "Contains affiliate links"). Unpushed, waits for Dongho's go. /tmp/hhmain's widget files stay uncommitted.
+- Worktrees: /tmp/hhpush (push-danyang, pushed), /tmp/hhwidget, /tmp/wt-main (can delete).
