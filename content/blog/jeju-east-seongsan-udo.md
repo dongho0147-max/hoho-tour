@@ -35,7 +35,7 @@ stops:
     note: "Lava-tube cave and gardens near Seongsan village."
 ---
 
-East Jeju is the one day trip on the island that works as a single loop. You climb a volcanic cone in the morning, take a 15-minute ferry to a small island for the afternoon, and end the day on a cliff coast with the cone behind you. Start at {{< hl "08:00" >}} and you are back in Seongsan village for dinner.
+East Jeju is the one day trip on the island that works as a single loop. You climb a volcanic cone in the morning, take a 15-minute ferry to a small island for the afternoon, and end the day on a cliff coast with the cone behind you. Start at 08:00 and you are back in Seongsan village for dinner.
 
 This guide was put together from recent listings, reviews, and official pages, checked November 2026. Ferry times shift by season and stop in bad weather, so confirm the first and last boats on the day itself.
 
@@ -47,27 +47,27 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 Seongsan Ilchulbong is a 180 m tuff cone on the eastern tip of Jeju, and it is the first stop because the stairs get crowded by late morning. The climb is about 30 to 40 minutes of stairs to a viewing deck above the crater, which is roughly 600 m wide and covered in silver grass. From the top you see [Udo](https://www.klook.com/en-US/activity/141274-jeju-udo-island-seongsan-ilchulbong-seopjikoji-day-tour/?aid=145455) Island, Seongsan village, and the sea in one sweep.
 
-Admission runs about {{< hl "5,000 KRW" >}} for an adult, based on recent listings. Ticket sales stop an hour before closing, and hours run shorter in winter, roughly {{< hl "06:00" >}} to {{< hl "18:00" >}} from November to February. The site closes on the first Monday of each month, and if that Monday is a public holiday, it closes the following day instead.
+Admission runs about {{< pr "5,000 KRW" >}} for an adult, based on recent listings. Ticket sales stop an hour before closing, and hours run shorter in winter, roughly 06:00 to 18:00 from November to February. The site closes on the first Monday of each month, and if that Monday is a public holiday, it closes the following day instead.
 
 The free part is worth your time too. A coastal path drops to Umutgae Coast, where haenyeo, the women divers of Jeju, give a short show in the shallows when the weather allows. You need no summit ticket to watch it, and the show usually runs in the late morning.
 
-> **🔥 Local tip:** Bring water and a hat. There is almost no shade on the stairs, and the wind at the top is stronger than it feels at the ticket office. If the morning is foggy, climb anyway and do the coastal path first: the fog often lifts by {{< hl "10:00" >}}.
+> **🔥 Local tip:** Bring water and a hat. There is almost no shade on the stairs, and the wind at the top is stronger than it feels at the ticket office. If the morning is foggy, climb anyway and do the coastal path first: the fog often lifts by 10:00.
 
 ## ⛴️ Take the ferry to Udo Island
 
-From the peak, walk 10 minutes to Seongsan Port. Ferries to Udo leave every 20 to 30 minutes, and the crossing takes about 15 minutes. A round trip for an adult costs about {{< hl "11,000 KRW" >}} including the marine park fee, based on recent listings. Bring your passport: you show it when you buy the ticket and when you board. In November, boats from Seongsan run only until about {{< hl "17:00" >}}, and the last boat back leaves Udo around {{< hl "17:00" >}} as well, so do not cut it close.
+From the peak, walk 10 minutes to Seongsan Port. Ferries to Udo leave every 20 to 30 minutes, and the crossing takes about 15 minutes. A round trip for an adult costs about {{< pr "11,000 KRW" >}} including the marine park fee, based on recent listings. Bring your passport: you show it when you buy the ticket and when you board. In November, boats from Seongsan run only until about 17:00, and the last boat back leaves Udo around 17:00 as well, so do not cut it close.
 
-> **🔥 Local tip:** The last boat back from Udo leaves at {{< hl "17:00" >}} from November to February, {{< hl "17:30" >}} in March and October, and {{< hl "18:00" >}} in April and September. Aim for the second-to-last boat, not the last one: if the sea turns rough, a sailing can be cancelled and the last boat is the one you miss. When you buy your ticket, note the return time on the spot, and check the departure board before you leave Udo, because the island has two small ports, Cheonjin and Haumokdong, and the one in use can vary by day. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The last boat back from Udo leaves at 17:00 from November to February, 17:30 in March and October, and 18:00 in April and September. Aim for the second-to-last boat, not the last one: if the sea turns rough, a sailing can be cancelled and the last boat is the one you miss. When you buy your ticket, note the return time on the spot, and check the departure board before you leave Udo, because the island has two small ports, Cheonjin and Haumokdong, and the one in use can vary by day. Based on recent listings/reviews, checked November 2026.
 
-Udo is about 6 square km, home to around 1,800 people, and shaped like a cow lying down, which is how it got its name. Rental cars are not allowed on the island, so you get around by e-bike, scooter, electric buggy, or the island shuttle bus. E-bikes run about {{< hl "10,000 KRW" >}} for three hours or {{< hl "20,000 KRW" >}} for a full day, and they need no licence. Scooters and buggies are faster, but Korean law requires a valid driving licence, and staff do check.
+Udo is about 6 square km, home to around 1,800 people, and shaped like a cow lying down, which is how it got its name. Rental cars are not allowed on the island, so you get around by e-bike, scooter, electric buggy, or the island shuttle bus. E-bikes run about {{< pr "10,000 KRW" >}} for three hours or {{< pr "20,000 KRW" >}} for a full day, and they need no licence. Scooters and buggies are faster, but Korean law requires a valid driving licence, and staff do check.
 
 {{< figure src="images/photos/jeju-east-02.webp" alt="Udo Island off the east coast of Jeju" caption="Rental cars are not allowed on the island. Scooters and buggies need a valid driving licence, and staff check. Photo: 제주영상문화산업진흥원, KOGL Type 1" >}}
 
 The loop road is about 17 km around the coast, and it takes about two hours by e-bike at an easy pace, or closer to three or four hours if you stop at every beach and cafe, which is the point. Start at Cheonjin Port, where the ferry lands, and work your way around. Hagosudong Beach has white coral sand, Geommeolle Beach has dark sand, and Udobong Peak has the lighthouse and the view back to Seongsan.
 
-> **🔥 Local tip:** Take the first bus you can from Jeju City and aim to be at Seongsan Port by {{< hl "08:30" >}} on weekends and holidays. The ferry lines and the e-bike shops at Udo fill up fast after {{< hl "10:00" >}}, so arriving early gets you a bike with a full battery and a calm first hour on the island. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Take the first bus you can from Jeju City and aim to be at Seongsan Port by 08:30 on weekends and holidays. The ferry lines and the e-bike shops at Udo fill up fast after 10:00, so arriving early gets you a bike with a full battery and a calm first hour on the island. Based on recent listings/reviews, checked November 2026.
 
-Eat peanut ice cream while you are there. Udo is known for its peanuts, and the soft-serve, lattes, and snacks built around them are sold at cafes and stalls all along the loop road. Expect about 5,000 to {{< hl "8,000 KRW" >}} for a soft-serve.
+Eat peanut ice cream while you are there. Udo is known for its peanuts, and the soft-serve, lattes, and snacks built around them are sold at cafes and stalls all along the loop road. Expect about 5,000 to {{< pr "8,000 KRW" >}} for a soft-serve.
 
 {{< sticker kind="yum" >}}
 
@@ -95,9 +95,9 @@ Then end at Gwangchigi Beach, the black-sand beach that faces Seongsan Ilchulbon
 
 ## 🛏️ Where to stay in the east
 
-If you are doing this as a day trip from Jeju City, you do not need to move hotels. The trunk bus from Jeju City reaches Seongsan in about 90 minutes, and the first bus leaves early enough to make the {{< hl "08:00" >}} start work.
+If you are doing this as a day trip from Jeju City, you do not need to move hotels. The trunk bus from Jeju City reaches Seongsan in about 90 minutes, and the first bus leaves early enough to make the 08:00 start work.
 
-If you want the sunrise from the peak, stay one night in Seongsan village instead. Small hotels and guesthouses near the port run about 50,000 to {{< hl "100,000 KRW" >}} a night, based on recent listings. Staying over also means you catch the first ferry to Udo before the day crowds arrive.
+If you want the sunrise from the peak, stay one night in Seongsan village instead. Small hotels and guesthouses near the port run about 50,000 to {{< pr "100,000 KRW" >}} a night, based on recent listings. Staying over also means you catch the first ferry to Udo before the day crowds arrive.
 
 {{< aff href="https://www.agoda.com/seongsan-sunrise-hotel/hotel/jeju-island-kr.html" text="Check Sunrise Hotel Seongsan on Agoda" >}}
 
@@ -110,7 +110,7 @@ If you want the sunrise from the peak, stay one night in Seongsan village instea
 | Private tour with driver | About 100,000 to 150,000 KRW | Groups of 3 to 4 who want flexibility |
 | Rental car | About 60,000 to 100,000 KRW a day | Travelers adding the south coast too |
 
-The bus option works, but it has one weak point: the last bus from Seongsan to Jeju City leaves in the early evening, and missing it means a taxi fare of {{< hl "50,000 KRW" >}} or more. If you plan to stay for sunset at Seopjikoji, book the tour or the car instead.
+The bus option works, but it has one weak point: the last bus from Seongsan to Jeju City leaves in the early evening, and missing it means a taxi fare of {{< pr "50,000 KRW" >}} or more. If you plan to stay for sunset at Seopjikoji, book the tour or the car instead.
 
 ## 🗓️ Your east Jeju day at a glance
 

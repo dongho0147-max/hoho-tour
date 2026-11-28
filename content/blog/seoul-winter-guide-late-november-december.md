@@ -49,7 +49,7 @@ Snow is the question everyone asks, and the honest answer is that it snows, but 
 
 {{< collage "images/photos/seoul-40.webp|Hyangwonjeong Pavilion at Gyeongbokgung after a snowfall|Photo: Korea.net / Korean Culture and Information Service (Jeon Han), CC BY-SA 2.0" "images/photos/seoul-22.webp|Changdeokgung Injeongjeon Hall in daytime|After snow, the palace roofs are the best sight in the city. Photo: Koshyk, CC BY" >}}
 
-> **🔥 Local tip:** The Seoul Winter Festival runs from 11 December 2026 to 31 January 2027, with the Seoul Lantern Festival along Cheonggyecheon from {{< hl "18:00" >}} to {{< hl "23:00" >}} and the Gwanghwamun Market from 11 December to 10 January, {{< hl "17:30" >}} to {{< hl "22:00" >}}, until {{< hl "22:30" >}} on Friday and Saturday. Weekday evenings are calmer than Fridays, weekends, Christmas Eve, and New Year's Eve. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The Seoul Winter Festival runs from 11 December 2026 to 31 January 2027, with the Seoul Lantern Festival along Cheonggyecheon from 18:00 to 23:00 and the Gwanghwamun Market from 11 December to 10 January, 17:30 to 22:00, until 22:30 on Friday and Saturday. Weekday evenings are calmer than Fridays, weekends, Christmas Eve, and New Year's Eve. Based on recent listings/reviews, checked November 2026.
 
 ## 🧥 How should you dress? Layers, and one long coat
 
@@ -62,11 +62,11 @@ The secret to a Seoul winter is layers, and not the fashionable kind. The city i
 | Outer | Long coat that covers your knees | The wind does not care about your jacket if your legs are bare |
 | Extras | Scarf, gloves that work with a phone, grippy shoes | Sidewalks ice over on the coldest mornings |
 
-If you are coming from somewhere warm, buy the coat here. Seoul's winter clothing is excellent and not expensive, and a long padded coat, the kind every Korean wears from November to March, costs roughly 50,000 to {{< hl "150,000 KRW" >}} in a regular shop and will change your whole trip. Prices are ranges, last checked November 2026.
+If you are coming from somewhere warm, buy the coat here. Seoul's winter clothing is excellent and not expensive, and a long padded coat, the kind every Korean wears from November to March, costs roughly 50,000 to {{< pr "150,000 KRW" >}} in a regular shop and will change your whole trip. Prices are ranges, last checked November 2026.
 
 The small things matter more than you would think. Hand warmers, the little packets that heat up when you open them, are sold at every convenience store for a few thousand won, and they are the best money you will spend all winter. Slip one into each coat pocket and one into your gloves. Buy a pack of them on your first day and keep them in your bag. Lip balm, moisturizer, and a water bottle round out the kit. None of this is glamorous. All of it is the difference between a great day and a day you spend counting the minutes until you can go inside.
 
-> **🔥 Local tip:** Buy the long padded coat in Seoul instead of packing one from home. It costs roughly {{< hl "50,000-150,000 KRW" >}} in a regular shop, and it is the single purchase that changes a winter trip the most. The Seoul Plaza ice rink opens from 18 December 2026, about {{< hl "1,000 KRW" >}} an hour including skates and a helmet, so bring a {{< hl "1,000 KRW" >}} note if you plan to skate. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Buy the long padded coat in Seoul instead of packing one from home. It costs roughly {{< pr "50,000-150,000 KRW" >}} in a regular shop, and it is the single purchase that changes a winter trip the most. The Seoul Plaza ice rink opens from 18 December 2026, about {{< pr "1,000 KRW" >}} an hour including skates and a helmet, so bring a {{< pr "1,000 KRW" >}} note if you plan to skate. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="pro-tip" >}}
 
@@ -78,7 +78,7 @@ Take the river at night. In summer, the Han River is for picnics and bicycles. I
 
 {{< collage "images/photos/seoul-04.webp|Han River at night with rental bicycles|TurnOnTheNight, CC BY-SA 4.0" "images/photos/seoul-25.webp|Han River night skyline|valeuf, CC BY" >}}
 
-The tower is another winter place. [N Seoul Tower](https://www.klook.com/en-US/activity/17323-n-seoul-tower-ticket-combos-seoul/?aid=145455) on its hill is cold and windy at dusk, and that is exactly when you should go, because the city lights come on while you are standing there, and the whole basin turns gold below you. Go for the sunset, stay for the first hour of dark, then head down for dinner. The observatory ticket runs about {{< hl "29,000 KRW" >}} for adults at the counter, or around {{< hl "24,100 KRW" >}} booked ahead on Klook (checked November 2026), but the outdoor terrace and the plaza are free, and on a clear winter night the free view is nearly as good as the paid one.
+The tower is another winter place. [N Seoul Tower](https://www.klook.com/en-US/activity/17323-n-seoul-tower-ticket-combos-seoul/?aid=145455) on its hill is cold and windy at dusk, and that is exactly when you should go, because the city lights come on while you are standing there, and the whole basin turns gold below you. Go for the sunset, stay for the first hour of dark, then head down for dinner. The observatory ticket runs about {{< pr "29,000 KRW" >}} for adults at the counter, or around {{< pr "24,100 KRW" >}} booked ahead on Klook (checked November 2026), but the outdoor terrace and the plaza are free, and on a clear winter night the free view is nearly as good as the paid one.
 
 If you want the observatory ticket sorted ahead, it is easy to book before you go up the hill.
 
@@ -108,8 +108,8 @@ And when you are moving around the city, the subway is your heated corridor betw
 
 Three things that work in December.
 
-- **Knife-cut noodles at Gwangjang Market.** The hot bowl that finishes a cold market morning. With a pancake and a tray of gimbap, the whole breakfast lands around {{< hl "10,000-20,000 KRW" >}} per person. Cash helps.
-- **Korean BBQ for dinner.** Expect {{< hl "15,000-30,000 KRW" >}} per person. The grill heats the table, the room is warm, and nobody is in a hurry to leave.
+- **Knife-cut noodles at Gwangjang Market.** The hot bowl that finishes a cold market morning. With a pancake and a tray of gimbap, the whole breakfast lands around {{< pr "10,000-20,000 KRW" >}} per person. Cash helps.
+- **Korean BBQ for dinner.** Expect {{< pr "15,000-30,000 KRW" >}} per person. The grill heats the table, the room is warm, and nobody is in a hurry to leave.
 - **A cafe window seat with hot yuja tea.** No price worth quoting, because it varies by cafe. The point is the hour: hot drink, heated floor, cold going by outside.
 
 {{< sticker kind="yum" >}}

@@ -102,8 +102,8 @@ If you want the express ticket sorted before you land, book it ahead and activat
 
 ### 💳 What should you sort out on day one?
 
-- **Get a T-money card** at any convenience store at the airport (about {{< hl "5,000 KRW" >}} for the card, then top up). It works on the subway, buses, and even at convenience stores. Tap in, tap out.
-- **Cash vs card:** Cards work almost everywhere in Seoul, including street stalls in Myeongdong. Keep {{< hl "20,000-30,000 KRW" >}} in cash for small markets.
+- **Get a T-money card** at any convenience store at the airport (about {{< pr "5,000 KRW" >}} for the card, then top up). It works on the subway, buses, and even at convenience stores. Tap in, tap out.
+- **Cash vs card:** Cards work almost everywhere in Seoul, including street stalls in Myeongdong. Keep {{< pr "20,000-30,000 KRW" >}} in cash for small markets.
 - **eSIM or SIM:** Buy an eSIM before you fly, or a tourist SIM at the airport. You will use maps constantly, so do not rely on public Wi-Fi.
 - **No tipping.** It is not expected in Korea. Good service is the default.
 - **Language:** English works in tourist areas, hotels, and most restaurants with picture menus. A translation app covers the rest.
@@ -120,11 +120,11 @@ Start early. The palaces are best before the tour buses arrive.
 
 ### Start at Gyeongbokgung at 10:00
 
-Seoul's main royal palace was built in 1395. Come for the {{< hl "10:00" >}} or {{< hl "14:00" >}} Royal Guard Changing Ceremony at Gwanghwamun Gate. It lasts about 20 minutes and is free to watch from the square.
+Seoul's main royal palace was built in 1395. Come for the 10:00 or 14:00 Royal Guard Changing Ceremony at Gwanghwamun Gate. It lasts about 20 minutes and is free to watch from the square.
 
-Admission runs about {{< hl "3,000 KRW" >}} for adults. Wear a hanbok and entry is free. Rentals from shops near the palace run roughly {{< hl "15,000-30,000 KRW" >}} for a few hours, and your photos will look far better for it. Give the palace 2 hours. Do not rush the throne hall and the back gardens.
+Admission runs about {{< hl "3,000 KRW" >}} for adults. Wear a hanbok and entry is free. Rentals from shops near the palace run roughly {{< pr "15,000-30,000 KRW" >}} for a few hours, and your photos will look far better for it. Give the palace 2 hours. Do not rush the throne hall and the back gardens.
 
-The honest downside: the courtyard gets packed by 11, and the ceremony draws a crowd three deep. Come at 10 and you get the good light and the space. Subway: Gyeongbokgung Station, {{< hl "Line 3" >}}, {{< hl "Exit 5" >}}.
+The honest downside: the courtyard gets packed by 11, and the ceremony draws a crowd three deep. Come at 10 and you get the good light and the space. Subway: Gyeongbokgung Station, Line 3, Exit 5.
 
 {{< aff href="https://www.klook.com/en-US/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/?aid=145455" text="Book a hanbok rental near Gyeongbokgung on Klook" >}}
 
@@ -132,7 +132,7 @@ The honest downside: the courtyard gets packed by 11, and the ceremony draws a c
 
 ### 🍱 Eat lunch the market way at Tongin Market
 
-A 10-minute walk from the palace. This old market runs a lunchbox system. Buy coins at the entrance, then fill a tray with small dishes from the stalls. Expect about {{< hl "10,000-15,000 KRW" >}} per person. It is where office workers eat, which is usually a good sign.
+A 10-minute walk from the palace. This old market runs a lunchbox system. Buy coins at the entrance, then fill a tray with small dishes from the stalls. Expect about {{< pr "10,000-15,000 KRW" >}} per person. It is where office workers eat, which is usually a good sign.
 
 It closes early in the afternoon, and the coin counter gets a line at noon. Go straight from the palace and you will miss the worst of it.
 
@@ -156,21 +156,21 @@ Walk the restored stream that runs through downtown. It is a 20-minute evening s
 
 Seoul's university district. Mornings are quiet, which makes them good for cafes and for the street performances that start in the afternoon. Browse the small designer shops. If your trip includes a Saturday, the Hongdae Free Market is worth a slow lap.
 
-Subway: Hongik University Station, {{< hl "Line 2" >}} / AREX, {{< hl "Exit 9" >}}.
+Subway: Hongik University Station, Line 2 / AREX, Exit 9.
 
 If Hongdae cafes are your thing, the [Seoul cafe crawl](/blog/seoul-cafes-seongsu-yeonnam-ikseon/) is the deeper version: Seongsu, Yeonnam, and Ikseon-dong in one day, with the same unhurried pace.
 
 ### 🚲 Take the afternoon to the Han River
 
-Take the subway to Yeouido Hangang Park or Banpo Hangang Park. Rent a bike for about {{< hl "3,000 KRW" >}} per hour, or just walk the riverside path. In the evening, Banpo Bridge runs its rainbow fountain show. Check the season schedule before you go, because it does not run in winter.
+Take the subway to Yeouido Hangang Park or Banpo Hangang Park. Rent a bike for about {{< pr "3,000 KRW" >}} per hour, or just walk the riverside path. In the evening, Banpo Bridge runs its rainbow fountain show. Check the season schedule before you go, because it does not run in winter.
 
-Buy instant noodles and a boiled egg at the park convenience store and eat them on the riverbank. It is a small ritual for Seoulites, and it costs less than {{< hl "5,000 KRW" >}}. The full night version, cruise and all, lives in the [Han River night guide](/blog/seoul-night-han-river-cruise-ramyeon/).
+Buy instant noodles and a boiled egg at the park convenience store and eat them on the riverbank. It is a small ritual for Seoulites, and it costs less than {{< pr "5,000 KRW" >}}. The full night version, cruise and all, lives in the [Han River night guide](/blog/seoul-night-han-river-cruise-ramyeon/).
 
 {{< figure src="images/photos/seoul-04.webp" alt="Han River at night with rental bicycles and a lit bridge" caption="Check the Banpo rainbow fountain season before you go, and rent a bike for about 3,000 KRW an hour. Photo: TurnOnTheNight, CC BY-SA 4.0" >}}
 
 ### 🌇 Watch sunset from N Seoul Tower
 
-Take the cable car up from Myeongdong, or the bus from Itaewon. The observatory costs about {{< hl "29,000 KRW" >}} for adults at the counter, or around {{< hl "24,100 KRW" >}} booked ahead on Klook (checked November 2026). The outdoor terrace and the city view are free. Come at sunset and stay for the lights.
+Take the cable car up from Myeongdong, or the bus from Itaewon. The observatory costs about {{< pr "29,000 KRW" >}} for adults at the counter, or around {{< pr "24,100 KRW" >}} booked ahead on Klook (checked November 2026). The outdoor terrace and the city view are free. Come at sunset and stay for the lights.
 
 One warning: the cable car line at sunset can eat 40 minutes. The bus from Itaewon is slower but you stay warm, and the plaza view is almost as good as the paid observatory. It costs nothing.
 
@@ -180,21 +180,21 @@ One warning: the cable car line at sunset can eat 40 minutes. The bus from Itaew
 
 ### Start hungry at Gwangjang Market
 
-One of Seoul's oldest markets, famous for food. Bindaetteok (mung bean pancakes), mayak gimbap (mini seaweed rolls), and knife-cut noodles. Go hungry, bring cash, and point at what looks good. Budget {{< hl "10,000-15,000 KRW" >}} for a full breakfast.
+One of Seoul's oldest markets, famous for food. Bindaetteok (mung bean pancakes), mayak gimbap (mini seaweed rolls), and knife-cut noodles. Go hungry, bring cash, and point at what looks good. Budget {{< pr "10,000-15,000 KRW" >}} for a full breakfast.
 
-Subway: Jongno 5-ga Station, {{< hl "Line 1" >}}, {{< hl "Exit 8" >}}.
+Subway: Jongno 5-ga Station, Line 1, Exit 8.
 
 {{< figure src="images/photos/seoul-13.webp" alt="Customers eating noodles and dumplings at a Gwangjang Market food stall" caption="Go hungry and bring cash. The calm window is 10:00 to 11:00 on weekdays. Photo: kallerna, CC BY-SA 4.0" >}}
 
-> **🔥 Local tip:** The market opens around {{< hl "09:00" >}} and the calm window is {{< hl "10:00" >}} to {{< hl "11:00" >}} on weekdays. Bindaetteok runs about {{< hl "5,000 KRW" >}} a piece and mayak gimbap about {{< hl "3,000 KRW" >}} a roll pack, based on recent visitor guides, checked November 2026. If a stool opens up, sit down first and order second: the stalls turn over fast and the line moves with you. Want the whole market as its own morning? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts right here.
+> **🔥 Local tip:** The market opens around 09:00 and the calm window is 10:00 to 11:00 on weekdays. Bindaetteok runs about {{< pr "5,000 KRW" >}} a piece and mayak gimbap about {{< pr "3,000 KRW" >}} a roll pack, based on recent visitor guides, checked November 2026. If a stool opens up, sit down first and order second: the stalls turn over fast and the line moves with you. Want the whole market as its own morning? The [slow food walk through the old markets](/blog/seoul-market-food-walk/) starts right here.
 
 ### 🌶️ Graze your way through Myeongdong
 
-Myeongdong is a shopping district first and a food street second, but the street food is the point for most first-timers. Grilled lobster tails, egg bread, tteokbokki, and Korean fried chicken cups. Prices run {{< hl "3,000-10,000 KRW" >}} per item. Share, so you can try more.
+Myeongdong is a shopping district first and a food street second, but the street food is the point for most first-timers. Grilled lobster tails, egg bread, tteokbokki, and Korean fried chicken cups. Prices run {{< pr "3,000-10,000 KRW" >}} per item. Share, so you can try more.
 
 {{< figure src="images/photos/seoul-39.webp" alt="Tteokbokki rice cakes in glossy red sauce with fish cake" caption="Tteokbokki at the Myeongdong stalls is about 2,000 KRW a skewer, and most stalls prefer cash. Photo: Choe Kwangmo, CC0" >}}
 
-> **🔥 Local tip:** Myeongdong stalls fire up around {{< hl "17:00" >}} and run to about {{< hl "23:00" >}}, and most of them prefer cash, so bring small bills and coins. A skewer of tteokbokki is about {{< hl "2,000 KRW" >}} at the stalls, based on recent visitor guides, checked November 2026. Eat standing, move on, repeat.
+> **🔥 Local tip:** Myeongdong stalls fire up around 17:00 and run to about 23:00, and most of them prefer cash, so bring small bills and coins. A skewer of tteokbokki is about {{< pr "2,000 KRW" >}} at the stalls, based on recent visitor guides, checked November 2026. Eat standing, move on, repeat.
 
 After eating, shop. Skincare and cosmetics are the main draw, and most shops offer tax refunds for tourists. Ask at the counter and bring your passport.
 
@@ -202,7 +202,7 @@ After eating, shop. Skincare and cosmetics are the main draw, and most shops off
 
 ### Finish with Dongdaemun or a farewell dinner
 
-Dongdaemun Design Plaza is the curved silver building worth seeing at night. The shopping malls around it stay open late. For a farewell dinner, Korean BBQ runs {{< hl "15,000-30,000 KRW" >}} per person. A fried chicken and beer night costs less and is just as local. If you want one last real experience, eat at a place with no English menu. Point, smile, and let the staff guide you.
+Dongdaemun Design Plaza is the curved silver building worth seeing at night. The shopping malls around it stay open late. For a farewell dinner, Korean BBQ runs {{< pr "15,000-30,000 KRW" >}} per person. A fried chicken and beer night costs less and is just as local. If you want one last real experience, eat at a place with no English menu. Point, smile, and let the staff guide you.
 
 The old-school version of that dinner, beef soup at dawn and barbecue at night, is mapped out in [Seoul's old restaurants](/blog/seoul-old-restaurants-baekban-bbq/).
 

@@ -726,7 +726,8 @@ article figcaption,.hero-figure figcaption,.shortcode-figure figcaption{font-siz
 figcaption{text-wrap:balance}
 figcaption .cap-credit{position:absolute;top:8px;right:8px;display:block;max-width:72%;margin:0;padding:2px 7px;border-radius:3px;background:rgba(20,20,20,.5);color:#fff;font-size:10.5px;line-height:1.35;text-align:right;letter-spacing:0}
 
-/* Soft yellow highlight for prices, hours and key numbers in posts */
-.hl{background:#FFF1A8;color:inherit;border-radius:3px;padding:0 .18em;margin:0 -.02em;
+/* Prices: tasteful red text. .hl adds a soft yellow marker for rare good-value items */
+.pr{color:#B42318;font-weight:inherit}
+.pr.hl{background:#FFF1A8;border-radius:3px;padding:0 .18em;margin:0 -.02em;
   -webkit-box-decoration-break:clone;box-decoration-break:clone}
-@media print{.hl{background:none;padding:0}}
+@media print{.pr{color:inherit}.pr.hl{background:none;padding:0}}

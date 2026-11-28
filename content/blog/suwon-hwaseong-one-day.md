@@ -59,11 +59,11 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 ## 🚆 How do you get there?
 
-You have two good options, and the train wins. From Seoul Station, take the ITX-Saemaeul intercity train to Suwon. It takes about 27 minutes and costs about {{< hl "4,800 KRW" >}}. Buy at the station kiosk or through the Korail site. Tickets rarely sell out except on national holidays.
+You have two good options, and the train wins. From Seoul Station, take the ITX-Saemaeul intercity train to Suwon. It takes about 27 minutes and costs about {{< pr "4,800 KRW" >}}. Buy at the station kiosk or through the Korail site. Tickets rarely sell out except on national holidays.
 
-The cheaper option is subway {{< hl "Line 1" >}} toward Sinchang. Suwon is 14 stops south of Seoul Station, about 58 minutes, and costs about {{< hl "1,950 KRW" >}} on a T-money card. Take the train if you value your morning. Take the subway if you value the fare difference and do not mind the ride.
+The cheaper option is subway Line 1 toward Sinchang. Suwon is 14 stops south of Seoul Station, about 58 minutes, and costs about {{< hl "1,950 KRW" >}} on a T-money card. Take the train if you value your morning. Take the subway if you value the fare difference and do not mind the ride.
 
-From Suwon Station, take city bus 11 or 13 from {{< hl "Exit 4" >}} to the Hwaseong Haenggung stop, then walk about five minutes to the palace. Buses 2-2, 36, 39, 400, and 999 from the Maesan Market stop go to Paldalmun instead. Either way, the bus ride is short and the fortress is easy to find once you are there.
+From Suwon Station, take city bus 11 or 13 from Exit 4 to the Hwaseong Haenggung stop, then walk about five minutes to the palace. Buses 2-2, 36, 39, 400, and 999 from the Maesan Market stop go to Paldalmun instead. Either way, the bus ride is short and the fortress is easy to find once you are there.
 
 > **🔥 Local tip:** Coming from Gangnam, skip Seoul Station entirely: express bus 3000 from Gangnam Station goes straight to Paldalmun, and from Jamsil, bus 1007 drops you at Hwaseong Haenggung. Based on recent visitor guides, checked November 2026.
 
@@ -73,7 +73,7 @@ Start at Paldalmun, the south gate, and walk the wall clockwise. The walls and g
 
 {{< collage "images/photos/suwon-01.webp|The wall of Hwaseong Fortress in Suwon|Photo: VN.NguyenDucDuy, CC BY-SA 4.0" "images/photos/suwon-04.webp|Banghwasuryujeong pavilion on the fortress wall|Photo: oreum, CC BY-SA 3.0" >}}
 
-Free guided tours with a cultural heritage guide leave from the guide offices at the palace, Paldalmun, Seojangdae, Janganmun, Jangan Park, Hwahongmun, and Yeonmudae at {{< hl "10:00" >}}, {{< hl "11:00" >}}, {{< hl "13:30" >}}, {{< hl "14:30" >}}, and {{< hl "15:30" >}}. English, Japanese, and Chinese tours are offered to foreign visitors. Walk-in requests need at least four people and can be turned down on busy days, so join the group at the office rather than hoping to flag one down on the wall.
+Free guided tours with a cultural heritage guide leave from the guide offices at the palace, Paldalmun, Seojangdae, Janganmun, Jangan Park, Hwahongmun, and Yeonmudae at 10:00, 11:00, 13:30, 14:30, and 15:30. English, Japanese, and Chinese tours are offered to foreign visitors. Walk-in requests need at least four people and can be turned down on busy days, so join the group at the office rather than hoping to flag one down on the wall.
 
 > **🔥 Local tip:** Walk the wall in the morning and visit the palace after lunch. The wall is exposed, so the morning light is better and the heat is lower. The palace has shade and courtyards, and it is the right place for the middle of the day.
 
@@ -83,11 +83,11 @@ Free guided tours with a cultural heritage guide leave from the guide offices at
 
 ## 🏯 What is inside Hwaseong Haenggung?
 
-Hwaseong Haenggung is the temporary palace inside the fortress, built for King Jeongjo when he visited his father's tomb. It opens {{< hl "09:00" >}} to {{< hl "18:00" >}} year-round, with last entry at {{< hl "17:00" >}}. Entry is {{< hl "2,000 KRW" >}} for adults, {{< hl "1,500 KRW" >}} for teens, and {{< hl "1,000 KRW" >}} for children, based on recent listings. Entry is free in hanbok, for ages 65 and over with ID, and for children 6 and under, and for everyone on the last Wednesday of the month during daytime hours.
+Hwaseong Haenggung is the temporary palace inside the fortress, built for King Jeongjo when he visited his father's tomb. It opens 09:00 to 18:00 year-round, with last entry at 17:00. Entry is {{< pr "2,000 KRW" >}} for adults, {{< pr "1,500 KRW" >}} for teens, and {{< pr "1,000 KRW" >}} for children, based on recent listings. Entry is free in hanbok, for ages 65 and over with ID, and for children 6 and under, and for everyone on the last Wednesday of the month during daytime hours.
 
 The palace is smaller than the palaces in Seoul, and that is its charm. You can see the whole complex in an hour: the main hall, the courtyards, the king's quarters, and the Hwaryeongjeon shrine next door. The martial arts show and the archery experience run on most days, but both stop in rain or snow, and the martial arts show takes Mondays off.
 
-One thing to know about timing: the palace night opening ran on Friday, Saturday, Sunday, and holidays from May 1 to November 1, 2026, from {{< hl "18:00" >}} to {{< hl "21:30" >}}. That season has ended by late November, so do not plan a night visit to the palace in late November. The walls, on the other hand, stay open after dark all year, and the gates lit up at night are worth the walk on their own.
+One thing to know about timing: the palace night opening ran on Friday, Saturday, Sunday, and holidays from May 1 to November 1, 2026, from 18:00 to 21:30. That season has ended by late November, so do not plan a night visit to the palace in late November. The walls, on the other hand, stay open after dark all year, and the gates lit up at night are worth the walk on their own.
 
 > **🔥 Local tip:** The palace is free on the last Wednesday of the month in the daytime, under the Culture Day program, and the wall walk itself is free every day. If the budget matters, that Wednesday is the day to pick. Based on recent visitor guides, checked November 2026.
 
@@ -95,7 +95,7 @@ One thing to know about timing: the palace night opening ran on Friday, Saturday
 
 ## 🚋 Should you ride the trolley?
 
-The Hwaseong Eocha trolley is the small train that loops the fortress, and it is worth it if you are short on time or your feet are tired. It runs Tuesday to Sunday, with 20 departures between {{< hl "09:40" >}} and {{< hl "17:00" >}}, and it does not run on Mondays or in rain or snow. Tickets cost {{< hl "6,000 KRW" >}} for adults, {{< hl "3,500 KRW" >}} for teens, and {{< hl "2,000 KRW" >}} for children, based on recent listings. You can book all 36 seats on each run online up to the end of the following month, and unsold seats go on sale at the Yeonmudae ticket office on the day. An online booking alone will not get you on board: swap it for a paper ticket at the Yeonmudae office before your departure time.
+The Hwaseong Eocha trolley is the small train that loops the fortress, and it is worth it if you are short on time or your feet are tired. It runs Tuesday to Sunday, with 20 departures between 09:40 and 17:00, and it does not run on Mondays or in rain or snow. Tickets cost {{< pr "6,000 KRW" >}} for adults, {{< pr "3,500 KRW" >}} for teens, and {{< pr "2,000 KRW" >}} for children, based on recent listings. You can book all 36 seats on each run online up to the end of the following month, and unsold seats go on sale at the Yeonmudae ticket office on the day. An online booking alone will not get you on board: swap it for a paper ticket at the Yeonmudae office before your departure time.
 
 The trolley is a ride, not a substitute for walking. It shows you the fortress from the road, while the wall shows it to you from above. If you have the time, walk. If you have the trolley ticket, ride it first for the overview, then walk the best section.
 
@@ -103,7 +103,7 @@ The trolley is a ride, not a substitute for walking. It shows you the fortress f
 
 ## 🍖 What to order for dinner
 
-Suwon galbi. The city is famous for its marinated beef short ribs, grilled at the table, and the restaurants near Paldalmun and the station have been serving them for decades. A galbi dinner runs roughly {{< hl "20,000-40,000 KRW" >}} per person based on recent listings, depending on the cut and the restaurant. Order the galbi, a pot of rice, and a stew to share, and let the staff grill the meat if they offer to.
+Suwon galbi. The city is famous for its marinated beef short ribs, grilled at the table, and the restaurants near Paldalmun and the station have been serving them for decades. A galbi dinner runs roughly {{< pr "20,000-40,000 KRW" >}} per person based on recent listings, depending on the cut and the restaurant. Order the galbi, a pot of rice, and a stew to share, and let the staff grill the meat if they offer to.
 
 {{< figure src="images/photos/suwon-06.webp" alt="Marinated beef short ribs grilling on a charcoal grill at a Korean barbecue table" caption="A galbi dinner runs roughly 20,000 to 40,000 KRW per person. Photo: Jo Hanshin, CC0" >}}
 
@@ -117,9 +117,9 @@ If beef is not your thing, Suwon has a second classic: the fried chicken street 
 
 ## 🎫 Should you take a tour, or go yourself?
 
-Go yourself. The train is simple, the fortress is free to walk, and the palace costs {{< hl "2,000 KRW" >}}. A tour only makes sense if you want to combine Suwon with somewhere else, like the Korean Folk Village, Gwangmyeong Cave, or the Starfield Library. The guided options run about 10 to 11 hours and cost roughly US{{< hl "$45" >}}-70 per person based on recent listings, and most of that time goes to the other stops and the transfers.
+Go yourself. The train is simple, the fortress is free to walk, and the palace costs {{< pr "2,000 KRW" >}}. A tour only makes sense if you want to combine Suwon with somewhere else, like the Korean Folk Village, Gwangmyeong Cave, or the Starfield Library. The guided options run about 10 to 11 hours and cost roughly US{{< pr "$45" >}}-70 per person based on recent listings, and most of that time goes to the other stops and the transfers.
 
-One tour worth knowing about is the night-view version, which covers [Hwaseong Fortress](https://www.klook.com/en-US/activity/29707-suwon-hwaseong-fortress-folk-village-tour/?aid=145455), the Starfield Library, and the palace in the evening, running {{< hl "10:50" >}} to {{< hl "22:20" >}}. Recent listings show it rated 5.0 out of 5, and note availability from November 23, 2026, so check the calendar if you are going right after this guide is published.
+One tour worth knowing about is the night-view version, which covers [Hwaseong Fortress](https://www.klook.com/en-US/activity/29707-suwon-hwaseong-fortress-folk-village-tour/?aid=145455), the Starfield Library, and the palace in the evening, running 10:50 to 22:20. Recent listings show it rated 5.0 out of 5, and note availability from November 23, 2026, so check the calendar if you are going right after this guide is published.
 
 {{< aff href="https://www.klook.com/en-CA/activity/202678-suwon-starfield-library-hwaseong-fortress-day-tour-with-night-view/?aid=145455" text="See the Suwon Hwaseong Fortress and Starfield Library night-view tour on Klook" >}}
 

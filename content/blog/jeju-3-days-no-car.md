@@ -46,9 +46,9 @@ This guide was put together from recent listings, reviews, and official transpor
 
 Jeju has three useful bus systems, and you only need to learn two of them. City buses (blue) run around Jeju City and the airport. Trunk buses (red, numbers in the 100s and 200s) run between towns, and they are the ones that take you east to Hamdeok and Seongsan. The third group is the green village buses, which are slow and local, and you can ignore them for this trip.
 
-Buy a T-money card at a convenience store at the airport and top it up with about {{< hl "30,000 KRW" >}}. A city bus ride costs around 1,150 to {{< hl "1,300 KRW" >}} with the card, and a trunk ride to the east runs about 2,000 to {{< hl "4,000 KRW" >}} depending on distance. You tap when you board and tap again when you get off, and the fare is calculated for you.
+Buy a T-money card at a convenience store at the airport and top it up with about {{< pr "30,000 KRW" >}}. A city bus ride costs around 1,150 to {{< pr "1,300 KRW" >}} with the card, and a trunk ride to the east runs about 2,000 to {{< pr "4,000 KRW" >}} depending on distance. You tap when you board and tap again when you get off, and the fare is calculated for you.
 
-> **🔥 Local tip:** Download Naver Map before you land and set it to English. It shows live bus times in Jeju, which Google Maps does not do well. Check the last bus home before you leave for the day, because east-coast buses thin out after {{< hl "19:00" >}}.
+> **🔥 Local tip:** Download Naver Map before you land and set it to English. It shows live bus times in Jeju, which Google Maps does not do well. Check the last bus home before you leave for the day, because east-coast buses thin out after 19:00.
 
 If a full bus day sounds like too much planning, a small-group [day tour](https://www.klook.com/en-US/activity/189127-jeju-east-west-south-shared-day-tour/?aid=145455) does the same east-coast loop with hotel pickup, and it is the simplest fix for day 2.
 
@@ -60,17 +60,17 @@ If a full bus day sounds like too much planning, a small-group [day tour](https:
 
 Land, drop your bags, and stay near the old downtown or the airport area. Both work, but old downtown puts you closer to the market and the evening food streets, while the airport area is quieter. From the airport, bus 100 or 200 reaches downtown in about 20 to 30 minutes, depending on traffic.
 
-Spend the afternoon walking. Start at Dongmun Traditional Market, which is the loud, crowded heart of the city. Go hungry and graze: fried chicken skewers, tangerine juice, and the small fried snacks the stalls sell by weight. Prices run about 3,000 to {{< hl "8,000 KRW" >}} per snack, and a full grazing lunch lands around 12,000 to {{< hl "18,000 KRW" >}} per person.
+Spend the afternoon walking. Start at Dongmun Traditional Market, which is the loud, crowded heart of the city. Go hungry and graze: fried chicken skewers, tangerine juice, and the small fried snacks the stalls sell by weight. Prices run about 3,000 to {{< pr "8,000 KRW" >}} per snack, and a full grazing lunch lands around 12,000 to {{< pr "18,000 KRW" >}} per person.
 
-> **🔥 Local tip:** The day market runs {{< hl "08:00" >}} to {{< hl "21:00" >}} and the night market {{< hl "18:00" >}} to {{< hl "24:00" >}}, and the {{< hl "19:00" >}} to {{< hl "21:00" >}} night-market rush is the busiest stretch. Go before {{< hl "19:00" >}} if you want the stalls quieter. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The day market runs 08:00 to 21:00 and the night market 18:00 to 24:00, and the 19:00 to 21:00 night-market rush is the busiest stretch. Go before 19:00 if you want the stalls quieter. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 
 {{< figure src="images/photos/jeju-05.webp" alt="Stalls inside Dongmun Traditional Market in Jeju City" caption="The night-market rush is 19:00 to 21:00. Go before 19:00 for quieter stalls. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
 
-After the market, walk to Yongduam Rock on the coast, about 30 minutes on foot or one short bus ride away. It is a small dragon-shaped rock in the sea, and the point is the walk there along the water, not the rock itself. Come back through the black-pork streets near the old city for dinner. Black pork barbecue runs about 15,000 to {{< hl "25,000 KRW" >}} per person, and most places have picture menus.
+After the market, walk to Yongduam Rock on the coast, about 30 minutes on foot or one short bus ride away. It is a small dragon-shaped rock in the sea, and the point is the walk there along the water, not the rock itself. Come back through the black-pork streets near the old city for dinner. Black pork barbecue runs about 15,000 to {{< pr "25,000 KRW" >}} per person, and most places have picture menus.
 
-> **🔥 Local tip:** The Nohyeong black-pork street near the airport has plenty of walk-in spots, but the popular ones fill up for the {{< hl "19:00" >}} to {{< hl "21:00" >}} dinner rush. Book ahead through Naver or Catchtable if you have your heart set on one place. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The Nohyeong black-pork street near the airport has plenty of walk-in spots, but the popular ones fill up for the 19:00 to 21:00 dinner rush. Book ahead through Naver or Catchtable if you have your heart set on one place. Based on recent listings/reviews, checked November 2026.
 
 ## 🏖️ Day 2: the east coast by bus
 
@@ -108,7 +108,7 @@ Option B is an Olle Trail section, and it is the better pick if your legs are ti
 
 Stay in Jeju City for all three nights. Moving hotels eats half a day on an island where the bus is your transport, and Jeju City has the best bus connections in every direction. Pick a place within a 10-minute walk of a trunk bus stop, and check that before you book, not after.
 
-Budget guesthouses near the old downtown run about 30,000 to {{< hl "60,000 KRW" >}} a night. Mid-range hotels near the airport and downtown run about 80,000 to {{< hl "150,000 KRW" >}}. Prices move a lot with weekends and holidays, so the range matters more than any single number.
+Budget guesthouses near the old downtown run about 30,000 to {{< pr "60,000 KRW" >}} a night. Mid-range hotels near the airport and downtown run about 80,000 to {{< pr "150,000 KRW" >}}. Prices move a lot with weekends and holidays, so the range matters more than any single number.
 
 {{< aff href="https://www.agoda.com/en-in/city/jeju-kr.html" text="Compare Jeju City hotels on Agoda" >}}
 
@@ -123,7 +123,7 @@ Here is how the transport options compare for this exact route. The bus column a
 | Taxi for the east day | About 150,000 to 200,000 KRW | You still plan the route yourself |
 | Private car, 1 day | About 200,000 to 350,000 KRW | Nothing, except money |
 
-Food runs about 30,000 to {{< hl "50,000 KRW" >}} a day if you eat at markets and casual restaurants, and double that if you eat black pork barbecue twice a day. Hallasan is free to enter, Seongsan costs about {{< hl "5,000 KRW" >}} for an adult, and the village and beaches are free.
+Food runs about 30,000 to {{< pr "50,000 KRW" >}} a day if you eat at markets and casual restaurants, and double that if you eat black pork barbecue twice a day. Hallasan is free to enter, Seongsan costs about {{< pr "5,000 KRW" >}} for an adult, and the village and beaches are free.
 
 ## 🗓️ Your 3 days at a glance
 

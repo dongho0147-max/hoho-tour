@@ -48,11 +48,11 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 Start at Haeundae Beach, the wide sand beach with the promenade and the seafront towers. Walk the full length of the beach in the morning, when it is quiet, and keep going to Dongbaekseom Island, the small pine-covered island at the western end. The island loop takes about 40 minutes, and the Nurimaru APEC House sits on it, free to look at from outside.
 
-Then ride the Haeundae Blueline Park. The [Sky Capsule](https://www.klook.com/en-US/activity/133293-haeundae-blueline-park-ticket-in-busan/?aid=145455) is the slow one: private capsules for up to four people roll along an elevated rail 7 to 10 m above the shoreline between Mipo and Cheongsapo, 2 km in about 30 minutes. Tickets are one way and priced per capsule, not per person: about {{< hl "50,000 KRW" >}} for 2 people, 55,000 for 3, and 60,000 for 4, based on recent listings. The Beach Train runs the same coastal line at ground level, about 8,000 to {{< hl "10,000 KRW" >}} per person for a single ride.
+Then ride the Haeundae Blueline Park. The [Sky Capsule](https://www.klook.com/en-US/activity/133293-haeundae-blueline-park-ticket-in-busan/?aid=145455) is the slow one: private capsules for up to four people roll along an elevated rail 7 to 10 m above the shoreline between Mipo and Cheongsapo, 2 km in about 30 minutes. Tickets are one way and priced per capsule, not per person: about {{< pr "50,000 KRW" >}} for 2 people, 55,000 for 3, and 60,000 for 4, based on recent listings. The Beach Train runs the same coastal line at ground level, about 8,000 to {{< pr "10,000 KRW" >}} per person for a single ride.
 
-Book the capsule at least a week ahead. Sunset slots sell out 2 to 4 weeks ahead, and the capsule runs {{< hl "08:30" >}} to about {{< hl "18:00" >}} in winter. A Klook voucher covers the capsule or the train, but read the fine print: you still redeem the voucher on the Blueline Park site to pick a time slot, and Klook does not offer refunds on it.
+Book the capsule at least a week ahead. Sunset slots sell out 2 to 4 weeks ahead, and the capsule runs 08:30 to about 18:00 in winter. A Klook voucher covers the capsule or the train, but read the fine print: you still redeem the voucher on the Blueline Park site to pick a time slot, and Klook does not offer refunds on it.
 
-> **🔥 Local tip:** The official site releases each date every Tuesday at {{< hl "07:00" >}} Korea time, 4 weeks ahead, and sunset and weekend slots go in minutes. If Mipo to Cheongsapo is sold out, try the reverse direction, Cheongsapo to Mipo: it is less in demand, and the sunset light over Haeundae is just as good from that side. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** The official site releases each date every Tuesday at 07:00 Korea time, 4 weeks ahead, and sunset and weekend slots go in minutes. If Mipo to Cheongsapo is sold out, try the reverse direction, Cheongsapo to Mipo: it is less in demand, and the sunset light over Haeundae is just as good from that side. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="pro-tip" >}}
 
@@ -68,11 +68,11 @@ Take the subway or a short taxi to Gwangalli Beach for the evening. The beach cu
 
 {{< figure src="images/photos/busan-07.webp" alt="Gwangalli Beach and Gwangan Bridge in daylight" caption="The bridge lights up after sunset, so time your visit for dusk. Photo: Masterhatch, CC BY" >}}
 
-> **🔥 Local tip:** If day 1 is a Saturday, stay for the free M Drone Light Show: about 1,100 drones draw pictures over the water for 12 minutes, twice a night, at {{< hl "19:00" >}} and {{< hl "21:00" >}} from October to February ({{< hl "20:00" >}} and {{< hl "22:00" >}} from March to September). No ticket needed. Rain or strong wind can cancel it, so check the official notice on the day. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** If day 1 is a Saturday, stay for the free M Drone Light Show: about 1,100 drones draw pictures over the water for 12 minutes, twice a night, at 19:00 and 21:00 from October to February (20:00 and 22:00 from March to September). No ticket needed. Rain or strong wind can cancel it, so check the official notice on the day. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="photo-spot" >}}
 
-Dinner here is easy: raw fish restaurants line the beach road, and the cafes stay open late. A raw fish set for two runs about 50,000 to {{< hl "80,000 KRW" >}}, based on recent listings. If that is more than you want to spend, the cafes and the fried chicken places on the beach road do the same view for less.
+Dinner here is easy: raw fish restaurants line the beach road, and the cafes stay open late. A raw fish set for two runs about 50,000 to {{< pr "80,000 KRW" >}}, based on recent listings. If that is more than you want to spend, the cafes and the fried chicken places on the beach road do the same view for less.
 
 ## 🏘️ Day 2: Gamcheon Culture Village in the morning
 
@@ -82,17 +82,17 @@ Start day 2 at Gamcheon Culture Village, the hillside neighborhood of colorful h
 
 Wear proper shoes. The alleys are steep, the steps are uneven, and the loop up to the viewpoints and back down is a real walk. Bring water in summer. The Little Prince statue and the main viewpoint draw the longest lines, so see them first and then wander the quieter lanes behind them.
 
-> **🔥 Local tip:** Arrive between {{< hl "09:00" >}} and {{< hl "10:00" >}} on a weekday, before the tour buses cluster from around {{< hl "10:00" >}} to {{< hl "14:00" >}}. Pick up the stamp map at the information center and follow its route downhill: it spreads out the foot traffic and ends at the cafe street. At peak hours the Little Prince photo queue runs 20 to 30 minutes. Some small stalls do not take cards, so carry small bills. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Arrive between 09:00 and 10:00 on a weekday, before the tour buses cluster from around 10:00 to 14:00. Pick up the stamp map at the information center and follow its route downhill: it spreads out the foot traffic and ends at the cafe street. At peak hours the Little Prince photo queue runs 20 to 30 minutes. Some small stalls do not take cards, so carry small bills. Based on recent listings/reviews, checked November 2026.
 
 {{< figure src="images/photos/busan-gamcheon-sunset-01.webp" alt="Colorful houses of Gamcheon Culture Village at sunset" caption="Go early on a weekday for fewer crowds, and carry a little cash. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
 ## 🍜 Day 2 lunch: Jagalchi Market and milmyeon
 
-From Gamcheon, take the bus or subway to Jagalchi Market, the big seafood market by the harbor. The ground floor sells live seafood, and the upper floors have small restaurants that cook what you buy downstairs. If raw fish is not your thing, the market building has cooked options too, and the restaurants around the edge serve grilled fish sets for about 15,000 to {{< hl "25,000 KRW" >}} per person.
+From Gamcheon, take the bus or subway to Jagalchi Market, the big seafood market by the harbor. The ground floor sells live seafood, and the upper floors have small restaurants that cook what you buy downstairs. If raw fish is not your thing, the market building has cooked options too, and the restaurants around the edge serve grilled fish sets for about 15,000 to {{< pr "25,000 KRW" >}} per person.
 
 {{< figure src="images/photos/busan-04.webp" alt="Jagalchi Market in Busan" caption="Upstairs restaurants cook what you buy on the ground floor, and cooked options exist if raw fish is not your thing. Photo: Bernard Gagnon, CC0" >}}
 
-For something lighter, try milmyeon, the Busan wheat noodle in clear broth. It is the local answer to cold noodles, and a bowl runs about 8,000 to {{< hl "11,000 KRW" >}}, based on recent listings. Eat it at a market stall or a small shop near Jagalchi, with the egg, cucumber, and red paste on top.
+For something lighter, try milmyeon, the Busan wheat noodle in clear broth. It is the local answer to cold noodles, and a bowl runs about 8,000 to {{< pr "11,000 KRW" >}}, based on recent listings. Eat it at a market stall or a small shop near Jagalchi, with the egg, cucumber, and red paste on top.
 
 {{< figure src="images/photos/busan-06.webp" alt="Busan milmyeon in a metal bowl" caption="Milmyeon is Busan's cold wheat noodle. Top it with egg, cucumber and the red sauce. Photo: Mobius6, CC BY-SA 4.0" >}}
 
@@ -114,11 +114,11 @@ Here is the short list, with what to expect at each stop.
 
 Finish at BIFF Square, the street-food square a short walk from Jagalchi. It is where the film festival started, and the handprints of actors are set into the pavement. Eat your way along it: hotteok, fish cakes, and the fried snacks the stalls sell by weight. It is the right last stop because it is small, cheap, and you can leave whenever you are full.
 
-> **🔥 Local tip:** Stay in Haeundae for night 1 and move to Nampo or Seomyeon for night 2, or just stay in Haeundae for both nights and take the subway south on day 2. The subway from Haeundae to Jagalchi takes about 40 minutes with one change. A taxi for the same trip runs about 15,000 to {{< hl "20,000 KRW" >}} in normal traffic.
+> **🔥 Local tip:** Stay in Haeundae for night 1 and move to Nampo or Seomyeon for night 2, or just stay in Haeundae for both nights and take the subway south on day 2. The subway from Haeundae to Jagalchi takes about 40 minutes with one change. A taxi for the same trip runs about 15,000 to {{< pr "20,000 KRW" >}} in normal traffic.
 
 ## 🛏️ Where to stay
 
-Haeundae is the best base for this route. The beach, the Blueline Park, and the subway are all in one place, and the cafes stay open late. Mid-range hotels a short walk from the beach run about 100,000 to {{< hl "180,000 KRW" >}} a night, based on recent listings. Budget rooms near Haeundae Station run about 50,000 to {{< hl "80,000 KRW" >}}.
+Haeundae is the best base for this route. The beach, the Blueline Park, and the subway are all in one place, and the cafes stay open late. Mid-range hotels a short walk from the beach run about 100,000 to {{< pr "180,000 KRW" >}} a night, based on recent listings. Budget rooms near Haeundae Station run about 50,000 to {{< pr "80,000 KRW" >}}.
 
 {{< aff href="https://www.agoda.com/shilla-stay-haeundae/hotel/busan-kr.html" text="Check Shilla Stay Haeundae on Agoda" >}}
 

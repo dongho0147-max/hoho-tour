@@ -41,7 +41,7 @@ The draw is simple: noodles invented in Chinatown, an old port with real history
 
 ## 🚇 How do you get there? The subway does it all
 
-The trip starts at Seoul Station, on subway {{< hl "Line 1" >}}, heading toward [Incheon](https://www.klook.com/en-US/destination/c158-incheon/?aid=145455). Take the express if one comes, because it skips a string of smaller stations and saves you about fifteen minutes, but do not wait for it if a local train is already there. The local takes around an hour and twenty minutes, the express around an hour, and the fare is roughly 2,000 to {{< hl "3,000 KRW" >}} each way on a T-money card. That is less than a coffee and one of the best deals in Korean travel.
+The trip starts at Seoul Station, on subway Line 1, heading toward [Incheon](https://www.klook.com/en-US/destination/c158-incheon/?aid=145455). Take the express if one comes, because it skips a string of smaller stations and saves you about fifteen minutes, but do not wait for it if a local train is already there. The local takes around an hour and twenty minutes, the express around an hour, and the fare is roughly 2,000 to {{< pr "3,000 KRW" >}} each way on a T-money card. That is less than a coffee and one of the best deals in Korean travel.
 
 If you have not used the subway much yet, the guide to [the subway, the T-money card, and taxis](/blog/seoul-subway-tmoney-taxi/) covers the card and the transfer halls in detail. The short version is: tap in, sit down, and watch the city thin out through the window.
 
@@ -65,13 +65,13 @@ Get off, walk out of the station, and turn toward Chinatown. It is a few minutes
 
 Here is the honest truth about Incheon Chinatown: you are here for jajangmyeon. The black bean noodles were born in this neighborhood, when Chinese immigrants adapted a dish from home to Korean tastes, and the version you eat here, in a small restaurant with a red door and a steamed-up window, tastes like the original in a way the franchise version in Seoul never quite does.
 
-A bowl usually runs about 7,000 to {{< hl "12,000 KRW" >}}, and the difference between a good one and a great one is the shine on the sauce and the chew of the noodles. Order it with a plate of tangsuyuk, the sweet and sour pork, if you are hungry, and expect to spend roughly 10,000 to {{< hl "20,000 KRW" >}} per person for a proper lunch. Prices are ranges, last checked November 2026.
+A bowl usually runs about 7,000 to {{< pr "12,000 KRW" >}}, and the difference between a good one and a great one is the shine on the sauce and the chew of the noodles. Order it with a plate of tangsuyuk, the sweet and sour pork, if you are hungry, and expect to spend roughly 10,000 to {{< pr "20,000 KRW" >}} per person for a proper lunch. Prices are ranges, last checked November 2026.
 
 {{< figure src="images/photos/incheon-01.webp" alt="Jajangmyeon, black bean noodles in a bowl" caption="Budget roughly 10,000 to 20,000 KRW per person for a proper lunch, and expect weekend lines at the famous places. Photo: Stegano, CC BY-SA 3.0" >}}
 
 There is no single restaurant to send you to, and that is deliberate. The famous old restaurants are worth trying, and the queues outside them on weekends are real, but the side streets are full of good kitchens. The rule that has never failed, based on recent reviews, is to eat where the older locals are eating. Point at the pictures on the wall if there is no English menu. Smile. It works every time.
 
-> **🔥 Local tip:** Eat before {{< hl "11:00" >}} or after the lunch rush: the famous jajangmyeon shops queue from late morning on weekends. Before lunch, stop at the Jjajangmyeon Museum in the old Gonghwachun building: {{< hl "1,000 KRW" >}}, Tuesday to Sunday {{< hl "09:00" >}} to {{< hl "18:00" >}}, last entry {{< hl "17:30" >}}. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Eat before 11:00 or after the lunch rush: the famous jajangmyeon shops queue from late morning on weekends. Before lunch, stop at the Jjajangmyeon Museum in the old Gonghwachun building: {{< pr "1,000 KRW" >}}, Tuesday to Sunday 09:00 to 18:00, last entry 17:30. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 
@@ -103,11 +103,11 @@ If you still have energy after the village, go down to the water. The old port a
 
 {{< figure src="images/photos/seoul-09.webp" alt="Orange Seoul taxi, front view" caption="Wolmi is a short bus or taxi ride from Chinatown. It is empty and cold in late November and December. Photo: U2em, CC BY-SA 3.0" >}}
 
-The Wolmi Sea Train loops the island on an elevated track, about 6 km, and it is the easiest way to see the waterfront without walking the whole promenade. Recent listings put it at about {{< hl "11,000 KRW" >}} on weekdays and {{< hl "14,000 KRW" >}} on weekends, running roughly {{< hl "10:00" >}} to {{< hl "18:00" >}} and closed on Mondays (checked November 2026).
+The Wolmi Sea Train loops the island on an elevated track, about 6 km, and it is the easiest way to see the waterfront without walking the whole promenade. Recent listings put it at about {{< pr "11,000 KRW" >}} on weekdays and {{< pr "14,000 KRW" >}} on weekends, running roughly 10:00 to 18:00 and closed on Mondays (checked November 2026).
 
 > **🔥 Local tip:** Dress for the sea wind. A winter coat, a scarf, gloves. The wind off the water cuts through a light jacket in minutes, and there is nowhere to hide on a promenade.
 
-> **🔥 Local tip:** In November the last full Sea Train loop leaves around {{< hl "17:10" >}} to {{< hl "17:15" >}}, and weekend tickets sell out early, so book ahead and arrive before {{< hl "17:00" >}}. The last train back to Seoul leaves Incheon Station around {{< hl "23:42" >}} on weekdays. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** In November the last full Sea Train loop leaves around 17:10 to 17:15, and weekend tickets sell out early, so book ahead and arrive before 17:00. The last train back to Seoul leaves Incheon Station around 23:42 on weekdays. Based on recent listings/reviews, checked November 2026.
 
 That winter emptiness is the real reason to do this trip in the cold months. Seoul in winter is warm indoors and sharp outdoors, and Incheon doubles the effect: the sea air, the quiet streets, the steam from a noodle shop window. If your trip falls in late November or December, the [Seoul winter guide](/blog/seoul-winter-guide-late-november-december/) has the full version of how to dress for this weather, because the difference between a miserable day and a great one is usually one extra layer and a pair of proper gloves.
 

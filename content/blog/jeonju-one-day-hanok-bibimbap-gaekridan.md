@@ -83,7 +83,7 @@ From Jeonju Station, take a city bus to the village. Buses 79, 119, 501, 550, an
 
 Start at Gyeonggijeon, the shrine that holds the royal portrait of King Taejo, the founder of the Joseon dynasty. The grounds are calm in the morning, with old trees, a bamboo grove, and the Royal Portrait Museum. One thing to know before you go: the main hall is under dancheong repainting work from March 26 to December 17, 2026, based on recent listings, so you cannot go past the inner gate into the main hall area during that period. The rest of the grounds and the museum stay open as usual, so the visit is still worth it. Just do not plan your morning around a hall you cannot enter.
 
-Entry is a few thousand won per adult. Free guided walks in English run daily at about {{< hl "11:00" >}} and {{< hl "15:00" >}} from the ticket office, and they last around an hour. If you arrive early, walk the village streets first and join the later tour.
+Entry is a few thousand won per adult. Free guided walks in English run daily at about 11:00 and 15:00 from the ticket office, and they last around an hour. If you arrive early, walk the village streets first and join the later tour.
 
 {{< collage "images/photos/jeonju-02.webp|Gyeonggijeon shrine from another angle|Photo: Mobius6, CC BY-SA 4.0" "images/photos/jeonju-03.webp|A street in Jeonju Hanok Village|Photo: ecodallaluna, CC BY-SA 2.0" >}}
 
@@ -103,13 +103,13 @@ Wear shoes you can walk in. The village is all on foot, the lanes are stone and 
 
 ## 🍚 What to order for lunch
 
-Bibimbap is the dish Jeonju is known for, and the city was named a UNESCO City of Gastronomy in 2012 largely on the strength of it. A proper Jeonju bibimbap comes in a brass bowl with rice, a dozen small toppings, raw beef, and a raw egg yolk, and it costs roughly {{< hl "12,000-18,000 KRW" >}} at the well-known restaurants based on recent listings. The famous places have queues at lunch, so go early or go slightly off-peak. If the queue is an hour long, walk two streets over. The village is full of good kitchens, and the rule that has never failed anyone is to eat where the older locals are eating.
+Bibimbap is the dish Jeonju is known for, and the city was named a UNESCO City of Gastronomy in 2012 largely on the strength of it. A proper Jeonju bibimbap comes in a brass bowl with rice, a dozen small toppings, raw beef, and a raw egg yolk, and it costs roughly {{< pr "12,000-18,000 KRW" >}} at the well-known restaurants based on recent listings. The famous places have queues at lunch, so go early or go slightly off-peak. If the queue is an hour long, walk two streets over. The village is full of good kitchens, and the rule that has never failed anyone is to eat where the older locals are eating.
 
 {{< figure src="images/photos/seoul-35.webp" alt="Bibimbap in a bowl with carrot, mushroom, egg, meat and gochujang" caption="The big-name bibimbap houses queue 30 to 40 minutes at weekend lunch. Go early, or walk two streets over. Photo: Chloe Lim, CC BY 2.0" >}}
 
-> **🔥 Local tip:** The big-name bibimbap houses queue 30 to 40 minutes on weekend lunches, and the village default is to wait. Two names come up in nearly every recent roundup, checked November 2026: Hangukjip (1952, third generation, bibimbap {{< hl "15,000 KRW" >}}, yukhoe bibimbap {{< hl "17,000 KRW" >}}, {{< hl "09:50" >}} to {{< hl "20:50" >}}, one hour of free parking with a meal) and Pungnamjeong (yukhoe bibimbap {{< hl "13,000 KRW" >}}, tteokgalbi {{< hl "5,000 KRW" >}}, break time {{< hl "15:00" >}} to {{< hl "16:00" >}}). The honest shortcut: go at {{< hl "11:00" >}} sharp or after {{< hl "14:00" >}}, and order the bibimbap plus tteokgalbi combo. If the line is still an hour, the bowl two streets over is nearly as good and you eat it an hour earlier.
+> **🔥 Local tip:** The big-name bibimbap houses queue 30 to 40 minutes on weekend lunches, and the village default is to wait. Two names come up in nearly every recent roundup, checked November 2026: Hangukjip (1952, third generation, bibimbap {{< pr "15,000 KRW" >}}, yukhoe bibimbap {{< pr "17,000 KRW" >}}, 09:50 to 20:50, one hour of free parking with a meal) and Pungnamjeong (yukhoe bibimbap {{< pr "13,000 KRW" >}}, tteokgalbi {{< pr "5,000 KRW" >}}, break time 15:00 to 16:00). The honest shortcut: go at 11:00 sharp or after 14:00, and order the bibimbap plus tteokgalbi combo. If the line is still an hour, the bowl two streets over is nearly as good and you eat it an hour earlier.
 
-After bibimbap, try the street food. The village lanes sell choco pies, rice cakes, and hotteok from small stalls, and most snacks run {{< hl "2,000-5,000 KRW" >}} each. Buy one thing, walk, then buy the next. That is the whole method, and it works better than sitting down for a second full meal.
+After bibimbap, try the street food. The village lanes sell choco pies, rice cakes, and hotteok from small stalls, and most snacks run {{< pr "2,000-5,000 KRW" >}} each. Buy one thing, walk, then buy the next. That is the whole method, and it works better than sitting down for a second full meal.
 
 > **🔥 Local tip:** The village's other queue is dessert: PNB Pungnyeon Bakery's choco pie and the baguette burger stall on the main street both draw lines, and the southern market's pajeon and makgeolli alley is the local move for the evening. Based on recent visitor guides, checked November 2026.
 
@@ -121,15 +121,15 @@ If you would rather let someone else handle the transport, a guided day tour fro
 
 ## ☕️ What is Gaekridan-gil, and why end the day there?
 
-Gaekridan-gil is the cafe street near the old Gaeksa guesthouse, about a ten minute walk from the village. It is where Jeonju goes when it wants coffee instead of history. The street is lined with small cafes, bakeries, and bars in renovated houses, and it is much calmer than the village in the late afternoon. Pick one cafe, sit down, and order something slow. A coffee runs about {{< hl "5,000-7,000 KRW" >}} and a dessert about {{< hl "6,000-10,000 KRW" >}} based on recent listings.
+Gaekridan-gil is the cafe street near the old Gaeksa guesthouse, about a ten minute walk from the village. It is where Jeonju goes when it wants coffee instead of history. The street is lined with small cafes, bakeries, and bars in renovated houses, and it is much calmer than the village in the late afternoon. Pick one cafe, sit down, and order something slow. A coffee runs about {{< pr "5,000-7,000 KRW" >}} and a dessert about {{< pr "6,000-10,000 KRW" >}} based on recent listings.
 
-This is also the right place for a hanbok photo if you skipped it in the village. Hanbok rental shops cluster near Gyeonggijeon, with hundreds of outfits and free basic hairstyling, and rental for a few hours usually runs {{< hl "10,000-20,000 KRW" >}} based on recent listings. Wear it in the village in the morning, not in the afternoon, because the light is better and the streets are emptier.
+This is also the right place for a hanbok photo if you skipped it in the village. Hanbok rental shops cluster near Gyeonggijeon, with hundreds of outfits and free basic hairstyling, and rental for a few hours usually runs {{< pr "10,000-20,000 KRW" >}} based on recent listings. Wear it in the village in the morning, not in the afternoon, because the light is better and the streets are emptier.
 
 {{< figure src="images/photos/jeonju-04.webp" alt="A street in downtown Jeonju with shops" caption="Hanbok rental runs about 10,000 to 20,000 KRW for a few hours. Wear it in the morning, when the light is better. Photo: Shamus7792003, CC BY-SA 4.0" >}}
 
 ## 🌙 Should you stay the night?
 
-If you can, yes. The village changes after dark, when the day-trippers leave and the lanterns come on. A hanok guesthouse inside the village costs roughly {{< hl "50,000-120,000 KRW" >}} a night based on recent listings, and sleeping on a heated floor in a courtyard house is part of the experience. If you stay, read the companion guide to the village at night for the evening plan.
+If you can, yes. The village changes after dark, when the day-trippers leave and the lanterns come on. A hanok guesthouse inside the village costs roughly {{< pr "50,000-120,000 KRW" >}} a night based on recent listings, and sleeping on a heated floor in a courtyard house is part of the experience. If you stay, read the companion guide to the village at night for the evening plan.
 
 {{< figure src="images/photos/jeonju-05.webp" alt="A bowl of makgeolli rice wine on a wooden table" caption="A hanok guesthouse in the village costs roughly 50,000 to 120,000 KRW a night. Staying lets you see it after the day-trippers leave. Photo: jinho kim, CC0" >}}
 

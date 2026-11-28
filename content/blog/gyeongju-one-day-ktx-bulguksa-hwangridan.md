@@ -45,7 +45,7 @@ This guide was put together from recent listings, reviews, and official pages, c
 
 ## 🚄 How do you get to Gyeongju?
 
-By KTX from Seoul Station, the trip to Gyeongju Station takes about 2 hours. From Busan Station, it takes about 30 minutes. Book your train a few days ahead, because weekend morning trains sell out. A standard one-way fare from Seoul runs about 38,000 to {{< hl "44,600 KRW" >}}, and from Busan about 10,000 to {{< hl "15,000 KRW" >}}, based on recent listings.
+By KTX from Seoul Station, the trip to Gyeongju Station takes about 2 hours. From Busan Station, it takes about 30 minutes. Book your train a few days ahead, because weekend morning trains sell out. A standard one-way fare from Seoul runs about 38,000 to {{< pr "44,600 KRW" >}}, and from Busan about 10,000 to {{< pr "15,000 KRW" >}}, based on recent listings.
 
 Gyeongju Station sits outside town, about 25 minutes by bus from the center. Buses 700 and 701 run from the station into town and on to Bulguksa. Buy a T-money card before you leave Seoul or Busan, and it works on Gyeongju buses too.
 
@@ -61,11 +61,11 @@ Go to Bulguksa first, while the light is good and the tour buses are still arriv
 
 {{< figure src="images/photos/gyeongju-01.webp" alt="The pond and stone bridge at Bulguksa Temple" caption="Give Bulguksa 1.5 to 2 hours. Admission is free. Photo: Basile Morin, CC BY-SA 4.0" >}}
 
-Admission is free - the temple stopped charging on May 4, 2023, under the revised Cultural Heritage Protection Act (checked November 2026). Parking runs {{< hl "2,000 KRW" >}} for a car and {{< hl "4,000 KRW" >}} for a bus. If you have time and legs, the walk up to Seokguram Grotto takes about 1.5 hours each way on a forest path, and a bus runs part of the way. The grotto holds a stone Buddha carved in the 8th century, and it is the quieter half of the UNESCO listing.
+Admission is free - the temple stopped charging on May 4, 2023, under the revised Cultural Heritage Protection Act (checked November 2026). Parking runs {{< pr "2,000 KRW" >}} for a car and {{< pr "4,000 KRW" >}} for a bus. If you have time and legs, the walk up to Seokguram Grotto takes about 1.5 hours each way on a forest path, and a bus runs part of the way. The grotto holds a stone Buddha carved in the 8th century, and it is the quieter half of the UNESCO listing.
 
 {{< figure src="images/photos/gyeongju-06.webp" alt="Sugwangjeon hall at Seokguram Grotto" caption="The walk up to Seokguram takes about 1.5 hours each way on a forest path, and a bus runs part of the way. Photo: Bernard Gagnon, CC0" >}}
 
-> **🔥 Local tip:** Be there when it opens at {{< hl "09:00" >}}. School groups start arriving mid-morning, and the first hour after opening has the best light and the thinnest crowds. For the way back, city buses 10 and 11 loop between downtown and Bulguksa from the Hwangridan-gil parking lot, about 28 runs a day each, so gaps can pass 30 minutes: check the next departure before you leave the temple. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Be there when it opens at 09:00. School groups start arriving mid-morning, and the first hour after opening has the best light and the thinnest crowds. For the way back, city buses 10 and 11 loop between downtown and Bulguksa from the Hwangridan-gil parking lot, about 28 runs a day each, so gaps can pass 30 minutes: check the next departure before you leave the temple. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="photo-spot" >}}
 
@@ -79,15 +79,15 @@ Right next to the tombs stands Cheomseongdae, the oldest surviving observatory i
 
 ## 🍞 Late afternoon: Hwangridan-gil
 
-End the day on Hwangridan-gil, the cafe and snack street that runs past the tombs. It is where Gyeongju eats and shops now: hanok cafes, small restaurants, and street stalls in a row. The street food is the point. Try the 10-won bread, a sweet pancake stamped to look like the old 10-won coin, for about {{< hl "3,000 KRW" >}}. Try the cheese coin pancakes and the soft-serve too. A full snack crawl runs about 10,000 to {{< hl "15,000 KRW" >}} per person.
+End the day on Hwangridan-gil, the cafe and snack street that runs past the tombs. It is where Gyeongju eats and shops now: hanok cafes, small restaurants, and street stalls in a row. The street food is the point. Try the 10-won bread, a sweet pancake stamped to look like the old 10-won coin, for about {{< pr "3,000 KRW" >}}. Try the cheese coin pancakes and the soft-serve too. A full snack crawl runs about 10,000 to {{< pr "15,000 KRW" >}} per person.
 
 {{< figure src="images/photos/gyeongju-03.webp" alt="10-won bread, a street snack on Hwangridan-gil" caption="The 10-won bread is about 3,000 KRW. A full snack crawl runs about 10,000 to 15,000 KRW per person. Photo: Seefooddiet, CC BY-SA 4.0" >}}
 
-> **🔥 Local tip:** Buy Hwangnam-ppang warm from the original shops on the street: a bag of 10 runs about {{< hl "6,000 KRW" >}}, and the thin-skinned red-bean cakes are best the same day. Then walk on to Gyochon Traditional Village: the hanok lanes have no gate and no fixed hours, and Woljeonggyo Bridge at its edge stays open and lit until {{< hl "22:00" >}}. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Buy Hwangnam-ppang warm from the original shops on the street: a bag of 10 runs about {{< pr "6,000 KRW" >}}, and the thin-skinned red-bean cakes are best the same day. Then walk on to Gyochon Traditional Village: the hanok lanes have no gate and no fixed hours, and Woljeonggyo Bridge at its edge stays open and lit until 22:00. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="yum" >}}
 
-For dinner, the street has Gyeongju specialties: ssambap (rice with leaf wraps) and the local hanwoo beef restaurants. A ssambap set runs about 12,000 to {{< hl "18,000 KRW" >}} per person, based on recent listings. Eat early if you need the evening train, because the popular places fill up after {{< hl "18:00" >}}.
+For dinner, the street has Gyeongju specialties: ssambap (rice with leaf wraps) and the local hanwoo beef restaurants. A ssambap set runs about 12,000 to {{< pr "18,000 KRW" >}} per person, based on recent listings. Eat early if you need the evening train, because the popular places fill up after 18:00.
 
 ## ⚖️ Should you take the tour or go solo?
 

@@ -84,7 +84,7 @@ This guide is written from research, not from a single visit. Routes, times, and
 
 Here is the honest answer: the bus is cheaper and more flexible, and the tour is easier. Express buses run regularly from Seoul Express Bus Terminal to Sokcho, and the ride takes about two and a half hours each way. You pick your own pace, you stay for sunset, and you sleep in Sokcho instead of rushing back. The trade-off is that you handle every connection yourself, including the local bus from Sokcho to the national park.
 
-A guided day tour from Seoul does the driving for you. The Seoraksan and [Naksansa](https://www.klook.com/en-US/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455) Temple full-day tour on Klook runs about 12.5 hours, from {{< hl "07:20" >}} to {{< hl "19:50" >}}, with an English and Chinese speaking guide, and recent listings rate it 4.7 out of 5 from more than 1,100 reviews. Read the fine print before you book: on that listing the cable car is not included, so budget for it separately if you want the ride up.
+A guided day tour from Seoul does the driving for you. The Seoraksan and [Naksansa](https://www.klook.com/en-US/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455) Temple full-day tour on Klook runs about 12.5 hours, from 07:20 to 19:50, with an English and Chinese speaking guide, and recent listings rate it 4.7 out of 5 from more than 1,100 reviews. Read the fine print before you book: on that listing the cable car is not included, so budget for it separately if you want the ride up.
 
 {{< aff href="https://www.klook.com/activity/2529-mount-seorak-naksansa-temple-gangwon-do/?aid=145455" text="See the Seoraksan and Naksansa Temple full-day tour from Seoul on Klook" >}}
 
@@ -118,13 +118,13 @@ Sleep in Sokcho town, near the beach or the port, not up by the park entrance. T
 
 {{< aff href="https://www.agoda.com/region/gangwon-province-kr.html" text="Compare stays in Gangwon, including Sokcho, on Agoda" >}}
 
-Dinner belongs to Daepohang Port. The port is a working harbor with a long row of sashimi restaurants and dried-fish stalls, and it stays lively into the evening. Order a sashimi set if you eat raw fish, or go for grilled fish and a hot soup if you do not. A full dinner for two at the port usually lands in the {{< hl "40,000-80,000 KRW" >}} range based on recent listings, depending on what you order. If raw fish is not your thing, Sokcho has two local dishes worth trying instead: dakgangjeong, the sweet and crispy fried chicken sold by weight in the market, and squid sundae, a Sokcho specialty stuffed with squid and vegetables.
+Dinner belongs to Daepohang Port. The port is a working harbor with a long row of sashimi restaurants and dried-fish stalls, and it stays lively into the evening. Order a sashimi set if you eat raw fish, or go for grilled fish and a hot soup if you do not. A full dinner for two at the port usually lands in the {{< pr "40,000-80,000 KRW" >}} range based on recent listings, depending on what you order. If raw fish is not your thing, Sokcho has two local dishes worth trying instead: dakgangjeong, the sweet and crispy fried chicken sold by weight in the market, and squid sundae, a Sokcho specialty stuffed with squid and vegetables.
 
 {{< figure src="images/photos/sokcho-07.webp" alt="A platter of sliced raw fish hoe with banchan on a restaurant table" caption="Raw fish not your thing? Try dakgangjeong or squid sundae instead. Photo: littlepepper, CC0" >}}
 
-> **🔥 Local tip:** At Daepohang, a set for two runs about 40,000 to {{< hl "70,000 KRW" >}} and mulhoe (spicy cold raw fish soup) about 15,000 to {{< hl "22,000 KRW" >}}, based on recent visitor guides, checked November 2026. The price is the catch, not the fish: agree on the set and the price before you sit down, and check whether the maeuntang (spicy fish stew) at the end is included or extra.
+> **🔥 Local tip:** At Daepohang, a set for two runs about 40,000 to {{< pr "70,000 KRW" >}} and mulhoe (spicy cold raw fish soup) about 15,000 to {{< pr "22,000 KRW" >}}, based on recent visitor guides, checked November 2026. The price is the catch, not the fish: agree on the set and the price before you sit down, and check whether the maeuntang (spicy fish stew) at the end is included or extra.
 
-> **🔥 Local tip:** Dakgangjeong is a takeaway game, not a sit-down one. The famous Manseok stall in Sokcho Tourist and Fishery Market draws a 30-minute line on weekends, and the Expo branch by Cheongcho Lake has parking and shorter waits, based on recent visitor reviews, checked November 2026. Buy it in the afternoon, eat it cold at the hotel that night: that is exactly what it is made for. A box runs about {{< hl "20,000 KRW" >}} for boneless, based on the official online shop, checked September 2026.
+> **🔥 Local tip:** Dakgangjeong is a takeaway game, not a sit-down one. The famous Manseok stall in Sokcho Tourist and Fishery Market draws a 30-minute line on weekends, and the Expo branch by Cheongcho Lake has parking and shorter waits, based on recent visitor reviews, checked November 2026. Buy it in the afternoon, eat it cold at the hotel that night: that is exactly what it is made for. A box runs about {{< pr "20,000 KRW" >}} for boneless, based on the official online shop, checked September 2026.
 
 {{< sticker kind="yum" >}}
 
@@ -134,7 +134,7 @@ Dinner belongs to Daepohang Port. The port is a working harbor with a long row o
 
 Save the morning of day two for the coast. Sokcho Beach is a long, clean stretch of sand with a promenade, and it is at its best in the early morning before the crowds arrive. Walk it, then cross to Abai Village, the small neighborhood on the other side of the harbor. Abai Village was settled by families who came from the north during the Korean War, and it still feels different from the rest of town: narrow lanes, low houses, and small restaurants serving Abai sundae.
 
-The Gaetbae boat, a small hand-pulled ferry across the harbor channel, is the charming way to get there. It is a short ride and costs a small fare, usually around {{< hl "500-1,000 KRW" >}} based on recent listings. If the boat is not running, the road bridge works fine and the walk is short.
+The Gaetbae boat, a small hand-pulled ferry across the harbor channel, is the charming way to get there. It is a short ride and costs a small fare, usually around {{< pr "500-1,000 KRW" >}} based on recent listings. If the boat is not running, the road bridge works fine and the walk is short.
 
 {{< figure src="images/photos/sokcho-04.webp" alt="Sokcho Beach with sand and the sea" caption="The Gaetbae boat is a small hand-pulled ferry across the channel. If it is not running, the road bridge works. Photo: Dr. Thomas Liptak, CC BY-SA 4.0" >}}
 
