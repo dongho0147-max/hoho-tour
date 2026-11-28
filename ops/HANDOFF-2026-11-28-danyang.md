@@ -37,3 +37,5 @@ No Agoda link edits, footer "(Klook, Agoda)", emrld pop-under off, free OSM/SVG 
 - Unused Drive photos: sonobel-04/05/07 (TRVLOGUE, author unknown), food-11.
 - Branch scratch-widget (worktree /tmp/hhwidget, commit 99d4f8c, based on 1eee809): partner widget preview from /tmp/hhmain plus the exact disclosure label ("이 링크는 제휴 광고를 포함합니다" / "Contains affiliate links"). Unpushed, waits for Dongho's go. /tmp/hhmain's widget files stay uncommitted.
 - Worktrees: /tmp/hhpush (push-danyang, pushed), /tmp/hhwidget, /tmp/wt-main (can delete).
+- Widget (scratch-widget): label now #666 and the disclosure text is also on the collapsed mobile tab ("Deals · Contains affiliate links" / "혜택 · 이 링크는 제휴 광고를 포함합니다").
+- UNVERIFIED before any publish of food/stay hubs: shop names (Bak Ssogari, Dalttongne Garlic Sundae, Wonju Chicken House, Wonsiin Garlic Tteokgalbi), their addresses, Google ratings and review counts, and the Sono Belle (Sambong-ro 187-17) and Edelweiss (Sambong-ro 31) addresses/ratings. They came from the photo PM's phase35 draft.
