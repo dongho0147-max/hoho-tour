@@ -26,7 +26,9 @@
 {{ range $h.items }}
 {{ $it := . }}
 <li class="hub-item">
-{{ with $it.photo }}<figure><img src="{{ . | relURL }}" alt="{{ $it.alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="lazy" decoding="async"><figcaption>{{ with $it.caption }}{{ partial "cap.html" . }}{{ end }}{{ with $it.credit }}<span class="cap-credit">{{ i18n "photoLabel" }} {{ . }}</span>{{ end }}</figcaption></figure>{{ end }}
+<div class="hub-item__media">{{ with $it.photo }}<figure><img src="{{ . | relURL }}" alt="{{ $it.alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="lazy" decoding="async"><figcaption>{{ with $it.caption }}{{ partial "cap.html" . }}{{ end }}{{ with $it.credit }}<span class="cap-credit">{{ i18n "photoLabel" }} {{ . }}</span>{{ end }}</figcaption></figure>{{ end }}
+{{ with $it.gallery }}{{ $n := len . }}<div class="collage-grid collage-n{{ $n }}">{{ range . }}<figure class="collage-item"><img src="{{ .photo | relURL }}" alt="{{ .alt }}"{{ partial "photo-dims.html" .photo | safeHTMLAttr }} loading="lazy">{{ with .credit }}<span class="cap-credit">{{ . }}</span>{{ end }}</figure>{{ end }}</div>{{ end }}
+</div>
 <div class="hub-item__body">
 <h2>{{ $it.name }}{{ if and (not $isKR) $it.name_ko }} <span class="hub-item__ko" lang="ko">{{ $it.name_ko }}</span>{{ end }}</h2>
 {{ with $it.area }}<p class="hub-item__area">{{ . }}</p>{{ end }}

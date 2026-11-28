@@ -1074,3 +1074,4 @@ body:has(.home-map--first)::before{background:linear-gradient(rgba(252,249,243,.
 .hub-item__ko{font-size:.85em;color:var(--muted,#6b6b6b);font-weight:400}
 .hub-item__area{margin:0 0 .5em;font-size:.9rem;color:var(--muted,#6b6b6b)}
 @media(min-width:700px){.hub-item{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:20px;align-items:start}.hub-item figure{margin:0}}
+.hub-item .collage-grid{margin:.6em 0 0}.hub-item .collage-item{margin:0}.hub-item__media{min-width:0}
