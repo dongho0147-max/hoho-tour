@@ -65,7 +65,7 @@ The hours are the famous part. Monday to Saturday, 07:00 to 16:00, closed Sunday
 
 > **🔥 Local tip:** Eat Imun and Hadongkwan on separate mornings and compare them. The two soups look alike on paper and taste nothing alike in the bowl, and comparing them is the cheapest food education in the city.
 
-> **🔥 Local tip:** Hadongkwan is the time-sensitive one: the day ends when the soup runs out, and on a busy day that can be before 14:00, so do not plan it as a late lunch. Pay at the entrance counter when you arrive, not at the table after eating, and taste the broth before adding salt. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** Hadongkwan is the time-sensitive one: {{< mk "the day ends when the soup runs out" >}}, and on a busy day that can be before 14:00, so do not plan it as a late lunch. Pay at the entrance counter when you arrive, not at the table after eating, and taste the broth before adding salt. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="pro-tip" >}}
 

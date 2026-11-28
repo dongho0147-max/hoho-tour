@@ -68,7 +68,7 @@ Take the subway or a short taxi to Gwangalli Beach for the evening. The beach cu
 
 {{< figure src="images/photos/busan-07.webp" alt="Gwangalli Beach and Gwangan Bridge in daylight" caption="The bridge lights up after sunset, so time your visit for dusk. Photo: Masterhatch, CC BY" >}}
 
-> **🔥 Local tip:** If day 1 is a Saturday, stay for the free M Drone Light Show: about 1,100 drones draw pictures over the water for 12 minutes, twice a night, at 19:00 and 21:00 from October to February (20:00 and 22:00 from March to September). No ticket needed. Rain or strong wind can cancel it, so check the official notice on the day. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** If day 1 is a Saturday, stay for {{< mk "the free M Drone Light Show" >}}: about 1,100 drones draw pictures over the water for 12 minutes, twice a night, at 19:00 and 21:00 from October to February (20:00 and 22:00 from March to September). No ticket needed. Rain or strong wind can cancel it, so check the official notice on the day. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="photo-spot" >}}
 

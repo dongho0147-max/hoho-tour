@@ -175,7 +175,7 @@ landmarks:
 **운영 정보**
 - 겨울(11~2월)에는 09:00~17:00에 열고, 입장은 16:00에 마감해요.
 - 매주 화요일은 쉬어요. 화요일이 공휴일이면 열고, 그다음 첫 평일에 쉬어요.
-- 성인 입장료는 약 {{< pr "3,000원" >}}이고, **한복을 입으면 무료**예요.
+- 성인 입장료는 약 {{< pr "3,000원" >}}이고, **{{< mk "한복을 입으면 무료" >}}**예요.
 - 궁궐 주변 대여점에서 한복을 빌릴 수 있고, 사진도 잘 나와요. 대여 요금은 가게와 시간에 따라 달라요.
 
 {{< aff href="https://www.klook.com/ko/activity/7955-hanbok-rental-voucher-at-kyeonbokgung-store-in-hanboknam-seoul/?aid=145455" text="클룩에서 경복궁 근처 한복 대여 예약하기" rel="sponsored noopener" >}}

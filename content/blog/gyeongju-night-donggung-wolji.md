@@ -47,7 +47,7 @@ Admission runs about {{< pr "3,000 KRW" >}} for an adult, based on recent listin
 
 {{< figure src="images/photos/gyeongju-night-01.webp" alt="Donggung Palace and Wolji Pond lit up at night" caption="Enter 20 to 30 minutes before sunset to catch the sky turning blue as the lights come on. Photo: lumoplank, CC0" >}}
 
-> **🔥 Local tip:** Enter 20 to 30 minutes before sunset so you catch the sky turning blue as the lights come on one by one. The best reflection shot is near the third restored building walking clockwise from the entrance: stand facing it straight on and the palace doubles in the water. Last entry is 21:30 and the lights go out around 22:00. Based on recent listings/reviews, checked November 2026.
+> **🔥 Local tip:** {{< mk "Enter 20 to 30 minutes before sunset" >}} so you catch the sky turning blue as the lights come on one by one. The best reflection shot is near the third restored building walking clockwise from the entrance: stand facing it straight on and the palace doubles in the water. Last entry is 21:30 and the lights go out around 22:00. Based on recent listings/reviews, checked November 2026.
 
 {{< sticker kind="photo-spot" >}}
 
