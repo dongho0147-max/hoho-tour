@@ -123,7 +123,9 @@ One honest caveat: opening hours and prices for every one of these restaurants a
 
 ## 🎡 If you have a second day
 
-E-World and its 83 Tower, the 202 m landmark over **Duryu Park**, is the add-on for families and night views. We could not confirm any current ticket prices on the official site (unconfirmed); secondary listings put an unlimited ride pass around {{< pr "49,000 KRW" >}} and the tower observatory around 15,000 to {{< pr "18,000 KRW" >}}, so verify before you go. Suseongmot Lake is the quieter option: a 2 km loop around the water, open 24 hours and free, with a music fountain that secondary sources say runs seven times a day (unconfirmed). In spring, the first week of April is cherry blossom season around Duryu Park, Suseongmot, and the Palgongsan ring road; the 2026 bloom opened on March 26.
+E-World and its 83 Tower, the 202 m landmark over **Duryu Park**, is the add-on for families and night views. We could not confirm any current ticket prices on the official site (unconfirmed); secondary listings put an unlimited ride pass around {{< pr "49,000 KRW" >}} and the tower observatory around 15,000 to {{< pr "18,000 KRW" >}}, so verify before you go. Suseongmot Lake is the quieter option: a 2 km loop around the water, open 24 hours and free, with a music fountain that runs April to October, so it is off in winter. In spring, the first week of April is cherry blossom season around Duryu Park, Suseongmot, and the Palgongsan ring road; the 2026 bloom opened on March 26.
+
+{{< collage "images/photos/daegu-suseongmot-lake-01.webp|Swan paddle boats on Suseongmot Lake|Daegu City Official / Wikimedia Commons, CC BY-SA 4.0" "images/photos/daegu-suseongmot-autumn-01.webp|Fountain on Suseongmot Lake in autumn|Choi2451 / Wikimedia Commons, CC0" >}}
 
 ## 🚫 Skip this if...
 

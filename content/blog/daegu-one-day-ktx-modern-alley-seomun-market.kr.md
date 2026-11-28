@@ -160,6 +160,8 @@ map_note: "약령시 한약재 시장은 지도에 없습니다. 확인된 좌�
 
 수성못은 호수 한 바퀴를 걷는 조용한 선택지예요. 무료로 둘러볼 수 있어요. 미디어아트 음악분수는 4월부터 10월까지 운영해서 지금 시즌에는 가동하지 않아요.
 
+{{< collage "images/photos/daegu-suseongmot-lake-01.webp|수성못의 오리배|Daegu City Official / Wikimedia Commons, CC BY-SA 4.0" "images/photos/daegu-suseongmot-autumn-01.webp|가을 수성못의 분수|Choi2451 / Wikimedia Commons, CC0" >}}
+
 ## 🚫 이런 날은 빼세요
 
 **월~목에 오면 야시장 계획은 빼세요.** 야시장은 열지 않고, 낮 시장은 18:00에 닫아요. 골목 산책과 시장을 다 보고 싶으면 팔공산은 빼세요.

@@ -486,3 +486,5 @@ Brightened by the photo PM (mild auto-enhance): danyang-garlic-03, skywalk-aeria
 | jeonju-hanok-roofs-01.webp | Gray-tiled hanok roofs of Jeonju Hanok Village with the city behind; Jeonju one-day hero | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Jeonju_Hanok_Maeul_02.jpg |
 | jeonju-gyeonggijeon-01.webp | Red wooden hall and courtyard at Gyeonggijeon, Jeonju; Jeonju one-day body (replaces jeonju-01 there) | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Gyeonggijeon_Shrine_04.jpg |
 | jeju-west-07.webp | O'Sulloc Tea Fields, Jeju - Osulloc2565.jpg | 1280x853 | lumoplank / Wikimedia Commons | CC0 | https://commons.wikimedia.org/wiki/File:O%27Sulloc_Tea_Fields,_Jeju_-_Osulloc2565.jpg |
+| daegu-suseongmot-autumn-01.webp | Suseong Lake on October 13rd, 2019.jpg | | Choi2451 / Wikimedia Commons | CC0 | https://commons.wikimedia.org/wiki/File:Suseong_Lake_on_October_13rd,_2019.jpg |
+| daegu-suseongmot-lake-01.webp | 수성못.jpg | | Daegu City Official / Wikimedia Commons | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:%EC%88%98%EC%84%B1%EB%AA%BB.jpg |
