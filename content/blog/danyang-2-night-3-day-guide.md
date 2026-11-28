@@ -148,7 +148,7 @@ For the water-level view, there is a Dodamsambong cruise. In November and Decemb
 
 {{< figure src="images/photos/danyang-market-street-01.jpg" alt="Covered alley at Gugyeong Market" caption="A covered alley lined with shops at Gugyeong Market. Photo: Nangman Hanryang blog" >}}
 
-{{< collage "images/photos/danyang-garlic-03.jpg|Danyang garlic bundles tied with red string and stacked|Douglas Perkins, CC BY 4.0" "images/photos/danyang-garlic-crop.jpg|Heaps of Danyang garlic heads at a market stall|Douglas Perkins, CC BY 4.0" "images/photos/danyang-sundae-crop.jpg|Close-up of Danyang garlic sundae on a plate|Nangman Hanryang blog" "images/photos/danyang-garlicbread-crop.jpg|Close-up of garlic bread in a gift box|Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
+{{< collage "images/photos/danyang-garlic-03.jpg|Danyang garlic bundles tied with red string and stacked|Douglas Perkins, CC BY 4.0" "images/photos/danyang-dakgangjeong-01.jpg|Close-up of dakgangjeong, sweet-spicy fried chicken with sesame and chopped nuts|Ajumeoni, Wikimedia Commons (CC0)" "images/photos/danyang-sundae-crop.jpg|Close-up of Danyang garlic sundae on a plate|Nangman Hanryang blog" "images/photos/danyang-garlicbread-crop.jpg|Close-up of garlic bread in a gift box|Korea Tourism Organization, Woo Changmin, KOGL Type 1" >}}
 
 ### Danyang River Jando at night {.stop data-n="3"}
 
@@ -196,7 +196,7 @@ An old railway tunnel turned into a light show, with an LED garden outside. In w
 
 {{< figure src="images/photos/danyang-tunnel-rainbow-01.jpg" alt="Rainbow-lit tunnel entrance" caption="A tunnel lit in rainbow colors. Photo: Suyanggae Light Tunnel official, via Telltrip" >}}
 
-{{< collage "images/photos/danyang-tunnel-garden-01.jpg|LED flower garden and sculptures glowing at night at Suyanggae Light Tunnel|Danyang County, via Telltrip" "images/photos/danyang-tunnel-media-01.jpg|Media-art corridor with video on the walls and ceiling|Danyang official blog, via Telltrip" "images/photos/danyang-blog-07-tunnel.jpg|Suyanggae Light Tunnel LED garden at night|Suyanggae Light Tunnel official site" >}}
+{{< collage "images/photos/danyang-tunnel-media-01.jpg|Media-art corridor with video on the walls and ceiling|Danyang official blog, via Telltrip" "images/photos/danyang-blog-07-tunnel.jpg|Suyanggae Light Tunnel LED garden at night|Suyanggae Light Tunnel official site" >}}
 
 ## 🍲 Day 3: What is the last meal in Danyang?
 
@@ -210,7 +210,7 @@ Plan 20 to 40 minutes for the view. There is no official car park, so cars use t
 
 {{< figure src="images/photos/danyang-bobaljae-01.jpg" alt="Hairpin curve of Bobaljae Pass among red and yellow foliage" caption="Hairpin curve of Bobaljae Pass among red and yellow foliage. Photo: Korea Tourism Organization, KOGL Type 1" >}}
 
-{{< collage "images/photos/danyang-bobaljae-02.jpg|Wooden viewing deck above the winding Bobaljae road|Korea Tourism Organization, KOGL Type 1" "images/photos/danyang-bobaljae-03.jpg|Aerial view of Bobaljae's looping road through autumn colors|Korea Tourism Organization, KOGL Type 1" "images/photos/danyang-bobaljae-04.jpg|Bobaljae road curving through autumn color from above|Korea Tourism Organization" >}}
+{{< collage "images/photos/danyang-bobaljae-02.jpg|Wooden viewing deck above the winding Bobaljae road|Korea Tourism Organization, KOGL Type 1" "images/photos/danyang-bobaljae-03.jpg|Aerial view of Bobaljae's looping road through autumn colors|Korea Tourism Organization, KOGL Type 1" >}}
 
 ### ⛩️ Guinsa Temple (optional, by car, right after Bobaljae) {.stop data-n="8"}
 
@@ -230,7 +230,7 @@ Sogari (mandarin fish) maeuntang is the local dish: a spicy river-fish stew, sha
 
 {{< figure src="images/photos/danyang-ssogari-crop1.jpg" alt="Close-up of sogari maeuntang with perilla leaves and enoki mushrooms" caption="Close-up of sogari maeuntang with perilla leaves and enoki mushrooms. Photo: hyun chun kim, CC0" >}}
 
-{{< collage "images/photos/danyang-ssogari-crop2.jpg|Close-up of sogari maeuntang in the pot with enoki mushrooms|Haessal Blog" "images/photos/danyang-ssogari-crop3.jpg|Close-up of sogari fish on a bowl of rice|Haessal Blog" >}}
+{{< collage "images/photos/danyang-food-ssogari-02.jpg|Ladle resting in a pot of sogari maeuntang|yoona13 (Tistory)" "images/photos/danyang-ssogari-crop3.jpg|Close-up of sogari fish on a bowl of rice|Haessal Blog" >}}
 
 Walk the river once more, buy a box of garlic bread, and head home by train or bus.
 

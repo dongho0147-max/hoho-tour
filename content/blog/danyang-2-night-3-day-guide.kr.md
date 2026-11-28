@@ -150,7 +150,7 @@ stops:
 
 {{< figure src="images/photos/danyang-market-street-01.jpg" alt="구경시장 아케이드 골목" caption="아케이드 지붕 아래 가게가 늘어선 구경시장 골목이에요. 사진: 낭만한량 블로그" >}}
 
-{{< collage "images/photos/danyang-garlic-03.jpg|붉은 끈으로 묶어 쌓아 놓은 단양 마늘 다발|사진: Douglas Perkins, CC BY 4.0" "images/photos/danyang-garlic-crop.jpg|시장 좌판에 쌓인 단양 마늘|사진: Douglas Perkins, CC BY 4.0" "images/photos/danyang-sundae-crop.jpg|접시에 담긴 단양 마늘순대 근접 사진|사진: 낭만한량 블로그" "images/photos/danyang-garlicbread-crop.jpg|상자에 담긴 마늘빵 근접 사진|사진: 한국관광공사, 우창민, KOGL 제1유형" >}}
+{{< collage "images/photos/danyang-garlic-03.jpg|붉은 끈으로 묶어 쌓아 놓은 단양 마늘 다발|사진: Douglas Perkins, CC BY 4.0" "images/photos/danyang-dakgangjeong-01.jpg|참깨와 다진 견과류를 뿌린 달콤매콤한 닭강정 근접 사진|사진: Ajumeoni, Wikimedia Commons (CC0)" "images/photos/danyang-sundae-crop.jpg|접시에 담긴 단양 마늘순대 근접 사진|사진: 낭만한량 블로그" "images/photos/danyang-garlicbread-crop.jpg|상자에 담긴 마늘빵 근접 사진|사진: 한국관광공사, 우창민, KOGL 제1유형" >}}
 
 ### 밤의 단양강 잔도 {.stop data-n="3"}
 
@@ -204,7 +204,7 @@ stops:
 
 {{< figure src="images/photos/danyang-tunnel-rainbow-01.jpg" alt="무지개빛 조명이 이어지는 터널 입구" caption="무지개빛 조명이 이어진 터널이에요. 사진: 수양개빛터널 공식, 여행을 말하다" >}}
 
-{{< collage "images/photos/danyang-tunnel-garden-01.jpg|밤에 LED 꽃밭과 조형물이 빛나는 수양개빛터널 야외 정원|사진: 단양군, 여행을 말하다" "images/photos/danyang-tunnel-media-01.jpg|벽과 천장이 영상으로 채워진 미디어 아트 복도|사진: 단양 공식 블로그, 여행을 말하다" "images/photos/danyang-blog-07-tunnel.jpg|수양개빛터널 LED 정원의 밤 풍경|사진: 수양개빛터널 공식 사이트" >}}
+{{< collage "images/photos/danyang-tunnel-media-01.jpg|벽과 천장이 영상으로 채워진 미디어 아트 복도|사진: 단양 공식 블로그, 여행을 말하다" "images/photos/danyang-blog-07-tunnel.jpg|수양개빛터널 LED 정원의 밤 풍경|사진: 수양개빛터널 공식 사이트" >}}
 
 ## 🍲 3일 차: 단양의 마지막 한 끼는 뭘로 할까요?
 
@@ -218,7 +218,7 @@ stops:
 
 {{< figure src="images/photos/danyang-bobaljae-01.jpg" alt="붉고 노란 단풍 사이로 굽이치는 보발재 고갯길" caption="붉고 노란 단풍 사이로 굽이치는 보발재 고갯길이에요. 사진: 한국관광공사, KOGL 제1유형" >}}
 
-{{< collage "images/photos/danyang-bobaljae-02.jpg|굽이진 보발재 도로 위에 놓인 나무 전망대|사진: 한국관광공사, KOGL 제1유형" "images/photos/danyang-bobaljae-03.jpg|단풍 사이로 이어지는 보발재 굽잇길 항공 사진|사진: 한국관광공사, KOGL 제1유형" "images/photos/danyang-bobaljae-04.jpg|위에서 본 단풍 속 보발재 굽잇길|사진: 한국관광공사" >}}
+{{< collage "images/photos/danyang-bobaljae-02.jpg|굽이진 보발재 도로 위에 놓인 나무 전망대|사진: 한국관광공사, KOGL 제1유형" "images/photos/danyang-bobaljae-03.jpg|단풍 사이로 이어지는 보발재 굽잇길 항공 사진|사진: 한국관광공사, KOGL 제1유형" >}}
 
 ### ⛩️ 구인사(선택, 보발재 다음에 차로) {.stop data-n="8"}
 
@@ -238,7 +238,7 @@ stops:
 
 {{< figure src="images/photos/danyang-ssogari-crop1.jpg" alt="깻잎과 팽이버섯을 올린 쏘가리 매운탕 근접 사진" caption="깻잎과 팽이버섯을 올린 쏘가리 매운탕 근접 사진이에요. 사진: hyun chun kim, CC0" >}}
 
-{{< collage "images/photos/danyang-ssogari-crop2.jpg|냄비에 담긴 쏘가리 매운탕 근접 사진|사진: 햇살 블로그" "images/photos/danyang-ssogari-crop3.jpg|공깃밥 위에 올린 쏘가리 살 근접 사진|사진: 햇살 블로그" >}}
+{{< collage "images/photos/danyang-food-ssogari-02.jpg|국자가 담긴 쏘가리 매운탕 냄비|사진: yoona13 (티스토리)" "images/photos/danyang-ssogari-crop3.jpg|공깃밥 위에 올린 쏘가리 살 근접 사진|사진: 햇살 블로그" >}}
 
 강변을 한 번 더 걷고, 마늘빵을 한 상자 사서 기차나 버스로 돌아가세요.
 

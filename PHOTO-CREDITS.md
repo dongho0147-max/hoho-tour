@@ -464,3 +464,7 @@ Brightened by the photo PM (mild auto-enhance): danyang-garlic-03, skywalk-aeria
 | danyang-bobaljae-04.jpg | Bobaljae road in autumn color | 한국관광공사 (Korea Tourism Organization) | non-free-licence (source page claims KOGL Type 1, unverified) | https://danyang.webforai.kr/en/places/danyang-bobaljae/ ; https://tong.visitkorea.or.kr/cms2/website/70/3470670.jpg |
 | danyang-skywalk-02.jpg | Mancheonha Skywalk aerial (skywalk-07) | 여행을 말하다(Telltrip) | non-free-licence | https://egloos.com/telltrip/4408 |
 | danyang-skywalk-03.jpg | Mancheonha Skywalk glass floor view (skywalk-08) | Telltrip (author unknown) | non-free-licence | https://www.telltrip.com/domestic-travel/danyang-mancheonha-skywalk-glass-floor-view/ |
+
+## Danyang dedupe fix (2026-11-28)
+| danyang-dakgangjeong-01.jpg | Dak-gangjeong 1.jpg (Wikimedia Commons) | Ajumeoni | CC0 | https://commons.wikimedia.org/wiki/File:Dak-gangjeong_1.jpg |
+(danyang-garlic-crop.jpg removed from the Danyang post market collage: same composition as danyang-garlic-03.)
