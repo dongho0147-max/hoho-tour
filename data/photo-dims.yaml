@@ -605,3 +605,137 @@ danyang-v10-07:
 danyang-v10-08:
   width: 1080
   height: 1350
+
+danyang-dodam-02:
+  width: 1600
+  height: 952
+
+danyang-dodam-03:
+  width: 1600
+  height: 877
+
+danyang-garlic-03:
+  width: 1600
+  height: 1200
+
+danyang-gosu-02:
+  width: 1600
+  height: 1067
+
+danyang-gosu-entrance-01:
+  width: 1200
+  height: 675
+
+danyang-jando-autumn-01:
+  width: 1200
+  height: 675
+
+danyang-jando-night-01:
+  width: 1200
+  height: 675
+
+danyang-market-street-01:
+  width: 1200
+  height: 800
+
+danyang-market-sundae-01:
+  width: 1200
+  height: 800
+
+danyang-paragliders-02:
+  width: 1600
+  height: 1050
+
+danyang-paragliding-close-01:
+  width: 1600
+  height: 1067
+
+danyang-paragliding-far-01:
+  width: 1600
+  height: 1059
+
+danyang-seokmun-02:
+  width: 1200
+  height: 1600
+
+danyang-seokmun-03:
+  width: 1280
+  height: 960
+
+danyang-skywalk-01:
+  width: 1200
+  height: 675
+
+danyang-skywalk-aerial-01:
+  width: 1280
+  height: 680
+
+danyang-skywalk-glass-01:
+  width: 1440
+  height: 1440
+
+danyang-ssogari-01:
+  width: 1600
+  height: 1200
+
+danyang-ssogari-02:
+  width: 1536
+  height: 865
+
+danyang-ssogari-03:
+  width: 1536
+  height: 865
+
+danyang-tunnel-garden-01:
+  width: 1200
+  height: 675
+
+danyang-tunnel-media-01:
+  width: 1200
+  height: 675
+
+danyang-tunnel-rainbow-01:
+  width: 1200
+  height: 675
+danyang-sundae-crop:
+  width: 960
+  height: 584
+danyang-garlicbread-crop:
+  width: 1067
+  height: 800
+danyang-garlic-crop:
+  width: 980
+  height: 758
+danyang-ssogari-crop1:
+  width: 1200
+  height: 942
+danyang-ssogari-crop2:
+  width: 830
+  height: 822
+danyang-ssogari-crop3:
+  width: 998
+  height: 735
+danyang-sono-01:
+  width: 940
+  height: 627
+danyang-sono-02:
+  width: 940
+  height: 626
+danyang-sono-03:
+  width: 940
+  height: 632
+danyang-sono-04:
+  width: 940
+  height: 627
+danyang-bobaljae-01:
+  width: 1280
+  height: 853
+danyang-bobaljae-02:
+  width: 1066
+  height: 1280
+danyang-bobaljae-03:
+  width: 1280
+  height: 720
+danyang-bobaljae-winter-01:
+  width: 940
+  height: 529

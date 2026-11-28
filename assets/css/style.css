@@ -1053,3 +1053,17 @@ body:has(.home-map--first)::before{background:linear-gradient(rgba(252,249,243,.
 .tour-title .tour-lab--attraction{color:var(--coral-ink);border-color:var(--coral-ink)}
 .tour-title .tour-lab--market{color:#B26A00;border-color:#E8920C}
 .tour-title .tour-lab--lodging{color:#5A48B8;border-color:#6D5BD0}
+/* collage: with 3 photos on a phone, the last one spans the full width */
+@media(max-width:599px){.collage-n3 .collage-item:nth-child(3){grid-column:1/-1}.collage-n3 .collage-item:nth-child(3) img{aspect-ratio:16/9}}
+/* spot guide pages (layouts/spots) */
+.spot-facts{margin:1.2em 0 1.6em;padding:14px 16px;background:var(--cream);border:1px solid var(--line);border-radius:var(--r-md)}
+.spot-facts h2{margin:0 0 8px;font-size:1.05rem}
+.spot-facts dl{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:6px 14px;margin:0;font-size:.95rem;line-height:1.55}
+.spot-facts dt{font-weight:700;color:var(--green)}
+.spot-facts dd{margin:0;overflow-wrap:anywhere}
+.spot-links{margin:2em 0}
+.spot-links h2{margin-bottom:.6em}
+.spot-sources{font-size:.85rem;color:var(--ink-3);overflow-wrap:anywhere}
+.spot-sources a{color:inherit}
+@media(max-width:479px){.spot-facts dl{grid-template-columns:minmax(0,1fr);gap:2px}.spot-facts dd{margin-bottom:8px}}
+.spot .tour-summary__title,.spot .tour-summary__stops{display:none}

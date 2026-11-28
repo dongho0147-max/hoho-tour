@@ -23,3 +23,13 @@ Route line thin gray dashed, small gray arrows, labels coloured by marker type (
 ## Standing rules
 No emrld pop-under. Free OSM/Leaflet or SVG maps only. Do not touch Agoda links, keep "(Klook, Agoda)" footer. Keep /kr/about affiliate disclosure (never "no affiliate"). Viator links skipped. No Klook home button. No billing changes. Keep Danyang tunnel photo. Partner-widget changes in /tmp/hhmain are uncommitted and not approved.
 Reports to main: English, concise, screenshots attached (max 5 per message). Do not report done without self-review of the live page.
+
+## Blog post SOP (relayed by main from Dongho, WhatsApp 2026-11-28 16:30-16:32; applies to every destination)
+1. Pick the destination.
+2. Broad research: attractions, lodging, food. Official pages first (county, KTO, operator sites).
+3. Check reviews and search volume, rank by priority, pick what to feature.
+4. Agents collect MANY photos per stop (target 5-8 candidates; at least 2-3 per featured place). Record author, URL and licence for each in PHOTO-CREDITS.md, and add data/photo-dims.yaml entries.
+5. Decide the photo layout and placement first: A-grade photo solo, B-cuts of the same place in a collage, food close-ups (crop yourself; many market foods in one collage), lodging photos too.
+6. Then design the route/itinerary to fit the photo layout.
+7. Then write the text. Captions describe the photo only.
+8. Include lodging with affiliate links and tours/activities with affiliate links (Klook AID 145455) if they exist; if none exist, say so in the post. Free assets only. Do not touch Agoda links.

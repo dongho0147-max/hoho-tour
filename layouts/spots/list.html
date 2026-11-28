@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{/* spots/list.html (scratch): /spots/ lists regions that have spot pages;
+   /spots/<region>/ lists that region's spots as cards. On KR with no KR pages
+   it falls back to the EN pages (same rule as _default/list.html). */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $pages := .Pages }}
+{{ if and $isKR (eq (len $pages) 0) }}
+  {{ range $.Sites }}{{ if eq .Language.Lang "en" }}{{ with site.GetPage $.Section }}{{ $pages = .Pages }}{{ end }}{{ end }}{{ end }}
+{{ end }}
+<div class="page-head">
+<p class="eyebrow">{{ if $isKR }}명소 가이드{{ else }}Spot guides{{ end }}</p>
+<h1>{{ .Title }}</h1>
+{{ with .Content }}<div class="intro">{{ . }}</div>{{ end }}
+</div>
+<ul class="cards">
+{{ range $pages.ByTitle }}
+{{ $p := . }}
+<li class="card">
+{{ with .Params.image }}<a class="thumb" href="{{ $p.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $p.Params.image_alt | default $p.Title }}" width="480" height="320" loading="lazy"></a>{{ end }}
+<div class="card-body">
+<a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+<p class="desc">{{ .Description }}</p>
+<a class="readmore" href="{{ .RelPermalink }}">{{ i18n "readGuide" | safeHTML }}</a>
+</div></li>
+{{ end }}
+</ul>
+{{ end }}

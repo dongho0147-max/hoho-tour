@@ -1,7 +1,7 @@
 {{/* breadcrumbs.html: Home > Region > first Theme. Blog posts only.
    Region name and hub URL come from data/regions.yaml when the region is listed there,
    otherwise from the taxonomy term page. */}}
-{{ if and .IsPage (eq .Section "blog") }}
+{{ if and .IsPage (or (eq .Section "blog") (eq .Section "spots")) }}
 {{ $country := site.Data.regions.country.slug | default "korea" }}
 {{ $crumbs := slice (dict "name" (i18n "home") "url" ("/" | relLangURL)) }}
 {{ with .Params.regions }}
@@ -15,9 +15,11 @@
     {{ with site.GetPage (printf "/regions/%s" $slug) }}{{ $crumbs = $crumbs | append (dict "name" (partial "region-name.html" .) "url" .Permalink) }}{{ end }}
   {{ end }}
 {{ end }}
+{{ if eq .Section "spots" }}{{ with .Parent }}{{ $crumbs = $crumbs | append (dict "name" (cond (eq site.Language.Lang "kr") "명소" "Spots") "url" .Permalink) }}{{ end }}{{ else }}
 {{ with .Params.themes }}
   {{ $t := index . 0 | urlize }}
   {{ with site.GetPage (printf "/themes/%s" $t) }}{{ $tName := .LinkTitle }}{{ if eq site.Language.Lang "kr" }}{{ with index site.Data.themes $t }}{{ $tName = .name_ko }}{{ end }}{{ end }}{{ $crumbs = $crumbs | append (dict "name" $tName "url" .Permalink) }}{{ end }}
+{{ end }}
 {{ end }}
 <nav class="breadcrumbs" aria-label="{{ i18n "breadcrumbNav" }}">
 <ol>

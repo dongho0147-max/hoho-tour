@@ -1,0 +1,91 @@
+{{ define "main" }}
+{{/* spots/single.html (2026-11-28, scratch): guidebook page for one place.
+   Front matter `spot:` { slug, region, name_ko, address, address_ko, lat, lng,
+   elevation_m, phone, fee, hours, getting_there, verified_on, sources[],
+   itineraries[] (blog slugs), nearby[] ("region/slug" of other spots) }.
+   Layout: head (breadcrumbs, region tag, title) -> hero -> facts box -> map ->
+   body -> "Appears in itineraries" cards -> "Nearby" cards -> sources footer.
+   Reuses tour-summary.html for the map by handing it a one-stop page. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $sp := .Params.spot }}
+{{ $label := "" }}
+{{ with .Params.regions }}
+  {{ $slug := index . 0 | urlize }}
+  {{ $r := index (where site.Data.regions.regions "slug" $slug) 0 }}
+  {{ if $r }}{{ $label = cond $isKR $r.name_ko $r.name }}{{ end }}
+{{ end }}
+<article class="post spot">
+<header class="post-head">
+{{ partial "breadcrumbs.html" . }}
+{{ with $label }}<p class="card__label">{{ . }}</p>{{ end }}
+<h1>{{ .Title }}</h1>
+{{ with $sp.verified_on }}<p class="meta">{{ if $isKR }}확인일{{ else }}Checked{{ end }} {{ . }}</p>{{ end }}
+</header>
+{{ with .Params.image }}
+{{ $alt := $.Params.image_alt | default $.Title }}
+{{ $cap := index site.Data.image_captions $.File.BaseFileName | default $.Params.image_caption | default $alt }}
+{{ $credit := $.Params.image_credit | default $.Params.credit }}
+<figure class="hero-figure">
+<img src="{{ . | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager" fetchpriority="high" decoding="async">
+{{ if or $cap $credit }}<figcaption>{{ partial "cap.html" $cap }}{{ with $credit }}<span class="cap-credit">{{ i18n "photoLabel" }} {{ . }}</span>{{ end }}</figcaption>{{ end }}
+</figure>
+{{ end }}
+<div class="post-body">
+{{ with $sp }}
+<section class="spot-facts" aria-label="{{ if $isKR }}한눈에 보기{{ else }}Quick facts{{ end }}">
+<h2>{{ if $isKR }}한눈에 보기{{ else }}Quick facts{{ end }}</h2>
+<dl>
+{{ if $isKR }}
+{{ with .address_ko }}<dt>주소</dt><dd>{{ . }}</dd>{{ end }}
+{{ with .elevation_m }}<dt>해발</dt><dd>약 {{ . }}m</dd>{{ end }}
+{{ with .fee }}<dt>요금</dt><dd>{{ . }}</dd>{{ end }}
+{{ with .hours }}<dt>운영</dt><dd>{{ . }}</dd>{{ end }}
+{{ with .getting_there }}<dt>가는 법</dt><dd>{{ . }}</dd>{{ end }}
+{{ with .phone }}<dt>문의</dt><dd>{{ . }}</dd>{{ end }}
+{{ else }}
+{{ with .address }}<dt>Address</dt><dd>{{ . }}{{ with $sp.address_ko }}<br><span lang="ko">{{ . }}</span>{{ end }}</dd>{{ end }}
+{{ with .elevation_m }}<dt>Elevation</dt><dd>about {{ . }} m</dd>{{ end }}
+{{ with .fee }}<dt>Fee</dt><dd>{{ . }}</dd>{{ end }}
+{{ with .hours }}<dt>Hours</dt><dd>{{ . }}</dd>{{ end }}
+{{ with .getting_there }}<dt>Getting there</dt><dd>{{ . }}</dd>{{ end }}
+{{ with .phone }}<dt>Phone</dt><dd>{{ . }}</dd>{{ end }}
+{{ end }}
+</dl>
+</section>
+{{ $stop := dict "name" (.name | default $.Title) "name_ko" .name_ko "type" "attraction" "lat" .lat "lng" .lng }}
+{{ partial "tour-summary.html" (dict "Params" (dict "stops" (slice $stop)) "File" $.File) }}
+{{ end }}
+
+{{ .Content }}
+
+{{ with $sp.itineraries }}
+<section class="spot-links" aria-label="{{ if $isKR }}이 장소가 들어간 일정{{ else }}Appears in itineraries{{ end }}">
+<h2>{{ if $isKR }}이 장소가 들어간 일정{{ else }}Appears in itineraries{{ end }}</h2>
+<ul class="related__list">
+{{ range . }}{{ with site.GetPage (printf "/blog/%s" .) }}{{ partial "related-card.html" . }}{{ end }}{{ end }}
+</ul>
+</section>
+{{ end }}
+{{ with $sp.nearby }}
+<section class="spot-links" aria-label="{{ if $isKR }}가까운 곳{{ else }}Nearby{{ end }}">
+<h2>{{ if $isKR }}가까운 곳{{ else }}Nearby{{ end }}</h2>
+<ul class="related__list">
+{{ range . }}{{ with site.GetPage (printf "/spots/%s" .) }}{{ partial "related-card.html" . }}{{ end }}{{ end }}
+</ul>
+</section>
+{{ end }}
+{{ with $sp.sources }}
+<p class="spot-sources"><em>{{ if $isKR }}출처{{ else }}Sources{{ end }}:{{ range . }} <a href="{{ . }}" rel="noopener nofollow">{{ . | replaceRE "^https?://(www\\.)?" "" | replaceRE "/$" "" }}</a>{{ end }}</em></p>
+{{ end }}
+{{ $regions := .GetTerms "regions" }}
+{{ $themes := .GetTerms "themes" }}
+{{ if or $regions $themes }}
+<p class="term-chips" aria-label="{{ i18n "filedUnder" }}">
+{{ range $regions }}<a class="chip chip--region" href="{{ .RelPermalink }}">{{ partial "region-name.html" . }}</a>{{ end }}
+{{ range $themes }}{{ $t := index site.Data.themes .Data.Term }}<a class="chip chip--theme" href="{{ .RelPermalink }}">{{ if and $isKR $t }}{{ $t.name_ko }}{{ else }}{{ .LinkTitle }}{{ end }}</a>{{ end }}
+</p>
+{{ end }}
+<div class="disclosure">{{ i18n "affiliateDisclosure" }}</div>
+</div>
+</article>
+{{ end }}

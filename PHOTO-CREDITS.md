@@ -400,3 +400,41 @@ The card-slide and popup sounds are synthesized in the browser with the Web Audi
 | danyang-ssogari-01.jpg | Ssogari-maeun-tang.jpg (cropped 4:3) | hyun chun kim | CC0 | https://commons.wikimedia.org/wiki/File:Ssogari-maeun-tang.jpg |
 | danyang-paragliders-02.jpg | Paragliders in Danyang.jpg (cropped to remove flowers) | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Paragliders_in_Danyang.jpg |
 | danyang-blog-07-tunnel.jpg | Suyanggae Light Tunnel LED garden | Suyanggae Light Tunnel (official site, ledtunnel.co.kr) | non-free-licence | http://ledtunnel.co.kr/ |
+
+### Phase 32 (Danyang 2-3 photos per stop)
+
+| File | Source title | Author | License | URL |
+|---|---|---|---|---|
+| danyang-paragliding-far-01.jpg | paragliding-07 (Seoul Travel Pass product page) | 미상 (서울트래블패스 상품 사진) | non-free-licence | https://www.seoultravelpass.com/index.php/en/products/1599 |
+| danyang-paragliding-close-01.jpg | paragliding-08 (Danyang County site) | 미상 (단양군청 공식 사진) | non-free-licence | https://www.danyang.go.kr/dy21/984 |
+| danyang-dodam-02.jpg | Geology of South Korea - Dodamsambong, Peaks (36046812485).jpg | Seongbin Im | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Geology_of_South_Korea_-_Dodamsambong,_Peaks(%EB%8F%84%EB%8B%B4%EC%82%BC%EB%B4%89)_(36046812485).jpg |
+| danyang-dodam-03.jpg | Danyanggun Travel Day2 06 (31548360473).jpg | Republic of Korea (Korea.net, Flickr) | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Danyanggun_Travel_Day2_06_(31548360473).jpg |
+| danyang-seokmun-03.jpg | Korea-Danyang-Dodamsambong Seokmun 3113-07-07.JPG | Steve46814 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Korea-Danyang-Dodamsambong_Seokmun_3113-07-07.JPG |
+| danyang-market-street-01.jpg | market-10 (hyungoon.com garlic sundae post, 2024-09-29) | 낭만한량 (hyungoon) | non-free-licence | https://hyungoon.com/danyang-korea-traditional-garlic-sundae/ |
+| danyang-market-sundae-01.jpg | market-03 (hyungoon.com garlic sundae post, 2024-09-29) | 낭만한량 (hyungoon) | non-free-licence | https://hyungoon.com/danyang-korea-traditional-garlic-sundae/ |
+| danyang-gosu-02.jpg | 단양 고수동굴 11.jpg | Olga Lipunova | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:%EB%8B%A8%EC%96%91_%EA%B3%A0%EC%88%98%EB%8F%99%EA%B5%B4_11.jpg |
+| danyang-gosu-entrance-01.jpg | gosu-01 (Telltrip) | 확인 불가 (여행을 말하다) | non-free-licence | https://www.telltrip.com/domestic-travel/danyang-gosu-cave-natural-monument/ |
+| danyang-skywalk-01.jpg | skywalk-01 (Telltrip) | 확인 불가 (여행을 말하다) | non-free-licence | https://www.telltrip.com/domestic-travel/danyang-mancheonha-skywalk-guide/ |
+| danyang-skywalk-glass-01.jpg | skywalk-04 (Loyqu) | 확인 불가 (Loyqu) | non-free-licence | https://zh-cn.loyqu.com/korea/danyang/taxi-tour/7fb370d6-589e-11f0-aeef-066b371b96d1 |
+| danyang-skywalk-aerial-01.jpg | skywalk-02 (CC Daily News) | 확인 불가 (CC데일리뉴스) | non-free-licence | https://www.ccdailynews.com/news/articleView.html?idxno=2353542 |
+| danyang-jando-autumn-01.jpg | jando-06 (Telltrip) | 단양군 (경유: 여행을 말하다) | non-free-licence | https://www.telltrip.com/domestic-travel/danyanggang-jando-unesco-geopark-night-view/ |
+| danyang-jando-night-01.jpg | jando-04 (Telltrip) | 단양군 문화관광 인스타그램 (경유: 여행을 말하다) | non-free-licence | https://www.telltrip.com/domestic-travel/danyanggang-jando-unesco-geopark-night-view/ |
+| danyang-tunnel-garden-01.jpg | light-tunnel-02 (Telltrip) | 단양군 (경유: 여행을 말하다) | non-free-licence | https://www.telltrip.com/domestic-travel/suyanggae-light-tunnel-led-garden-nightview/ |
+| danyang-tunnel-rainbow-01.jpg | light-tunnel-04 (Telltrip) | 수양개빛터널 공식 (경유: 여행을 말하다) | non-free-licence | https://www.telltrip.com/domestic-travel/suyanggae-light-tunnel-danyang-night-attraction/ |
+| danyang-tunnel-media-01.jpg | light-tunnel-06 (Telltrip) | 단양 공식 블로그 (경유: 여행을 말하다) | non-free-licence | https://www.telltrip.com/domestic-travel/suyanggae-light-tunnel-led-media-art/ |
+| danyang-ssogari-02.jpg | sogari-04 (sunshineblog.co.kr, 2023-11-06) | 햇살 블로그 | non-free-licence | https://sunshineblog.co.kr/ |
+| danyang-ssogari-03.jpg | sogari-05 (sunshineblog.co.kr, 2023-11-06) | 햇살 블로그 | non-free-licence | https://sunshineblog.co.kr/ |
+| danyang-sundae-crop.jpg | crop of danyang-market-sundae-01 (close-up) | 낭만한량 (hyungoon) | non-free-licence | https://hyungoon.com/danyang-korea-traditional-garlic-sundae/ |
+| danyang-garlicbread-crop.jpg | crop of danyang-v10-05 (close-up) | Woo Changmin / Korea Tourism Content Lab | KOGL Type 1 | see danyang-v10-05 |
+| danyang-garlic-crop.jpg | crop of danyang-garlic-01 | Douglas Perkins | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Garlic_in_Danyang_01.jpg |
+| danyang-ssogari-crop1.jpg | crop of danyang-ssogari-01 | hyun chun kim | CC0 | https://commons.wikimedia.org/wiki/File:Ssogari-maeun-tang.jpg |
+| danyang-ssogari-crop2.jpg | crop of danyang-ssogari-02 | 햇살 블로그 | non-free-licence | https://sunshineblog.co.kr/ |
+| danyang-ssogari-crop3.jpg | crop of danyang-ssogari-03 | 햇살 블로그 | non-free-licence | https://sunshineblog.co.kr/ |
+| danyang-sono-01.jpg | Sono Belle Danyang exterior 4060920 (VisitKorea) | Korea Tourism Organization | licence not stated on page (VisitKorea) | https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99334 |
+| danyang-sono-02.jpg | Sono Belle Danyang aerial 4060921 (VisitKorea) | Korea Tourism Organization | licence not stated on page (VisitKorea) | https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99334 |
+| danyang-sono-03.jpg | Sono Belle Danyang sunset 4060922 (VisitKorea) | Korea Tourism Organization | licence not stated on page (VisitKorea) | https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99334 |
+| danyang-sono-04.jpg | Sono Belle Danyang lobby 4060924 (VisitKorea) | Korea Tourism Organization | licence not stated on page (VisitKorea) | https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99334 |
+| danyang-bobaljae-01.jpg | Bobaljae Pass 3470669 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms2/website/69/3470669.jpg |
+| danyang-bobaljae-02.jpg | Bobaljae viewing deck 4062630 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms2/website/30/4062630.jpg |
+| danyang-bobaljae-03.jpg | Bobaljae aerial 3470671 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms2/website/71/3470671.jpg |
+| danyang-bobaljae-winter-01.jpg | Bobaljae in snow 3009293 | Korea Tourism Organization | KOGL Type 1 (as listed by trip.kbizin.com) | https://tong.visitkorea.or.kr/cms/resource/93/3009293_image2_1.jpg |

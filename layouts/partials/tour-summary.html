@@ -108,7 +108,7 @@
 <button type="button" class="tour-map__enable" data-tour-map-enable hidden>{{ i18n "tapToExplore" }}</button>
 <p class="tour-summary__caption">{{ i18n "mapCaption" }}</p>
 <ol class="tour-summary__stops">
-{{ range $stops }}{{ $t := .type | default "attraction" }}<li class="stop stop--{{ $t }}"{{ with .badge }} data-badge="{{ . }}"{{ end }}><strong>{{ if and $isKr (.name_ko) }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
+{{ range $stops }}{{ $t := .type | default "attraction" }}<li class="stop stop--{{ $t }}"{{ with .badge }} data-badge="{{ . }}"{{ end }}><strong>{{ $nm := .name }}{{ if and $isKr (.name_ko) }}{{ $nm = .name_ko }}{{ end }}{{ with .spot }}{{ with site.GetPage (printf "/spots/%s" .) }}<a href="{{ .RelPermalink }}">{{ $nm }}</a>{{ else }}{{ $nm }}{{ end }}{{ else }}{{ $nm }}{{ end }}</strong>{{ with .note }} - {{ . }}{{ end }}</li>{{ end }}
 </ol>
 {{ $mapNote := $.Params.map_note }}
 {{ if $isKr }}{{ with index site.Data.kr_stops $slug }}{{ with .map_note_ko }}{{ $mapNote = . }}{{ end }}{{ end }}{{ end }}
