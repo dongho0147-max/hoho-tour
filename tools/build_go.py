@@ -36,33 +36,43 @@ T = {
 }
 
 CSS = """
-:root{--bg:#FFF9EC;--card:#fff;--text:#1D2733;--sub:#5A6B7C;--border:#EAE3D8;--coral:#F0563A;--coral-d:#D94326;--coral-soft:#FDEEE9;--sky:#2E9BD6}
+:root{--page:#fff;--cream-2:#F4F0E9;--ink:#1C2621;--ink-2:#4A5650;--ink-3:#646E68;--line:#E8E4DD;--green:#1F5B45;--green-ink:#174635;--coral-ink:#C2412A;--mk:#FFF1A8;
+--sans:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,system-ui,"Apple SD Gothic Neo","Noto Sans KR","Segoe UI",Roboto,sans-serif;
+--serif:"Fraunces",Georgia,"Pretendard Variable",Pretendard,serif;--script:"Kaushan Script","Segoe Script","Brush Script MT","Snell Roundhand",cursive}
 [hidden]{display:none!important}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 "Inter","Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;word-break:keep-all;overflow-wrap:break-word}
-.wrap{max-width:480px;margin:0 auto;padding:28px 18px 40px}
-.top{display:flex;justify-content:flex-end;margin-bottom:6px}
-.lang{font-size:13px;font-weight:700;color:var(--text);text-decoration:none;border:1px solid var(--border);background:#fff;padding:6px 12px;border-radius:999px}
-.hero{text-align:center;margin:6px 0 22px}
-.hero img{width:76px;height:76px;margin:0 auto 10px}
-.hero h1{margin:0;font-size:24px;font-weight:800;letter-spacing:-.02em}.hero h1 em{font-style:normal;color:var(--coral)}
-.hero p{margin:6px 0 0;color:var(--sub);font-size:14.5px}
-.label{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--coral);margin:22px 4px 10px}
-a.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 1px 3px rgba(29,39,51,.07);transition:transform .18s,box-shadow .18s}
-a.card:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(29,39,51,.1)}
-.feat img{width:100%;aspect-ratio:16/10;object-fit:cover}
-.feat .b{padding:14px 16px 16px}
-.feat .t{font-weight:800;font-size:18px;line-height:1.3;letter-spacing:-.01em}
-.feat .d{color:var(--sub);font-size:14px;margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.btn{display:inline-block;margin-top:12px;background:var(--coral);color:#fff;font-weight:800;font-size:14px;padding:9px 16px;border-radius:999px}
-a.card.row{display:flex;gap:12px;align-items:center;padding:10px;margin-bottom:10px}
-.row img{width:84px;height:68px;object-fit:cover;border-radius:12px;flex:none}
-.row .t{font-weight:700;font-size:15px;line-height:1.35}
-.row .r{font-size:12px;color:var(--coral);font-weight:800;margin-bottom:2px}
-.foot{text-align:center;margin-top:26px}
-.foot a.site{display:inline-block;color:var(--text);font-weight:700;font-size:14px;border:1px solid var(--border);background:#fff;border-radius:999px;padding:10px 18px;text-decoration:none}
-.foot small{display:block;margin-top:14px;color:#8A97A5;font-size:12px}
-.hl{outline:2px solid var(--coral);outline-offset:-2px}
+body{margin:0;background:var(--page);color:var(--ink);font:16px/1.6 var(--sans);word-break:keep-all;overflow-wrap:break-word}
+.wrap{max-width:480px;margin:0 auto;padding:14px 20px 48px}
+.top{display:flex;justify-content:flex-end}
+.lang{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);text-decoration:none;padding:10px 0;min-height:44px;display:inline-flex;align-items:center}
+html:lang(ko) .lang{letter-spacing:.04em;font-size:13px}
+.lang:hover{color:var(--green)}
+.hero{text-align:center;margin:2px 0 30px}
+.word{font-family:var(--script);font-weight:400;font-size:56px;line-height:1.05;letter-spacing:.01em;margin:0;color:var(--ink)}
+.word em{font-style:normal;color:var(--green)}
+.hero p{margin:12px 0 0;font:500 11px/1.6 var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--ink-3)}
+html:lang(ko) .hero p{letter-spacing:.08em;font-size:12.5px}
+.label{font:600 11px/1.4 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--coral-ink);margin:34px 0 14px;padding-top:14px;border-top:1px solid var(--line)}
+html:lang(ko) .label{letter-spacing:.06em;font-size:12.5px}
+.label .mk{background:var(--mk);border-radius:3px;padding:2px 6px;color:var(--coral-ink)}
+a.card{display:block;text-decoration:none;color:inherit}
+.feat img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;background:var(--cream-2)}
+.feat .b{padding:16px 0 0}
+.feat .t{font-family:var(--serif);font-weight:600;font-size:24px;line-height:1.28;letter-spacing:-.01em}
+html:lang(ko) .feat .t{font-family:var(--sans);font-weight:700;font-size:21px;line-height:1.4}
+.feat:hover .t,.row:hover .t{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+.feat .d{color:var(--ink-2);font-size:15px;margin-top:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.btn{display:inline-block;margin-top:12px;color:var(--green);font-weight:600;font-size:14px;border-bottom:1px solid currentColor;padding-bottom:1px}
+a.card.row{display:flex;gap:14px;align-items:center;padding:0 0 18px;margin-bottom:18px;border-bottom:1px solid var(--line)}
+.row img{width:104px;height:70px;object-fit:cover;flex:none;background:var(--cream-2)}
+.row .t{font-family:var(--serif);font-weight:600;font-size:16.5px;line-height:1.35}
+html:lang(ko) .row .t{font-family:var(--sans);font-weight:700;font-size:15.5px}
+.row .r{font:600 10.5px/1.4 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--coral-ink);margin-bottom:4px}
+html:lang(ko) .row .r{letter-spacing:.04em;font-size:12px}
+.foot{text-align:center;margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
+.foot a.site{color:var(--green);font-weight:600;font-size:14px;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:1px}
+.foot small{display:block;margin-top:16px;color:var(--ink-3);font-size:12px;letter-spacing:.1em}
+:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 """
 
 JS = """
@@ -99,12 +109,13 @@ def build(lang):
     o.append(f'<!DOCTYPE html><html lang="{t["lang"]}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">')
     o.append(f'<title>{html.escape(t["title"])}</title><meta name="robots" content="noindex"><meta name="description" content="{html.escape(t["tag"])}">')
     o.append('<link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="apple-touch-icon" href="/apple-touch-icon.png">')
-    o.append('<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans+KR:wght@400;700;800&display=swap" rel="stylesheet">')
+    o.append('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap&text=HOHOTour">')
+    if lang == "en": o.append('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap">')
     o.append(f'<style>{CSS}</style></head><body><div class="wrap">')
     o.append(f'<div class="top"><a class="lang" href="{t["otherurl"]}" hreflang="{"ko" if lang=="en" else "en"}">{t["other"]}</a></div>')
-    o.append(f'<div class="hero"><img src="/images/hoho-tour-logo-final.svg" alt="HOHO Tour logo" width="76" height="76"><h1>HOHO <em>Tour</em></h1><p>{html.escape(t["tag"])}</p></div>')
+    o.append(f'<div class="hero"><h1 class="word">HOHO <em>Tour</em></h1><p>{html.escape(t["tag"])}</p></div>')
     o.append('<div id="fromvid-l" class="label" hidden>%s</div><div id="fromvid" hidden></div>' % t["fromvid"])
-    o.append(f'<div class="label">{t["latest"]}</div>')
+    o.append(f'<div class="label"><span class="mk">{t["latest"]}</span></div>')
     o.append(f'<a class="card feat" data-guide data-region="{f["dest"]}" href="{href(f)}"><img src="{img(f)}" alt="" width="480" height="300"><div class="b"><div class="t">{html.escape(g_title(f))}</div><div class="d">{html.escape(g_desc(f))}</div><span class="btn">{t["read"]} &rarr;</span></div></a>')
     o.append(f'<div class="label">{t["all"]}</div>')
     for g in L[1:]:
