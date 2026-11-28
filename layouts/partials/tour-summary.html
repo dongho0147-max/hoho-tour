@@ -204,7 +204,7 @@
       return out;
     }
     var curves = [];
-    for (var ci = 0; ci + 1 < routeLLs.length; ci++) { curves.push(curvePts(routeLLs[ci], routeLLs[ci + 1], 18)); L.polyline(curves[ci], { color: "#D94326", weight: 3, opacity: 0.9 }).addTo(map); }
+    for (var ci = 0; ci + 1 < routeLLs.length; ci++) { curves.push(curvePts(routeLLs[ci], routeLLs[ci + 1], 18)); L.polyline(curves[ci], { color: "#6B7280", weight: 1.5, opacity: 0.85, dashArray: "5 5" }).addTo(map); }
     /* Visit-order straight line with direction arrows (2026-11-28, Dongho: no
        road-following legs, they made the map look busier). One arrow per
        segment at its midpoint, re-aimed on every zoom; skipped when the
@@ -221,8 +221,8 @@
         var q1 = map.latLngToContainerPoint(c[h - 1]), q2 = map.latLngToContainerPoint(c[h + 1]);
         var ang = Math.atan2(q2.y - q1.y, q2.x - q1.x) * 180 / Math.PI;
         L.marker(c[h], { interactive: false, keyboard: false, zIndexOffset: -500, icon: L.divIcon({
-          className: "tour-arrow", iconSize: [18, 18], iconAnchor: [9, 9],
-          html: '<svg viewBox="0 0 18 18" width="18" height="18" style="transform:rotate(' + ang.toFixed(1) + 'deg)" aria-hidden="true"><path d="M3 3l13 6-13 6 3-6z" fill="#D94326" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg>'
+          className: "tour-arrow", iconSize: [11, 11], iconAnchor: [5.5, 5.5],
+          html: '<svg viewBox="0 0 18 18" width="11" height="11" style="transform:rotate(' + ang.toFixed(1) + 'deg)" aria-hidden="true"><path d="M3 3l13 6-13 6 3-6z" fill="#6B7280" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></svg>'
         }) }).addTo(arrowLayer);
       }
     }
@@ -394,7 +394,7 @@
         pane: "tourTitlePane",
         interactive: false,
         icon: L.divIcon({ className: "tour-title",
-          html: '<span class="tour-marker__label">' + esc(labelName(s)) + '</span>' })
+          html: '<span class="tour-marker__label tour-lab--' + (s.type === "market" || s.type === "lodging" ? s.type : "attraction") + '">' + esc(labelName(s)) + '</span>' })
       }).addTo(map);
       titleRecs.push({ marker: tm, stopIdx: si, badgeRec: br, full: labelName(s), short: shortName(s), wFull: 0, wShort: 0, h: 0, usedShort: false, usedGap: 4 });
     });
@@ -653,7 +653,7 @@
         tr.usedShort = pick.name.isShort;
         tr.usedGap = pick.gap;
         tr.marker.setIcon(L.divIcon({ className: "tour-title",
-          html: '<span class="tour-marker__label">' + esc(pick.name.text) + '</span>',
+          html: '<span class="tour-marker__label tour-lab--' + (stops[tr.stopIdx].type === "market" || stops[tr.stopIdx].type === "lodging" ? stops[tr.stopIdx].type : "attraction") + '">' + esc(pick.name.text) + '</span>',
           iconAnchor: pick.anchor }));
         placed.push(pick.box);
         if (pick.leader) {

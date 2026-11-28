@@ -1048,3 +1048,8 @@ body:has(.home-map--first)::before{background:linear-gradient(rgba(252,249,243,.
   .foot-links{flex-direction:row}
   .foot-links a{min-height:44px}
 }
+
+/* Route map labels take their marker colour (Dongho 2026-11-28): sightseeing coral, market/food orange, stay purple */
+.tour-title .tour-lab--attraction{color:var(--coral-ink);border-color:var(--coral-ink)}
+.tour-title .tour-lab--market{color:#B26A00;border-color:#E8920C}
+.tour-title .tour-lab--lodging{color:#5A48B8;border-color:#6D5BD0}
