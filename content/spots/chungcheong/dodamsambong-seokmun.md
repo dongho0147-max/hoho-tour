@@ -17,7 +17,7 @@ spot:
   hours: "Cruise runs a shortened route in November and December. Check the fare and timetable at danyangcruise.co.kr."
   verified_on: "2026-11-28"
   sources:
-    - "https://www.danyangcruise.co.kr/"
+    - "http://www.danyangcruise.co.kr/htm/intr01.htm"
   itineraries:
     - "danyang-2-night-3-day-guide"
   nearby:

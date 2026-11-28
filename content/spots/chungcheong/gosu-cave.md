@@ -13,12 +13,15 @@ spot:
   name: "Gosu Cave"
   name_ko: "고수동굴"
   fee: "Adults 11,000 KRW at the door (list price). Online 9,900 KRW (Gosu Cave website)."
+  address: "8 Gosudonggul-gil, Danyang-eup, Danyang-gun, Chungcheongbuk-do"
+  address_ko: "충북 단양군 단양읍 고수동굴길 8"
+  phone: "043-422-3072"
   hours: "Every day of the year. Entry 09:00 to 17:00 (last entry 17:00)."
   verified_on: "2026-11-28"
   lat: 36.9887326
   lng: 128.3816317
   sources:
-    - "https://www.gosucave.co.kr/"
+    - "http://www.gosucave.co.kr/sub/sub02_01.php"
   itineraries:
     - "danyang-2-night-3-day-guide"
   nearby:

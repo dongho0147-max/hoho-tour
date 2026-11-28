@@ -17,7 +17,7 @@ spot:
   hours: "유람선은 11~12월에 단축 노선으로 운항해요. 요금과 시간표는 danyangcruise.co.kr에서 확인하세요."
   verified_on: "2026-11-28"
   sources:
-    - "https://www.danyangcruise.co.kr/"
+    - "http://www.danyangcruise.co.kr/htm/intr01.htm"
   itineraries:
     - "danyang-2-night-3-day-guide"
   nearby:

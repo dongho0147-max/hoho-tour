@@ -145,7 +145,7 @@ For the water-level view, there is a Dodamsambong cruise. In November and Decemb
 
 ### Danyang River Jando at night
 
-Jando is the cliffside wooden walkway along the river, about 1.1 km and free (per Danyang County). Lights are said to stay on until 23:00 after sunset, but hours seem to vary by season, so check the county site first. It is a flat 1-hour walk and the calmest part of the trip.
+Jando is the cliffside wooden walkway along the river, about 1.2 km and free. The Danyang geopark page lists hours of 09:00 to 23:00. Hours can change by season, so check the county site first. It is a flat 1-hour walk and the calmest part of the trip.
 
 {{< figure src="images/photos/danyang-v10-06.jpg" alt="Danyang River Jando walkway along the river cliff" caption="The Danyang River cliffs, with a bridge in the distance. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1" >}}
 
@@ -165,7 +165,7 @@ Jando is the cliffside wooden walkway along the river, about 1.1 km and free (pe
 
 ### Mancheonha Skywalk (early afternoon)
 
-The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay {{< hl "4,000 KRW" >}}, and youth, children, and seniors pay {{< pr "3,000 KRW" >}} (official site). In winter it runs 09:00 to 17:00, and on-site ticket sales close between 16:00 and 16:30, so arrive before 3 pm. You reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline ({{< pr "30,000 KRW" >}}) and alpine coaster ({{< pr "18,000 KRW" >}}) cost extra.
+The skywalk is a viewing platform with a walkway reaching out about 80 m above the Namhan River (per Danyang County). Adults pay {{< hl "4,000 KRW" >}}, and youth, children, and seniors pay {{< pr "3,000 KRW" >}} (official site). In winter it runs 09:00 to 17:00, and on-site ticket sales end at 16:30 per the county page (some sites say 16:00), so arrive before 3 pm. You reach the platform by shuttle bus only. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ). The zipline ({{< pr "30,000 KRW" >}}) and alpine coaster ({{< pr "18,000 KRW" >}}) cost extra.
 
 {{< figure src="images/photos/danyang-skywalk-aerial-01.jpg" alt="Mancheonha Skywalk above the Namhan River and town" caption="Mancheonha Skywalk above the Namhan River and the town. Photo: CC Daily News" >}}
 

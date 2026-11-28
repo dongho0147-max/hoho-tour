@@ -13,12 +13,14 @@ spot:
   name: "Suyanggae Light Tunnel"
   name_ko: "수양개빛터널"
   fee: "Adults 9,000 KRW."
+  address: "390 Suyanggaeyujeok-ro, Jeokseong-myeon, Danyang-gun, Chungcheongbuk-do"
+  address_ko: "충북 단양군 적성면 수양개유적로 390"
   hours: "Winter (November to March): 14:00 to 21:50, last ticket 21:00. Closed Tuesdays."
   verified_on: "2026-11-28"
   lat: 36.9602399
   lng: 128.3323156
   sources:
-    - "https://www.ledtunnel.co.kr/"
+    - "http://ledtunnel.co.kr/"
   itineraries:
     - "danyang-2-night-3-day-guide"
   nearby:

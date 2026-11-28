@@ -13,12 +13,14 @@ spot:
   name: "고수동굴"
   name_ko: "고수동굴"
   fee: "성인 현장 11,000원(정가). 온라인 9,900원(고수동굴 홈페이지)."
+  address_ko: "충북 단양군 단양읍 고수동굴길 8"
+  phone: "043-422-3072"
   hours: "연중무휴. 입장 09:00~17:00(마지막 입장 17:00)."
   verified_on: "2026-11-28"
   lat: 36.9887326
   lng: 128.3816317
   sources:
-    - "https://www.gosucave.co.kr/"
+    - "http://www.gosucave.co.kr/sub/sub02_01.php"
   itineraries:
     - "danyang-2-night-3-day-guide"
   nearby:

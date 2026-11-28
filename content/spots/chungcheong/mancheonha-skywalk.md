@@ -13,14 +13,17 @@ spot:
   name: "Mancheonha Skywalk"
   name_ko: "만천하스카이워크"
   fee: "Adults 4,000 KRW. Youth, children and seniors 3,000 KRW (official site). Zipline 30,000 KRW and alpine coaster 18,000 KRW cost extra."
-  hours: "Winter: 09:00 to 17:00. On-site ticket sales close between 16:00 and 16:30. Closed every Tuesday unless it is a public holiday."
+  address: "10 Otbawi-gil, Jeokseong-myeon, Danyang-gun, Chungcheongbuk-do"
+  address_ko: "충북 단양군 적성면 옷바위길 10"
+  phone: "043-421-0014"
+  hours: "Winter: 09:00 to 17:00. On-site ticket sales end at 16:30 (county page; some sites say 16:00). Closed every Tuesday unless it is a public holiday."
   getting_there: "Shuttle bus only to the platform."
   verified_on: "2026-11-28"
   lat: 36.9804476
   lng: 128.3397335
   sources:
     - "https://www.danyang.go.kr/tour/1926"
-    - "https://www.dytc.or.kr/mancheonha"
+    - "https://www.dytc.or.kr/mancheonha/99"
   itineraries:
     - "danyang-2-night-3-day-guide"
   nearby:
@@ -32,7 +35,7 @@ The **Mancheonha Skywalk** is a viewing platform with a walkway reaching out abo
 
 ## Tickets and hours
 
-Adults pay {{< hl "4,000 KRW" >}}. Youth, children and seniors pay {{< pr "3,000 KRW" >}} (official site). In winter it runs 09:00 to 17:00, and on-site ticket sales close between 16:00 and 16:30, so arrive before 3 pm. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ).
+Adults pay {{< hl "4,000 KRW" >}}. Youth, children and seniors pay {{< pr "3,000 KRW" >}} (official site). In winter it runs 09:00 to 17:00, and on-site ticket sales end at 16:30 per the county page (some sites say 16:00), so arrive before 3 pm. It is closed every Tuesday unless the Tuesday is a public holiday (official FAQ).
 
 ## Getting up
 

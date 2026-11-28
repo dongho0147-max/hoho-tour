@@ -13,12 +13,13 @@ spot:
   name: "수양개빛터널"
   name_ko: "수양개빛터널"
   fee: "성인 9,000원."
+  address_ko: "충북 단양군 적성면 수양개유적로 390"
   hours: "겨울(11월~3월): 14:00~21:50, 마지막 티켓 21:00. 화요일 휴무."
   verified_on: "2026-11-28"
   lat: 36.9602399
   lng: 128.3323156
   sources:
-    - "https://www.ledtunnel.co.kr/"
+    - "http://ledtunnel.co.kr/"
   itineraries:
     - "danyang-2-night-3-day-guide"
   nearby:

@@ -1,6 +1,6 @@
 ---
 title: "Danyang River Jando: The Cliffside Walkway at Night"
-description: "Danyang River Jando is a free cliffside wooden walkway of about 1.1 km along the Namhan River. Length, time needed, night lights and hours to check."
+description: "Danyang River Jando is a free cliffside wooden walkway of about 1.2 km along the Namhan River. Length, time needed, night lights and hours to check."
 date: 2026-11-28
 draft: true
 image: "images/photos/danyang-v10-06.jpg"
@@ -14,8 +14,10 @@ spot:
   name_ko: "단양강 잔도"
   lat: 36.9780499
   lng: 128.3398232
-  fee: "Free (per Danyang County)."
-  hours: "Lights are said to stay on until 23:00 after sunset. Hours seem to vary by season, so check the county site."
+  fee: "Free (Danyang geopark page)."
+  address: "Aegok-ri, Jeokseong-myeon, Danyang-gun, Chungcheongbuk-do"
+  address_ko: "단양군 적성면 애곡리 산18-15"
+  hours: "09:00 to 23:00 (Danyang geopark page). Can change by season, so check the county site."
   verified_on: "2026-11-28"
   sources:
     - "https://www.danyang.go.kr/geopark/1790"
@@ -26,11 +28,11 @@ spot:
     - "chungcheong/mancheonha-skywalk"
 ---
 
-**Jando** is the cliffside wooden walkway along the river, about 1.1 km and free (per Danyang County).
+**Jando** is the cliffside wooden walkway along the river, about 1.2 km and free (Danyang geopark page).
 
 ## Night walk
 
-Lights are said to stay on until 23:00 after sunset, but hours seem to vary by season, so check the county site first.
+The Danyang geopark page lists hours of 09:00 to 23:00. Hours can change by season, so check the county site first.
 
 ## Time needed
 
