@@ -38,6 +38,12 @@ params:
   # Cloudflare Web Analytics token (from Cloudflare dashboard > Web Analytics).
   # Paste the token here to enable the beacon; leave empty to keep it off.
   cfAnalyticsToken: ""
+  # Affiliate tracking (2026-11-28). Klook aid is confirmed (145455).
+  # Agoda cid must be confirmed from the Agoda partner dashboard before it takes effect.
+  # Leave agodaCid empty until confirmed; the shortcode only attaches it when set.
+  affiliate:
+    klookAid: "145455"
+    agodaCid: ""
 
 markup:
   goldmark:

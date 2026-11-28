@@ -17,7 +17,20 @@
 {{ $featuredLabel := i18n "featuredLabel" | default (cond $isKR "새로 올라온 가이드" "Newest guides") }}
 {{ $aboutCta := i18n "aboutBandCta" | default (cond $isKR "HOHO Tour 소개" "About HOHO Tour") }}
 
-<h1 class="sr-only">{{ .Site.Title }} - {{ i18n "heroTitle" | plainify }}</h1>
+{{/* Visible hero band (2026-11-28): the H1 was sr-only so the first screen
+   showed only photos. Render the i18n hero copy as a visible headline +
+   lede + CTAs above the feature pair. */}}
+<section class="hero-band">
+<div class="wrap">
+<p class="eyebrow">{{ i18n "heroEyebrow" | safeHTML }}</p>
+<h1 class="hero-title">{{ i18n "heroTitle" | safeHTML }}</h1>
+<p class="hero-lede">{{ i18n "heroLede" }}</p>
+<div class="cta-row">
+<a class="btn btn-primary" href="{{ "/regions/" | relLangURL }}">{{ i18n "heroCtaPrimary" }}</a>
+<a class="btn btn-secondary" href="{{ "/blog/" | relLangURL }}">{{ i18n "heroCtaSecondary" }}</a>
+</div>
+</div>
+</section>
 
 {{/* Phone/tablet quick nav (2026-11-28): the desktop menu is hidden behind the
    hamburger under 1080px, so the home page shows the same targets as a visible
