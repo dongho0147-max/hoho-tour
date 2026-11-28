@@ -2,9 +2,9 @@
 title: "Busan in 2 Days: Haeundae, Gwangalli, and Gamcheon"
 description: "A 2-day Busan route: Haeundae Beach and the Sky Capsule on day 1, Gwangalli Bridge at night, then Gamcheon Culture Village, Jagalchi Market, and BIFF Square on day 2, with fares and food stops."
 date: 2026-11-19
-image: "images/photos/busan-01.webp"
-image_alt: "Haeundae Beach with the promenade and seafront towers"
-image_caption: "Walk Haeundae in the morning, when it is quiet. Photo: Mobius6, CC BY-SA 4.0"
+image: "images/photos/busan-gamcheon-blue-01.webp"
+image_alt: "Colorful hillside houses of Gamcheon Culture Village under a clear blue sky"
+image_caption: "Arrive between 09:00 and 10:00 on a weekday, before the tour buses. Photo: Ahmed, CC BY-SA 4.0"
 regions: ["busan"]
 themes: ["itineraries", "food-restaurants", "nightlife"]
 stops:

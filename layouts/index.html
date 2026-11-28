@@ -19,6 +19,12 @@
 
 <h1 class="sr-only">{{ .Site.Title }} - {{ i18n "heroTitle" | plainify }}</h1>
 
+<section class="destinations" aria-label="{{ i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}">
+{{ partial "home-map.html" . }}
+<p class="destinations__more"><a class="btn btn-secondary" href="{{ "/map/" | relLangURL }}">{{ i18n "mapPageCta" | default (cond $isKR "모든 장소 지도로 보기" "See every place on the map") }}</a></p>
+</section>
+
+
 {{/* Phone/tablet quick nav (2026-11-28): the desktop menu is hidden behind the
    hamburger under 1080px, so the home page shows the same targets as a visible
    block: one swipeable category row; Regions opens the region chips below it. Hidden on desktop. */}}
@@ -60,11 +66,6 @@
 <p class="section-more"><a class="btn btn-secondary" href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a></p>
 </section>
 
-<section class="destinations" aria-label="{{ i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}">
-{{ partial "home-map.html" . }}
-<p class="destinations__more"><a class="btn btn-secondary" href="{{ "/map/" | relLangURL }}">{{ i18n "mapPageCta" | default (cond $isKR "모든 장소 지도로 보기" "See every place on the map") }}</a></p>
-</section>
-
 <section class="about-band" aria-labelledby="about-band-title">
 <div class="about-band__inner">
 <p class="eyebrow">{{ i18n "heroEyebrow" | safeHTML }}</p>
@@ -92,33 +93,79 @@
 <aside class="ad-slot ad-slot--preview" aria-hidden="true"><p class="ad-slot__label">Advertisements</p><div class="ad-slot__box">Ad slot preview (home) - set params.adsense.slot_home</div></aside>
 {{ end }}
 {{ end }}
-
-{{ partial "filter-script.html" . }}
-{{/* The destinations map filters the guide list ABOVE it: after a region is
-   picked, bring the list heading into view (no scroll if already visible). */}}
 <script>
-(function () {
-  try {
-    var map = document.querySelector(".home-map");
-    var target = document.getElementById("latest-guides-heading");
-    if (!map || !target) return;
-    var reduce = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
-    var go = function () {
-      window.setTimeout(function () {
-        var top = target.getBoundingClientRect().top;
-        if (top < 0 || top > window.innerHeight * 0.6) {
-          target.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
-        }
-      }, 80);
-    };
-    map.addEventListener("click", function (e) {
-      if (e.target.closest && e.target.closest("[data-filter-value]")) go();
-    });
-    map.addEventListener("keydown", function (e) {
-      if ((e.key === "Enter" || e.key === " ") && e.target.closest && e.target.closest("[data-filter-value]")) go();
-    });
-
-  } catch (err) { /* filtering still works without the scroll */ }
+(function(){
+var root=document.querySelector("[data-region-nav]");if(!root)return;
+var stage=root.querySelector("[data-shelf-stage]");if(!stage)return;
+var ring=stage.querySelector(".shelf__ring"),books=[].slice.call(ring.children),N=books.length;
+var shapes=[].slice.call(root.querySelectorAll(".korea-map [data-region]"));
+var reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+var MAXB=(window.matchMedia&&matchMedia("(max-width: 720px)").matches)?2:3.5;var pos=0,vel=0,target=null,dragging=false,raf=0,moved=0,front=-1,R=400,TH=360/N;
+function slugOf(i){return books[i].getAttribute("data-region");}
+function mod(a,n){return((a%n)+n)%n;}
+function layout(){var w=books[0].offsetWidth||170;R=Math.max(w*0.62,(w/2)/Math.tan(Math.PI/N)*1.12);render();}
+function render(){
+  for(var i=0;i<N;i++){
+    var d=i-pos;d=d-N*Math.round(d/N);           // signed distance in books, wraps around the cylinder
+    var a=d*TH,ad=Math.abs(d),pop=Math.max(0,1-ad)*130,sc=1+Math.max(0,1-ad)*0.07;
+    var b=books[i];
+    b.style.transform="translateZ("+(-R)+"px) rotateY("+a+"deg) translateZ("+(R+pop)+"px) scale("+sc.toFixed(3)+")";
+    b.style.opacity=ad>2.6?Math.max(0,1-(ad-2.6)):1;
+    b.style.zIndex=String(100-Math.round(ad*10));
+    var bl=Math.min(MAXB,Math.round(Math.min(ad,3)*MAXB/3*2)/2),br=1-Math.min(.45,ad*.16);b.style.filter=ad<0.35?"":(bl?"blur("+bl+"px) ":"")+"brightness("+br.toFixed(2)+")";
+  }
+  var f=mod(Math.round(pos),N);
+  if(f!==front){front=f;books.forEach(function(b,k){b.classList.toggle("is-front",k===f);b.tabIndex=-1;});sync(slugOf(f));}
+}
+function sync(slug){
+  shapes.forEach(function(s){s.classList.toggle("is-selected",s.getAttribute("data-region")===slug);});
+  [].slice.call(root.querySelectorAll(".sdetail")).forEach(function(d){d.hidden=d.getAttribute("data-for")!==slug;});
+}
+function loop(){
+  raf=0;var busy=false;
+  if(!dragging){
+    if(target!==null){var diff=target-pos;pos+=diff*0.14;if(Math.abs(diff)<0.002){pos=target;target=null;}else busy=true;}
+    else if(Math.abs(vel)>0.0015){pos+=vel;vel*=0.92;busy=true;}
+    else if(Math.abs(pos-Math.round(pos))>0.002){target=Math.round(pos);busy=true;}
+  }else busy=true;
+  render();if(busy)raf=requestAnimationFrame(loop);
+}
+function kick(){if(!raf)raf=requestAnimationFrame(loop);}
+function goTo(i){ // shortest way round the cylinder
+  var cur=Math.round(pos),d=mod(i-cur,N);if(d>N/2)d-=N;target=cur+d;vel=0;
+  if(reduce){pos=target;target=null;render();}else kick();
+}
+function goSlug(s){for(var i=0;i<N;i++){if(slugOf(i)===s){goTo(i);return;}}}
+/* drag / swipe with inertia (pointer velocity -> spin speed) */
+var sx=0,sp=0,lastX=0,lastT=0,pid=null;
+stage.addEventListener("pointerdown",function(e){if(e.button>0)return;dragging=true;moved=0;sx=e.clientX;sp=pos;lastX=e.clientX;lastT=performance.now();vel=0;target=null;pid=e.pointerId;stage.classList.add("is-drag");kick();});
+window.addEventListener("pointermove",function(e){if(!dragging||e.pointerId!==pid)return;
+  var per=Math.max(90,books[0].offsetWidth*0.6);var now=performance.now(),dx=e.clientX-lastX,dt=Math.max(8,now-lastT);
+  moved=Math.max(moved,Math.abs(e.clientX-sx));pos=sp-(e.clientX-sx)/per;vel=vel*0.6+(-dx/per)*(16/dt)*0.4;lastX=e.clientX;lastT=now;});
+function up(e){if(!dragging||(e&&e.pointerId!==pid))return;dragging=false;stage.classList.remove("is-drag");
+  if(reduce){vel=0;target=Math.round(pos);pos=target;target=null;render();return;}
+  if(Math.abs(vel)>0.01)vel=Math.max(-0.1,Math.min(0.1,vel));else vel=0;kick();}
+window.addEventListener("pointerup",up);window.addEventListener("pointercancel",up);
+/* trackpad / mouse wheel: horizontal gestures spin the shelf, vertical ones still scroll the page */
+stage.addEventListener("wheel",function(e){var ax=Math.abs(e.deltaX),ay=Math.abs(e.deltaY);if(ax<=ay&&!e.shiftKey)return;e.preventDefault();
+  var d=(ax>ay?e.deltaX:e.deltaY)/260;target=null;vel=Math.max(-0.1,Math.min(0.1,vel+d*0.3));pos+=d*0.5;if(reduce){target=Math.round(pos);pos=target;target=null;render();return;}kick();},{passive:false});
+/* clicks: the front book opens its latest guide, any other book spins to the front */
+stage.addEventListener("click",function(e){var b=e.target.closest(".book");if(!b)return;
+  if(moved>6){e.preventDefault();return;}
+  if(b.classList.contains("is-front"))return; e.preventDefault();goSlug(b.getAttribute("data-region"));});
+stage.addEventListener("focusin",function(e){var b=e.target.closest(".book");if(b&&!b.classList.contains("is-front"))goSlug(b.getAttribute("data-region"));});
+root.addEventListener("click",function(e){
+  var s=e.target.closest(".korea-map [data-region]");if(s){e.preventDefault();goSlug(s.getAttribute("data-region"));return;}
+  if(e.target.closest("[data-shelf-next]"))goTo(Math.round(pos)+1);else if(e.target.closest("[data-shelf-prev]"))goTo(Math.round(pos)-1);
+});
+root.addEventListener("keydown",function(e){var s=e.target.closest&&e.target.closest(".korea-map [data-region]");if(s&&(e.key==="Enter"||e.key===" ")){e.preventDefault();goSlug(s.getAttribute("data-region"));}
+  if(e.target.closest&&e.target.closest("[data-shelf-stage]")){if(e.key==="ArrowRight")goTo(Math.round(pos)+1);if(e.key==="ArrowLeft")goTo(Math.round(pos)-1);}});
+function hot(slug,on){shapes.forEach(function(x){if(x.getAttribute("data-region")!==slug)return;x.classList.toggle("is-hot",on);if(on&&x.tagName==="path"){x.parentNode.insertBefore(x,root.querySelector(".prov-highlight"));}});}
+["mouseover","focusin"].forEach(function(ev){root.addEventListener(ev,function(e){var n=e.target.closest&&e.target.closest("[data-region]");if(n)hot(n.getAttribute("data-region"),true);},{passive:true});});
+["mouseout","focusout"].forEach(function(ev){root.addEventListener(ev,function(e){var n=e.target.closest&&e.target.closest("[data-region]");if(n)hot(n.getAttribute("data-region"),false);},{passive:true});});
+window.addEventListener("resize",layout);
+window.__shelf={goSlug:goSlug,pos:function(){return pos;}};
+layout();
 })();
 </script>
 {{ end }}

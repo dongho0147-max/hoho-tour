@@ -61,7 +61,7 @@ other = "지도로 찾기"
 [mapTitle]
 other = "어디로 갈까요? 지역을 골라 보세요"
 [mapHint]
-other = "지도나 칩에서 지역을 누르면 위쪽 가이드 목록이 그 지역으로 좁혀져요."
+other = "지역을 누르면 그 지역 가이드가 펼쳐져요."
 [mapAll]
 other = "전체 지역"
 [mapHeadingAll]

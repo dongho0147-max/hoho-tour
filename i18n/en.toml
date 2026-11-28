@@ -59,7 +59,7 @@ other = "Explore by map"
 [mapTitle]
 other = "Where to? Pick a region"
 [mapHint]
-other = "Tap a region on the map or a chip: the guide list above narrows to that place."
+other = "Tap a region to unfold its guides."
 [mapAll]
 other = "All regions"
 [mapHeadingAll]

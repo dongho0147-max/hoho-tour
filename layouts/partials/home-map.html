@@ -36,11 +36,7 @@
   {{ $n := len (index $tax .slug | default slice) }}
   {{ if gt $n 0 }}{{ $active = $active | append (dict "r" . "n" $n) }}{{ end }}
 {{ end }}
-<section class="home-map" aria-labelledby="home-map-title" data-reveal
-  data-filter-root data-filter-attr="region"
-  data-filter-items="#latest-guides" data-filter-heading="#latest-guides-heading"
-  data-heading-all="{{ i18n "mapHeadingAll" }}" data-heading-one="{{ i18n "mapHeadingOne" }}"{{ if eq site.Language.Lang "kr" }}
-  data-status-all="{{ i18n "statusAll" }}" data-status-one="{{ i18n "statusOne" }}"{{ end }}>
+<section class="home-map home-map--first" aria-labelledby="home-map-title" data-region-nav>
 <div class="home-map__intro">
 <p class="eyebrow">{{ i18n "mapEyebrow" }}</p>
 <h2 id="home-map-title">{{ i18n "mapTitle" }}</h2>
@@ -51,11 +47,11 @@
 <svg class="korea-map" viewBox="0 0 {{ $map.width }} {{ $map.height }}" role="group" aria-labelledby="home-map-title" focusable="false">
 {{ range $map.provinces }}
   {{ $pid := .id }}
-  {{ $r := index (where $regions "path_id" $pid) 0 }}
+  {{ $r := index (where $regions "path_id" $pid) 0 }}{{ if not $r }}{{ range $regions }}{{ if in (.extra_path_ids | default slice) $pid }}{{ $r = . }}{{ end }}{{ end }}{{ end }}
   {{ $n := 0 }}{{ with $r }}{{ $n = len (index $tax .slug | default slice) }}{{ end }}
   {{ $rName := "" }}{{ with $r }}{{ $rName = .name }}{{ if eq site.Language.Lang "kr" }}{{ $rName = .name_ko }}{{ end }}{{ end }}
   {{ if and $r (gt $n 0) }}
-<path id="prov-{{ $pid }}" class="prov prov--active" d="{{ .d }}" data-filter-value="{{ $r.slug }}" data-filter-label="{{ $rName }}" role="button" tabindex="0" aria-pressed="false" aria-label="{{ if eq site.Language.Lang "kr" }}{{ $rName }}: 가이드 {{ $n }}개 보기{{ else }}{{ $r.name }}: show {{ $n }} guide{{ if ne $n 1 }}s{{ end }}{{ end }}"><title>{{ if eq site.Language.Lang "kr" }}{{ $rName }} (가이드 {{ $n }}개){{ else }}{{ $r.name }} ({{ $n }} guide{{ if ne $n 1 }}s{{ end }}){{ end }}</title></path>
+<path id="prov-{{ $pid }}" class="prov prov--active" d="{{ .d }}" data-region="{{ $r.slug }}" data-href="{{ (printf "/%s/%s/" ($r.country | default $country) $r.slug) | relLangURL }}" role="link" tabindex="0" aria-label="{{ if eq site.Language.Lang "kr" }}{{ $rName }}: 가이드 {{ $n }}개 보기{{ else }}{{ $r.name }}: show {{ $n }} guide{{ if ne $n 1 }}s{{ end }}{{ end }}"><title>{{ if eq site.Language.Lang "kr" }}{{ $rName }} (가이드 {{ $n }}개){{ else }}{{ $r.name }} ({{ $n }} guide{{ if ne $n 1 }}s{{ end }}){{ end }}</title></path>
   {{ else if $r }}
 <path id="prov-{{ $pid }}" class="prov prov--soon" d="{{ .d }}"><title>{{ $rName }} - {{ if eq site.Language.Lang "kr" }}{{ i18n "guidesComingSoon" }}{{ else }}guides coming soon{{ end }}</title></path>
   {{ else }}
@@ -79,7 +75,7 @@
    one (Tokyo: no Japan shape in the Korea SVG) get no pin: their lng would
    plot far outside the viewBox. */}}
 {{ if $r.path_id }}
-<g class="map-pin{{ if eq $n 0 }} map-pin--soon{{ end }}"{{ if gt $n 0 }} data-filter-value="{{ $r.slug }}" data-filter-label="{{ $rName }}"{{ end }} transform="translate({{ printf "%.1f" $x }} {{ printf "%.1f" $y }})">
+<g class="map-pin{{ if eq $n 0 }} map-pin--soon{{ end }}"{{ if gt $n 0 }} data-region="{{ $r.slug }}" data-href="{{ (printf "/%s/%s/" ($r.country | default $country) $r.slug) | relLangURL }}"{{ end }} transform="translate({{ printf "%.1f" $x }} {{ printf "%.1f" $y }})">
 <circle r="{{ if gt $n 0 }}6{{ else }}4.5{{ end }}"></circle>
 <text x="{{ with $o }}{{ .dx }}{{ else }}{{ if $left }}-12{{ else }}12{{ end }}{{ end }}" y="{{ with $o }}{{ .dy }}{{ else }}0.35em{{ end }}" text-anchor="{{ with $o }}{{ .anchor }}{{ else }}{{ if $left }}end{{ else }}start{{ end }}{{ end }}">{{ $pinLabel }}{{ if gt $n 0 }} {{ $n }}{{ end }}</text>
 </g>
@@ -89,21 +85,47 @@
 </svg>
 </div>
 <div class="home-map__panel">
-<p class="home-map__status" aria-live="polite" data-filter-status></p>
-<div class="map-chips" role="toolbar" aria-label="{{ i18n "filterByRegion" }}" data-filter-controls hidden>
-<button type="button" class="map-chip is-selected" data-filter-value="" aria-pressed="true">{{ i18n "mapAll" }}</button>
+{{ $isKR := eq site.Language.Lang "kr" }}
+{{ $rows := slice }}
 {{ range $active }}
-{{ $chipName := .r.name }}{{ if eq site.Language.Lang "kr" }}{{ $chipName = .r.name_ko }}{{ end }}
-<button type="button" class="map-chip" data-filter-value="{{ .r.slug }}" data-filter-label="{{ $chipName }}" aria-pressed="false">{{ $chipName }} <span class="map-chip__n">{{ .n }}</span></button>
+  {{ $pgs := (index $tax .r.slug).Pages.ByDate.Reverse }}
+  {{ $rows = $rows | append (dict "r" .r "n" .n "pages" $pgs "d" (index $pgs 0).Date) }}
+{{ end }}
+{{ $rows = sort $rows "d" "desc" }}{{ $ordered := slice }}{{ range $rows }}{{ if .r.path_id }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}{{ range $rows }}{{ if not .r.path_id }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}{{ $rows = $ordered }}
+<div class="shelf" data-shelf aria-label="{{ i18n "browseByRegion" }}">
+<div class="shelf__bar"><p class="shelf__title">{{ cond $isKR "지역별 가이드" "Guides by region" }}</p>
+<div class="shelf__nav"><button type="button" class="shelf__btn" data-shelf-prev aria-label="{{ cond $isKR "이전 지역" "Previous region" }}">&#8592;</button><button type="button" class="shelf__btn" data-shelf-next aria-label="{{ cond $isKR "다음 지역" "Next region" }}">&#8594;</button></div></div>
+<div class="shelf__stage" data-shelf-stage>
+<ol class="shelf__ring">
+{{ range $i, $row := $rows }}
+{{ $r := $row.r }}
+{{ $name := cond $isKR $r.name_ko $r.name }}
+{{ $lead := index $row.pages 0 }}
+{{ $img := printf "/%s" (strings.TrimPrefix "/" ($lead.Params.image | default "images/banner/banner-seoul.webp")) | relURL }}
+<li class="book" data-region="{{ $r.slug }}" data-href="{{ (printf "/%s/%s/" ($r.country | default $country) $r.slug) | relLangURL }}">
+<a class="book__a" href="{{ $lead.RelPermalink }}">
+<img src="{{ $img }}" alt="" loading="lazy" decoding="async" draggable="false"{{ with $lead.Params.image_position }} style="object-position:{{ . }}"{{ end }}>
+<span class="book__shade"></span>
+<span class="book__txt"><em>{{ $row.n }}{{ cond $isKR "편" (cond (eq $row.n 1) " guide" " guides") }}</em><b>{{ $name }}</b><small>{{ $lead.Title }}</small></span>
+</a>
+</li>
+{{ end }}
+</ol>
+<div class="shelf__plank" aria-hidden="true"></div>
+</div>
+<div class="shelf__details">
+{{ range $rows }}
+{{ $r := .r }}{{ $name := cond $isKR $r.name_ko $r.name }}
+{{ $hub := (printf "/%s/%s/" ($r.country | default $country) $r.slug) | relLangURL }}
+<div class="sdetail" data-for="{{ $r.slug }}" hidden>
+<p class="sdetail__lead"><small>{{ cond $isKR "가장 최근 가이드" "Latest guide" }} &middot; {{ (index .pages 0).Date.Format "2006-01-02" }}</small><a href="{{ (index .pages 0).RelPermalink }}">{{ (index .pages 0).Title }}</a></p>
+{{ $others := after 1 .pages }}
+{{ if $others }}<ul class="wmini">{{ range first 3 $others }}<li><a href="{{ .RelPermalink }}"><img src="{{ printf "/%s" (strings.TrimPrefix "/" (.Params.image | default "images/banner/banner-seoul.webp")) | relURL }}" alt="" loading="lazy" decoding="async"><span>{{ .Title }}</span></a></li>{{ end }}</ul>{{ end }}
+<a class="wheel__all" href="{{ $hub }}">{{ cond $isKR (printf "%s 가이드 모두 보기" $name) (printf "All %s guides" $name) }} &rarr;</a>
+</div>
 {{ end }}
 </div>
-<ul class="map-hub-links">
-{{ range $regions }}
-  {{ $n := len (index $tax .slug | default slice) }}
-  {{ $rc := .country | default $country }}
-<li><a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}"{{ if eq $n 0 }} class="is-soon"{{ end }}>{{ if eq site.Language.Lang "kr" }}{{ .name_ko }}{{ else }}{{ .name }} <span lang="ko">{{ .name_ko }}</span>{{ end }}{{ if eq $n 0 }} <em>{{ i18n "soonNote" }}</em>{{ end }}</a></li>
-{{ end }}
-</ul>
+</div>
 </div>
 </div>
 {{/* /kr carries zero external links: the Natural Earth credit is text-only there

@@ -26,6 +26,7 @@ regions:
     status: active
     center: { lat: 35.1796, lng: 129.0756 }
     path_id: busan
+    extra_path_ids: [gyeongsangnam, ulsan]
     cities: [Busan]
     cities_ko: [부산]
     subthemes: [itineraries, food-restaurants, nightlife, day-trips]
@@ -110,6 +111,7 @@ regions:
     status: active
     center: { lat: 35.1595, lng: 126.8526 }
     path_id: gwangju
+    extra_path_ids: [jeollanam]
     cities: [Gwangju]
     cities_ko: [광주]
     subthemes: [itineraries, food-restaurants, day-trips]
@@ -134,6 +136,7 @@ regions:
     status: active
     center: { lat: 36.3314, lng: 127.4334 }
     path_id: daejeon
+    extra_path_ids: [chungcheongbuk, chungcheongnam, sejong]
     cities: [Daejeon]
     cities_ko: [대전]
     subthemes: [food-restaurants, day-trips, cafes]
