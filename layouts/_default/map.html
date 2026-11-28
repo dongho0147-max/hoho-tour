@@ -124,7 +124,7 @@
 <section class="gm__list" aria-labelledby="gm-list-title">
 <h2 id="gm-list-title">{{ $tList }}</h2>
 {{ range $groups }}
-<div class="gm-region" data-gm-group="{{ .slug }}">
+<div class="gm-group" data-gm-group="{{ .slug }}">
 <h3><span class="gm-dot" style="--pin:{{ .color | safeCSS }}" aria-hidden="true"></span>{{ .name }}</h3>
 <ul class="gm-posts">
 {{ range .posts }}

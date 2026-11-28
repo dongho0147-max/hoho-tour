@@ -531,8 +531,8 @@ article ol.tour-summary__stops li{counter-increment:stop;position:relative;paddi
 .gm-popup a{font-size:13px;font-weight:600;color:var(--green)}
 .gm__list{margin:56px 0 0}
 .gm__list h2{font-size:clamp(24px,4vw,32px);margin:0 0 8px}
-.gm-region{border-top:1px solid var(--line);padding:22px 0 6px}
-.gm-region h3{display:flex;align-items:center;gap:10px;font-size:21px;margin:0 0 10px}
+.gm-group{border-top:1px solid var(--line);padding:22px 0 6px}
+.gm-group h3{display:flex;align-items:center;gap:10px;font-size:21px;margin:0 0 10px}
 .gm-posts{list-style:none;margin:0;padding:0;display:grid;gap:18px}
 .gm-post__title{font-weight:600;font-size:16px}
 .gm-stops{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
