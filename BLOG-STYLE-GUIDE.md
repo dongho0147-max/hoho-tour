@@ -3,7 +3,7 @@
 Living rules for writing and checking guides on hoho-tour.com. Every new or
 rewritten guide is checked against this document before it ships.
 
-Last updated: 2026-11-18 (revamp v1).
+Last updated: 2026-11-28 (humanize pass added, Dongho).
 
 ## 1. Photos
 
@@ -64,6 +64,34 @@ Last updated: 2026-11-18 (revamp v1).
   guessed. A guide written from research (not a visit) says how the
   information was checked in its footer note.
 
+### 2A. Humanize pass before shipping (Dongho, 2026-11-28)
+
+Method from the free open-source im-not-ai / Humanize KR skill
+(github.com/epoko77-ai/im-not-ai, X post by @Luicas_seedtoon). Every new
+or rewritten guide gets a de-AI pass on the final text, after all other
+edits, before the zip.
+
+- KR drafts: run im-not-ai (Claude Code: `/plugin install
+  humanize-korean@im-not-ai`, then "이 글 AI 티 없애줘"). It flags 85
+  Korean AI-tell patterns: translationese, mechanical parallelism
+  ("첫째 · 둘째 · 셋째"), stock phrases ("결론적으로", "시사하는 바가
+  크다"), passive overuse, sentence-initial connectives, emoji/bullet
+  overuse, and a vocabulary layer of ~115 translated-English words
+  ("렌즈", "축" used metaphorically). Where the plugin is not installed,
+  sweep for the same patterns by hand.
+- EN drafts: same idea on the English side. Sweep for translationese,
+  "Whether you're A or B" templates, rule-of-three stacking, the banned
+  words above, and throat-clearing openings and summary endings.
+- Cut, do not decorate: a good pass makes the text shorter or the same
+  length, never longer. AI tells are mostly filler, so delete them rather
+  than swapping in synonyms.
+- Hard rules: facts, claims, numbers, names and direct quotes never
+  change. Only flagged spans get edited. The genre stays a travel guide.
+  If more than ~30% of the text changed, the pass went too far: redo it
+  lighter.
+- The tool's reviewer notes connectives need extra attention, so re-read
+  transitions between paragraphs by hand after the pass.
+
 ## 3. Links to booking sites (policy changed 2026-11-19 - this section supersedes the 2026-11-18 version)
 
 - Some links on this site ARE affiliate links. The disclosure on every page
@@ -119,7 +147,10 @@ Last updated: 2026-11-18 (revamp v1).
    small commission` - all must be 0.
 4. Grep source for banned voice: `hidden gem`, `nestled`, `must-visit`,
    `delve`, `Whether you're`, `Seoul is a city where` - all must be 0.
-5. Ship as `hohotour-site-revamp-1118.zip` (50MB max) in
+5. Humanize pass done on all new or rewritten text (section 2A): KR via
+   im-not-ai, EN via the AI-tell sweep. The text did not get longer, and
+   facts and numbers are byte-identical to the pre-pass draft.
+6. Ship as `hohotour-site-revamp-1118.zip` (50MB max) in
    `~/workspace/homepage-redesign/`. Never push to main or deploy live
    from this workspace - the parent uploads to Drive and the PM merges
    and deploys.
