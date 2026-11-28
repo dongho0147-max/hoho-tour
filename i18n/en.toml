@@ -40,7 +40,7 @@ other = "Written by a Seoul local"
 [trustBody]
 other = "We live in Seoul. Every guide is built around places we have checked - subway lines we actually ride, and prices we checked recently. When we have not been somewhere, we say so."
 [affiliateDisclosure]
-other = "Some links on this site are affiliate links (Klook). If you book through them, we earn a small commission at no extra cost to you."
+other = "Some links on this site are affiliate links (Klook, Agoda). If you book through them, we earn a small commission at no extra cost to you."
 [affiliateDisclosureLabel]
 other = "Affiliate disclosure:"
 # NOTE: kr.toml now carries affiliateDisclosure keys too (KR monetization 2026-11-23).
