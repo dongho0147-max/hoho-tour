@@ -1030,3 +1030,21 @@ body:has(.home-map--first)::before{background:linear-gradient(rgba(252,249,243,.
 .home-map--first .map-pin text{transform-box:fill-box;transform-origin:center;transition:transform .35s cubic-bezier(.3,1.5,.5,1),fill .15s}
 .home-map--first .map-pin.is-selected text{transform:translate(-4px,-7px) scale(1.2);font-weight:800;fill:var(--coral-ink)}
 @media(prefers-reduced-motion:reduce){.home-map--first .map-pin text{transition:none}.home-map--first .map-pin.is-selected text{transform:none}}
+
+/* Mobile: popped label sits beside its pin, no scale-in over the pin or neighbours */
+@media(max-width:700px){
+  .home-map--first .map-pins{font-size:19px}
+  .home-map--first .map-pin text{stroke-width:4px}
+  .home-map--first .map-pin.is-selected circle,.home-map--first .map-pin.is-selected circle{r:8}
+  .home-map--first .map-pin.is-selected text{transform:translateY(-8px);font-weight:700}
+}
+
+/* Minimal footer: wordmark + tagline, About / Privacy, disclosure, copyright */
+.foot-grid{grid-template-columns:minmax(0,1fr);gap:8px}
+.foot-links{flex-direction:row}
+.foot-col--brand .foot-tagline{max-width:none}
+@media(min-width:720px){
+  .foot-grid{grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:24px}
+  .foot-links{flex-direction:row}
+  .foot-links a{min-height:44px}
+}

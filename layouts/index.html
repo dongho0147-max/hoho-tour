@@ -80,7 +80,7 @@ var stage=root.querySelector("[data-shelf-stage]");if(!stage)return;
 var ring=stage.querySelector(".shelf__ring"),books=[].slice.call(ring.children),N=books.length;
 var shapes=[].slice.call(root.querySelectorAll(".korea-map [data-region]"));
 var reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
-var MAXB=(window.matchMedia&&matchMedia("(max-width: 720px)").matches)?2:3.5;var pos=0,vel=0,target=null,dragging=false,raf=0,moved=0,front=-1,R=400,TH=360/N;
+var MAXB=(window.matchMedia&&matchMedia("(max-width: 720px)").matches)?2:3.5;var pos=0,vel=0,target=null,jump=false,dragging=false,raf=0,moved=0,front=-1,R=400,TH=360/N;
 function slugOf(i){return books[i].getAttribute("data-region");}
 function mod(a,n){return((a%n)+n)%n;}
 var baseW=170,GROW=(window.matchMedia&&matchMedia("(max-width: 720px)").matches)?1.25:1.7;
@@ -96,16 +96,17 @@ function render(){
     var bl=Math.min(MAXB,Math.round(Math.min(ad,3)*MAXB/3*2)/2),br=1-Math.min(.45,ad*.16);b.style.filter=ad<0.35?"":(bl?"blur("+bl+"px) ":"")+"brightness("+br.toFixed(2)+")";
   }
   var f=mod(Math.round(pos),N);
-  if(f!==front){var first=front===-1;front=f;if(!first&&window.HHSfx&&HHSfx.play)HHSfx.play("slide");books.forEach(function(b,k){b.classList.toggle("is-front",k===f);b.tabIndex=-1;});sync(slugOf(f));}
+  if(f!==front&&!jump){var first=front===-1;front=f;if(!first&&window.HHSfx&&HHSfx.play)HHSfx.play("slide");books.forEach(function(b,k){b.classList.toggle("is-front",k===f);b.tabIndex=-1;});sync(slugOf(f));}
 }
 function sync(slug){
-  shapes.forEach(function(s){s.classList.toggle("is-selected",s.getAttribute("data-region")===slug);});
+  shapes.forEach(function(s){s.classList.remove("is-hot");s.classList.toggle("is-selected",s.getAttribute("data-region")===slug);}); // exactly one active region
+  root.setAttribute("data-active",slug);
   [].slice.call(root.querySelectorAll(".sdetail")).forEach(function(d){d.hidden=d.getAttribute("data-for")!==slug;});
 }
 function loop(){
   raf=0;var busy=false;
   if(!dragging){
-    if(target!==null){var diff=target-pos;pos+=diff*0.14;if(Math.abs(diff)<0.002){pos=target;target=null;}else busy=true;}
+    if(target!==null){var diff=target-pos;pos+=diff*0.14;if(Math.abs(diff)<0.002){pos=target;target=null;jump=false;}else busy=true;}
     else if(Math.abs(vel)>0.0015){pos+=vel;vel*=0.92;busy=true;}
     else if(Math.abs(pos-Math.round(pos))>0.002){target=Math.round(pos);busy=true;}
   }else busy=true;
@@ -113,13 +114,21 @@ function loop(){
 }
 function kick(){if(!raf)raf=requestAnimationFrame(loop);}
 function goTo(i){ // shortest way round the cylinder
-  var cur=Math.round(pos),d=mod(i-cur,N);if(d>N/2)d-=N;target=cur+d;vel=0;
+  var cur=Math.round(pos),d=mod(i-cur,N);if(d>N/2)d-=N;target=cur+d;vel=0;jump=false;
   if(reduce){pos=target;target=null;render();}else kick();
 }
-function goSlug(s){for(var i=0;i<N;i++){if(slugOf(i)===s){goTo(i);return;}}}
+function goSlug(s){for(var i=0;i<N;i++){if(slugOf(i)===s){
+  var cur=Math.round(pos),d=mod(i-cur,N);if(d>N/2)d-=N;
+  if(d===0){goTo(i);return;}
+  /* straight to the tapped region: no intermediate books, highlights or sounds. Far targets start one step away and glide in. */
+  jump=true;sync(s);if(window.HHSfx&&HHSfx.play)HHSfx.play("slide");
+  if(Math.abs(d)>1)pos=cur+d-(d>0?1:-1);
+  target=cur+d;vel=0;
+  if(reduce){pos=target;target=null;jump=false;front=-1;render();}else{front=i;books.forEach(function(b,k){b.classList.toggle("is-front",k===i);});kick();}
+  return;}}}
 /* drag / swipe with inertia (pointer velocity -> spin speed) */
 var sx=0,sp=0,lastX=0,lastT=0,pid=null;
-stage.addEventListener("pointerdown",function(e){if(e.button>0)return;dragging=true;moved=0;sx=e.clientX;sp=pos;lastX=e.clientX;lastT=performance.now();vel=0;target=null;pid=e.pointerId;stage.classList.add("is-drag");kick();});
+stage.addEventListener("pointerdown",function(e){if(e.button>0)return;dragging=true;moved=0;sx=e.clientX;sp=pos;lastX=e.clientX;lastT=performance.now();vel=0;target=null;jump=false;pid=e.pointerId;stage.classList.add("is-drag");kick();});
 window.addEventListener("pointermove",function(e){if(!dragging||e.pointerId!==pid)return;
   var per=Math.max(90,books[0].offsetWidth*0.6);var now=performance.now(),dx=e.clientX-lastX,dt=Math.max(8,now-lastT);
   moved=Math.max(moved,Math.abs(e.clientX-sx));pos=sp-(e.clientX-sx)/per;vel=vel*0.6+(-dx/per)*(16/dt)*0.4;lastX=e.clientX;lastT=now;});
@@ -129,7 +138,7 @@ function up(e){if(!dragging||(e&&e.pointerId!==pid))return;dragging=false;stage.
 window.addEventListener("pointerup",up);window.addEventListener("pointercancel",up);
 /* trackpad / mouse wheel: horizontal gestures spin the shelf, vertical ones still scroll the page */
 stage.addEventListener("wheel",function(e){var ax=Math.abs(e.deltaX),ay=Math.abs(e.deltaY);if(ax<=ay&&!e.shiftKey)return;e.preventDefault();
-  var d=(ax>ay?e.deltaX:e.deltaY)/260;target=null;vel=Math.max(-0.1,Math.min(0.1,vel+d*0.3));pos+=d*0.5;if(reduce){target=Math.round(pos);pos=target;target=null;render();return;}kick();},{passive:false});
+  var d=(ax>ay?e.deltaX:e.deltaY)/260;target=null;jump=false;vel=Math.max(-0.1,Math.min(0.1,vel+d*0.3));pos+=d*0.5;if(reduce){target=Math.round(pos);pos=target;target=null;render();return;}kick();},{passive:false});
 /* clicks: the front book opens its latest guide, any other book spins to the front */
 stage.addEventListener("click",function(e){var b=e.target.closest(".book");if(!b)return;
   if(moved>6){e.preventDefault();return;}

@@ -12,30 +12,10 @@
 <div class="foot-grid">
 <div class="foot-col foot-col--brand">
 <p class="foot-brand">HOHO <em>Tour</em></p>
-<img class="foot-symbol" src="/images/hoho-tour-logo-final.svg" alt="" width="36" height="36" loading="lazy">
 <p class="foot-tagline">{{ i18n "footerTaglineShort" }}</p>
 </div>
-<nav class="foot-col" aria-label="{{ i18n "guides" }}">
-<h2>{{ i18n "guides" }}</h2>
-<ul class="foot-links">
-<li><a href="{{ "/blog/" | relLangURL }}">{{ i18n "allGuides" }}</a></li>
-<li><a href="{{ "/regions/" | relLangURL }}">{{ i18n "regions" }}</a></li>
-<li><a href="{{ "/themes/" | relLangURL }}">{{ i18n "themes" }}</a></li>
-<li><a href="{{ "/themes/food-restaurants/" | relLangURL }}">{{ i18n "food" }}</a></li>
-<li><a href="{{ "/map/" | relLangURL }}">{{ i18n "navMap" | default (cond $isKR "지도" "Map") }}</a></li>
-</ul>
-</nav>
-<nav class="foot-col" aria-label="{{ i18n "regions" }}">
-<h2>{{ i18n "regions" }}</h2>
-<ul class="foot-links foot-links--regions">
-{{ range $hubs }}{{ $rc := .country | default $country }}<li><a href="{{ (printf "/%s/%s/" $rc .slug) | relLangURL }}">{{ if $isKR }}{{ .name_ko }}{{ else }}{{ .name }}{{ end }}</a></li>
-{{ end }}
-</ul>
-
-</nav>
 <nav class="foot-col" aria-label="HOHO Tour">
 
-<h2>HOHO Tour</h2>
 <ul class="foot-links">
 <li><a href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a></li>
 <li><a href="{{ "/privacy/" | relLangURL }}">{{ i18n "privacy" }}</a></li>
