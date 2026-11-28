@@ -1,4 +1,8 @@
-{{/* Caption text with the photo credit moved to its own line. Pass the caption string. */}}
+{{/* Caption text. Pass the caption string. The photo credit (trailing "Photo:/사진:/Illustration:/일러스트: ...")
+   is wrapped in .cap-credit, which CSS pins to the top-right corner of the photo. The tip breaks to a new line after each sentence. */}}
 {{ $s := . | htmlEscape }}
-{{ $s = replaceRE `\s+((?:사진|일러스트|Photo|Illustration):.*)$` `<span class="cap-credit">$1</span>` $s }}
-{{ $s | safeHTML }}
+{{ $tip := $s }}{{ $credit := "" }}
+{{ $m := findRESubmatch `(?s)^(.*?)\s+((?:사진|일러스트|Photo|Illustration):.*)$` $s 1 }}
+{{ if $m }}{{ $tip = index (index $m 0) 1 }}{{ $credit = index (index $m 0) 2 }}{{ end }}
+{{ $tip = replaceRE `([.!?])\s+` `$1<br>` $tip }}
+{{- $tip | safeHTML -}}{{ with $credit }}<span class="cap-credit">{{ . | safeHTML }}</span>{{ end }}

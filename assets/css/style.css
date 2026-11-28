@@ -722,4 +722,6 @@ article ol.tour-summary__stops li.stop--lodging,article ol.tour-summary__stops l
 
 /* Captions: small, credit on its own line (hero, in-body figures, KR and EN). */
 article figcaption,.hero-figure figcaption,.shortcode-figure figcaption{font-size:12px;line-height:1.5}
-figcaption .cap-credit{display:block;margin-top:2px;font-size:11px;color:var(--ink-3);opacity:.85}
+.hero-figure,.shortcode-figure{position:relative}
+figcaption{text-wrap:balance}
+figcaption .cap-credit{position:absolute;top:8px;right:8px;display:block;max-width:72%;margin:0;padding:2px 7px;border-radius:3px;background:rgba(20,20,20,.5);color:#fff;font-size:10.5px;line-height:1.35;text-align:right;letter-spacing:0}
