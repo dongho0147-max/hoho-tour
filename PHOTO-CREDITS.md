@@ -336,3 +336,5 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | gyeongpo-lake-blue-01.webp | Gyeongpo Lake 20220502 001.jpg | 1600 px | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gyeongpo_Lake_20220502_001.jpg |
 | seorak-cablecar-01.webp | Seoraksan Cable Car 04.jpg | 1600 px | Bernard Gagnon | CC0 | https://commons.wikimedia.org/wiki/File:Seoraksan_Cable_Car_04.jpg |
 | noryangjin-stalls-01.webp | Korea-Seoul-Noryangjin Fish Market-04.jpg | 1600 px | Gael Chardon | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Korea-Seoul-Noryangjin_Fish_Market-04.jpg |
+| hallasan-boardwalk-01.webp | Wooden staircase along Yeongsil Trail with the mountains of Hallasan Park Jeju Island South Korea.jpg | 1600 px | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Wooden_staircase_along_Yeongsil_Trail_with_the_mountains_of_Hallasan_Park_Jeju_Island_South_Korea.jpg |
+| ikseon-teal-hanok-01.webp | Ikseon-dong 익선동 October 1 2020 2.jpg | 1600 px | S h y numis | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ikseon-dong_%EC%9D%B5%EC%84%A0%EB%8F%99_October_1_2020_2.jpg |

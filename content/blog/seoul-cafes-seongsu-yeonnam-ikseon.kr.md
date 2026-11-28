@@ -2,8 +2,8 @@
 title: "서울 카페 크롤: 하루에 성수, 연남, 익선동"
 description: "세 동네를 도는 서울 카페 크롤 하루 코스. 성수의 창고 카페, 경의선숲길 옆 푸른 연남동, 익선동의 한옥 카페를 담았어요."
 date: 2026-11-19
-image: "images/photos/seoul-cafe-01.webp"
-image_alt: "A narrow lane in Ikseon-dong with cafe tables outside"
+image: "images/photos/ikseon-teal-hanok-01.webp"
+image_alt: "익선동 골목의 청록색 한옥 카페"
 regions: ["seoul"]
 themes: ["cafes", "food-restaurants"]
 stops:

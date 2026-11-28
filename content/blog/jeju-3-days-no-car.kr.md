@@ -2,8 +2,8 @@
 title: "렌터카 없이 제주 3일"
 description: "렌터카 없이 떠나는 현실적인 제주 3일 일정: 제주시는 도보와 버스로, 동쪽 해안은 대중버스로, 3일차는 한라산 또는 올레길 걷기로. 운영 시간과 버스 요금을 공식 안내 기준으로 담았어요."
 date: 2026-11-19
-image: "images/photos/jeju-01.webp"
-image_alt: "Green slopes and drifting cloud on Hallasan in Jeju"
+image: "images/photos/hallasan-boardwalk-01.webp"
+image_alt: "푸른 하늘과 구름 아래 한라산 능선을 따라 이어진 나무 탐방로"
 regions: ["jeju"]
 themes: ["itineraries", "day-trips"]
 stops:
