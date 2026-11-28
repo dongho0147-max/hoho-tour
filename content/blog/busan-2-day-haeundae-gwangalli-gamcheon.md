@@ -77,8 +77,6 @@ Dinner here is easy: raw fish restaurants line the beach road, and the cafes sta
 
 Start day 2 at **Gamcheon Culture Village**, the hillside neighborhood of colorful houses, murals, and steep alleys. Entry is free, and the village is open 09:00 to 17:00 from November to February. Go in the morning, before the tour groups arrive, and give it 2 hours. The village was a refugee settlement during the Korean War, and the art came later, so walk it with that in mind: people live here, and the lanes are their streets, not a theme park.
 
-{{< figure src="images/photos/busan-03.webp" alt="Colorful houses in Gamcheon Culture Village at sunset" caption="Colorful houses in Gamcheon Culture Village at sunset. Photo: Basile Morin, CC BY-SA 4.0" >}}
-
 Wear proper shoes. The alleys are steep, the steps are uneven, and the loop up to the viewpoints and back down is a real walk. Bring water in summer. The Little Prince statue and the main viewpoint draw the longest lines, so see them first and then wander the quieter lanes behind them.
 
 > **🔥 Local tip:** Arrive between 09:00 and 10:00 on a weekday, before the tour buses cluster from around 10:00 to 14:00. Pick up the stamp map at the information center and follow its route downhill: it spreads out the foot traffic and ends at the cafe street. At peak hours the Little Prince photo queue runs 20 to 30 minutes. Some small stalls do not take cards, so carry small bills. Based on recent listings/reviews, checked November 2026.

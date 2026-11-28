@@ -80,8 +80,6 @@ Day 2 is the big one, and the bus makes it work if you start early. Take express
 
 From Hamdeok, stay on the eastbound trunk bus toward Seongsan. The ride takes another hour or so, and the bus stops at **Seongeup Folk Village** on the way. Get off there for an hour. The village is a small cluster of thatched stone houses, and it is {{< mk "free to walk" >}} through. It is also the best place on this route to see what a Jeju farmhouse actually looked like.
 
-{{< figure src="images/photos/jeju-06.webp" alt="Thatched stone houses at Seongeup Folk Village" caption="Thatched stone houses at Seongeup Folk Village. Photo: Seefooddiet, CC BY-SA 4.0" >}}
-
 End the day at Seongsan Ilchulbong, the tuff cone on the eastern tip. The stair climb to the top takes 30 to 40 minutes, and the crater view is worth it. From November to February it is open 06:00 to 18:00 and ticket sales stop at 17:00, and the site closes on the first Monday of each month, so check the day before. The last bus back to Jeju City leaves Seongsan in the early evening, so plan to be on it. If that timing feels tight, a private car with a driver covers the same east loop without the bus timetable.
 
 {{< figure src="images/photos/jeju-07.webp" alt="Seongsan Ilchulbong rising over Seongsan village and the sea" caption="Seongsan Ilchulbong rising over Seongsan village and the sea. Photo: Justin De La Ornell, CC BY 2.0" >}}
@@ -97,10 +95,6 @@ End the day at Seongsan Ilchulbong, the tuff cone on the eastern tip. The stair 
 Day 3 is a choice, and you should pick one. Option A is Hallasan, the mountain in the middle of the island. Bus 240 runs from the Jeju bus terminal to the Eorimok trail entrance in under an hour, and the stop is a 10-15 minute walk from the trail. In winter (October to March) the Eorimok trail entrance closes to new hikers at 12:00 and you must start down from Witseoreum by 15:00, so take an early bus. The Eorimok trail is a steady uphill walk of about 5 km each way, and most people take 4 to 5 hours return. It does not reach the summit, but it gives you the forest and the high meadow, which is the point for most walkers.
 
 Option B is an Olle Trail section, and it is the better pick if your legs are tired from day 2. The Olle trails are marked coastal walking routes, and the blue and orange ribbons are the markers you follow. Pick a flat section near Jeju City or Hamdeok, walk for 2 to 3 hours, and stop at a cafe when you feel like it. It is a walk, not a hike, and that is the appeal.
-
-{{< figure src="images/photos/jeju-03.webp" alt="Blue and orange ribbons marking the Jeju Olle Trail" caption="Blue and orange ribbons marking the Jeju Olle Trail. Photo: Unknown, CC BY-SA 3.0" >}}
-
-{{< collage "images/photos/jeju-03.webp|Olle Trail ribbons|Unknown, CC BY-SA 3.0" "images/photos/jeju-04.webp|Hamdeok Beach|Hong Da Hyeon, CC0" "images/photos/jeju-06.webp|Seongeup Folk Village|Seefooddiet, CC BY-SA 4.0" >}}
 
 {{< figure src="images/photos/jeju3-olle-coast-01.webp" alt="A coastal walking path of the Jeju Olle Trail beside the sea" caption="A coastal walking path of the Jeju Olle Trail beside the sea. Photo: Jeju Olle Foundation, CC BY-SA 4.0" >}}
 

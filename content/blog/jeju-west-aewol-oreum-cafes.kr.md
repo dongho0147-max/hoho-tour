@@ -69,7 +69,7 @@ map_note: "한담해안산책로는 확인된 좌표를 확보하지 못해 추�
 
 **11월부터 2월까지는 16:30에 매표가 끝나니 오후에 늦게 가지 마세요.** 입장료는 한림공원 홈페이지(hallimpark.com)에서 확인하세요. 주차는 무료예요.
 
-{{< figure src="images/photos/jeju-west-05.webp" alt="제주 서쪽 한림공원 안의 정원" caption="제주 서쪽 한림공원 안의 정원이에요. 사진: Grapesurgeon, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-west-07.webp" alt="제주 오설록의 녹차밭이에요" caption="제주 오설록의 녹차밭이에요. 사진: lumoplank / Wikimedia Commons, CC0" >}}
 
 > **🔥 현지 팁:** 협재 옆에는 **금능해수욕장**이 있어요. 협재가 붐빈다면 금능으로 가 보세요. 비슷한 풍경을 더 조용하게 즐길 수 있는 경우가 많아요.
 

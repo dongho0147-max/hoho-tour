@@ -88,9 +88,7 @@ Come back on the ferry by mid-afternoon and walk or take a short taxi ride to Se
 
 Then end at **Gwangchigi Beach**, the black-sand beach that faces Seongsan Ilchulbong across the water. It is the classic photo of the east coast: dark sand in front, the cone behind. It is not a swimming beach for most of the year, so treat it as a viewpoint and a walk, not a place to lay out a towel.
 
-{{< figure src="images/photos/jeju-east-05.webp" alt="Seongsan Ilchulbong seen from the coastal park at dusk" caption="Seongsan Ilchulbong seen from the coastal park at dusk. Photo: Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" >}}
-
-{{< collage "images/photos/jeju-east-02.webp|Udo Island|제주영상문화산업진흥원, KOGL Type 1" "images/photos/jeju-east-05.webp|Seongsan from the coastal park|Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" "images/photos/jeju-east-06.webp|Seongsan Ilchulbong|Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
+{{< collage "images/photos/jeju-east-02.webp|Udo Island|제주영상문화산업진흥원, KOGL Type 1" "images/photos/jeju-east-06.webp|Seongsan Ilchulbong|Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
 
 ## 🛏️ Where to stay in the east
 

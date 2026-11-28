@@ -102,9 +102,7 @@ stops:
 
 앞에는 바다, 뒤에는 분석구예요. 수영하는 해변보다 전망 포인트이자 산책 코스로 생각하세요.
 
-{{< figure src="images/photos/jeju-east-05.webp" alt="해 질 녘 해안 공원에서 본 성산일출봉" caption="해 질 녘 해안 공원에서 본 성산일출봉이에요. 사진: Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" >}}
-
-{{< collage "images/photos/jeju-east-02.webp|우도|제주영상문화산업진흥원, KOGL Type 1" "images/photos/jeju-east-05.webp|해안 공원에서 본 성산|Korea.net / Korean Culture and Information Service, CC BY-SA 2.0" "images/photos/jeju-east-06.webp|성산일출봉|Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
+{{< collage "images/photos/jeju-east-02.webp|우도|제주영상문화산업진흥원, KOGL Type 1" "images/photos/jeju-east-06.webp|성산일출봉|Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0" >}}
 
 {{< figure src="images/photos/jejue-p13-02.webp" alt="검은 바위 해안과 파란 바다, 멀리 보이는 방파제" caption="검은 바위 해안과 파란 바다, 멀리 보이는 방파제예요. 사진: Pexels" >}}
 

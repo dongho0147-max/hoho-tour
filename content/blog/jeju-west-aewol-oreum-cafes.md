@@ -65,7 +65,7 @@ Start at **Hyeopjae Beach**, on the northwest coast. It is the pale-sand beach t
 
 Next door is **Hallim Park**, a garden park built on old lava fields, with palm gardens, a bonsai garden, and two lava caves you walk through underground. Give it 1.5 to 2 hours. Admission runs about 12,000 to {{< hl "15,000 KRW" >}} for an adult, based on recent listings. The park is the weather-proof part of this day: if the wind picks up on the beach, the palm garden and the caves still work.
 
-{{< figure src="images/photos/jeju-west-05.webp" alt="Gardens inside Hallim Park in western Jeju" caption="Gardens inside Hallim Park in western Jeju. Photo: Grapesurgeon, CC BY-SA 4.0" >}}
+{{< figure src="images/photos/jeju-west-07.webp" alt="Tea fields at O'Sulloc, Jeju" caption="Tea fields at O'Sulloc, Jeju. Photo: lumoplank / Wikimedia Commons, CC0" >}}
 
 > **🔥 Local tip:** Hyeopjae and Geumneung beaches sit next to each other, and Geumneung is the quieter of the two. If Hyeopjae is busy, walk 10 minutes east and you get the same sand with fewer people.
 
