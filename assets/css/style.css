@@ -118,7 +118,7 @@ header.site.is-open .nav-toggle .icon-close{display:block}
 
 /* Under 1080px: compact sticky bar, menu in a drawer */
 @media(max-width:1079px){
-  header.site{position:sticky;top:0;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);
+  header.site{position:sticky;top:0;background:#fff;-webkit-backdrop-filter:none;backdrop-filter:none;border-bottom:1px solid var(--line);
     padding-top:env(safe-area-inset-top,0px)}
   .site__inner{display:flex;align-items:center;flex-wrap:wrap;gap:0 4px;padding:0 12px 0 16px;min-height:60px}
   .masthead{flex:1 1 auto;min-width:0;padding:0;text-align:left}
