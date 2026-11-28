@@ -46,10 +46,6 @@
 <a href="{{ $aboutURL }}"{{ if eq $here $aboutURL }} aria-current="page"{{ end }}>{{ i18n "about" }}</a>
 </nav>
 <div class="navbar__tools">{{ partial "lang-toggle.html" . }}</div>
-<button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="{{ $menuLabel }}" hidden data-nav-toggle>
-<svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-<svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
-</button>
 </div></div>
 </div>
 </header>
@@ -60,10 +56,10 @@
 </nav>
 {{/* Header script: (1) --header-h = real header height while the header is
    sticky (mobile), 0 when it scrolls away (desktop), for scroll-margin-top;
-   (2) mobile drawer. If anything throws, the no-JS layout stays. */}}
+   (2) mobile: bring the current menu item into view in the swipeable band.
+   If anything throws, the plain layout stays. */}}
 <script>
 (function () {
-
   try {
     var header = document.querySelector("[data-site-header]");
     if (!header) return;
@@ -76,27 +72,11 @@
     if ("ResizeObserver" in window) { new ResizeObserver(sync).observe(header); }
     window.addEventListener("resize", sync);
     if (document.fonts && document.fonts.ready) { document.fonts.ready.then(sync).catch(function () {}); }
-
-    var btn = header.querySelector("[data-nav-toggle]");
     var nav = document.getElementById("site-nav");
-    if (!btn || !nav) return;
-    header.classList.add("has-menu");
-    btn.hidden = false;
-    var setOpen = function (open) {
-      header.classList.toggle("is-open", open);
-      btn.setAttribute("aria-expanded", String(open));
-    };
-    btn.addEventListener("click", function () { setOpen(!header.classList.contains("is-open")); });
-    nav.addEventListener("click", function (e) { if (e.target.closest("a")) setOpen(false); });
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && header.classList.contains("is-open")) { setOpen(false); btn.focus(); }
-    });
-    document.addEventListener("click", function (e) {
-      if (header.classList.contains("is-open") && !header.contains(e.target)) setOpen(false);
-    });
-  } catch (err) {
-    /* Leave the no-JS header in place. */
-
-  }
+    var cur = nav && nav.querySelector('[aria-current="page"]');
+    if (cur && nav.scrollWidth > nav.clientWidth) {
+      nav.scrollLeft = Math.max(0, cur.offsetLeft - (nav.clientWidth - cur.offsetWidth) / 2);
+    }
+  } catch (err) { /* Leave the plain header in place. */ }
 })();
 </script>

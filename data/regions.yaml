@@ -18,6 +18,7 @@ regions:
     cities_ko: [서울]
     subthemes: [itineraries, food-restaurants, day-trips, transit-tips, seasonal, cafes, nightlife]
     image: images/hubs/seoul-mood.webp
+    card_image: images/cards/seoul-card-bukchon-alt.webp
     blurb: "Three days, the subway, markets, old restaurants, winter lights, cafes, and the Han at night."
     blurb_ko: "3일 일정, 지하철, 시장, 오래된 식당, 겨울 불빛, 카페, 밤의 한강."
   - slug: busan
@@ -31,6 +32,7 @@ regions:
     cities_ko: [부산]
     subthemes: [itineraries, food-restaurants, nightlife, day-trips]
     image: images/hubs/busan-mood.webp
+    card_image: images/cards/busan-card-haeundae.webp
     blurb: "Pork soup and milmyeon, Haeundae to Gwangalli, Gamcheon in a day or two."
     blurb_ko: "돼지국밥과 밀면, 해운대에서 광안리까지, 감천은 하루나 이틀."
   - slug: incheon
@@ -43,6 +45,7 @@ regions:
     cities_ko: [인천]
     subthemes: [day-trips]
     image: images/hubs/incheon-mood.webp
+    card_image: images/cards/incheon-card.webp
     blurb: "Chinatown, the old port, and the sea, an hour from Seoul by subway."
     blurb_ko: "차이나타운, 옛 항구, 바다, 서울에서 지하철로 한 시간."
   - slug: jeju
@@ -55,6 +58,7 @@ regions:
     cities_ko: [제주시, 성산, 애월]
     subthemes: [itineraries, day-trips, cafes]
     image: images/hubs/jeju-mood.webp
+    card_image: images/cards/jeju-card-udo.webp
     blurb: "No rental car needed: buses, the east coast, oreum hills, and seaside cafes."
     blurb_ko: "렌터카 없이: 버스, 동부 해안, 오름, 바닷가 카페."
   - slug: gyeongju
@@ -67,6 +71,7 @@ regions:
     cities_ko: [경주]
     subthemes: [itineraries, nightlife, day-trips]
     image: images/hubs/gyeongju-mood.webp
+    card_image: images/cards/gyeongju-card.webp
     blurb: "KTX in, tombs and temples by day, Wolji Pond lit up at night."
     blurb_ko: "KTX로 들어와 낮에는 고분과 사찰, 밤에는 불 밝힌 월지."
   - slug: gangwon
@@ -79,6 +84,7 @@ regions:
     cities_ko: [강릉, 속초]
     subthemes: [itineraries, cafes, day-trips]
     image: images/hubs/gangwon-mood.webp
+    card_image: images/cards/gangwon-card.webp
     blurb: "Coffee street and Gyeongpo in Gangneung, Seoraksan and the sea in Sokcho."
     blurb_ko: "강릉의 커피거리와 경포, 속초의 설악산과 바다."
   - slug: jeonju
@@ -91,6 +97,7 @@ regions:
     cities_ko: [전주]
     subthemes: [itineraries, food-restaurants, cafes, nightlife, day-trips]
     image: images/hubs/jeonju-mood.webp
+    card_image: images/cards/jeonju-card.webp
     blurb: "Hanok village, bibimbap, and the night market."
     blurb_ko: "한옥마을, 비빔밥, 야시장."
   - slug: daegu
@@ -103,6 +110,7 @@ regions:
     cities_ko: [대구]
     subthemes: [itineraries, food-restaurants, day-trips]
     image: images/hubs/daegu-mood.webp
+    card_image: images/cards/daegu-card.webp
     blurb: "KTX in, modern alleys and Seomun Market in a day."
     blurb_ko: "KTX로 들어와 하루에 근대골목과 서문시장."
   - slug: gwangju
@@ -116,6 +124,7 @@ regions:
     cities_ko: [광주]
     subthemes: [itineraries, food-restaurants, day-trips]
     image: images/hubs/gwangju-mood.webp
+    card_image: images/cards/gwangju-card.webp
     blurb: "KTX in, Songjeong Station, Yangnim's old houses, and Mudeungsan in a day."
     blurb_ko: "KTX로 들어와 하루에 송정역, 양림동 옛집, 무등산."
   - slug: gyeonggi-suwon
@@ -128,6 +137,7 @@ regions:
     cities_ko: [수원]
     subthemes: [itineraries, day-trips]
     image: images/hubs/gyeonggi-suwon-mood.webp
+    card_image: images/cards/suwon-card.webp
     blurb: "Hwaseong Fortress, a day trip from Seoul."
     blurb_ko: "화성, 서울에서 당일 여행."
   - slug: daejeon
@@ -141,6 +151,7 @@ regions:
     cities_ko: [대전]
     subthemes: [food-restaurants, day-trips, cafes]
     image: images/hubs/daejeon-mood.webp
+    card_image: images/cards/daejeon-card.webp
     blurb: "Seongsimdang bread run, Soje-dong cafes, and the Expo Bridge at night."
     blurb_ko: "성심당 빵 순례, 소제동 카페, 밤의 엑스포다리."
 # Japan (roadmap stage 2, first entry: Tokyo). Regions outside Korea carry a
@@ -159,6 +170,7 @@ regions:
     cities_ko: [도쿄]
     subthemes: [itineraries, transit-tips]
     image: images/photos/tokyo-01.webp
+    card_image: images/cards/tokyo-card.webp
     image_alt: "Shibuya scramble crossing at night with crowds and lit billboards"
     image_alt_ko: "밤 시부야 스크램블 교차로의 인파와 불빛"
     blurb: "Three days in Tokyo: Asakusa temples, Shibuya at sunset, a free Shinjuku observatory, and the train math that saves you money."

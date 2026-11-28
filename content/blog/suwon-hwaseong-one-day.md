@@ -71,7 +71,7 @@ The cheaper option is subway **Line 1** toward Sinchang. Suwon is 14 stops south
 
 Start at Paldalmun, the south gate, and walk the wall clockwise. The walls and gates are open all day, every day, including after dark, and walking the walls is free. The full loop is 5.7 km and takes about three hours at a steady pace, and the best stretch for a short trip is from Janganmun, the north gate, to Banghwasuryujeong, the pavilion on the eastern wall. If you only walk one section, walk that one.
 
-{{< collage "images/photos/suwon-01.webp|The wall of Hwaseong Fortress in Suwon|Photo: VN.NguyenDucDuy, CC BY-SA 4.0" "images/photos/suwon-04.webp|Banghwasuryujeong pavilion on the fortress wall|Photo: oreum, CC BY-SA 3.0" >}}
+{{< collage "images/photos/suwon-banghwasuryujeong-01.webp|Banghwasuryujeong sits at the northeast wall corner, a good rest stop on the wall walk|Photo: Fckmarcsaar, CC BY-SA 4.0" "images/photos/suwon-changnyongmun-01.webp|Changnyongmun gate and the fortress wall path in warm evening light|Photo: Wundermacht, CC BY-SA 4.0" >}}
 
 Free guided tours with a cultural heritage guide leave from the guide offices at the palace, Paldalmun, Seojangdae, Janganmun, **Jangan Park**, Hwahongmun, and Yeonmudae at 10:00, 11:00, 13:30, 14:30, and 15:30. English, Japanese, and Chinese tours are offered to foreign visitors. Walk-in requests need at least four people and can be turned down on busy days, so join the group at the office rather than hoping to flag one down on the wall.
 

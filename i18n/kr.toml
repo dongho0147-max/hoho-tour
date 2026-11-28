@@ -20,7 +20,7 @@ other = "서울 사는 사람이 알려주는 <span class=\"hl-coral\">서울 �
 [heroLede]
 other = "처음 가는 곳도 헤매지 않게, 일정·교통·맛집을 바로 쓸 수 있게 정리했어요."
 [heroCtaPrimary]
-other = "서울 3일 가이드부터 보기 &rarr;"
+other = "서울 3일 가이드부터 보기"
 [heroCtaSecondary]
 other = "가이드 전체 보기"
 [browsePlace]
@@ -28,9 +28,9 @@ other = "어디로 갈까요? <span class=\"dot\">&#9679;</span> 지역으로 �
 [browseTheme]
 other = "뭐가 궁금하세요? <span class=\"dot\">&#9679;</span> 테마로 찾기"
 [allRegions]
-other = "전체 지역 보기 &rarr;"
+other = "전체 지역 보기"
 [allThemes]
-other = "전체 테마 보기 &rarr;"
+other = "전체 테마 보기"
 [latestKicker]
 other = "새 글"
 [latestGuides]
@@ -176,7 +176,7 @@ other = "페이지를 찾을 수 없어요"
 other = "링크가 오래됐거나 주소에 오타가 있을 수 있어요. 아래 가이드에서 다시 시작해 보세요."
 
 [backHome]
-other = "홈으로 돌아가기 &rarr;"
+other = "홈으로 돌아가기"
 
 [browseAllGuides]
 other = "가이드 전체 보기"

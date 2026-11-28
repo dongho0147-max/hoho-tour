@@ -18,7 +18,7 @@ other = "Seoul, <span class=\"hl-coral\">explained</span> by <span class=\"hl-sk
 [heroLede]
 other = "Practical Korea guides for first-time visitors - itineraries, transport, and food tips we would give a friend landing at Incheon tomorrow."
 [heroCtaPrimary]
-other = "Start with the Seoul 3-Day Guide &rarr;"
+other = "Start with the Seoul 3-Day Guide"
 [heroCtaSecondary]
 other = "Browse all guides"
 [browsePlace]
@@ -26,9 +26,9 @@ other = "Where to? <span class=\"dot\">&#9679;</span> Browse by place"
 [browseTheme]
 other = "What are you into? <span class=\"dot\">&#9679;</span> Browse by theme"
 [allRegions]
-other = "All regions &rarr;"
+other = "All regions"
 [allThemes]
-other = "All themes &rarr;"
+other = "All themes"
 [latestKicker]
 other = "Fresh off the notebook"
 [latestGuides]
@@ -174,7 +174,7 @@ other = "That page is not here"
 other = "The link you followed may be out of date, or the address may have a typo. The guides below are a good place to start over."
 
 [backHome]
-other = "Back to the home page &rarr;"
+other = "Back to the home page"
 
 [browseAllGuides]
 other = "Browse all guides"

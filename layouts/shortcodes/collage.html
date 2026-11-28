@@ -12,7 +12,7 @@
 {{ if eq site.Language.Lang "kr" }}{{ $credit = replace $credit "Photo:" "사진:" }}{{ end }}
 <figure class="collage-item">
 <img src="{{ $src | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" $src | safeHTMLAttr }} loading="lazy">
-{{ with $credit }}<figcaption>{{ . }}</figcaption>{{ end }}
+{{ with $credit }}<span class="cap-credit">{{ . }}</span>{{ end }}
 </figure>
 {{ end }}
 </div>

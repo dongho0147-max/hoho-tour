@@ -70,7 +70,7 @@ map_note: "Banghwasuryujeong is not on the map: no verified coordinates were fou
 
 **전체 길이는 약 5.7km예요.** 한 구간만 걷는다면 북문인 장안문에서 동쪽 성벽의 방화수류정까지를 추천해요.
 
-{{< collage "images/photos/suwon-01.webp|수원 화성 성벽|Photo: VN.NguyenDucDuy, CC BY-SA 4.0" "images/photos/suwon-04.webp|성벽 위의 방화수류정|Photo: oreum, CC BY-SA 3.0" >}}
+{{< collage "images/photos/suwon-banghwasuryujeong-01.webp|동북쪽 성벽 모서리의 방화수류정, 걷다가 쉬어 가기 좋아요|Photo: Fckmarcsaar, CC BY-SA 4.0" "images/photos/suwon-changnyongmun-01.webp|노을빛이 드는 창룡문과 성곽 길|Photo: Wundermacht, CC BY-SA 4.0" >}}
 
 수원화성 문화관광해설은 수원화성관광 사이트에서 안내해요. 단체 예약이 우선이라 예약이 몰리는 날에는 현장 신청이 어려울 수 있어요. 시간과 신청 방법은 방문 전에 확인하세요.
 

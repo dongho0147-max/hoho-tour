@@ -21,30 +21,10 @@
 
 <section class="destinations" aria-label="{{ i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}">
 {{ partial "home-map.html" . }}
-<p class="destinations__more"><a class="btn btn-secondary" href="{{ "/map/" | relLangURL }}">{{ i18n "mapPageCta" | default (cond $isKR "모든 장소 지도로 보기" "See every place on the map") }}</a></p>
 </section>
 
 
-{{/* Phone/tablet quick nav (2026-11-28): the desktop menu is hidden behind the
-   hamburger under 1080px, so the home page shows the same targets as a visible
-   block: one swipeable category row; Regions opens the region chips below it. Hidden on desktop. */}}
-{{ $qTitle := cond $isKR "한눈에 보기" "Browse at a glance" }}
-<nav class="quick" aria-label="{{ $qTitle }}">
-<ul class="quick__cats">
-<li><button type="button" class="quick__cat is-on" id="quick-reg-btn" aria-expanded="true" aria-controls="quick-regs">{{ i18n "navDestinations" | default (cond $isKR "여행지" "Destinations") }}<span aria-hidden="true"> &#9662;</span></button></li>
-<li><a class="quick__cat" href="{{ "/themes/food-restaurants/" | relLangURL }}">{{ i18n "food" }}</a></li>
-<li><a class="quick__cat" href="{{ "/themes/itineraries/" | relLangURL }}">{{ i18n "navItineraries" | default (cond $isKR "일정" "Itineraries") }}</a></li>
-<li><a class="quick__cat" href="{{ "/themes/transit-tips/" | relLangURL }}">{{ i18n "navTips" | default (cond $isKR "교통·팁" "Transport & Tips") }}</a></li>
-<li><a class="quick__cat" href="{{ "/map/" | relLangURL }}">{{ i18n "navMap" | default (cond $isKR "지도" "Map") }}</a></li>
-<li><a class="quick__cat" href="{{ "/blog/" | relLangURL }}">{{ i18n "navArchive" | default (cond $isKR "전체 글" "Archive") }}</a></li>
-<li><a class="quick__cat" href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a></li>
-</ul>
-<ul class="quick__regions" id="quick-regs">
-<li><a href="{{ "/regions/" | relLangURL }}">{{ cond $isKR "전체 지역" "All regions" }}</a></li>
-{{ range site.Data.regions.regions }}{{ if eq .status "active" }}<li><a href="{{ printf "/korea/%s/" .slug | relLangURL }}">{{ cond $isKR .name_ko .name }}</a></li>{{ end }}{{ end }}
-</ul>
-<script>(function(){var b=document.getElementById('quick-reg-btn'),r=document.getElementById('quick-regs');if(!b||!r)return;b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));b.classList.toggle('is-on',!o);r.hidden=o;});})();</script>
-</nav>
+
 
 <section class="feature" aria-label="{{ $featuredLabel }}">
 <ul class="feature__grid">
@@ -103,19 +83,20 @@ var reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").mat
 var MAXB=(window.matchMedia&&matchMedia("(max-width: 720px)").matches)?2:3.5;var pos=0,vel=0,target=null,dragging=false,raf=0,moved=0,front=-1,R=400,TH=360/N;
 function slugOf(i){return books[i].getAttribute("data-region");}
 function mod(a,n){return((a%n)+n)%n;}
-function layout(){var w=books[0].offsetWidth||170;R=Math.max(w*0.62,(w/2)/Math.tan(Math.PI/N)*1.12);render();}
+var baseW=170,GROW=(window.matchMedia&&matchMedia("(max-width: 720px)").matches)?1.25:1.7;
+function layout(){books.forEach(function(b){b.style.width="";b.style.marginLeft="";});var w=books[0].offsetWidth||170;baseW=w;R=Math.max(w*0.62,(w/2)/Math.tan(Math.PI/N)*1.12);render();}
 function render(){
   for(var i=0;i<N;i++){
     var d=i-pos;d=d-N*Math.round(d/N);           // signed distance in books, wraps around the cylinder
     var a=d*TH,ad=Math.abs(d),pop=Math.max(0,1-ad)*130,sc=1+Math.max(0,1-ad)*0.07;
-    var b=books[i];
+    var b=books[i];var gw=baseW*(1+(GROW-1)*Math.max(0,1-ad));b.style.width=gw.toFixed(1)+"px";b.style.marginLeft=(-gw/2).toFixed(1)+"px";
     b.style.transform="translateZ("+(-R)+"px) rotateY("+a+"deg) translateZ("+(R+pop)+"px) scale("+sc.toFixed(3)+")";
     b.style.opacity=ad>2.6?Math.max(0,1-(ad-2.6)):1;
     b.style.zIndex=String(100-Math.round(ad*10));
     var bl=Math.min(MAXB,Math.round(Math.min(ad,3)*MAXB/3*2)/2),br=1-Math.min(.45,ad*.16);b.style.filter=ad<0.35?"":(bl?"blur("+bl+"px) ":"")+"brightness("+br.toFixed(2)+")";
   }
   var f=mod(Math.round(pos),N);
-  if(f!==front){front=f;books.forEach(function(b,k){b.classList.toggle("is-front",k===f);b.tabIndex=-1;});sync(slugOf(f));}
+  if(f!==front){var first=front===-1;front=f;if(!first&&window.HHSfx&&HHSfx.play)HHSfx.play("slide");books.forEach(function(b,k){b.classList.toggle("is-front",k===f);b.tabIndex=-1;});sync(slugOf(f));}
 }
 function sync(slug){
   shapes.forEach(function(s){s.classList.toggle("is-selected",s.getAttribute("data-region")===slug);});
@@ -168,4 +149,13 @@ window.__shelf={goSlug:goSlug,pos:function(){return pos;}};
 layout();
 })();
 </script>
+<script>
+/* Fit the map's viewBox to the LAND polygons only (labels and pins may overflow) with equal padding, so it sits centred in its card. */
+(function(){var s=document.querySelector('.korea-map');if(!s||!s.getBBox)return;var o=s.getAttribute('viewBox'),t=0;
+function fit(){try{s.setAttribute('viewBox',o);var ps=s.querySelectorAll('.prov'),x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;ps.forEach(function(e){var q=e.getBBox();x0=Math.min(x0,q.x);y0=Math.min(y0,q.y);x1=Math.max(x1,q.x+q.width);y1=Math.max(y1,q.y+q.height);});if(x1<=x0)return;var b={x:x0,y:y0,width:x1-x0,height:y1-y0};var vb=o.split(' ').map(Number),k=vb[2]/s.getBoundingClientRect().width||1,p=10*k;
+s.setAttribute('viewBox',[b.x-p,b.y-p,b.width+2*p,b.height+2*p].map(function(n){return Math.round(n*10)/10;}).join(' '));}catch(e){s.setAttribute('viewBox',o);}}
+function later(){clearTimeout(t);t=setTimeout(fit,60);}
+fit();window.addEventListener('resize',later);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);window.addEventListener('load',fit);})();
+</script>
+
 {{ end }}

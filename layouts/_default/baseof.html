@@ -169,6 +169,7 @@
    and the IntersectionObserver reveal fallback for browsers without CSS
    scroll-driven animations. Visibility never depends on it. */}}
 {{ with resources.Get "js/motion.js" }}{{ with . | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}{{ end }}
+{{ with resources.Get "js/sfx.js" }}{{ with . | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}{{ end }}
 {{/* Article tables (2026-11-27 mobile fix): wrap each table in .table-wrap and,
    when it has header cells, label every <td> with its column name so CSS can
    stack rows as cards at <=640px. Without JS the table scrolls sideways. */}}

@@ -339,3 +339,54 @@ Six new photos for the Daegu and Gwangju one-day guides. All verified by opening
 | hallasan-boardwalk-01.webp | Wooden staircase along Yeongsil Trail with the mountains of Hallasan Park Jeju Island South Korea.jpg | 1600 px | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Wooden_staircase_along_Yeongsil_Trail_with_the_mountains_of_Hallasan_Park_Jeju_Island_South_Korea.jpg |
 | ikseon-teal-hanok-01.webp | Ikseon-dong 익선동 October 1 2020 2.jpg | 1600 px | S h y numis | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ikseon-dong_%EC%9D%B5%EC%84%A0%EB%8F%99_October_1_2020_2.jpg |
 | busan-gamcheon-blue-01.webp | Busan, KR, October 2019 04.jpg | 1600 px | Ahmed | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Busan,_KR,_October_2019_04.jpg |
+| oak-shelf-01.webp | Wood 095 (1K colour map, cropped) | 1024 px | ambientCG (Lennart Demes) | CC0 | https://ambientcg.com/a/Wood095 |
+| marble-beige-01.webp | Marble 014 (1K colour map, resized) | 768 px | ambientCG (Lennart Demes) | CC0 | https://ambientcg.com/a/Marble014 |
+| marble-wall-light-a.webp | Marble wall with window light shadow (home backdrop, candidate A) | 1600 px | Augustine Wong / Unsplash | Unsplash License | https://unsplash.com/photos/LfU6_b3Oj4E |
+| marble-wall-light-b.webp | Cream stone with window shadows (home backdrop, candidate B) | 1600 px | Barney Goodman / Unsplash | Unsplash License | https://unsplash.com/photos/oZhvfoMAD30 |
+| cards/seoul-card-gyeongbokgung.webp | Front view of the Imperial Throne Hall Geunjeongjeon at Gyeongbokgung Palace with blue sky in Seoul.jpg | 1200x1600 crop | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Front_view_of_the_Imperial_Throne_Hall_Geunjeongjeon_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg |
+| home-bg-marble-v1/v2/v3.webp | AI-generated marble room backdrop (Gemini), bottom watermark area cropped | 1800 px | generated for HOHO Tour | n/a (AI-generated) | n/a |
+| cards/seoul-card-bukchon-alt.webp | Bukchon Hanok Village 01.jpg | 1200x1600 crop | Bgag | CC0 | https://commons.wikimedia.org/wiki/File:Bukchon_Hanok_Village_01.jpg |
+| cards/incheon-card.webp | Chinatown, incheon 20230430 002.jpg | 1200x1600 crop | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Chinatown,_incheon_20230430_002.jpg |
+| cards/tokyo-card.webp | 20181123 Tokyo Skytree-2.jpg | 1200x1600 crop | Balon Greyjoy | CC0 | https://commons.wikimedia.org/wiki/File:20181123_Tokyo_Skytree-2.jpg |
+| cards/jeju-card.webp | Wooden staircase along Yeongsil Trail with the mountains of Hallasan Park Jeju Island South Korea.jpg | 1200x1600 crop | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Wooden_staircase_along_Yeongsil_Trail_with_the_mountains_of_Hallasan_Park_Jeju_Island_South_Korea.jpg |
+| cards/gyeongju-card.webp | Bulguksa temple entrance gate stairs flower bed and blue sky in Gyeongju South Korea.jpg | 1200x1600 crop | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Bulguksa_temple_entrance_gate_stairs_flower_bed_and_blue_sky_in_Gyeongju_South_Korea.jpg |
+| cards/gangwon-card.webp | Dinosaur Ridge of Seoraksan.jpg | 1200x1600 crop | Taewangkorea | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Dinosaur_Ridge_of_Seoraksan.jpg |
+| cards/jeonju-card.webp | Jeondong Catholic Cathedral 20230408 002.jpg | 1200x1600 crop | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeondong_Catholic_Cathedral_20230408_002.jpg |
+| cards/gwangju-card.webp | Wonhyosa Temple.jpg | 1200x1600 crop | VaneTrz20 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Wonhyosa_Temple.jpg |
+| cards/daejeon-card.webp | Daejeon Expo Bridge 2020 1.jpg | 1200x1600 crop | Aatu Dorochenk | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Daejeon_Expo_Bridge_2020_1.jpg |
+| cards/daegu-card.webp | Our Lady of Lourdes Cathedral, Daegu.jpg | 1200x1600 crop | Šolon | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Our_Lady_of_Lourdes_Cathedral,_Daegu.jpg |
+| cards/busan-card.webp | Busan, KR, October 2019 04.jpg | 1200x1600 crop | Ahmed | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Busan,_KR,_October_2019_04.jpg |
+| cards/seoul-card-hyangwonjeong-alt.webp | Hyangwonjeong Pavilion Seoul.jpg | 1200x1600 crop | kallerna | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hyangwonjeong_Pavilion_Seoul.jpg |
+| cards/jeju-card-alt.webp | Seongsan Ilchulbong, Jeju Island.jpg | 1200x1600 crop | Justin De La O | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Seongsan_Ilchulbong,_Jeju_Island.jpg |
+| cards/gyeongju-card-alt.webp | Banya yeonji pond water reflection of bridge and trees under blue sky at Bulguksa Gyeongju South Korea.jpg | 1200x1600 crop | Basile Morin | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Banya_yeonji_pond_water_reflection_of_bridge_and_trees_under_blue_sky_at_Bulguksa_Gyeongju_South_Korea.jpg |
+| cards/gangwon-card-alt.webp | Seoraksan National Park panorama 3.jpg | 1200x1600 crop | kallerna | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Seoraksan_National_Park_panorama_3.jpg |
+| cards/jeonju-card-alt.webp | Jeonju Hanok Village 20230408 001.jpg | 1200x1600 crop | Mobius6 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jeonju_Hanok_Village_20230408_001.jpg |
+
+### Phase 25 (Suwon)
+
+| File | Source title | Author | License | URL |
+|---|---|---|---|---|
+| photos/suwon-banghwasuryujeong-01.webp | Banghwasuryujeong Pavilion.jpg | Fckmarcsaar | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Banghwasuryujeong_Pavilion.jpg |
+| cards/suwon-card.webp | Banghwasuryujeong Pavilion.jpg | Fckmarcsaar | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Banghwasuryujeong_Pavilion.jpg |
+
+### Phase 26 (Suwon)
+
+| File | Source title | Author | License | URL |
+|---|---|---|---|---|
+| photos/suwon-changnyongmun-01.webp | Changryonggate01.JPG | Wundermacht | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Changryonggate01.JPG |
+
+### UI sounds
+
+The card-slide and popup sounds are synthesized in the browser with the Web Audio API (assets/js/sfx.js). No audio files or third-party samples are used, so there is nothing to credit or license.
+
+### Phase 27 (Busan card)
+
+| File | Source title | Author | License | URL |
+|---|---|---|---|---|
+| cards/busan-card-haeundae.webp | Busan City Haeundae Beach KOGL (01).jpg | 부산광역시 (Busan Metropolitan City) | KOGL Type 1 (공공누리 제1유형) | https://commons.wikimedia.org/wiki/File:Busan_City_Haeundae_Beach_KOGL_(01).jpg |
+
+### Phase 28 (Jeju card)
+
+| File | Source title | Author | License | URL |
+|---|---|---|---|---|
+| cards/jeju-card-udo.webp | Udo, Jeju Province, South Korea 02.jpg | 제주영상문화산업진흥원 (Jeju Film Culture Industry Promotion Agency) | KOGL Type 1 (공공누리 제1유형) | https://commons.wikimedia.org/wiki/File:Udo,_Jeju_Province,_South_Korea_02.jpg |

@@ -38,7 +38,6 @@
 {{ end }}
 <section class="home-map home-map--first" aria-labelledby="home-map-title" data-region-nav>
 <div class="home-map__intro">
-<p class="eyebrow">{{ i18n "mapEyebrow" }}</p>
 <h2 id="home-map-title">{{ i18n "mapTitle" }}</h2>
 <p class="home-map__hint">{{ i18n "mapHint" }}</p>
 </div>
@@ -94,17 +93,17 @@
 {{ $rows = sort $rows "d" "desc" }}{{ $ordered := slice }}{{ range $rows }}{{ if .r.path_id }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}{{ range $rows }}{{ if not .r.path_id }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}{{ $rows = $ordered }}
 <div class="shelf" data-shelf aria-label="{{ i18n "browseByRegion" }}">
 <div class="shelf__bar"><p class="shelf__title">{{ cond $isKR "지역별 가이드" "Guides by region" }}</p>
-<div class="shelf__nav"><button type="button" class="shelf__btn" data-shelf-prev aria-label="{{ cond $isKR "이전 지역" "Previous region" }}">&#8592;</button><button type="button" class="shelf__btn" data-shelf-next aria-label="{{ cond $isKR "다음 지역" "Next region" }}">&#8594;</button></div></div>
+<div class="shelf__nav"><button type="button" class="shelf__btn" data-shelf-prev aria-label="{{ cond $isKR "이전 지역" "Previous region" }}"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M14.5 6.5 9 12l5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button><button type="button" class="shelf__btn" data-shelf-next aria-label="{{ cond $isKR "다음 지역" "Next region" }}"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M9.5 6.5 15 12l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div></div>
 <div class="shelf__stage" data-shelf-stage>
 <ol class="shelf__ring">
 {{ range $i, $row := $rows }}
 {{ $r := $row.r }}
 {{ $name := cond $isKR $r.name_ko $r.name }}
 {{ $lead := index $row.pages 0 }}
-{{ $img := printf "/%s" (strings.TrimPrefix "/" ($lead.Params.image | default "images/banner/banner-seoul.webp")) | relURL }}
+{{ $img := printf "/%s" (strings.TrimPrefix "/" ($r.card_image | default ($lead.Params.image | default "images/banner/banner-seoul.webp"))) | relURL }}
 <li class="book" data-region="{{ $r.slug }}" data-href="{{ (printf "/%s/%s/" ($r.country | default $country) $r.slug) | relLangURL }}">
 <a class="book__a" href="{{ $lead.RelPermalink }}">
-<img src="{{ $img }}" alt="" loading="lazy" decoding="async" draggable="false"{{ with $lead.Params.image_position }} style="object-position:{{ . }}"{{ end }}>
+<img src="{{ $img }}" alt="" loading="lazy" decoding="async" draggable="false"{{ if not $r.card_image }}{{ with $lead.Params.image_position }} style="object-position:{{ . }}"{{ end }}{{ end }}>
 <span class="book__shade"></span>
 <span class="book__txt"><em>{{ $row.n }}{{ cond $isKR "편" (cond (eq $row.n 1) " guide" " guides") }}</em><b>{{ $name }}</b><small>{{ $lead.Title }}</small></span>
 </a>
@@ -113,20 +112,18 @@
 </ol>
 <div class="shelf__plank" aria-hidden="true"></div>
 </div>
+</div>
+</div>
+</div>
 <div class="shelf__details">
 {{ range $rows }}
 {{ $r := .r }}{{ $name := cond $isKR $r.name_ko $r.name }}
 {{ $hub := (printf "/%s/%s/" ($r.country | default $country) $r.slug) | relLangURL }}
 <div class="sdetail" data-for="{{ $r.slug }}" hidden>
-<p class="sdetail__lead"><small>{{ cond $isKR "가장 최근 가이드" "Latest guide" }} &middot; {{ (index .pages 0).Date.Format "2006-01-02" }}</small><a href="{{ (index .pages 0).RelPermalink }}">{{ (index .pages 0).Title }}</a></p>
-{{ $others := after 1 .pages }}
-{{ if $others }}<ul class="wmini">{{ range first 3 $others }}<li><a href="{{ .RelPermalink }}"><img src="{{ printf "/%s" (strings.TrimPrefix "/" (.Params.image | default "images/banner/banner-seoul.webp")) | relURL }}" alt="" loading="lazy" decoding="async"><span>{{ .Title }}</span></a></li>{{ end }}</ul>{{ end }}
-<a class="wheel__all" href="{{ $hub }}">{{ cond $isKR (printf "%s 가이드 모두 보기" $name) (printf "All %s guides" $name) }} &rarr;</a>
+<div class="sdetail__head"><h3>{{ cond $isKR (printf "%s 가이드" $name) (printf "Guides in %s" $name) }}</h3><a class="wheel__all" href="{{ $hub }}">{{ cond $isKR "모두 보기" "See all" }}</a></div>
+<ul class="gcards">{{ range first 8 .pages }}<li><a href="{{ .RelPermalink }}"><span class="gcards__img"><img src="{{ printf "/%s" (strings.TrimPrefix "/" (.Params.image | default "images/banner/banner-seoul.webp")) | relURL }}" alt="" loading="lazy" decoding="async"{{ with .Params.image_position }} style="object-position:{{ . }}"{{ end }}></span><span class="gcards__t">{{ .Title }}</span><small>{{ .Date.Format "2006-01-02" }}</small></a></li>{{ end }}</ul>
 </div>
 {{ end }}
-</div>
-</div>
-</div>
 </div>
 {{/* /kr carries zero external links: the Natural Earth credit is text-only there
    (data is public domain, so the link is attribution, not a requirement). */}}
