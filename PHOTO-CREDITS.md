@@ -468,3 +468,4 @@ Brightened by the photo PM (mild auto-enhance): danyang-garlic-03, skywalk-aeria
 ## Danyang dedupe fix (2026-11-28)
 | danyang-dakgangjeong-01.jpg | Dak-gangjeong 1.jpg (Wikimedia Commons) | Ajumeoni | CC0 | https://commons.wikimedia.org/wiki/File:Dak-gangjeong_1.jpg |
 (danyang-garlic-crop.jpg removed from the Danyang post market collage: same composition as danyang-garlic-03.)
+| seoul-gyeonghoeru-01.webp | File:Gyeongbokgung-Gyeonghoeru-02.jpg (Wikimedia Commons), Gyeonghoeru Pavilion on its pond, blue sky; Seoul 3-day hero | eimoberg (Flickr) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Gyeongbokgung-Gyeonghoeru-02.jpg |

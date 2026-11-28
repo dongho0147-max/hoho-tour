@@ -2,8 +2,8 @@
 title: "Seoul Essential 3-Day Guide for First-Time Visitors"
 description: "A realistic Seoul 3-day itinerary for first-time visitors: Gyeongbokgung and Bukchon on day 1, Hongdae and the Han River on day 2, Myeongdong food on day 3, plus airport, subway, and money tips from a Seoul local."
 date: 2026-11-12
-image: "images/photos/seoul-01.webp"
-image_alt: "Gyeongbokgung Heungnyemun Gate in daytime"
+image: "images/photos/seoul-gyeonghoeru-01.webp"
+image_alt: "Gyeonghoeru Pavilion on its pond at Gyeongbokgung under a blue sky"
 regions: ["seoul"]
 themes: ["day-trips"]
 stops:
@@ -161,7 +161,7 @@ If Hongdae cafes are your thing, the [Seoul cafe crawl](/blog/seoul-cafes-seongs
 
 ### 🚲 Take the afternoon to the Han River
 
-Take the subway to **Yeouido Hangang Park** or **Banpo Hangang Park**. Rent a bike for about {{< hl "3,000 KRW" >}} per hour, or just walk the riverside path. In the evening, Banpo Bridge runs its rainbow fountain show. Check the season schedule before you go, because it does not run in winter.
+Take the subway to **Yeouido Hangang Park** or **Banpo Hangang Park**. Rent a bike for about {{< hl "3,000 KRW" >}} per hour, or just walk the riverside path. In the evening, Banpo Bridge runs its rainbow fountain show. It runs from mid-March to October only, and the 2026 season ended on October 31, so skip it in winter.
 
 Buy instant noodles and a boiled egg at the park convenience store and eat them on the riverbank. It is a small ritual for Seoulites, and it costs less than {{< pr "5,000 KRW" >}}. The full night version, cruise and all, lives in the [Han River night guide](/blog/seoul-night-han-river-cruise-ramyeon/).
 

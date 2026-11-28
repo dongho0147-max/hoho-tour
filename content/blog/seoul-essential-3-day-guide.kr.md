@@ -2,8 +2,8 @@
 title: "처음 서울을 찾는 여행자를 위한 3일 핵심 코스"
 description: "처음 서울에 오는 여행자를 위한 현실적인 3일 일정: 1일 차 경복궁과 북촌, 2일 차 홍대와 한강, 3일 차 명동 먹거리, 그리고 서울 토박이가 알려주는 공항·지하철·돈 씀씀이 요령."
 date: 2026-11-12
-image: "images/photos/seoul-01.webp"
-image_alt: "낮에 본 경복궁 흥례문"
+image: "images/photos/seoul-gyeonghoeru-01.webp"
+image_alt: "파란 하늘 아래 경복궁 연못 위의 경회루"
 regions: ["seoul"]
 themes: ["day-trips"]
 stops:
