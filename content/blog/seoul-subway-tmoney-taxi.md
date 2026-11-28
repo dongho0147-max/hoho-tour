@@ -2,8 +2,8 @@
 title: "Riding Seoul Like a Local: The Subway, the T-Money Card, and When to Just Take a Taxi"
 description: "A Seoul local's honest guide to the subway, the T-money card, and taxis: how the transfer halls actually work, what a ride costs, rush hour, and the nights when a taxi is simply the right call."
 date: 2026-11-17
-image: "images/photos/seoul-metro-car.webp"
-image_alt: "Passengers standing and sitting inside a Seoul Metro subway car"
+image: "images/photos/seoul-subway-platform-01.webp"
+image_alt: "Seoul Metro Line 6 platform at Gwangheungchang Station"
 regions: ["seoul"]
 themes: ["transit-tips"]
 stops:
@@ -35,13 +35,13 @@ Nobody on the train will stop you or glare at you for looking lost. The system i
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/seoul-08.webp" alt="Line 7 platform at Dobongsan Station" caption="Line colors and station numbers are all you need to navigate, even without reading Korean. Photo: LERK, CC BY 2.5" >}}
+{{< figure src="images/photos/seoul-subway-platform-02.webp" alt="Digital Media City Station platform on Line 6 with exit signs and platform doors" caption="Digital Media City Station on Line 6, with exit signs overhead and platform doors along the track. Photo: G43, Wikimedia Commons, CC BY 3.0" >}}
 
 {{< figure src="images/illust/subway-illust.webp" alt="Seoul transit at a glance: AREX, T-money, subway and taxi" caption="Fares and times here are ranges, so check current fares before you ride. Illustration: AI-generated" >}}
 
 ## 💳 What should you buy first? The T-money card
 
-Before anything else, get a T-money card. You can buy one at almost any convenience store, including the ones at Incheon Airport, for around 4,000 to {{< pr "5,000 KRW" >}}, and then you top it up with cash or a card at the same counter. The card works on the subway, on city buses, and at many convenience stores, so it quietly becomes your wallet for the small stuff.
+Before anything else, get a T-money card. You can buy one at almost any convenience store, including the ones at Incheon Airport, for around 3,000 to {{< pr "5,000 KRW" >}}, and then you top it up with cash or a card at the same counter. The card works on the subway, on city buses, and at many convenience stores, so it quietly becomes your wallet for the small stuff.
 
 Tap it on the reader as you enter the gates, tap it again as you leave, and that is the whole ceremony. The fare comes off automatically, and a transfer between subway and bus within about half an hour costs you little or nothing extra. That small kindness adds up over a week of sightseeing.
 

@@ -2,8 +2,8 @@
 title: "현지인처럼 서울 다니기: 지하철, 티머니 카드, 그리고 택시를 타야 할 때"
 description: "서울 현지인이 솔직하게 알려 주는 지하철, 티머니 카드, 택시 가이드. 환승 통로는 어떻게 생겼는지, 요금은 얼마인지, 출퇴근 시간은 언제인지, 그리고 택시가 정답인 밤은 언제인지 정리했습니다."
 date: 2026-11-17
-image: "images/photos/seoul-metro-car.webp"
-image_alt: "Commuters standing and sitting inside a Seoul Metro subway car"
+image: "images/photos/seoul-subway-platform-01.webp"
+image_alt: "서울 지하철 6호선 광흥창역 승강장"
 regions: ["seoul"]
 themes: ["transit-tips"]
 stops:
@@ -39,7 +39,7 @@ stops:
 
 {{< sticker kind="lets-go" >}}
 
-{{< figure src="images/photos/seoul-08.webp" alt="도봉산역 7호선 승강장" caption="노선 색깔과 역 번호만 알면 한글을 몰라도 길을 찾을 수 있어요. 사진: LERK, CC BY 2.5" >}}
+{{< figure src="images/photos/seoul-subway-platform-02.webp" alt="6호선 디지털미디어시티역 승강장, 출구 안내판과 스크린도어" caption="출구 안내판이 걸린 6호선 디지털미디어시티역 승강장이에요. 사진: G43, Wikimedia Commons, CC BY 3.0" >}}
 
 {{< figure src="images/illust/subway-illust.webp" alt="한눈에 보는 서울 교통: 공항철도, 티머니, 지하철, 택시" caption="이동은 티머니 카드부터 사세요. 지하철과 택시를 함께 쓰면 편해요. 일러스트: AI 생성" >}}
 

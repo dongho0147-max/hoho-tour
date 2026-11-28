@@ -481,3 +481,5 @@ Brightened by the photo PM (mild auto-enhance): danyang-garlic-03, skywalk-aeria
 ## Duplicate fixes (2026-11-28)
 | busan-gamcheon-street-01.webp | Gamcheon Culture Village - 55503107051.jpg (Wikimedia Commons), replaces busan-gamcheon-sunset-01 (exact duplicate of busan-03) | xiquinhosilva | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Gamcheon_Culture_Village_-_55503107051.jpg |
 (seoul-cafe-02.webp removed from the Seoul cafes post: exact duplicate of ikseon-teal-hanok-01.)
+| seoul-subway-platform-01.webp | Gwangheungchang Station platform, Seoul Metro Line 6; subway post hero | G43 | CC BY 3.0 | https://commons.wikimedia.org/wiki/Category:Gwangheungchang_Station |
+| seoul-subway-platform-02.webp | Digital Media City Station platform, Line 6, with exit signs and platform doors; subway post body | G43 | CC BY 3.0 | https://commons.wikimedia.org/wiki/Category:Digital_Media_City_Station |
