@@ -1,0 +1,19 @@
+{{/* Floating affiliate-partner widget (PREVIEW, 2026-11-28). Desktop: fixed card, lower right.
+   Mobile: small edge tab that opens a card, so it never covers content or the sound button (lower left).
+   Partners listed only when we hold a real, tracked link. Today: Klook (AID 145455). Agoda: no tracked links yet. Viator: waiting for ID. */}}
+{{ $isKR := eq site.Language.Lang "kr" }}
+<aside class="pw" id="partner-widget" aria-label="{{ cond $isKR "제휴 파트너" "Affiliate partners" }}" data-collapsed="true">
+<button type="button" class="pw__tab" aria-expanded="false" aria-controls="pw-card"><span>{{ cond $isKR "혜택" "Deals" }}</span></button>
+<div class="pw__card" id="pw-card">
+<p class="pw__label affiliate-disclosure">{{ cond $isKR "이 링크는 제휴 광고를 포함합니다" "Contains affiliate links" }}</p>
+<a class="pw__link" href="https://www.klook.com/en-US/?aid=145455" target="_blank" rel="sponsored noopener"><span class="pw__name">Klook</span><span class="pw__sub">{{ cond $isKR "투어 · 입장권 · 교통패스" "Tours, tickets, rail passes" }}</span></a>
+<button type="button" class="pw__close" aria-label="{{ cond $isKR "닫기" "Close" }}">&times;</button>
+</div>
+</aside>
+<script>
+(function(){var w=document.getElementById("partner-widget");if(!w)return;var t=w.querySelector(".pw__tab"),c=w.querySelector(".pw__close");
+function set(open){w.setAttribute("data-collapsed",open?"false":"true");t.setAttribute("aria-expanded",open?"true":"false");try{localStorage.setItem("hh-pw",open?"open":"closed");}catch(e){}}
+t.addEventListener("click",function(){set(w.getAttribute("data-collapsed")==="true");});c.addEventListener("click",function(){set(false);});
+var big=window.matchMedia&&matchMedia("(min-width:1080px)").matches,s=null;try{s=localStorage.getItem("hh-pw");}catch(e){}
+if(big&&s!=="closed")set(true);})();
+</script>

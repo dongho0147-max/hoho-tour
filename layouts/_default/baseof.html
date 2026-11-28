@@ -174,5 +174,6 @@
    when it has header cells, label every <td> with its column name so CSS can
    stack rows as cards at <=640px. Without JS the table scrolls sideways. */}}
 <script>(function(){try{document.querySelectorAll('article table').forEach(function(t){if(t.parentNode.classList.contains('table-wrap'))return;var w=document.createElement('div');w.className='table-wrap';t.parentNode.insertBefore(w,t);w.appendChild(t);var h=t.querySelectorAll('thead th');if(!h.length){var r=t.querySelector('tr');if(r&&r.querySelectorAll('th').length)h=r.querySelectorAll('th');}if(!h.length)return;var labels=[].map.call(h,function(x){return x.textContent.trim()});t.querySelectorAll('tr').forEach(function(tr){var c=tr.querySelectorAll('td');if(!c.length)return;[].forEach.call(c,function(td,i){td.setAttribute('data-label',labels[i]||'')})});t.classList.add('is-stacked')})}catch(e){/* tables stay scrollable */}})();</script>
+{{ partial "partner-widget.html" . }}
 </body>
 </html>
