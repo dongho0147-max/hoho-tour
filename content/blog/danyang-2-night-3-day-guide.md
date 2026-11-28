@@ -1,5 +1,5 @@
 ---
-title: "Danyang 2 Nights 3 Days: The Wrong Order Wastes a Day"
+title: "Danyang 2 Nights 3 Days Itinerary: The Route That Wastes No Time"
 description: "A 2-night 3-day Danyang route from Seoul, ordered around the Tuesday closures, the 2 pm light tunnel opening, and the skywalk ticket cutoff, with real fares and winter hours."
 date: 2026-11-28
 image: "images/photos/danyang-v10-01.jpg"
