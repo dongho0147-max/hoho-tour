@@ -4,7 +4,6 @@ description: "A one-day Seoul cafe crawl through three neighborhoods: warehouse 
 date: 2026-11-19
 image: "images/photos/ikseon-teal-hanok-01.webp"
 image_alt: "A teal hanok cafe in an Ikseon-dong lane"
-image_caption: "Weekday mornings are the quietest time in Ikseon-dong. Photo: S h y numis, CC BY-SA 4.0"
 regions: ["seoul"]
 themes: ["cafes", "food-restaurants"]
 stops:

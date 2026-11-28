@@ -4,7 +4,6 @@ description: "A Gyeongju night walk: Donggung Palace and Wolji Pond at dusk, Wol
 date: 2026-11-19
 image: "images/photos/gyeongju-night-01.webp"
 image_alt: "Donggung Palace and Wolji Pond lit up at night"
-image_caption: "Enter 20 to 30 minutes before sunset to watch the lights come on. Photo: lumoplank, CC0"
 regions: ["gyeongju"]
 themes: ["itineraries", "nightlife"]
 stops:

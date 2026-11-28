@@ -4,7 +4,6 @@ description: "A one-day Daegu trip by KTX from Seoul: the Modern Alley walk, Seo
 date: 2026-11-19
 image: "images/photos/daegu-01.webp"
 image_alt: "Gyesan Cathedral in Daegu, red-brick twin spires with a crucifix in front"
-image_caption: "The Modern Alley course 2 loop takes about two hours on foot. Photo: Šolon, CC BY-SA 4.0"
 regions: ["daegu"]
 themes: ["itineraries", "food-restaurants", "day-trips"]
 stops:

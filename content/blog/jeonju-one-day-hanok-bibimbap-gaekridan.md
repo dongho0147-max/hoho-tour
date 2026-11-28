@@ -4,7 +4,6 @@ description: "A one-day trip from Seoul to Jeonju by KTX: Gyeonggijeon and the H
 date: 2026-11-19
 image: "images/photos/seoul-24.webp"
 image_alt: "Jeonju Hanok Village rooftops and a street in daytime"
-image_caption: "Walk the village edges to avoid the midday crowds. Photo: Jjw, CC BY 4.0"
 regions: ["jeonju"]
 themes: ["day-trips", "food-restaurants"]
 stops:

@@ -4,7 +4,6 @@ description: "A Seoul local's honest guide to the subway, the T-money card, and 
 date: 2026-11-17
 image: "images/photos/seoul-metro-car.webp"
 image_alt: "Passengers standing and sitting inside a Seoul Metro subway car"
-image_caption: "Seoul's subway gets very crowded at rush hour, so plan around it. Photo: wal_172619, Pexels"
 regions: ["seoul"]
 themes: ["transit-tips"]
 stops:

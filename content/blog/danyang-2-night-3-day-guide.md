@@ -4,7 +4,6 @@ description: "A 2-night 3-day Danyang route from Seoul, ordered around the Tuesd
 date: 2026-11-28
 image: "images/photos/danyang-v10-01.jpg"
 image_alt: "Dodamsambong peaks reflected in the Namhan River"
-image_caption: "Dodamsambong's three rock peaks in the Namhan River, with the pavilion on the middle one. Photo: Korea Tourism Organization, Kim Jiho, KOGL Type 1"
 regions: ["chungcheong"]
 themes: ["day-trips"]
 stops:

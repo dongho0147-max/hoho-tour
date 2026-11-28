@@ -4,7 +4,6 @@ description: "A 3-day Tokyo route for first-time visitors: Senso-ji and the Skyt
 date: 2026-11-20
 image: "images/photos/tokyo-01.webp"
 image_alt: "Shibuya scramble crossing at night with crowds and lit billboards"
-image_caption: "An IC card plus the 700 yen Metro day pass covers most of this itinerary. Photo: Syced, CC0 1.0"
 regions: ["tokyo"]
 themes: ["itineraries", "transit-tips"]
 stops:

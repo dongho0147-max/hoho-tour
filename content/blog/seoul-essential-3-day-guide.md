@@ -4,7 +4,6 @@ description: "A realistic Seoul 3-day itinerary for first-time visitors: Gyeongb
 date: 2026-11-12
 image: "images/photos/seoul-01.webp"
 image_alt: "Gyeongbokgung Heungnyemun Gate in daytime"
-image_caption: "Gyeongbokgung is closed on Tuesdays and shuts at 17:00 in winter. Photo: Basile Morin, CC BY-SA 4.0"
 regions: ["seoul"]
 themes: ["day-trips"]
 stops:

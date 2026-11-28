@@ -23,9 +23,8 @@
 {{ $alt := $.Params.image_alt | default $.Title }}
 {{ if $isKR }}{{ with index site.Data.kr_image_alt $.File.BaseFileName }}{{ $alt = . }}{{ end }}{{ end }}
 {{ $credit := $.Params.image_credit | default $.Params.credit }}
-{{/* Visible caption = a short useful line for the reader (tip, warning, remark), kept separate from the alt text. image_caption (EN) / data/kr_image_caption.yaml (KR); falls back to the alt text only until a caption is written. */}}
-{{ $cap := $.Params.image_caption | default $alt }}
-{{ if $isKR }}{{ with index site.Data.kr_image_caption $.File.BaseFileName }}{{ $cap = . }}{{ end }}{{ end }}
+{{/* Visible caption = a short useful line for the reader (tip, warning, remark), kept separate from the alt text. data/image_captions.yaml (EN and KR, key = post base name); falls back to the alt text only until a caption is written. */}}
+{{ $cap := index site.Data.image_captions $.File.BaseFileName | default $.Params.image_caption | default $alt }}
 <figure class="hero-figure">
 <img src="{{ . | relURL }}" alt="{{ $alt }}"{{ partial "photo-dims.html" . | safeHTMLAttr }} loading="eager" fetchpriority="high" decoding="async">
 {{ if or $cap $credit }}<figcaption>{{ partial "cap.html" $cap }}{{ with $credit }}<span class="cap-credit">{{ i18n "photoLabel" }} {{ . }}</span>{{ end }}</figcaption>{{ end }}

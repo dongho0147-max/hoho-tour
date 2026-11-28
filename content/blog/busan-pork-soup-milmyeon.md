@@ -32,7 +32,6 @@ stops:
     note: "Day 2 evening: market snacks"
 image: "images/photos/seoul-32.webp"
 image_alt: "Dwaeji gukbap, Busan pork soup with rice, chives and kimchi"
-image_caption: "Taste the soup plain before you add anything. Photo: chomjong, CC BY 2.0"
 ---
 
 

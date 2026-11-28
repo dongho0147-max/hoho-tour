@@ -4,7 +4,6 @@ description: "A Seoul local's slow morning of eating through Gwangjang Market an
 date: 2026-11-17
 image: "images/photos/gwangjang-entrance-01.webp"
 image_alt: "The Gwangjang Market entrance and sign under a blue sky"
-image_caption: "Come on a weekday morning, and order only where prices are posted. Photo: Bgag, CC0"
 regions: ["seoul"]
 themes: ["food-restaurants"]
 stops:

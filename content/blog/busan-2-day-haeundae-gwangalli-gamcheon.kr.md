@@ -4,7 +4,6 @@ description: "부산 2일 코스: 첫째 날은 해운대 해변과 스카이캡
 date: 2026-11-19
 image: "images/photos/busan-gamcheon-blue-01.webp"
 image_alt: "파란 하늘 아래 언덕을 따라 알록달록한 집이 모인 감천문화마을"
-image_caption: "평일 오전 9~10시에 가면 단체 관광버스 전에 한적하게 볼 수 있어요. 사진: Ahmed, CC BY-SA 4.0"
 regions: ["busan"]
 themes: ["itineraries", "food-restaurants", "nightlife"]
 stops:

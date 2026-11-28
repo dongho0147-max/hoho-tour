@@ -4,7 +4,6 @@ description: "A one-night Gangneung trip by KTX from Seoul: Anmok Coffee Street 
 date: 2026-11-19
 image: "images/photos/gangneung-01.webp"
 image_alt: "The GYEONGPO photo frame on Gyeongpo Beach"
-image_caption: "Sea-side window seats fill fast on weekends. Head to your first cafe straight off the train. Photo: Sergiy Galyonkin, CC BY-SA 4.0"
 regions: ["gangwon"]
 themes: ["itineraries", "cafes", "day-trips"]
 stops:

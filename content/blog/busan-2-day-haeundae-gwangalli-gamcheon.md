@@ -4,7 +4,6 @@ description: "A 2-day Busan route: Haeundae Beach and the Sky Capsule on day 1, 
 date: 2026-11-19
 image: "images/photos/busan-gamcheon-blue-01.webp"
 image_alt: "Colorful hillside houses of Gamcheon Culture Village under a clear blue sky"
-image_caption: "Arrive between 09:00 and 10:00 on a weekday, before the tour buses. Photo: Ahmed, CC BY-SA 4.0"
 regions: ["busan"]
 themes: ["itineraries", "food-restaurants", "nightlife"]
 stops:

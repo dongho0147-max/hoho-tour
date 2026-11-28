@@ -4,7 +4,6 @@ description: "A day trip from Seoul to Incheon by subway: Chinatown and jajangmy
 date: 2026-11-17
 image: "images/photos/seoul-12.webp"
 image_alt: "Incheon Chinatown gate, red and gold paifang"
-image_caption: "Skip Mondays: the Wolmi Sea Train and Jjajangmyeon Museum are closed. Photo: Mobius6, CC BY-SA 4.0"
 regions: ["incheon"]
 themes: ["day-trips"]
 stops:
